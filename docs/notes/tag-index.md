@@ -281,7 +281,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [amsi.dll patching](#amsidll-patching) (1)
 - [AmsiScanBuffer](#amsiscanbuffer) (1)
 - [Ancillary Function Driver](#ancillary-function-driver) (1)
-- [Android](#android) (12)
+- [Android](#android) (13)
 - [android](#android) (1)
 - [Android Accessibility Service](#android-accessibility-service) (2)
 - [Android ADB](#android-adb) (3)
@@ -296,8 +296,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [anthropickit](#anthropickit) (1)
 - [anti-analysis](#anti-analysis) (11)
 - [anti-bot](#anti-bot) (1)
+- [anti-debugging](#anti-debugging) (1)
+- [anti-decompiler](#anti-decompiler) (1)
 - [anti-distillation](#anti-distillation) (1)
 - [anti-forensics](#anti-forensics) (3)
+- [anti-frida](#anti-frida) (1)
 - [anti-sandbox](#anti-sandbox) (2)
 - [Anubis ransomware](#anubis-ransomware) (1)
 - [ANY.RUN](#anyrun) (3)
@@ -1175,6 +1178,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CSSOM](#cssom) (1)
 - [ctfmon.exe](#ctfmonexe) (1)
 - [ctxs.receiver](#ctxsreceiver) (1)
+- [curated lane](#curated-lane) (1)
 - [Curious Serpens](#curious-serpens) (1)
 - [CurlRAT](#curlrat) (1)
 - [CURP](#curp) (1)
@@ -1685,6 +1689,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer-tools](#developer-tools) (1)
 - [developer-workstations](#developer-workstations) (5)
 - [device code phishing](#device-code-phishing) (2)
+- [device fingerprinting](#device-fingerprinting) (1)
 - [device identity](#device-identity) (1)
 - [device linking](#device-linking) (1)
 - [device lockout](#device-lockout) (1)
@@ -1991,6 +1996,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [evolutionary optimization](#evolutionary-optimization) (1)
 - [EWS](#ews) (1)
 - [excessive agency](#excessive-agency) (1)
+- [exec compile](#exec-compile) (1)
 - [exec_globals](#exec_globals) (1)
 - [execution guardrails](#execution-guardrails) (1)
 - [executive impersonation](#executive-impersonation) (1)
@@ -2391,6 +2397,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [government services and facilities](#government-services-and-facilities) (1)
 - [government targeting](#government-targeting) (21)
 - [government-impersonation](#government-impersonation) (1)
+- [goxtools.shop](#goxtoolsshop) (1)
 - [GPO](#gpo) (1)
 - [GPT](#gpt) (1)
 - [GPT-5.6 Sol](#gpt-56-sol) (1)
@@ -2501,8 +2508,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hidden service](#hidden-service) (1)
 - [high explosives](#high-explosives) (1)
 - [higher education](#higher-education) (2)
+- [hit bot tooling](#hit-bot-tooling) (1)
 - [HiveMQ](#hivemq) (1)
 - [HMAC forging](#hmac-forging) (2)
+- [HMAC gating](#hmac-gating) (1)
 - [HMI](#hmi) (1)
 - [holiday calendar lure](#holiday-calendar-lure) (1)
 - [HOLLOWGRAPH](#hollowgraph) (1)
@@ -2559,6 +2568,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hydropower](#hydropower) (2)
 - [Hydropower Cooperation Project Proposal.zip](#hydropower-cooperation-project-proposalzip) (1)
 - [hyper-v](#hyper-v) (1)
+- [HyperGox](#hypergox) (1)
 - [hypervisor escape](#hypervisor-escape) (3)
 - [Hyunwoo Kim](#hyunwoo-kim) (2)
 - [I-SOON](#i-soon) (2)
@@ -2616,6 +2626,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [in-memory](#in-memory) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory ELF execution](#in-memory-elf-execution) (1)
+- [in-memory execution](#in-memory-execution) (1)
 - [in-memory malware](#in-memory-malware) (3)
 - [in-memory plugins](#in-memory-plugins) (1)
 - [in-memory-execution](#in-memory-execution) (2)
@@ -2843,7 +2854,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [keyval.org](#keyvalorg) (1)
 - [keyword splitting](#keyword-splitting) (1)
 - [KICKPLATE](#kickplate) (1)
-- [kill switch](#kill-switch) (1)
+- [kill switch](#kill-switch) (2)
 - [Kimi](#kimi) (1)
 - [Kimi K2.5](#kimi-k25) (1)
 - [Kimsuky](#kimsuky) (1)
@@ -2949,6 +2960,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [libslirp](#libslirp) (1)
 - [libsodium](#libsodium) (1)
 - [libuser](#libuser) (1)
+- [license server C2](#license-server-c2) (1)
 - [lifecycle hooks](#lifecycle-hooks) (1)
 - [lifecycle-hooks](#lifecycle-hooks) (2)
 - [lighthouse beacon](#lighthouse-beacon) (1)
@@ -3679,6 +3691,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Orkes](#orkes) (1)
 - [OS command injection](#os-command-injection) (3)
 - [OSCrypt](#oscrypt) (1)
+- [ossf malicious-packages](#ossf-malicious-packages) (1)
 - [Ossprey](#ossprey) (1)
 - [OSV](#osv) (5)
 - [osv](#osv) (1)
@@ -4072,10 +4085,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PwPt-sHaRe](#pwpt-share) (1)
 - [PyArmor](#pyarmor) (4)
 - [PyInstaller](#pyinstaller) (2)
-- [PyPI](#pypi) (19)
+- [PyPI](#pypi) (20)
 - [pypi](#pypi) (1)
 - [pypls/requests](#pyplsrequests) (1)
-- [Python](#python) (17)
+- [Python](#python) (18)
 - [Python extension modules](#python-extension-modules) (1)
 - [Python implant](#python-implant) (1)
 - [Python malware](#python-malware) (2)
@@ -4221,6 +4234,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote desktop](#remote-desktop) (1)
 - [remote MCP](#remote-mcp) (1)
 - [remote monitoring and management](#remote-monitoring-and-management) (5)
+- [remote payload loader](#remote-payload-loader) (1)
 - [remote script injection](#remote-script-injection) (1)
 - [remote shell](#remote-shell) (1)
 - [Remote Support](#remote-support) (1)
@@ -4886,7 +4900,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [superuser escalation](#superuser-escalation) (1)
 - [supply chain](#supply-chain) (27)
-- [supply chain attack](#supply-chain-attack) (4)
+- [supply chain attack](#supply-chain-attack) (5)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (131)
 - [supply-chain attack](#supply-chain-attack) (2)
@@ -5031,6 +5045,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tenet Security](#tenet-security) (1)
 - [Terminal permissions](#terminal-permissions) (1)
 - [TerminalFix](#terminalfix) (1)
+- [Termux](#termux) (1)
 - [terraform](#terraform) (1)
 - [Terraform](#terraform) (1)
 - [terraform providers](#terraform-providers) (1)
@@ -5096,7 +5111,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (80)
+- [tools](#tools) (81)
 - [Tor](#tor) (5)
 - [torrent-compromise](#torrent-compromise) (1)
 - [Tortoiseshell](#tortoiseshell) (2)
@@ -5617,7 +5632,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XMRig](#xmrig) (9)
 - [XOR](#xor) (3)
 - [xor obfuscation](#xor-obfuscation) (1)
-- [XOR obfuscation](#xor-obfuscation) (1)
+- [XOR obfuscation](#xor-obfuscation) (2)
 - [xorshift32](#xorshift32) (1)
 - [XPIA](#xpia) (1)
 - [Xray](#xray) (1)
@@ -5654,6 +5669,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zendesk](#zendesk) (1)
 - [Zephyr RTOS](#zephyr-rtos) (1)
 - [zereight](#zereight) (1)
+- [zero advisory coverage](#zero-advisory-coverage) (1)
 - [Zero Trust](#zero-trust) (1)
 - [zero-balance](#zero-balance) (1)
 - [zero-click](#zero-click) (3)
@@ -5678,7 +5694,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ZimReaper](#zimreaper) (1)
 - [ZIP import](#zip-import) (1)
 - [zLabs](#zlabs) (2)
-- [zlib](#zlib) (1)
+- [zlib](#zlib) (2)
 - [zmlocalconfig](#zmlocalconfig) (1)
 - [zmmailboxdmgr](#zmmailboxdmgr) (1)
 - [zmstat-fd](#zmstat-fd) (1)
@@ -6845,6 +6861,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 
 ## Android
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
@@ -6924,6 +6941,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## anti-bot
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 
+## anti-debugging
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+
+## anti-decompiler
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+
 ## anti-distillation
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
 
@@ -6931,6 +6954,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [CrownX](../tools/crownx.md)
 - [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
+
+## anti-frida
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 
 ## anti-sandbox
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
@@ -10600,6 +10626,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ctxs.receiver
 - [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 
+## curated lane
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+
 ## Curious Serpens
 - [ROADtools](../tools/roadtools.md)
 
@@ -12409,6 +12438,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 - [Microsoft: passkey-themed social engineering leads to identity and cloud compromise — Storm-3121 / Storm-3032 ecosystem](../ops/microsoft-passkey-social-engineering-identity-cloud-compromise-september-9-2026.md)
 
+## device fingerprinting
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+
 ## device identity
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 
@@ -13593,6 +13625,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## excessive agency
 - [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
+
+## exec compile
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 
 ## exec_globals
 - [Langflow CVE-2026-0770 exploitation](../ops/langflow-cve-2026-0770-exploitation.md)
@@ -15069,6 +15104,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## government-impersonation
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 
+## goxtools.shop
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+
 ## GPO
 - [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
 
@@ -15448,12 +15486,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [ShinyHunters](../actors/shinyhunters.md)
 
+## hit bot tooling
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+
 ## HiveMQ
 - [Toy Ghouls "Angry Birds" custom backdoor (HiveMQ / Element)](../ops/toy-ghouls-angry-birds-hivemq-element-backdoor-september-2026.md)
 
 ## HMAC forging
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 - [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
+
+## HMAC gating
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 
 ## HMI
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
@@ -15649,6 +15693,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## hyper-v
 - [September 2026 Patch Tuesday: two exploited zero-days, 113 critical, and a post-patch Defender "ShieldCrash" PoC](../ops/crowdstrike-september-2026-patch-tuesday-two-exploited-zero-days-shieldcrash.md)
+
+## HyperGox
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 
 ## hypervisor escape
 - [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
@@ -15859,6 +15906,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## in-memory ELF execution
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
+
+## in-memory execution
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 
 ## in-memory malware
 - [OctLurk](../tools/octlurk.md)
@@ -16804,6 +16854,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 
 ## kill switch
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 
 ## Kimi
@@ -17191,6 +17242,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## libuser
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
+
+## license server C2
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 
 ## lifecycle hooks
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
@@ -20941,6 +20995,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OSCrypt
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 
+## ossf malicious-packages
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+
 ## Ossprey
 - [DirtyBlanket: nine npm Express/React clones publish a self-spreading Linux worm whose loader is served through the Wayback Machine — CHAOS RAT behind Tor, `chattr +i` fake systemd font persistence, SSH-key lateral movement, and automated AUR `PKGBUILD.install` + npm-token republish poisoning](../ops/dirtyblanket-npm-express-clone-linux-worm-wayback-codeberg-aur-chaos-tor-safedep-september-2026.md)
 
@@ -22521,6 +22578,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 
 ## PyPI
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [ChocoPoC](../tools/chocopoc.md)
@@ -22548,6 +22606,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 
 ## Python
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Aeternum](../tools/aeternum.md)
 - [BraZetsu: Python-based Windows IAB master toolkit fueling the "Infected Marketplace" (Group-IB, Sep 3, 2026)](../tools/brazetsu.md)
@@ -23182,6 +23241,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
 - [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
+
+## remote payload loader
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 
 ## remote script injection
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
@@ -25670,6 +25732,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Wiz "Artifactory Under Attack": in-the-wild exploitation chains in JFrog Artifactory (CVE-2026-42016 / CVE-2026-42018 / CVE-2026-82329)](../ops/wiz-artifactory-in-the-wild-cve-2026-42016-42018-82329-september-2026.md)
 
 ## supply chain attack
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 - [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
 - [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
@@ -26315,6 +26378,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TerminalFix
 - [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 
+## Termux
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+
 ## terraform
 - [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
 
@@ -26569,6 +26635,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## tools
 - [@zereight/mcp-gitlab CVE-2026-61560: unauthenticated SSE transport plus arbitrary file read exfiltrates the GitLab PAT (CVSS 9.8, Sep 16, 2026)](../tools/zereight-mcp-gitlab-cve-2026-61560-unauthenticated-sse-pat-exfiltration-september-2026.md)
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Aeternum](../tools/aeternum.md)
 - [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
@@ -28741,6 +28808,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickFix moves into the browser: cryptocurrency theft with Google-hosted C2](../ops/talos-clickfix-browser-crypto-theft-google-visualization-api-c2-september-2026.md)
 
 ## XOR obfuscation
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
 ## xorshift32
@@ -28863,6 +28931,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## zereight
 - [@zereight/mcp-gitlab CVE-2026-61560: unauthenticated SSE transport plus arbitrary file read exfiltrates the GitLab PAT (CVSS 9.8, Sep 16, 2026)](../tools/zereight-mcp-gitlab-cve-2026-61560-unauthenticated-sse-pat-exfiltration-september-2026.md)
 
+## zero advisory coverage
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+
 ## Zero Trust
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
@@ -28964,6 +29035,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
 ## zlib
+- [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 - [OctLurk](../tools/octlurk.md)
 
 ## zmlocalconfig
