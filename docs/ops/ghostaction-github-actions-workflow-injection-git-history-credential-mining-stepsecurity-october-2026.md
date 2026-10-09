@@ -67,6 +67,7 @@ Exact IOC table as published by StepSecurity (transcribed verbatim):
 - No malicious package releases from the compromised publishing credentials as of StepSecurity's writing (pyxel last release v2.9.9 Aug 12, athenadriver v1.1.15 Mar 2024) — the exposure window on those tokens is OPEN until rotated, exactly the window this ledger's package-side watch monitors.
 
 - **Second sink re-probe (hundred-twenty-seventh sweep, Oct 9 ~19:27 UTC):** `193.32.204.199:80` and `:3000` **BOTH still connection-refused (`000`)** ≈1.5 h after the first dark read = sustained dark from this vantage across two checks while the workflows stay live on 378 default branches. Beacon-on-dead-IP posture unchanged; continue per-sweep re-probes (the rebind IS the event).
+- **Third sink probe — STATE-CHANGE (hundred-twenty-eighth sweep, Oct 9 ~21:33 UTC):** port sweep `:80/:443/:8080` — `:80` and `:8080` still connection-refused, but **`:443` TCP-CONNECTS** = FIRST open port ever observed on this IP across three sweeps. Application layer still silent (`https://193.32.204.199/?c=monami` returns no HTTP response, TLS handshake opens transport then stalls). Two live readings, no commitment either way: (a) a listener is re-binding (the rebind is the event this page has been watching for; the campaign's own Sept-2025 history is domain→raw-IP churn), or (b) the IP was recycled/repurposed independently. Decider for the next sweep: does 443 complete a TLS handshake / answer HTTP, and does the answer carry `?c=` handling. 378 default branches still beaconing throughout.
 
 ## Durable reads
 

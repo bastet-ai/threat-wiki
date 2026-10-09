@@ -115,6 +115,9 @@ This wiki asserts the **mechanics class** (import-time remote-exec spine under a
 
 - `goxtools.shop/api/admin/licenses.php` → `401 ADMIN_AUTH_REQUIRED`, server clock `2026-10-09T19:27:27+00:00` = **SEVENTH consecutive live observation, a FULL DAY after the PyPI quarantine** — same JSON error shape, same auth gate, fresh clock. The registry has been dead 24 h; the operator's phone-home rail for the pre-quarantine device fleet has answered at every single check. PyPI quarantine holds (project 404). Ledger: [hundred-twenty-seventh section](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-9-one-hundred-and-twenty-seventh-sweep).
 
+## <a id="october-9-eighth-observation"></a>October 9 hundred-twenty-eighth sweep: C2 EIGHTH LIVE OBSERVATION — ≈28 h POST-QUARANTINE
+`https://goxtools.shop/api/admin/licenses.php` answered `401 {"success":false,"error_code":"ADMIN_AUTH_REQUIRED","timestamp":"2026-10-09T21:37:21+00:00"}` at 21:37:21Z — server clock fresh, **eighth consecutive live observation ≈28 h after PyPI quarantined the package**. State note: the site ROOT now returns `403` where earlier sweeps observed `200`-class HTML content — admin rail unchanged in shape and answer; whether the front-facing 403 is a host-side hardening change or an early takedown effect is undetermined, watch for the rail itself going dark (the first miss IS the event).
+
 ## Related pages
 
 - [algamil7x npm DNS-exfil recon cluster](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-9-one-hundred-and-twenty-first-sweep) — the hundred-twenty-first sweep that captured this unpack

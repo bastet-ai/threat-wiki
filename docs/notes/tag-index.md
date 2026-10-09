@@ -717,6 +717,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C2 fallback](#c2-fallback) (1)
 - [C2 framework](#c2-framework) (2)
 - [C2 panel](#c2-panel) (1)
+- [C2 registration panel](#c2-registration-panel) (1)
 - [C2 tasking](#c2-tasking) (1)
 - [C2Looper](#c2looper) (1)
 - [CageFS](#cagefs) (1)
@@ -1023,6 +1024,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConnectWise advisory](#connectwise-advisory) (1)
 - [ConnectWise ScreenConnect](#connectwise-screenconnect) (2)
 - [console login](#console-login) (1)
+- [console_scripts](#console_scripts) (1)
 - [ConsoleLogin](#consolelogin) (1)
 - [construction](#construction) (2)
 - [consumer devices](#consumer-devices) (1)
@@ -1179,7 +1181,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CSSOM](#cssom) (1)
 - [ctfmon.exe](#ctfmonexe) (1)
 - [ctxs.receiver](#ctxsreceiver) (1)
-- [curated lane](#curated-lane) (1)
+- [curated lane](#curated-lane) (2)
 - [Curious Serpens](#curious-serpens) (1)
 - [CurlRAT](#curlrat) (1)
 - [CURP](#curp) (1)
@@ -1847,6 +1849,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [eBPF](#ebpf) (3)
 - [ebtables](#ebtables) (1)
 - [ECDH](#ecdh) (1)
+- [echo suppression](#echo-suppression) (1)
 - [Eclipse](#eclipse) (1)
 - [Economic D-Day](#economic-d-day) (1)
 - [eCrime](#ecrime) (1)
@@ -2038,6 +2041,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Factory-v3](#factory-v3) (1)
 - [fail-closed](#fail-closed) (1)
 - [fail-open](#fail-open) (1)
+- [failover C2](#failover-c2) (1)
 - [fake app store](#fake-app-store) (1)
 - [fake CAPTCHA](#fake-captcha) (8)
 - [fake certificate](#fake-certificate) (1)
@@ -2508,6 +2512,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HexKiller](#hexkiller) (1)
 - [hidden backdoor](#hidden-backdoor) (1)
 - [hidden instructions](#hidden-instructions) (1)
+- [hidden mode](#hidden-mode) (1)
 - [hidden PowerShell](#hidden-powershell) (1)
 - [hidden service](#hidden-service) (1)
 - [high explosives](#high-explosives) (1)
@@ -2855,6 +2860,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KeyHunter](#keyhunter) (1)
 - [keylogger](#keylogger) (6)
 - [keylogging](#keylogging) (5)
+- [keystroke capture](#keystroke-capture) (1)
 - [keyval.org](#keyvalorg) (1)
 - [keyword splitting](#keyword-splitting) (1)
 - [KICKPLATE](#kickplate) (1)
@@ -3368,6 +3374,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MSNightmare](#msnightmare) (1)
 - [MSP](#msp) (3)
 - [MSSQL](#mssql) (1)
+- [msvcrt](#msvcrt) (1)
 - [msvcrt140.dll](#msvcrt140dll) (1)
 - [MSXML2.XMLHTTP](#msxml2xmlhttp) (1)
 - [mTLS](#mtls) (1)
@@ -3670,6 +3677,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operations](#operations) (359)
 - [operator lockout](#operator-lockout) (1)
 - [operator-continuity](#operator-continuity) (1)
+- [operator-linked shell](#operator-linked-shell) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
@@ -3695,7 +3703,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Orkes](#orkes) (1)
 - [OS command injection](#os-command-injection) (3)
 - [OSCrypt](#oscrypt) (1)
-- [ossf malicious-packages](#ossf-malicious-packages) (1)
+- [ossf malicious-packages](#ossf-malicious-packages) (2)
 - [Ossprey](#ossprey) (1)
 - [OSV](#osv) (5)
 - [osv](#osv) (1)
@@ -4089,10 +4097,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PwPt-sHaRe](#pwpt-share) (1)
 - [PyArmor](#pyarmor) (4)
 - [PyInstaller](#pyinstaller) (2)
-- [PyPI](#pypi) (20)
+- [PyPI](#pypi) (21)
 - [pypi](#pypi) (1)
 - [pypls/requests](#pyplsrequests) (1)
-- [Python](#python) (18)
+- [Python](#python) (19)
 - [Python extension modules](#python-extension-modules) (1)
 - [Python implant](#python-implant) (1)
 - [Python malware](#python-malware) (2)
@@ -4253,6 +4261,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePELoader](#remotepeloader) (1)
 - [removable media](#removable-media) (1)
 - [Rentry](#rentry) (1)
+- [REPL cover](#repl-cover) (1)
 - [replication](#replication) (1)
 - [REPLICATION attribute](#replication-attribute) (1)
 - [repo-server](#repo-server) (1)
@@ -4528,6 +4537,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Serialize::unserialize](#serializeunserialize) (1)
 - [Serv-U](#serv-u) (1)
 - [server-side code execution](#server-side-code-execution) (1)
+- [server-side unlock gate](#server-side-unlock-gate) (1)
 - [serverless abuse](#serverless-abuse) (1)
 - [serverless C2](#serverless-c2) (1)
 - [service accounts](#service-accounts) (2)
@@ -4758,6 +4768,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Southeast Asia](#southeast-asia) (7)
 - [southpxdatapp6pi](#southpxdatapp6pi) (1)
 - [SP Page Builder](#sp-page-builder) (1)
+- [space-z.ai](#space-zai) (1)
 - [Spain](#spain) (1)
 - [spam](#spam) (1)
 - [Spark RAT](#spark-rat) (1)
@@ -4905,7 +4916,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [superuser escalation](#superuser-escalation) (1)
 - [supply chain](#supply-chain) (27)
-- [supply chain attack](#supply-chain-attack) (5)
+- [supply chain attack](#supply-chain-attack) (6)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (132)
 - [supply-chain attack](#supply-chain-attack) (2)
@@ -5050,6 +5061,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tenet Security](#tenet-security) (1)
 - [Terminal permissions](#terminal-permissions) (1)
 - [TerminalFix](#terminalfix) (1)
+- [termios](#termios) (1)
 - [Termux](#termux) (1)
 - [terraform](#terraform) (1)
 - [Terraform](#terraform) (1)
@@ -5116,7 +5128,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (81)
+- [tools](#tools) (82)
 - [Tor](#tor) (5)
 - [torrent-compromise](#torrent-compromise) (1)
 - [Tortoiseshell](#tortoiseshell) (2)
@@ -5675,7 +5687,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zendesk](#zendesk) (1)
 - [Zephyr RTOS](#zephyr-rtos) (1)
 - [zereight](#zereight) (1)
-- [zero advisory coverage](#zero-advisory-coverage) (1)
+- [zero advisory coverage](#zero-advisory-coverage) (2)
 - [Zero Trust](#zero-trust) (1)
 - [zero-balance](#zero-balance) (1)
 - [zero-click](#zero-click) (3)
@@ -8547,6 +8559,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## C2 panel
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
+## C2 registration panel
+- [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
+
 ## C2 tasking
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
 
@@ -9893,6 +9908,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## console login
 - [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 
+## console_scripts
+- [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
+
 ## ConsoleLogin
 - [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 
@@ -10639,6 +10657,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## curated lane
 - [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+- [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
 
 ## Curious Serpens
 - [ROADtools](../tools/roadtools.md)
@@ -13020,6 +13039,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ECDH
 - [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
 
+## echo suppression
+- [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
+
 ## Eclipse
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 
@@ -13797,6 +13819,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## fail-open
 - [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
+
+## failover C2
+- [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
 
 ## fake app store
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
@@ -15492,6 +15517,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## hidden instructions
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 
+## hidden mode
+- [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
+
 ## hidden PowerShell
 - [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 
@@ -16862,6 +16890,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
+
+## keystroke capture
+- [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
 
 ## keyval.org
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](../ops/ox-clickfix-phishing-npm-mirror-payload-storage.md)
@@ -18982,6 +19013,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MSSQL
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
+## msvcrt
+- [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
+
 ## msvcrt140.dll
 - [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
 
@@ -20485,6 +20519,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## operator-continuity
 - [MALFEX: one Portuguese-language npm operator, twelve packages, two delivery arms, three years of continuity — and the advisory pipeline's gap made visible: `function-flag` sat as a malicious postinstall with NO advisory for fourteen months, and `cdn-img-fetch` stayed installable after npm seized its parent](../ops/malfex-npm-single-operator-two-arms-function-flag-14-month-unadvised-postinstall-cloudsek-september-2026.md)
 
+## operator-linked shell
+- [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
+
 ## OpFauxSign
 - [Fox Tempest](../actors/fox-tempest.md)
 
@@ -21017,6 +21054,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ossf malicious-packages
 - [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+- [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
 
 ## Ossprey
 - [DirtyBlanket: nine npm Express/React clones publish a self-spreading Linux worm whose loader is served through the Wayback Machine — CHAOS RAT behind Tor, `chattr +i` fake systemd font persistence, SSH-key lateral movement, and automated AUR `PKGBUILD.install` + npm-token republish poisoning](../ops/dirtyblanket-npm-express-clone-linux-worm-wayback-codeberg-aur-chaos-tor-safedep-september-2026.md)
@@ -22599,6 +22637,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PyPI
 - [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+- [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [ChocoPoC](../tools/chocopoc.md)
@@ -22627,6 +22666,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Python
 - [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+- [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Aeternum](../tools/aeternum.md)
 - [BraZetsu: Python-based Windows IAB master toolkit fueling the "Infected Marketplace" (Group-IB, Sep 3, 2026)](../tools/brazetsu.md)
@@ -23310,6 +23350,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Rentry
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
+## REPL cover
+- [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
 
 ## replication
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
@@ -24346,6 +24389,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## server-side code execution
 - [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 
+## server-side unlock gate
+- [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
+
 ## serverless abuse
 - [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 
@@ -25200,6 +25246,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SP Page Builder
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
+## space-z.ai
+- [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
+
 ## Spain
 - [APT28-linked HOOKEDGE backdoor targets European government and diplomatic organizations](../ops/apt28-hookedge-backdoor-european-gov-diplomatic-august-2026.md)
 
@@ -25757,6 +25806,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## supply chain attack
 - [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+- [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 - [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
 - [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
@@ -26403,6 +26453,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TerminalFix
 - [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 
+## termios
+- [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
+
 ## Termux
 - [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 
@@ -26661,6 +26714,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## tools
 - [@zereight/mcp-gitlab CVE-2026-61560: unauthenticated SSE transport plus arbitrary file read exfiltrates the GitLab PAT (CVSS 9.8, Sep 16, 2026)](../tools/zereight-mcp-gitlab-cve-2026-61560-unauthenticated-sse-pat-exfiltration-september-2026.md)
 - [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+- [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Aeternum](../tools/aeternum.md)
 - [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
@@ -28961,6 +29015,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## zero advisory coverage
 - [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+- [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
 
 ## Zero Trust
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
