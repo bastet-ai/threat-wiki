@@ -49,6 +49,10 @@ The header comment is unusually candid (quoted verbatim in spirit): "this file i
 - Server-gated second stage + echo-off reading + 24 h unlock TTL is a **remote-operator shell delivered through a package index**, functionally the same trust inversion as ig-gox's license-gated loader (same-day sibling) — one gate design, two ecosystems. Cross-link: [ig-gox page](ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md).
 - Abuse of **AI-app preview hosting** (`*.space-z.ai` "preview-chat-…" slugs) for C2 panels joins the ledger's platform-abuse lane (preview/ephemeral hosts as disposable, trusted-domain-adjacent infrastructure).
 
+## Sweep ticks
+
+- **Oct 10 one-hundred-and-thirty-first sweep (~05:3x-05:5x UTC):** STILL LIVE `2.2.1`, both releases un-yanked, **ZERO OSV + ZERO GHSA ≈13.5 h** — the beaten ig-gox +9 h mark extended by a third again; no PyPI quarantine marker.
+
 ## Monitor
 
 - OSV/GHSA arrival clock vs queue #1613 (filed 16:02:22Z; still zero-advisory at +6 h — vs `ig-gox` OSV at +9 h / PyPI quarantine at +6.5 h).
