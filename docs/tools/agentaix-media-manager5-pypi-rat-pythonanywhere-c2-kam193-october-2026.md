@@ -47,7 +47,7 @@ At check both OSV records still `aliases: None` ~20 min post-GHSA — join lag, 
 
 ## Monitor
 
-- Whether either name re-registers (reuse-removed-name grammar) or the campaign spawns a third member past `17753`.
+- Whether either name re-registers (reuse-removed-name grammar) or the campaign spawns a third member past `17753`. **RESOLVED SAME DAY: the third member arrived — `agent-vx` `0.1.0`, `MAL-2026-17755` (published 11:19:48Z, campaign `2026-10-agentaix`), PyPI-QUARANTINED at the 135th's ~13:4xZ check ≤~2.2 h from OSV arrival; and the 135th also caught kam193's SEPARATE `2026-10-webreader` pair (`webreader`+`pafer`) sitting ADVISED-but-ACTIVE ~27 h — see [webreader/pafer page](webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026.md).**
 - Whether the GHSA aliases join the OSV records (re-query both — standing zero-twin rule).
 - PythonAnywhere disposition: a free host running a multi-victim RAT C2 is a platform-abuse report target; watch whether the `200` goes dark and whether that is abuse-desk action or attacker churn.
 - Whether the ≤1.5 h PyPI quarantine clock generalizes to the next kam193 batch or was name-specific.
