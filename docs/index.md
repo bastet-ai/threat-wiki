@@ -8,13 +8,13 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 
 ## Popular this week
 <!-- popular-this-week:auto -->
-_Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-02 UTC (26607 of ~667 on-page requests attributable; 667 of 667 path batches ok)._
+_Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-03 UTC (26967 of ~673 on-page requests attributable; 98 of 673 path batches ok)._
 - [CISA KEV September 10–11, 2026 additions: six exploited flaws](/ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026/) — 228 reads
 - [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle](/ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026/) — 192 reads
 - [EvilTokens device-code PhaaS and the Microsoft DCU disruption](/ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026/) — 190 reads
 - [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem](/ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026/) — 155 reads
-- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](/ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026/) — 135 reads
-- [ShinyHunters](/actors/shinyhunters/) — 135 reads
+- [ShinyHunters](/actors/shinyhunters/) — 137 reads
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](/ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026/) — 134 reads
 - [ENCFORGE](/tools/encforge/) — 131 reads
 - [Source index](/notes/source-index/) — 131 reads
 <!-- /popular-this-week:auto -->
