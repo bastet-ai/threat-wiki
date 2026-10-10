@@ -53,6 +53,17 @@ The header comment is unusually candid (quoted verbatim in spirit): "this file i
 
 - **Oct 10 one-hundred-and-thirty-first sweep (~05:3x-05:5x UTC):** STILL LIVE `2.2.1`, both releases un-yanked, **ZERO OSV + ZERO GHSA ≈13.5 h** — the beaten ig-gox +9 h mark extended by a third again; no PyPI quarantine marker.
 - **Oct 10 one-hundred-and-thirty-third sweep (~09:3x-09:5x UTC):** STILL LIVE `2.2.1`, simple-index `project-status=active`, **ZERO OSV + ZERO GHSA ≈17.5 h**. CONTRAST CLOCK: same-window kam193 RAT pair `agentaix`/`media-manager5` went OSV→GHSA→**PyPI quarantine in ≤~1.5 h** — this curated-lane keystroke-RAT is now at a full day-plus unadvised while two same-day PyPI RATs were killed at hours-scale. The registry-action differential is the sharpest question this ledger holds.
+- **Oct 10 one-hundred-and-thirty-seventh sweep (~17:2x-17:5x UTC): VERSION CHANGE — `2.3` published 16:58:01Z, ~25 MIN OLD at first read, ZERO OSV + ZERO GHSA ≈30 h live.** See the 2.3 analysis section below: the release is SELF-HEALING (silent auto re-registration on panel 401/403) and ANTI-INSPECTION (the `python2 config` command — the only surface that showed the linked server + key — is deleted). C2 rails alive: both `space-z.ai` hosts resolve to an **Aliyun Hong Kong ALB** (`alb-1i2q34bllrtyl61zig.cn-hongkong.alb.aliyuncsslbintl.com`), `/api/cli/init` answers `405` GET = POST rail live (first geo/hosting read on the panel).
+
+## <a id="october-10-version-23"></a>October 10: `2.3` — the self-healing re-key + the deleted config command (static diff, no execution)
+
+Wheel `py2ops-2.3-py3-none-any.whl` (8,391 B, sha256 `06a843657663a19b4efb53b4dbfe9082d975dc75f9e9583440c36749682fba40`, uploaded 2026-10-10T16:58:01Z) vs `2.2.1`. Three functional changes, all in `pyops/cli.py`:
+
+1. **`_rekey(cfg, word)` added.** When the pinned panel answers `401`/`403` (its comment: "the pinned server is alive but lost this device — fresh deploy, wiped db"), the client silently calls `_register(server)` for a FRESH apiKey on the SAME server, retries the unlock once with the new key, and only pins the new key if the server accepts the secret. Wired in at BOTH unlock paths (interactive line-based unlock and startup password prompt) with a one-shot `rekeyed` guard. DURABLE: the implant now RE-ENROLLS itself — a panel redeploy that wipes device keys, or a deleted `~/.python2/config.json`, no longer strands the implant; the first `401` fixes it without user action.
+2. **`python2 config` REMOVED** (command + help line). That command was the only surface where a victim or responder could see the linked server URL and the masked apiKey. Its removal makes the linkage invisible from inside the tool — detection now requires artifact/traffic hunting (`~/.python2/`, UA `python2/<ver>`, `space-z.ai` registration traffic), which is exactly the hunter's-rule already on this page, now with the self-serve path closed.
+3. **First-release pair unchanged otherwise:** `__init__.py`/version strings bump; `python2 -d` uninstall stays.
+
+Reading: an operator shipping resilience + anti-inspection improvements WHILE the package sits at ~30 h zero-OSV/zero-GHSA with a curated ingest PR (#1613, 26 h old) unmerged — release cadence so far: `2.2` 15:02Z Oct 9, `2.2.1` 16:02Z Oct 9 (hot-fix, 1 h), `2.3` 16:58Z Oct 10 (feature, ≈25 h later). The advisory-as-build-trigger rule is INVERTED here: there is no advisory, the clock is the operator's own.
 
 ## Monitor
 
