@@ -90,6 +90,12 @@ Three measurements in one batch:
 - Whether the `aliases` join finally lands on 17752–17757 (and the still-unjoined cohort).
 - Whether 2026-10-webreader grows a third name (its pattern is a main+dependency pair; expect more pairs reusing `pafer`-style loaders).
 
+## October 10 one-hundred-and-thirty-sixth sweep follow-up (~15:3xZ): THE STAGE-5 C2 IS COLLECTING, NOT JUST DEPLOYED
+
+- **Supabase edge function POST-probe:** `GET …/functions/v1/save` = `404` (POST-only route) while a harmless empty-JSON `POST` = **`201 Created`** = the collector is live and accepting victim posts at this check. DURABLE PROBE HYGIENE: a GET-only disposition watch reads "dead" on a fully operational edge-function collector — always finish the probe with a harmless-body POST (same lesson class as the `veai` telemetry rail's 405-GET/accepts-POST). This is now the ledger's most complete stage-C2 state: package live + stage blob live + collector accepting.
+- **npoint stage mutability check:** blob re-fetched, still `200` 32,290 B, sha256 `540314a7388b084d7aba001483179d0c7fe8c99085d8daebccf04c32de3ad9e9` = UNCHANGED since the 135th's first hash. The stage has not yet been mutated — watch stays open; any hash change means every infected interpreter pulls new code at next boot via the `mypyc_abi3.pth` chain.
+- **Differential at ~35 h:** `webreader` `2.3.8` + `pafer` `0.9.7/0.9.8` simple-index still `200` (active shape), ~35 h post-publish, ~3 h past their GHSAs; `agent-vx` JSON API still `404` (quarantine holds). The same-analyst contradiction has now been measured across a full calendar day.
+
 ## Related pages
 - [agentaix + media-manager5 — the same analyst's agentaix pair](agentaix-media-manager5-pypi-rat-pythonanywhere-c2-kam193-october-2026.md) — `agent-vx` is this campaign's third member, quarantined with them
 - [py2ops — the zero-advisory contrast case](py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md) — now the ledger has TWO registry-differential shapes: unadvised-and-live (py2ops) and ADVISED-and-live (webreader/pafer)
