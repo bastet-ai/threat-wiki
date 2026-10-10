@@ -52,6 +52,7 @@ The header comment is unusually candid (quoted verbatim in spirit): "this file i
 ## Sweep ticks
 
 - **Oct 10 one-hundred-and-thirty-first sweep (~05:3x-05:5x UTC):** STILL LIVE `2.2.1`, both releases un-yanked, **ZERO OSV + ZERO GHSA ≈13.5 h** — the beaten ig-gox +9 h mark extended by a third again; no PyPI quarantine marker.
+- **Oct 10 one-hundred-and-thirty-third sweep (~09:3x-09:5x UTC):** STILL LIVE `2.2.1`, simple-index `project-status=active`, **ZERO OSV + ZERO GHSA ≈17.5 h**. CONTRAST CLOCK: same-window kam193 RAT pair `agentaix`/`media-manager5` went OSV→GHSA→**PyPI quarantine in ≤~1.5 h** — this curated-lane keystroke-RAT is now at a full day-plus unadvised while two same-day PyPI RATs were killed at hours-scale. The registry-action differential is the sharpest question this ledger holds.
 
 ## Monitor
 

@@ -62,6 +62,8 @@ This is not a hijacked legit package and not a typosquat: it is a **complete, se
 
 At check: LIVE, installable, zero advisories on either lane, PR #1617 open unmerged (queue freeze pattern — `#1612`/`#1613`/`#1615` also still open since Oct 9). Monitor: whether the GHSA lane mints anything for this name (post-`arsya` rule: walk the `type=malware` listing, the ID-walk is blind); whether npm enforces (deletion vs security-holder — see the kmf 12-second family wipe precedent); `0.3.x` iteration or re-registration under new names; `explyt` brand footprint beyond this scope (the `app.veai.ru/api/v1/data` "Neo plugin" rail the README mentions implies a managed-backend product surface beyond npm); whether `smiling-hyena`'s next find lands; whether pi-package ecosystem ships an extension-signaling control.
 
+**Oct 10 one-hundred-and-thirty-third sweep tick (~09:4x UTC):** STILL LIVE `latest 0.3.2`, zero OSV + zero GHSA ≈30 h; `app.veai.ru` 200; `plugin.veai.ru/telemetry` GET `405` / POST `400` — POST-only endpoint confirmed (the 405-vs-400 split says the route accepts POST and rejected the empty body; the rail is UP); Yandex bucket root `403`-exists, `agent/` path `404`; PR #1617 still open unmerged.
+
 ## Related pages
 
 - [py2ops PyPI operator-linked companion shell](py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md) — same-48h, same zero-advisory curated-lane class; different target (keystrokes at a fake REPL vs full agent sessions)
