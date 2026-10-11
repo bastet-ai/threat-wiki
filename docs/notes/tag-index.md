@@ -520,6 +520,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [banco-do-brasil](#banco-do-brasil) (1)
 - [bandcampro](#bandcampro) (1)
 - [Bandook](#bandook) (1)
+- [bane1010](#bane1010) (1)
 - [banking](#banking) (2)
 - [banking fraud](#banking-fraud) (1)
 - [banking malware](#banking-malware) (4)
@@ -736,6 +737,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [campaign-IDs](#campaign-ids) (1)
 - [Canada](#canada) (1)
 - [canary](#canary) (1)
+- [canarytokens](#canarytokens) (1)
 - [CANFAIL](#canfail) (1)
 - [CanisterWorm](#canisterworm) (2)
 - [canonicalization](#canonicalization) (1)
@@ -1663,7 +1665,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Denys Pakizh](#denys-pakizh) (1)
 - [Dependabot](#dependabot) (1)
 - [dependency confusion](#dependency-confusion) (6)
-- [dependency-confusion](#dependency-confusion) (5)
+- [dependency-confusion](#dependency-confusion) (6)
 - [dependency-confusion shaped](#dependency-confusion-shaped) (1)
 - [deployment_status](#deployment_status) (1)
 - [deposit address replacement](#deposit-address-replacement) (1)
@@ -1763,7 +1765,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DNS resolution](#dns-resolution) (1)
 - [DNS threat intelligence](#dns-threat-intelligence) (1)
 - [DNS tunneling](#dns-tunneling) (3)
-- [DNS-exfiltration](#dns-exfiltration) (2)
+- [DNS-exfiltration](#dns-exfiltration) (3)
 - [DNS-over-HTTPS](#dns-over-https) (1)
 - [DNS-tunneling](#dns-tunneling) (2)
 - [dnsapi.dll](#dnsapidll) (1)
@@ -2550,6 +2552,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hosting control plane](#hosting-control-plane) (1)
 - [hosting provider](#hosting-provider) (1)
 - [hosting providers](#hosting-providers) (1)
+- [hostname-exfiltration](#hostname-exfiltration) (1)
 - [HostShared](#hostshared) (1)
 - [Hostwinds](#hostwinds) (1)
 - [hotel targeting](#hotel-targeting) (1)
@@ -2693,7 +2696,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [insecure deserialization](#insecure-deserialization) (1)
 - [insider threat](#insider-threat) (1)
 - [Insomnia RAT](#insomnia-rat) (1)
-- [install-script](#install-script) (4)
+- [install-script](#install-script) (5)
 - [install-time execution](#install-time-execution) (7)
 - [install-time-execution](#install-time-execution) (2)
 - [install.res.1033.dll](#installres1033dll) (1)
@@ -3141,7 +3144,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malicious theme](#malicious-theme) (1)
-- [malicious-package](#malicious-package) (8)
+- [malicious-package](#malicious-package) (9)
 - [malvertising](#malvertising) (11)
 - [malware](#malware) (69)
 - [malware analysis](#malware-analysis) (2)
@@ -3547,7 +3550,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies](#novacookies) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (88)
+- [npm](#npm) (89)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -3670,7 +3673,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenSourceMalware](#opensourcemalware) (2)
 - [OpenSSF](#openssf) (1)
 - [OpenSSF Package Analysis](#openssf-package-analysis) (1)
-- [OpenSSF-Package-Analysis](#openssf-package-analysis) (1)
+- [OpenSSF-Package-Analysis](#openssf-package-analysis) (2)
 - [OpenSSH](#openssh) (2)
 - [openssl_verify](#openssl_verify) (1)
 - [OpenVPN](#openvpn) (3)
@@ -3726,7 +3729,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ossprey](#ossprey) (1)
 - [OSV](#osv) (5)
 - [osv](#osv) (1)
-- [OSV malware stream](#osv-malware-stream) (2)
+- [OSV malware stream](#osv-malware-stream) (3)
 - [OT](#ot) (6)
 - [OT switches](#ot-switches) (1)
 - [OTA update](#ota-update) (1)
@@ -3735,6 +3738,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OtterCookie](#ottercookie) (2)
 - [Ousaban](#ousaban) (2)
 - [out-of-band-patch](#out-of-band-patch) (1)
+- [out-of-band-validation](#out-of-band-validation) (1)
 - [out-of-bounds read](#out-of-bounds-read) (1)
 - [out-of-bounds write](#out-of-bounds-write) (4)
 - [outbound C2](#outbound-c2) (2)
@@ -4009,7 +4013,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pre-authentication RCE](#pre-authentication-rce) (3)
 - [pre-signed URL](#pre-signed-url) (2)
 - [Prefetch](#prefetch) (1)
-- [preinstall](#preinstall) (6)
+- [preinstall](#preinstall) (7)
 - [PreppHint](#prepphint) (1)
 - [presigned URLs](#presigned-urls) (1)
 - [primary keys](#primary-keys) (1)
@@ -4211,7 +4215,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Reaper](#reaper) (1)
 - [reasoning replay](#reasoning-replay) (1)
 - [Reco](#reco) (1)
-- [reconnaissance](#reconnaissance) (8)
+- [reconnaissance](#reconnaissance) (9)
 - [recovery denial](#recovery-denial) (3)
 - [recovery disruption](#recovery-disruption) (2)
 - [recovery flow](#recovery-flow) (1)
@@ -4524,6 +4528,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [security platform](#security-platform) (1)
 - [security research placeholders](#security-research-placeholders) (1)
 - [security tool abuse](#security-tool-abuse) (1)
+- [security-research-label](#security-research-label) (1)
 - [security-tool discovery](#security-tool-discovery) (1)
 - [SecurityPDF](#securitypdf) (1)
 - [seed phrase](#seed-phrase) (1)
@@ -4948,7 +4953,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [superuser escalation](#superuser-escalation) (1)
 - [supply chain](#supply-chain) (27)
-- [supply chain attack](#supply-chain-attack) (9)
+- [supply chain attack](#supply-chain-attack) (10)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (132)
 - [supply-chain attack](#supply-chain-attack) (2)
@@ -5028,6 +5033,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tanzania](#tanzania) (1)
 - [tar](#tar) (1)
 - [tarball-url](#tarball-url) (1)
+- [target-qualification](#target-qualification) (1)
 - [targeted](#targeted) (1)
 - [targeted attack](#targeted-attack) (2)
 - [targeted exploitation](#targeted-exploitation) (1)
@@ -5162,7 +5168,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (86)
+- [tools](#tools) (87)
 - [Tor](#tor) (5)
 - [torrent-compromise](#torrent-compromise) (1)
 - [Tortoiseshell](#tortoiseshell) (2)
@@ -5246,7 +5252,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TypeConfuseDelegate](#typeconfusedelegate) (1)
 - [TypeScript](#typescript) (2)
 - [typosquat](#typosquat) (10)
-- [typosquatting](#typosquatting) (19)
+- [typosquatting](#typosquatting) (20)
 - [U+E0000](#ue0000) (1)
 - [U.S. critical infrastructure](#us-critical-infrastructure) (1)
 - [UAC](#uac) (1)
@@ -7826,6 +7832,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Bandook
 - [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 
+## bane1010
+- [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
+
 ## banking
 - [RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
@@ -8667,6 +8676,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## canary
 - [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
+
+## canarytokens
+- [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 
 ## CANFAIL
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -12343,6 +12355,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 
 ## dependency-confusion
+- [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 - [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
@@ -12791,6 +12804,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## DNS-exfiltration
+- [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 
@@ -15683,6 +15697,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## hosting providers
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
+## hostname-exfiltration
+- [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
+
 ## HostShared
 - [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 
@@ -16293,6 +16310,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unit 42: CL-CRI-1171 "Untracked Nightmares" — a pay-per-install marketplace behind commodity-looking loader infections](../ops/unit42-clcri-1171-offerloader-ppi-marketplace-september-2026.md)
 
 ## install-script
+- [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
@@ -18029,6 +18047,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 
 ## malicious-package
+- [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 - [DirtyBlanket: nine npm Express/React clones publish a self-spreading Linux worm whose loader is served through the Wayback Machine — CHAOS RAT behind Tor, `chattr +i` fake systemd font persistence, SSH-key lateral movement, and automated AUR `PKGBUILD.install` + npm-token republish poisoning](../ops/dirtyblanket-npm-express-clone-linux-worm-wayback-codeberg-aur-chaos-tor-safedep-september-2026.md)
 - [MALFEX: one Portuguese-language npm operator, twelve packages, two delivery arms, three years of continuity — and the advisory pipeline's gap made visible: `function-flag` sat as a malicious postinstall with NO advisory for fourteen months, and `cdn-img-fetch` stayed installable after npm seized its parent](../ops/malfex-npm-single-operator-two-arms-function-flag-14-month-unadvised-postinstall-cloudsek-september-2026.md)
 - [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
@@ -19672,6 +19691,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [@zereight/mcp-gitlab CVE-2026-61560: unauthenticated SSE transport plus arbitrary file read exfiltrates the GitLab PAT (CVSS 9.8, Sep 16, 2026)](../tools/zereight-mcp-gitlab-cve-2026-61560-unauthenticated-sse-pat-exfiltration-september-2026.md)
 - [`@veai-ru/ai-agent` (npm) — a malicious-by-design terminal AI coding AGENT: obfuscator.io extensions that replace the host agent's system prompt with attacker-controlled content, exfiltrate full session activity to `plugin.veai.ru/telemetry`, read MCP configurations, run a Keycloak OAuth harvest flow, and pull additional components from a Yandex Cloud bucket — LIVE at `latest = 0.3.2`, ZERO OSV + ZERO GHSA, curated queue PR ossf/malicious-packages #1617 only; this wiki pulled and statically inspected the published tarball (no execution) and verified every baked endpoint answering on the network at check](../tools/veai-ru-ai-agent-npm-ai-coding-agent-session-exfil-prompt-injection-keycloak-oauth-yandex-delivery-october-2026.md)
+- [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
@@ -20182,6 +20202,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
 
 ## OpenSSF-Package-Analysis
+- [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 
 ## OpenSSH
@@ -21181,6 +21202,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OSV malware stream
 - [`agentaix` + `media-manager5` (PyPI) — the `2026-10-agentaix` two-name RAT pair: persistent-job installers doing file exfiltration + remote-code execution to `googleforum.pythonanywhere.com` — kam193 lane, OSV → GHSA mirror measured at ≈93 min, BOTH names PyPI-QUARANTINED within ~1.5 h of OSV arrival, C2 answering `200` at this wiki's check](../tools/agentaix-media-manager5-pypi-rat-pythonanywhere-c2-kam193-october-2026.md)
+- [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 - [`webreader` + `pafer` (PyPI) — the kam193 `2026-10-webreader` pickle-as-config RAT pair: a binary `default.config` in the main package, a dependency whose "config loader" unpickles it, `bypit` + `mypyc_abi3.pth` boot-persistence on every interpreter start, module-gated XOR stage, `memfd_create` fileless exec, npoint.io stage drop, Supabase edge-function C2 — AND BOTH NAMES STILL `project-status=active` + installable ~27 h AFTER THEIR OWN OSVs, while the same analyst's other campaign died in ~1.5 h = THE QUARANTINE DIFFERENTIAL IS NOT KEYED ON THE SOURCE](../tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026.md)
 
 ## OT
@@ -21213,6 +21235,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## out-of-band-patch
 - [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
+
+## out-of-band-validation
+- [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 
 ## out-of-bounds read
 - [workerd / Cloudflare Code Mode: five memory-corruption bugs enable sandbox escape and cross-tenant "heap swipe"](../tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md)
@@ -22341,6 +22366,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## preinstall
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
+- [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
@@ -23173,6 +23199,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [City Forum: single-IP Salesforce and ServiceNow guest-access scraping](../ops/city-forum-salesforce-servicenow-guest-access-scraping.md)
 
 ## reconnaissance
+- [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
@@ -24394,6 +24421,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## security tool abuse
 - [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
+
+## security-research-label
+- [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 
 ## security-tool discovery
 - [LabubaRAT](../tools/labubarat.md)
@@ -25967,6 +25997,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [`agentaix` + `media-manager5` (PyPI) — the `2026-10-agentaix` two-name RAT pair: persistent-job installers doing file exfiltration + remote-code execution to `googleforum.pythonanywhere.com` — kam193 lane, OSV → GHSA mirror measured at ≈93 min, BOTH names PyPI-QUARANTINED within ~1.5 h of OSV arrival, C2 answering `200` at this wiki's check](../tools/agentaix-media-manager5-pypi-rat-pythonanywhere-c2-kam193-october-2026.md)
 - [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 - [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
+- [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 - [`webreader` + `pafer` (PyPI) — the kam193 `2026-10-webreader` pickle-as-config RAT pair: a binary `default.config` in the main package, a dependency whose "config loader" unpickles it, `bypit` + `mypyc_abi3.pth` boot-persistence on every interpreter start, module-gated XOR stage, `memfd_create` fileless exec, npoint.io stage drop, Supabase edge-function C2 — AND BOTH NAMES STILL `project-status=active` + installable ~27 h AFTER THEIR OWN OSVs, while the same analyst's other campaign died in ~1.5 h = THE QUARANTINE DIFFERENTIAL IS NOT KEYED ON THE SOURCE](../tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026.md)
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 - [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
@@ -26367,6 +26398,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## tarball-url
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
+
+## target-qualification
+- [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 
 ## targeted
 - [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
@@ -26884,6 +26918,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [`agentaix` + `media-manager5` (PyPI) — the `2026-10-agentaix` two-name RAT pair: persistent-job installers doing file exfiltration + remote-code execution to `googleforum.pythonanywhere.com` — kam193 lane, OSV → GHSA mirror measured at ≈93 min, BOTH names PyPI-QUARANTINED within ~1.5 h of OSV arrival, C2 answering `200` at this wiki's check](../tools/agentaix-media-manager5-pypi-rat-pythonanywhere-c2-kam193-october-2026.md)
 - [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 - [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
+- [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 - [`webreader` + `pafer` (PyPI) — the kam193 `2026-10-webreader` pickle-as-config RAT pair: a binary `default.config` in the main package, a dependency whose "config loader" unpickles it, `bypit` + `mypyc_abi3.pth` boot-persistence on every interpreter start, module-gated XOR stage, `memfd_create` fileless exec, npoint.io stage drop, Supabase edge-function C2 — AND BOTH NAMES STILL `project-status=active` + installable ~27 h AFTER THEIR OWN OSVs, while the same analyst's other campaign died in ~1.5 h = THE QUARANTINE DIFFERENTIAL IS NOT KEYED ON THE SOURCE](../tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026.md)
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Aeternum](../tools/aeternum.md)
@@ -27268,6 +27303,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## typosquatting
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
+- [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
