@@ -213,8 +213,13 @@ The eighty-second's ladder mechanic said the HTML page `/gems/<name>` keeps serv
 
 **Monitor update:** the bare-vs-soft-200 split is a new observable — watch whether the soft-200 shells lose their HTML pages too (erasure sweeping fleet-wide) or keep them (deletion targeted at report-triage names); everything else unchanged.
 
+## <a id="october-11-successor-fleet"></a>October 11 one-hundred-and-forty-eighth sweep follow-up (~15:2x–15:5x UTC): THE C2 RETURNED WITH A SUCCESSOR FLEET — 24 fresh `0.9.1` crypto-utility gems pushed in an 83-second window (06:52:40–06:54:02Z), same `45.138.12.177:8089`, same `bitcoin_rpc_lite_native` makefile name, and THIS PAGE'S Oct-5 COUNTER-FORENSICS GATES SHIPPED AS DEFAULTS — while the box itself went fully dark (`:8089`/`:8090` CLOSED, `:8080/w` dead, `:8092` refused)
+
+Between the Oct-6 ninetieth sweep and today the C2 fell silent — and the actor re-launched: a 24-gem RubyGems fleet (full forensics + `hd-wallet-generator-0.9.1.gem` capture at sha256 `8fe9f4d0…` on the [successor-fleet page](rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026.md)). The gates this page measured as a nine-minute post-advisory hot-fix (`1.0.1` counter-forensics) are the shipped baseline of every new gem, plus two new gates (`generated_user?`, `analysis_path?`). Lanes inverted too: 24/24 OSV + a same-second 24-record GHSA batch at 15:31:12–14Z ≈8.5 h after publish (this fleet: 4/48 at capture, posthumous catch-up) — and ALL 24 STAY LIVE at check. DURABLE: the grammar-level hunt keys this page pioneered (`bitcoin_rpc_lite_native`, gate grammar, 20–40-min randomized sleep, `<prefix> maintainers` metadata template) CAUGHT THE SUCCESSOR CAMPAIGN BEFORE ANY NAME-BASED SIGNAL EXISTED — grammar hunting is not a fallback for advisory blindness, it is the continuity channel across re-launches.
+
 ## Related pages
 
+- [SUCCESSOR FLEET: 24-gem crypto-utils campaign on the same C2 (Oct 11)](rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026.md) — same 45.138.12.177:8089 + bitcoin_rpc_lite_native build-name, gates promoted to shipped defaults, 24/24 dual-advised and still live
 - [algamil7x npm DNS-exfil recon cluster](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md) — this wiki's OSV high-water sweep that surfaced the first four advisories of this fleet
 - [ltidisafe GCS-loader npm fleet](ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md) — same machine-only advisory blindness, five-month npm precedent
 - [DirtyBlanket npm→AUR→SSH worm](dirtyblanket-npm-express-clone-linux-worm-wayback-codeberg-aur-chaos-tor-safedep-september-2026.md) — same week's class of attacker-built toolkit-as-package
