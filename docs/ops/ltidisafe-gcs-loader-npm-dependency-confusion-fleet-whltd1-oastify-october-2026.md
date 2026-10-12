@@ -358,6 +358,16 @@ Rails & registry same-check: `185.158.107.175:8787/_ah/dc` `200` standing; `64.1
 
 **Monitor:** fleet-40 fourteen-arm sustained-state check #3; wave-5 streak #16; any body byte-flip = falsification (none in 39 checks); `kdroa7s7…` #6.
 
+## <a id="october-12-fleet-40"></a>October 12 one-hundred-and-fifth sweep (~05:3x–06:0x UTC): FORTIETH BURP-LANE CHECK — **FULL FOURTEEN-LISTENER ROSTER ARMED, BYTE-IDENTICAL, THIRD CONSECUTIVE CHECK (fleet-38/39/40 = the fourteen-arm/seven-account estate is a three-check sustained state) — WAVE-5 SIXTEENTH CONSECUTIVE ARMED UNDER `-k`-FIRST, `675404drak…` EXACT PER-LISTENER TAILS SIXTH CHECK, `kdroa7s7…` `.oast.me` #6, `46ot4ak…` #3, `dln5e2uv…` #5, personio #5, `ii473egh…` ~26.5-day tick — AND ZERO BODY HAS EVER FLIPPED BYTE VALUE IN FORTY CHECKS = the fingerprint rule's four-day full-roster run extends to its fortieth pass with a perfect record**
+
+Full-token `-k` GETs ~05:3x–06:0x UTC vs ledger, tokens extracted programmatically per the 153rd doctrine (zero false-dark): **ARMED 14/14 + 2 outside-roster, every body byte-identical to its first recording.** `8n0l3yjy…` five listeners (`1vxhqpj0…`→`…jjgigz`, `fl4vg39e…`→`…jkgigz`, `bapr5zya…`→`…jlgjgz`, `p8y53dwo…`→`…jngigz`, `z00fvnoy…`→`…jogigz`) all 55-B, wave-5 pair **SIXTEENTH** consecutive armed check under `-k`-first; Wix pair `unl9pgk6…`→`7uznim4i…rgigz` + `orj3tao0…`→`…sgigz` both armed 56-B; one-off pair `187d714jo62z…`→`4rgpacf6…glgz` + `9q0lp9mr…`→`…kgjgz` continuous; `ii473egh…`→`zdz5vdmv…gjmgz` ~26.5-day tick; `675404drak…` both September listeners exact per-listener tails (`pa33pg1o…`→`…zjjgjgz`, `hqbv58…`→`…zjjgogz`) SIXTH check; `kdroa7s7…` armed `db4jlbku…oast.me` 72-B #6; `46ot4ak…` armed `bfuntjuvcnxl…` #3 (three-check armed run on the newest prefix — its pessimism-threshold class has not re-fired); outside-roster `dln5e2uv…`→`uhffaanwxy…` #5 and personio `hrcv3zo…`→`64wd2qm5…zjjgkgz` = the `zjj…` tail family now rides five account lanes. Fabricated control `.oastify.com` stock `1,169`-B catch-all (stock page re-measured: the vendor HTML length drifts — byte-equality against the ledger, not size thresholds, remains the armed test).
+
+**DURABLE COUNT:** forty checks, zero byte-flips, no exceptions, across all seven prefixes and four vendor domains — the body-prefix fingerprint is the most stable attacker-visible artifact class the ledger has ever tracked, more stable than the packages (purged), the C2 (moved), and the advisories (lagged) it accompanies.
+
+→ stream ledger: [algamil7x 155th section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-12-one-hundred-and-fifth-sweep)
+
+**Monitor:** fleet-41 sustained-state check #4; wave-5 streak #17; `46ot4ak…` armed-stability #4; any body byte-flip = falsification (none in 40 checks).
+
 ## Related pages
 
 - [webreader + pafer (PyPI) — the kam193 pickle-as-config pair](../tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026.md) — same-sweep PyPI pair whose GHSA batch carried this fleet's library-shell mirror `GHSA-4vw4-9hf5-5fx8` 12:30:31Z, closing the 134th's GHSA-lag question
