@@ -68,6 +68,10 @@ The OpenSSF flag is mechanically correct — exfiltrating identity data to an at
 - untrusted metadata
 - OpenSSF Package Analysis
 
+## Follow-up — OCT 11 one-hundred-and-fifty-first sweep: the collector is STILL ARMED ≈19 DAYS POST-ADVISORY WITH A NEVER-ON-LEDGER BODY PREFIX
+
+`uhffaanwxy0io5bfc0icu5lpug07o9cy.oastify.com` re-probed `2026-10-11` ~21:2x UTC answers `200` with a 55-B body `dln5e2uvcgff2tdy44ljc1zjjgugz` — prefix `dln5e2uv…` never previously recorded anywhere on this wiki = the **sixteenth distinct Burp-account prefix** in the standing fleet watch, and this collector was never a fleet member. Read: the squat's advisory (`MAL-2026-16409`, Sep 22) closed the package's public life but the COLLECTOR session is still live ~19 days on — for this class, advisory-state says nothing about collector-state, and the collector is the only persistent attacker-side artifact the squat ever produced. Note the body's suffix `…zjjgugz` shares the `zjj…` tail family carried by three other prefix-accounts (personio, `ii473egh…`, `675404drak…`) — the first cross-prefix tail-sharing sighting; see the [fleet-36 section](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md#october-11-fleet-36) for the tail-family watch. Probe-hygiene same-check: fabricated controls on `.oastify.com` return the stock catch-all (this page's original 200-at-root liveness read is safe under that mechanic), while the interactsh vendors echo reversed fabricated labels — vendor-split catch-all recorded fleet-wide.
+
 ## Related pages
 - [Phantom squatting: AI-hallucinated domains](phantom-squatting-ai-hallucinated-domains.md) — the LLM-mediated sibling of the same squatting primitive
 - [npm install explicit-trust controls](npm-install-explicit-trust-controls.md) — npx fetch-and-execute is the path npm v12's script approvals do not gate
