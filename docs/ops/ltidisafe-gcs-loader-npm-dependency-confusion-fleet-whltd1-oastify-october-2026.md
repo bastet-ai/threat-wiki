@@ -374,6 +374,14 @@ Full-token `-k` GETs ~07:2xZ vs ledger, tokens from the fleet-40 script (ledger-
 
 **Monitor:** fleet-42 sustained-state check #5; wave-5 streak #18; any body byte-flip = falsification (none in 41 checks); `kdroa7s7…` #8; `db03o8…` DNS-base sightings.
 
+## <a id="october-12-fleet-43"></a>October 12 one-hundred-and-eighth sweep (~11:3x–11:4x UTC): FORTY-THIRD BURP-LANE CHECK — **FULL FOURTEEN-LISTENER ROSTER ARMED, BYTE-IDENTICAL, FIFTH CONSECUTIVE FULL-ROSTER CHECK (fleet-38/39/40/41/43 = five-check sustained state; the 107th's partial 4/4 roster rode between as check 42) — WAVE-5 EIGHTEENTH CONSECUTIVE ARMED UNDER `-k`-FIRST, `675404drak…` EXACT PER-LISTENER TAILS EIGHTH CHECK, `kdroa7s7…` `.oast.me` #9, `46ot4ak…` #5, `dln5e2uv…` #7, personio #7 — AND ZERO BODY HAS EVER FLIPPED BYTE VALUE IN FORTY-THREE CHECKS**
+
+Full-token `-k` GETs ~11:3x UTC vs ledger, tokens from the fleet-40 script (ledger-exact per the 153rd doctrine, zero false-dark): **ARMED 16/16 + fabricated control, every body byte-identical to its first recording.** `8n0l3yjy…` five listeners (`1vxhqpj0…`→`…jjgigz`, `fl4vg39e…`→`…jkgigz`, `bapr5zya…`→`…jlgjgz`, `p8y53dwo…`→`…jngigz`, `z00fvnoy…`→`…jogigz`) all 55-B = wave-5 EIGHTEENTH; Wix pair (`unl9pgk6…`→`7uznim4i…rgigz`, `orj3tao0…`→`…sgigz`) 56-B; one-off pair (`187d714j…`→`4rgpacf6…glgz`, `9q0lp9mr…`→`…zjkgjgz`); `ii473egh…`→`zdz5vdmv…zjjgjmgz` ~27-day tick; `675404drak…` exact tails (`hqbv58…`→`…zjjgogz`, `pa33pg1o…`→`…zjjgjgz`) EIGHTH; `kdroa7s7…` via `db4jlbku…oast.me` 72-B **#9**; `46ot4ak…` on `bfuntjuvcnxl…` 53-B #5; outside-roster `dln5e2uv…`→`uhffaanwxy…` #7 and personio `hrcv3zo…`→`64wd2qm5…zjjgkgz` #7 = `zjj…` tail family steady, no `8n0l3yjy`-body crossover (shared-underlayer test continues negative). Fabricated control `fabricatedctl7qz3x9k2m4v.oastify` = 1,169-B stock page, stock-class rule stands. FORTY-THREE CHECKS, ZERO BYTE-FLIPS — the body-prefix fingerprint run now spans five days.
+
+→ stream ledger: [algamil7x 108th-section marker sits in the Oct-12 stream page](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
+
+**Monitor:** fleet-44 sustained-state check #6; wave-5 streak #19; any body byte-flip = falsification (none in 43 checks); `kdroa7s7…` #10.
+
 ## Related pages
 
 - [webreader + pafer (PyPI) — the kam193 pickle-as-config pair](../tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026.md) — same-sweep PyPI pair whose GHSA batch carried this fleet's library-shell mirror `GHSA-4vw4-9hf5-5fx8` 12:30:31Z, closing the 134th's GHSA-lag question
