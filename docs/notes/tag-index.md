@@ -81,6 +81,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Activator.CreateInstance](#activatorcreateinstance) (1)
 - [active development](#active-development) (1)
 - [Active Directory](#active-directory) (5)
+- [Active Directory reconnaissance](#active-directory-reconnaissance) (1)
 - [active exploitation](#active-exploitation) (87)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
@@ -104,6 +105,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adblock for YouTube](#adblock-for-youtube) (1)
 - [add/add collision](#addadd-collision) (1)
 - [addon domain](#addon-domain) (1)
+- [ADExplorer](#adexplorer) (1)
 - [Adform](#adform) (1)
 - [ADFS](#adfs) (1)
 - [Admin API key theft](#admin-api-key-theft) (1)
@@ -2642,7 +2644,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [iMessage](#imessage) (2)
 - [Impacket](#impacket) (6)
 - [Imperial Kitten](#imperial-kitten) (1)
-- [impersonation](#impersonation) (3)
+- [impersonation](#impersonation) (4)
 - [implant](#implant) (1)
 - [import-time execution](#import-time-execution) (6)
 - [import-time-execution](#import-time-execution) (1)
@@ -2849,7 +2851,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kaitori](#kaitori) (1)
 - [Kali365](#kali365) (2)
 - [Kaltura](#kaltura) (1)
-- [kam193](#kam193) (2)
+- [kam193](#kam193) (3)
 - [Kaspersky](#kaspersky) (5)
 - [kaspersky](#kaspersky) (1)
 - [Kaspersky detection bypass](#kaspersky-detection-bypass) (1)
@@ -3016,6 +3018,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed Cache](#litespeed-cache) (1)
 - [live chat](#live-chat) (1)
 - [Live Protect](#live-protect) (1)
+- [live-after-advisory](#live-after-advisory) (1)
 - [live-packages](#live-packages) (1)
 - [LivePatch](#livepatch) (1)
 - [living off the land](#living-off-the-land) (2)
@@ -3557,6 +3560,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [notarized malware](#notarized-malware) (2)
 - [notebook security](#notebook-security) (1)
 - [notebookjs](#notebookjs) (1)
+- [Notepad++](#notepad) (1)
 - [notification interception](#notification-interception) (1)
 - [NOVA](#nova) (1)
 - [NovaCookies](#novacookies) (1)
@@ -3833,7 +3837,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [password reset](#password-reset) (1)
 - [password spray](#password-spray) (1)
 - [password spraying](#password-spraying) (5)
-- [password-protected archive](#password-protected-archive) (2)
+- [password-protected archive](#password-protected-archive) (3)
 - [passwordless authentication](#passwordless-authentication) (1)
 - [paste.sh](#pastesh) (1)
 - [Pastebin](#pastebin) (2)
@@ -3860,6 +3864,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
 - [payload storage](#payload-storage) (1)
+- [payload swap](#payload-swap) (1)
 - [payload-as-a-service](#payload-as-a-service) (1)
 - [payment fraud](#payment-fraud) (1)
 - [payment SDK](#payment-sdk) (1)
@@ -4139,7 +4144,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [py2ops](#py2ops) (1)
 - [PyArmor](#pyarmor) (4)
 - [PyInstaller](#pyinstaller) (2)
-- [PyPI](#pypi) (24)
+- [PyPI](#pypi) (25)
 - [pypi](#pypi) (1)
 - [pypls/requests](#pyplsrequests) (1)
 - [Python](#python) (22)
@@ -4487,7 +4492,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SCADA](#scada) (1)
 - [scam infrastructure](#scam-infrastructure) (1)
 - [scambling](#scambling) (1)
-- [scanner evasion](#scanner-evasion) (1)
+- [scanner evasion](#scanner-evasion) (2)
 - [ScarCruft](#scarcruft) (1)
 - [SCCM](#sccm) (1)
 - [scheduled task](#scheduled-task) (9)
@@ -4621,6 +4626,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [setuid](#setuid) (1)
 - [setup.py](#setuppy) (1)
 - [setup.py execution](#setuppy-execution) (1)
+- [setup.py scripts drop](#setuppy-scripts-drop) (1)
 - [SHA pinning](#sha-pinning) (1)
 - [shadow AI](#shadow-ai) (1)
 - [shadow copy](#shadow-copy) (1)
@@ -4970,7 +4976,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [superuser escalation](#superuser-escalation) (1)
 - [supply chain](#supply-chain) (27)
-- [supply chain attack](#supply-chain-attack) (13)
+- [supply chain attack](#supply-chain-attack) (14)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (132)
 - [supply-chain attack](#supply-chain-attack) (2)
@@ -5186,7 +5192,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (89)
+- [tools](#tools) (90)
 - [Tor](#tor) (5)
 - [torrent-compromise](#torrent-compromise) (1)
 - [Tortoiseshell](#tortoiseshell) (2)
@@ -5243,6 +5249,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TruffleHog](#trufflehog) (1)
 - [trust boundary](#trust-boundary) (3)
 - [trust primitives](#trust-primitives) (1)
+- [trust-building bait](#trust-building-bait) (1)
 - [trusted extension risk](#trusted-extension-risk) (2)
 - [trusted interpreter](#trusted-interpreter) (1)
 - [trusted publishing](#trusted-publishing) (3)
@@ -5758,6 +5765,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zero Trust](#zero-trust) (1)
 - [zero-balance](#zero-balance) (1)
 - [zero-click](#zero-click) (3)
+- [zero-code package](#zero-code-package) (1)
 - [zero-day](#zero-day) (17)
 - [zero-day exploitation](#zero-day-exploitation) (1)
 - [zero-ghsa](#zero-ghsa) (1)
@@ -6066,6 +6074,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
 - [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 
+## Active Directory reconnaissance
+- [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
+
 ## active exploitation
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
@@ -6245,6 +6256,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## addon domain
 - [cPanel/WHM CVE-2026-65643: parked/addon-domain file write yields root code execution on shared hosting](../ops/cpanel-whm-cve-2026-65643-parked-addon-domain-root-rce.md)
+
+## ADExplorer
+- [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
 
 ## Adform
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
@@ -16047,6 +16061,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
 
 ## impersonation
+- [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
 - [Microsoft: AI-assisted executive impersonation and invoice fraud — million-email ACH scam (Sep 10, 2026)](../ops/microsoft-ai-assisted-executive-impersonation-invoice-fraud-ach-campaign-september-2026.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
@@ -16913,6 +16928,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## kam193
 - [`agentaix` + `media-manager5` (PyPI) — the `2026-10-agentaix` two-name RAT pair: persistent-job installers doing file exfiltration + remote-code execution to `googleforum.pythonanywhere.com` — kam193 lane, OSV → GHSA mirror measured at ≈93 min, BOTH names PyPI-QUARANTINED within ~1.5 h of OSV arrival, C2 answering `200` at this wiki's check](../tools/agentaix-media-manager5-pypi-rat-pythonanywhere-c2-kam193-october-2026.md)
+- [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
 - [`webreader` + `pafer` (PyPI) — the kam193 `2026-10-webreader` pickle-as-config RAT pair: a binary `default.config` in the main package, a dependency whose "config loader" unpickles it, `bypit` + `mypyc_abi3.pth` boot-persistence on every interpreter start, module-gated XOR stage, `memfd_create` fileless exec, npoint.io stage drop, Supabase edge-function C2 — AND BOTH NAMES STILL `project-status=active` + installable ~27 h AFTER THEIR OWN OSVs, while the same analyst's other campaign died in ~1.5 h = THE QUARANTINE DIFFERENTIAL IS NOT KEYED ON THE SOURCE](../tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026.md)
 
 ## Kaspersky
@@ -17573,6 +17589,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Live Protect
 - [Cisco Nexus 9000 CVE-2026-20212: unauthenticated root RCE on 10 Silicon One-based switches — plus a 7-CVE IOS XR hardening release](../ops/cisco-nexus-9000-cve-2026-20212-unauth-root-rce-september-2026.md)
+
+## live-after-advisory
+- [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
 
 ## live-packages
 - [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026) — CLOSED SAME DAY (see State below): npm `latest` = clean 0.1.24, malicious versions unpublished; PyPI lifted the project quarantine at clean 2.0.33 with 2.0.34 surgically removed; OSV `MAL-2026-16475`/`16476` + `GHSA-mhjf-v53x-7p87` landed 11:05/11:53 UTC)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
@@ -19735,6 +19754,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## notebookjs
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
 
+## Notepad++
+- [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
+
 ## notification interception
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
@@ -21600,6 +21622,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 
 ## password-protected archive
+- [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
@@ -21762,6 +21785,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## payload storage
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](../ops/ox-clickfix-phishing-npm-mirror-payload-storage.md)
+
+## payload swap
+- [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
 
 ## payload-as-a-service
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
@@ -22869,6 +22895,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PyPI
 - [`agentaix` + `media-manager5` (PyPI) — the `2026-10-agentaix` two-name RAT pair: persistent-job installers doing file exfiltration + remote-code execution to `googleforum.pythonanywhere.com` — kam193 lane, OSV → GHSA mirror measured at ≈93 min, BOTH names PyPI-QUARANTINED within ~1.5 h of OSV arrival, C2 answering `200` at this wiki's check](../tools/agentaix-media-manager5-pypi-rat-pythonanywhere-c2-kam193-october-2026.md)
 - [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+- [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
 - [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
 - [`pyyi` (PyPI) — the `py2ops` operator's NEXT NAME: a single-release `2.4.1` "python companion shell" that installs the same `python2` console script, bakes the SAME two `space-z.ai` C2 rails (byte-identical slugs), carries the full post-`2.3.1` self-heal feature set from birth, and adds an explicit server-fetched payload exec path — LIVE, ACTIVE on PyPI, ZERO OSV + ZERO GHSA ≈11.7 h; curated PR ossf/malicious-packages #1627 open ≈5.4 h; this wiki pulled and statically read the wheel (no execution) and re-probed both baked rails: `POST /api/cli/init` still answers `200 {"ok":true,"apiKey":"ptm_…"}` on BOTH](../tools/pyyi-pypi-python2-companion-shell-py2ops-successor-shared-space-z-rails-october-2026.md)
 - [`webreader` + `pafer` (PyPI) — the kam193 `2026-10-webreader` pickle-as-config RAT pair: a binary `default.config` in the main package, a dependency whose "config loader" unpickles it, `bypit` + `mypyc_abi3.pth` boot-persistence on every interpreter start, module-gated XOR stage, `memfd_create` fileless exec, npoint.io stage drop, Supabase edge-function C2 — AND BOTH NAMES STILL `project-status=active` + installable ~27 h AFTER THEIR OWN OSVs, while the same analyst's other campaign died in ~1.5 h = THE QUARANTINE DIFFERENTIAL IS NOT KEYED ON THE SOURCE](../tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026.md)
@@ -24290,6 +24317,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
 ## scanner evasion
+- [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 
 ## ScarCruft
@@ -24775,6 +24803,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## setup.py execution
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
+
+## setup.py scripts drop
+- [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
 
 ## SHA pinning
 - [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
@@ -26091,6 +26122,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [`@veai-ru/ai-agent` (npm) — a malicious-by-design terminal AI coding AGENT: obfuscator.io extensions that replace the host agent's system prompt with attacker-controlled content, exfiltrate full session activity to `plugin.veai.ru/telemetry`, read MCP configurations, run a Keycloak OAuth harvest flow, and pull additional components from a Yandex Cloud bucket — LIVE at `latest = 0.3.2`, ZERO OSV + ZERO GHSA, curated queue PR ossf/malicious-packages #1617 only; this wiki pulled and statically inspected the published tarball (no execution) and verified every baked endpoint answering on the network at check](../tools/veai-ru-ai-agent-npm-ai-coding-agent-session-exfil-prompt-injection-keycloak-oauth-yandex-delivery-october-2026.md)
 - [`agentaix` + `media-manager5` (PyPI) — the `2026-10-agentaix` two-name RAT pair: persistent-job installers doing file exfiltration + remote-code execution to `googleforum.pythonanywhere.com` — kam193 lane, OSV → GHSA mirror measured at ≈93 min, BOTH names PyPI-QUARANTINED within ~1.5 h of OSV arrival, C2 answering `200` at this wiki's check](../tools/agentaix-media-manager5-pypi-rat-pythonanywhere-c2-kam193-october-2026.md)
 - [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+- [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
 - [`passwordcracker` + `passwordcrackv2` (npm) — byte-identical twin "Discord MFA library" packages whose only runtime dependency is a URL-pinned GitHub tarball that executes AT LOAD TIME: a Windows-only stager writing `winsvc.js` into fake WinSxS/Themes/Caches dirs with four-path VBS persistence, fetching a 1.79-MB webpack-obfuscated second stage behind a fake "Microsoft Edge WebView2" license header from `limbomail.com` → 302 into a Replit GCS object store — BOTH LIVE ≈2 days, ZERO OSV + ZERO GHSA; curated PR ossf/malicious-packages #1624 open unmerged](../tools/passwordcracker-passwordcrackv2-npm-url-pinned-git-tarball-windows-stager-limbomail-replit-october-2026.md)
 - [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
 - [`pyyi` (PyPI) — the `py2ops` operator's NEXT NAME: a single-release `2.4.1` "python companion shell" that installs the same `python2` console script, bakes the SAME two `space-z.ai` C2 rails (byte-identical slugs), carries the full post-`2.3.1` self-heal feature set from birth, and adds an explicit server-fetched payload exec path — LIVE, ACTIVE on PyPI, ZERO OSV + ZERO GHSA ≈11.7 h; curated PR ossf/malicious-packages #1627 open ≈5.4 h; this wiki pulled and statically read the wheel (no execution) and re-probed both baked rails: `POST /api/cli/init` still answers `200 {"ok":true,"apiKey":"ptm_…"}` on BOTH](../tools/pyyi-pypi-python2-companion-shell-py2ops-successor-shared-space-z-rails-october-2026.md)
@@ -27018,6 +27050,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [`@veai-ru/ai-agent` (npm) — a malicious-by-design terminal AI coding AGENT: obfuscator.io extensions that replace the host agent's system prompt with attacker-controlled content, exfiltrate full session activity to `plugin.veai.ru/telemetry`, read MCP configurations, run a Keycloak OAuth harvest flow, and pull additional components from a Yandex Cloud bucket — LIVE at `latest = 0.3.2`, ZERO OSV + ZERO GHSA, curated queue PR ossf/malicious-packages #1617 only; this wiki pulled and statically inspected the published tarball (no execution) and verified every baked endpoint answering on the network at check](../tools/veai-ru-ai-agent-npm-ai-coding-agent-session-exfil-prompt-injection-keycloak-oauth-yandex-delivery-october-2026.md)
 - [`agentaix` + `media-manager5` (PyPI) — the `2026-10-agentaix` two-name RAT pair: persistent-job installers doing file exfiltration + remote-code execution to `googleforum.pythonanywhere.com` — kam193 lane, OSV → GHSA mirror measured at ≈93 min, BOTH names PyPI-QUARANTINED within ~1.5 h of OSV arrival, C2 answering `200` at this wiki's check](../tools/agentaix-media-manager5-pypi-rat-pythonanywhere-c2-kam193-october-2026.md)
 - [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+- [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
 - [`passwordcracker` + `passwordcrackv2` (npm) — byte-identical twin "Discord MFA library" packages whose only runtime dependency is a URL-pinned GitHub tarball that executes AT LOAD TIME: a Windows-only stager writing `winsvc.js` into fake WinSxS/Themes/Caches dirs with four-path VBS persistence, fetching a 1.79-MB webpack-obfuscated second stage behind a fake "Microsoft Edge WebView2" license header from `limbomail.com` → 302 into a Replit GCS object store — BOTH LIVE ≈2 days, ZERO OSV + ZERO GHSA; curated PR ossf/malicious-packages #1624 open unmerged](../tools/passwordcracker-passwordcrackv2-npm-url-pinned-git-tarball-windows-stager-limbomail-replit-october-2026.md)
 - [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
 - [`pyyi` (PyPI) — the `py2ops` operator's NEXT NAME: a single-release `2.4.1` "python companion shell" that installs the same `python2` console script, bakes the SAME two `space-z.ai` C2 rails (byte-identical slugs), carries the full post-`2.3.1` self-heal feature set from birth, and adds an explicit server-fetched payload exec path — LIVE, ACTIVE on PyPI, ZERO OSV + ZERO GHSA ≈11.7 h; curated PR ossf/malicious-packages #1627 open ≈5.4 h; this wiki pulled and statically read the wheel (no execution) and re-probed both baked rails: `POST /api/cli/init` still answers `200 {"ok":true,"apiKey":"ptm_…"}` on BOTH](../tools/pyyi-pypi-python2-companion-shell-py2ops-successor-shared-space-z-rails-october-2026.md)
@@ -27299,6 +27332,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## trust primitives
 - [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
+
+## trust-building bait
+- [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
 
 ## trusted extension risk
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
@@ -29369,6 +29405,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 - [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
+
+## zero-code package
+- [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
 
 ## zero-day
 - [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
