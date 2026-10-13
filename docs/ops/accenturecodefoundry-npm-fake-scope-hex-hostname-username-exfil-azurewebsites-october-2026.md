@@ -64,3 +64,14 @@
 - [npp-ml (PyPI) — swap ladder under one continuously-advised name](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md) — the live-iteration-against-advisory pattern this campaign reproduces against a disclosure PR instead
 - [`@chatest/baileys` seizure](baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md#october-13-chatest-seizure) — the single-name scope-squat grammar, with the opposite enforcement outcome (46 h zero-record here vs publish-minute seizure there)
 - [121st stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-13-one-hundred-and-twenty-first-sweep)
+
+## October 13 same-day follow-up (122nd sweep, ~19:2x UTC): NOT a single-name squat — THREE names, TWO scopes, one account, one live sink; plus a parallel five-name `conx3993` beacon fleet in the same curated PR
+
+Curated PR [`#1634`](https://github.com/ossf/malicious-packages/pull/1634) (filed `17:14:59Z`, 8 names, accounts `priyashareek` + `conx3993`) reveals this campaign already had siblings on a second scope at first filing:
+
+- **`@newspage/libx-amount`** — created `10:48:45.757Z` (46 min after this scope), ladder `0.0.0-stage → 99.99.1 → 99.99.4 → 99.99.41` = the identical rung grammar, `latest 99.99.41`, description `"A simple placeholder for npm."` verbatim; pulled `index.js` = same one-liner beacon, path `/libx`.
+- **`@newspage/lib-ng-async-routes-ui`** — created `12:02:39.682Z`, `latest 99.99.4`, beacon path `/async`.
+
+Execution-rail split inside one kit: this name fires `preinstall: node index.js || true`; the `@newspage` pair ship EMPTY `preinstall`/`postinstall` with `main: "node index.js || true"` — the beacon executes through the require/main path instead of the lifecycle hook. One kit, two execution rails (hook-fired vs main-fired): a hook-only detector misses the `@newspage` half; hunt the call-site grammar (`https.get` of a fixed callback host) not just `scripts`.
+
+The sink is confirmed shared and live: `accenture-npm.azurewebsites.net` answers `200` on `/test` (this name's exfil), `/async`, `/mfe`, `/libx` — three campaigns' paths on one Azure free-tier app. At the 122nd's check all three names remain ZERO OSV/GHSA with every tarball `200`-installable; `#1631` and `#1634` both open. The 121st's "scope search total 1 = single-name squat" read was correct for the scope but wrong for the campaign: **multi-scope distribution is exactly how a single-name seizure is pre-answered; hunt the C2 path set and the placeholder-description/call-site grammar, never the scope.** Sibling fleet in the same PR from `conx3993` (five `realwbx.com` IP-beacon names, incl. `monkey-tags-ip` live since Sep 30) is recorded on the [122nd stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-13-one-hundred-and-twenty-second-sweep).
