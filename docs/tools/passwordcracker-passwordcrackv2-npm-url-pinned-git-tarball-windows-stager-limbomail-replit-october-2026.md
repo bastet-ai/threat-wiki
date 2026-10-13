@@ -56,6 +56,14 @@ Curated queue PR ossf/malicious-packages **#1624** (ir-pranesh-shrestha, filed 2
 - Egress: `limbomail.com/api/attachment/*`, `storage.googleapis.com/replit-objstore-*/.private/attachments/*` from node processes.
 - Windows-only `process.exit(0)` guards in JS packages that advertise cross-platform support.
 
+## <a id="october-12-thirteenth-sweep-static-window"></a>October 12 one-hundred-and-thirteenth sweep: stage-2 content STATIC ≈56 h — signatures rotate per-request, bytes do not
+
+Re-fetch at ~23:30 UTC: `limbomail.com` attachment path `302` → presigned Replit GCS with a fresh `X-Goog-Date 20261012T233016Z` (same bucket `replit-objstore-0605aa22-…`), final `200`, **1,795,585 B, sha256 `23c9d188e3ee95a5…` — BYTE-IDENTICAL to the 109th-sweep capture ≈56 h ago**. The fresh signature per request was always the attachment-router re-signing its own private object, not evidence of content churn; the Sep-23 in-place rotation precedent (that URL family rotated within ~3 h) did NOT repeat on this path. Refine the page's earlier monitor claim: the loader's HEAD size-gate updater CAN take new content whenever the operator replaces the object, but content replacement is an event, not a baseline — **track the size+sha, treat the X-Goog-Date as noise**. Pair status unchanged: LIVE `1.1.1`, zero OSV + zero GHSA ≈74 h, npm holders empty, `1.1.1` dependency still pins `lunexindonesia/node-net-pool` `main.tar.gz`.
+
+## <a id="october-13-fourteenth-sweep-third-static-read"></a>October 13 one-hundred-and-fourteenth sweep: third consecutive identical stage-2 read ≈58 h — and a path-gate lesson from the wrong side
+
+Third byte-identical fetch at ~01:30 UTC: `200`, 1,795,585 B, sha256 `23c9d188e3ee95a5…` — the bundle has now cleared three checks (109th/113th/114th) without moving. At this length the static window (≈58 h) exceeds the entire pre-rotation stability the Sep-23 generation showed before its rebuild; treat any future hash change as an operator EVENT worth its own timeline, not churn. Honest-record path note: this sweep's first fetch used a reconstructed SHORT object-id attachment path (a UUID seen in a `302` hop) and read `404` — the router serves ONLY the long baked-token path; short object-ids do not resolve. Anyone pivoting off a captured presigned object URL will find it unrefetchable at the front — the durable IoC is the long `/api/attachment/<token>/…` path, never the object id. Version inventory recorded for the pair: `passwordcracker` `[0.0.0-stage, 1.0.0, 1.1.1]`, `passwordcrackv2` `[0.0.0-stage, 1.1.0, 1.1.1]` — the `0.0.0-stage` staging stubs are still published on both names (same staging grammar as the 111th's `@yudzxml/baileys` re-arm capture), ≈75 h with zero OSV + zero GHSA.
+
 ## Monitor
 
 - OSV/GHSA arrival for the pair (first measured machine-lane clock on a URL-pinned-delivery artifact?), #1624 merge-or-rot (≈10 h unmerged at check).
