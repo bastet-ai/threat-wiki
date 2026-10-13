@@ -672,6 +672,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser-based attack](#browser-based-attack) (1)
 - [browser-based c2](#browser-based-c2) (1)
 - [browser-credential-theft](#browser-credential-theft) (1)
+- [browser-data-theft](#browser-data-theft) (1)
 - [browser-extension](#browser-extension) (1)
 - [browser-extensions](#browser-extensions) (2)
 - [Browser-in-the-middle](#browser-in-the-middle) (1)
@@ -1119,7 +1120,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential stealer](#credential-stealer) (1)
 - [credential stuffing](#credential-stuffing) (2)
 - [credential theft](#credential-theft) (91)
-- [credential-theft](#credential-theft) (57)
+- [credential-theft](#credential-theft) (58)
 - [credit card theft](#credit-card-theft) (1)
 - [crimeware](#crimeware) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -1641,6 +1642,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dead-drop](#dead-drop) (3)
 - [dead-drop resolution](#dead-drop-resolution) (1)
 - [dead-drop resolver](#dead-drop-resolver) (3)
+- [dead-drop-hosting](#dead-drop-hosting) (1)
 - [DeadLock](#deadlock) (1)
 - [Debian](#debian) (1)
 - [debugger evasion](#debugger-evasion) (1)
@@ -2194,6 +2196,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FofaMap](#fofamap) (1)
 - [folderOpen](#folderopen) (1)
 - [font1.woff2](#font1woff2) (1)
+- [fontcase](#fontcase) (1)
 - [forced channel follow](#forced-channel-follow) (1)
 - [fordmotbvmorcompany.vu](#fordmotbvmorcompanyvu) (1)
 - [foreign affairs targeting](#foreign-affairs-targeting) (2)
@@ -2291,7 +2294,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GhostContainer](#ghostcontainer) (1)
 - [GhostLock](#ghostlock) (1)
 - [GhostWebShell](#ghostwebshell) (1)
-- [ghsa](#ghsa) (1)
+- [ghsa](#ghsa) (2)
 - [GHSA-2679-6mx9-h9xc](#ghsa-2679-6mx9-h9xc) (1)
 - [GHSA-284h-m62q-gf8w](#ghsa-284h-m62q-gf8w) (1)
 - [GHSA-2943-5xfg-gq5f](#ghsa-2943-5xfg-gq5f) (1)
@@ -2354,8 +2357,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Security Advisories](#github-security-advisories) (9)
 - [GitHub tokens](#github-tokens) (2)
 - [GitHub tool hosting](#github-tool-hosting) (1)
+- [github-abuse](#github-abuse) (1)
+- [github-actions](#github-actions) (2)
 - [GitHub-Actions](#github-actions) (1)
-- [github-actions](#github-actions) (1)
 - [GitHub-Advisories](#github-advisories) (1)
 - [github-c2](#github-c2) (1)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
@@ -2696,7 +2700,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
 - [information disclosure](#information-disclosure) (5)
 - [information stealer](#information-stealer) (1)
-- [infostealer](#infostealer) (34)
+- [infostealer](#infostealer) (35)
 - [infotainment](#infotainment) (1)
 - [InfoTeCS](#infotecs) (1)
 - [infrastructure](#infrastructure) (6)
@@ -2858,7 +2862,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kaitori](#kaitori) (1)
 - [Kali365](#kali365) (2)
 - [Kaltura](#kaltura) (1)
-- [kam193](#kam193) (3)
+- [kam193](#kam193) (4)
 - [Kaspersky](#kaspersky) (5)
 - [kaspersky](#kaspersky) (1)
 - [Kaspersky detection bypass](#kaspersky-detection-bypass) (1)
@@ -3165,7 +3169,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malicious theme](#malicious-theme) (1)
-- [malicious-package](#malicious-package) (12)
+- [malicious-package](#malicious-package) (13)
 - [malvertising](#malvertising) (11)
 - [malware](#malware) (69)
 - [malware analysis](#malware-analysis) (2)
@@ -3728,7 +3732,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (454)
+- [ops](#ops) (455)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -3751,8 +3755,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OSCrypt](#oscrypt) (1)
 - [ossf malicious-packages](#ossf-malicious-packages) (5)
 - [Ossprey](#ossprey) (1)
+- [osv](#osv) (3)
 - [OSV](#osv) (5)
-- [osv](#osv) (2)
 - [OSV malware stream](#osv-malware-stream) (4)
 - [OT](#ot) (6)
 - [OT switches](#ot-switches) (1)
@@ -4155,7 +4159,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PyArmor](#pyarmor) (4)
 - [PyInstaller](#pyinstaller) (2)
 - [PyPI](#pypi) (25)
-- [pypi](#pypi) (1)
+- [pypi](#pypi) (2)
 - [pypls/requests](#pyplsrequests) (1)
 - [Python](#python) (22)
 - [Python extension modules](#python-extension-modules) (1)
@@ -4181,6 +4185,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [QTRouter](#qtrouter) (1)
 - [quantitative finance](#quantitative-finance) (1)
 - [quantum computing](#quantum-computing) (1)
+- [quarantine](#quarantine) (1)
 - [Quasar](#quasar) (1)
 - [query injection](#query-injection) (1)
 - [Quest KACE SMA](#quest-kace-sma) (1)
@@ -4989,7 +4994,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (27)
 - [supply chain attack](#supply-chain-attack) (14)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (134)
+- [supply-chain](#supply-chain) (135)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -5115,6 +5120,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telegram exfiltration](#telegram-exfiltration) (1)
 - [Telegram notification](#telegram-notification) (1)
 - [Telegram session theft](#telegram-session-theft) (1)
+- [telegram-bot](#telegram-bot) (1)
 - [Telegraph dead drop](#telegraph-dead-drop) (1)
 - [telemetry](#telemetry) (1)
 - [telemetry exfil](#telemetry-exfil) (1)
@@ -5359,6 +5365,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Uni-App](#uni-app) (1)
 - [UniBLEed](#unibleed) (1)
 - [Unicode](#unicode) (1)
+- [unicodeces](#unicodeces) (1)
 - [UniFi](#unifi) (1)
 - [UniFi OS](#unifi-os) (1)
 - [Unified CM SME](#unified-cm-sme) (1)
@@ -8473,6 +8480,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## browser-credential-theft
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 
+## browser-data-theft
+- [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
+
 ## browser-extension
 - [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 
@@ -10426,6 +10436,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## credential-theft
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
+- [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
@@ -12290,6 +12301,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Aeternum](../tools/aeternum.md)
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
+
+## dead-drop-hosting
+- [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 
 ## DeadLock
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
@@ -14453,6 +14467,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## font1.woff2
 - [RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
 
+## fontcase
+- [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
+
 ## forced channel follow
 - [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 
@@ -14781,6 +14798,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## ghsa
+- [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 - [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
 
 ## GHSA-2679-6mx9-h9xc
@@ -15036,11 +15054,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub tool hosting
 - [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
-## GitHub-Actions
-- [GhostAction returns: maintainer-account workflow injection sweeps 345 repos, and the October payload mines the ENTIRE git history (StepSecurity, Oct 9, 2026)](../ops/ghostaction-github-actions-workflow-injection-git-history-credential-mining-stepsecurity-october-2026.md)
+## github-abuse
+- [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 
 ## github-actions
+- [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 - [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026) — CLOSED SAME DAY (see State below): npm `latest` = clean 0.1.24, malicious versions unpublished; PyPI lifted the project quarantine at clean 2.0.33 with 2.0.34 surgically removed; OSV `MAL-2026-16475`/`16476` + `GHSA-mhjf-v53x-7p87` landed 11:05/11:53 UTC)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
+
+## GitHub-Actions
+- [GhostAction returns: maintainer-account workflow injection sweeps 345 repos, and the October payload mines the ENTIRE git history (StepSecurity, Oct 9, 2026)](../ops/ghostaction-github-actions-workflow-injection-git-history-credential-mining-stepsecurity-october-2026.md)
 
 ## GitHub-Advisories
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
@@ -16312,6 +16334,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## infostealer
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
+- [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 - [`webreader` + `pafer` (PyPI) — the kam193 `2026-10-webreader` pickle-as-config RAT pair: a binary `default.config` in the main package, a dependency whose "config loader" unpickles it, `bypit` + `mypyc_abi3.pth` boot-persistence on every interpreter start, module-gated XOR stage, `memfd_create` fileless exec, npoint.io stage drop, Supabase edge-function C2 — AND BOTH NAMES STILL `project-status=active` + installable ~27 h AFTER THEIR OWN OSVs, while the same analyst's other campaign died in ~1.5 h = THE QUARANTINE DIFFERENTIAL IS NOT KEYED ON THE SOURCE](../tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026.md)
 - [ACR Stealer](../tools/acr-stealer.md)
 - [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
@@ -16965,6 +16988,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## kam193
 - [`agentaix` + `media-manager5` (PyPI) — the `2026-10-agentaix` two-name RAT pair: persistent-job installers doing file exfiltration + remote-code execution to `googleforum.pythonanywhere.com` — kam193 lane, OSV → GHSA mirror measured at ≈93 min, BOTH names PyPI-QUARANTINED within ~1.5 h of OSV arrival, C2 answering `200` at this wiki's check](../tools/agentaix-media-manager5-pypi-rat-pythonanywhere-c2-kam193-october-2026.md)
+- [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 - [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
 - [`webreader` + `pafer` (PyPI) — the kam193 `2026-10-webreader` pickle-as-config RAT pair: a binary `default.config` in the main package, a dependency whose "config loader" unpickles it, `bypit` + `mypyc_abi3.pth` boot-persistence on every interpreter start, module-gated XOR stage, `memfd_create` fileless exec, npoint.io stage drop, Supabase edge-function C2 — AND BOTH NAMES STILL `project-status=active` + installable ~27 h AFTER THEIR OWN OSVs, while the same analyst's other campaign died in ~1.5 h = THE QUARANTINE DIFFERENTIAL IS NOT KEYED ON THE SOURCE](../tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026.md)
 
@@ -18165,6 +18189,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 
 ## malicious-package
+- [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 - [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 - [DirtyBlanket: nine npm Express/React clones publish a self-spreading Linux worm whose loader is served through the Wayback Machine — CHAOS RAT behind Tor, `chattr +i` fake systemd font persistence, SSH-key lateral movement, and automated AUR `PKGBUILD.install` + npm-token republish poisoning](../ops/dirtyblanket-npm-express-clone-linux-worm-wayback-codeberg-aur-chaos-tor-safedep-september-2026.md)
 - [MALFEX: one Portuguese-language npm operator, twelve packages, two delivery arms, three years of continuity — and the advisory pipeline's gap made visible: `function-flag` sat as a malicious postinstall with NO advisory for fourteen months, and `cdn-img-fetch` stayed installable after npm seized its parent](../ops/malfex-npm-single-operator-two-arms-function-flag-14-month-unadvised-postinstall-cloudsek-september-2026.md)
@@ -20809,6 +20834,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
+- [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
@@ -21330,16 +21356,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Ossprey
 - [DirtyBlanket: nine npm Express/React clones publish a self-spreading Linux worm whose loader is served through the Wayback Machine — CHAOS RAT behind Tor, `chattr +i` fake systemd font persistence, SSH-key lateral movement, and automated AUR `PKGBUILD.install` + npm-token republish poisoning](../ops/dirtyblanket-npm-express-clone-linux-worm-wayback-codeberg-aur-chaos-tor-safedep-september-2026.md)
 
+## osv
+- [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
+- [GSUT `@gsutevil/hta-stage` HTA/WSH MSI loader + `hta-ui` Banco do Brasil landing templates (npm, OSV MAL-2026-16419, Sep 22-23, 2026)](../tools/gsut-hta-stage-loader-banco-do-brasil-landing-templates-npm-september-2026.md)
+- [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
+
 ## OSV
 - [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 - [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
 - [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
-
-## osv
-- [GSUT `@gsutevil/hta-stage` HTA/WSH MSI loader + `hta-ui` Banco do Brasil landing templates (npm, OSV MAL-2026-16419, Sep 22-23, 2026)](../tools/gsut-hta-stage-loader-banco-do-brasil-landing-templates-npm-september-2026.md)
-- [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
 
 ## OSV malware stream
 - [`agentaix` + `media-manager5` (PyPI) — the `2026-10-agentaix` two-name RAT pair: persistent-job installers doing file exfiltration + remote-code execution to `googleforum.pythonanywhere.com` — kam193 lane, OSV → GHSA mirror measured at ≈93 min, BOTH names PyPI-QUARANTINED within ~1.5 h of OSV arrival, C2 answering `200` at this wiki's check](../tools/agentaix-media-manager5-pypi-rat-pythonanywhere-c2-kam193-october-2026.md)
@@ -22975,6 +23002,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## pypi
+- [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 - [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026) — CLOSED SAME DAY (see State below): npm `latest` = clean 0.1.24, malicious versions unpublished; PyPI lifted the project quarantine at clean 2.0.33 with 2.0.34 surgically removed; OSV `MAL-2026-16475`/`16476` + `GHSA-mhjf-v53x-7p87` landed 11:05/11:53 UTC)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 
 ## pypls/requests
@@ -23081,6 +23109,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## quantum computing
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
+
+## quarantine
+- [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 
 ## Quasar
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
@@ -26203,6 +26234,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
+- [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
@@ -26777,6 +26809,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Telegram session theft
 - [Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia](../ops/armored-likho-still-toolkit-russia-campaign.md)
+
+## telegram-bot
+- [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 
 ## Telegraph dead drop
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
@@ -27817,6 +27852,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Unicode
 - [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
+
+## unicodeces
+- [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 
 ## UniFi
 - [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
