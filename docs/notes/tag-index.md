@@ -51,6 +51,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [academic research](#academic-research) (1)
 - [academic sector](#academic-sector) (2)
 - [Accellion](#accellion) (1)
+- [accenturecodefoundry](#accenturecodefoundry) (1)
 - [access as a service](#access-as-a-service) (2)
 - [access broker](#access-broker) (2)
 - [access brokers](#access-brokers) (2)
@@ -489,6 +490,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Azure Storage](#azure-storage) (1)
 - [Azure Websites C2](#azure-websites-c2) (2)
 - [Azure-AI-Foundry](#azure-ai-foundry) (1)
+- [azure-app-service](#azure-app-service) (1)
 - [Azure-Cosmos-DB](#azure-cosmos-db) (1)
 - [Azure-PostgreSQL](#azure-postgresql) (1)
 - [Babuk](#babuk) (1)
@@ -629,7 +631,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [branch-compromise](#branch-compromise) (1)
 - [branch-name-injection](#branch-name-injection) (1)
 - [brand impersonation](#brand-impersonation) (5)
-- [brand-impersonation](#brand-impersonation) (2)
+- [brand-impersonation](#brand-impersonation) (3)
 - [BraZetsu](#brazetsu) (2)
 - [Brazil](#brazil) (8)
 - [brazil](#brazil) (1)
@@ -1610,7 +1612,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data leak site](#data-leak-site) (3)
 - [data scraping](#data-scraping) (1)
 - [data theft](#data-theft) (11)
-- [data-exfiltration](#data-exfiltration) (1)
+- [data-exfiltration](#data-exfiltration) (2)
 - [database](#database) (1)
 - [database extortion](#database-extortion) (1)
 - [Datadog](#datadog) (1)
@@ -1804,6 +1806,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [domain impersonation](#domain-impersonation) (1)
 - [domain squatting](#domain-squatting) (1)
 - [domain verification](#domain-verification) (1)
+- [domain-lookalike](#domain-lookalike) (1)
 - [DomainTools](#domaintools) (1)
 - [domestic espionage](#domestic-espionage) (1)
 - [Doraemon](#doraemon) (1)
@@ -2708,7 +2711,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [insecure deserialization](#insecure-deserialization) (1)
 - [insider threat](#insider-threat) (1)
 - [Insomnia RAT](#insomnia-rat) (1)
-- [install-script](#install-script) (5)
+- [install-script](#install-script) (6)
 - [install-time execution](#install-time-execution) (7)
 - [install-time-execution](#install-time-execution) (2)
 - [install.res.1033.dll](#installres1033dll) (1)
@@ -2728,6 +2731,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [investment scam](#investment-scam) (1)
 - [invisible prompt injection](#invisible-prompt-injection) (1)
 - [InvisibleFerret](#invisibleferret) (1)
+- [invisirisk](#invisirisk) (1)
 - [invocation logging](#invocation-logging) (1)
 - [invoice fraud](#invoice-fraud) (1)
 - [iOS](#ios) (3)
@@ -3158,7 +3162,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malicious theme](#malicious-theme) (1)
-- [malicious-package](#malicious-package) (10)
+- [malicious-package](#malicious-package) (11)
 - [malvertising](#malvertising) (11)
 - [malware](#malware) (69)
 - [malware analysis](#malware-analysis) (2)
@@ -3566,7 +3570,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies](#novacookies) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (90)
+- [npm](#npm) (91)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -3720,7 +3724,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (452)
+- [ops](#ops) (453)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -4030,7 +4034,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pre-authentication RCE](#pre-authentication-rce) (3)
 - [pre-signed URL](#pre-signed-url) (2)
 - [Prefetch](#prefetch) (1)
-- [preinstall](#preinstall) (7)
+- [preinstall](#preinstall) (8)
 - [PreppHint](#prepphint) (1)
 - [presigned URLs](#presigned-urls) (1)
 - [primary keys](#primary-keys) (1)
@@ -4049,6 +4053,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [privilege-escalation](#privilege-escalation) (2)
 - [privileged proxy](#privileged-proxy) (1)
 - [Privileged Remote Access](#privileged-remote-access) (1)
+- [priyashareek](#priyashareek) (1)
 - [prl_disp_service](#prl_disp_service) (1)
 - [PRNG](#prng) (1)
 - [proc-macro1](#proc-macro1) (1)
@@ -4501,7 +4506,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sckit](#sckit) (1)
 - [SCMBANKER](#scmbanker) (2)
 - [scope squatting](#scope-squatting) (1)
-- [scope-squat](#scope-squat) (3)
+- [scope-squat](#scope-squat) (4)
 - [scoped package impersonation](#scoped-package-impersonation) (1)
 - [scorer manipulation](#scorer-manipulation) (1)
 - [SCOUTCURL](#scoutcurl) (1)
@@ -4978,7 +4983,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (27)
 - [supply chain attack](#supply-chain-attack) (14)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (132)
+- [supply-chain](#supply-chain) (133)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -5966,6 +5971,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Accellion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
+
+## accenturecodefoundry
+- [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 
 ## access as a service
 - [BraZetsu: Python-based Windows IAB master toolkit fueling the "Infected Marketplace" (Group-IB, Sep 3, 2026)](../tools/brazetsu.md)
@@ -7735,6 +7743,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Azure-AI-Foundry
 - [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
 
+## azure-app-service
+- [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
+
 ## Azure-Cosmos-DB
 - [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
 
@@ -8273,6 +8284,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## brand-impersonation
 - [JWR phishing framework (likely The Outsider variant)](../ops/jwr-phaas-phishing-framework-outsider-variant.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
+- [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 
 ## BraZetsu
 - [BraZetsu: Python-based Windows IAB master toolkit fueling the "Infected Marketplace" (Group-IB, Sep 3, 2026)](../tools/brazetsu.md)
@@ -12165,6 +12177,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## data-exfiltration
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
+- [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 
 ## database
 - [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
@@ -12966,6 +12979,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## domain verification
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
+
+## domain-lookalike
+- [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 
 ## DomainTools
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
@@ -16384,6 +16400,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## install-script
 - [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
+- [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
@@ -16454,6 +16471,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## InvisibleFerret
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
+
+## invisirisk
+- [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 
 ## invocation logging
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
@@ -18133,6 +18153,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MALFEX: one Portuguese-language npm operator, twelve packages, two delivery arms, three years of continuity — and the advisory pipeline's gap made visible: `function-flag` sat as a malicious postinstall with NO advisory for fourteen months, and `cdn-img-fetch` stayed installable after npm seized its parent](../ops/malfex-npm-single-operator-two-arms-function-flag-14-month-unadvised-postinstall-cloudsek-september-2026.md)
 - [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 - [RubyGems 24-gem crypto-utility fleet — the `45.138.12.177` C2 RETURNS under fresh names: 24 gems pushed in an 83-second scripted window (Oct 11 06:52:40–06:54:02Z), every one `0.9.1`, every `extconf.rb` a base64 double-fork `/bin/sh`-over-TCP reverse shell to **the SAME `45.138.12.177:8089`** the Wallet Guard wgkit fleet used — with the `bitcoin_rpc_lite_native` makefile name and the Oct-5 counter-forensics gates (CI / ephemeral-host / generated-user / analysis-path / uptime>30 min / dev-signals) baked in as shipped defaults — and for the FIRST TIME on this ledger a RubyGems malware fleet dual-advised 24/24 from day one (OSV `MAL-2026-17779`–`17802` + a 24-record same-second GHSA batch 15:31:13Z) while every gem stays LIVE and the C2 box itself has gone fully DARK](../ops/rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026.md)
+- [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
@@ -19850,6 +19871,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026) — CLOSED SAME DAY (see State below): npm `latest` = clean 0.1.24, malicious versions unpublished; PyPI lifted the project quarantine at clean 2.0.33 with 2.0.34 surgically removed; OSV `MAL-2026-16475`/`16476` + `GHSA-mhjf-v53x-7p87` landed 11:05/11:53 UTC)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 - [TeamPCP](../actors/teampcp.md)
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
+- [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
@@ -21142,6 +21164,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 - [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
+- [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
@@ -22468,6 +22491,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
+- [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 
 ## PreppHint
@@ -22544,6 +22568,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Privileged Remote Access
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
+
+## priyashareek
+- [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 
 ## prl_disp_service
 - [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
@@ -24366,6 +24393,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 
 ## scope-squat
+- [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
@@ -26246,6 +26274,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamPCP](../actors/teampcp.md)
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
+- [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
