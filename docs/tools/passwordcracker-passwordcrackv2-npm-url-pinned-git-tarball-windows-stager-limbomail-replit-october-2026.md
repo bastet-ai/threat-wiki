@@ -78,6 +78,12 @@ Ledger-exact long attachment path at ≈05:30 UTC: `302` → presigned Replit GC
 
 Static-window ticks since the close: FIFTH byte-identical read ≈64 h (117th sweep), **SIXTH consecutive byte-identical read ≈66 h (118th sweep, ≈09:56Z: `302` presigned fresh `X-Goog-Date 20261013T095610Z` → `200` / 1,795,585 B / `23c9d188…`)**. Pair status unchanged at the 118th: LIVE `1.1.1` (`modified` frozen `2026-10-10T00:14:18Z`), zero OSV + zero GHSA ≈92 h.
 
+## <a id="october-14-advisories-land"></a>October 14 one-hundred-and-twenty-fifth sweep: ADVISORIES LAND — `#1624` MERGED `23:46:30Z`, BOTH NAMES GO DUAL-ADVISED WITH `introduced: 0` WHOLE-HISTORY SCOPE — AND BOTH ARE STILL SERVING `1.1.1` ≈25 h LATER
+
+`#1624` (the ledger's longest queue dwell, ≈42 h) MERGED `2026-10-13T23:46:30Z`. OSV `MAL-2026-17864` (`passwordcracker`) + `MAL-2026-17865` (`passwordcrackv2`) flipped `2026-10-14T00:00:04Z` = **merge→OSV `13 m 34 s`**; GHSA `GHSA-jwr3-9ch5-2qw5` + `GHSA-75f2-wpm3-2h52` minted **critical `00:31:16–17Z`** in the same four-second batch as the `pyyi`/`crelic` mirrors. Record-shape reads, both durable: (1) **`published` is BACKDATED** to `2026-10-10T00:14:23Z`/`2026-10-09T22:04:05Z` = the registry's own final-publish minutes (retro-mint class, 117th precedent — `modified` is the event); (2) **scope is `introduced: 0` whole-history**, no version enumeration, `> 0` GHSA-side = every rung ever published — `0.0.0-stage`, `1.0.0` (the git-tarball-pin rung), `1.1.0`, `1.1.1` — is inside scope on both lanes. The curated lane independently chose the opencode2 seizure's scope-proof shape for a URL-pinned pair: the npp-ml scope-escape liability cannot recur here.
+
+Registry at ≈`01:3xZ`: `passwordcracker` latest `1.1.1` (`0.0.0-stage/1.0.0/1.1.1`), `passwordcrackv2` latest `1.1.1` (`0.0.0-stage/1.1.0/1.1.1`), both docs `200`, `modified` frozen `2026-10-10T00:14:18Z`, NO holder, NO unpublish = **≈97 h installable zero-record + ≈25 h advise-then-installable through dual criticals** = the ledger's longest combined exposed-live run on a fully-advised pair. Stage-2 rail battery NOT re-run this sweep (third consecutive deferral; streak 50 stands — re-run first next sweep). OSV refs cite the `lunexindonesia/node-net-pool` web-archive pair + MAL `16100`/`15570` = the machine lane knows the repo costume. [125th stream section](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-14-one-hundred-and-twenty-fifth-sweep).
+
 ## Monitor
 
 - OSV/GHSA arrival for the pair (first measured machine-lane clock on a URL-pinned-delivery artifact?), #1624 merge-or-rot (≈10 h unmerged at check).
@@ -85,3 +91,5 @@ Static-window ticks since the close: FIFTH byte-identical read ≈64 h (117th sw
 - Second-stage (`all.js`, sha256 `23c9d188…`) deobfuscation follow-up; whether its capabilities re-qualify this as stealer-class.
 - Sibling names from `kingsize`/`ozturkxdd@gmail.com`; any other package citing `lunexindonesia` repos or `node-net-pool` spelling.
 - Registry action: npm untouched at ≈42 h; `0.0.0-stage` grammar + twin-clone pattern makes more names likely.
+
+**Monitor status after the 125th sweep (Oct 14 ~01:5xZ):** advisories ARRIVED — `#1624` merged `23:46:30Z`, dual OSV (`17864`/`17865`, `introduced: 0` whole-history, published backdated) + dual critical GHSA `00:31:16–17Z`; first measured full machine-lane chain on a URL-pinned-delivery artifact is now curated-lane instead, merge→OSV `13 m 34 s`. Registry STILL untouched ≈25 h post-advisory (`1.1.1` serving both names) — item 5 stays open, now as advise-then-installable. Stage-2 battery (items 2–3) is the standing first task next sweep (streak 50, three sweeps deferred).

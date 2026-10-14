@@ -54,6 +54,7 @@ Durable reads:
 ## Monitor
 
 - `process-manager.exe` survival (repo deletion / GitHub abuse takedown), and whether `unicodeces` re-registers the campaign under a new org/repo or pivots to `SkyHigh-Image-Upscaler`.
+  - **125th-sweep tick (Oct 14 ~01:3xZ): SURVIVAL CHECK #3 — still serving.** `200` / `3,232,768 B` / sha `08c33679…` byte-identical ≈10 h post-deletion; `unicodeces` repo list unchanged (2 repos), `font-atlas` last push `15:34:26Z`, `SkyHigh-Image-Upscaler` last push `10:41:58Z` = no pivot churn, no takedown. Watch stays open.
 - Additional packages sourced from `unicodeces` repos (kam193 `pypi-data`/deps.dev cross-links, OSV source-sha sweeps) — campaign currently one package, but the repo carries `publish-pypi.yml` plumbing built for more.
 - `MAL-2026-17862` alias join onto `GHSA-g72q-7v8m-7r9j` (name-keyed re-read).
 - Whether the PE is unpacked publicly (sandbox reports in the OSV refs: VT + tria.ge) — payload family and Telegram bot token are kam193's claim until a full analysis lands.
