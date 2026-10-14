@@ -65,3 +65,5 @@ Durable reads:
 - [opencode2 fleet page](opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md) — the same day's npm-side seizure-scale datapoint
 - [Blinder Tunnel page](blinder-tunnel-iranian-recruitment-lure-github-c2-shelbyloader-clsta-1178-october-2026.md) — GitHub-as-infrastructure precedent (dead-drop C2), this case the hosting/CDN half of the same idea
 - [123rd stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-13-one-hundred-and-twenty-third-sweep)
+
+**Survival check #4 (126th sweep, Oct 14 ~03:4xZ):** `process-manager.exe` raw URL STILL `200`/`3,232,768 B`/sha `08c33679…` byte-identical ≈`12 h` post-deletion; `font-atlas` commits API head STILL `15:34:24Z` (Oct 13) = zero repo churn, SECOND consecutive no-pivot read. Meanwhile the same battery re-run confirmed a SECOND GitHub-lifer (`lunexindonesia/node-net-pool`, the passwordcracker git-tarball stager, `200` ≈`4.2 d`) — GitHub-repo payload hosting surviving advisories is now a CLASS, not a single case: the takedown queue is a GitHub-abuse lane that neither OSV/GHSA nor registry enforcement reaches.
