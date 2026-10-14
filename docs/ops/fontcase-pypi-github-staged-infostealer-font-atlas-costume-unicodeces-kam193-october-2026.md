@@ -67,3 +67,5 @@ Durable reads:
 - [123rd stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-13-one-hundred-and-twenty-third-sweep)
 
 **Survival check #4 (126th sweep, Oct 14 ~03:4xZ):** `process-manager.exe` raw URL STILL `200`/`3,232,768 B`/sha `08c33679…` byte-identical ≈`12 h` post-deletion; `font-atlas` commits API head STILL `15:34:24Z` (Oct 13) = zero repo churn, SECOND consecutive no-pivot read. Meanwhile the same battery re-run confirmed a SECOND GitHub-lifer (`lunexindonesia/node-net-pool`, the passwordcracker git-tarball stager, `200` ≈`4.2 d`) — GitHub-repo payload hosting surviving advisories is now a CLASS, not a single case: the takedown queue is a GitHub-abuse lane that neither OSV/GHSA nor registry enforcement reaches.
+
+**Survival check #5 (127th sweep, Oct 14 ~05:4xZ):** `process-manager.exe` raw URL STILL `200`/`3,232,768 B`/sha `08c33679…` byte-identical ≈`14 h` post-deletion; `font-atlas` commits head STILL `15:34:24Z` = THIRD consecutive zero-churn read. GitHub-lifer clock keeps running; the GitHub-abuse takedown lane remains the only thing that can close it.
