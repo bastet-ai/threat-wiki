@@ -8,15 +8,15 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 
 ## Popular this week
 <!-- popular-this-week:auto -->
-_Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-07 UTC (27270 of ~684 on-page requests attributable; 84 of 684 path batches ok)._
+_Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-08 UTC (27688 of ~687 on-page requests attributable; 87 of 687 path batches ok)._
+- [Anthropic Threat Intelligence report (September 2026): GTG case studies](/ops/anthropic-threat-intelligence-report-september-2026-ai-augmented-operations/) — 254 reads
 - [CISA KEV September 10–11, 2026 additions: six exploited flaws](/ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026/) — 228 reads
+- [The algamil7x npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attac](/ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026/) — 214 reads
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](/ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026/) — 193 reads
 - [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle](/ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026/) — 192 reads
 - [EvilTokens device-code PhaaS and the Microsoft DCU disruption](/ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026/) — 190 reads
 - [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem](/ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026/) — 155 reads
-- [Anthropic Threat Intelligence report (September 2026): GTG case studies](/ops/anthropic-threat-intelligence-report-september-2026-ai-augmented-operations/) — 146 reads
-- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](/ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026/) — 143 reads
-- [Source index](/notes/source-index/) — 140 reads
-- [ENCFORGE](/tools/encforge/) — 131 reads
+- [Source index](/notes/source-index/) — 154 reads
 <!-- /popular-this-week:auto -->
 
 ## Recent entries
