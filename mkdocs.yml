@@ -683,6 +683,7 @@ nav:
       - Sentry MCP Agentjacking: patterns/sentry-mcp-agentjacking.md
       - LangGraph checkpointer injection and unsafe deserialization: patterns/langgraph-checkpointer-injection-rce.md
       - GitHub Actions OIDC subject-claim collisions: patterns/github-actions-oidc-subject-claim-collisions.md
+      - "Bloom Security SlugFest: npm Trusted Publishing stores the mutable GitHub SLUG, immutable repository_id only after first publish — freed slug (rename/transfer/delete of a never-published binding) claimable -> OIDC exchange yields a valid publish credential for a package you do not own, ZERO credentials stolen, end-to-end demonstrated, 1,500+ packages/10M+ downloads exposed, agent installs ~70/endpoint/month as the distribution layer; fix Oct 2 = 48h expiry on unvalidated bindings, >120 days disclosure-to-fix, GitLab path shares the flaw; name-vs-identity class third on-wiki instance (Oct 13, 2026)": patterns/slugfest-npm-trusted-publishing-github-slug-reclaim-bloom-october-2026.md
       - Cloud logging control-plane tampering: patterns/cloud-logging-control-plane-tampering.md
       - AI-brand impersonation phishing and malvertising: patterns/ai-brand-impersonation-phishing-malvertising.md
       - Microsoft Teams external-chat phishing: patterns/microsoft-teams-external-chat-phishing.md

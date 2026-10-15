@@ -182,7 +182,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI agent](#ai-agent) (5)
 - [AI agent security](#ai-agent-security) (3)
 - [AI agent tooling](#ai-agent-tooling) (3)
-- [AI agents](#ai-agents) (28)
+- [AI agents](#ai-agents) (29)
 - [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (7)
 - [AI assistant credentials](#ai-assistant-credentials) (2)
@@ -2338,7 +2338,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub](#github) (23)
 - [GitHub abuse](#github-abuse) (3)
 - [GitHub account compromise](#github-account-compromise) (1)
-- [GitHub Actions](#github-actions) (29)
+- [GitHub Actions](#github-actions) (30)
 - [GitHub Actions abuse](#github-actions-abuse) (1)
 - [GitHub Advisory Database](#github-advisory-database) (1)
 - [GitHub API](#github-api) (1)
@@ -3577,7 +3577,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies](#novacookies) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (92)
+- [npm](#npm) (93)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -3654,7 +3654,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [office preview pane](#office-preview-pane) (1)
 - [official store compromise](#official-store-compromise) (1)
 - [Offshore LC](#offshore-lc) (1)
-- [OIDC](#oidc) (9)
+- [OIDC](#oidc) (10)
 - [OilRig](#oilrig) (1)
 - [Oj](#oj) (1)
 - [OkoBot](#okobot) (1)
@@ -3869,7 +3869,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (14)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (59)
+- [patterns](#patterns) (60)
 - [Paweł Płatek](#pawe-patek) (1)
 - [pay-per-install](#pay-per-install) (1)
 - [PAYLOAD](#payload) (1)
@@ -4105,7 +4105,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [protobuf](#protobuf) (1)
 - [Proton Mail](#proton-mail) (1)
 - [prototype pollution](#prototype-pollution) (1)
-- [provenance](#provenance) (1)
+- [provenance](#provenance) (2)
 - [Provenance](#provenance) (1)
 - [proxy](#proxy) (12)
 - [proxy botnet](#proxy-botnet) (1)
@@ -4748,6 +4748,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Slow Pisces](#slow-pisces) (1)
 - [SLSA](#slsa) (1)
 - [SLSA provenance](#slsa-provenance) (1)
+- [slug reclaim](#slug-reclaim) (1)
 - [SMA1000](#sma1000) (3)
 - [smart building](#smart-building) (1)
 - [smart contract](#smart-contract) (3)
@@ -4991,7 +4992,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [super peer](#super-peer) (1)
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [superuser escalation](#superuser-escalation) (1)
-- [supply chain](#supply-chain) (27)
+- [supply chain](#supply-chain) (28)
 - [supply chain attack](#supply-chain-attack) (14)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (135)
@@ -5270,6 +5271,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [trusted extension risk](#trusted-extension-risk) (2)
 - [trusted interpreter](#trusted-interpreter) (1)
 - [trusted publishing](#trusted-publishing) (3)
+- [Trusted Publishing](#trusted-publishing) (1)
 - [trusted relationship abuse](#trusted-relationship-abuse) (2)
 - [trusted runtime](#trusted-runtime) (1)
 - [trusted-component weaponization](#trusted-component-weaponization) (1)
@@ -6597,6 +6599,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+- [SlugFest: npm Trusted Publishing bound to reclaimable GitHub slugs — zero-credential package takeover, 1,500+ packages exposed, AI agents as the distribution layer (Bloom Security, October 13, 2026)](../patterns/slugfest-npm-trusted-publishing-github-slug-reclaim-bloom-october-2026.md)
 - [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
 - [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 
@@ -14979,6 +14982,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
+- [SlugFest: npm Trusted Publishing bound to reclaimable GitHub slugs — zero-credential package takeover, 1,500+ packages exposed, AI agents as the distribution layer (Bloom Security, October 13, 2026)](../patterns/slugfest-npm-trusted-publishing-github-slug-reclaim-bloom-october-2026.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 - [TeamPCP](../actors/teampcp.md)
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
@@ -19908,6 +19912,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+- [SlugFest: npm Trusted Publishing bound to reclaimable GitHub slugs — zero-credential package takeover, 1,500+ packages exposed, AI agents as the distribution layer (Bloom Security, October 13, 2026)](../patterns/slugfest-npm-trusted-publishing-github-slug-reclaim-bloom-october-2026.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
@@ -20200,6 +20205,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
+- [SlugFest: npm Trusted Publishing bound to reclaimable GitHub slugs — zero-credential package takeover, 1,500+ packages exposed, AI agents as the distribution layer (Bloom Security, October 13, 2026)](../patterns/slugfest-npm-trusted-publishing-github-slug-reclaim-bloom-october-2026.md)
 
 ## OilRig
 - [Cavern Manticore](../actors/cavern-manticore.md)
@@ -21831,6 +21837,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
 - [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+- [SlugFest: npm Trusted Publishing bound to reclaimable GitHub slugs — zero-credential package takeover, 1,500+ packages exposed, AI agents as the distribution layer (Bloom Security, October 13, 2026)](../patterns/slugfest-npm-trusted-publishing-github-slug-reclaim-bloom-october-2026.md)
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
@@ -22788,6 +22795,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## provenance
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
+- [SlugFest: npm Trusted Publishing bound to reclaimable GitHub slugs — zero-credential package takeover, 1,500+ packages exposed, AI agents as the distribution layer (Bloom Security, October 13, 2026)](../patterns/slugfest-npm-trusted-publishing-github-slug-reclaim-bloom-october-2026.md)
 
 ## Provenance
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
@@ -25263,6 +25271,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SLSA provenance
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 
+## slug reclaim
+- [SlugFest: npm Trusted Publishing bound to reclaimable GitHub slugs — zero-credential package takeover, 1,500+ packages exposed, AI agents as the distribution layer (Bloom Security, October 13, 2026)](../patterns/slugfest-npm-trusted-publishing-github-slug-reclaim-bloom-october-2026.md)
+
 ## SMA1000
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
@@ -26201,6 +26212,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
+- [SlugFest: npm Trusted Publishing bound to reclaimable GitHub slugs — zero-credential package takeover, 1,500+ packages exposed, AI agents as the distribution layer (Bloom Security, October 13, 2026)](../patterns/slugfest-npm-trusted-publishing-github-slug-reclaim-bloom-october-2026.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
@@ -27443,6 +27455,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
+
+## Trusted Publishing
+- [SlugFest: npm Trusted Publishing bound to reclaimable GitHub slugs — zero-credential package takeover, 1,500+ packages exposed, AI agents as the distribution layer (Bloom Security, October 13, 2026)](../patterns/slugfest-npm-trusted-publishing-github-slug-reclaim-bloom-october-2026.md)
 
 ## trusted relationship abuse
 - [Toy Ghouls](../actors/toy-ghouls.md)
