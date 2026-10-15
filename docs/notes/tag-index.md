@@ -952,6 +952,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud-native](#cloud-native) (1)
 - [Cloudflare](#cloudflare) (6)
 - [Cloudflare account compromise](#cloudflare-account-compromise) (1)
+- [cloudflare fronting](#cloudflare-fronting) (1)
 - [Cloudflare gate](#cloudflare-gate) (1)
 - [Cloudflare R2](#cloudflare-r2) (1)
 - [Cloudflare Tunnel](#cloudflare-tunnel) (5)
@@ -1675,7 +1676,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Deno](#deno) (2)
 - [Denys Pakizh](#denys-pakizh) (1)
 - [Dependabot](#dependabot) (1)
-- [dependency confusion](#dependency-confusion) (6)
+- [dependency confusion](#dependency-confusion) (7)
 - [dependency-confusion](#dependency-confusion) (6)
 - [dependency-confusion shaped](#dependency-confusion-shaped) (1)
 - [deployment_status](#deployment_status) (1)
@@ -1949,6 +1950,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [energy sector](#energy-sector) (5)
 - [energy-sector](#energy-sector) (1)
 - [enforcement](#enforcement) (1)
+- [enforcement gap](#enforcement-gap) (1)
 - [engineering](#engineering) (1)
 - [engineering software](#engineering-software) (1)
 - [enterprise AI](#enterprise-ai) (1)
@@ -2658,6 +2660,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [implant](#implant) (1)
 - [import-time execution](#import-time-execution) (6)
 - [import-time-execution](#import-time-execution) (1)
+- [importer lag](#importer-lag) (1)
 - [improper access control](#improper-access-control) (3)
 - [improper authentication](#improper-authentication) (1)
 - [improper authorization](#improper-authorization) (2)
@@ -3169,7 +3172,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malicious theme](#malicious-theme) (1)
-- [malicious-package](#malicious-package) (13)
+- [malicious-package](#malicious-package) (14)
 - [malvertising](#malvertising) (11)
 - [malware](#malware) (69)
 - [malware analysis](#malware-analysis) (2)
@@ -3577,7 +3580,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies](#novacookies) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (93)
+- [npm](#npm) (94)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -3646,8 +3649,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OCI registry](#oci-registry) (1)
 - [OCR content analysis](#ocr-content-analysis) (1)
 - [OctLurk](#octlurk) (2)
+- [October 2026](#october-2026) (1)
 - [Octopi365](#octopi365) (1)
 - [OFAC](#ofac) (2)
+- [off-registry dependency](#off-registry-dependency) (1)
 - [off-registry-dependency](#off-registry-dependency) (1)
 - [OfferLoader](#offerloader) (1)
 - [Office macros](#office-macros) (1)
@@ -3769,6 +3774,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [out-of-band-validation](#out-of-band-validation) (1)
 - [out-of-bounds read](#out-of-bounds-read) (1)
 - [out-of-bounds write](#out-of-bounds-write) (4)
+- [out-of-scope rung](#out-of-scope-rung) (1)
 - [outbound C2](#outbound-c2) (2)
 - [outbreak-alert](#outbreak-alert) (1)
 - [Outlook](#outlook) (2)
@@ -4515,7 +4521,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [scheduled tasks](#scheduled-tasks) (7)
 - [sckit](#sckit) (1)
 - [SCMBANKER](#scmbanker) (2)
-- [scope squatting](#scope-squatting) (1)
+- [scope squatting](#scope-squatting) (2)
 - [scope-squat](#scope-squat) (4)
 - [scoped package impersonation](#scoped-package-impersonation) (1)
 - [scorer manipulation](#scorer-manipulation) (1)
@@ -4921,6 +4927,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [staged malicious update](#staged-malicious-update) (1)
 - [staged payload](#staged-payload) (1)
 - [staged publishing](#staged-publishing) (1)
+- [staging stub](#staging-stub) (1)
 - [staking-precompile](#staking-precompile) (1)
 - [stale access](#stale-access) (1)
 - [stale credentials](#stale-credentials) (1)
@@ -4993,7 +5000,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [superuser escalation](#superuser-escalation) (1)
 - [supply chain](#supply-chain) (28)
-- [supply chain attack](#supply-chain-attack) (14)
+- [supply chain attack](#supply-chain-attack) (15)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (135)
 - [supply-chain attack](#supply-chain-attack) (2)
@@ -5210,7 +5217,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (90)
+- [tools](#tools) (91)
 - [Tor](#tor) (5)
 - [torrent-compromise](#torrent-compromise) (1)
 - [Tortoiseshell](#tortoiseshell) (2)
@@ -5407,6 +5414,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [URL parameter](#url-parameter) (1)
 - [URL retrieval](#url-retrieval) (1)
 - [URL-pinned dependency](#url-pinned-dependency) (1)
+- [url-spec dependency](#url-spec-dependency) (1)
 - [URLPattern](#urlpattern) (1)
 - [USB exfiltration](#usb-exfiltration) (1)
 - [USB propagation](#usb-propagation) (1)
@@ -5464,6 +5472,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VENOMOUS BEAR](#venomous-bear) (3)
 - [Vercel](#vercel) (4)
 - [vercel.app](#vercelapp) (1)
+- [version shuffle](#version-shuffle) (1)
 - [Vertex AI](#vertex-ai) (1)
 - [vesting-account](#vesting-account) (1)
 - [VHD](#vhd) (1)
@@ -9699,6 +9708,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Cloudflare account compromise
 - [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 
+## cloudflare fronting
+- [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
+
 ## Cloudflare gate
 - [NovaCookies: Docusign-notification-driven AitM PhaaS stealing Microsoft 365 sessions (Sneaky2FA variant)](../ops/novacookies-docusign-aitm-phaas-m365-session-theft.md)
 
@@ -12441,6 +12453,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## dependency confusion
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
+- [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
@@ -13511,6 +13524,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## enforcement
 - [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
+
+## enforcement gap
+- [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
 
 ## engineering
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
@@ -16139,6 +16155,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## import-time-execution
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 
+## importer lag
+- [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
+
 ## improper access control
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
@@ -18195,6 +18214,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## malicious-package
 - [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 - [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
+- [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
 - [DirtyBlanket: nine npm Express/React clones publish a self-spreading Linux worm whose loader is served through the Wayback Machine — CHAOS RAT behind Tor, `chattr +i` fake systemd font persistence, SSH-key lateral movement, and automated AUR `PKGBUILD.install` + npm-token republish poisoning](../ops/dirtyblanket-npm-express-clone-linux-worm-wayback-codeberg-aur-chaos-tor-safedep-september-2026.md)
 - [MALFEX: one Portuguese-language npm operator, twelve packages, two delivery arms, three years of continuity — and the advisory pipeline's gap made visible: `function-flag` sat as a malicious postinstall with NO advisory for fourteen months, and `cdn-img-fetch` stayed installable after npm seized its parent](../ops/malfex-npm-single-operator-two-arms-function-flag-14-month-unadvised-postinstall-cloudsek-september-2026.md)
 - [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
@@ -19849,6 +19869,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [`@veai-ru/ai-agent` (npm) — a malicious-by-design terminal AI coding AGENT: obfuscator.io extensions that replace the host agent's system prompt with attacker-controlled content, exfiltrate full session activity to `plugin.veai.ru/telemetry`, read MCP configurations, run a Keycloak OAuth harvest flow, and pull additional components from a Yandex Cloud bucket — LIVE at `latest = 0.3.2`, ZERO OSV + ZERO GHSA, curated queue PR ossf/malicious-packages #1617 only; this wiki pulled and statically inspected the published tarball (no execution) and verified every baked endpoint answering on the network at check](../tools/veai-ru-ai-agent-npm-ai-coding-agent-session-exfil-prompt-injection-keycloak-oauth-yandex-delivery-october-2026.md)
 - [`passwordcracker` + `passwordcrackv2` (npm) — byte-identical twin "Discord MFA library" packages whose only runtime dependency is a URL-pinned GitHub tarball that executes AT LOAD TIME: a Windows-only stager writing `winsvc.js` into fake WinSxS/Themes/Caches dirs with four-path VBS persistence, fetching a 1.79-MB webpack-obfuscated second stage behind a fake "Microsoft Edge WebView2" license header from `limbomail.com` → 302 into a Replit GCS object store — BOTH LIVE ≈2 days, ZERO OSV + ZERO GHSA; curated PR ossf/malicious-packages #1624 open unmerged](../tools/passwordcracker-passwordcrackv2-npm-url-pinned-git-tarball-windows-stager-limbomail-replit-october-2026.md)
 - [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
+- [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
@@ -20170,12 +20191,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OctLurk](../tools/octlurk.md)
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
 
+## October 2026
+- [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
+
 ## Octopi365
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 
 ## OFAC
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
+## off-registry dependency
+- [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
 
 ## off-registry-dependency
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
@@ -21422,6 +21449,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV September 18, 2026: three Linux kernel vulnerabilities — remotely triggerable kTLS zero-length-record mishandling (CVSS 9.8 AV:N) plus two local privilege escalations (AF_ALG concurrent-write race, ebtables SNAT out-of-bounds write into splice-shared file pages) — ALL THREE carrying CISA SSVC "active exploitation," all on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
 - [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
+
+## out-of-scope rung
+- [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
 
 ## outbound C2
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
@@ -24458,6 +24488,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## scope squatting
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
+- [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
 
 ## scope-squat
 - [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
@@ -25949,6 +25980,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## staged publishing
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 
+## staging stub
+- [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
+
 ## staking-precompile
 - [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 
@@ -26229,6 +26263,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
 - [`pyyi` (PyPI) — the `py2ops` operator's NEXT NAME: a single-release `2.4.1` "python companion shell" that installs the same `python2` console script, bakes the SAME two `space-z.ai` C2 rails (byte-identical slugs), carries the full post-`2.3.1` self-heal feature set from birth, and adds an explicit server-fetched payload exec path — LIVE, ACTIVE on PyPI, ZERO OSV + ZERO GHSA ≈11.7 h; curated PR ossf/malicious-packages #1627 open ≈5.4 h; this wiki pulled and statically read the wheel (no execution) and re-probed both baked rails: `POST /api/cli/init` still answers `200 {"ok":true,"apiKey":"ptm_…"}` on BOTH](../tools/pyyi-pypi-python2-companion-shell-py2ops-successor-shared-space-z-rails-october-2026.md)
 - [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
+- [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
 - [`webreader` + `pafer` (PyPI) — the kam193 `2026-10-webreader` pickle-as-config RAT pair: a binary `default.config` in the main package, a dependency whose "config loader" unpickles it, `bypit` + `mypyc_abi3.pth` boot-persistence on every interpreter start, module-gated XOR stage, `memfd_create` fileless exec, npoint.io stage drop, Supabase edge-function C2 — AND BOTH NAMES STILL `project-status=active` + installable ~27 h AFTER THEIR OWN OSVs, while the same analyst's other campaign died in ~1.5 h = THE QUARANTINE DIFFERENTIAL IS NOT KEYED ON THE SOURCE](../tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026.md)
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 - [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
@@ -27163,6 +27198,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
 - [`pyyi` (PyPI) — the `py2ops` operator's NEXT NAME: a single-release `2.4.1` "python companion shell" that installs the same `python2` console script, bakes the SAME two `space-z.ai` C2 rails (byte-identical slugs), carries the full post-`2.3.1` self-heal feature set from birth, and adds an explicit server-fetched payload exec path — LIVE, ACTIVE on PyPI, ZERO OSV + ZERO GHSA ≈11.7 h; curated PR ossf/malicious-packages #1627 open ≈5.4 h; this wiki pulled and statically read the wheel (no execution) and re-probed both baked rails: `POST /api/cli/init` still answers `200 {"ok":true,"apiKey":"ptm_…"}` on BOTH](../tools/pyyi-pypi-python2-companion-shell-py2ops-successor-shared-space-z-rails-october-2026.md)
 - [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
+- [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
 - [`webreader` + `pafer` (PyPI) — the kam193 `2026-10-webreader` pickle-as-config RAT pair: a binary `default.config` in the main package, a dependency whose "config loader" unpickles it, `bypit` + `mypyc_abi3.pth` boot-persistence on every interpreter start, module-gated XOR stage, `memfd_create` fileless exec, npoint.io stage drop, Supabase edge-function C2 — AND BOTH NAMES STILL `project-status=active` + installable ~27 h AFTER THEIR OWN OSVs, while the same analyst's other campaign died in ~1.5 h = THE QUARANTINE DIFFERENTIAL IS NOT KEYED ON THE SOURCE](../tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026.md)
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Aeternum](../tools/aeternum.md)
@@ -28014,6 +28050,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## URL-pinned dependency
 - [`passwordcracker` + `passwordcrackv2` (npm) — byte-identical twin "Discord MFA library" packages whose only runtime dependency is a URL-pinned GitHub tarball that executes AT LOAD TIME: a Windows-only stager writing `winsvc.js` into fake WinSxS/Themes/Caches dirs with four-path VBS persistence, fetching a 1.79-MB webpack-obfuscated second stage behind a fake "Microsoft Edge WebView2" license header from `limbomail.com` → 302 into a Replit GCS object store — BOTH LIVE ≈2 days, ZERO OSV + ZERO GHSA; curated PR ossf/malicious-packages #1624 open unmerged](../tools/passwordcracker-passwordcrackv2-npm-url-pinned-git-tarball-windows-stager-limbomail-replit-october-2026.md)
 
+## url-spec dependency
+- [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
+
 ## URLPattern
 - [workerd / Cloudflare Code Mode: five memory-corruption bugs enable sandbox escape and cross-tenant "heap swipe"](../tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md)
 
@@ -28217,6 +28256,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## vercel.app
 - [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
+
+## version shuffle
+- [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
 
 ## Vertex AI
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
