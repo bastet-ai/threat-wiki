@@ -261,6 +261,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [alert fatigue](#alert-fatigue) (1)
 - [algamil7x](#algamil7x) (1)
 - [algorithm confusion](#algorithm-confusion) (1)
+- [alias-lane](#alias-lane) (1)
 - [Alibaba](#alibaba) (2)
 - [Alibaba OSS](#alibaba-oss) (1)
 - [Allen-Bradley](#allen-bradley) (1)
@@ -1673,6 +1674,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [delayed tool invocation](#delayed-tool-invocation) (1)
 - [Delphos Labs](#delphos-labs) (1)
 - [denial of service](#denial-of-service) (10)
+- [denial-of-service](#denial-of-service) (1)
 - [Deno](#deno) (2)
 - [Denys Pakizh](#denys-pakizh) (1)
 - [Dependabot](#dependabot) (1)
@@ -2139,6 +2141,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [File Transmission](#file-transmission) (1)
 - [file upload](#file-upload) (1)
 - [file upload path traversal](#file-upload-path-traversal) (1)
+- [file-exfiltration](#file-exfiltration) (1)
 - [file-manager-backdoor](#file-manager-backdoor) (1)
 - [file-stealer](#file-stealer) (1)
 - [file-system filter](#file-system-filter) (1)
@@ -2210,6 +2213,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [forged commits](#forged-commits) (1)
 - [Forgejo](#forgejo) (1)
 - [forgot password](#forgot-password) (1)
+- [fork-bomb](#fork-bomb) (1)
 - [FormDigestValue](#formdigestvalue) (1)
 - [Forms Authentication](#forms-authentication) (1)
 - [FortiClient EMS](#forticlient-ems) (1)
@@ -2703,7 +2707,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
 - [information disclosure](#information-disclosure) (5)
 - [information stealer](#information-stealer) (1)
-- [infostealer](#infostealer) (35)
+- [infostealer](#infostealer) (36)
 - [infotainment](#infotainment) (1)
 - [InfoTeCS](#infotecs) (1)
 - [infrastructure](#infrastructure) (6)
@@ -2866,6 +2870,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kali365](#kali365) (2)
 - [Kaltura](#kaltura) (1)
 - [kam193](#kam193) (4)
+- [kam193-lane](#kam193-lane) (1)
 - [Kaspersky](#kaspersky) (5)
 - [kaspersky](#kaspersky) (1)
 - [Kaspersky detection bypass](#kaspersky-detection-bypass) (1)
@@ -3045,6 +3050,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LLM serving](#llm-serving) (1)
 - [LLM slop](#llm-slop) (2)
 - [LLM-assisted malware](#llm-assisted-malware) (4)
+- [LLM-authored-tell](#llm-authored-tell) (1)
 - [LLM-driven intrusion](#llm-driven-intrusion) (1)
 - [LLM-generated-malware](#llm-generated-malware) (1)
 - [LLMjacking](#llmjacking) (2)
@@ -3172,7 +3178,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malicious theme](#malicious-theme) (1)
-- [malicious-package](#malicious-package) (14)
+- [malicious-package](#malicious-package) (15)
 - [malvertising](#malvertising) (11)
 - [malware](#malware) (69)
 - [malware analysis](#malware-analysis) (2)
@@ -3517,6 +3523,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [network security appliances](#network-security-appliances) (1)
 - [network switch](#network-switch) (1)
 - [network-share exfiltration](#network-share-exfiltration) (1)
+- [never-join-test](#never-join-test) (1)
 - [new Function](#new-function) (1)
 - [news-impersonation](#news-impersonation) (1)
 - [NexShield](#nexshield) (1)
@@ -3649,7 +3656,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OCI registry](#oci-registry) (1)
 - [OCR content analysis](#ocr-content-analysis) (1)
 - [OctLurk](#octlurk) (2)
-- [October 2026](#october-2026) (1)
+- [October 2026](#october-2026) (2)
 - [Octopi365](#octopi365) (1)
 - [OFAC](#ofac) (2)
 - [off-registry dependency](#off-registry-dependency) (1)
@@ -3737,7 +3744,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (455)
+- [ops](#ops) (456)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -3763,6 +3770,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [osv](#osv) (3)
 - [OSV](#osv) (5)
 - [OSV malware stream](#osv-malware-stream) (4)
+- [OSV-first](#osv-first) (1)
 - [OT](#ot) (6)
 - [OT switches](#ot-switches) (1)
 - [OTA update](#ota-update) (1)
@@ -4164,7 +4172,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [py2ops](#py2ops) (1)
 - [PyArmor](#pyarmor) (4)
 - [PyInstaller](#pyinstaller) (2)
-- [PyPI](#pypi) (25)
+- [PyPI](#pypi) (26)
 - [pypi](#pypi) (2)
 - [pypls/requests](#pyplsrequests) (1)
 - [Python](#python) (22)
@@ -5000,7 +5008,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [superuser escalation](#superuser-escalation) (1)
 - [supply chain](#supply-chain) (28)
-- [supply chain attack](#supply-chain-attack) (15)
+- [supply chain attack](#supply-chain-attack) (16)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (135)
 - [supply-chain attack](#supply-chain-attack) (2)
@@ -5129,6 +5137,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telegram notification](#telegram-notification) (1)
 - [Telegram session theft](#telegram-session-theft) (1)
 - [telegram-bot](#telegram-bot) (1)
+- [telegram-bot-c2](#telegram-bot-c2) (1)
 - [Telegraph dead drop](#telegraph-dead-drop) (1)
 - [telemetry](#telemetry) (1)
 - [telemetry exfil](#telemetry-exfil) (1)
@@ -6909,6 +6918,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## algorithm confusion
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
+
+## alias-lane
+- [`marocolor` (PyPI) — a color-palette costume that at IMPORT time spawns two daemon threads: `steal()` walks the victim's home directory for nine sensitive extensions and POSTs every match to a hardcoded Telegram bot `sendDocument`, while `crash()` runs a thread-fork-bomb plus a `127.0.0.1:80` connect-loop DoS; Arabic operator-addressed comments mark it in the LLM-authored tell class; `MAL-2026-17900` (kam193 lane, campaign `2026-10-marocolor`) is the ledger's live NEVER-JOIN control — it arrived OSV-first, got its `GHSA-m6jr-rmfr-29w4` mirror `1 h 52 m` later, and still reads `aliases: None` at `+59 min`](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
 
 ## Alibaba
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
@@ -12441,6 +12453,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
+## denial-of-service
+- [`marocolor` (PyPI) — a color-palette costume that at IMPORT time spawns two daemon threads: `steal()` walks the victim's home directory for nine sensitive extensions and POSTs every match to a hardcoded Telegram bot `sendDocument`, while `crash()` runs a thread-fork-bomb plus a `127.0.0.1:80` connect-loop DoS; Arabic operator-addressed comments mark it in the LLM-authored tell class; `MAL-2026-17900` (kam193 lane, campaign `2026-10-marocolor`) is the ledger's live NEVER-JOIN control — it arrived OSV-first, got its `GHSA-m6jr-rmfr-29w4` mirror `1 h 52 m` later, and still reads `aliases: None` at `+59 min`](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
+
 ## Deno
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
@@ -14270,6 +14285,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## file upload path traversal
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 
+## file-exfiltration
+- [`marocolor` (PyPI) — a color-palette costume that at IMPORT time spawns two daemon threads: `steal()` walks the victim's home directory for nine sensitive extensions and POSTs every match to a hardcoded Telegram bot `sendDocument`, while `crash()` runs a thread-fork-bomb plus a `127.0.0.1:80` connect-loop DoS; Arabic operator-addressed comments mark it in the LLM-authored tell class; `MAL-2026-17900` (kam193 lane, campaign `2026-10-marocolor`) is the ledger's live NEVER-JOIN control — it arrived OSV-first, got its `GHSA-m6jr-rmfr-29w4` mirror `1 h 52 m` later, and still reads `aliases: None` at `+59 min`](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
+
 ## file-manager-backdoor
 - [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 
@@ -14524,6 +14542,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## forgot password
 - [Keycloak CVE-2026-18963: unauthenticated password-reset account takeover](../tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md)
+
+## fork-bomb
+- [`marocolor` (PyPI) — a color-palette costume that at IMPORT time spawns two daemon threads: `steal()` walks the victim's home directory for nine sensitive extensions and POSTs every match to a hardcoded Telegram bot `sendDocument`, while `crash()` runs a thread-fork-bomb plus a `127.0.0.1:80` connect-loop DoS; Arabic operator-addressed comments mark it in the LLM-authored tell class; `MAL-2026-17900` (kam193 lane, campaign `2026-10-marocolor`) is the ledger's live NEVER-JOIN control — it arrived OSV-first, got its `GHSA-m6jr-rmfr-29w4` mirror `1 h 52 m` later, and still reads `aliases: None` at `+59 min`](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
 
 ## FormDigestValue
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
@@ -16358,6 +16379,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## infostealer
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
+- [`marocolor` (PyPI) — a color-palette costume that at IMPORT time spawns two daemon threads: `steal()` walks the victim's home directory for nine sensitive extensions and POSTs every match to a hardcoded Telegram bot `sendDocument`, while `crash()` runs a thread-fork-bomb plus a `127.0.0.1:80` connect-loop DoS; Arabic operator-addressed comments mark it in the LLM-authored tell class; `MAL-2026-17900` (kam193 lane, campaign `2026-10-marocolor`) is the ledger's live NEVER-JOIN control — it arrived OSV-first, got its `GHSA-m6jr-rmfr-29w4` mirror `1 h 52 m` later, and still reads `aliases: None` at `+59 min`](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
 - [`webreader` + `pafer` (PyPI) — the kam193 `2026-10-webreader` pickle-as-config RAT pair: a binary `default.config` in the main package, a dependency whose "config loader" unpickles it, `bypit` + `mypyc_abi3.pth` boot-persistence on every interpreter start, module-gated XOR stage, `memfd_create` fileless exec, npoint.io stage drop, Supabase edge-function C2 — AND BOTH NAMES STILL `project-status=active` + installable ~27 h AFTER THEIR OWN OSVs, while the same analyst's other campaign died in ~1.5 h = THE QUARANTINE DIFFERENTIAL IS NOT KEYED ON THE SOURCE](../tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026.md)
 - [ACR Stealer](../tools/acr-stealer.md)
 - [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
@@ -17014,6 +17036,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 - [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
 - [`webreader` + `pafer` (PyPI) — the kam193 `2026-10-webreader` pickle-as-config RAT pair: a binary `default.config` in the main package, a dependency whose "config loader" unpickles it, `bypit` + `mypyc_abi3.pth` boot-persistence on every interpreter start, module-gated XOR stage, `memfd_create` fileless exec, npoint.io stage drop, Supabase edge-function C2 — AND BOTH NAMES STILL `project-status=active` + installable ~27 h AFTER THEIR OWN OSVs, while the same analyst's other campaign died in ~1.5 h = THE QUARANTINE DIFFERENTIAL IS NOT KEYED ON THE SOURCE](../tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026.md)
+
+## kam193-lane
+- [`marocolor` (PyPI) — a color-palette costume that at IMPORT time spawns two daemon threads: `steal()` walks the victim's home directory for nine sensitive extensions and POSTs every match to a hardcoded Telegram bot `sendDocument`, while `crash()` runs a thread-fork-bomb plus a `127.0.0.1:80` connect-loop DoS; Arabic operator-addressed comments mark it in the LLM-authored tell class; `MAL-2026-17900` (kam193 lane, campaign `2026-10-marocolor`) is the ledger's live NEVER-JOIN control — it arrived OSV-first, got its `GHSA-m6jr-rmfr-29w4` mirror `1 h 52 m` later, and still reads `aliases: None` at `+59 min`](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
 
 ## Kaspersky
 - [Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia](../ops/armored-likho-still-toolkit-russia-campaign.md)
@@ -17730,6 +17755,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
+## LLM-authored-tell
+- [`marocolor` (PyPI) — a color-palette costume that at IMPORT time spawns two daemon threads: `steal()` walks the victim's home directory for nine sensitive extensions and POSTs every match to a hardcoded Telegram bot `sendDocument`, while `crash()` runs a thread-fork-bomb plus a `127.0.0.1:80` connect-loop DoS; Arabic operator-addressed comments mark it in the LLM-authored tell class; `MAL-2026-17900` (kam193 lane, campaign `2026-10-marocolor`) is the ledger's live NEVER-JOIN control — it arrived OSV-first, got its `GHSA-m6jr-rmfr-29w4` mirror `1 h 52 m` later, and still reads `aliases: None` at `+59 min`](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
+
 ## LLM-driven intrusion
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
@@ -18213,6 +18241,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## malicious-package
 - [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
+- [`marocolor` (PyPI) — a color-palette costume that at IMPORT time spawns two daemon threads: `steal()` walks the victim's home directory for nine sensitive extensions and POSTs every match to a hardcoded Telegram bot `sendDocument`, while `crash()` runs a thread-fork-bomb plus a `127.0.0.1:80` connect-loop DoS; Arabic operator-addressed comments mark it in the LLM-authored tell class; `MAL-2026-17900` (kam193 lane, campaign `2026-10-marocolor`) is the ledger's live NEVER-JOIN control — it arrived OSV-first, got its `GHSA-m6jr-rmfr-29w4` mirror `1 h 52 m` later, and still reads `aliases: None` at `+59 min`](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
 - [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 - [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
 - [DirtyBlanket: nine npm Express/React clones publish a self-spreading Linux worm whose loader is served through the Wayback Machine — CHAOS RAT behind Tor, `chattr +i` fake systemd font persistence, SSH-key lateral movement, and automated AUR `PKGBUILD.install` + npm-token republish poisoning](../ops/dirtyblanket-npm-express-clone-linux-worm-wayback-codeberg-aur-chaos-tor-safedep-september-2026.md)
@@ -19634,6 +19663,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## network-share exfiltration
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 
+## never-join-test
+- [`marocolor` (PyPI) — a color-palette costume that at IMPORT time spawns two daemon threads: `steal()` walks the victim's home directory for nine sensitive extensions and POSTs every match to a hardcoded Telegram bot `sendDocument`, while `crash()` runs a thread-fork-bomb plus a `127.0.0.1:80` connect-loop DoS; Arabic operator-addressed comments mark it in the LLM-authored tell class; `MAL-2026-17900` (kam193 lane, campaign `2026-10-marocolor`) is the ledger's live NEVER-JOIN control — it arrived OSV-first, got its `GHSA-m6jr-rmfr-29w4` mirror `1 h 52 m` later, and still reads `aliases: None` at `+59 min`](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
+
 ## new Function
 - [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 
@@ -20192,6 +20224,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
 
 ## October 2026
+- [`marocolor` (PyPI) — a color-palette costume that at IMPORT time spawns two daemon threads: `steal()` walks the victim's home directory for nine sensitive extensions and POSTs every match to a hardcoded Telegram bot `sendDocument`, while `crash()` runs a thread-fork-bomb plus a `127.0.0.1:80` connect-loop DoS; Arabic operator-addressed comments mark it in the LLM-authored tell class; `MAL-2026-17900` (kam193 lane, campaign `2026-10-marocolor`) is the ledger's live NEVER-JOIN control — it arrived OSV-first, got its `GHSA-m6jr-rmfr-29w4` mirror `1 h 52 m` later, and still reads `aliases: None` at `+59 min`](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
 - [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
 
 ## Octopi365
@@ -20868,6 +20901,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
+- [`marocolor` (PyPI) — a color-palette costume that at IMPORT time spawns two daemon threads: `steal()` walks the victim's home directory for nine sensitive extensions and POSTs every match to a hardcoded Telegram bot `sendDocument`, while `crash()` runs a thread-fork-bomb plus a `127.0.0.1:80` connect-loop DoS; Arabic operator-addressed comments mark it in the LLM-authored tell class; `MAL-2026-17900` (kam193 lane, campaign `2026-10-marocolor`) is the ledger's live NEVER-JOIN control — it arrived OSV-first, got its `GHSA-m6jr-rmfr-29w4` mirror `1 h 52 m` later, and still reads `aliases: None` at `+59 min`](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
@@ -21406,6 +21440,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 - [`webreader` + `pafer` (PyPI) — the kam193 `2026-10-webreader` pickle-as-config RAT pair: a binary `default.config` in the main package, a dependency whose "config loader" unpickles it, `bypit` + `mypyc_abi3.pth` boot-persistence on every interpreter start, module-gated XOR stage, `memfd_create` fileless exec, npoint.io stage drop, Supabase edge-function C2 — AND BOTH NAMES STILL `project-status=active` + installable ~27 h AFTER THEIR OWN OSVs, while the same analyst's other campaign died in ~1.5 h = THE QUARANTINE DIFFERENTIAL IS NOT KEYED ON THE SOURCE](../tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026.md)
 - [RubyGems 24-gem crypto-utility fleet — the `45.138.12.177` C2 RETURNS under fresh names: 24 gems pushed in an 83-second scripted window (Oct 11 06:52:40–06:54:02Z), every one `0.9.1`, every `extconf.rb` a base64 double-fork `/bin/sh`-over-TCP reverse shell to **the SAME `45.138.12.177:8089`** the Wallet Guard wgkit fleet used — with the `bitcoin_rpc_lite_native` makefile name and the Oct-5 counter-forensics gates (CI / ephemeral-host / generated-user / analysis-path / uptime>30 min / dev-signals) baked in as shipped defaults — and for the FIRST TIME on this ledger a RubyGems malware fleet dual-advised 24/24 from day one (OSV `MAL-2026-17779`–`17802` + a 24-record same-second GHSA batch 15:31:13Z) while every gem stays LIVE and the C2 box itself has gone fully DARK](../ops/rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026.md)
+
+## OSV-first
+- [`marocolor` (PyPI) — a color-palette costume that at IMPORT time spawns two daemon threads: `steal()` walks the victim's home directory for nine sensitive extensions and POSTs every match to a hardcoded Telegram bot `sendDocument`, while `crash()` runs a thread-fork-bomb plus a `127.0.0.1:80` connect-loop DoS; Arabic operator-addressed comments mark it in the LLM-authored tell class; `MAL-2026-17900` (kam193 lane, campaign `2026-10-marocolor`) is the ledger's live NEVER-JOIN control — it arrived OSV-first, got its `GHSA-m6jr-rmfr-29w4` mirror `1 h 52 m` later, and still reads `aliases: None` at `+59 min`](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
 
 ## OT
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
@@ -23015,6 +23052,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PyPI
 - [`agentaix` + `media-manager5` (PyPI) — the `2026-10-agentaix` two-name RAT pair: persistent-job installers doing file exfiltration + remote-code execution to `googleforum.pythonanywhere.com` — kam193 lane, OSV → GHSA mirror measured at ≈93 min, BOTH names PyPI-QUARANTINED within ~1.5 h of OSV arrival, C2 answering `200` at this wiki's check](../tools/agentaix-media-manager5-pypi-rat-pythonanywhere-c2-kam193-october-2026.md)
 - [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+- [`marocolor` (PyPI) — a color-palette costume that at IMPORT time spawns two daemon threads: `steal()` walks the victim's home directory for nine sensitive extensions and POSTs every match to a hardcoded Telegram bot `sendDocument`, while `crash()` runs a thread-fork-bomb plus a `127.0.0.1:80` connect-loop DoS; Arabic operator-addressed comments mark it in the LLM-authored tell class; `MAL-2026-17900` (kam193 lane, campaign `2026-10-marocolor`) is the ledger's live NEVER-JOIN control — it arrived OSV-first, got its `GHSA-m6jr-rmfr-29w4` mirror `1 h 52 m` later, and still reads `aliases: None` at `+59 min`](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
 - [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
 - [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
 - [`pyyi` (PyPI) — the `py2ops` operator's NEXT NAME: a single-release `2.4.1` "python companion shell" that installs the same `python2` console script, bakes the SAME two `space-z.ai` C2 rails (byte-identical slugs), carries the full post-`2.3.1` self-heal feature set from birth, and adds an explicit server-fetched payload exec path — LIVE, ACTIVE on PyPI, ZERO OSV + ZERO GHSA ≈11.7 h; curated PR ossf/malicious-packages #1627 open ≈5.4 h; this wiki pulled and statically read the wheel (no execution) and re-probed both baked rails: `POST /api/cli/init` still answers `200 {"ok":true,"apiKey":"ptm_…"}` on BOTH](../tools/pyyi-pypi-python2-companion-shell-py2ops-successor-shared-space-z-rails-october-2026.md)
@@ -26258,6 +26296,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [`@veai-ru/ai-agent` (npm) — a malicious-by-design terminal AI coding AGENT: obfuscator.io extensions that replace the host agent's system prompt with attacker-controlled content, exfiltrate full session activity to `plugin.veai.ru/telemetry`, read MCP configurations, run a Keycloak OAuth harvest flow, and pull additional components from a Yandex Cloud bucket — LIVE at `latest = 0.3.2`, ZERO OSV + ZERO GHSA, curated queue PR ossf/malicious-packages #1617 only; this wiki pulled and statically inspected the published tarball (no execution) and verified every baked endpoint answering on the network at check](../tools/veai-ru-ai-agent-npm-ai-coding-agent-session-exfil-prompt-injection-keycloak-oauth-yandex-delivery-october-2026.md)
 - [`agentaix` + `media-manager5` (PyPI) — the `2026-10-agentaix` two-name RAT pair: persistent-job installers doing file exfiltration + remote-code execution to `googleforum.pythonanywhere.com` — kam193 lane, OSV → GHSA mirror measured at ≈93 min, BOTH names PyPI-QUARANTINED within ~1.5 h of OSV arrival, C2 answering `200` at this wiki's check](../tools/agentaix-media-manager5-pypi-rat-pythonanywhere-c2-kam193-october-2026.md)
 - [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
+- [`marocolor` (PyPI) — a color-palette costume that at IMPORT time spawns two daemon threads: `steal()` walks the victim's home directory for nine sensitive extensions and POSTs every match to a hardcoded Telegram bot `sendDocument`, while `crash()` runs a thread-fork-bomb plus a `127.0.0.1:80` connect-loop DoS; Arabic operator-addressed comments mark it in the LLM-authored tell class; `MAL-2026-17900` (kam193 lane, campaign `2026-10-marocolor`) is the ledger's live NEVER-JOIN control — it arrived OSV-first, got its `GHSA-m6jr-rmfr-29w4` mirror `1 h 52 m` later, and still reads `aliases: None` at `+59 min`](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
 - [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
 - [`passwordcracker` + `passwordcrackv2` (npm) — byte-identical twin "Discord MFA library" packages whose only runtime dependency is a URL-pinned GitHub tarball that executes AT LOAD TIME: a Windows-only stager writing `winsvc.js` into fake WinSxS/Themes/Caches dirs with four-path VBS persistence, fetching a 1.79-MB webpack-obfuscated second stage behind a fake "Microsoft Edge WebView2" license header from `limbomail.com` → 302 into a Replit GCS object store — BOTH LIVE ≈2 days, ZERO OSV + ZERO GHSA; curated PR ossf/malicious-packages #1624 open unmerged](../tools/passwordcracker-passwordcrackv2-npm-url-pinned-git-tarball-windows-stager-limbomail-replit-october-2026.md)
 - [`py2ops` (PyPI) — an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run — LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe](../tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md)
@@ -26859,6 +26898,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## telegram-bot
 - [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
+
+## telegram-bot-c2
+- [`marocolor` (PyPI) — a color-palette costume that at IMPORT time spawns two daemon threads: `steal()` walks the victim's home directory for nine sensitive extensions and POSTs every match to a hardcoded Telegram bot `sendDocument`, while `crash()` runs a thread-fork-bomb plus a `127.0.0.1:80` connect-loop DoS; Arabic operator-addressed comments mark it in the LLM-authored tell class; `MAL-2026-17900` (kam193 lane, campaign `2026-10-marocolor`) is the ledger's live NEVER-JOIN control — it arrived OSV-first, got its `GHSA-m6jr-rmfr-29w4` mirror `1 h 52 m` later, and still reads `aliases: None` at `+59 min`](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
 
 ## Telegraph dead drop
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
