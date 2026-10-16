@@ -295,6 +295,8 @@ The 106th's structural claim gets its durability corrected, not retracted: a GHS
 - [Flooding Dropper npm campaign](flooding-dropper-npm-campaign.md)
 - [Coding-agent hooks as audit telemetry](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 
+## <a id="october-16-holder-hold-check-3"></a>October 16 one-hundred-and-sixteenth sweep: HOLDER STUBS HOLD `≈8.5 h`/`≈8.7 h` POST-SEIZURE — `@xatancchii/natabaileys` (`latest 0.0.1-security`, doc `modified` frozen `13:03:35.958Z`) and `parxleys` (`0.0.1-security`, frozen `12:57:16.362Z`) both unmoved, no re-registration; `@beloved-lenora` scope sweep came back holder-only (see [opencode2 second wave](opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md#october-16-beloved-lenora-second-wave)). Full sweep context → [116th stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-16-one-hundred-and-sixteenth-sweep).
+
 ## Sources
 - SafeDep (Kunal Singh): [“Malicious Baileys npm WhatsApp campaign”](https://safedep.io/malicious-baileys-npm-whatsapp-campaign) (the full confirmed package/version set is published in the article's `baileys-packages-list.csv` dataset).
 - OX Security: [“PhantomSub: Malicious npm Campaign Secretly Adds Users to WhatsApp Spam Channels”](https://www.ox.security/blog/phantomsub-malicious-npm-campaign-secretly-adds-users-to-whatsapp-spam-channels/) (Sep 28, 2026; 101 names, ~490K downloads, three-variant taxonomy; full text captured by this wiki via text-proxy Oct 1).
