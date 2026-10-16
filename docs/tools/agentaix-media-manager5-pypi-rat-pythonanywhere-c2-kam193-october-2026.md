@@ -84,3 +84,7 @@ The repo's commit log reads as post-advisory scrubbing: `05:55:59Z` "Add files v
 ## <a id="october-16-dormant-3"></a>October 16 one-hundred-and-tenth sweep: ELEVENTH dark read — DORMANT holds
 
 `googleforum.pythonanywhere.com` `404` both schemes ELEVENTH consecutive; `anonrider404/pypl` `readme.txt` still `3 bytes` (`f1b2f662…`, no replacement payload); `anozxc` user `404`. Disposition unchanged: rails starve new installs, persisted hosts (HKCU Run + `%APPDATA%` self-copy) unaffected until a rail returns. Hunt keys unchanged: importing an `agentaix` module; any fetch of `raw.githubusercontent.com/anonrider404/`; egress to `*.pythonanywhere.com` as a class. Full sweep context → [110th stream section](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-16-one-hundred-and-tenth-sweep).
+
+## <a id="october-16-dormant-4"></a>October 16 one-hundred-and-eleventh sweep: TWELFTH dark read — DORMANT holds
+
+`googleforum.pythonanywhere.com` `404` TWELFTH consecutive; `anonrider404/pypl` `readme.txt` still `3 bytes` (`f1b2f662…`, no replacement payload); `anozxc` user `404`. Disposition unchanged — rails starve new installs, persisted hosts unaffected until a rail returns. Full sweep context → [111th stream section](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-16-one-hundred-and-eleventh-sweep).
