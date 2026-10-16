@@ -75,3 +75,5 @@ Re-pull method: `https` GET per name, no execution, `sha256sum` + `tar tzf` read
 - OSV `MAL-2026-17888` via `api.osv.dev/v1/vulns/` (canonical API; origins `ossf-package-analysis`)
 - GitHub advisory `GHSA-f8pr-fqvq-vvxv` (published `2026-10-15T21:32:28Z`, critical, CWE-506)
 - npm search `text=author:robdotty` (six-object account census)
+
+## <a id="october-16-repull-2"></a>October 16 one-hundred-and-eighth sweep: trio-shim re-pull — `string-target-mapper-hash` `fa60ac2a…`, `macro-kernel-record-reader` `00fafc85…`, `fetch-hash-cache-atomic` `c09a4948…` BYTE-IDENTICAL to the 107th snapshot (`≈2 h`), no armed flip; creditslib host lane quiet, stubs can still arm on any tick (see [108th stream section](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-16-one-hundred-and-eighth-sweep))
