@@ -1690,6 +1690,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [destructive actions](#destructive-actions) (1)
 - [destructive malware](#destructive-malware) (3)
 - [destructive operations](#destructive-operations) (3)
+- [destructive-payload](#destructive-payload) (1)
 - [detached execution](#detached-execution) (1)
 - [detached process](#detached-process) (1)
 - [detection](#detection) (4)
@@ -1986,6 +1987,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ESG](#esg) (1)
 - [espionage](#espionage) (65)
 - [Espressif ESP-IDF](#espressif-esp-idf) (1)
+- [estsecurity](#estsecurity) (1)
 - [ESX](#esx) (1)
 - [ESXi](#esxi) (4)
 - [ES|QL](#esql) (1)
@@ -2446,6 +2448,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [government targeting](#government-targeting) (21)
 - [government-impersonation](#government-impersonation) (1)
 - [goxtools.shop](#goxtoolsshop) (1)
+- [goygram](#goygram) (1)
 - [GPO](#gpo) (1)
 - [GPT](#gpt) (1)
 - [GPT-5.6 Sol](#gpt-56-sol) (1)
@@ -2587,6 +2590,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hostname-exfiltration](#hostname-exfiltration) (1)
 - [HostShared](#hostshared) (1)
 - [Hostwinds](#hostwinds) (1)
+- [hotaru](#hotaru) (1)
 - [hotel targeting](#hotel-targeting) (1)
 - [Hotfix 4](#hotfix-4) (1)
 - [Howling Scorpius](#howling-scorpius) (1)
@@ -3185,6 +3189,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malicious theme](#malicious-theme) (1)
 - [malicious-package](#malicious-package) (15)
+- [malicious-packages-queue](#malicious-packages-queue) (1)
 - [malvertising](#malvertising) (11)
 - [malware](#malware) (69)
 - [malware analysis](#malware-analysis) (2)
@@ -4180,7 +4185,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PyArmor](#pyarmor) (4)
 - [PyInstaller](#pyinstaller) (2)
 - [PyPI](#pypi) (26)
-- [pypi](#pypi) (2)
+- [pypi](#pypi) (3)
 - [pypls/requests](#pyplsrequests) (1)
 - [Python](#python) (22)
 - [Python extension modules](#python-extension-modules) (1)
@@ -4210,6 +4215,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Quasar](#quasar) (1)
 - [query injection](#query-injection) (1)
 - [Quest KACE SMA](#quest-kace-sma) (1)
+- [queue-1646](#queue-1646) (1)
 - [QUIC](#quic) (1)
 - [QUICAgent](#quicagent) (1)
 - [Quick Assist](#quick-assist) (1)
@@ -4599,6 +4605,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [seizure](#seizure) (1)
 - [Sekoia](#sekoia) (1)
 - [selector spoofing](#selector-spoofing) (1)
+- [self-cleaning](#self-cleaning) (1)
 - [self-delete](#self-delete) (1)
 - [self-DoS](#self-dos) (1)
 - [self-elevation](#self-elevation) (1)
@@ -4660,6 +4667,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [session theft](#session-theft) (3)
 - [session token theft](#session-token-theft) (2)
 - [session-privilege-abuse](#session-privilege-abuse) (1)
+- [session-vault](#session-vault) (1)
 - [setuid](#setuid) (1)
 - [setup.py](#setuppy) (1)
 - [setup.py execution](#setuppy-execution) (1)
@@ -5135,7 +5143,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [telecommunications](#telecommunications) (4)
 - [Telegra.ph](#telegraph) (1)
 - [Telegram](#telegram) (15)
-- [telegram](#telegram) (1)
+- [telegram](#telegram) (2)
 - [Telegram bot](#telegram-bot) (2)
 - [Telegram C2](#telegram-c2) (6)
 - [Telegram data](#telegram-data) (1)
@@ -5233,7 +5241,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (92)
+- [tools](#tools) (93)
 - [Tor](#tor) (5)
 - [torrent-compromise](#torrent-compromise) (1)
 - [Tortoiseshell](#tortoiseshell) (2)
@@ -5697,7 +5705,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WinRM](#winrm) (2)
 - [WinSock](#winsock) (1)
 - [WinSparkle.dll](#winsparkledll) (1)
-- [wiper](#wiper) (3)
+- [wiper](#wiper) (4)
 - [wiper-adjacent](#wiper-adjacent) (1)
 - [WireGuard](#wireguard) (2)
 - [wireless-debugging](#wireless-debugging) (1)
@@ -12536,6 +12544,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 - [UAC-0145](../actors/uac-0145.md)
 
+## destructive-payload
+- [`ukraine69` (PyPI): a "Ukrainian locale helpers" costume whose import-time payload hunts Telegram `.vault` session files and DELETEs the victim's account via GoyGram, then self-cleans after 45 s — six releases in 80 min, TWO published after the queue filing that only covers the first four (queue `#1646`, finder ESTsecurity, this wiki static-verified Oct 17)](../tools/ukraine69-pypi-telegram-vault-deletion-goygram-self-cleaning-queue-1646-october-2026.md)
+
 ## detached execution
 - [NullReceiver DPRK-linked npm blockchain-loader wave](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
 
@@ -13729,6 +13740,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Espressif ESP-IDF
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
+## estsecurity
+- [`ukraine69` (PyPI): a "Ukrainian locale helpers" costume whose import-time payload hunts Telegram `.vault` session files and DELETEs the victim's account via GoyGram, then self-cleans after 45 s — six releases in 80 min, TWO published after the queue filing that only covers the first four (queue `#1646`, finder ESTsecurity, this wiki static-verified Oct 17)](../tools/ukraine69-pypi-telegram-vault-deletion-goygram-self-cleaning-queue-1646-october-2026.md)
 
 ## ESX
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
@@ -15415,6 +15429,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## goxtools.shop
 - [`ig-gox` (PyPI) — a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api` — a license server that is LIVE and answering structured JSON at check — with zero OSV + zero GHSA coverage on either lane](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 
+## goygram
+- [`ukraine69` (PyPI): a "Ukrainian locale helpers" costume whose import-time payload hunts Telegram `.vault` session files and DELETEs the victim's account via GoyGram, then self-cleans after 45 s — six releases in 80 min, TWO published after the queue filing that only covers the first four (queue `#1646`, finder ESTsecurity, this wiki static-verified Oct 17)](../tools/ukraine69-pypi-telegram-vault-deletion-goygram-self-cleaning-queue-1646-october-2026.md)
+
 ## GPO
 - [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
 
@@ -15892,6 +15909,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Hostwinds
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
+
+## hotaru
+- [`ukraine69` (PyPI): a "Ukrainian locale helpers" costume whose import-time payload hunts Telegram `.vault` session files and DELETEs the victim's account via GoyGram, then self-cleans after 45 s — six releases in 80 min, TWO published after the queue filing that only covers the first four (queue `#1646`, finder ESTsecurity, this wiki static-verified Oct 17)](../tools/ukraine69-pypi-telegram-vault-deletion-goygram-self-cleaning-queue-1646-october-2026.md)
 
 ## hotel targeting
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
@@ -18282,6 +18302,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
 - [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
+
+## malicious-packages-queue
+- [`ukraine69` (PyPI): a "Ukrainian locale helpers" costume whose import-time payload hunts Telegram `.vault` session files and DELETEs the victim's account via GoyGram, then self-cleans after 45 s — six releases in 80 min, TWO published after the queue filing that only covers the first four (queue `#1646`, finder ESTsecurity, this wiki static-verified Oct 17)](../tools/ukraine69-pypi-telegram-vault-deletion-goygram-self-cleaning-queue-1646-october-2026.md)
 
 ## malvertising
 - [ACR Stealer](../tools/acr-stealer.md)
@@ -23109,6 +23132,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## pypi
 - [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
+- [`ukraine69` (PyPI): a "Ukrainian locale helpers" costume whose import-time payload hunts Telegram `.vault` session files and DELETEs the victim's account via GoyGram, then self-cleans after 45 s — six releases in 80 min, TWO published after the queue filing that only covers the first four (queue `#1646`, finder ESTsecurity, this wiki static-verified Oct 17)](../tools/ukraine69-pypi-telegram-vault-deletion-goygram-self-cleaning-queue-1646-october-2026.md)
 - [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026) — CLOSED SAME DAY (see State below): npm `latest` = clean 0.1.24, malicious versions unpublished; PyPI lifted the project quarantine at clean 2.0.33 with 2.0.34 surgically removed; OSV `MAL-2026-16475`/`16476` + `GHSA-mhjf-v53x-7p87` landed 11:05/11:53 UTC)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 
 ## pypls/requests
@@ -23227,6 +23251,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Quest KACE SMA
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
+
+## queue-1646
+- [`ukraine69` (PyPI): a "Ukrainian locale helpers" costume whose import-time payload hunts Telegram `.vault` session files and DELETEs the victim's account via GoyGram, then self-cleans after 45 s — six releases in 80 min, TWO published after the queue filing that only covers the first four (queue `#1646`, finder ESTsecurity, this wiki static-verified Oct 17)](../tools/ukraine69-pypi-telegram-vault-deletion-goygram-self-cleaning-queue-1646-october-2026.md)
 
 ## QUIC
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
@@ -24780,6 +24807,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## selector spoofing
 - [Unit 42: post-exploitation workload-identity spoofing in SPIFFE/SPIRE — cgroup-selector manipulation and the Spooffe tool](../patterns/unit42-spiffe-spire-cgroup-workload-identity-spoofing-spooffe-september-2026.md)
 
+## self-cleaning
+- [`ukraine69` (PyPI): a "Ukrainian locale helpers" costume whose import-time payload hunts Telegram `.vault` session files and DELETEs the victim's account via GoyGram, then self-cleans after 45 s — six releases in 80 min, TWO published after the queue filing that only covers the first four (queue `#1646`, finder ESTsecurity, this wiki static-verified Oct 17)](../tools/ukraine69-pypi-telegram-vault-deletion-goygram-self-cleaning-queue-1646-october-2026.md)
+
 ## self-delete
 - [TinyRCT](../tools/tinyrct.md)
 
@@ -24991,6 +25021,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## session-privilege-abuse
 - [WordPress "Click2Shell": one link opened by a logged-in admin force-installs an attacker-chosen wp.org theme with no clicks — session-privilege CSRF through the software's own install button, chainable to RCE via a second theme flaw (pwn.ai, patched in 7.1.1, Sep 17, 2026)](../ops/wordpress-click2shell-forced-theme-install-dom-selection-csrf-chainable-rce-pwnai-september-2026.md)
+
+## session-vault
+- [`ukraine69` (PyPI): a "Ukrainian locale helpers" costume whose import-time payload hunts Telegram `.vault` session files and DELETEs the victim's account via GoyGram, then self-cleans after 45 s — six releases in 80 min, TWO published after the queue filing that only covers the first four (queue `#1646`, finder ESTsecurity, this wiki static-verified Oct 17)](../tools/ukraine69-pypi-telegram-vault-deletion-goygram-self-cleaning-queue-1646-october-2026.md)
 
 ## setuid
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
@@ -26897,6 +26930,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## telegram
+- [`ukraine69` (PyPI): a "Ukrainian locale helpers" costume whose import-time payload hunts Telegram `.vault` session files and DELETEs the victim's account via GoyGram, then self-cleans after 45 s — six releases in 80 min, TWO published after the queue filing that only covers the first four (queue `#1646`, finder ESTsecurity, this wiki static-verified Oct 17)](../tools/ukraine69-pypi-telegram-vault-deletion-goygram-self-cleaning-queue-1646-october-2026.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 
 ## Telegram bot
@@ -27272,6 +27306,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [`pyyi` (PyPI) — the `py2ops` operator's NEXT NAME: a single-release `2.4.1` "python companion shell" that installs the same `python2` console script, bakes the SAME two `space-z.ai` C2 rails (byte-identical slugs), carries the full post-`2.3.1` self-heal feature set from birth, and adds an explicit server-fetched payload exec path — LIVE, ACTIVE on PyPI, ZERO OSV + ZERO GHSA ≈11.7 h; curated PR ossf/malicious-packages #1627 open ≈5.4 h; this wiki pulled and statically read the wheel (no execution) and re-probed both baked rails: `POST /api/cli/init` still answers `200 {"ok":true,"apiKey":"ptm_…"}` on BOTH](../tools/pyyi-pypi-python2-companion-shell-py2ops-successor-shared-space-z-rails-october-2026.md)
 - [`react-dropzone-v4` (npm) — a typosquat whose ENTIRE payload is one `preinstall` that beacons `$(hostname)` to a **CanaryTokens.com token**: `MAL-2026-17758` ~24 min after publish (fastest hollow-name machine-lane read on this ledger), one-file tarball, publisher `bane1010` single-package account, self-labeled "Security research - dependency confusion POC" — and the ledger's FIRST 2026-stream **CanaryTokens** collector: a third OOB vendor class whose hits mail the token owner instead of living in an attacker-held session](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 - [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
+- [`ukraine69` (PyPI): a "Ukrainian locale helpers" costume whose import-time payload hunts Telegram `.vault` session files and DELETEs the victim's account via GoyGram, then self-cleans after 45 s — six releases in 80 min, TWO published after the queue filing that only covers the first four (queue `#1646`, finder ESTsecurity, this wiki static-verified Oct 17)](../tools/ukraine69-pypi-telegram-vault-deletion-goygram-self-cleaning-queue-1646-october-2026.md)
 - [`webreader` + `pafer` (PyPI) — the kam193 `2026-10-webreader` pickle-as-config RAT pair: a binary `default.config` in the main package, a dependency whose "config loader" unpickles it, `bypit` + `mypyc_abi3.pth` boot-persistence on every interpreter start, module-gated XOR stage, `memfd_create` fileless exec, npoint.io stage drop, Supabase edge-function C2 — AND BOTH NAMES STILL `project-status=active` + installable ~27 h AFTER THEIR OWN OSVs, while the same analyst's other campaign died in ~1.5 h = THE QUARANTINE DIFFERENTIAL IS NOT KEYED ON THE SOURCE](../tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026.md)
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Aeternum](../tools/aeternum.md)
@@ -29221,6 +29256,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
 
 ## wiper
+- [`ukraine69` (PyPI): a "Ukrainian locale helpers" costume whose import-time payload hunts Telegram `.vault` session files and DELETEs the victim's account via GoyGram, then self-cleans after 45 s — six releases in 80 min, TWO published after the queue filing that only covers the first four (queue `#1646`, finder ESTsecurity, this wiki static-verified Oct 17)](../tools/ukraine69-pypi-telegram-vault-deletion-goygram-self-cleaning-queue-1646-october-2026.md)
 - [GigaWiper](../tools/gigawiper.md)
 - [Handala](../actors/handala.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
