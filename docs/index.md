@@ -8,11 +8,11 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 
 ## Popular this week
 <!-- popular-this-week:auto -->
-_Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-09 UTC (33266 of ~690 on-page requests attributable; 690 of 690 path batches ok)._
+_Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-10 UTC (33047 of ~692 on-page requests attributable; 92 of 692 path batches ok)._
 - [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plu](/ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026/) — 280 reads
 - [MALFEX: one Portuguese-language npm operator, twelve packages, two delivery arms, three years of continuity](/ops/malfex-npm-single-operator-two-arms-function-flag-14-month-unadvised-postinstall-cloudsek-september-2026/) — 274 reads
 - [webreader + pafer (PyPI) — the kam193 2026-10-webreader pickle-as-config RAT pair](/tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026/) — 256 reads
-- [Anthropic Threat Intelligence report (September 2026): GTG case studies](/ops/anthropic-threat-intelligence-report-september-2026-ai-augmented-operations/) — 249 reads
+- [Anthropic Threat Intelligence report (September 2026): GTG case studies](/ops/anthropic-threat-intelligence-report-september-2026-ai-augmented-operations/) — 254 reads
 - [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB pro](/ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026/) — 242 reads
 - [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign](/ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026/) — 241 reads
 - [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on](/ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026/) — 235 reads
