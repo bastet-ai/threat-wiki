@@ -908,6 +908,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [client installer poisoning](#client-installer-poisoning) (1)
 - [client-side](#client-side) (1)
 - [client-side exploitation](#client-side-exploitation) (3)
+- [client-side-RCE](#client-side-rce) (1)
 - [Cline](#cline) (1)
 - [clipboard](#clipboard) (1)
 - [clipboard command](#clipboard-command) (1)
@@ -1199,6 +1200,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ctxs.receiver](#ctxsreceiver) (1)
 - [curated lane](#curated-lane) (3)
 - [Curious Serpens](#curious-serpens) (1)
+- [curl](#curl) (1)
 - [CurlRAT](#curlrat) (1)
 - [CURP](#curp) (1)
 - [Cursor](#cursor) (6)
@@ -1545,6 +1547,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-90898](#cve-2026-90898) (1)
 - [CVE-2026-91843](#cve-2026-91843) (1)
 - [CVE-2026-9198](#cve-2026-9198) (2)
+- [CVE-2026-92392](#cve-2026-92392) (1)
 - [CVE-2026-9539](#cve-2026-9539) (1)
 - [CVE-2026-9586](#cve-2026-9586) (1)
 - [CVSS](#cvss) (1)
@@ -2312,6 +2315,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-6whr-xjjm-6pf8](#ghsa-6whr-xjjm-6pf8) (1)
 - [GHSA-78mw-f4q2-924q](#ghsa-78mw-f4q2-924q) (1)
 - [GHSA-7g4w-cg88-2cq2](#ghsa-7g4w-cg88-2cq2) (1)
+- [GHSA-7jvw-75gf-2h34](#ghsa-7jvw-75gf-2h34) (1)
 - [GHSA-864f-rcv7-6rh4](#ghsa-864f-rcv7-6rh4) (1)
 - [GHSA-8gq3-vp5j-2grp](#ghsa-8gq3-vp5j-2grp) (1)
 - [GHSA-c39w-43gm-34h5](#ghsa-c39w-43gm-34h5) (1)
@@ -2525,6 +2529,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [heap pointer disclosure](#heap-pointer-disclosure) (1)
 - [heap scraping](#heap-scraping) (1)
 - [heap-based buffer overflow](#heap-based-buffer-overflow) (1)
+- [heap-grooming](#heap-grooming) (1)
 - [heap-overflow](#heap-overflow) (1)
 - [HEIC](#heic) (2)
 - [HEIF](#heif) (2)
@@ -2597,7 +2602,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [html5lib](#html5lib) (1)
 - [HTTP 400 handshake](#http-400-handshake) (1)
 - [HTTP C2](#http-c2) (1)
-- [HTTP/2](#http2) (2)
+- [HTTP/2](#http2) (3)
 - [httpd.conf patching](#httpdconf-patching) (1)
 - [HttpMalice](#httpmalice) (1)
 - [HTTPS C2](#https-c2) (2)
@@ -2819,6 +2824,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JFrog](#jfrog) (8)
 - [JFrog Artifactory](#jfrog-artifactory) (1)
 - [JFrog Security Research](#jfrog-security-research) (9)
+- [JFrog-Security-Research](#jfrog-security-research) (1)
 - [JFSA-2026-001686326](#jfsa-2026-001686326) (1)
 - [JFSA-2026-001694382](#jfsa-2026-001694382) (1)
 - [Jinja](#jinja) (1)
@@ -3004,7 +3010,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Level RMM](#level-rmm) (1)
 - [LevelBlue](#levelblue) (1)
 - [Lexfo](#lexfo) (1)
-- [libcurl](#libcurl) (1)
+- [libcurl](#libcurl) (2)
 - [libcurl.dll](#libcurldll) (1)
 - [libde265](#libde265) (1)
 - [libheif](#libheif) (3)
@@ -3535,6 +3541,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [nf_tables](#nf_tables) (1)
 - [NFS](#nfs) (1)
 - [nftables](#nftables) (1)
+- [nghttp2](#nghttp2) (1)
 - [NGINX](#nginx) (1)
 - [Nginx](#nginx) (2)
 - [Nginx module](#nginx-module) (1)
@@ -5010,7 +5017,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (28)
 - [supply chain attack](#supply-chain-attack) (16)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (135)
+- [supply-chain](#supply-chain) (136)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -5226,7 +5233,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (91)
+- [tools](#tools) (92)
 - [Tor](#tor) (5)
 - [torrent-compromise](#torrent-compromise) (1)
 - [Tortoiseshell](#tortoiseshell) (2)
@@ -5430,7 +5437,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [USB weaponizer](#usb-weaponizer) (1)
 - [USB worm](#usb-worm) (2)
 - [usb-propagation](#usb-propagation) (1)
-- [use-after-free](#use-after-free) (5)
+- [use-after-free](#use-after-free) (6)
 - [user execution](#user-execution) (2)
 - [user namespaces](#user-namespaces) (2)
 - [user verification](#user-verification) (1)
@@ -9539,6 +9546,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome V8 CVE-2026-85046 type-confusion exploitation](../ops/chrome-v8-cve-2026-85046-type-confusion-exploitation-september-2026.md)
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
 
+## client-side-RCE
+- [curl CVE-2026-92392: HTTP/2 upload RCE via phantom-stream `multi_done()` UAF — server-driven heap grooming (TLS NewSessionTicket + HPACK) to client `system(cmd)`; HIGH-sealed "blue-moon" preconditions, fixed 8.23.0 (JFrog Security Research, Oct 15, 2026, full text captured)](../tools/curl-http2-upload-rce-cve-2026-92392-phantom-stream-uaf-heap-grooming-jfrog-october-2026.md)
+
 ## Cline
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
@@ -10836,6 +10846,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Curious Serpens
 - [ROADtools](../tools/roadtools.md)
 
+## curl
+- [curl CVE-2026-92392: HTTP/2 upload RCE via phantom-stream `multi_done()` UAF — server-driven heap grooming (TLS NewSessionTicket + HPACK) to client `system(cmd)`; HIGH-sealed "blue-moon" preconditions, fixed 8.23.0 (JFrog Security Research, Oct 15, 2026, full text captured)](../tools/curl-http2-upload-rce-cve-2026-92392-phantom-stream-uaf-heap-grooming-jfrog-october-2026.md)
+
 ## CurlRAT
 - ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 
@@ -11926,6 +11939,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-9198
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
+
+## CVE-2026-92392
+- [curl CVE-2026-92392: HTTP/2 upload RCE via phantom-stream `multi_done()` UAF — server-driven heap grooming (TLS NewSessionTicket + HPACK) to client `system(cmd)`; HIGH-sealed "blue-moon" preconditions, fixed 8.23.0 (JFrog Security Research, Oct 15, 2026, full text captured)](../tools/curl-http2-upload-rce-cve-2026-92392-phantom-stream-uaf-heap-grooming-jfrog-october-2026.md)
 
 ## CVE-2026-9539
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
@@ -14874,6 +14890,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GHSA-7g4w-cg88-2cq2
 - [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 
+## GHSA-7jvw-75gf-2h34
+- [curl CVE-2026-92392: HTTP/2 upload RCE via phantom-stream `multi_done()` UAF — server-driven heap grooming (TLS NewSessionTicket + HPACK) to client `system(cmd)`; HIGH-sealed "blue-moon" preconditions, fixed 8.23.0 (JFrog Security Research, Oct 15, 2026, full text captured)](../tools/curl-http2-upload-rce-cve-2026-92392-phantom-stream-uaf-heap-grooming-jfrog-october-2026.md)
+
 ## GHSA-864f-rcv7-6rh4
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 
@@ -15689,6 +15708,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## heap-based buffer overflow
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
 
+## heap-grooming
+- [curl CVE-2026-92392: HTTP/2 upload RCE via phantom-stream `multi_done()` UAF — server-driven heap grooming (TLS NewSessionTicket + HPACK) to client `system(cmd)`; HIGH-sealed "blue-moon" preconditions, fixed 8.23.0 (JFrog Security Research, Oct 15, 2026, full text captured)](../tools/curl-http2-upload-rce-cve-2026-92392-phantom-stream-uaf-heap-grooming-jfrog-october-2026.md)
+
 ## heap-overflow
 - [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
 
@@ -15923,6 +15945,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TinyRCT](../tools/tinyrct.md)
 
 ## HTTP/2
+- [curl CVE-2026-92392: HTTP/2 upload RCE via phantom-stream `multi_done()` UAF — server-driven heap grooming (TLS NewSessionTicket + HPACK) to client `system(cmd)`; HIGH-sealed "blue-moon" preconditions, fixed 8.23.0 (JFrog Security Research, Oct 15, 2026, full text captured)](../tools/curl-http2-upload-rce-cve-2026-92392-phantom-stream-uaf-heap-grooming-jfrog-october-2026.md)
 - [Kimwolf v7](../tools/kimwolf-v7.md)
 - [MODBEACON](../tools/modbeacon.md)
 
@@ -16869,6 +16892,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
+## JFrog-Security-Research
+- [curl CVE-2026-92392: HTTP/2 upload RCE via phantom-stream `multi_done()` UAF — server-driven heap grooming (TLS NewSessionTicket + HPACK) to client `system(cmd)`; HIGH-sealed "blue-moon" preconditions, fixed 8.23.0 (JFrog Security Research, Oct 15, 2026, full text captured)](../tools/curl-http2-upload-rce-cve-2026-92392-phantom-stream-uaf-heap-grooming-jfrog-october-2026.md)
+
 ## JFSA-2026-001686326
 - [Bifrost CVE-2026-90898: unauthenticated RCE because a stdio MCP client registration starts the command immediately (CVSS 9.8, JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
 
@@ -17544,6 +17570,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## libcurl
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
+- [curl CVE-2026-92392: HTTP/2 upload RCE via phantom-stream `multi_done()` UAF — server-driven heap grooming (TLS NewSessionTicket + HPACK) to client `system(cmd)`; HIGH-sealed "blue-moon" preconditions, fixed 8.23.0 (JFrog Security Research, Oct 15, 2026, full text captured)](../tools/curl-http2-upload-rce-cve-2026-92392-phantom-stream-uaf-heap-grooming-jfrog-october-2026.md)
 
 ## libcurl.dll
 - [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
@@ -19699,6 +19726,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## nftables
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
+
+## nghttp2
+- [curl CVE-2026-92392: HTTP/2 upload RCE via phantom-stream `multi_done()` UAF — server-driven heap grooming (TLS NewSessionTicket + HPACK) to client `system(cmd)`; HIGH-sealed "blue-moon" preconditions, fixed 8.23.0 (JFrog Security Research, Oct 15, 2026, full text captured)](../tools/curl-http2-upload-rce-cve-2026-92392-phantom-stream-uaf-heap-grooming-jfrog-october-2026.md)
 
 ## NGINX
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
@@ -26346,6 +26376,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
+- [curl CVE-2026-92392: HTTP/2 upload RCE via phantom-stream `multi_done()` UAF — server-driven heap grooming (TLS NewSessionTicket + HPACK) to client `system(cmd)`; HIGH-sealed "blue-moon" preconditions, fixed 8.23.0 (JFrog Security Research, Oct 15, 2026, full text captured)](../tools/curl-http2-upload-rce-cve-2026-92392-phantom-stream-uaf-heap-grooming-jfrog-october-2026.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
@@ -27257,6 +27288,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [Check Point Security Management Server CVE-2026-91843: unauthenticated stack overflow in the login process gives remote root (CVSS 9.8, Sep 16, 2026)](../tools/check-point-security-management-server-cve-2026-91843-login-stack-overflow-root-rce-september-2026.md)
 - [CrownX](../tools/crownx.md)
+- [curl CVE-2026-92392: HTTP/2 upload RCE via phantom-stream `multi_done()` UAF — server-driven heap grooming (TLS NewSessionTicket + HPACK) to client `system(cmd)`; HIGH-sealed "blue-moon" preconditions, fixed 8.23.0 (JFrog Security Research, Oct 15, 2026, full text captured)](../tools/curl-http2-upload-rce-cve-2026-92392-phantom-stream-uaf-heap-grooming-jfrog-october-2026.md)
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
 - [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
@@ -28117,6 +28149,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## use-after-free
 - [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
+- [curl CVE-2026-92392: HTTP/2 upload RCE via phantom-stream `multi_done()` UAF — server-driven heap grooming (TLS NewSessionTicket + HPACK) to client `system(cmd)`; HIGH-sealed "blue-moon" preconditions, fixed 8.23.0 (JFrog Security Research, Oct 15, 2026, full text captured)](../tools/curl-http2-upload-rce-cve-2026-92392-phantom-stream-uaf-heap-grooming-jfrog-october-2026.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
 - [workerd / Cloudflare Code Mode: five memory-corruption bugs enable sandbox escape and cross-tenant "heap swipe"](../tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md)
