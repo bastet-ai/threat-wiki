@@ -32,3 +32,5 @@ The kam193 `2026-10-voxeval` campaign is on-wiki history: `voxeval` `0.4.3–0.4
 - Copycat adoption of the eight-in-one-import cadence by other campaign lanes.
 
 Sweep context → [126th stream section](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-17-one-hundred-and-twenty-sixth-sweep).
+
+## October 17 one-hundred-and-twenty-seventh sweep: quarantine HOLDS — sample re-read of `driftwavets`/`emberlytts`/`glassbeakasr` at `≈4.5 h` after first read: `simple/` `200` with `pypi:project-status: quarantined` + zero links, JSON `404` on each = no re-registration, no artifact ever surfaced, the stage-2 URL remains unknowable by anyone. OSV `17912`–`17920` all live via exact-name `v1/query`. GHSA mirrors STILL ZERO cohort-wide — with a route self-capture: the `GET /advisories?package=` parameter is silently IGNORED and returns the global list; client-side filtering confirms zero. Sweep context → [127th stream section](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-17-one-hundred-and-twenty-seventh-sweep).
