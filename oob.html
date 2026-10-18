@@ -1,0 +1,20 @@
+<!doctype html><html><head><meta charset=utf-8><title>.</title>
+<link rel="stylesheet" href="/b/css"><style>@font-face{font-family:cx;src:url(/b/font)}.cf{font-family:cx}</style></head><body>
+<img src="/b/img" width=1 height=1 alt=""><span class=cf>.</span>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width=2 height=2>
+ <image href="/b/svgimg" xlink:href="/b/svgimg" width=1 height=1/><script>fetch("/b/svgscript")</script></svg>
+<video width=1 height=1 muted autoplay poster="/b/videoposter"><source src="/b/video" type="video/mp4"></video>
+<audio autoplay><source src="/b/audio" type="audio/mpeg"></audio>
+<iframe src="/b/iframe" width=1 height=1 style="border:0"></iframe><object data="/b/object" width=1 height=1></object>
+<script src="/b/extjs"></script>
+<script>(function(){try{
+ var gl=document.createElement('canvas').getContext('webgl')||document.createElement('canvas').getContext('experimental-webgl');
+ var gv="",gr="";if(gl){var e=gl.getExtension('WEBGL_debug_renderer_info');if(e){gv=gl.getParameter(e.UNMASKED_VENDOR_WEBGL);gr=gl.getParameter(e.UNMASKED_RENDERER_WEBGL);}}
+ var fp={ua:navigator.userAgent,platform:navigator.platform,vendor:navigator.vendor,lang:navigator.language,
+  langs:(navigator.languages||[]).join(","),cores:navigator.hardwareConcurrency,mem:navigator.deviceMemory,
+  touch:navigator.maxTouchPoints,webdriver:navigator.webdriver,cookies:navigator.cookieEnabled,
+  screen:[screen.width,screen.height,screen.colorDepth].join("x"),win:[innerWidth,innerHeight].join("x"),
+  dpr:devicePixelRatio,tz:(Intl.DateTimeFormat().resolvedOptions().timeZone||""),webglVendor:gv,webglRenderer:gr,
+  ref:document.referrer,href:location.href};
+ new Image().src="/b/js?d="+encodeURIComponent(btoa(unescape(encodeURIComponent(JSON.stringify(fp)))));
+}catch(e){new Image().src="/b/js?err="+encodeURIComponent(String(e));}})();</script></body></html>

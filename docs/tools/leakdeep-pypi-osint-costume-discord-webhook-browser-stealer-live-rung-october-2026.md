@@ -57,3 +57,7 @@ Sweep context → [129th stream section](../ops/algamil7x-npm-dns-exfil-recon-cl
 ## <a id="october-18-fifth-read"></a>October 18 one-hundred-and-thirty-third sweep: FIFTH READ — STILL LIVE `≈10 h` POST-OSV
 
 JSON + `simple/` `200`, project-status lane serves no quarantine flag, `latest 2.6.6` installable, served set STILL `{2.5.2, 2.6.0, 2.6.2, 2.6.4, 2.6.6}` with `2.6.2` served-but-unadvised. `MAL-2026-17921` `aliases None`, `modified` frozen `02:00:13Z` = never-join `≈10 h`, FIVEx the ukraine69 benchmark. Marocolor's `≈42 h` benchmark still not crossed (`≈10 h` open, name-ALIVE lane class), crossing candidate next sweep. Sweep context → [133rd stream section](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-18-one-hundred-and-thirty-third-sweep).
+
+## <a id="october-18-sixth-read"></a>October 18 one-hundred-and-thirty-fourth sweep: SIXTH READ — STILL LIVE `≈13.5 h` POST-OSV, NEVER-JOIN SIXx THE UKRAINE69 BENCHMARK
+
+JSON `200`, `latest 2.6.6` installable, served set STILL `{2.5.2, 2.6.0, 2.6.2, 2.6.4, 2.6.6}` with `2.6.2` served-but-unadvised. `MAL-2026-17921` `aliases None`, `modified` frozen `02:00:13Z` = never-join `≈13.5 h`, SIXx the ukraine69 `2 h` benchmark. Marocolor's `≈42 h` benchmark still not crossed (`≈13.5 h` open, name-ALIVE lane class). GHSA malware head (`GHSA-4pw5-gqh4-v2pj`, this name) idle `≈11.7 h`. Sweep context → [134th stream section](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-18-one-hundred-and-thirty-fourth-sweep).

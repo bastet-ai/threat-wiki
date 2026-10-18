@@ -48,3 +48,7 @@ Sweep context → [126th stream section](../ops/algamil7x-npm-dns-exfil-recon-cl
 ## <a id="october-18-full-cohort-sixth-read"></a>October 18 one-hundred-and-thirty-third sweep: FULL-COHORT SIXTH READ — ALL EIGHT `404`, QUARANTINE HOLDS `≈17 h`
 
 All-eight JSON `404` (`emberlytts`/`driftwavets`/`glassbeakasr`/`novalithtts`/`pyrechoasr`/`quasitonnts`/`tonemaptts`/`voltswannts`) = quarantine holds `≈17 h`, zero re-registration, no ninth name; `ukraine69` JSON `404` hold. Sweep context → [133rd stream section](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-18-one-hundred-and-thirty-third-sweep).
+
+## <a id="october-18-full-cohort-seventh-read"></a>October 18 one-hundred-and-thirty-fourth sweep: FULL-COHORT SEVENTH READ — ALL EIGHT `404`, QUARANTINE HOLDS `≈20 h`
+
+All-eight JSON `404` (`emberlytts`/`driftwavets`/`glassbeakasr`/`novalithtts`/`pyrechoasr`/`quasitonnts`/`tonemaptts`/`voltswannts`) = quarantine holds `≈20 h`, zero re-registration, no ninth name; `ukraine69` JSON `404` hold. Sweep context → [134th stream section](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-18-one-hundred-and-thirty-fourth-sweep).
