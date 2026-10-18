@@ -11,3 +11,4 @@ __pycache__/
 .env.*
 .dev.vars*
 .popular-cache.json
+oob.html
