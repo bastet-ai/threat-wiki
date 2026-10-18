@@ -52,3 +52,7 @@ All-eight JSON `404` (`emberlytts`/`driftwavets`/`glassbeakasr`/`novalithtts`/`p
 ## <a id="october-18-full-cohort-seventh-read"></a>October 18 one-hundred-and-thirty-fourth sweep: FULL-COHORT SEVENTH READ — ALL EIGHT `404`, QUARANTINE HOLDS `≈20 h`
 
 All-eight JSON `404` (`emberlytts`/`driftwavets`/`glassbeakasr`/`novalithtts`/`pyrechoasr`/`quasitonnts`/`tonemaptts`/`voltswannts`) = quarantine holds `≈20 h`, zero re-registration, no ninth name; `ukraine69` JSON `404` hold. Sweep context → [134th stream section](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-18-one-hundred-and-thirty-fourth-sweep).
+
+## <a id="october-18-full-cohort-eighth-read"></a>October 18 one-hundred-and-thirty-fifth sweep: FULL-COHORT EIGHTH READ
+
+All-eight JSON `404` (`emberlytts`/`driftwavets`/`glassbeakasr`/`novalithtts`/`pyrechoasr`/`quasitonnts`/`tonemaptts`/`voltswannts`) = quarantine holds `≈22 h`, zero re-registration, no ninth name; `ukraine69` JSON `404` hold. Same-sweep contrast recorded: `leakdeep` (name ALIVE all day) took `≈14–16 h` to reach quarantine while this cohort was quarantined at birth = the per-package spread is about detection posture, not age. Sweep context → [135th stream section](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-18-one-hundred-and-thirty-fifth-sweep).
