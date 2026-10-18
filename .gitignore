@@ -12,3 +12,12 @@ __pycache__/
 .dev.vars*
 .popular-cache.json
 oob.html
+
+# probe artifacts (sweeps)
+/*.rss
+/*.csv
+/*.tar
+/*.bin
+/kev.json
+/ld_simple.html
+/oob*.html
