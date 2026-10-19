@@ -573,6 +573,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Binance Smart Chain](#binance-smart-chain) (1)
 - [binary execution](#binary-execution) (1)
 - [binary squatting](#binary-squatting) (1)
+- [binary-mirror](#binary-mirror) (1)
 - [BinaryFormatter](#binaryformatter) (1)
 - [BINDCLOAK](#bindcloak) (3)
 - [binding.gyp](#bindinggyp) (3)
@@ -721,6 +722,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [bypass2fa](#bypass2fa) (1)
 - [byte-identical twins](#byte-identical-twins) (1)
 - [bytecode](#bytecode) (1)
+- [bytemover](#bytemover) (1)
 - [C backdoor](#c-backdoor) (1)
 - [C#](#c) (1)
 - [C++](#c) (5)
@@ -2240,6 +2242,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Friendly Fire](#friendly-fire) (1)
 - [frontier AI](#frontier-ai) (2)
 - [frontier models](#frontier-models) (1)
+- [frp](#frp) (1)
 - [FRP](#frp) (1)
 - [FruitStone](#fruitstone) (1)
 - [FSB](#fsb) (4)
@@ -2372,7 +2375,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [github-abuse](#github-abuse) (1)
 - [github-actions](#github-actions) (2)
 - [GitHub-Actions](#github-actions) (1)
-- [GitHub-Advisories](#github-advisories) (1)
+- [GitHub-Advisories](#github-advisories) (2)
 - [github-c2](#github-c2) (1)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
 - [GitLab](#gitlab) (5)
@@ -3188,7 +3191,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malicious theme](#malicious-theme) (1)
-- [malicious-package](#malicious-package) (15)
+- [malicious-package](#malicious-package) (16)
 - [malicious-packages-queue](#malicious-packages-queue) (1)
 - [malvertising](#malvertising) (11)
 - [malware](#malware) (69)
@@ -3599,7 +3602,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies](#novacookies) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (94)
+- [npm](#npm) (95)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -3780,7 +3783,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ossf malicious-packages](#ossf-malicious-packages) (5)
 - [Ossprey](#ossprey) (1)
 - [osv](#osv) (3)
-- [OSV](#osv) (5)
+- [OSV](#osv) (6)
 - [OSV malware stream](#osv-malware-stream) (4)
 - [OSV-first](#osv-first) (1)
 - [OT](#ot) (6)
@@ -3992,6 +3995,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PixelSmash](#pixelsmash) (1)
 - [PKCE](#pkce) (1)
 - [PKGBUILD](#pkgbuild) (1)
+- [pkgship](#pkgship) (1)
 - [PLA](#pla) (1)
 - [plaintext HTTP](#plaintext-http) (1)
 - [Plandex](#plandex) (1)
@@ -5025,7 +5029,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (28)
 - [supply chain attack](#supply-chain-attack) (16)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (136)
+- [supply-chain](#supply-chain) (137)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -5241,7 +5245,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (93)
+- [tools](#tools) (94)
 - [Tor](#tor) (5)
 - [torrent-compromise](#torrent-compromise) (1)
 - [Tortoiseshell](#tortoiseshell) (2)
@@ -5310,7 +5314,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [trusted-publishing](#trusted-publishing) (2)
 - [tunnel decapsulation](#tunnel-decapsulation) (1)
 - [tunnel services](#tunnel-services) (1)
-- [tunneling](#tunneling) (4)
+- [tunneling](#tunneling) (5)
 - [Turkey](#turkey) (1)
 - [Turla](#turla) (4)
 - [Turla collaboration](#turla-collaboration) (1)
@@ -8091,6 +8095,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## binary squatting
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 
+## binary-mirror
+- [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
+
 ## BinaryFormatter
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 
@@ -8685,6 +8692,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## bytecode
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
+
+## bytemover
+- [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
 
 ## C backdoor
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
@@ -14654,6 +14664,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## frontier models
 - [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 
+## frp
+- [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
+
 ## FRP
 - [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
 
@@ -15139,6 +15152,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GhostAction returns: maintainer-account workflow injection sweeps 345 repos, and the October payload mines the ENTIRE git history (StepSecurity, Oct 9, 2026)](../ops/ghostaction-github-actions-workflow-injection-git-history-credential-mining-stepsecurity-october-2026.md)
 
 ## GitHub-Advisories
+- [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 
 ## github-c2
@@ -18296,6 +18310,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 - [RubyGems 24-gem crypto-utility fleet — the `45.138.12.177` C2 RETURNS under fresh names: 24 gems pushed in an 83-second scripted window (Oct 11 06:52:40–06:54:02Z), every one `0.9.1`, every `extconf.rb` a base64 double-fork `/bin/sh`-over-TCP reverse shell to **the SAME `45.138.12.177:8089`** the Wallet Guard wgkit fleet used — with the `bitcoin_rpc_lite_native` makefile name and the Oct-5 counter-forensics gates (CI / ephemeral-host / generated-user / analysis-path / uptime>30 min / dev-signals) baked in as shipped defaults — and for the FIRST TIME on this ledger a RubyGems malware fleet dual-advised 24/24 from day one (OSV `MAL-2026-17779`–`17802` + a 24-record same-second GHSA batch 15:31:13Z) while every gem stays LIVE and the C2 box itself has gone fully DARK](../ops/rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026.md)
 - [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
+- [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
@@ -20026,6 +20041,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamPCP](../actors/teampcp.md)
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
+- [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
@@ -21483,6 +21499,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OSV
 - [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
+- [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
 - [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
@@ -22361,6 +22378,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PKGBUILD
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
+
+## pkgship
+- [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
 
 ## PLA
 - [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
@@ -26488,6 +26508,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
+- [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
@@ -27377,6 +27398,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TaskWeaver](../tools/taskweaver.md)
 - [TELEPUZ](../tools/telepuz.md)
 - [TELESHIM](../tools/teleshim.md)
+- [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 - [TinyRCT](../tools/tinyrct.md)
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
@@ -27632,6 +27654,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BridgeHead](../tools/bridgehead.md)
 - [Mirage Kitten](../actors/mirage-kitten.md)
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
+- [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
 
 ## Turkey
 - [APT28-linked HOOKEDGE backdoor targets European government and diplomatic organizations](../ops/apt28-hookedge-backdoor-european-gov-diplomatic-august-2026.md)
