@@ -8,7 +8,7 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 
 ## Popular this week
 <!-- popular-this-week:auto -->
-_Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-11 UTC (33018 of ~697 on-page requests attributable; 97 of 697 path batches ok)._
+_Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-13 UTC (32861 of ~702 on-page requests attributable; 77 of 702 path batches ok)._
 - [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plu](/ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026/) — 280 reads
 - [MALFEX: one Portuguese-language npm operator, twelve packages, two delivery arms, three years of continuity](/ops/malfex-npm-single-operator-two-arms-function-flag-14-month-unadvised-postinstall-cloudsek-september-2026/) — 274 reads
 - [webreader + pafer (PyPI) — the kam193 2026-10-webreader pickle-as-config RAT pair](/tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026/) — 256 reads
