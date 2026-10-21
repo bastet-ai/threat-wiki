@@ -16,6 +16,9 @@ Public reporting and community discussion indicate the LiteLLM compromise was pa
 ## 2026-05-22 Boost Labs update
 Boost Security Labs' detailed LiteLLM writeup adds three durable defender pivots to the existing TeamPCP record: the precise `1.82.7`/`1.82.8` PyPI payload split, `.pth`-based Python startup execution with no import requirement, and a caveated initial-access analysis that narrows but does not prove a Trivy bridge.
 
+## 2026-10-21 second compromise of the same project
+JFrog disclosed a SECOND LiteLLM hijack: malicious `1.107.0` wheels-only (`cook.pth`/`cook.py`/`sitecustomize.py` via the wheel `purelib` lane, sdist + tag clean), interpreter-start `privcollect` credential stealer including the proxy's own credential tables, exfil to `www[.]litellm[.]dev`, hourly GitHub dead-drop loader. JFrog states different payloads/infrastructure and NO evidence linking to TeamPCP or the March access path — treat as a separate campaign. Full capture: [LiteLLM 1.107.0 page](litellm-1-107-0-wheel-only-privcollect-startup-hook-credential-stealer-hourly-github-dead-drop-loader-jfrog-october-2026.md). Open question this reopen raises publicly: whether the March remediation ever closed the build/publish path at all.
+
 ## Timeline
 - **March 19, 2026:** TeamPCP's earlier Trivy compromise created a plausible credential-theft bridge into later victims, but Boost treats the exact LiteLLM initial-access path as a working hypothesis rather than proven BerriAI internal forensics.
 - **March 24, 2026:** public warning and community investigation started after TeamPCP Telegram chatter about another large supply-chain attack and a `+35k stars` GitHub repository.

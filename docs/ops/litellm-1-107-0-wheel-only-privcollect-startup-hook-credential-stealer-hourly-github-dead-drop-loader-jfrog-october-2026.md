@@ -1,0 +1,66 @@
+---
+title: "LiteLLM hijacked AGAIN: malicious 1.107.0 WHEELS only (sdist clean) ship cook.pth + sitecustomize.py startup hooks — the ~61 KB privcollect credential stealer runs at every Python start even without importing litellm, dumps the LiteLLM proxy credential tables themselves, exfs to www[.]litellm[.]dev/healthcheck, and an hourly GitHub raw dead-drop loader (domain.txt) grants arbitrary code; JFrog Oct 21 full text; this wiki verified all seven 1.107.0 wheels PULLED from PyPI, the dead-drop GitHub account letters9813 404, and ZERO OSV/GHSA malware records covering 1.107.0 at check"
+---
+
+# LiteLLM 1.107.0: wheel-only injection, interpreter-startup credential theft, and a dead-drop loader — the second LiteLLM hijack of 2026
+
+**Observed:** October 21, 2026 (this wiki capture ~13:2x–13:4x UTC, same-day). **Primary:** JFrog Security Research, "LiteLLM Hijacked Again: Malicious 1.107.0 Wheels Steal Credentials and Load Remote Code" (`research.jfrog.com/post/litellm-hijacked-again/`, Guy Korolevski, 21 Oct 2026) — FULL TEXT CAPTURED by this wiki same-day. Community tracking: LiteLLM issue #47826.
+
+## The observation
+
+All **seven** published `litellm` 1.107.0 wheels (macOS x86/ARM, manylinux x86/ARM, musllinux x86/ARM, Windows) carry three files the **source distribution does not contain**:
+
+```
+litellm-1.107.0.data/purelib/cook.pth
+litellm-1.107.0.data/purelib/cook.py
+litellm-1.107.0.data/purelib/sitecustomize.py
+```
+
+Installed into `site-packages` ROOT via the wheel `purelib` data lane. The sdist additionally carries a `pyproject.toml` `data = "cook"` setting absent from the Git tag — the injection rode the BUILD lane, not the source lane. The payload files share ZIP timestamps/metadata with legitimate wheel content, which favors inclusion during ordinary wheel construction over later manual ZIP repacking. The compromise point (CI system, build machine, publishing credential) remains UNKNOWN — JFrog states this explicitly and this wiki records it as such.
+
+**This is the second documented LiteLLM hijack of 2026.** March 2026: an unpinned Trivy 0.69.4 release in the CI pipeline exposed publishing credentials, backdoored 1.82.7/1.82.8 shipped (credential harvesting, Kubernetes spread, persistent backdoor; JFrog XRAY-955589; TeamPCP lane, on-wiki at [teampcp](../actors/teampcp.md)). **JFrog: the 1.107.0 incident uses different payloads and infrastructure and NO evidence currently links it to TeamPCP or the March access path — treat as separate campaigns** (recorded, not asserted in either direction).
+
+## The payload mechanics (per JFrog, decoded statically — not detonated by this wiki)
+
+- **`cook.pth`** contains only `import cook`. Python's `site` module EXECUTES `import` lines in `.pth` files at interpreter startup — `cook.py` runs in EVERY Python process of the environment, **whether or not the app ever imports `litellm`**. Running `pip` in an affected venv retriggers the payload.
+- **`cook.py`** is a two-line Base64+zlib blob that expands to ≈61 KB of Python identifying itself as **`privcollect`**. Targets: SSH/GPG/TLS private keys, shell and DB client histories, `.pem/.key/.p12/.pfx`; Chromium + Firefox profile data; AWS/Azure/GCP credentials, kubeconfigs, Docker/Swarm secrets, GitHub CLI, `rclone`, `.netrc`; GitLab Runner/Jenkins/Vault/Terraform/Packer; `.git-credentials`/`.npmrc`/`.pypirc`/pip/Yarn/Maven/Gradle/Composer/RubyGems/Cargo tokens; AI dev-tool credentials for Cursor, Claude, Codex, Gemini, Copilot, Hugging Face, Kiro, Windsurf, Zed, Continue, aider, goose, opencode, Qwen, Cline, Roo, Cody; every readable `/proc/<pid>/environ`; AWS IMDS/ECS/GCP/Azure metadata. Stolen AWS keys are validated via `GetCallerIdentity` before shipping.
+- **The LiteLLM-specific kill:** the stealer spawns a child Python process, connects through Prisma, and dumps `LiteLLM_CredentialsTable` + `LiteLLM_ProxyModelTable` from the proxy's `DATABASE_URL` — **one compromised LiteLLM proxy exposes the stored provider credentials of every upstream it fronts.** The proxy is a credential concentrator; compromising it is a many-tenant event.
+- **Exfil:** JSON → AES-256-CBC (random key) → key wrapped with an embedded RSA-4096 OAEP-SHA256 public key → `tar.gz` POSTed over PLAINTEXT http to `hxxp[:]//www[.]litellm[.]dev/healthcheck` with static `X-Token: XWiA8gZNa7NcX2XRoAEb` + `X-SHA256`. App-layer envelope = nothing recoverable from network capture; hunt by destination and header, not content. `www[.]litellm[.]dev` ≠ legitimate `litellm[.]ai` ≠ March incident's `models[.]litellm[.]cloud`.
+- **`sitecustomize.py`** forks a detached hourly loop (`flock` on `/tmp/remote_code_loader.lock`, `setsid`, cwd `/`): fetches a C2 domain from `hxxps[:]//raw[.]githubusercontent[.]com/letters9813/pythonclient-test/main/domain.txt`, and if it resolves, runs the embedded stealer synchronously each cycle then fetches `hxxp://<domain>/codepy` and `exec()`s it — arbitrary remote code, no integrity check. Run-once marker `/tmp/.pc_once_72129118c59f5636c0bb` (created only AFTER successful exfil — its absence is NOT cleanliness), `PRIVCOLLECT_ACTIVE=1` env dedupe, `/tmp/.pc_sq_*`, `/tmp/.pc_e_*`. The `sitecustomize` daemon path silently fails on Windows (`os.fork`) — but `cook.pth` still runs the stealer there.
+
+## This wiki's same-window verification (13:2x–13:4x UTC)
+
+- **PyPI state:** `litellm` latest = **1.106.2** (8 files re-published `2026-10-21T10:44Z` per the registry JSON). The `/simple/` index shows ONLY `1.107.0.dev1/.dev2/.dev3` artifacts — **every final 1.107.0 file is GONE from the index and from the releases list** = registry pull performed between JFrog's writing and this check. The dev-rungs remain served (JFrog's wheel-timestamp observation covers finals; dev-rung content UNVERIFIED by this wiki — treat as suspect class until diffed).
+- **Dead-drop:** `raw.githubusercontent.com/letters9813/pythonclient-test/main/domain.txt` now **404**, the GitHub account `letters9813` **404**, the repo **404** — JFrog observed a zero-byte file (loader dormant-by-emptiness); this wiki observes FULL TAKEDOWN of the drop's account lane. The loader is disarmed ONLY as long as the dead-drop stays dead AND the sitecustomize process isn't running elsewhere with a cached/fresh path — a takedown is not remediation.
+- **Advisory lane at check: ZERO.** OSV `litellm/PyPI` query returns 82 records, NONE mentioning 1.107.0; GitHub advisory search for `affects:litellm` newest = `GHSA-3cv6` (Sep 30, SSRF class, not malware). `MAL-`/GHSA-malware coverage had NOT landed at capture = **the named-package window between disclosure blog and machine-readable advisory is open right now; block/pin on the blog, don't wait for the GHSA.**
+
+## What defenders should do (per JFrog + this wiki hunts)
+
+1. **Never begin remediation by running `pip`/Python in the affected env** — that re-executes `cook.pth`. First delete `cook.pth`, `cook.py`, `sitecustomize.py`, matching `__pycache__` files, `/tmp/.pc_once_72129118c59f5636c0bb`, `/tmp/remote_code_loader.lock` using tooling that does NOT invoke the affected interpreter. Find and kill detached python holding the lock / `setsid` / cwd `/`.
+2. **Treat every credential the host could reach as compromised** — browser vaults, SSH/GPG/TLS keys, cloud + K8s creds, every package-publishing and source-control token, ALL AI dev-tool tokens, `DATABASE_URL`, LiteLLM master/virtual keys, and EVERY row of `LiteLLM_CredentialsTable`. A proxy host hit = rotate for every tenant whose keys it stored.
+3. **Block and hunt:** `www[.]litellm[.]dev` (any path, plaintext http), `raw[.]githubusercontent[.]com/letters9813/pythonclient-test/main/domain.txt`, any domain it ever served, any `/codepy` fetch. Preserve proxy/DNS/endpoint/cloud-audit logs. AWS keys used from foreign IPs (`GetCallerIdentity` validation precedes shipping) = confirmation of use, not just theft.
+4. **Pin `litellm==1.106.2` ONLY from a clean environment**, after hooks removed or on a rebuild. Forensic-rebuild venvs/containers/images from verified artifacts — do not try to prove a privcollect host clean.
+5. **Hunt the class, not just this name:** `cook.pth`/`cook.py`/`sitecustomize.py` (or ANY unexpected `.pth`/`sitecustomize` in `site-packages`), `data =` pyproject lanes, and startup-hook files whose ZIP metadata matches the build batch. Compare the RECORD manifest and the actual wheel against the sdist/Git tag you reviewed.
+
+## Durable reads
+
+- **Source review is not artifact review.** The sdist was clean, the tag was clean, the library code inside the wheel was clean — the malicious code lived only in the built wheel's `purelib` data lane. Every provenance workflow that hashes a tag or reads an sdist missed this end to end. **Verify the exact artifact you install: RECORD contents + startup hooks.**
+- **`.pth` and `sitecustomize.py` are persistent execution at interpreter start** — one install into a shared environment arms every process, admin action included. Unexpected startup-hook files in `site-packages` are IOC-class by shape alone, no detonation needed.
+- **Credential concentrators are force multipliers:** the LiteLLM proxy's own credential tables were a named target. The same grammar applies to every gateway/vault/proxy product on this wiki — the box that stores everyone's keys gets robbed once for everyone.
+- **Dead-drop resilience is the operator's, not yours:** zero-byte file → full account takedown in hours shows live infrastructure management; a dead drop's history (and any victim-side cache of a resolved domain) matters more than its current answer.
+- **Second compromise of the same project in seven months** says the March remediation (pin Trivy, rotate) did not close the build/publish path; the open question — which part of the release pipeline was altered — is the incident's real remediation and it is still unanswered publicly.
+
+## Late-sweep re-attest (~15:2x–15:3x UTC, same sweep)
+
+- **The advisory window is still open:** OSV `litellm/PyPI` re-query `82` records, NONE covering `1.107`; GHSA `affects:litellm` head UNCHANGED (`GHSA-3cv6` Sep-30 SSRF class). `≈2 h` after the JFrog post, machine-readable coverage is still ZERO — the pin/block decision stays on the blog.
+- **Registry state holds:** `latest 1.106.2`; zero final `1.107.0` artifacts on `/simple/`; dev1/dev2/dev3 rungs still served, content still unverified = still suspect class.
+- **SELF-CAPTURE — the exfil host is ALIVE, not taken down:** `hxxp://www[.]litellm[.]dev/healthcheck` answers `403` (up from nothing) = the endpoint is serving and rejecting non-conforming requests. The GitHub dead-drop lane (`letters9813`) is gone; the collection lane is NOT. Defenders get an extra detection surface while it answers: any outbound POST to this host is a confirmed-infected assertion, and the `403` responses themselves are hunt-able in proxy logs. Block the destination regardless.
+
+## Monitor
+
+- `malicious-packages`/OSV/GHSA malware records for `litellm` 1.107.0 (zero at check = watch for the join, and for the mirror lag).
+- LiteLLM issue #47826: maintainer statements on build/publish compromise point, 1.107.0.dev* disposition, possible re-release numbering.
+- Whether the `letters9813` dead-drop respawns under a new account (drop-mint grammar).
+- `www[.]litellm[.]dev` resolution history + any `/codepy` sightings in proxy telemetry; JARM/DNS passive DNS.
+- Copycat/independent sightings of the `privcollect` string class, `X-Token XWiA8gZNa7NcX2XRoAEb`, and `.pc_once_` artifacts outside LiteLLM environments.
+- Attribution follow-on: does anyone link this to March/TeamPCP after all? JFrog currently says NO.
