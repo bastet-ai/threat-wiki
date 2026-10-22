@@ -576,7 +576,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [binary-mirror](#binary-mirror) (1)
 - [BinaryFormatter](#binaryformatter) (1)
 - [BINDCLOAK](#bindcloak) (3)
-- [binding-gyp](#binding-gyp) (1)
+- [binding-gyp](#binding-gyp) (2)
 - [binding.gyp](#bindinggyp) (3)
 - [biometric records](#biometric-records) (1)
 - [BIOPASS RAT](#biopass-rat) (1)
@@ -707,7 +707,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [building automation](#building-automation) (1)
 - [builtin wildcard](#builtin-wildcard) (1)
 - [bulletproof hosting](#bulletproof-hosting) (1)
-- [Bun](#bun) (7)
+- [Bun](#bun) (8)
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
 - [bundled npm package](#bundled-npm-package) (1)
 - [Burkina Faso](#burkina-faso) (1)
@@ -1126,7 +1126,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential stealer](#credential-stealer) (1)
 - [credential stuffing](#credential-stuffing) (2)
 - [credential theft](#credential-theft) (91)
-- [credential-stealer](#credential-stealer) (1)
+- [credential-stealer](#credential-stealer) (2)
 - [credential-theft](#credential-theft) (58)
 - [credit card theft](#credit-card-theft) (1)
 - [crimeware](#crimeware) (1)
@@ -1688,7 +1688,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Denys Pakizh](#denys-pakizh) (1)
 - [Dependabot](#dependabot) (1)
 - [dependency confusion](#dependency-confusion) (7)
-- [dependency-confusion](#dependency-confusion) (6)
+- [dependency-confusion](#dependency-confusion) (7)
 - [dependency-confusion shaped](#dependency-confusion-shaped) (1)
 - [deployment_status](#deployment_status) (1)
 - [deposit address replacement](#deposit-address-replacement) (1)
@@ -2333,6 +2333,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-cv3r-c5h8-f4g5](#ghsa-cv3r-c5h8-f4g5) (1)
 - [GHSA-g89c-p67h-r497](#ghsa-g89c-p67h-r497) (1)
 - [GHSA-hvfh-5mj3-5f3j](#ghsa-hvfh-5mj3-5f3j) (1)
+- [ghsa-join-laws](#ghsa-join-laws) (1)
 - [GHSA-m5w8-4gq2-6f8x](#ghsa-m5w8-4gq2-6f8x) (1)
 - [GHSA-malware-lane](#ghsa-malware-lane) (1)
 - [GHSA-mf7q-r4rv-jv94](#ghsa-mf7q-r4rv-jv94) (1)
@@ -2345,6 +2346,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-x2rj-828p-hx9m](#ghsa-x2rj-828p-hx9m) (1)
 - [GHSA-xhcr-j4j9-3gh7](#ghsa-xhcr-j4j9-3gh7) (1)
 - [GIFTEDCROOK](#giftedcrook) (1)
+- [gist-payload](#gist-payload) (1)
 - [Git](#git) (1)
 - [git config injection](#git-config-injection) (1)
 - [Git hook](#git-hook) (2)
@@ -2751,7 +2753,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [integrity forgery](#integrity-forgery) (1)
 - [inter-agent communication](#inter-agent-communication) (1)
 - [interaction replay](#interaction-replay) (1)
-- [interactsh](#interactsh) (1)
+- [interactsh](#interactsh) (2)
 - [Intercolo](#intercolo) (1)
 - [internal secret exfiltration](#internal-secret-exfiltration) (1)
 - [internal security review](#internal-security-review) (1)
@@ -3196,7 +3198,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malicious theme](#malicious-theme) (1)
-- [malicious-package](#malicious-package) (17)
+- [malicious-package](#malicious-package) (18)
 - [malicious-packages-queue](#malicious-packages-queue) (1)
 - [malvertising](#malvertising) (11)
 - [malware](#malware) (69)
@@ -3582,7 +3584,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [no-install-hook delivery](#no-install-hook-delivery) (1)
 - [No-IP](#no-ip) (1)
 - [node compromise](#node-compromise) (1)
-- [node-gyp](#node-gyp) (3)
+- [node-gyp](#node-gyp) (4)
 - [node-ipc](#node-ipc) (1)
 - [node-pty](#node-pty) (1)
 - [Node-RED](#node-red) (1)
@@ -3608,7 +3610,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies](#novacookies) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (96)
+- [npm](#npm) (97)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -3652,6 +3654,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NX-OS](#nx-os) (1)
 - [O-UNC-066](#o-unc-066) (1)
 - [OAST](#oast) (1)
+- [oast-beacon](#oast-beacon) (1)
 - [oast.fun](#oastfun) (1)
 - [oastify](#oastify) (3)
 - [OAuth](#oauth) (6)
@@ -3678,7 +3681,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OCR content analysis](#ocr-content-analysis) (1)
 - [OctLurk](#octlurk) (2)
 - [October 2026](#october-2026) (2)
-- [october-2026](#october-2026) (1)
+- [october-2026](#october-2026) (2)
 - [Octopi365](#octopi365) (1)
 - [OFAC](#ofac) (2)
 - [off-registry dependency](#off-registry-dependency) (1)
@@ -3766,7 +3769,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (457)
+- [ops](#ops) (458)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -3789,7 +3792,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OSCrypt](#oscrypt) (1)
 - [ossf malicious-packages](#ossf-malicious-packages) (5)
 - [Ossprey](#ossprey) (1)
-- [osv](#osv) (4)
+- [osv](#osv) (5)
 - [OSV](#osv) (6)
 - [OSV malware stream](#osv-malware-stream) (4)
 - [OSV-first](#osv-first) (1)
@@ -4288,7 +4291,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Reaper](#reaper) (1)
 - [reasoning replay](#reasoning-replay) (1)
 - [Reco](#reco) (1)
-- [reconnaissance](#reconnaissance) (9)
+- [reconnaissance](#reconnaissance) (10)
 - [recovery denial](#recovery-denial) (3)
 - [recovery disruption](#recovery-disruption) (2)
 - [recovery flow](#recovery-flow) (1)
@@ -4696,6 +4699,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER-040](#shadow-aether-040) (1)
 - [SHADOW-AETHER-064](#shadow-aether-064) (2)
 - [SHADOW-EARTH-066](#shadow-earth-066) (1)
+- [shadow-registry](#shadow-registry) (1)
 - [SHADOW-WATER-063](#shadow-water-063) (1)
 - [ShadowPad](#shadowpad) (4)
 - [Shadowserver](#shadowserver) (1)
@@ -5040,7 +5044,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (28)
 - [supply chain attack](#supply-chain-attack) (16)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (138)
+- [supply-chain](#supply-chain) (139)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -8119,6 +8123,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## binding-gyp
 - [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
+- [The test bench RE-SPAWNS and the OAST recon class arrives: `test-brotli2-testmetest` + two NEW binding.gyp/Bun droppers + a shadow-registry hijack (`@conduitops/logview-archive`) + a Gist-fed `preinstall` loader (`formatting-subtitles`) + an install-beacon (`simplewave`) (OSV `MAL-2026-18182`–`18187`, Oct 22, 2026)](../ops/testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md)
 
 ## binding.gyp
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
@@ -8650,6 +8655,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 - [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
+- [The test bench RE-SPAWNS and the OAST recon class arrives: `test-brotli2-testmetest` + two NEW binding.gyp/Bun droppers + a shadow-registry hijack (`@conduitops/logview-archive`) + a Gist-fed `preinstall` loader (`formatting-subtitles`) + an install-beacon (`simplewave`) (OSV `MAL-2026-18182`–`18187`, Oct 22, 2026)](../ops/testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md)
 - [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
 
 ## Bun runtime abuse
@@ -10505,6 +10511,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## credential-stealer
 - [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
+- [The test bench RE-SPAWNS and the OAST recon class arrives: `test-brotli2-testmetest` + two NEW binding.gyp/Bun droppers + a shadow-registry hijack (`@conduitops/logview-archive`) + a Gist-fed `preinstall` loader (`formatting-subtitles`) + an install-beacon (`simplewave`) (OSV `MAL-2026-18182`–`18187`, Oct 22, 2026)](../ops/testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md)
 
 ## credential-theft
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
@@ -12539,6 +12546,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
+- [The test bench RE-SPAWNS and the OAST recon class arrives: `test-brotli2-testmetest` + two NEW binding.gyp/Bun droppers + a shadow-registry hijack (`@conduitops/logview-archive`) + a Gist-fed `preinstall` loader (`formatting-subtitles`) + an install-beacon (`simplewave`) (OSV `MAL-2026-18182`–`18187`, Oct 22, 2026)](../ops/testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md)
 - [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 
 ## dependency-confusion shaped
@@ -14968,6 +14976,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GHSA-hvfh-5mj3-5f3j
 - [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 
+## ghsa-join-laws
+- [The test bench RE-SPAWNS and the OAST recon class arrives: `test-brotli2-testmetest` + two NEW binding.gyp/Bun droppers + a shadow-registry hijack (`@conduitops/logview-archive`) + a Gist-fed `preinstall` loader (`formatting-subtitles`) + an install-beacon (`simplewave`) (OSV `MAL-2026-18182`–`18187`, Oct 22, 2026)](../ops/testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md)
+
 ## GHSA-m5w8-4gq2-6f8x
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
@@ -15003,6 +15014,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GIFTEDCROOK
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+
+## gist-payload
+- [The test bench RE-SPAWNS and the OAST recon class arrives: `test-brotli2-testmetest` + two NEW binding.gyp/Bun droppers + a shadow-registry hijack (`@conduitops/logview-archive`) + a Gist-fed `preinstall` loader (`formatting-subtitles`) + an install-beacon (`simplewave`) (OSV `MAL-2026-18182`–`18187`, Oct 22, 2026)](../ops/testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md)
 
 ## Git
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
@@ -16608,6 +16622,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## interactsh
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
+- [The test bench RE-SPAWNS and the OAST recon class arrives: `test-brotli2-testmetest` + two NEW binding.gyp/Bun droppers + a shadow-registry hijack (`@conduitops/logview-archive`) + a Gist-fed `preinstall` loader (`formatting-subtitles`) + an install-beacon (`simplewave`) (OSV `MAL-2026-18182`–`18187`, Oct 22, 2026)](../ops/testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md)
 
 ## Intercolo
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
@@ -18344,6 +18359,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
+- [The test bench RE-SPAWNS and the OAST recon class arrives: `test-brotli2-testmetest` + two NEW binding.gyp/Bun droppers + a shadow-registry hijack (`@conduitops/logview-archive`) + a Gist-fed `preinstall` loader (`formatting-subtitles`) + an install-beacon (`simplewave`) (OSV `MAL-2026-18182`–`18187`, Oct 22, 2026)](../ops/testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md)
 - [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 
 ## malicious-packages-queue
@@ -19885,6 +19901,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
+- [The test bench RE-SPAWNS and the OAST recon class arrives: `test-brotli2-testmetest` + two NEW binding.gyp/Bun droppers + a shadow-registry hijack (`@conduitops/logview-archive`) + a Gist-fed `preinstall` loader (`formatting-subtitles`) + an install-beacon (`simplewave`) (OSV `MAL-2026-18182`–`18187`, Oct 22, 2026)](../ops/testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md)
 
 ## node-ipc
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
@@ -20081,6 +20098,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
+- [The test bench RE-SPAWNS and the OAST recon class arrives: `test-brotli2-testmetest` + two NEW binding.gyp/Bun droppers + a shadow-registry hijack (`@conduitops/logview-archive`) + a Gist-fed `preinstall` loader (`formatting-subtitles`) + an install-beacon (`simplewave`) (OSV `MAL-2026-18182`–`18187`, Oct 22, 2026)](../ops/testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [ulid-xyz transitive delivery chain: a MicrosoftSystem64 RAT three npm dependencies deep (SafeDep, Sep 1, 2026)](../ops/ulid-xyz-transitive-delivery-chain-microsoftsystem64-dprk-september-2026.md)
@@ -20229,6 +20247,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OAST
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 
+## oast-beacon
+- [The test bench RE-SPAWNS and the OAST recon class arrives: `test-brotli2-testmetest` + two NEW binding.gyp/Bun droppers + a shadow-registry hijack (`@conduitops/logview-archive`) + a Gist-fed `preinstall` loader (`formatting-subtitles`) + an install-beacon (`simplewave`) (OSV `MAL-2026-18182`–`18187`, Oct 22, 2026)](../ops/testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md)
+
 ## oast.fun
 - [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 
@@ -20331,6 +20352,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## october-2026
 - [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
+- [The test bench RE-SPAWNS and the OAST recon class arrives: `test-brotli2-testmetest` + two NEW binding.gyp/Bun droppers + a shadow-registry hijack (`@conduitops/logview-archive`) + a Gist-fed `preinstall` loader (`formatting-subtitles`) + an install-beacon (`simplewave`) (OSV `MAL-2026-18182`–`18187`, Oct 22, 2026)](../ops/testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md)
 
 ## Octopi365
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
@@ -21392,6 +21414,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
+- [The test bench RE-SPAWNS and the OAST recon class arrives: `test-brotli2-testmetest` + two NEW binding.gyp/Bun droppers + a shadow-registry hijack (`@conduitops/logview-archive`) + a Gist-fed `preinstall` loader (`formatting-subtitles`) + an install-beacon (`simplewave`) (OSV `MAL-2026-18182`–`18187`, Oct 22, 2026)](../ops/testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Toy Ghouls "Angry Birds" custom backdoor (HiveMQ / Element)](../ops/toy-ghouls-angry-birds-hivemq-element-backdoor-september-2026.md)
@@ -21534,6 +21557,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GSUT `@gsutevil/hta-stage` HTA/WSH MSI loader + `hta-ui` Banco do Brasil landing templates (npm, OSV MAL-2026-16419, Sep 22-23, 2026)](../tools/gsut-hta-stage-loader-banco-do-brasil-landing-templates-npm-september-2026.md)
 - [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
 - [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
+- [The test bench RE-SPAWNS and the OAST recon class arrives: `test-brotli2-testmetest` + two NEW binding.gyp/Bun droppers + a shadow-registry hijack (`@conduitops/logview-archive`) + a Gist-fed `preinstall` loader (`formatting-subtitles`) + an install-beacon (`simplewave`) (OSV `MAL-2026-18182`–`18187`, Oct 22, 2026)](../ops/testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md)
 
 ## OSV
 - [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
@@ -23595,6 +23619,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
+- [The test bench RE-SPAWNS and the OAST recon class arrives: `test-brotli2-testmetest` + two NEW binding.gyp/Bun droppers + a shadow-registry hijack (`@conduitops/logview-archive`) + a Gist-fed `preinstall` loader (`formatting-subtitles`) + an install-beacon (`simplewave`) (OSV `MAL-2026-18182`–`18187`, Oct 22, 2026)](../ops/testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md)
 
 ## recovery denial
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -25136,6 +25161,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SHADOW-EARTH-066
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
+## shadow-registry
+- [The test bench RE-SPAWNS and the OAST recon class arrives: `test-brotli2-testmetest` + two NEW binding.gyp/Bun droppers + a shadow-registry hijack (`@conduitops/logview-archive`) + a Gist-fed `preinstall` loader (`formatting-subtitles`) + an install-beacon (`simplewave`) (OSV `MAL-2026-18182`–`18187`, Oct 22, 2026)](../ops/testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md)
+
 ## SHADOW-WATER-063
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
@@ -26565,6 +26593,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
+- [The test bench RE-SPAWNS and the OAST recon class arrives: `test-brotli2-testmetest` + two NEW binding.gyp/Bun droppers + a shadow-registry hijack (`@conduitops/logview-archive`) + a Gist-fed `preinstall` loader (`formatting-subtitles`) + an install-beacon (`simplewave`) (OSV `MAL-2026-18182`–`18187`, Oct 22, 2026)](../ops/testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
