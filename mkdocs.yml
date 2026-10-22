@@ -410,6 +410,7 @@ nav:
       - Stock exchange executive mailbox espionage: ops/stock-exchange-executive-mailbox-espionage.md
       - UNC6692 SNOW malware social-engineering campaign: ops/unc6692-snow-malware-social-engineering.md
       - binding.gyp npm CI/CD worm: ops/binding-gyp-npm-cicd-worm.md
+      - "TESTMETEST binding.gyp worm wave: hostage wipe + queue-filed OSV dossiers": ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md
       - Operation GriefLure Southeast Asia LNK dropper: ops/operation-grieflure-southeast-asia-lnk-dropper.md
       - faster-axios / turbo-axios Epsilon Stealer npm campaign: ops/faster-axios-turbo-axios-epsilon-stealer.md
       - IronWorm npm Rust infostealer campaign: ops/ironworm-npm-rust-infostealer.md

@@ -576,6 +576,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [binary-mirror](#binary-mirror) (1)
 - [BinaryFormatter](#binaryformatter) (1)
 - [BINDCLOAK](#bindcloak) (3)
+- [binding-gyp](#binding-gyp) (1)
 - [binding.gyp](#bindinggyp) (3)
 - [biometric records](#biometric-records) (1)
 - [BIOPASS RAT](#biopass-rat) (1)
@@ -706,7 +707,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [building automation](#building-automation) (1)
 - [builtin wildcard](#builtin-wildcard) (1)
 - [bulletproof hosting](#bulletproof-hosting) (1)
-- [Bun](#bun) (6)
+- [Bun](#bun) (7)
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
 - [bundled npm package](#bundled-npm-package) (1)
 - [Burkina Faso](#burkina-faso) (1)
@@ -1125,6 +1126,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential stealer](#credential-stealer) (1)
 - [credential stuffing](#credential-stuffing) (2)
 - [credential theft](#credential-theft) (91)
+- [credential-stealer](#credential-stealer) (1)
 - [credential-theft](#credential-theft) (58)
 - [credit card theft](#credit-card-theft) (1)
 - [crimeware](#crimeware) (1)
@@ -1621,6 +1623,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data scraping](#data-scraping) (1)
 - [data theft](#data-theft) (11)
 - [data-exfiltration](#data-exfiltration) (2)
+- [data-wiping](#data-wiping) (1)
 - [database](#database) (1)
 - [database extortion](#database-extortion) (1)
 - [Datadog](#datadog) (1)
@@ -1650,6 +1653,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dead-drop resolution](#dead-drop-resolution) (1)
 - [dead-drop resolver](#dead-drop-resolver) (3)
 - [dead-drop-hosting](#dead-drop-hosting) (1)
+- [dead-man-switch](#dead-man-switch) (1)
 - [DeadLock](#deadlock) (1)
 - [Debian](#debian) (1)
 - [debugger evasion](#debugger-evasion) (1)
@@ -2378,6 +2382,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub-Advisories](#github-advisories) (2)
 - [github-c2](#github-c2) (1)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
+- [github-token](#github-token) (1)
 - [GitLab](#gitlab) (5)
 - [gitleaks](#gitleaks) (1)
 - [gitnow](#gitnow) (1)
@@ -3191,7 +3196,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malicious theme](#malicious-theme) (1)
-- [malicious-package](#malicious-package) (16)
+- [malicious-package](#malicious-package) (17)
 - [malicious-packages-queue](#malicious-packages-queue) (1)
 - [malvertising](#malvertising) (11)
 - [malware](#malware) (69)
@@ -3290,6 +3295,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA-bypass](#mfa-bypass) (1)
 - [MFT](#mft) (1)
 - [Miasma](#miasma) (12)
+- [miasma](#miasma) (1)
 - [MicroLogix 1100](#micrologix-1100) (1)
 - [MicroLogix 1400](#micrologix-1400) (1)
 - [MicroPython](#micropython) (2)
@@ -3576,7 +3582,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [no-install-hook delivery](#no-install-hook-delivery) (1)
 - [No-IP](#no-ip) (1)
 - [node compromise](#node-compromise) (1)
-- [node-gyp](#node-gyp) (2)
+- [node-gyp](#node-gyp) (3)
 - [node-ipc](#node-ipc) (1)
 - [node-pty](#node-pty) (1)
 - [Node-RED](#node-red) (1)
@@ -3602,7 +3608,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies](#novacookies) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (95)
+- [npm](#npm) (96)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -3672,6 +3678,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OCR content analysis](#ocr-content-analysis) (1)
 - [OctLurk](#octlurk) (2)
 - [October 2026](#october-2026) (2)
+- [october-2026](#october-2026) (1)
 - [Octopi365](#octopi365) (1)
 - [OFAC](#ofac) (2)
 - [off-registry dependency](#off-registry-dependency) (1)
@@ -3759,7 +3766,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (456)
+- [ops](#ops) (457)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -3782,7 +3789,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OSCrypt](#oscrypt) (1)
 - [ossf malicious-packages](#ossf-malicious-packages) (5)
 - [Ossprey](#ossprey) (1)
-- [osv](#osv) (3)
+- [osv](#osv) (4)
 - [OSV](#osv) (6)
 - [OSV malware stream](#osv-malware-stream) (4)
 - [OSV-first](#osv-first) (1)
@@ -3945,6 +3952,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pg_hba.conf](#pg_hbaconf) (1)
 - [PhaaS](#phaas) (8)
 - [Phantom Gyp](#phantom-gyp) (3)
+- [phantom-gyp](#phantom-gyp) (1)
 - [PhantomClick](#phantomclick) (1)
 - [PhantomCore](#phantomcore) (1)
 - [PhantomGraph](#phantomgraph) (1)
@@ -4245,6 +4253,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ransomware access](#ransomware-access) (1)
 - [ransomware enablement](#ransomware-enablement) (1)
 - [ransomware-access](#ransomware-access) (1)
+- [ransomware-adjacent](#ransomware-adjacent) (1)
 - [rapid exploitation](#rapid-exploitation) (2)
 - [Rapid7](#rapid7) (3)
 - [RAR archives](#rar-archives) (1)
@@ -4622,6 +4631,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [self-managed](#self-managed) (1)
 - [self-propagating](#self-propagating) (1)
 - [self-propagating payload](#self-propagating-payload) (1)
+- [self-propagating-worm](#self-propagating-worm) (1)
 - [self-propagation](#self-propagation) (2)
 - [self-updating malware](#self-updating-malware) (1)
 - [semantic-release](#semantic-release) (1)
@@ -4691,6 +4701,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Shadowserver](#shadowserver) (1)
 - [Shadowserver Foundation](#shadowserver-foundation) (1)
 - [Shai-Hulud](#shai-hulud) (15)
+- [shai-hulud-lineage](#shai-hulud-lineage) (1)
 - [SHARDLOADER](#shardloader) (2)
 - [SHARE Foundation](#share-foundation) (1)
 - [share propagation](#share-propagation) (1)
@@ -5029,7 +5040,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (28)
 - [supply chain attack](#supply-chain-attack) (16)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (137)
+- [supply-chain](#supply-chain) (138)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -8106,6 +8117,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MIXEDKEY](../tools/mixedkey.md)
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 
+## binding-gyp
+- [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
+
 ## binding.gyp
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
@@ -8635,6 +8649,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
+- [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
 - [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
 
 ## Bun runtime abuse
@@ -10488,6 +10503,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XCSSET hides inside a pub.dev Flutter package: `universal_file_viewer` (Aikido, Sep 8, 2026)](../ops/xcsset-pub-dev-flutter-universal-file-viewer-aikido-september-2026.md)
 - [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 
+## credential-stealer
+- [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
+
 ## credential-theft
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
@@ -12259,6 +12277,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 
+## data-wiping
+- [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
+
 ## database
 - [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
 
@@ -12365,6 +12386,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## dead-drop-hosting
 - [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
+
+## dead-man-switch
+- [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
 
 ## DeadLock
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
@@ -15160,6 +15184,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GitHub-hosted runners
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
+
+## github-token
+- [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
 
 ## GitLab
 - [@zereight/mcp-gitlab CVE-2026-61560: unauthenticated SSE transport plus arbitrary file read exfiltrates the GitLab PAT (CVSS 9.8, Sep 16, 2026)](../tools/zereight-mcp-gitlab-cve-2026-61560-unauthenticated-sse-pat-exfiltration-september-2026.md)
@@ -18309,6 +18336,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MALFEX: one Portuguese-language npm operator, twelve packages, two delivery arms, three years of continuity — and the advisory pipeline's gap made visible: `function-flag` sat as a malicious postinstall with NO advisory for fourteen months, and `cdn-img-fetch` stayed installable after npm seized its parent](../ops/malfex-npm-single-operator-two-arms-function-flag-14-month-unadvised-postinstall-cloudsek-september-2026.md)
 - [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 - [RubyGems 24-gem crypto-utility fleet — the `45.138.12.177` C2 RETURNS under fresh names: 24 gems pushed in an 83-second scripted window (Oct 11 06:52:40–06:54:02Z), every one `0.9.1`, every `extconf.rb` a base64 double-fork `/bin/sh`-over-TCP reverse shell to **the SAME `45.138.12.177:8089`** the Wallet Guard wgkit fleet used — with the `bitcoin_rpc_lite_native` makefile name and the Oct-5 counter-forensics gates (CI / ephemeral-host / generated-user / analysis-path / uptime>30 min / dev-signals) baked in as shipped defaults — and for the FIRST TIME on this ledger a RubyGems malware fleet dual-advised 24/24 from day one (OSV `MAL-2026-17779`–`17802` + a 24-record same-second GHSA batch 15:31:13Z) while every gem stays LIVE and the C2 box itself has gone fully DARK](../ops/rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026.md)
+- [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
 - [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 - [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
@@ -18782,6 +18810,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 - [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
+
+## miasma
+- [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
 
 ## MicroLogix 1100
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
@@ -19853,6 +19884,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## node-gyp
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
+- [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
 
 ## node-ipc
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
@@ -20040,6 +20072,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026) — CLOSED SAME DAY (see State below): npm `latest` = clean 0.1.24, malicious versions unpublished; PyPI lifted the project quarantine at clean 2.0.33 with 2.0.34 surgically removed; OSV `MAL-2026-16475`/`16476` + `GHSA-mhjf-v53x-7p87` landed 11:05/11:53 UTC)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 - [TeamPCP](../actors/teampcp.md)
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
+- [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
 - [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 - [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
@@ -20295,6 +20328,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## October 2026
 - [`marocolor` (PyPI) — a color-palette costume that at IMPORT time spawns two daemon threads: `steal()` walks the victim's home directory for nine sensitive extensions and POSTs every match to a hardcoded Telegram bot `sendDocument`, while `crash()` runs a thread-fork-bomb plus a `127.0.0.1:80` connect-loop DoS; Arabic operator-addressed comments mark it in the LLM-authored tell class; `MAL-2026-17900` (kam193 lane, campaign `2026-10-marocolor`) is the ledger's live NEVER-JOIN control — it arrived OSV-first, got its `GHSA-m6jr-rmfr-29w4` mirror `1 h 52 m` later, and still reads `aliases: None` at `+59 min`](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
 - [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
+
+## october-2026
+- [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
 
 ## Octopi365
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
@@ -21349,6 +21385,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 - [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
+- [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
 - [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
@@ -21495,6 +21532,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## osv
 - [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 - [GSUT `@gsutevil/hta-stage` HTA/WSH MSI loader + `hta-ui` Banco do Brasil landing templates (npm, OSV MAL-2026-16419, Sep 22-23, 2026)](../tools/gsut-hta-stage-loader-banco-do-brasil-landing-templates-npm-september-2026.md)
+- [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
 - [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
 
 ## OSV
@@ -22177,6 +22215,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
+
+## phantom-gyp
+- [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
 
 ## PhantomClick
 - [GREYVIBE](../actors/greyvibe.md)
@@ -23372,6 +23413,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ransomware-access
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
+
+## ransomware-adjacent
+- [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
 
 ## rapid exploitation
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -24866,6 +24910,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## self-propagating payload
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
 
+## self-propagating-worm
+- [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
+
 ## self-propagation
 - [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026) — CLOSED SAME DAY (see State below): npm `latest` = clean 0.1.24, malicious versions unpublished; PyPI lifted the project quarantine at clean 2.0.33 with 2.0.34 surgically removed; OSV `MAL-2026-16475`/`16476` + `GHSA-mhjf-v53x-7p87` landed 11:05/11:53 UTC)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -25120,6 +25167,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 - [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
+
+## shai-hulud-lineage
+- [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
 
 ## SHARDLOADER
 - [Mustang Panda](../actors/mustang-panda.md)
@@ -26507,6 +26557,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamPCP](../actors/teampcp.md)
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
+- [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
 - [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 - [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
