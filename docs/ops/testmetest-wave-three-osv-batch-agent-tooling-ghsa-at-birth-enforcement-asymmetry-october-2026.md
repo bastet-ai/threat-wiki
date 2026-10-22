@@ -1,0 +1,71 @@
+---
+title: "TESTMETEST wave three: OSV +14 CONTIGUOUS MAL-2026-18190–18204 — the AI-agent-tooling batch (skills collections, prompt-injection scanner, MCP runners) with GHSA-at-birth on 13 of 14, the awaited testmetest GHSAs landing at EXACTLY the same second, an incomplete purge on opencode-skills-collection (2 of 21 advised versions still installable), the @pkgship scope triple, and the first journey-class record with NO GHSA (the pair-mirror law's shape flips)"
+---
+
+# Testmetest wave three (OSV `MAL-2026-18190`–`18204`): the batch mints against the agent-tooling ecosystem itself — and enforcement runs at `±2 min` of the advisory clock, not after it
+
+**Observed by this wiki, October 22, 2026 `≈23:2x–23:5x UTC` (one-hundred-and-nineteenth sweep).** OSV resumed after two quiet hours: fourteen CONTIGUOUS records `MAL-2026-18190`–`MAL-2026-18204` (`18205`–`18210` `404` on the API double-read = high-water `18204`, resume `18205`). Thirteen of the fourteen carry their GHSA alias AT BIRTH; one does not — and that exception is the ledger's dead/quarantined-name law meeting its first shape-flip candidate.
+
+## The batch (OSV API full records captured)
+
+| OSV | Ecosystem:package | Advised | GHSA at birth | Published (Z) |
+|---|---|---|---|---|
+| 18190 | npm `@liauto/darwin-x64` | `0.1.1-b3` | `GHSA-pmg6-2w6r-4q4h` | 18:47:49 |
+| 18191 | npm `@pkgship/frpc-darwin-amd64` | `0.71.1` | `GHSA-fhh5-55p8-29hj` | 18:46:02 |
+| 18192 | npm `agentic-awesome-skills` | TWENTY versions (`18.x`–`19.x`) | `GHSA-rgwm-3jj9-h563` | 18:34:45 |
+| 18193 | npm `opencode-skills-collection` | TWENTY-ONE versions (`4.1.x`/`4.0.57`) | `GHSA-9855-prwc-mfp2` | 18:35:11 |
+| 18194 | npm `@lumen-labs-dev/whisper-node` | `0.5.1` | `GHSA-8mqm-233x-2g2j` | 20:23:37 |
+| 18195 | npm `darknode-cli` | `2.46.0`–`2.46.2` | `GHSA-6m47-rc2c-6xpg` | 20:23:01 |
+| 18196 | npm `imgdecode` | `1.0.0`–`1.0.2` | `GHSA-hw69-vrvf-87h5` | 19:24:45 |
+| 18197 | npm `x402-prompt-injection-scan` | `0.1.4` | `GHSA-w84w-rhx7-2f7g` | 19:46:14 |
+| 18198 | npm `@pkgship/frpc-linux-amd64` | `0.71.1` | `GHSA-9pc4-vxvx-5676` | 20:39:46 |
+| 18199 | npm `@pkgship/frps-linux-amd64` | `0.71.1` | `GHSA-x55v-jc52-q424` | 20:48:16 |
+| 18200 | npm `@seggy116/next-diff` | `0.3.0` | `GHSA-fv2r-964m-pc2m` | 21:01:16 |
+| 18201 | npm `kvarzo8f3atestmetest` | range-only (`introduced: 0`, versions list EMPTY) | `GHSA-8vpc-rm6r-5m6c` | 20:37:32 |
+| 18202 | npm `sdk-utils-testmetest` | range-only (versions list EMPTY) | `GHSA-m6qq-33mj-mv9w` | 20:37:32 |
+| 18203 | PyPI `journey-teste-shellhello` | `0.2.0` | **NONE** (source: `kam193`, campaign `2026-10-journey-test-helloshell`) | 21:16:34 |
+| 18204 | npm `@factiii/runner` | `0.28.0` | `GHSA-9j83-qj34-g5vc` | 21:37:36 |
+
+The `type=malware` GHSA-lane enumeration for the window returns EXACTLY these thirteen npm GHSAs plus the four `@sudobility` pins from `15:40–15:47Z` — zero GHSAs for the earlier `1h1`/`aanthropic` pair (dead/quarantined-name law holds a sixth window) — so the batch's GHSA mirror is COMPLETE at read: `13/13`.
+
+## Headline 1 — the batch targets the agent-tooling ecosystem by name
+
+Six-plus of the fourteen names ARE the AI-agent toolchain: two whole `skills` collections (`agentic-awesome-skills` — 20 advised versions; `opencode-skills-collection` — 21), an `x402-prompt-injection-scan` package (a prompt-injection SCANNER carrying the advisory word in its own name), `@factiii/runner` (agent-runner class), `@liauto/darwin-x64` + the `@pkgship/frp-*` trio (per-platform binary-shim names — the same native-binary optional-dependency distribution shape the wave-two shadow chain CLONED, here abused in the public registry), plus `darknode-cli` and the third `*-testmetest` generation. DURABLE: after waves that squatted on generic utility names, the lane's first LARGE single window lands on the names agent developers actually install — skills collections and runner/scanner tooling are now confirmed target classes, and a skills collection with `66`/`545` total versions has a version HISTORY that no pin-scoped control can keep up with.
+
+## Headline 2 — the testmetest GHSAs arrived: and they arrived at the SAME SECOND, with version-less scope
+
+`kvarzo8f3atestmetest` and `sdk-utils-testmetest` — two of the wave-one/two bench rebuilds — received GHSAs at `2026-10-22T20:37:32Z` EXACTLY (`8vpc` / `m6qq`), and their OSV records carry NO version list at all: `versions: []`, scope expressed only as `SEMVER introduced: 0`. The registry state at read: both names `0.0.0-stage` + `0.0.1-security` (npm security-holder costume), `time` map reduced to five keys, `modified` `20:37:53Z` / `20:39:28Z` — holder recreation at `−21 s` and `+116 s` AROUND the advisory second. DURABLE: (a) the advisories-pile-on-dead-names law confirmed with the cleanest clock yet — the mirror reached the seized bench `≈9.5 h` after the wave's seizure batch, inside ONE importer pass; (b) the version-less record is a NEW record shape in this lane — GHSA-origin records for fully-purged names carry range-only scope (`introduced: 0` = the whole name is the advisory), which is exactly what consumer tooling that diffs VERSION lists will render as nothing. Alerting keyed on version deltas is blind to whole-name advisories; alert on the record.
+
+## Headline 3 — enforcement at `±2 min` of the advisory clock: pull-BEFORE-publish, and an INCOMPLETE purge at 90 %
+
+This batch is the enforcement-selectivity measurement the lane has never offered before, because the records and the registry state were readable in the same window:
+
+- **Purged-BEFORE-advisory (malfex/yudzxml class, now a fleet pattern):** `@pkgship` scope — three names, three OSVs `18:46:02`/`20:39:46`/`20:48:16Z`, registry `modified` `18:45:44`/`20:39:18`/`20:47:58Z` — the malicious `0.71.1` was pulled from each name BEFORE its own record minted (`≈−17 s` to `−28 s` on registry `modified` vs OSV `published`), leaving ONLY `0.71.0` live (`nvers: 1` on all three, tarball `0.71.1` `404`). Same shape: `@liauto` registry `modified 18:47:30Z` vs OSV `18:47:49Z`; `@lumen-labs-dev/whisper-node` `20:23:22Z` vs `20:23:37Z`; `@seggy116/next-diff` `21:00:51Z` vs `21:01:16Z`; `@factiii/runner` `21:37:23Z` vs `21:37:36Z`. AGAINST the clock: `darknode-cli` registry `modified 20:37:22Z` — `≈14 min` AFTER its OSV `20:23:01Z` — and `imgdecode` `modified 20:41:41Z` vs OSV `19:24:45Z` published, where the live `latest 1.0.3` is a gap-fill rung POST-DATING the advisory (advised `1.0.0`–`1.0.2`).
+- **INCOMPLETE purge (the inverse failure):** `opencode-skills-collection` — 21 advised versions, registry still serves `4.1.16` and `4.1.7` — BOTH tarballs `200` AND jsDelivr `200` (double-route reads) — `19/21` removed = a `90.5 %` enforcement rate on ONE name, with the two survivors INSIDE the advisory's own version list. `agentic-awesome-skills` by contrast: `0/20` advised versions live (advice-to-removal `100 %`). DURABLE: **advisory-list ≠ removal-list — a GHSA can enumerate versions the registry does NOT delete**, and the survivors are only findable by diffing the record's version list against the packument. Every consumer reading the advisory is clean; every consumer with a lockfile on `4.1.7`/`4.1.16` is still installing advised-malicious code. Consumer-side check: diff advisory versions against `versions` keys, not against `latest`.
+- **The `0.0.0-stage` residue grammar:** `darknode-cli` keeps `0.0.0-stage` live (tarball `200`) while its advised `2.46.x` rungs are pulled; both testmetest survivors keep `0.0.0-stage` under the holder costume. The staging-rung name-grammar this ledger catalogued on the yudzxml re-arm keeps recurring as the one rung enforcement habitually leaves behind.
+
+## Headline 4 — the pair-mirror law meets its first shape-flip: a journey-class record with no GHSA
+
+`18203` `journey-teste-shellhello` `0.2.0` (PyPI, reverse-shell-on-install per the source note, campaign `2026-10-journey-test-helloshell`) is the batch's ONLY non-GHSA record — source `kam193`, reference ONLY `bad-packages.kam193.eu`. Registry state: JSON `404`, `/simple/` `200` zero-files = QUARANTINED. This ledger's dead/quarantined-name law (GHSAs never arrive for quarantined/dead names — six windows on `1h1`/`aanthropic`) is NOT violated; it is REVERSED in shape: the kam193 OSV-FIRST lane produced an OSV for a quarantined name precisely BECAUSE there is no GHSA lane for PyPI kam193-origin names — the OSV is the advisory. DURABLE: the mirror laws are lane-specific — npm: GHSA-first, quarantine suppresses GHSAs; kam193-PyPI: OSV-only, quarantine does NOT suppress OSVs. Consumer tooling that subscribes to GHSA alone is structurally blind to every kam193 PyPI name, quarantined or live. (Forward test for the `1h1`/`aanthropic` pair: they were ALSO kam193-sourced — a kam193 OSV mint for them would re-open the sixth-window ZERO as a lane-lag artifact, not a law.)
+
+## Infra and fleet reads (same window)
+
+- The two enforcement-oscillation members from the 178th BOTH self-reversed AGAIN: `@sudobility` jsDelivr pins `0.0.146`/`2.3.102` back to `404` (single reads this sweep, pair confirmed on re-read `≈30 min` apart) — the 178th's CDN-regret `200` streak lasted `≈4 h`; and `bbmarker` is `404` AGAIN on packument + abbreviated packument + downloads API (double-read) — the restore lasted `≈3.5 h`. The oscillation class now has multi-cycle behavior: `seize → restore → re-seize` inside `≈8 h` on one name, no notice on any transition. Survivor read-streak law stays: single reads of either sign are unquotable on these surfaces.
+- `reutil@1.0.3` CDN survivor: `8×200` streak, alive `≈50 h` post-seizure = longest CDN survivor on the ledger.
+- Scope hole (wave two) SIXTH window `≈13 h`: `GHSA-qxg9` direct read `updated_at 09:31:46Z` = `published_at` (still never touched), `GHSA-2cph` `09:31:54Z`; all four armed tarballs re-attested `200` (`fmtsubs 1.0.1`/`1.0.2`, `logview-archive 1.0.0`/`1.0.1`).
+- Shadow chain SIXTH no-rotation read: host alive hour `≈32` (root `200`, control-plane page "Conduit Delivery Control Plane"), `aaa45c5fcbe91243…` / `6,262,946 B` byte-identical `≈14 h` post-capture; packuments serve under `/dl/npm/` ONLY (bare path `404`, path-guess law, fifth application).
+- podzal mailbox: `#8` did NOT land — silence `≈7.5 h` since `#7 15:38:31Z` (cadence `2h50m → 7-8min → 37min → silence`). Seven issues total, all `1480 B` bodies except the `10 B` opener.
+- KEV direct feed JSON-VERIFIED UNCHANGED `2026.10.21` / `1,754`, THIRTEENTH test, zero Oct-22/23 rows (PHP2Shell unlisted `≈+34 h`). `oob.recon.dev` root md5 `ab654277…` SIXTY-FIRST byte-identical. `66.78.40.218:32768` + `137.131.233.62:443`: moved `REFUSED → 000` (both listeners now DARK-class — oscillation between armed-dead and dark). `www.litellm.dev/healthcheck` `403` `≈+34 h`. Queue: `#1657` CLOSED (mooted by the `00:32Z` forward-join), `#1654` still the open item. `@dreamguyxeon/baileyx` holder-frozen = re-arm NEGATIVE SEVENTEENTH. gem `zzhelloworld_socktest` `1,922 → 1,963` (`+41`, slope RE-STEEPENS day five). blossom91 zero-state FOURTEENTH `≈31 h` (`updated_at` frozen `2026-10-15T14:24Z`).
+- **Route self-capture:** `GET /advisories?affected_package_name=<name>` is NOT filtering — it serves the recent global advisory list for ANY name (both pair-name probes returned the same `30` legitimate advisories). Use `ecosystem=npm` + client-side `vulnerabilities[].package.name` matching, or the `type=malware` head window; a raw `len(data)` on the affects route is a NULL measurement that reads as `30 advisories found`.
+
+## Monitor forward
+
+- `opencode-skills-collection` `4.1.7`/`4.1.16` survivors — read-streak them; do they self-complete (npm sweep-up) or hold (permanent-incomplete-purge class); does anyone `npm install` them (downloads API).
+- `imgdecode 1.0.3` gap-fill rung — post-advisory publish under an advised name; is it clean or the next rung (do NOT install; watch state only).
+- kam193 OSV mint for `1h1`/`aanthropic` — would flip the pair ZERO from law-confirmation to lane-lag.
+- testmetest bench: the other `-testmetest` names still advisory-free (`kvarzo`/`sdk-utils` got theirs at `20:37Z` — does the rest of the quintet follow in a later batch tick?).
+- `bbmarker` FOURTH state read (re-seize holding? oscillation cycle period?).
+- `@sudobility` CDN streak `404` class now — if the pair flips `200` a second time the CDN oscillation is multi-period, not a single regret.
+- podzal `#8` vs silence; scope-hole `≈15 h`; `aaa45c5f` seventh read; KEV Oct-23 rows; gem slope; `18205` resume; blossom91; oob 62nd.
+
+Sweep context → [179th stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-22-one-hundred-and-nineteenth-sweep)
