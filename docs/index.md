@@ -8,7 +8,7 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 
 ## Popular this week
 <!-- popular-this-week:auto -->
-_Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-15 UTC (30745 of ~708 on-page requests attributable; 133 of 708 path batches ok)._
+_Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-16 UTC (30499 of ~710 on-page requests attributable; 110 of 710 path batches ok)._
 - [MALFEX: one Portuguese-language npm operator, twelve packages, two delivery arms, three years of continuity](/ops/malfex-npm-single-operator-two-arms-function-flag-14-month-unadvised-postinstall-cloudsek-september-2026/) — 274 reads
 - [webreader + pafer (PyPI) — the kam193 2026-10-webreader pickle-as-config RAT pair](/tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026/) — 256 reads
 - [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB pro](/ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026/) — 242 reads
