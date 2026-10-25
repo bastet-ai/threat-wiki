@@ -849,7 +849,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chucky](#chucky) (1)
 - [chunked exfiltration](#chunked-exfiltration) (1)
 - [CI secrets](#ci-secrets) (1)
-- [CI-CD](#ci-cd) (5)
+- [CI-CD](#ci-cd) (6)
 - [CI-CD-adjacent](#ci-cd-adjacent) (1)
 - [CI-CD-credentials](#ci-cd-credentials) (1)
 - [CI/CD](#cicd) (45)
@@ -1024,7 +1024,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [compromised VPN credentials](#compromised-vpn-credentials) (1)
 - [compromised websites](#compromised-websites) (3)
 - [compromised WordPress](#compromised-wordpress) (2)
-- [compromised-accounts](#compromised-accounts) (1)
+- [compromised-accounts](#compromised-accounts) (2)
 - [computer name](#computer-name) (1)
 - [computer vision](#computer-vision) (1)
 - [Conditional Access](#conditional-access) (2)
@@ -2301,6 +2301,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Germany](#germany) (2)
 - [GERT](#gert) (1)
 - [GetUserName anomaly](#getusername-anomaly) (1)
+- [gheist](#gheist) (1)
 - [GHETTOVIBE](#ghettovibe) (1)
 - [Ghost](#ghost) (3)
 - [ghost accounts](#ghost-accounts) (1)
@@ -2380,7 +2381,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub tool hosting](#github-tool-hosting) (1)
 - [github-abuse](#github-abuse) (1)
 - [github-actions](#github-actions) (2)
-- [GitHub-Actions](#github-actions) (1)
+- [GitHub-Actions](#github-actions) (2)
 - [GitHub-Advisories](#github-advisories) (2)
 - [github-c2](#github-c2) (1)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
@@ -3260,6 +3261,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [media sector](#media-sector) (1)
 - [MediaFire](#mediafire) (1)
 - [medical research](#medical-research) (1)
+- [megalodon](#megalodon) (1)
 - [Mekotio](#mekotio) (1)
 - [memfd](#memfd) (1)
 - [memfd_create](#memfd_create) (1)
@@ -3769,7 +3771,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (458)
+- [ops](#ops) (459)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -4032,6 +4034,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [police digital services](#police-digital-services) (1)
 - [policy-setting abuse](#policy-setting-abuse) (1)
 - [PolinRider](#polinrider) (3)
+- [polinrider](#polinrider) (1)
 - [polkitd](#polkitd) (1)
 - [PollCat](#pollcat) (3)
 - [Poly1305](#poly1305) (1)
@@ -4586,7 +4589,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Secret Blizzard](#secret-blizzard) (3)
 - [secret exfiltration](#secret-exfiltration) (2)
 - [secret exposure](#secret-exposure) (1)
-- [secret-exfiltration](#secret-exfiltration) (1)
+- [secret-exfiltration](#secret-exfiltration) (2)
 - [secret-stealing](#secret-stealing) (1)
 - [secrets](#secrets) (6)
 - [secrets harvesting](#secrets-harvesting) (1)
@@ -5044,7 +5047,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (28)
 - [supply chain attack](#supply-chain-attack) (16)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (139)
+- [supply-chain](#supply-chain) (140)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -5729,7 +5732,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WireGuard](#wireguard) (2)
 - [wireless-debugging](#wireless-debugging) (1)
 - [Wix](#wix) (1)
-- [Wiz](#wiz) (2)
+- [Wiz](#wiz) (3)
 - [Wiz Research](#wiz-research) (2)
 - [WLDR agent](#wldr-agent) (2)
 - [WM_COPYDATA IPC](#wm_copydata-ipc) (1)
@@ -5749,7 +5752,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [workflow-abuse](#workflow-abuse) (1)
 - [workflow-automation](#workflow-automation) (1)
 - [workflow-engine](#workflow-engine) (1)
-- [workflow-injection](#workflow-injection) (1)
+- [workflow-injection](#workflow-injection) (2)
 - [working-directory hijacking](#working-directory-hijacking) (1)
 - [workload identity](#workload-identity) (1)
 - [workspace trust](#workspace-trust) (3)
@@ -9206,6 +9209,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CI-CD
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
+- [Gheist: 13,500+ planted `ci-sync-*` branches across 850+ compromised GitHub accounts dump every repository secret through GitHub's own API — base32 defeats log masking, `permissions: {}` does not gate the `secrets` context, and GitHub's public-repo approval hold is exactly why private repos and GHES burned (Wiz Research, Oct 25, 2026)](../ops/gheist-compromised-github-tokens-workflow-secret-dump-base32-ci-sync-branches-wiz-october-2026.md)
 - [GhostAction returns: maintainer-account workflow injection sweeps 345 repos, and the October payload mines the ENTIRE git history (StepSecurity, Oct 9, 2026)](../ops/ghostaction-github-actions-workflow-injection-git-history-credential-mining-stepsecurity-october-2026.md)
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
@@ -10058,6 +10062,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 
 ## compromised-accounts
+- [Gheist: 13,500+ planted `ci-sync-*` branches across 850+ compromised GitHub accounts dump every repository secret through GitHub's own API — base32 defeats log masking, `permissions: {}` does not gate the `secrets` context, and GitHub's public-repo approval hold is exactly why private repos and GHES burned (Wiz Research, Oct 25, 2026)](../ops/gheist-compromised-github-tokens-workflow-secret-dump-base32-ci-sync-branches-wiz-october-2026.md)
 - [GhostAction returns: maintainer-account workflow injection sweeps 345 repos, and the October payload mines the ENTIRE git history (StepSecurity, Oct 9, 2026)](../ops/ghostaction-github-actions-workflow-injection-git-history-credential-mining-stepsecurity-october-2026.md)
 
 ## computer name
@@ -14877,6 +14882,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GetUserName anomaly
 - [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 
+## gheist
+- [Gheist: 13,500+ planted `ci-sync-*` branches across 850+ compromised GitHub accounts dump every repository secret through GitHub's own API — base32 defeats log masking, `permissions: {}` does not gate the `secrets` context, and GitHub's public-repo approval hold is exactly why private repos and GHES burned (Wiz Research, Oct 25, 2026)](../ops/gheist-compromised-github-tokens-workflow-secret-dump-base32-ci-sync-branches-wiz-october-2026.md)
+
 ## GHETTOVIBE
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
@@ -15187,6 +15195,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026) — CLOSED SAME DAY (see State below): npm `latest` = clean 0.1.24, malicious versions unpublished; PyPI lifted the project quarantine at clean 2.0.33 with 2.0.34 surgically removed; OSV `MAL-2026-16475`/`16476` + `GHSA-mhjf-v53x-7p87` landed 11:05/11:53 UTC)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 
 ## GitHub-Actions
+- [Gheist: 13,500+ planted `ci-sync-*` branches across 850+ compromised GitHub accounts dump every repository secret through GitHub's own API — base32 defeats log masking, `permissions: {}` does not gate the `secrets` context, and GitHub's public-repo approval hold is exactly why private repos and GHES burned (Wiz Research, Oct 25, 2026)](../ops/gheist-compromised-github-tokens-workflow-secret-dump-base32-ci-sync-branches-wiz-october-2026.md)
 - [GhostAction returns: maintainer-account workflow injection sweeps 345 repos, and the October payload mines the ENTIRE git history (StepSecurity, Oct 9, 2026)](../ops/ghostaction-github-actions-workflow-injection-git-history-credential-mining-stepsecurity-october-2026.md)
 
 ## GitHub-Advisories
@@ -18679,6 +18688,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## medical research
 - [UNC6508](../actors/unc6508.md)
 
+## megalodon
+- [Gheist: 13,500+ planted `ci-sync-*` branches across 850+ compromised GitHub accounts dump every repository secret through GitHub's own API — base32 defeats log masking, `permissions: {}` does not gate the `secrets` context, and GitHub's public-repo approval hold is exactly why private repos and GHES burned (Wiz Research, Oct 25, 2026)](../ops/gheist-compromised-github-tokens-workflow-secret-dump-base32-ci-sync-branches-wiz-october-2026.md)
+
 ## Mekotio
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
@@ -21177,6 +21189,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
+- [Gheist: 13,500+ planted `ci-sync-*` branches across 850+ compromised GitHub accounts dump every repository secret through GitHub's own API — base32 defeats log masking, `permissions: {}` does not gate the `secrets` context, and GitHub's public-repo approval hold is exactly why private repos and GHES burned (Wiz Research, Oct 25, 2026)](../ops/gheist-compromised-github-tokens-workflow-secret-dump-base32-ci-sync-branches-wiz-october-2026.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [GhostAction returns: maintainer-account workflow injection sweeps 345 repos, and the October payload mines the ENTIRE git history (StepSecurity, Oct 9, 2026)](../ops/ghostaction-github-actions-workflow-injection-git-history-credential-mining-stepsecurity-october-2026.md)
@@ -22530,6 +22543,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
+
+## polinrider
+- [Gheist: 13,500+ planted `ci-sync-*` branches across 850+ compromised GitHub accounts dump every repository secret through GitHub's own API — base32 defeats log masking, `permissions: {}` does not gate the `secrets` context, and GitHub's public-repo approval hold is exactly why private repos and GHES burned (Wiz Research, Oct 25, 2026)](../ops/gheist-compromised-github-tokens-workflow-secret-dump-base32-ci-sync-branches-wiz-october-2026.md)
 
 ## polkitd
 - ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
@@ -24779,6 +24795,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
 ## secret-exfiltration
+- [Gheist: 13,500+ planted `ci-sync-*` branches across 850+ compromised GitHub accounts dump every repository secret through GitHub's own API — base32 defeats log masking, `permissions: {}` does not gate the `secrets` context, and GitHub's public-repo approval hold is exactly why private repos and GHES burned (Wiz Research, Oct 25, 2026)](../ops/gheist-compromised-github-tokens-workflow-secret-dump-base32-ci-sync-branches-wiz-october-2026.md)
 - [GhostAction returns: maintainer-account workflow injection sweeps 345 repos, and the October payload mines the ENTIRE git history (StepSecurity, Oct 9, 2026)](../ops/ghostaction-github-actions-workflow-injection-git-history-credential-mining-stepsecurity-october-2026.md)
 
 ## secret-stealing
@@ -26517,6 +26534,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+- [Gheist: 13,500+ planted `ci-sync-*` branches across 850+ compromised GitHub accounts dump every repository secret through GitHub's own API — base32 defeats log masking, `permissions: {}` does not gate the `secrets` context, and GitHub's public-repo approval hold is exactly why private repos and GHES burned (Wiz Research, Oct 25, 2026)](../ops/gheist-compromised-github-tokens-workflow-secret-dump-base32-ci-sync-branches-wiz-october-2026.md)
 - [GhostAction returns: maintainer-account workflow injection sweeps 345 repos, and the October payload mines the ENTIRE git history (StepSecurity, Oct 9, 2026)](../ops/ghostaction-github-actions-workflow-injection-git-history-credential-mining-stepsecurity-october-2026.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
@@ -29378,6 +29396,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 
 ## Wiz
+- [Gheist: 13,500+ planted `ci-sync-*` branches across 850+ compromised GitHub accounts dump every repository secret through GitHub's own API — base32 defeats log masking, `permissions: {}` does not gate the `secrets` context, and GitHub's public-repo approval hold is exactly why private repos and GHES burned (Wiz Research, Oct 25, 2026)](../ops/gheist-compromised-github-tokens-workflow-secret-dump-base32-ci-sync-branches-wiz-october-2026.md)
 - [Wiz "Off Guard": Breaking LiteLLM from authentication bypass to cloud compromise (CVE-2026-59822 / CVE-2026-59821)](../ops/wiz-litellm-off-guard-mcp-bypass-rce-cloud-compromise-september-2026.md)
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
 
@@ -29456,6 +29475,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Orkes Conductor pre-auth RCE (CVE-2026-58138) under active exploitation — unsandboxed GraalVM script tasks as the workflow-engine perimeter (Fortinet outbreak alert, Sep 2026)](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
 
 ## workflow-injection
+- [Gheist: 13,500+ planted `ci-sync-*` branches across 850+ compromised GitHub accounts dump every repository secret through GitHub's own API — base32 defeats log masking, `permissions: {}` does not gate the `secrets` context, and GitHub's public-repo approval hold is exactly why private repos and GHES burned (Wiz Research, Oct 25, 2026)](../ops/gheist-compromised-github-tokens-workflow-secret-dump-base32-ci-sync-branches-wiz-october-2026.md)
 - [GhostAction returns: maintainer-account workflow injection sweeps 345 repos, and the October payload mines the ENTIRE git history (StepSecurity, Oct 9, 2026)](../ops/ghostaction-github-actions-workflow-injection-git-history-credential-mining-stepsecurity-october-2026.md)
 
 ## working-directory hijacking
