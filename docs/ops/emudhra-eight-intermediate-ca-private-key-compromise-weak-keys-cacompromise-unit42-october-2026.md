@@ -62,6 +62,15 @@ Mozilla: bug 2083449 opened, intermediates distrusted per root-program process. 
 - Copycat weakness-scan disclosure: does the reporter-style derivation sweep get run against other CAs, and what else falls out (the `we-have-a-problem` proof pattern is trivially replicable).
 - Any code-signing trust-list action on the two CS intermediates beyond the CA/Browser Forum baseline.
 
+## <a id="october-25-python-lane-fallout"></a>October 25 205th sweep (this wiki): the PYTHON-DISTRIBUTION fallout lane — updating `certifi` alone does NOT fix `pip`
+
+StepSecurity's Oct-22 Python-lane write-up (surfaced via the blog HTML lane while the `rss.xml` feed route sat `404` a third consecutive sweep — the feed-oscillator law again) adds the toolchain-specific remediation mechanics this page's embedded-trust section only named in the abstract:
+
+- **The failed-trust path is in the TOOLING, not just the browser**: `pip` vendors `certifi`, and an old `certifi` bundle inside `pip`'s own vendored copy keeps validating forged eMudhra chains even after `certifi` is upgraded in the environment — **`pip install --upgrade certifi` does not fix `pip` itself**; the corrected wheel must be bootstrapped BY HASH (`python -m pip install "pip @ https://files.pythonhosted.org/…/pip-26.2.2-py3-none-any.whl#sha256=fd7f4dfa…"` per the Python-discuss thread — pinned-hash direct-URL install, the same enforce-pinned-hashes control this wiki has repeated all month).
+- **Advisories exist on the tooling**: `certifi` `GHSA-6q48-6c7w-9gw2` and `uv` `GHSA-hq85-5cpj-mr62` (astral-sh); Python emergency releases `3.15.1`/`3.14.9`/`3.13.17`; Conda ecosystem updates Oct-21 (conda.org blog). Every venv is created BY an interpreter — **the Python that CREATES new environments must be patched or every fresh venv re-inherits the stale bundle**; containers and CI images need rebuild, not hot-patch.
+- **Verify rejection, don't assume it**: the reporter's per-intermediate `curl` self-test endpoints (`dv-g3b-emudhra.we-have-a-problem.com` and variants) double as the post-remediation check — a client that still validates them is still vulnerable.
+- **Durable read for this ledger**: a CA-compromise remediation has THREE independent clocks (root-program distrust, OS/browser update, and every EMBEDDED trust bundle in tooling/containers/mobile) — the third is the one fleets own and forget. Same law as the page's cross-sign note, one layer down.
+
 ## Sources
 
 - Unit 42: [EMudhra Intermediate CA Certificates Compromised](https://unit42.paloaltonetworks.com/emudhra-certificate-compromise/) (Oct 22, 2026 — full text captured by this wiki)
