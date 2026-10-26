@@ -52,9 +52,9 @@ What is asserted is the GRAMMAR coincidence and the clock overlap: `0.0.0-stage`
 - Strings hunt on this family: `DSH_RUST_SHELL`, `dsh-rust-worker`, `cordis.patch.yml`, `dsh-plugin` keyword.
 - Tripwire (re-arm watch): does `dsh-native` 1.4.x reappear under either name; does the scoped name ever mint an advisory (its twin's critical GHSA now PREDICTS it on the join-lane law); does `@keer1024/dsh-native` `modified` move off `01:26:04Z`.
 
-## Disposition at capture (Oct 26 ~03:2x–03:5x UTC, 212nd sweep)
+## Disposition at capture (Oct 26 ~03:2x–03:5x UTC, 212nd sweep; re-read 213rd ~05:0x UTC)
 
-- Bare `dsh-native`: seized, rollback-to-stage, all payload `404` (registry + jsDelivr versioned), stage stub `200`, GHSA+OSV both live, `= 1.4.1` scope only — rungs BELOW `1.4.1`: packument shows none other than stage. `modified 02:16:38Z` = seizure `≈30 s` BEFORE the GHSA mint (`02:17:08Z`) — publish→seizure again outruns the advisory lane.
-- Scoped `@keer1024/dsh-native`: LIVE, `latest 1.6.1`, tarball `200`, ZERO advisories, `aliases`-lane empty, untouched at second read `≈2.2 h` post-publish.
+- Bare `dsh-native`: seized, rollback-to-stage, all payload `404` (registry + jsDelivr versioned), stage stub `200`, GHSA+OSV both live, `= 1.4.1` scope only — rungs BELOW `1.4.1`: packument shows none other than stage. `modified 02:16:38Z` = seizure `≈30 s` BEFORE the GHSA mint (`02:17:08Z`) — publish→seizure again outruns the advisory lane. **213rd re-read: still `latest 0.0.0-stage`, `modified` frozen `02:16:38Z`, no re-registration of `1.4.x` — hold audit FIRST read.**
+- Scoped `@keer1024/dsh-native`: LIVE, `latest 1.6.1`, tarball `200`, ZERO advisories, `aliases`-lane empty, untouched at second read `≈2.2 h` post-publish. **213rd SECOND read: still `latest 1.6.1`, `modified` still `01:26:04Z`, no new rung, no advisory — the twin walks free into its third hour; the join-lane law still predicts a GHSA it has not received.**
 
 Sweep context → [212nd stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-26-one-hundred-and-fifty-second-sweep) · [wave-two 212nd](testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md#october-26-212nd-the-plane-holds-and-the-window-arrives)
