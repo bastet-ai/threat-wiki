@@ -8,15 +8,15 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 
 ## Popular this week
 <!-- popular-this-week:auto -->
-_Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-18 UTC (30215 of ~713 on-page requests attributable; 88 of 713 path batches ok)._
-- [MALFEX: one Portuguese-language npm operator, twelve packages, two delivery arms, three years of continuity](/ops/malfex-npm-single-operator-two-arms-function-flag-14-month-unadvised-postinstall-cloudsek-september-2026/) — 274 reads
-- [webreader + pafer (PyPI) — the kam193 2026-10-webreader pickle-as-config RAT pair](/tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026/) — 256 reads
-- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB pro](/ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026/) — 242 reads
-- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign](/ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026/) — 241 reads
-- [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on](/ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026/) — 235 reads
-- [Contagious-Interview Tailwind/Animate.css trio](/ops/contagious-interview-tailwind-animatecss-private-dependency-campaign-npm-october-2026/) — 233 reads
-- [RubyGems 24-gem crypto-utility fleet — the 45.138.12.177 C2 RETURNS under fresh names](/ops/rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026/) — 231 reads
-- [Star Blizzard's 2026 overhaul — "RedFlick"](/ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026/) — 224 reads
+_Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-19 UTC (20690 of ~720 on-page requests attributable; 720 of 720 path batches ok)._
+- [RubyGems 24-gem crypto-utility fleet — the 45.138.12.177 C2 RETURNS under fresh names](/ops/rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026/) — 295 reads
+- [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactor](/ops/cisa-kev-owncloud-linux-artifactory-august-27-2026/) — 258 reads
+- [Source index](/notes/source-index/) — 152 reads
+- [SubQuery @subql/common@5.8.3: release-pipeline artifact substitution](/ops/subql-common-ci-artifact-substitution-release-pipeline-compromise-october-2026/) — 140 reads
+- [Cavern](/tools/cavern/) — 129 reads
+- [CL-STA-1114 / Void Blizzard](/actors/cl-sta-1114-void-blizzard/) — 112 reads
+- [Tag index](/notes/tag-index/) — 111 reads
+- [Sentry MCP Agentjacking](/patterns/sentry-mcp-agentjacking/) — 110 reads
 <!-- /popular-this-week:auto -->
 
 ## Recent entries
