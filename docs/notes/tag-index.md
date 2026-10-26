@@ -1963,7 +1963,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [energy-sector](#energy-sector) (1)
 - [enforcement](#enforcement) (1)
 - [enforcement gap](#enforcement-gap) (1)
-- [enforcement-asymmetry](#enforcement-asymmetry) (1)
+- [enforcement-asymmetry](#enforcement-asymmetry) (2)
 - [engineering](#engineering) (1)
 - [engineering software](#engineering-software) (1)
 - [enterprise AI](#enterprise-ai) (1)
@@ -3203,7 +3203,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malicious theme](#malicious-theme) (1)
-- [malicious-package](#malicious-package) (21)
+- [malicious-package](#malicious-package) (22)
 - [malicious-packages-queue](#malicious-packages-queue) (1)
 - [malvertising](#malvertising) (11)
 - [malware](#malware) (69)
@@ -3617,13 +3617,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies](#novacookies) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (99)
+- [npm](#npm) (100)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
 - [npm token theft](#npm-token-theft) (1)
 - [npm tokens](#npm-tokens) (1)
 - [npm v12](#npm-v12) (1)
+- [npm-token-theft](#npm-token-theft) (1)
 - [npm-v12](#npm-v12) (1)
 - [npmjs.it.com](#npmjsitcom) (1)
 - [npmmirror](#npmmirror) (1)
@@ -3776,7 +3777,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (462)
+- [ops](#ops) (463)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -3803,7 +3804,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OSV](#osv) (6)
 - [OSV malware stream](#osv-malware-stream) (4)
 - [OSV-first](#osv-first) (1)
-- [osv-first](#osv-first) (1)
+- [osv-first](#osv-first) (2)
 - [OT](#ot) (6)
 - [OT switches](#ot-switches) (1)
 - [OTA update](#ota-update) (1)
@@ -4194,6 +4195,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [publish mode](#publish-mode) (1)
 - [publish-time scanning](#publish-time-scanning) (1)
 - [publishing credentials](#publishing-credentials) (1)
+- [publishing-poc](#publishing-poc) (1)
 - [PUKCHONG](#pukchong) (1)
 - [pull requests](#pull-requests) (2)
 - [PULSAR RAT](#pulsar-rat) (1)
@@ -4646,6 +4648,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [self-propagating payload](#self-propagating-payload) (1)
 - [self-propagating-worm](#self-propagating-worm) (1)
 - [self-propagation](#self-propagation) (2)
+- [self-publishing](#self-publishing) (1)
 - [self-updating malware](#self-updating-malware) (1)
 - [semantic-release](#semantic-release) (1)
 - [Sendinblue](#sendinblue) (1)
@@ -5054,7 +5057,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (28)
 - [supply chain attack](#supply-chain-attack) (16)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (143)
+- [supply-chain](#supply-chain) (144)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -5224,7 +5227,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [third-party integrations](#third-party-integrations) (1)
 - [third-party JavaScript](#third-party-javascript) (2)
 - [third-party risk](#third-party-risk) (1)
-- [this-wiki-forensics](#this-wiki-forensics) (3)
+- [this-wiki-forensics](#this-wiki-forensics) (4)
 - [thought virus](#thought-virus) (1)
 - [ThreadHideFromDebugger](#threadhidefromdebugger) (1)
 - [threat hunting](#threat-hunting) (2)
@@ -5447,6 +5450,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unpatched upstream fix](#unpatched-upstream-fix) (1)
 - [unpatched vulnerability](#unpatched-vulnerability) (2)
 - [unpkg](#unpkg) (1)
+- [unpublished-wipe](#unpublished-wipe) (1)
 - [Unreal Engine](#unreal-engine) (1)
 - [unrestricted file upload](#unrestricted-file-upload) (1)
 - [unsafe deserialization](#unsafe-deserialization) (2)
@@ -13628,6 +13632,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [`robdotty` npm six-name cohort — every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable — the delivery channel lives entirely OUTSIDE registry enforcement)](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
 
 ## enforcement-asymmetry
+- [publish-poc cohort — the self-publishing publishing-PoC trio: cleartext npm token shipped to every installer, whole-name `unpublished` wipe ~9–13 h BEFORE the first advisory arrived, ZERO GHSAs, and the wipe-roster as the only surviving census](../ops/publish-poc-cohort-npm-self-publishing-poc-plaintext-authtoken-unpublished-wipe-osv-first-october-2026.md)
 - [walknpm rig2 — the XMRig miner-postinstall pair: OSV-first advice on LIVE names, and the queue merge that finally showed its clock](../ops/walknpm-rig2-xmrig-miner-postinstall-npm-osv-first-queue-merge-clock-october-2026.md)
 
 ## engineering
@@ -18383,6 +18388,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DirtyBlanket: nine npm Express/React clones publish a self-spreading Linux worm whose loader is served through the Wayback Machine — CHAOS RAT behind Tor, `chattr +i` fake systemd font persistence, SSH-key lateral movement, and automated AUR `PKGBUILD.install` + npm-token republish poisoning](../ops/dirtyblanket-npm-express-clone-linux-worm-wayback-codeberg-aur-chaos-tor-safedep-september-2026.md)
 - [dsh-native / @keer1024/dsh-native — the seizure took the bare name; the maintainer's scoped twin was born 53 minutes before the advisory and lives](../ops/dsh-native-keer1024-npm-seizure-scoped-twin-survival-rollback-to-stage-rust-worker-exe-october-2026.md)
 - [MALFEX: one Portuguese-language npm operator, twelve packages, two delivery arms, three years of continuity — and the advisory pipeline's gap made visible: `function-flag` sat as a malicious postinstall with NO advisory for fourteen months, and `cdn-img-fetch` stayed installable after npm seized its parent](../ops/malfex-npm-single-operator-two-arms-function-flag-14-month-unadvised-postinstall-cloudsek-september-2026.md)
+- [publish-poc cohort — the self-publishing publishing-PoC trio: cleartext npm token shipped to every installer, whole-name `unpublished` wipe ~9–13 h BEFORE the first advisory arrived, ZERO GHSAs, and the wipe-roster as the only surviving census](../ops/publish-poc-cohort-npm-self-publishing-poc-plaintext-authtoken-unpublished-wipe-osv-first-october-2026.md)
 - [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 - [RubyGems 24-gem crypto-utility fleet — the `45.138.12.177` C2 RETURNS under fresh names: 24 gems pushed in an 83-second scripted window (Oct 11 06:52:40–06:54:02Z), every one `0.9.1`, every `extconf.rb` a base64 double-fork `/bin/sh`-over-TCP reverse shell to **the SAME `45.138.12.177:8089`** the Wallet Guard wgkit fleet used — with the `bitcoin_rpc_lite_native` makefile name and the Oct-5 counter-forensics gates (CI / ephemeral-host / generated-user / analysis-path / uptime>30 min / dev-signals) baked in as shipped defaults — and for the FIRST TIME on this ledger a RubyGems malware fleet dual-advised 24/24 from day one (OSV `MAL-2026-17779`–`17802` + a 24-record same-second GHSA batch 15:31:13Z) while every gem stays LIVE and the C2 box itself has gone fully DARK](../ops/rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026.md)
 - [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
@@ -20122,6 +20128,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 - [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
+- [publish-poc cohort — the self-publishing publishing-PoC trio: cleartext npm token shipped to every installer, whole-name `unpublished` wipe ~9–13 h BEFORE the first advisory arrived, ZERO GHSAs, and the wipe-roster as the only surviving census](../ops/publish-poc-cohort-npm-self-publishing-poc-plaintext-authtoken-unpublished-wipe-osv-first-october-2026.md)
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -20171,6 +20178,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## npm v12
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
+
+## npm-token-theft
+- [publish-poc cohort — the self-publishing publishing-PoC trio: cleartext npm token shipped to every installer, whole-name `unpublished` wipe ~9–13 h BEFORE the first advisory arrived, ZERO GHSAs, and the wipe-roster as the only surviving census](../ops/publish-poc-cohort-npm-self-publishing-poc-plaintext-authtoken-unpublished-wipe-osv-first-october-2026.md)
 
 ## npm-v12
 - [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
@@ -21393,6 +21403,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
+- [publish-poc cohort — the self-publishing publishing-PoC trio: cleartext npm token shipped to every installer, whole-name `unpublished` wipe ~9–13 h BEFORE the first advisory arrived, ZERO GHSAs, and the wipe-roster as the only surviving census](../ops/publish-poc-cohort-npm-self-publishing-poc-plaintext-authtoken-unpublished-wipe-osv-first-october-2026.md)
 - [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
@@ -21625,6 +21636,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [`marocolor` (PyPI) — a color-palette costume that at IMPORT time spawns two daemon threads: `steal()` walks the victim's home directory for nine sensitive extensions and POSTs every match to a hardcoded Telegram bot `sendDocument`, while `crash()` runs a thread-fork-bomb plus a `127.0.0.1:80` connect-loop DoS; Arabic operator-addressed comments mark it in the LLM-authored tell class; `MAL-2026-17900` (kam193 lane, campaign `2026-10-marocolor`) is the ledger's live NEVER-JOIN control — it arrived OSV-first, got its `GHSA-m6jr-rmfr-29w4` mirror `1 h 52 m` later, and still reads `aliases: None` at `+59 min`](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
 
 ## osv-first
+- [publish-poc cohort — the self-publishing publishing-PoC trio: cleartext npm token shipped to every installer, whole-name `unpublished` wipe ~9–13 h BEFORE the first advisory arrived, ZERO GHSAs, and the wipe-roster as the only surviving census](../ops/publish-poc-cohort-npm-self-publishing-poc-plaintext-authtoken-unpublished-wipe-osv-first-october-2026.md)
 - [walknpm rig2 — the XMRig miner-postinstall pair: OSV-first advice on LIVE names, and the queue merge that finally showed its clock](../ops/walknpm-rig2-xmrig-miner-postinstall-npm-osv-first-queue-merge-clock-october-2026.md)
 
 ## OT
@@ -23194,6 +23206,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## publishing credentials
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
+
+## publishing-poc
+- [publish-poc cohort — the self-publishing publishing-PoC trio: cleartext npm token shipped to every installer, whole-name `unpublished` wipe ~9–13 h BEFORE the first advisory arrived, ZERO GHSAs, and the wipe-roster as the only surviving census](../ops/publish-poc-cohort-npm-self-publishing-poc-plaintext-authtoken-unpublished-wipe-osv-first-october-2026.md)
 
 ## PUKCHONG
 - [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
@@ -25003,6 +25018,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026) — CLOSED SAME DAY (see State below): npm `latest` = clean 0.1.24, malicious versions unpublished; PyPI lifted the project quarantine at clean 2.0.33 with 2.0.34 surgically removed; OSV `MAL-2026-16475`/`16476` + `GHSA-mhjf-v53x-7p87` landed 11:05/11:53 UTC)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
+## self-publishing
+- [publish-poc cohort — the self-publishing publishing-PoC trio: cleartext npm token shipped to every installer, whole-name `unpublished` wipe ~9–13 h BEFORE the first advisory arrived, ZERO GHSAs, and the wipe-roster as the only surviving census](../ops/publish-poc-cohort-npm-self-publishing-poc-plaintext-authtoken-unpublished-wipe-osv-first-october-2026.md)
+
 ## self-updating malware
 - [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 
@@ -26636,6 +26654,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 - [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
+- [publish-poc cohort — the self-publishing publishing-PoC trio: cleartext npm token shipped to every installer, whole-name `unpublished` wipe ~9–13 h BEFORE the first advisory arrived, ZERO GHSAs, and the wipe-roster as the only surviving census](../ops/publish-poc-cohort-npm-self-publishing-poc-plaintext-authtoken-unpublished-wipe-osv-first-october-2026.md)
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
 - [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
@@ -27284,6 +27303,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## this-wiki-forensics
 - [dsh-native / @keer1024/dsh-native — the seizure took the bare name; the maintainer's scoped twin was born 53 minutes before the advisory and lives](../ops/dsh-native-keer1024-npm-seizure-scoped-twin-survival-rollback-to-stage-rust-worker-exe-october-2026.md)
+- [publish-poc cohort — the self-publishing publishing-PoC trio: cleartext npm token shipped to every installer, whole-name `unpublished` wipe ~9–13 h BEFORE the first advisory arrived, ZERO GHSAs, and the wipe-roster as the only surviving census](../ops/publish-poc-cohort-npm-self-publishing-poc-plaintext-authtoken-unpublished-wipe-osv-first-october-2026.md)
 - [RubyGems 24-gem crypto-utility fleet — the `45.138.12.177` C2 RETURNS under fresh names: 24 gems pushed in an 83-second scripted window (Oct 11 06:52:40–06:54:02Z), every one `0.9.1`, every `extconf.rb` a base64 double-fork `/bin/sh`-over-TCP reverse shell to **the SAME `45.138.12.177:8089`** the Wallet Guard wgkit fleet used — with the `bitcoin_rpc_lite_native` makefile name and the Oct-5 counter-forensics gates (CI / ephemeral-host / generated-user / analysis-path / uptime>30 min / dev-signals) baked in as shipped defaults — and for the FIRST TIME on this ledger a RubyGems malware fleet dual-advised 24/24 from day one (OSV `MAL-2026-17779`–`17802` + a 24-record same-second GHSA batch 15:31:13Z) while every gem stays LIVE and the C2 box itself has gone fully DARK](../ops/rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026.md)
 - [walknpm rig2 — the XMRig miner-postinstall pair: OSV-first advice on LIVE names, and the queue merge that finally showed its clock](../ops/walknpm-rig2-xmrig-miner-postinstall-npm-osv-first-queue-merge-clock-october-2026.md)
 
@@ -28267,6 +28287,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## unpkg
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](../ops/ox-clickfix-phishing-npm-mirror-payload-storage.md)
+
+## unpublished-wipe
+- [publish-poc cohort — the self-publishing publishing-PoC trio: cleartext npm token shipped to every installer, whole-name `unpublished` wipe ~9–13 h BEFORE the first advisory arrived, ZERO GHSAs, and the wipe-roster as the only surviving census](../ops/publish-poc-cohort-npm-self-publishing-poc-plaintext-authtoken-unpublished-wipe-osv-first-october-2026.md)
 
 ## Unreal Engine
 - [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
