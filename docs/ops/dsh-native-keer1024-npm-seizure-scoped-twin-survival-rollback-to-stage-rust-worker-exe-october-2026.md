@@ -58,3 +58,7 @@ What is asserted is the GRAMMAR coincidence and the clock overlap: `0.0.0-stage`
 - Scoped `@keer1024/dsh-native`: LIVE, `latest 1.6.1`, tarball `200`, ZERO advisories, `aliases`-lane empty, untouched at second read `≈2.2 h` post-publish. **213rd SECOND read: still `latest 1.6.1`, `modified` still `01:26:04Z`, no new rung, no advisory — the twin walks free into its third hour; the join-lane law still predicts a GHSA it has not received.**
 
 Sweep context → [212nd stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-26-one-hundred-and-fifty-second-sweep) · [wave-two 212nd](testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md#october-26-212nd-the-plane-holds-and-the-window-arrives)
+
+## October 26 219th sweep follow-up (~17:3x UTC): EIGHTH read free — and the twin OUTLIVED AN ENTIRE ENFORCEMENT WAVE (`16:17`–`16:28Z`, `≈24` names seized) UNTOUCHED
+
+The live-detection wave named and seized `≈20` names in `11 min` while `@keer1024/dsh-native` sat `≈16 h` at `latest 1.6.1` with `modified` frozen `01:26:04Z`, zero advisories, its `2.28 MB` worker still installing. The names-not-families law now has its strongest natural experiment: enforcement ran at cohort scale THROUGH the lane the twin lives in and the scoped twin was invisible to all of it — a GHSA-keyed or seizure-keyed blocker never saw the successor while it processed twenty peers. Guilt remains NOT asserted (static read only, NEVER executed); the defender action stands: enumerate `maintainer:` on every fresh seizure.
