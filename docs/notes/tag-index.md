@@ -604,7 +604,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [blockchain C2](#blockchain-c2) (10)
 - [blockchain dead drop](#blockchain-dead-drop) (7)
 - [blockchain RPC](#blockchain-rpc) (1)
-- [blockchain-c2](#blockchain-c2) (1)
+- [blockchain-c2](#blockchain-c2) (2)
 - [blockchain-dead-drop](#blockchain-dead-drop) (1)
 - [blocklist futility](#blocklist-futility) (1)
 - [Blogger abuse](#blogger-abuse) (1)
@@ -2727,7 +2727,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
 - [information disclosure](#information-disclosure) (5)
 - [information stealer](#information-stealer) (1)
-- [infostealer](#infostealer) (36)
+- [infostealer](#infostealer) (37)
 - [infotainment](#infotainment) (1)
 - [InfoTeCS](#infotecs) (1)
 - [infrastructure](#infrastructure) (6)
@@ -2890,7 +2890,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kaitori](#kaitori) (1)
 - [Kali365](#kali365) (2)
 - [Kaltura](#kaltura) (1)
-- [kam193](#kam193) (4)
+- [kam193](#kam193) (5)
 - [kam193-lane](#kam193-lane) (1)
 - [Kaspersky](#kaspersky) (5)
 - [kaspersky](#kaspersky) (1)
@@ -3074,6 +3074,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LLM-authored-tell](#llm-authored-tell) (1)
 - [LLM-driven intrusion](#llm-driven-intrusion) (1)
 - [LLM-generated-malware](#llm-generated-malware) (1)
+- [llm-typosquat](#llm-typosquat) (1)
 - [LLMjacking](#llmjacking) (2)
 - [LMCache](#lmcache) (1)
 - [LMS](#lms) (1)
@@ -3199,7 +3200,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malicious theme](#malicious-theme) (1)
-- [malicious-package](#malicious-package) (18)
+- [malicious-package](#malicious-package) (19)
 - [malicious-packages-queue](#malicious-packages-queue) (1)
 - [malvertising](#malvertising) (11)
 - [malware](#malware) (69)
@@ -3771,7 +3772,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (459)
+- [ops](#ops) (460)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -4203,7 +4204,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PyArmor](#pyarmor) (4)
 - [PyInstaller](#pyinstaller) (2)
 - [PyPI](#pypi) (26)
-- [pypi](#pypi) (3)
+- [pypi](#pypi) (4)
 - [pypls/requests](#pyplsrequests) (1)
 - [Python](#python) (22)
 - [Python extension modules](#python-extension-modules) (1)
@@ -4996,7 +4997,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Steam Workshop](#steam-workshop) (1)
 - [steering file](#steering-file) (1)
 - [steganographic PNG](#steganographic-png) (1)
-- [steganography](#steganography) (6)
+- [steganography](#steganography) (7)
 - [StegoAd](#stegoad) (1)
 - [StepSecurity](#stepsecurity) (4)
 - [Still Audio](#still-audio) (1)
@@ -5047,7 +5048,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (28)
 - [supply chain attack](#supply-chain-attack) (16)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (140)
+- [supply-chain](#supply-chain) (141)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -8239,6 +8240,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## blockchain-c2
 - [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
+- [The `claudeopus*` trio and `dictmerge-lite`: the `2026-09-donutautosellsrc` steganography-stealer returns under LLM-brand names, C2 hidden in Polygon transaction history (OSV `MAL-2026-18298`–`18301`, kam193, PyPI, Oct 25–26, 2026)](../ops/claudeopus-trio-donutautosellsrc-pypi-steganography-infostealer-polygon-blockchain-c2-kam193-october-2026.md)
 
 ## blockchain-dead-drop
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -16515,6 +16517,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
+- [The `claudeopus*` trio and `dictmerge-lite`: the `2026-09-donutautosellsrc` steganography-stealer returns under LLM-brand names, C2 hidden in Polygon transaction history (OSV `MAL-2026-18298`–`18301`, kam193, PyPI, Oct 25–26, 2026)](../ops/claudeopus-trio-donutautosellsrc-pypi-steganography-infostealer-polygon-blockchain-c2-kam193-october-2026.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 - [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 - [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
@@ -17147,6 +17150,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 - [`npp-ml` (PyPI) — a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip` — Sysinternals' Active-Directory reconnaissance tool — zero code, zero quarantine, 980 dl/wk](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
 - [`webreader` + `pafer` (PyPI) — the kam193 `2026-10-webreader` pickle-as-config RAT pair: a binary `default.config` in the main package, a dependency whose "config loader" unpickles it, `bypit` + `mypyc_abi3.pth` boot-persistence on every interpreter start, module-gated XOR stage, `memfd_create` fileless exec, npoint.io stage drop, Supabase edge-function C2 — AND BOTH NAMES STILL `project-status=active` + installable ~27 h AFTER THEIR OWN OSVs, while the same analyst's other campaign died in ~1.5 h = THE QUARANTINE DIFFERENTIAL IS NOT KEYED ON THE SOURCE](../tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026.md)
+- [The `claudeopus*` trio and `dictmerge-lite`: the `2026-09-donutautosellsrc` steganography-stealer returns under LLM-brand names, C2 hidden in Polygon transaction history (OSV `MAL-2026-18298`–`18301`, kam193, PyPI, Oct 25–26, 2026)](../ops/claudeopus-trio-donutautosellsrc-pypi-steganography-infostealer-polygon-blockchain-c2-kam193-october-2026.md)
 
 ## kam193-lane
 - [`marocolor` (PyPI) — a color-palette costume that at IMPORT time spawns two daemon threads: `steal()` walks the victim's home directory for nine sensitive extensions and POSTs every match to a hardcoded Telegram bot `sendDocument`, while `crash()` runs a thread-fork-bomb plus a `127.0.0.1:80` connect-loop DoS; Arabic operator-addressed comments mark it in the LLM-authored tell class; `MAL-2026-17900` (kam193 lane, campaign `2026-10-marocolor`) is the ledger's live NEVER-JOIN control — it arrived OSV-first, got its `GHSA-m6jr-rmfr-29w4` mirror `1 h 52 m` later, and still reads `aliases: None` at `+59 min`](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
@@ -17876,6 +17880,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LLM-generated-malware
 - [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 
+## llm-typosquat
+- [The `claudeopus*` trio and `dictmerge-lite`: the `2026-09-donutautosellsrc` steganography-stealer returns under LLM-brand names, C2 hidden in Polygon transaction history (OSV `MAL-2026-18298`–`18301`, kam193, PyPI, Oct 25–26, 2026)](../ops/claudeopus-trio-donutautosellsrc-pypi-steganography-infostealer-polygon-blockchain-c2-kam193-october-2026.md)
+
 ## LLMjacking
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
@@ -18364,6 +18371,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 - [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
+- [The `claudeopus*` trio and `dictmerge-lite`: the `2026-09-donutautosellsrc` steganography-stealer returns under LLM-brand names, C2 hidden in Polygon transaction history (OSV `MAL-2026-18298`–`18301`, kam193, PyPI, Oct 25–26, 2026)](../ops/claudeopus-trio-donutautosellsrc-pypi-steganography-infostealer-polygon-blockchain-c2-kam193-october-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
@@ -21423,6 +21431,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
 - [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
+- [The `claudeopus*` trio and `dictmerge-lite`: the `2026-09-donutautosellsrc` steganography-stealer returns under LLM-brand names, C2 hidden in Polygon transaction history (OSV `MAL-2026-18298`–`18301`, kam193, PyPI, Oct 25–26, 2026)](../ops/claudeopus-trio-donutautosellsrc-pypi-steganography-infostealer-polygon-blockchain-c2-kam193-october-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
@@ -23235,6 +23244,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 - [`ukraine69` (PyPI): a "Ukrainian locale helpers" costume whose import-time payload hunts Telegram `.vault` session files and DELETEs the victim's account via GoyGram, then self-cleans after 45 s — six releases in 80 min, TWO published after the queue filing that only covers the first four (queue `#1646`, finder ESTsecurity, this wiki static-verified Oct 17)](../tools/ukraine69-pypi-telegram-vault-deletion-goygram-self-cleaning-queue-1646-october-2026.md)
 - [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026) — CLOSED SAME DAY (see State below): npm `latest` = clean 0.1.24, malicious versions unpublished; PyPI lifted the project quarantine at clean 2.0.33 with 2.0.34 surgically removed; OSV `MAL-2026-16475`/`16476` + `GHSA-mhjf-v53x-7p87` landed 11:05/11:53 UTC)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
+- [The `claudeopus*` trio and `dictmerge-lite`: the `2026-09-donutautosellsrc` steganography-stealer returns under LLM-brand names, C2 hidden in Polygon transaction history (OSV `MAL-2026-18298`–`18301`, kam193, PyPI, Oct 25–26, 2026)](../ops/claudeopus-trio-donutautosellsrc-pypi-steganography-infostealer-polygon-blockchain-c2-kam193-october-2026.md)
 
 ## pypls/requests
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
@@ -26286,6 +26296,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 - [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
+- [The `claudeopus*` trio and `dictmerge-lite`: the `2026-09-donutautosellsrc` steganography-stealer returns under LLM-brand names, C2 hidden in Polygon transaction history (OSV `MAL-2026-18298`–`18301`, kam193, PyPI, Oct 25–26, 2026)](../ops/claudeopus-trio-donutautosellsrc-pypi-steganography-infostealer-polygon-blockchain-c2-kam193-october-2026.md)
 - [Unit 42: CL-CRI-1171 "Untracked Nightmares" — a pay-per-install marketplace behind commodity-looking loader infections](../ops/unit42-clcri-1171-offerloader-ppi-marketplace-september-2026.md)
 
 ## StegoAd
@@ -26607,6 +26618,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 - [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
+- [The `claudeopus*` trio and `dictmerge-lite`: the `2026-09-donutautosellsrc` steganography-stealer returns under LLM-brand names, C2 hidden in Polygon transaction history (OSV `MAL-2026-18298`–`18301`, kam193, PyPI, Oct 25–26, 2026)](../ops/claudeopus-trio-donutautosellsrc-pypi-steganography-infostealer-polygon-blockchain-c2-kam193-october-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
