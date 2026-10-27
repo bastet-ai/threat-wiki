@@ -115,3 +115,7 @@ The "permanently exempt" reading is DEAD, killed between sweeps exactly where th
 ## <a id="october-27-227th-follow-up"></a>October 27, 227th sweep follow-up (~09:4x UTC): FOURTEENTH live sweep — seventh window running
 
 `@walknpm/todo-cli` packument `200`, `latest 2.0.1` (advised miner rung), `modified` frozen `00:55:52Z` — `≈32 h` post-publish, `≈24 h` under its own frozen critical `GHSA-q4qv`; tarball `200`. The cohort split (blender-3d whole-name-wiped, todo-cli untouched) now survives SIX full sweep-windows; enforcement-side staleness law unchanged. Sweep context → [227th stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-27-two-hundred-and-twenty-seventh-sweep)
+
+## <a id="october-27-228th-follow-up"></a>October 27, 228th sweep follow-up (~11:3x UTC): FIFTEENTH live sweep — eighth window running
+
+`@walknpm/todo-cli` packument `200`, `latest 2.0.1` (advised miner rung), `modified` frozen `00:55:52.077Z` — `≈34.5 h` post-publish, `≈26.5 h` under its own frozen critical `GHSA-q4qv`; registry tarball `200` and jsDelivr `200` (clean-rung survivor lane re-confirmed). The cohort split survives SEVEN full sweep-windows. Sweep context → [228th stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-27-two-hundred-and-twenty-eighth-sweep)
