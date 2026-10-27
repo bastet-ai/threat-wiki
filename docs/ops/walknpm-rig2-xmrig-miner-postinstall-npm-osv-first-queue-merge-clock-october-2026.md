@@ -111,3 +111,7 @@ The "permanently exempt" reading is DEAD, killed between sweeps exactly where th
 ## <a id="october-27-226th-sweep-follow-up-073x-utc-thirteenth-live-sweep--sixth-window-running"></a>October 27, 226th sweep follow-up (~07:3x UTC): THIRTEENTH live sweep — sixth window running
 
 `@walknpm/todo-cli` packument `200`, `latest 2.0.1` advised miner rung, `modified` frozen `00:55:52Z` — `≈30.5 h` post-publish, `≈21.5 h` under its own critical `GHSA-q4qv` (frozen `09:31:06Z`); `18320`/`18321` unchanged `aliases None` `modified` frozen; `blender-3d` stays four-lane dead (packument `404`). The WIPE lane did not visit a thirteenth sweep; the split law holds a sixth window. Sweep context → [226th stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-27-one-hundred-and-twenty-sixth-sweep)
+
+## <a id="october-27-227th-follow-up"></a>October 27, 227th sweep follow-up (~09:4x UTC): FOURTEENTH live sweep — seventh window running
+
+`@walknpm/todo-cli` packument `200`, `latest 2.0.1` (advised miner rung), `modified` frozen `00:55:52Z` — `≈32 h` post-publish, `≈24 h` under its own frozen critical `GHSA-q4qv`; tarball `200`. The cohort split (blender-3d whole-name-wiped, todo-cli untouched) now survives SIX full sweep-windows; enforcement-side staleness law unchanged. Sweep context → [227th stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-27-two-hundred-and-twenty-seventh-sweep)
