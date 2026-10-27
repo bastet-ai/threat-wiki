@@ -119,3 +119,7 @@ The "permanently exempt" reading is DEAD, killed between sweeps exactly where th
 ## <a id="october-27-228th-follow-up"></a>October 27, 228th sweep follow-up (~11:3x UTC): FIFTEENTH live sweep — eighth window running
 
 `@walknpm/todo-cli` packument `200`, `latest 2.0.1` (advised miner rung), `modified` frozen `00:55:52.077Z` — `≈34.5 h` post-publish, `≈26.5 h` under its own frozen critical `GHSA-q4qv`; registry tarball `200` and jsDelivr `200` (clean-rung survivor lane re-confirmed). The cohort split survives SEVEN full sweep-windows. Sweep context → [228th stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-27-two-hundred-and-twenty-eighth-sweep)
+
+## <a id="october-27-229th-follow-up"></a>October 27, 229th sweep follow-up (~13:3x UTC): SIXTEENTH live sweep — EIGHTH window survived
+
+Packument `200`, `latest 2.0.1`, `modified` still frozen `00:55:52.077Z` = `≈37 h` post-publish with both advisory clocks (OSV `18321`, `GHSA-c7hg`) unmoved through the whole run; no third disposition has touched this name since the 220th's cohort split. `@walknpm/dsh-plugin-blender-3d` stays four-lane dead (standing, not re-probed). The split law's specimen holds eight windows running. Sweep context → [229th stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-27-two-hundred-and-twenty-ninth-sweep)

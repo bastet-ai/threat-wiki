@@ -52,3 +52,5 @@ Sweep context → [221st stream section](algamil7x-npm-dns-exfil-recon-cluster-s
 **227th sweep follow-up (~09:4x UTC):** RE-ARM WATCH sixth read — still no re-arm: `latest 0.0.0-stage`, `modified` frozen `20:42:16.639Z` (`≈12.7 h` post-seizure). Sweep context → [227th stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-27-two-hundred-and-twenty-seventh-sweep)
 
 **228th sweep follow-up (~11:3x UTC):** RE-ARM WATCH seventh read — still no re-arm: `latest 0.0.0-stage`, single version object, `modified` frozen `20:42:16.639Z` (`≈14.7 h` post-seizure). Sweep context → [228th stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-27-two-hundred-and-twenty-eighth-sweep)
+
+**229th sweep follow-up (~13:3x UTC):** RE-ARM WATCH eighth read — still no re-arm: `latest 0.0.0-stage`, `modified` frozen `20:42:16.639Z` (`≈17 h` post-seizure). The resurrection-cycle monitor stays un-tripped a second day. Sweep context → [229th stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-27-two-hundred-and-twenty-ninth-sweep)
