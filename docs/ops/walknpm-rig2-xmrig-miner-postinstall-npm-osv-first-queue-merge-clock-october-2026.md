@@ -107,3 +107,7 @@ The "permanently exempt" reading is DEAD, killed between sweeps exactly where th
 ## October 27, 225th sweep follow-up (~05:2x–05:5x UTC): TWELFTH live sweep — fifth window running
 
 `@walknpm/todo-cli` packument `200`, `latest 2.0.1` advised miner rung, `modified` frozen `00:55:52Z` — `≈29 h` post-publish, `≈20 h` under its own critical `GHSA-q4qv` (frozen `09:31:06Z`); `18320`/`18321` unchanged `aliases None`; `blender-3d` stays four-lane dead. The split law holds a fifth window. Falsifiers unchanged: packument `404` = late wipe completion; tarball-`404`-with-packument-`200` = @worca surgical grammar on the mirror lane. Sweep context → [225th stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-27-one-hundred-and-twenty-fifth-sweep).
+
+## <a id="october-27-226th-sweep-follow-up-073x-utc-thirteenth-live-sweep--sixth-window-running"></a>October 27, 226th sweep follow-up (~07:3x UTC): THIRTEENTH live sweep — sixth window running
+
+`@walknpm/todo-cli` packument `200`, `latest 2.0.1` advised miner rung, `modified` frozen `00:55:52Z` — `≈30.5 h` post-publish, `≈21.5 h` under its own critical `GHSA-q4qv` (frozen `09:31:06Z`); `18320`/`18321` unchanged `aliases None` `modified` frozen; `blender-3d` stays four-lane dead (packument `404`). The WIPE lane did not visit a thirteenth sweep; the split law holds a sixth window. Sweep context → [226th stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-27-one-hundred-and-twenty-sixth-sweep)
