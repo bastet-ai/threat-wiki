@@ -8,15 +8,15 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 
 ## Popular this week
 <!-- popular-this-week:auto -->
-_Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-19 UTC (20690 of ~720 on-page requests attributable; 720 of 720 path batches ok)._
+_Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-20 UTC (21087 of ~725 on-page requests attributable; 125 of 725 path batches ok)._
 - [RubyGems 24-gem crypto-utility fleet — the 45.138.12.177 C2 RETURNS under fresh names](/ops/rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026/) — 295 reads
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactor](/ops/cisa-kev-owncloud-linux-artifactory-august-27-2026/) — 258 reads
-- [Source index](/notes/source-index/) — 152 reads
+- [Source index](/notes/source-index/) — 164 reads
 - [SubQuery @subql/common@5.8.3: release-pipeline artifact substitution](/ops/subql-common-ci-artifact-substitution-release-pipeline-compromise-october-2026/) — 140 reads
 - [Cavern](/tools/cavern/) — 129 reads
-- [CL-STA-1114 / Void Blizzard](/actors/cl-sta-1114-void-blizzard/) — 112 reads
-- [Tag index](/notes/tag-index/) — 111 reads
-- [Sentry MCP Agentjacking](/patterns/sentry-mcp-agentjacking/) — 110 reads
+- [Cavern Manticore](/actors/cavern-manticore/) — 116 reads
+- [Tag index](/notes/tag-index/) — 115 reads
+- [Kimsuky / Emerald Sleet / TA427](/actors/kimsuky-emerald-sleet-ta427/) — 111 reads
 <!-- /popular-this-week:auto -->
 
 ## Recent entries
