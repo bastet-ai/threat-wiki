@@ -2337,6 +2337,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-hvfh-5mj3-5f3j](#ghsa-hvfh-5mj3-5f3j) (1)
 - [ghsa-join-laws](#ghsa-join-laws) (1)
 - [GHSA-m5w8-4gq2-6f8x](#ghsa-m5w8-4gq2-6f8x) (1)
+- [ghsa-malware](#ghsa-malware) (1)
 - [GHSA-malware-lane](#ghsa-malware-lane) (1)
 - [GHSA-mf7q-r4rv-jv94](#ghsa-mf7q-r4rv-jv94) (1)
 - [GHSA-p293-qw3h-jr36](#ghsa-p293-qw3h-jr36) (1)
@@ -2383,7 +2384,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [github-abuse](#github-abuse) (1)
 - [github-actions](#github-actions) (2)
 - [GitHub-Actions](#github-actions) (2)
-- [GitHub-Advisories](#github-advisories) (2)
+- [GitHub-Advisories](#github-advisories) (3)
 - [github-c2](#github-c2) (1)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
 - [github-token](#github-token) (1)
@@ -3203,7 +3204,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malicious theme](#malicious-theme) (1)
-- [malicious-package](#malicious-package) (22)
+- [malicious-package](#malicious-package) (23)
 - [malicious-packages-queue](#malicious-packages-queue) (1)
 - [malvertising](#malvertising) (11)
 - [malware](#malware) (69)
@@ -3495,6 +3496,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nacos](#nacos) (3)
 - [NadMesh](#nadmesh) (1)
 - [name revival](#name-revival) (1)
+- [name-squat](#name-squat) (1)
 - [named pipes](#named-pipes) (1)
 - [Named Pipes](#named-pipes) (1)
 - [named-pipe](#named-pipe) (1)
@@ -3617,7 +3619,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies](#novacookies) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (100)
+- [npm](#npm) (101)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -3777,7 +3779,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (463)
+- [ops](#ops) (464)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -3800,8 +3802,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OSCrypt](#oscrypt) (1)
 - [ossf malicious-packages](#ossf-malicious-packages) (5)
 - [Ossprey](#ossprey) (1)
+- [OSV](#osv) (7)
 - [osv](#osv) (5)
-- [OSV](#osv) (6)
 - [OSV malware stream](#osv-malware-stream) (4)
 - [OSV-first](#osv-first) (1)
 - [osv-first](#osv-first) (2)
@@ -4631,6 +4633,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm](#seedworm) (3)
 - [segmented networks](#segmented-networks) (1)
 - [seizure](#seizure) (2)
+- [seizure-automaton](#seizure-automaton) (1)
 - [Sekoia](#sekoia) (1)
 - [selector spoofing](#selector-spoofing) (1)
 - [self-cleaning](#self-cleaning) (1)
@@ -5057,7 +5060,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (28)
 - [supply chain attack](#supply-chain-attack) (16)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (144)
+- [supply-chain](#supply-chain) (145)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -5358,7 +5361,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [type confusion](#type-confusion) (2)
 - [TypeConfuseDelegate](#typeconfusedelegate) (1)
 - [TypeScript](#typescript) (2)
-- [typosquat](#typosquat) (11)
+- [typosquat](#typosquat) (12)
 - [typosquatting](#typosquatting) (20)
 - [U+E0000](#ue0000) (1)
 - [U.S. critical infrastructure](#us-critical-infrastructure) (1)
@@ -15008,6 +15011,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GHSA-m5w8-4gq2-6f8x
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
+## ghsa-malware
+- [The `csec` squat-septet: seven lookalike npm names registered in a 25-second spread, holder-sealed before/at their same-second advisory wave (this wiki Oct 28, 234th sweep)](../ops/csec-squat-septet-npm-seven-lookalike-ladder-names-holder-sealed-before-advisory-second-october-2026.md)
+
 ## GHSA-malware-lane
 - [RubyGems 24-gem crypto-utility fleet — the `45.138.12.177` C2 RETURNS under fresh names: 24 gems pushed in an 83-second scripted window (Oct 11 06:52:40–06:54:02Z), every one `0.9.1`, every `extconf.rb` a base64 double-fork `/bin/sh`-over-TCP reverse shell to **the SAME `45.138.12.177:8089`** the Wallet Guard wgkit fleet used — with the `bitcoin_rpc_lite_native` makefile name and the Oct-5 counter-forensics gates (CI / ephemeral-host / generated-user / analysis-path / uptime>30 min / dev-signals) baked in as shipped defaults — and for the FIRST TIME on this ledger a RubyGems malware fleet dual-advised 24/24 from day one (OSV `MAL-2026-17779`–`17802` + a 24-record same-second GHSA batch 15:31:13Z) while every gem stays LIVE and the C2 box itself has gone fully DARK](../ops/rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026.md)
 
@@ -15219,6 +15225,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub-Advisories
 - [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
+- [The `csec` squat-septet: seven lookalike npm names registered in a 25-second spread, holder-sealed before/at their same-second advisory wave (this wiki Oct 28, 234th sweep)](../ops/csec-squat-septet-npm-seven-lookalike-ladder-names-holder-sealed-before-advisory-second-october-2026.md)
 
 ## github-c2
 - [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
@@ -18396,6 +18403,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The `claudeopus*` trio and `dictmerge-lite`: the `2026-09-donutautosellsrc` steganography-stealer returns under LLM-brand names, C2 hidden in Polygon transaction history (OSV `MAL-2026-18298`–`18301`, kam193, PyPI, Oct 25–26, 2026)](../ops/claudeopus-trio-donutautosellsrc-pypi-steganography-infostealer-polygon-blockchain-c2-kam193-october-2026.md)
+- [The `csec` squat-septet: seven lookalike npm names registered in a 25-second spread, holder-sealed before/at their same-second advisory wave (this wiki Oct 28, 234th sweep)](../ops/csec-squat-septet-npm-seven-lookalike-ladder-names-holder-sealed-before-advisory-second-october-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
@@ -19623,6 +19631,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## name revival
 - [`webreader` + `pafer` (PyPI) — the kam193 `2026-10-webreader` pickle-as-config RAT pair: a binary `default.config` in the main package, a dependency whose "config loader" unpickles it, `bypit` + `mypyc_abi3.pth` boot-persistence on every interpreter start, module-gated XOR stage, `memfd_create` fileless exec, npoint.io stage drop, Supabase edge-function C2 — AND BOTH NAMES STILL `project-status=active` + installable ~27 h AFTER THEIR OWN OSVs, while the same analyst's other campaign died in ~1.5 h = THE QUARANTINE DIFFERENTIAL IS NOT KEYED ON THE SOURCE](../tools/webreader-pafer-pypi-pickle-config-bypit-pth-npoint-supabase-kam193-october-2026.md)
 
+## name-squat
+- [The `csec` squat-septet: seven lookalike npm names registered in a 25-second spread, holder-sealed before/at their same-second advisory wave (this wiki Oct 28, 234th sweep)](../ops/csec-squat-septet-npm-seven-lookalike-ladder-names-holder-sealed-before-advisory-second-october-2026.md)
+
 ## named pipes
 - [OceanLotus](../actors/oceanlotus.md)
 
@@ -20143,6 +20154,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 - [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
+- [The `csec` squat-septet: seven lookalike npm names registered in a 25-second spread, holder-sealed before/at their same-second advisory wave (this wiki Oct 28, 234th sweep)](../ops/csec-squat-septet-npm-seven-lookalike-ladder-names-holder-sealed-before-advisory-second-october-2026.md)
 - [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
@@ -21468,6 +21480,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2 — and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The `claudeopus*` trio and `dictmerge-lite`: the `2026-09-donutautosellsrc` steganography-stealer returns under LLM-brand names, C2 hidden in Polygon transaction history (OSV `MAL-2026-18298`–`18301`, kam193, PyPI, Oct 25–26, 2026)](../ops/claudeopus-trio-donutautosellsrc-pypi-steganography-infostealer-polygon-blockchain-c2-kam193-october-2026.md)
+- [The `csec` squat-septet: seven lookalike npm names registered in a 25-second spread, holder-sealed before/at their same-second advisory wave (this wiki Oct 28, 234th sweep)](../ops/csec-squat-septet-npm-seven-lookalike-ladder-names-holder-sealed-before-advisory-second-october-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
@@ -21611,20 +21624,21 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Ossprey
 - [DirtyBlanket: nine npm Express/React clones publish a self-spreading Linux worm whose loader is served through the Wayback Machine — CHAOS RAT behind Tor, `chattr +i` fake systemd font persistence, SSH-key lateral movement, and automated AUR `PKGBUILD.install` + npm-token republish poisoning](../ops/dirtyblanket-npm-express-clone-linux-worm-wayback-codeberg-aur-chaos-tor-safedep-september-2026.md)
 
+## OSV
+- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
+- [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
+- [The `csec` squat-septet: seven lookalike npm names registered in a 25-second spread, holder-sealed before/at their same-second advisory wave (this wiki Oct 28, 234th sweep)](../ops/csec-squat-septet-npm-seven-lookalike-ladder-names-holder-sealed-before-advisory-second-october-2026.md)
+- [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
+- [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
+- [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
+- [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
+
 ## osv
 - [`fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo — OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 - [GSUT `@gsutevil/hta-stage` HTA/WSH MSI loader + `hta-ui` Banco do Brasil landing templates (npm, OSV MAL-2026-16419, Sep 22-23, 2026)](../tools/gsut-hta-stage-loader-banco-do-brasil-landing-templates-npm-september-2026.md)
 - [The `*-testmetest` npm wave: a binding.gyp credential worm run as a PUBLIC TEST BENCH (`data-pipeline-testmetest`, `event-emitter-testmetest`, `log-sink-testmetest`, `pixel-map-testmetest`, `test-brotli-testmetest`) — Phantom-Gyp hook + Bun payload + self-republish worming + a NEW hostage dead-man switch that wipes `~/` when the stolen token is revoked (OSV `MAL-2026-18177`–`18181`, Oct 21–22, 2026)](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
 - [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
 - [The test bench RE-SPAWNS and the OAST recon class arrives: `test-brotli2-testmetest` + two NEW binding.gyp/Bun droppers + a shadow-registry hijack (`@conduitops/logview-archive`) + a Gist-fed `preinstall` loader (`formatting-subtitles`) + an install-beacon (`simplewave`) (OSV `MAL-2026-18182`–`18187`, Oct 22, 2026)](../ops/testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md)
-
-## OSV
-- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
-- [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
-- [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
-- [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
-- [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
-- [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 
 ## OSV malware stream
 - [`agentaix` + `media-manager5` (PyPI) — the `2026-10-agentaix` two-name RAT pair: persistent-job installers doing file exfiltration + remote-code execution to `googleforum.pythonanywhere.com` — kam193 lane, OSV → GHSA mirror measured at ≈93 min, BOTH names PyPI-QUARANTINED within ~1.5 h of OSV arrival, C2 answering `200` at this wiki's check](../tools/agentaix-media-manager5-pypi-rat-pythonanywhere-c2-kam193-october-2026.md)
@@ -24966,6 +24980,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dsh-native / @keer1024/dsh-native — the seizure took the bare name; the maintainer's scoped twin was born 53 minutes before the advisory and lives](../ops/dsh-native-keer1024-npm-seizure-scoped-twin-survival-rollback-to-stage-rust-worker-exe-october-2026.md)
 - [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
 
+## seizure-automaton
+- [The `csec` squat-septet: seven lookalike npm names registered in a 25-second spread, holder-sealed before/at their same-second advisory wave (this wiki Oct 28, 234th sweep)](../ops/csec-squat-septet-npm-seven-lookalike-ladder-names-holder-sealed-before-advisory-second-october-2026.md)
+
 ## Sekoia
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 
@@ -26673,6 +26690,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The `claudeopus*` trio and `dictmerge-lite`: the `2026-09-donutautosellsrc` steganography-stealer returns under LLM-brand names, C2 hidden in Polygon transaction history (OSV `MAL-2026-18298`–`18301`, kam193, PyPI, Oct 25–26, 2026)](../ops/claudeopus-trio-donutautosellsrc-pypi-steganography-infostealer-polygon-blockchain-c2-kam193-october-2026.md)
+- [The `csec` squat-septet: seven lookalike npm names registered in a 25-second spread, holder-sealed before/at their same-second advisory wave (this wiki Oct 28, 234th sweep)](../ops/csec-squat-septet-npm-seven-lookalike-ladder-names-holder-sealed-before-advisory-second-october-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
@@ -27884,6 +27902,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
+- [The `csec` squat-septet: seven lookalike npm names registered in a 25-second spread, holder-sealed before/at their same-second advisory wave (this wiki Oct 28, 234th sweep)](../ops/csec-squat-septet-npm-seven-lookalike-ladder-names-holder-sealed-before-advisory-second-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)](../ops/opencode2-npm-platform-binary-impersonation-fleet-seizure-october-2026.md)
 - [ulid-xyz transitive delivery chain: a MicrosoftSystem64 RAT three npm dependencies deep (SafeDep, Sep 1, 2026)](../ops/ulid-xyz-transitive-delivery-chain-microsoftsystem64-dprk-september-2026.md)
