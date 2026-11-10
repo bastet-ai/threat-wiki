@@ -92,7 +92,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ActiveX](#activex) (1)
 - [activism](#activism) (1)
 - [actor](#actor) (7)
-- [actors](#actors) (13)
+- [actors](#actors) (14)
 - [ad blocker](#ad-blocker) (1)
 - [AD CS](#ad-cs) (1)
 - [ad fraud](#ad-fraud) (3)
@@ -1134,7 +1134,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [critical](#critical) (1)
 - [Critical cyber capability](#critical-cyber-capability) (1)
 - [critical framing](#critical-framing) (1)
-- [critical infrastructure](#critical-infrastructure) (12)
+- [critical infrastructure](#critical-infrastructure) (13)
 - [critical vulnerability](#critical-vulnerability) (7)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [CRM data theft](#crm-data-theft) (1)
@@ -1667,6 +1667,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DeepAudit](#deepaudit) (1)
 - [DeepSeek](#deepseek) (6)
 - [DeepSeek Harness](#deepseek-harness) (1)
+- [defacement](#defacement) (1)
 - [default credentials](#default-credentials) (1)
 - [Defender Advanced Hunting](#defender-advanced-hunting) (1)
 - [Defender evasion](#defender-evasion) (2)
@@ -1958,7 +1959,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [endpoint-detection](#endpoint-detection) (1)
 - [endpoint-security](#endpoint-security) (3)
 - [EndpointDlp.dll](#endpointdlpdll) (1)
-- [energy](#energy) (1)
+- [energy](#energy) (2)
 - [energy sector](#energy-sector) (5)
 - [energy-sector](#energy-sector) (1)
 - [enforcement](#enforcement) (1)
@@ -2112,7 +2113,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FakeCaptcha](#fakecaptcha) (1)
 - [FakeGit](#fakegit) (1)
 - [Fakeset](#fakeset) (1)
-- [faketivism](#faketivism) (1)
+- [faketivism](#faketivism) (2)
 - [FakeUpdates](#fakeupdates) (1)
 - [FALCON](#falcon) (1)
 - [Falcon Sensor](#falcon-sensor) (1)
@@ -2652,7 +2653,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ice Relic](#ice-relic) (1)
 - [iCloud theft](#icloud-theft) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
-- [ICS](#ics) (4)
+- [ICS](#ics) (5)
 - [IDE extension](#ide-extension) (2)
 - [IDE plugins](#ide-plugins) (1)
 - [IDE trust boundary](#ide-trust-boundary) (1)
@@ -2772,6 +2773,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [invisirisk](#invisirisk) (1)
 - [invocation logging](#invocation-logging) (1)
 - [invoice fraud](#invoice-fraud) (1)
+- [IOCONTROL](#iocontrol) (1)
 - [iOS](#ios) (3)
 - [iOS exploit chain](#ios-exploit-chain) (1)
 - [IOS XR](#ios-xr) (1)
@@ -2785,10 +2787,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IPsec](#ipsec) (1)
 - [IPv6](#ipv6) (3)
 - [ipynbdiff](#ipynbdiff) (1)
-- [Iran](#iran) (9)
+- [Iran](#iran) (10)
 - [Iran-nexus](#iran-nexus) (3)
 - [IRC C2](#irc-c2) (1)
-- [IRGC](#irgc) (1)
+- [IRGC](#irgc) (2)
+- [IRGC-CEC](#irgc-cec) (1)
 - [IronWorm](#ironworm) (1)
 - [Irregular](#irregular) (1)
 - [ischhfd83](#ischhfd83) (1)
@@ -3807,7 +3810,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OSV malware stream](#osv-malware-stream) (4)
 - [OSV-first](#osv-first) (1)
 - [osv-first](#osv-first) (2)
-- [OT](#ot) (6)
+- [OT](#ot) (7)
 - [OT switches](#ot-switches) (1)
 - [OTA update](#ota-update) (1)
 - [OTP interception](#otp-interception) (1)
@@ -4022,7 +4025,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [plaintext HTTP](#plaintext-http) (1)
 - [Plandex](#plandex) (1)
 - [platform-binaries](#platform-binaries) (1)
-- [PLC](#plc) (2)
+- [PLC](#plc) (3)
 - [PLENET](#plenet) (2)
 - [Plesk](#plesk) (1)
 - [plugin architecture](#plugin-architecture) (3)
@@ -5632,6 +5635,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [watchdog](#watchdog) (1)
 - [watchTowr](#watchtowr) (7)
 - [watchTowr Labs](#watchtowr-labs) (1)
+- [water](#water) (1)
 - [water and wastewater](#water-and-wastewater) (1)
 - [water sector](#water-sector) (1)
 - [watering hole](#watering-hole) (2)
@@ -6297,6 +6301,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## actors
 - [Armored Likho](../actors/armored-likho.md)
 - [Cavern Manticore](../actors/cavern-manticore.md)
+- [CyberAv3ngers](../actors/cyberav3ngers.md)
 - [Exilware: Brazilian IAB operation behind BraZetsu and the "Infected Marketplace"](../actors/exilware.md)
 - [Fox Tempest](../actors/fox-tempest.md)
 - [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
@@ -10618,6 +10623,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
 - [CL-STA-1062](../actors/cl-sta-1062.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
+- [CyberAv3ngers](../actors/cyberav3ngers.md)
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [PATCHCORD / SHEETCORD: APT36 backdoor campaign against Afghan telecom and South Asian critical infrastructure](../ops/patchcord-sheetcord-apt36-afghan-telecom-south-asia.md)
@@ -12463,6 +12469,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DeepSeek Harness
 - [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 
+## defacement
+- [CyberAv3ngers](../actors/cyberav3ngers.md)
+
 ## default credentials
 - [Wiz "Off Guard": Breaking LiteLLM from authentication bypass to cloud compromise (CVE-2026-59822 / CVE-2026-59821)](../ops/wiz-litellm-off-guard-mcp-bypass-rce-cloud-compromise-september-2026.md)
 
@@ -13616,6 +13625,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 
 ## energy
+- [CyberAv3ngers](../actors/cyberav3ngers.md)
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
 ## energy sector
@@ -14246,6 +14256,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## faketivism
+- [CyberAv3ngers](../actors/cyberav3ngers.md)
 - [Handala](../actors/handala.md)
 
 ## FakeUpdates
@@ -16178,6 +16189,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ICS
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
+- [CyberAv3ngers](../actors/cyberav3ngers.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
@@ -16706,6 +16718,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## invoice fraud
 - [Microsoft: AI-assisted executive impersonation and invoice fraud — million-email ACH scam (Sep 10, 2026)](../ops/microsoft-ai-assisted-executive-impersonation-invoice-fraud-ach-campaign-september-2026.md)
 
+## IOCONTROL
+- [CyberAv3ngers](../actors/cyberav3ngers.md)
+
 ## iOS
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
@@ -16769,6 +16784,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Cavern](../tools/cavern.md)
 - [Cavern Manticore](../actors/cavern-manticore.md)
+- [CyberAv3ngers](../actors/cyberav3ngers.md)
 - [Handala](../actors/handala.md)
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
@@ -16785,7 +16801,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 
 ## IRGC
+- [CyberAv3ngers](../actors/cyberav3ngers.md)
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
+
+## IRGC-CEC
+- [CyberAv3ngers](../actors/cyberav3ngers.md)
 
 ## IronWorm
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
@@ -21656,6 +21676,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OT
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
+- [CyberAv3ngers](../actors/cyberav3ngers.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
@@ -22538,6 +22559,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PLC
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
+- [CyberAv3ngers](../actors/cyberav3ngers.md)
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
 ## PLENET
@@ -28990,6 +29012,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## watchTowr Labs
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
+
+## water
+- [CyberAv3ngers](../actors/cyberav3ngers.md)
 
 ## water and wastewater
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)

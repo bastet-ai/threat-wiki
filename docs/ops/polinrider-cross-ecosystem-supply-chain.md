@@ -90,6 +90,18 @@ Socket (Karlo Zanki, **Sep 17, 2026**) reported PolinRider reaching **`visanduma
 - **Impact caveat Socket states**: GitHub code search misses private repos touched by compromised accounts, infected-then-cleaned repos, and developer systems where payloads already executed — cleaning a repository does not clean workstations or CI. Public reports from affected developers describe difficulty removing later-stage components. Apparent primary objective remains **cryptocurrency theft**.
 - IOCs: `visanduma/nova-two-factor` (`dev-main`), `LaHiRu` account, Visanduma org. Live tracker: `https://socket.dev/supply-chain-attacks/polinrider`.
 
+## November 4, 2026 OX Security: PolinRider RETURNS — Ethereum-RPC dead-drop C2, in-memory execution, and a package set that matches the OSV mirror's own Nov-2/4 cohort
+
+OX Security (**Nov 4, 2026**) reported **malicious releases of legitimate npm packages linked to the PolinRider family** — the campaign's first confirmed return since the September `visanduma` follow-up. Mechanics:
+
+- **Ethereum blockchain as C2 dead-drop**: the injected loader (hidden behind `eval(atob(…))` in `index.js`) queries **public Ethereum RPC endpoints** to retrieve a **C2 IP address encoded in a blockchain transaction**, then downloads an **XOR-obfuscated JavaScript payload over plain HTTP** and executes it. Attackers can retarget the whole fleet **without touching the published packages** — updating the blockchain reference redirects every infected install.
+- **Fileless execution**: payload runs through `node -i` (interactive Node, in-memory) — complicating memory-less detection.
+- **Crypto-stealer objective**: attacker ETH address `0x1eef0849eda15d87f64e51c73c8442cf3c8bcef3` embedded; OX recommends treating wallets reachable from any affected environment as compromised.
+- **Package set (≈1,400 downloads/week aggregate; all listed versions since taken down)**: `@adminide-stack/client-redux`, `@adminide-stack/health-api-server`, `@adminide-stack/user-activity-browser`, `@adminide-stack/utils`, `@adminide-stack/forms-core`, `@adminide-stack/yantra-help-browser`, `@cdmbase/wiki-browser`, `@pubngo-stack/help-browser`, `server-hemera-mongo`, `cdeops`, `react-contact-forms`, and a tailwind-family cluster (`tailwind-contact-forms`, `tailwindcss-form-utils`, `tailwind-form-core`, `tailwind-input-kit`, `tailwind-forms-kit`, `tailwindcss-contact-form`).
+- **Mirror convergence (this wiki, 237th sweep)**: the OSV lane minted **the same fleet independently** — `MAL-2026-18639`–`18647` (`@adminide-stack/*`, `@cdmbase`, `@pubngo`, `cdeops`, all alias-at-birth with GHSAs, published Nov 4 19:4xZ) and `18593`–`18595` (`react-contact-forms`, `tailwind-form-core`, `tailwind-input-kit`, alias-at-birth Nov 4) — vendor reporting and the malware mirror landed on the same packages within hours. OX's ledger lists every version taken down; the OSV rows carry the advisory aliases = the full-ledger reconciliation, name-keyed, held this time.
+
+Durable: PolinRider now joins the blockchain-C2 campaign set (Joyfill, Astro config injection, NullReceiver) with the **Ethereum-RPC variant specifically** — the C2 rotation cost is one transaction, so **package-side IOCs are structurally stale**; hunt the RPC query shape and the `node -i` process signature, not the embedded address.
+
 ## Related pages
 - [Joyfill npm blockchain-RAT compromise](joyfill-npm-blockchain-rat-compromise.md)
 - [Astro config blockchain C2 PR injection](astro-config-blockchain-c2-pr-injection.md)
@@ -101,3 +113,4 @@ Socket (Karlo Zanki, **Sep 17, 2026**) reported PolinRider reaching **`visanduma
 ## Sources
 - Socket: [https://socket.dev/blog/polinrider-north-korea-linked-supply-chain-campaign-expands](https://socket.dev/blog/polinrider-north-korea-linked-supply-chain-campaign-expands)
 - Socket live campaign tracker: [https://socket.dev/supply-chain-attacks/polinrider](https://socket.dev/supply-chain-attacks/polinrider)
+- OX Security, "PolinRider Returns: Hijacked npm Packages Use Ethereum Blockchain to Conceal Malware Infrastructure" (Nov 4, 2026): <https://ox.security/blog/polinrider-returns-hijacked-npm-packages-use-ethereum-blockchain-to-conceal-malware-infrastructure>
