@@ -20,6 +20,8 @@ _Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-30 U
 <!-- /popular-this-week:auto -->
 
 ## Recent entries
+- [**Left-behind vendor integration roles let an attacker assume into customer AWS accounts with correct External IDs; the stolen keys were validated by TruffleHog and the intruder's boot ISO hard-reboots to erase itself at T+90 min**](ops/qubole-aws-cross-account-integration-role-abuse-trufflehog-validation-self-destruct-iso-november-2026.md)
+- [**Railway's build escape became $740,000 in stolen AI keys: an internal cluster wrongly trusted the build credential, and one misconfigured OIDC binding opened production**](ops/railway-build-system-breach-oidc-trust-stolen-customer-ai-api-keys-november-2026.md)
 - [**A compromised release pipeline shipped bee-js 13.3.0 with valid SLSA provenance and an Apple-notarized Swarm Desktop build; the deleted version still installs under the `upcoming` dist-tag**](ops/ethersphere-bee-js-npm-swarm-desktop-release-pipeline-compromise-sleepyduck-ethereum-contract-c2-november-2026.md)
 - [**OSV name-only queries return zero rows for advisories that exist: the ecosystem field decides whether you see them**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-11-two-hundred-and-forty-second-sweep)
 - [**Trojanized Baileys fork shipped a new version 20 minutes before its own advisory PR merged, still installs at 1,246 downloads/week**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-11-two-hundred-and-forty-first-sweep)
@@ -28,8 +30,6 @@ _Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-30 U
 - [**258-name PhantomSub Baileys batch merged after 13 days: OSV mints at the merge tick**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-10-two-hundred-and-thirty-eighth-sweep)
 - [**Queue merge is the mint gate: 36 names minted 15 min after PR merge, reporter-date stamps**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-6-two-hundred-and-thirty-seventh-sweep)
 - [**GHSA arrival and alias-join are separate clocks: trajmetrics GHSA landed 3h45m behind OSV**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-28-two-hundred-and-thirty-sixth-sweep)
-- [**glyphmatrix-fixture: registry excised exactly the advised rungs, unadvised rung stayed installable**](ops/dsh-vm-tester-agentenact-npm-excision-follows-advisory-range-unadvised-rungs-live-october-2026.md#october-28-235th-third-read)
-- [**csec squat-septet: seven lookalike npm names in 25s, two sealed before their advisories**](ops/csec-squat-septet-npm-seven-lookalike-ladder-names-holder-sealed-before-advisory-second-october-2026.md)
 
 ## Sections
 - **Ops**, campaign timelines, compromise chains, and sequencing
