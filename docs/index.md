@@ -20,6 +20,7 @@ _Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-30 U
 <!-- /popular-this-week:auto -->
 
 ## Recent entries
+- [**Trojanized Baileys fork shipped a new version 20 minutes before its own advisory PR merged, still installs at 1,246 downloads/week**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-11-two-hundred-and-forty-first-sweep)
 - [**Reporter closed two Baileys advisory PRs to free GitHub open-PR quota, leaving names unadvised**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-11-two-hundred-and-fortieth-sweep)
 - [**dsh-plugin-todo-cli: fully-advised miner survived 25 sweeps for 16 days, then vanished whole-name**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-11-two-hundred-and-thirty-ninth-sweep)
 - [**258-name PhantomSub Baileys batch merged after 13 days: OSV mints at the merge tick**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-10-two-hundred-and-thirty-eighth-sweep)
@@ -29,7 +30,6 @@ _Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-30 U
 - [**csec squat-septet: seven lookalike npm names in 25s, two sealed before their advisories**](ops/csec-squat-septet-npm-seven-lookalike-ladder-names-holder-sealed-before-advisory-second-october-2026.md)
 - [**Unadvised same-account rungs survive excision (dsh-vm-tester, agentenact)**](ops/dsh-vm-tester-agentenact-npm-excision-follows-advisory-range-unadvised-rungs-live-october-2026.md)
 - [**mw-trio: queue report alone got three packages unpublished in 21 minutes, zero advisories**](ops/mw-trio-ossf-queue-execution-plain-http-depconf-collector-bare-ip-npm-october-2026.md)
-- [**flexmr/utils re-stamped with aliases: OSV records reconcile under the ghsa-malware bot**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-27-two-hundred-and-thirty-first-sweep)
 
 ## Sections
 - **Ops**, campaign timelines, compromise chains, and sequencing
