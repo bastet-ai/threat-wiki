@@ -10,6 +10,7 @@ Use this before publishing a new page or major update.
 - [ ] Tags are added when useful
 
 ## Quality
+- [ ] Recent entries title states the FINDING a reader cares about (plain-language claim about the vulnerability, campaign, or technique), never the scanning process (no sweep ordinals, high-water bookkeeping, "new page + folds" work-status, feed-head/KEV tracking, or commit hashes). Operational detail lives in the linked page and source-index. (Dean request, 2026-11-10)
 - [ ] Facts are separated from inference
 - [ ] Primary name follows operator, maintainer, project, or other firsthand usage when durable public sourcing supports it
 - [ ] Alternate names are attributed to the vendor or report that used them
