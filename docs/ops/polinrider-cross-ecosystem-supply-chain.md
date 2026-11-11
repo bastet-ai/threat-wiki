@@ -102,6 +102,23 @@ OX Security (**Nov 4, 2026**) reported **malicious releases of legitimate npm pa
 
 Durable: PolinRider now joins the blockchain-C2 campaign set (Joyfill, Astro config injection, NullReceiver) with the **Ethereum-RPC variant specifically**, the C2 rotation cost is one transaction, so **package-side IOCs are structurally stale**; hunt the RPC query shape and the `node -i` process signature, not the embedded address.
 
+## <a id="november-11-246th-sonatype-differential"></a>November 11, 2026 (246th sweep) Sonatype official post lands, and this wiki's four-lane read says their "taken down" means RUNGS, not NAMES
+
+Sonatype Research Labs' official post (published Nov 4, syndicated through Nov 9) adds to the OX picture: tracked as **`sonatype-2026-010515`** (rated 8.7 high), all 12 releases share the hard-coded Ethereum **sender wallet `0x1eef0849eda15d87f64e51c73c8442cf3c8bcef3`** — the exact wallet GitGuardian named in its **Oct 27 "GhostAction Crosses Paths With PolinRider"** report on compromised GitHub repos, with matching retrieval paths **`/0x/cls`** and **`/0x/ls` on port 443**. Payload requests carry a `Sec-V` header: **`A10-npm_inject`** (the six Base64 releases), **`A10-II`** (`@adminide-stack/utils 0.0.16-130`), **`A10-E`** (`cdeops 13.5.31`). No consumer install/postinstall hook is needed — the loader runs on module load, or on bundled-app startup for `server-hemera-mongo`. Sonatype's Nov-9 follow-up (via Greenflagged): later stages install a **Node RAT persisting through npm's `lib/cli.js` and desktop startup files targeting VS Code, Cursor, Discord, GitHub Desktop** = removing the dependency alone is insufficient after execution. Sonatype attributes the family to North Korea's Lazarus campaign set (family-level attribution, per Sonatype; operator identity NOT independently verified by this wiki).
+
+**The takedown differential (this wiki, registry reads ~14:3x UTC Nov 11).** Sonatype states all affected releases were taken down. Four-lane check of what that means on npm:
+
+| Lane | Read |
+|---|---|
+| Packument | ALL ten names `200`, name-level install still works |
+| `versions[]` vs `time[]` | Advised rungs EXCISED from `versions[]` but ALIVE in `time[]` (`client-redux 0.0.16-18` time-stamped `2026-11-03T22:05:45.849Z`; `cdeops 13.5.31` present in `time[]`, `latest` rolled back to `13.5.30-alpha.66`) = the removal-roster law at fleet scale |
+| Tarballs | advised rungs `404` (`0.0.16-18`, `13.5.31`), clean rungs `200` (`0.0.16-17`) |
+| Downloads | the NAMES accrue: `client-redux 942`, `cdeops 3,088`, `@cdmbase/wiki-browser 1,004`, `server-hemera-mongo 273` dl/wk (Nov-4→10 window) |
+
+**Ledger gap found:** OSV carries the Nov cohort for NINE of the ten names (`MAL-2026-18639`-`18647`, alias-at-birth), but **`server-hemera-mongo` has NO November row** — only the pre-existing `MAL-2026-11986`. A Sonatype-named loader release with no November mirror record = the name-liveness law re-lands on the LEDGER lane itself: an absence in the mirror is not an absence in the registry. Resume oracle re-read confirms `18639`-`18647` rows serve; `server-hemera-mongo` both-grammar query returns only `11986`.
+
+Durable: **"taken down" is a rung claim, verify it as four separate claims** (packument, `versions[]` vs `time[]`, tarball, downloads), and the `Sec-V: A10-*` header grammar + `/0x/cls|ls` paths + the wallet `0x1eef…cef3` are now the campaign's cheapest network hunt shapes — they survive every package takedown by design.
+
 ## Related pages
 - [Joyfill npm blockchain-RAT compromise](joyfill-npm-blockchain-rat-compromise.md)
 - [Astro config blockchain C2 PR injection](astro-config-blockchain-c2-pr-injection.md)
@@ -114,3 +131,7 @@ Durable: PolinRider now joins the blockchain-C2 campaign set (Joyfill, Astro con
 - Socket: [https://socket.dev/blog/polinrider-north-korea-linked-supply-chain-campaign-expands](https://socket.dev/blog/polinrider-north-korea-linked-supply-chain-campaign-expands)
 - Socket live campaign tracker: [https://socket.dev/supply-chain-attacks/polinrider](https://socket.dev/supply-chain-attacks/polinrider)
 - OX Security, "PolinRider Returns: Hijacked npm Packages Use Ethereum Blockchain to Conceal Malware Infrastructure" (Nov 4, 2026): <https://ox.security/blog/polinrider-returns-hijacked-npm-packages-use-ethereum-blockchain-to-conceal-malware-infrastructure>
+- Sonatype Research Labs, "PolinRider Loader Reappears in Hijacked npm Packages" (Nov 4, 2026, `sonatype-2026-010515`): <https://www.sonatype.com/blog/polinrider-loader-reappears-in-hijacked-npm-packages>
+- Sonatype Guide security event + research entry: <https://guide.sonatype.com/vulnerability/sonatype-2026-010515/sonatype-research>
+- GitGuardian, "GhostAction Crosses Paths With PolinRider" (Oct 27, 2026, wallet cross-link, per Sonatype's citation)
+- This wiki registry differential, Nov 11 2026 (~14:3x UTC): packuments, `time[]` blocks, tarball probes, `api.npmjs.org` downloads for `@adminide-stack/*`, `cdeops`, `server-hemera-mongo`, `@cdmbase/wiki-browser`, `@pubngo-stack/help-browser`

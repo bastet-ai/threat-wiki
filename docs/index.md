@@ -20,6 +20,8 @@ _Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-30 U
 <!-- /popular-this-week:auto -->
 
 ## Recent entries
+- [**The npm arm of an open-source AI cybersecurity team shipped a malicious release that ran 20 hours unadvised at 339 downloads on its release day: the advised rung is deleted from versions but still alive in the registry's time map**](ops/0sec-cli-npm-ai-security-cli-compromise-november-2026.md)
+- [**Sonatype's PolinRider "taken down" claim is a rung claim: all ten hijacked names still install and one carries 3,088 weekly downloads while its loader release survives in the registry's time map, and the OSV mirror is missing its November row entirely**](ops/polinrider-cross-ecosystem-supply-chain.md#november-11-246th-sonatype-differential)
 - [**Six Baileys forks keep installing at up to 1,551 downloads/week under day-old critical advisories: the advisory lane fires 1-3 hours after every merge, the seizure lane never comes**](ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md#november-11-245th-retraction)
 - [**Three Baileys-worm forks got critical advisories in one second and still install: the attacker shipped a new version three hours after its own advisory**](ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md#november-11-244th-catch)
 - [**Left-behind vendor integration roles let an attacker assume into customer AWS accounts with correct External IDs; the stolen keys were validated by TruffleHog and the intruder's boot ISO hard-reboots to erase itself at T+90 min**](ops/qubole-aws-cross-account-integration-role-abuse-trufflehog-validation-self-destruct-iso-november-2026.md)
@@ -28,8 +30,6 @@ _Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-30 U
 - [**OSV name-only queries return zero rows for advisories that exist: the ecosystem field decides whether you see them**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-11-two-hundred-and-forty-second-sweep)
 - [**Trojanized Baileys fork shipped a new version 20 minutes before its own advisory PR merged, still installs at 1,246 downloads/week**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-11-two-hundred-and-forty-first-sweep)
 - [**Reporter closed two Baileys advisory PRs to free GitHub open-PR quota, leaving names unadvised**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-11-two-hundred-and-fortieth-sweep)
-- [**dsh-plugin-todo-cli: fully-advised miner survived 25 sweeps for 16 days, then vanished whole-name**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-11-two-hundred-and-thirty-ninth-sweep)
-- [**258-name PhantomSub Baileys batch merged after 13 days: OSV mints at the merge tick**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-10-two-hundred-and-thirty-eighth-sweep)
 
 ## Sections
 - **Ops**, campaign timelines, compromise chains, and sequencing
