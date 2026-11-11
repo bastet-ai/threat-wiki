@@ -21,7 +21,7 @@ This wiki's verification within roughly two hours of the advisory:
 | Malicious publish | `2026-11-10T15:54:20.514Z` (registry `time[]`) |
 | GHSA | `GHSA-9j97-6pqr-qvrx`, critical, CWE-506, published + reviewed `2026-11-11T12:09:02Z` |
 | OSV | `MAL-2026-19118`, alias at birth, import `12:23:59Z`, modified `12:30:04Z` |
-| Registry state (this wiki, `≈14:35Z`) | `0.28.10` excised from `versions[]`, survives in `time[]`; tarball `404` ×3 lanes; `latest 0.28.9` tarball `200`; packument `modified 2026-11-11T12:08:46Z` |
+| Registry state (this wiki, `≈14:35Z`; SUPERSEDED `≈16:3xZ`, see 247th section) | `0.28.10` excised from `versions[]`, survives in `time[]`; tarball `404` ×3 lanes; `latest 0.28.9` tarball `200` at this read (later swept, see below); packument `modified 2026-11-11T12:08:46Z` |
 | Downloads | `2,462` dl/wk (Nov-4→10); `339` on Nov-10 |
 | Publisher | `peaktwilight` (`doruk@0.security`), created `2026-08-30`, 23 rungs total |
 
@@ -31,6 +31,14 @@ This wiki's verification within roughly two hours of the advisory:
 2. **The publish cadence is itself a tell.** `0.28.6`–`0.28.9` shipped inside ~3 hours on Nov-9 (`19:43`–`22:48Z`), then a 17-hour gap, then `0.28.10` alone at `15:54Z` Nov-10 — the advised rung is separated from the burst. On any freshly advised name, diff `time[]` spacing around the advised rung before assuming a normal release rhythm.
 3. **The advisories-before-removal window ran ~20 hours.** The rung lived a full day+ unadvised (published `Nov-10 15:54Z`, advised `Nov-11 12:09Z`). Whatever the payload did, the flow ran during the unadvised day, not the advised one — the advisory lane's job here was only to trigger the excision.
 4. **No analyst writeup at capture.** The only `0sec-cli` reporting at capture time was the bot advisory and its mirrors (Corgea, GCVE aggregators). Treat payload claims as UNVERIFIED until a vendor or maintainer post lands; the maintainer had not commented publicly at read time. **MONITOR:** `0sec-labs/0` repo activity, `SECURITY.md` disclosure, vendor posts (Socket/OX/StepSecurity), whether `0.28.10` resurfaces on any CDN afterimage, whether the name re-publishes past `0.28.9`, and whether the bare rung returns to `time[]`-listed `versions[]` (rollback-not-deletion variant).
+
+## <a id="november-11-247th-second-excision"></a>November 11 247th sweep: the CLEAN rung fell too, `0.28.9` excised with no advisory
+
+**Re-read `≈16:3xZ` (247th sweep):** `dist-tags.latest` now reads `0.28.8` (tarball `200`). `0.28.9` — the rung the 246th recorded as the clean, installable `latest` at `≈14:35Z` — is GONE from `versions[]`, its tarball `404`, its publish stamp (`2026-11-09T22:48:41.026Z`) surviving only in `time[]`. No advisory was ever published against `0.28.9`: `GHSA-9j97-6pqr-qvrx` names `= 0.28.10` and nothing else.
+
+**What moved:** the excision lane swept the packument past the advisory range within `≈2 h` of the first removal. The 246th's "the name still installs at `0.28.9`" was a true fact with a half-life under two hours. On an advised name, `dist-tags.latest` is a per-read claim, never a carried one.
+
+**Disposition unchanged:** name still serves, `0.28.8` installs, payload still UNVERIFIED at this read (no maintainer or vendor post has landed). **MONITOR update:** does the excision keep walking `time[]` backward (`0.28.8`, `0.28.7` next?), which would mean the sweep is time-range-based rather than advisory-based.
 
 ## Durable hunt shapes
 
