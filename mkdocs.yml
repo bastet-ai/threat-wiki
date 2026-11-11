@@ -750,8 +750,9 @@ theme:
   name: material
   custom_dir: overrides
   features:
-    - navigation.sections
-    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
     - content.code.copy
 hooks:
   - hooks/tag_index.py
@@ -761,3 +762,5 @@ markdown_extensions:
   - pymdownx.superfences
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - stylesheets/desktop.js
