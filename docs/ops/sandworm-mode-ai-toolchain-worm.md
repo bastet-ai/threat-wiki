@@ -65,7 +65,7 @@ Socket named the activity from `SANDWORM_*` environment-variable switches embedd
 - In AI coding environments, do not let newly discovered MCP tool descriptions override user intent or request secrets; treat tool descriptions as untrusted input.
 
 ## Relationship to Mini Shai-Hulud
-SANDWORM_MODE is best tracked as an adjacent Shai-Hulud-style operation rather than merged into the May 2026 Mini Shai-Hulud campaign. It shares core motifs—credential theft, CI abuse, worm-like propagation, GitHub exfiltration, and destructive controls—but adds typosquat-first delivery, MCP prompt-injection, LLM-key harvesting, and global git-hook persistence that deserve their own detection checklist.
+SANDWORM_MODE is best tracked as an adjacent Shai-Hulud-style operation rather than merged into the May 2026 Mini Shai-Hulud campaign. It shares core motifs,credential theft, CI abuse, worm-like propagation, GitHub exfiltration, and destructive controls,but adds typosquat-first delivery, MCP prompt-injection, LLM-key harvesting, and global git-hook persistence that deserve their own detection checklist.
 
 ## Related pages
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)

@@ -21,7 +21,7 @@ Seqrite assesses the activity with **medium-to-high confidence** as linked to a 
 
 ## Why this matters
 - The lure copies a real high-trust government workflow: the Indian Income Tax Department offline utility for ITR-1 to ITR-4 during AY2026-27 filing season.
-- Seqrite says the campaign was first observed on May 18, 2026 and remained active as of June 17, with payload rotation every 7–10 days and a latest observed variant showing 0/66 VirusTotal detection.
+- Seqrite says the campaign was first observed on May 18, 2026 and remained active as of June 17, with payload rotation every 7-10 days and a latest observed variant showing 0/66 VirusTotal detection.
 - The chain combines credible bilingual legal/tax language, real tax-act citations, fake government memoranda, staged image-container payload delivery, Windows service persistence, process injection into `svchost.exe`, AMSI patching, in-memory .NET loading, TLS-encrypted C2, screenshot / desktop capture capability, and MessagePack host registration.
 - The targeting scope is broader than a single ministry intrusion: taxpayers, tax practitioners, and finance teams create a large social-engineering surface with downstream financial and sensitive-document exposure.
 

@@ -50,18 +50,18 @@ The durable defender lesson is that GigaWiper is not a single wiper binary. Micr
 
 ## Indicators
 ### Network
-- `185.182.193[.]21` — GigaWiper C2
-- `212.8.248[.]104` — GigaWiper C2
+- `185.182.193[.]21`, GigaWiper C2
+- `212.8.248[.]104`, GigaWiper C2
 
 ### Hashes reported by Microsoft
-- `633d4cbd496b1094495da89a64f5e6c31a0f6d4d1488411db5b0cba1cfe42001` — GigaWiper backdoor
-- `ce9ad5f6c12019f4aae5b189bd8ddf5bb09e75b06a0a587b25a855c65948c913` — GigaWiper backdoor
-- `f622ed85ef31ad4ab973f4e74524866fe1bb44f0965ad2b2ad796cd657a05bfd` — GigaWiper backdoor
-- `9706a192e2c1a1faaf0a521daf31c2af60ff4590e3f47bbb4abc227f42af0683` — GigaWiper backdoor
-- `3c30deb6556a94cfb84ae51798f4aecfae8c7358e55fdb321c5f2376579631cd` — GigaWiper standalone wiper
-- `440b5385d3838e3f6bc21220caa83b65cd5f3618daea676f271c3671650ce9a3` — Crucio
-- `12c39f052f030a77c0cd531df86ad3477f46d1287b8b98b625d1dcf89385d721` — FlockWiper
-- `db41e0da7ab3305be8d9720769c6950b4dc1c1984ef857d3310eb873a0fc7674` — FlockWiper
+- `633d4cbd496b1094495da89a64f5e6c31a0f6d4d1488411db5b0cba1cfe42001`, GigaWiper backdoor
+- `ce9ad5f6c12019f4aae5b189bd8ddf5bb09e75b06a0a587b25a855c65948c913`, GigaWiper backdoor
+- `f622ed85ef31ad4ab973f4e74524866fe1bb44f0965ad2b2ad796cd657a05bfd`, GigaWiper backdoor
+- `9706a192e2c1a1faaf0a521daf31c2af60ff4590e3f47bbb4abc227f42af0683`, GigaWiper backdoor
+- `3c30deb6556a94cfb84ae51798f4aecfae8c7358e55fdb321c5f2376579631cd`, GigaWiper standalone wiper
+- `440b5385d3838e3f6bc21220caa83b65cd5f3618daea676f271c3671650ce9a3`, Crucio
+- `12c39f052f030a77c0cd531df86ad3477f46d1287b8b98b625d1dcf89385d721`, FlockWiper
+- `db41e0da7ab3305be8d9720769c6950b4dc1c1984ef857d3310eb873a0fc7674`, FlockWiper
 
 ### Host artifacts
 - Registry key: `HKCU\SOFTWARE\OneDrive\Environment`

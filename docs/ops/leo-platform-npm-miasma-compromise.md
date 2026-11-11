@@ -61,7 +61,7 @@ Socket later added three additional malicious npm package versions published by 
 | `hexo-shoka-swiper` | `0.1.10` |
 | `prism-silq` | `1.0.1` |
 
-Sonatype independently reported the same three `llxlr` packages as additional payload-bearing packages and assigned the campaign advisory `Sonatype-2026-004261`. It also cautioned that three prerelease or release-candidate Leo connector packages included in some early lists — `leo-connector-common@4.0.11-rc`, `leo-connector-postgres@4.0.19-beta`, and `leo-connector-entity-table@3.0.22-rc` — should still be reviewed as surrounding incident activity but did not appear, in Sonatype's current analysis, to carry the confirmed Miasma payload.
+Sonatype independently reported the same three `llxlr` packages as additional payload-bearing packages and assigned the campaign advisory `Sonatype-2026-004261`. It also cautioned that three prerelease or release-candidate Leo connector packages included in some early lists, `leo-connector-common@4.0.11-rc`, `leo-connector-postgres@4.0.19-beta`, and `leo-connector-entity-table@3.0.22-rc`, should still be reviewed as surrounding incident activity but did not appear, in Sonatype's current analysis, to carry the confirmed Miasma payload.
 
 ## Reported payload behavior
 - Install-time execution through a `binding.gyp` native-build expansion: `<!(node index.js > /dev/null 2>&1 && echo stub.c)>`.

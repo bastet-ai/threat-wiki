@@ -1,7 +1,7 @@
 # Mirage Kitten NodeRabbit / PollCat coding-challenge campaign
 
 ## Summary
-Kaspersky GReAT disclosed on **September 1, 2026** a new **Mirage Kitten** operation using two previously undocumented, cross-platform implants — **NodeRabbit** (Node.js) and **PollCat** (JavaScript) — the group's first publicly documented Node.js/JavaScript-based malware, a departure from its usual native DLL-search-order-hijacking payloads. Both are delivered through **trojanized "coding challenge" archives** hosted on **Amazon S3** and reached via recruiter-themed outreach on LinkedIn and similar platforms, targeting **aviation and FinTech** organizations across the **Middle East and Africa** (Egypt, Ethiopia, Afghanistan observed; ZIP submissions also from India, Türkiye, Israel, Iraq, Germany, Ireland).
+Kaspersky GReAT disclosed on **September 1, 2026** a new **Mirage Kitten** operation using two previously undocumented, cross-platform implants, **NodeRabbit** (Node.js) and **PollCat** (JavaScript), the group's first publicly documented Node.js/JavaScript-based malware, a departure from its usual native DLL-search-order-hijacking payloads. Both are delivered through **trojanized "coding challenge" archives** hosted on **Amazon S3** and reached via recruiter-themed outreach on LinkedIn and similar platforms, targeting **aviation and FinTech** organizations across the **Middle East and Africa** (Egypt, Ethiopia, Afghanistan observed; ZIP submissions also from India, Türkiye, Israel, Iraq, Germany, Ireland).
 
 The durable signal: a recruiter posing as a hiring manager pressures a developer to clone and run a "technical assessment" project whose one altered file silently launches a cross-platform RAT that persists through developer-workflow mechanisms (fake VS Code extensions, Git hook injection, per-OS scheduled tasks/cron/LaunchAgents).
 
@@ -41,7 +41,7 @@ The durable signal: a recruiter posing as a hiring manager pressures a developer
 
 ## Why this matters
 - **New implant language.** NodeRabbit and PollCat are Mirage Kitten's first Node.js/JavaScript implants, replacing the native DLL-search-order-hijacking malware the group is known for. A single cross-platform codebase now covers Windows, Linux, macOS, and WSL, blending naturally into developer workstations.
-- **Delivery is social, not exploit-based.** Initial access is recruiter-themed social engineering — a "technical assessment" a candidate is asked to run — consistent with the group's historical fake-recruiting tradecraft. The lure is a time-limited coding challenge with an OTP gate that accelerates execution.
+- **Delivery is social, not exploit-based.** Initial access is recruiter-themed social engineering, a "technical assessment" a candidate is asked to run, consistent with the group's historical fake-recruiting tradecraft. The lure is a time-limited coding challenge with an OTP gate that accelerates execution.
 - **Persistence rides developer workflows.** Variant 3 of NodeRabbit and PollCat persist through mechanisms a defender may not associate with malware: a fake "GitHub Copilot Helper" VS Code extension, `# shepherd-persist` lines injected into `.git/hooks/post-merge` / `post-checkout`, and per-OS scheduled tasks / `@reboot` cron / LaunchAgents.
 - **C2 blends into enterprise traffic.** Both use Azure Websites subdomains (often incorporating the target organization's name) plus Cloudflare-backed domains, making outbound traffic resemble normal business traffic from an employee machine. PollCat's HTTP-400-as-success handshake matches the historical Retrograde/MiniFast flow.
 
@@ -74,7 +74,7 @@ Kaspersky attributes this to **Mirage Kitten** with high confidence on:
 - Victimology (Africa + Middle East, aviation/FinTech focus) and infrastructure (Azure Websites + Cloudflare; S3 lure hosting, a shift from the group's prior onlyoffice.com lure hosting).
 
 ## Victimology
-- Confirmed victims: **fintech** and **aviation/aerospace** organizations in the **Middle East and Africa** — specifically **Egypt, Ethiopia, and Afghanistan**.
+- Confirmed victims: **fintech** and **aviation/aerospace** organizations in the **Middle East and Africa**, specifically **Egypt, Ethiopia, and Afghanistan**.
 - ZIP archives containing NodeRabbit/PollCat were also submitted to an online multi-scanner from **India, Türkiye, Israel, Iraq, Germany, and Ireland**.
 - This is observed scope, not a complete victim list.
 

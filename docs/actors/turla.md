@@ -43,11 +43,11 @@ ESET's June 2026 Gamaredon retrospective reports an early-2025 **Gamaredon / Tur
 - ESET reports early-2025 collaboration between Gamaredon and Turla in Ukraine-focused activity; during triage, preserve evidence that could show handoff, co-resident tooling, or shared infrastructure rather than assuming all artifacts belong to one cluster.
 
 ## Tooling and tradecraft
-- **Snake** — long-running Turla implant publicly attributed by CISA to FSB Center 16.
-- **KAZUAR** — Turla toolkit with code / functional overlap to STOCKSTAY; GTIG observed KAZUAR C2 detections near a STOCKSTAY deployment in a Ukrainian incident.
-- **STOCKSTAY** — multi-component .NET Windows backdoor with encrypted WebSocket C2, `WM_COPYDATA` component IPC, environment-keyed or hard-coded protected configuration, screen/file/registry/process capabilities, and downloader/installer support.
-- **K1MORPHER** — GTIG-tracked obfuscation mechanism observed in STOCKSTAY components and select KAZUAR samples, increasing confidence in a shared development ecosystem.
-- **Operational deployment** — malicious GPO installation from domain controllers, RDP-file spear phishing, malicious HTA / archive lures, compromised Ukrainian infrastructure for payload hosting, and registry-run persistence.
+- **Snake**, long-running Turla implant publicly attributed by CISA to FSB Center 16.
+- **KAZUAR**, Turla toolkit with code / functional overlap to STOCKSTAY; GTIG observed KAZUAR C2 detections near a STOCKSTAY deployment in a Ukrainian incident.
+- **STOCKSTAY**, multi-component .NET Windows backdoor with encrypted WebSocket C2, `WM_COPYDATA` component IPC, environment-keyed or hard-coded protected configuration, screen/file/registry/process capabilities, and downloader/installer support.
+- **K1MORPHER**, GTIG-tracked obfuscation mechanism observed in STOCKSTAY components and select KAZUAR samples, increasing confidence in a shared development ecosystem.
+- **Operational deployment**, malicious GPO installation from domain controllers, RDP-file spear phishing, malicious HTA / archive lures, compromised Ukrainian infrastructure for payload hosting, and registry-run persistence.
 
 ## Defender heuristics
 - In Ukrainian, diplomatic, defense, and foreign-policy environments, treat KAZUAR, STOCKSTAY, WILDDAY, or DIAMONDBACK indicators as potentially related intrusion stages rather than isolated detections.

@@ -22,8 +22,8 @@ The loader has exact PolinRider-family fingerprints, while the recovered RAT and
 - remote access trojan
 
 ## Affected releases
-- `@joyfill/layouts@0.1.2-2773.beta.0`, `0.1.2-2773.beta.1`, and `0.1.2-2773.beta.2` — StepSecurity found the injected block prepended to `dist/index.cjs.js` and `dist/index.es.js`; Socket recorded beta.0 as published at `2026-07-28T10:54:57.311Z` and confirmed its CommonJS entrypoint executes the implant when imported.
-- `@joyfill/components@4.0.0-rc24-2773-beta.4`, `4.0.0-rc24-2773-beta.5`, and `4.0.0-rc24-2773-beta.6` — StepSecurity found the injected block appended to `dist/index.js`, `dist/index.esm.js`, and `dist/joyfill.min.js`; Socket recorded beta.4 as published at `2026-07-28T11:03:59.568Z` but found that its bundled dynamic-`require` shim prevents normal dependency resolution through the analyzed path.
+- `@joyfill/layouts@0.1.2-2773.beta.0`, `0.1.2-2773.beta.1`, and `0.1.2-2773.beta.2`, StepSecurity found the injected block prepended to `dist/index.cjs.js` and `dist/index.es.js`; Socket recorded beta.0 as published at `2026-07-28T10:54:57.311Z` and confirmed its CommonJS entrypoint executes the implant when imported.
+- `@joyfill/components@4.0.0-rc24-2773-beta.4`, `4.0.0-rc24-2773-beta.5`, and `4.0.0-rc24-2773-beta.6`, StepSecurity found the injected block appended to `dist/index.js`, `dist/index.esm.js`, and `dist/joyfill.min.js`; Socket recorded beta.4 as published at `2026-07-28T11:03:59.568Z` but found that its bundled dynamic-`require` shim prevents normal dependency resolution through the analyzed path.
 
 Socket found the preceding `@joyfill/layouts@0.1.1` and `@joyfill/components@4.0.0-rc24` releases clean and did not find the signature in other public `@joyfill` packages it checked. The shared `2773` prerelease marker, publisher identity, and bundle source maps show that the implant was present at build time, but public evidence does not yet distinguish developer-workstation, repository, CI, or publishing-credential initial access.
 

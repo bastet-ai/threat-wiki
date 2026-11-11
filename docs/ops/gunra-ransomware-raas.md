@@ -34,8 +34,8 @@ Gunra appears based on or strongly influenced by the leaked Conti source code. T
 ### Initial access
 The FBI observed exploitation of public-facing firewall and VPN appliances, including:
 
-- `CVE-2024-55591` — FortiOS and FortiProxy authentication bypass;
-- `CVE-2025-24472` — FortiOS and FortiProxy authentication bypass;
+- `CVE-2024-55591`, FortiOS and FortiProxy authentication bypass;
+- `CVE-2025-24472`, FortiOS and FortiProxy authentication bypass;
 - creation of the privileged `forticloud-sync` account through vulnerable Fortinet scheduled-task functionality;
 - credential-exposure and SSH access-control weaknesses in internet-facing VPN gateways;
 - default credentials on an SSL-VPN administrator account where account lockout was absent.
@@ -80,18 +80,18 @@ The actors have demanded amounts above tens of millions of U.S. dollars, but ope
 ## High-confidence indicators
 
 ### Files
-- `2dc70a12d158d437e45a55b1d52f3d61c6082a1e1667573302ba3b62813e2751` — SHA-256, `main.exe`, OneDrive and SharePoint exfiltration
-- `834efe9b392c6c000877ea5613a079445affc16fe8af5997d68c55cafc95e5d1` — SHA-256, `main.exe`, OneDrive and SharePoint exfiltration
-- `91f8fc7a3290611e28a35a403fd815554d9d856006cc2ee91ccdb64057ae53b0` — SHA-256, `cryptor.exe`
-- `a82e496b7b5279cb6b93393ec167dd3f50aff1557366784b25f9e51cb23689d9` — SHA-256, `msmp.exe`
-- `R3ADM3.txt` — ransom note
-- `.ENCRT`, `.CRYPT` — encrypted-file suffixes
+- `2dc70a12d158d437e45a55b1d52f3d61c6082a1e1667573302ba3b62813e2751`, SHA-256, `main.exe`, OneDrive and SharePoint exfiltration
+- `834efe9b392c6c000877ea5613a079445affc16fe8af5997d68c55cafc95e5d1`, SHA-256, `main.exe`, OneDrive and SharePoint exfiltration
+- `91f8fc7a3290611e28a35a403fd815554d9d856006cc2ee91ccdb64057ae53b0`, SHA-256, `cryptor.exe`
+- `a82e496b7b5279cb6b93393ec167dd3f50aff1557366784b25f9e51cb23689d9`, SHA-256, `msmp.exe`
+- `R3ADM3.txt`, ransom note
+- `.ENCRT`, `.CRYPT`, encrypted-file suffixes
 
 ### Infrastructure and account artifacts
-- `datapub[.]news` — historical clearnet leak-site mirror, observed June–July 2025
-- `23.239.119[.]2` through `23.239.119[.]6` — historical infrastructure, observed July–November 2025
-- `91.201.66[.]146` — historical infrastructure, observed November–December 2025
-- `forticloud-sync` — malicious privileged Fortinet account associated with exploitation of the two listed CVEs
+- `datapub[.]news`, historical clearnet leak-site mirror, observed June-July 2025
+- `23.239.119[.]2` through `23.239.119[.]6`, historical infrastructure, observed July-November 2025
+- `91.201.66[.]146`, historical infrastructure, observed November-December 2025
+- `forticloud-sync`, malicious privileged Fortinet account associated with exploitation of the two listed CVEs
 
 CISA's advisory and STIX bundles contain the complete historical IP, onion-service, email, qTox, and file-indicator set. Vet historical infrastructure before blocking and avoid treating an isolated dual-use tool as malicious.
 

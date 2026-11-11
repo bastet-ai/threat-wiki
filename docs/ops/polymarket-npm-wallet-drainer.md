@@ -27,7 +27,7 @@ The packages wrapped real-looking Polymarket trading functionality and a credibl
 - The campaign targets the point where crypto trading automation, developer package installs, and AI-assisted coding workflows meet: users expect to paste keys into local tools and may trust package names suggested by search or an LLM.
 - The interactive prompt is social engineering, not an exploit, but it is packaged in an npm lifecycle hook that fires during normal installation.
 - The `.env` fallback is more dangerous for developers: projects that already store `PRIVATE_KEY=0x...` for bots or scripts can lose wallet keys without any visible prompt.
-- The attacker built a credibility apparatus — functional trading commands, a GitHub repo, stars/forks, SECURITY and CONTRIBUTING files, masked input, and reassuring encryption claims — to make key collection look like onboarding.
+- The attacker built a credibility apparatus, functional trading commands, a GitHub repo, stars/forks, SECURITY and CONTRIBUTING files, masked input, and reassuring encryption claims, to make key collection look like onboarding.
 - CI and automated scanners may miss the user-facing theft path because the prompt only appears when both stdin and stdout are interactive TTYs.
 
 ## Reported package set

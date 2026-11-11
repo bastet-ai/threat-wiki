@@ -48,10 +48,10 @@ Talos assesses UAT-7810 as likely tasked with building ORB infrastructure later 
 ## Reported infrastructure and pivots
 Talos' primary report adds concrete infrastructure defenders can pivot on when hunting router, wireless-controller, and embedded-Linux compromise:
 
-- `194.233.92[.]26` — UAT-7810 payload-hosting / download infrastructure.
-- `217.15.160[.]247` — UAT-7810 payload-hosting / download infrastructure.
-- `217.15.164[.]147` — UAT-7810 payload-hosting / download infrastructure; Talos also links it to ASUS AiCloud router exploitation activity in early 2026.
-- `95.182.100[.]231` — fourth payload-hosting address found through forensic analysis of compromised networking devices.
+- `194.233.92[.]26`, UAT-7810 payload-hosting / download infrastructure.
+- `217.15.160[.]247`, UAT-7810 payload-hosting / download infrastructure.
+- `217.15.164[.]147`, UAT-7810 payload-hosting / download infrastructure; Talos also links it to ASUS AiCloud router exploitation activity in early 2026.
+- `95.182.100[.]231`, fourth payload-hosting address found through forensic analysis of compromised networking devices.
 - TLS on port `99` was observed on `194.233.92[.]26` and `217.15.164[.]147` with certificate SHA-256 fingerprint `c2ab9adaba93ff094b8f3fc37d906014d870582039d276b7bd03e6fd583d8a15` and subject fields set to `exploit`.
 
 ## Exploited / targeted device exposure

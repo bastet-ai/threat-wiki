@@ -52,9 +52,9 @@ It supports:
 - Telegram access alone is not malicious; process ancestry, path, task, and side-loading context are essential.
 
 ## Public SHA-256 indicators
-- `5c2fe953da53da66fbcbb3be0fd6b63907c10714c337f287b2fc258857bbff6d` — July 2026 `AsTaskSched.dll`.
-- `cac1f37beaa814461f7709a073aeec468c74e5d70f7d693a9e367ece4a3a78be` — older `AsTaskSched.dll`.
-- `0637069c7052118fd5c0f1113541bdd35e5f71cd9689f2516045da152c6fa8d9` — older `dlpprem64.dll`.
+- `5c2fe953da53da66fbcbb3be0fd6b63907c10714c337f287b2fc258857bbff6d`, July 2026 `AsTaskSched.dll`.
+- `cac1f37beaa814461f7709a073aeec468c74e5d70f7d693a9e367ece4a3a78be`, older `AsTaskSched.dll`.
+- `0637069c7052118fd5c0f1113541bdd35e5f71cd9689f2516045da152c6fa8d9`, older `dlpprem64.dll`.
 
 ## Related pages
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
@@ -62,4 +62,4 @@ It supports:
 - [BINDCLOAK](bindcloak.md)
 
 ## Sources
-- Zscaler ThreatLabz: [Targeted Attack on Government Entities in the Middle East — Part 1](https://www.zscaler.com/blogs/security-research/targeted-attack-government-entities-middle-east-part-1)
+- Zscaler ThreatLabz: [Targeted Attack on Government Entities in the Middle East, Part 1](https://www.zscaler.com/blogs/security-research/targeted-attack-government-entities-middle-east-part-1)

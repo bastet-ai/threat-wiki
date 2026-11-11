@@ -43,13 +43,13 @@ Lumen assesses that Showboat was used by at least one, and likely several, PRC-a
 ## Infrastructure notes
 Lumen's public report identifies a primary cluster around `telecom[.]webredirect[.]org` resolving to `139.84.227[.]139`, with X.509 certificate metadata (`My Organization`) used as a clustering pivot. The same investigation linked additional C2 nodes and telecom-themed impersonation domains, including:
 
-- `139.84.227[.]139` — original C2 associated with `telecom.webredirect[.]org`.
-- `194.135.25[.]132` — second C2 reached through a matching certificate pivot and observed with an Afghanistan ISP Outlook server victim from December 2025 into February 2026.
-- `23.27.201[.]160` / `singtelcom[.]site` — telecom-themed impersonation infrastructure.
-- `101.36.105[.]222` / `kaztelecom[.]shop` — telecom-themed impersonation infrastructure.
-- `116.169.244[.]208:2096` — China Unicom / Chengdu-adjacent node that Lumen treats as possible upstream or developer-test infrastructure.
-- `192.9.141[.]111` — secondary-cluster C2 associated with two possible U.S. compromises over port `9999`.
-- `64.176.43[.]209` — secondary-cluster C2 associated with possible Ukrainian-region victim traffic.
+- `139.84.227[.]139`, original C2 associated with `telecom.webredirect[.]org`.
+- `194.135.25[.]132`, second C2 reached through a matching certificate pivot and observed with an Afghanistan ISP Outlook server victim from December 2025 into February 2026.
+- `23.27.201[.]160` / `singtelcom[.]site`, telecom-themed impersonation infrastructure.
+- `101.36.105[.]222` / `kaztelecom[.]shop`, telecom-themed impersonation infrastructure.
+- `116.169.244[.]208:2096`, China Unicom / Chengdu-adjacent node that Lumen treats as possible upstream or developer-test infrastructure.
+- `192.9.141[.]111`, secondary-cluster C2 associated with two possible U.S. compromises over port `9999`.
+- `64.176.43[.]209`, secondary-cluster C2 associated with possible Ukrainian-region victim traffic.
 
 Certificate pivots called out by Lumen include SHA-256 prefixes / fingerprints such as `27df475626aafce2ea1548a9f35efb9ad951298c8b11a6adb3ccdfcd5170c677`, `A72427af3c046fd90999a6505b2372dc4ffde122227f30ed21621ecd4f2d3e8b`, `E28a96f983b8605decd2ac1db16ebad5fa741a6aa4e585a38ade0e5ad7d6cec0`, and a secondary-cluster fingerprint `2229e7f3cabbce4d67cd79c89fd5a100b20e8a99f4a2bf9aac77a978f49eb520`.
 

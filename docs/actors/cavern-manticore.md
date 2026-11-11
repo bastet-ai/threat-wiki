@@ -64,4 +64,4 @@ Keep attribution caveated at the public-cluster level: CPR links the activity to
 ## Sources
 - Check Point Research: [https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/](https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/)
 - The Hacker News: [https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html](https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html)
-- Kaspersky GReAT: [Project CAV3RN continues: Google Apps Script as C2 relay and DNS-based C2 channel selection](https://securelist.com/project-cav3rn-continues/120991/) — August 11, 2026
+- Kaspersky GReAT: [Project CAV3RN continues: Google Apps Script as C2 relay and DNS-based C2 channel selection](https://securelist.com/project-cav3rn-continues/120991/), August 11, 2026

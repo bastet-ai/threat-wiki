@@ -3,7 +3,7 @@
 ## Summary
 Socket's Threat Research Team confirmed that **13 malicious Composer theme packages across five Packagist vendor namespaces** inject JavaScript into every page of the Vietnamese movie/comic streaming sites that install them. The injected code runs two operations against a site's visitors: a **mobile ad-fraud and gambling-redirect chain**, and, on iPhones, a **WebKit-to-kernel exploit chain that installs spyware**. Socket reported the iOS chain to Apple and coordinated disclosure; Apple confirmed the kernel escape was already fixed in iOS and macOS 26.1 before the report, and the two WebKit entry points are public and listed in CISA's Known Exploited Vulnerabilities catalog.
 
-This expands Socket's earlier March 2026 coverage of six themes under a single vendor (`ophimcms`) to **13 packages across five vendors**, and follows the chain through to the iOS payload and its most recent redeployment. The campaign sits on the same **FUNNULL** infrastructure that QiAnXin XLab documented for the RingH23 / MacCMS supply-chain activity — Socket notes the theme loader pulls its second stage from FUNNULL-hosted infrastructure.
+This expands Socket's earlier March 2026 coverage of six themes under a single vendor (`ophimcms`) to **13 packages across five vendors**, and follows the chain through to the iOS payload and its most recent redeployment. The campaign sits on the same **FUNNULL** infrastructure that QiAnXin XLab documented for the RingH23 / MacCMS supply-chain activity, Socket notes the theme loader pulls its second stage from FUNNULL-hosted infrastructure.
 
 The 13 packages:
 - `vsmov`: `theme-dy`, `theme-rrdyw`, `theme-motchill`, `theme-vsmov`
@@ -12,7 +12,7 @@ The 13 packages:
 - `chilltvcms`: `theme-legend`
 - `ophimcms`: `theme-dy`, `theme-motchill`, `theme-pcc`, `theme-rrdyw`
 
-OphimCMS and KKPhim are open-source PHP content-management systems (Laravel-based) used to run Vietnamese-language movie and comic streaming sites. A site operator installs a core package plus a theme with `composer require`. The threat actors fork these projects under their own vendor namespaces, keep the scaffolding intact, and trojanize the shipped front-end assets — a site operator who installs one of these themes serves malicious JavaScript to every visitor. The upstream author handle remains inside the forks, so these are hostile republishes.
+OphimCMS and KKPhim are open-source PHP content-management systems (Laravel-based) used to run Vietnamese-language movie and comic streaming sites. A site operator installs a core package plus a theme with `composer require`. The threat actors fork these projects under their own vendor namespaces, keep the scaffolding intact, and trojanize the shipped front-end assets, a site operator who installs one of these themes serves malicious JavaScript to every visitor. The upstream author handle remains inside the forks, so these are hostile republishes.
 
 ## Tags
 - ops
@@ -40,7 +40,7 @@ OphimCMS and KKPhim are open-source PHP content-management systems (Laravel-base
 - Vietnamese CMS
 
 ## Why this matters
-- **A supply-chain theme becomes a client-side exploit host.** The malicious code ships in the theme's shipped JavaScript and is gated on platform and referrer so mobile visitors (not desktops, bots, or direct visits) are targeted — the CMS itself is not the target, but the theme is the delivery vehicle.
+- **A supply-chain theme becomes a client-side exploit host.** The malicious code ships in the theme's shipped JavaScript and is gated on platform and referrer so mobile visitors (not desktops, bots, or direct visits) are targeted, the CMS itself is not the target, but the theme is the delivery vehicle.
 - **Two distinct payloads ride one injection.** A mobile gambling/ad-fraud redirect (monetization) and, on iPhones, a full WebKit-to-kernel exploit chain ending in spyware and crypto-wallet seed theft. The spyware branch is the higher-severity outcome.
 - **The iOS chain is an n-day used against unpatched devices.** Apple confirmed the kernel escape was already fixed in iOS and macOS 26.1; the two WebKit entry points (CVE-2025-31277, CVE-2025-43529) are public, patched, and on CISA KEV. The exploit only targets devices that have not updated past iOS 18.6.x.
 - **The campaign has been active for months with repeated redeployment.** The initial FUNNULL campaign was reported March 2026 (six `ophimcms` themes); the iOS payload was redeployed on 2026-08-12 under fresh filenames, and the second-stage loader rotated again on 2026-08-17.
@@ -52,28 +52,28 @@ OphimCMS and KKPhim are open-source PHP content-management systems (Laravel-base
 - **Branch two: the iOS WebKit-to-kernel chain.** `theme-dy` appends a loader after the shipped jQuery. The loader uses a custom base64 decoder (avoiding the native `atob`) and fires on non-desktop platforms arriving with an external referrer. It pulls a second stage from FUNNULL infrastructure; the base64 argument decodes to `union[.]macoms[.]la/jquery.min-3.6.8.js`. That injects `cdn[.]data-2920[.]com/app.vue.js`, which redirects to `www[.]cloudfareintcdn[.]com/in-static.js` (a Cloudflare-impersonating domain). That injects a hidden iframe to `start-view.html`, which reads the iOS version and loads a version-specific WebKit exploit.
 - **Renderer stage.** Weaponizes two WebKit vulnerabilities: **CVE-2025-31277** (iOS 18.4 to 18.5) and **CVE-2025-43529** (iOS 18.6 and later). Both are public, patched, and on CISA KEV; Apple has acknowledged CVE-2025-43529 was exploited in a targeted attack. The chain carries per-build, per-chipset offset tables for iOS 18.4 through 18.6.x and iPhone XS through the iPhone 16 family. The exploit builds arbitrary read and write inside the WebContent renderer using JavaScriptCore corruption primitives (object-address disclosure, fake objects, a corrupted typed array). The renderer stage reads the iPhone OS version from the user agent and fetches a payload matched to it. The renderer CVEs and staging pattern overlap with the publicly documented **DarkSword** iOS exploit kit.
 - **GPU process pivot.** A first escape stage moves from the renderer into the GPU process, building a cross-process memory primitive with IOSurface and mach messaging and forging pointer-authentication signed pointers.
-- **Kernel escape.** A second stage reaches the kernel through the **AppleM2ScalerCSCDriver** IOKit user client, opened from a sandboxed context by pivoting through a `mediaplaybackd` XPC service. The code opens the driver (IOServiceOpen type 0) and calls external method selector 1 (the "transform") with a 432-byte input struct carrying two IOSurface IDs. The same driver/interface is publicly disclosed as **CVE-2026-43655** (an AppleM2ScalerCSCDriver use-after-free fixed in iOS 26.5), but the FUNNULL chain's kernel bug is a **distinct primitive**: the public CVE-2026-43655 PoC is a connection-teardown use-after-free on the scaler's shared scheduler objects, whereas the FUNNULL chain races the IOSurface backing store to obtain a kernel read and write. Apple Product Security confirmed to Socket that this kernel escape was already addressed in iOS and macOS 26.1 — so this stage is an n-day used against devices that have not updated.
+- **Kernel escape.** A second stage reaches the kernel through the **AppleM2ScalerCSCDriver** IOKit user client, opened from a sandboxed context by pivoting through a `mediaplaybackd` XPC service. The code opens the driver (IOServiceOpen type 0) and calls external method selector 1 (the "transform") with a 432-byte input struct carrying two IOSurface IDs. The same driver/interface is publicly disclosed as **CVE-2026-43655** (an AppleM2ScalerCSCDriver use-after-free fixed in iOS 26.5), but the FUNNULL chain's kernel bug is a **distinct primitive**: the public CVE-2026-43655 PoC is a connection-teardown use-after-free on the scaler's shared scheduler objects, whereas the FUNNULL chain races the IOSurface backing store to obtain a kernel read and write. Apple Product Security confirmed to Socket that this kernel escape was already addressed in iOS and macOS 26.1, so this stage is an n-day used against devices that have not updated.
 - **Spyware payload.** On success, the final payload uses the kernel read to collect keychain databases, Wi-Fi passwords, the SMS database, the address book, Photos, browser cookies, call history, location history, and account databases; encrypts them with AES; and uploads over HTTPS `POST /upload` to a rotating pool of C2 domains. The worker beacons exploitation progress to `cloudfareintcdn[.]com/wd-status.html`. The payload reads each sensitive store from a hardcoded path (keychain, Wi-Fi, messages, contacts, cookies, browsing/call history, location, health, accounts, notes, calendar, photos) and its configuration carries a hardcoded AES key, a per-build channel identifier, and the rotating C2 pool.
 - **Redeployment and crypto-wallet escalation.** On 2026-08-12 the operators redeployed the entire iOS chain under fresh filenames (a new orchestrator, stager, renderer, workers, kernel stage, and payload) and rotated the second-stage loader again on 2026-08-17; previous filenames continue to return content in parallel. The renderer still weaponizes only CVE-2025-31277 and CVE-2025-43529, and the offset tables still cover only iOS 18.4 through 18.6.x (no tables for iOS 18.7 or iOS 26), so operators target unpatched devices. The redeployed payload roughly doubled in size and added an iOS-keychain crypto-wallet seed and mnemonic stealer, querying the keychain for wallet material from Bitget, BitKeep, Bitpie, Phantom, Tonkeeper, Trust Wallet, and OKX (`keychain_query_bitget`, `keychain_query_bitpie`, `keychain_query_phantom`, `keychain_query_tonkeeper`, `keychain_query_trust`, `mnemonics_vault_`), with five keychain query routines covering seven wallet apps.
 - **Staged, admin-activated payloads.** `theme-motchill` and `theme-vsmov` ship `functions.js` containing an `MPAd` class that builds a `<script>` element pointed at a config-supplied URL and appends it to the page (executing arbitrary remote JavaScript) plus a full-viewport `mp-preload-popup-overlay` interstitial ad. `theme-dy` ships pre-declared ad-injection hooks (`indextop`, `content_zaixian`, `play_diyi`, and others). These wire to activate from the fetched second stage or from the theme's own admin "Custom JS" settings fields, which the themes render into every page unescaped via Blade `{!! !!}`.
 - **Disguised cryptography.** `theme-motchill` ships `jquery.core.min.js`, a renamed CryptoJS bundle (the `JQMP` namespace) providing AES and PBKDF2, used by a `jquery_beauty()` routine keyed off `document.referrer` and the episode id to sign ad-network requests.
-- **Encrypted server-side code.** `theme-thempho` is malicious through its shipped JavaScript (the `jquery_beauty` injection in `js.cookie.js`) and additionally ships its ServiceProvider, route table, controller, and migrations as ionCube-encrypted PHP bytecode — the encrypted code is the theme's entire account system (email/password login, Google OAuth, registration, password change).
+- **Encrypted server-side code.** `theme-thempho` is malicious through its shipped JavaScript (the `jquery_beauty` injection in `js.cookie.js`) and additionally ships its ServiceProvider, route table, controller, and migrations as ionCube-encrypted PHP bytecode, the encrypted code is the theme's entire account system (email/password login, Google OAuth, registration, password change).
 
 ## MITRE ATT&CK
-- T1195.001 — Supply Chain Compromise: Compromise Software Dependencies and Development Tools
-- T1608.001 — Stage Capabilities: Upload Malware
-- T1608.004 — Stage Capabilities: Drive-by Target
-- T1102 — Web Service (npm registry as a dead-drop resolver, related tenant)
-- T1189 — Drive-by Compromise
-- T1203 — Exploitation for Client Execution
-- T1068 — Exploitation for Privilege Escalation
-- T1027 — Obfuscated Files or Information
-- T1140 — Deobfuscate/Decode Files or Information
-- T1480 — Execution Guardrails
-- T1497 — Virtualization/Sandbox Evasion
-- T1552.001 — Unsecured Credentials: Credentials In Files (keychain wallet theft)
-- T1041 — Exfiltration Over C2 Channel
-- T1071.001 — Application Layer Protocol: Web Protocols
+- T1195.001, Supply Chain Compromise: Compromise Software Dependencies and Development Tools
+- T1608.001, Stage Capabilities: Upload Malware
+- T1608.004, Stage Capabilities: Drive-by Target
+- T1102, Web Service (npm registry as a dead-drop resolver, related tenant)
+- T1189, Drive-by Compromise
+- T1203, Exploitation for Client Execution
+- T1068, Exploitation for Privilege Escalation
+- T1027, Obfuscated Files or Information
+- T1140, Deobfuscate/Decode Files or Information
+- T1480, Execution Guardrails
+- T1497, Virtualization/Sandbox Evasion
+- T1552.001, Unsecured Credentials: Credentials In Files (keychain wallet theft)
+- T1041, Exfiltration Over C2 Channel
+- T1071.001, Application Layer Protocol: Web Protocols
 
 ## Indicators of Compromise
 **Malicious Packagist packages:** `vsmov/theme-dy`, `vsmov/theme-rrdyw`, `vsmov/theme-motchill`, `vsmov/theme-vsmov`, `vsphim/theme-heovl`, `vsphim/theme-thempho`, `haiau009/kkphim-legend`, `haiau009/kkphim-motchill`, `chilltvcms/theme-legend`, `ophimcms/theme-dy`, `ophimcms/theme-motchill`, `ophimcms/theme-pcc`, `ophimcms/theme-rrdyw`.
@@ -94,7 +94,7 @@ OphimCMS and KKPhim are open-source PHP content-management systems (Laravel-base
 - **Audit Packagist/Composer theme supply chains on CMS estates.** Any theme installed via `composer require` is Tier-0 for public-web integrity; verify the vendor namespace against the upstream author and treat forked namespaces that keep the upstream handle intact as hostile republishes.
 - **Hunt for platform-gated, referrer-gated script injection.** A shipped theme script that builds a `<script>` element from a config-supplied URL and appends it to the page (arbitrary remote-JS execution) plus a full-viewport interstitial ad is a strong tell; so is a loader that fires only on non-Desktop platforms with an external referrer.
 - **Trace FUNNULL-hosted second stages.** The loader's base64 argument decoding to a "jQuery-like" host on FUNNULL infrastructure (`union[.]macoms[.]la`, `cdn[.]data-29xx[.]com`, `www[.]cloudfareintcdn[.]com`) and a Cloudflare-impersonating domain is the campaign's structural signature.
-- **Treat iOS exploit-stage hashes as hunting pivots**, not just block content — the operators redeploy under fresh filenames and rotate the second-stage loader (2026-08-12 / 2026-08-17), so structure and C2 rotation matter more than static filenames.
+- **Treat iOS exploit-stage hashes as hunting pivots**, not just block content, the operators redeploy under fresh filenames and rotate the second-stage loader (2026-08-12 / 2026-08-17), so structure and C2 rotation matter more than static filenames.
 - **For iPhone victims, assume full keychain + credential + wallet compromise.** The payload harvests keychain, Wi-Fi, SMS, contacts, cookies, browsing/call history, location, health, accounts, notes, calendar, and photos, and (after the August 12 redeployment) crypto-wallet seeds/mnemonics for Bitget, BitKeep, Bitpie, Phantom, Tonkeeper, Trust Wallet, and OKX. Rotate wallet seeds, 2FA, and session credentials on any affected device and update to current iOS.
 - **Keep iOS/macOS current.** The renderer CVEs (CVE-2025-31277, CVE-2025-43529) and the AppleM2ScalerCSCDriver kernel escape are all patched (the latter in iOS/macOS 26.1, hardened further in 26.5 under CVE-2026-43655); the campaign explicitly targets devices not updated past iOS 18.6.x.
 

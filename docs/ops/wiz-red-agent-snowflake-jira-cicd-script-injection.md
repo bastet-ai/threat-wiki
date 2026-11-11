@@ -1,7 +1,7 @@
 # Wiz Red Agent discovers Snowflake GitHub Actions script injection
 
 ## Summary
-Wiz Research's autonomous "Red Agent" AI security-research tool identified a critical GitHub Actions workflow script-injection vulnerability in `snowflakedb/snowflake-connector-net` through Snowflake's HackerOne program. The vulnerability allowed an unauthenticated user to execute arbitrary commands on Snowflake's GitHub Actions runner by opening a GitHub issue with a specially crafted title. The flaw became live on June 18, 2026 when PR #1218 was squash-merged, and was disclosed and remediated on June 23, 2026—after a five-day exposure window.
+Wiz Research's autonomous "Red Agent" AI security-research tool identified a critical GitHub Actions workflow script-injection vulnerability in `snowflakedb/snowflake-connector-net` through Snowflake's HackerOne program. The vulnerability allowed an unauthenticated user to execute arbitrary commands on Snowflake's GitHub Actions runner by opening a GitHub issue with a specially crafted title. The flaw became live on June 18, 2026 when PR #1218 was squash-merged, and was disclosed and remediated on June 23, 2026,after a five-day exposure window.
 
 The incident is notable because it demonstrates that critical vulnerabilities can be introduced and approved within AI-assisted development workflows, pass automated security scanning (GitHub Advanced Security scanned the final revision without flagging the injection), and still be rapidly discovered and exploited by an autonomous AI security agent.
 
@@ -20,12 +20,12 @@ The incident is notable because it demonstrates that critical vulnerabilities ca
 - credential exfiltration
 
 ## Why this matters
-- The vulnerable workflow triggered on `issues: opened`—any GitHub user could fire it by creating an issue. The attacker-controlled issue title was interpolated directly into a shell `run:` block after GitHub template expansion, making it an unauthenticated remote-code-execution path into Snowflake's CI/CD runner.
+- The vulnerable workflow triggered on `issues: opened`,any GitHub user could fire it by creating an issue. The attacker-controlled issue title was interpolated directly into a shell `run:` block after GitHub template expansion, making it an unauthenticated remote-code-execution path into Snowflake's CI/CD runner.
 - GitHub Advanced Security explicitly extracted and analyzed the vulnerable `jira_issue.yml` workflow in the final PR revision but did not flag the injection. The safe `env:` + `jq --arg` parsing pattern that previously prevented this class of bug was removed in the same PR that introduced the vulnerable direct-interpolation pattern.
 - An `if:` guard appeared protective but was always true: on `issues` events, `github.event.pull_request` is null, so the condition `null != 'whitesource-for-github-com[bot]'` evaluated to true for every user.
 - The exfiltrated Jira token authenticated as `qa@snowflake.net` to `snowflakecomputing.atlassian.net`, granting read access across Snowflake's engineering, security-compliance, and bug-bounty-tracking Jira projects.
 - Wiz's August 17 update clarified that Copilot was a co-author that checked the merged PR and code change and identified it as all-clear without noticing the critical vulnerability. It is unclear whether the code change itself was AI-assisted.
-- The five-day exposure window (June 18–23) and same-day patching demonstrate that automated AI security discovery can compress the window from months to days, but the vulnerability was still live long enough for an unauthenticated attacker to exploit it.
+- The five-day exposure window (June 18-23) and same-day patching demonstrate that automated AI security discovery can compress the window from months to days, but the vulnerability was still live long enough for an unauthenticated attacker to exploit it.
 
 ## Reported execution chain
 1. PR #1218 ("SNOW-2069227: Update jira workflows") removed the safe `env: ISSUE_TITLE:` + `jq -n --arg title "$ISSUE_TITLE"` pattern from `jira_issue.yml` and replaced it with direct interpolation: `TITLE=$(echo '${{ github.event.issue.title }}' | sed 's/"/\\"/g' | sed "s/'/\\'/g")`.

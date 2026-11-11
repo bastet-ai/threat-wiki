@@ -1,7 +1,7 @@
 # GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback
 
 ## Summary
-**GoCaracal** is a previously undocumented **Go-based malware framework** that Arctic Wolf says was deployed during a **June 2026** intrusion at an unnamed **communications organization in Venezuela**. Arctic Wolf assesses, **with medium confidence**, that the activity is linked to **Dark Caracal** — a long-documented Latin American financially-motivated cluster (original disclosure 2018; retooled **Bandook** malware 2020; Bandook attacks in Venezuela 2021). GoCaracal provides remote shell access and payload execution; an **extended profile** adds browser-data theft, keylogging, remote desktop, and SOCKS5 proxying. The most durable technical detail is an **Ethereum smart-contract C2 fallback**: after repeated failures to reach its configured primary C2, the malware issues an `eth_getStorageAt` request to a public Ethereum JSON-RPC endpoint and uses the stored value as a **replacement C2 address**, letting the operator rotate the C2 host without shipping a new binary.
+**GoCaracal** is a previously undocumented **Go-based malware framework** that Arctic Wolf says was deployed during a **June 2026** intrusion at an unnamed **communications organization in Venezuela**. Arctic Wolf assesses, **with medium confidence**, that the activity is linked to **Dark Caracal**, a long-documented Latin American financially-motivated cluster (original disclosure 2018; retooled **Bandook** malware 2020; Bandook attacks in Venezuela 2021). GoCaracal provides remote shell access and payload execution; an **extended profile** adds browser-data theft, keylogging, remote desktop, and SOCKS5 proxying. The most durable technical detail is an **Ethereum smart-contract C2 fallback**: after repeated failures to reach its configured primary C2, the malware issues an `eth_getStorageAt` request to a public Ethereum JSON-RPC endpoint and uses the stored value as a **replacement C2 address**, letting the operator rotate the C2 host without shipping a new binary.
 
 ## Tags
 - tools
@@ -46,7 +46,7 @@
 ## Attribution and scope
 - **Actor:** Dark Caracal (medium confidence), per shared Bandook use, recurring Delphi-loader characteristics, Spanish-language financial lures, malicious SVGs, URL shorteners, document-themed infrastructure, hosting-provider preferences, and Latin American targeting.
 - **Confirmed victim:** one unnamed communications organization in **Venezuela** (June 2026). The public report provides **no broader confirmed count** of organizations compromised with GoCaracal.
-- **Regional context:** Arctic Wolf notes related artifacts and infrastructure associated with **Brazil, Ecuador, Chile, Colombia, El Salvador, and Uruguay**, assessing broader regional activity with **moderate confidence** — these are **not** identified as confirmed victim countries.
+- **Regional context:** Arctic Wolf notes related artifacts and infrastructure associated with **Brazil, Ecuador, Chile, Colombia, El Salvador, and Uruguay**, assessing broader regional activity with **moderate confidence**, these are **not** identified as confirmed victim countries.
 - **Lineage:** Dark Caracal has a documented history of operating in Latin America (original disclosure 2018; retooled Bandook 2020; Bandook attacks in Venezuela 2021).
 
 ## Durable detection pivots
@@ -70,5 +70,5 @@
 - [DeadLock ransomware decentralized recovery infrastructure](deadlock-ransomware.md) (Ethereum/Polygon C2 and exfil patterns)
 
 ## Sources
-- Arctic Wolf Labs: [Dark Caracal, Reloaded — New Malware, Same Hunting Grounds](https://arcticwolf.com/resources/blog/dark-caracal-reloaded-new-malware-same-hunting-grounds/) — August 2026
-- The Hacker News: [GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address](https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html) — August 27, 2026
+- Arctic Wolf Labs: [Dark Caracal, Reloaded, New Malware, Same Hunting Grounds](https://arcticwolf.com/resources/blog/dark-caracal-reloaded-new-malware-same-hunting-grounds/), August 2026
+- The Hacker News: [GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address](https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html), August 27, 2026

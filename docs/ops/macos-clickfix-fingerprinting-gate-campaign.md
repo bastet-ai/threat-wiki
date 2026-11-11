@@ -104,7 +104,7 @@ Microsoft lists Defender behavior detections including `Behavior:MacOS/SuspAmosE
 Apple added a Terminal paste warning in macOS 26.4 and later for commands assessed as potentially malicious. Treat the warning as friction, not a substitute for web, network, and endpoint controls.
 
 ## MacSync behavioral pivots and rotating infrastructure
-On August 18, 2026, Microsoft Defender Experts published a follow-up focused on the **MacSync Stealer** payload of the same ClickFix chain. RST Cloud had first identified the threat through a limited domain set and documented rapid C2 replacement after public disclosure; Microsoft's team correlated recurring endpoints and network behaviors instead and connected **more than 30 domains**, using the domain count as an outcome of the behavioral methodology rather than the primary finding. The linked infrastructure supported more than C2 communication — it extended into active collection, staging, and chunked exfiltration.
+On August 18, 2026, Microsoft Defender Experts published a follow-up focused on the **MacSync Stealer** payload of the same ClickFix chain. RST Cloud had first identified the threat through a limited domain set and documented rapid C2 replacement after public disclosure; Microsoft's team correlated recurring endpoints and network behaviors instead and connected **more than 30 domains**, using the domain count as an outcome of the behavioral methodology rather than the primary finding. The linked infrastructure supported more than C2 communication, it extended into active collection, staging, and chunked exfiltration.
 
 The strongest pivots combined network request shape with endpoint execution context:
 
@@ -140,9 +140,9 @@ Detection corollary: alert on chunked HTTP PUT exfiltration from `curl` with `up
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](ox-clickfix-phishing-npm-mirror-payload-storage.md)
 - [TELEPUZ ClickFix / VIDAR campaign](telepuz-clickfix-vidar-campaign.md)
 - [CrashStealer macOS notarized-dropper campaign](crashstealer-macos-notarized-dropper.md)
-- [AMOS tool page — indicator-churn analysis and durable hunt pivots](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
+- [AMOS tool page, indicator-churn analysis and durable hunt pivots](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 - [XCSSET v40 Xcode supply-chain campaign](xcsset-v40-xcode-supply-chain-campaign.md)
 
 ## Source
-- Microsoft Security Blog: [From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide](https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/) — August 5, 2026
-- Microsoft Security Blog (Defender Experts and Microsoft Security Research): [Hunting MacSync Stealer infrastructure through behavioral pivots](https://www.microsoft.com/en-us/security/blog/2026/08/18/hunting-macsync-stealer-infrastructure-through-behavioral-pivots/) — August 18, 2026
+- Microsoft Security Blog: [From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide](https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/), August 5, 2026
+- Microsoft Security Blog (Defender Experts and Microsoft Security Research): [Hunting MacSync Stealer infrastructure through behavioral pivots](https://www.microsoft.com/en-us/security/blog/2026/08/18/hunting-macsync-stealer-infrastructure-through-behavioral-pivots/), August 18, 2026

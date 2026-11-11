@@ -93,7 +93,7 @@ The vulnerability directly affects Metabase's application database and authoriza
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
 ## Sources
-- Metabase, “Security update available for Metabase — Please upgrade now,” 2026-08-08: [https://www.metabase.com/blog/security-update](https://www.metabase.com/blog/security-update)
+- Metabase, “Security update available for Metabase, Please upgrade now,” 2026-08-08: [https://www.metabase.com/blog/security-update](https://www.metabase.com/blog/security-update)
 - GitHub Security Advisory, GHSA-vwf4-m7j8-wcjf / CVE-2026-72898, “SQL injection using an unauthenticated endpoint leading to admin access,” 2026-08-08: [https://github.com/metabase/metabase/security/advisories/GHSA-vwf4-m7j8-wcjf](https://github.com/metabase/metabase/security/advisories/GHSA-vwf4-m7j8-wcjf)
 - CISA: [Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) (CVE-2026-72898 added August 11, 2026; BOD 26-04 due August 14, 2026)
 - Wiz Research, “Inside the Metabase SQLi: Exploited in the Wild,” 2026-08-10: [https://www.wiz.io/blog/inside-the-metabase-sqli-exploited-in-the-wild](https://www.wiz.io/blog/inside-the-metabase-sqli-exploited-in-the-wild)

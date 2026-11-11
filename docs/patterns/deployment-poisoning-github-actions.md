@@ -57,11 +57,11 @@ On **September 10, 2026**, GitHub made **`cache-mode`** generally available on g
 
 - Modes: `read` (restore only), `write` (restore + save), `write-only` (save only), `none`.
 - **New secure default by trigger trust:** low-trust events such as `pull_request_target` default to **read-only** cache access; trusted events such as `push` default to `write`.
-- **Job-level settings override workflow-level**, and the mode is **enforced by the cache service and carries through reusable workflows** — a called workflow cannot receive more cache access than its caller granted.
+- **Job-level settings override workflow-level**, and the mode is **enforced by the cache service and carries through reusable workflows**, a called workflow cannot receive more cache access than its caller granted.
 - **Explicit declarations override the safe default:** declaring `write`/`write-only` on a low-trust event re-enables the poisoning risk, so Actions now emits a **warning annotation** when the declared mode grants write access. Workflows that never set `cache-mode` keep the existing defaults.
 
 Defender actions:
-- Audit workflows triggered by `pull_request_target`, `workflow_run`, or any fork-reachable event for explicit `cache-mode: write` / `write-only` — that declaration is the risky line, and the warning annotation should be treated as a finding, not noise.
+- Audit workflows triggered by `pull_request_target`, `workflow_run`, or any fork-reachable event for explicit `cache-mode: write` / `write-only`, that declaration is the risky line, and the warning annotation should be treated as a finding, not noise.
 - Grep for cache saves in untrusted-trigger jobs (`actions/cache@v*` `save-always`/post steps, tool caches that write on PR events); prefer removing the step over downgrading the mode.
 - Treat a cache hit whose key was created by an untrusted run as attacker-controlled input to your build: build-tool caches (npm, pip, cargo, Maven) restore content that later executes at build or test time.
 - Cache poisoning remains reachable outside the Actions cache service (artifact uploads, dependency proxy, self-hosted runner state); `cache-mode` closes one store, not the class.

@@ -25,8 +25,8 @@
 ## Delivery and staging
 Kaspersky observed two main first-stage paths:
 
-1. **NSIS EXE attachment** — a fake psychological-test executable launches a decoy application, drops a legitimate `pnx.exe`, injects loader code into it, and downloads archives from GitHub-hosted release infrastructure.
-2. **LNK attachment** — a `Zayavka_[redacted].lnk` file abuses the ZDI-CAN-25373 shortcut command-line hiding technique, launches an obfuscated `rundll32.exe` / PowerShell chain, displays a decoy DOCX, then downloads Python and `data.zip` payload content.
+1. **NSIS EXE attachment**, a fake psychological-test executable launches a decoy application, drops a legitimate `pnx.exe`, injects loader code into it, and downloads archives from GitHub-hosted release infrastructure.
+2. **LNK attachment**, a `Zayavka_[redacted].lnk` file abuses the ZDI-CAN-25373 shortcut command-line hiding technique, launches an obfuscated `rundll32.exe` / PowerShell chain, displays a decoy DOCX, then downloads Python and `data.zip` payload content.
 
 Both paths converge on a working directory under `%APPDATA%\\WindowsHelper` containing `module.pyw`, PyArmor runtime components, Python 3.12, `get-pip.py`, and helper scripts.
 

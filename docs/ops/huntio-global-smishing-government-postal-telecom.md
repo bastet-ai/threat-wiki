@@ -37,10 +37,10 @@ No actor name is publicly established in the report. Treat this as infrastructur
 ### Victim flow
 Hunt.io describes a four-stage card-harvesting flow in the Romanian Ghișeul.ro clone:
 
-1. **Trust establishment** — a localized landing page copies official branding, navigation labels, service badges, SSL-trust language, and a three-step verification / details / payment flow.
-2. **Urgency creation** — after a vehicle-registration lookup, the page fabricates traffic-fine details, including a process number, violation type, due date, payment status, and amount.
-3. **Payment-card collection** — a payment page asks for cardholder name, card number, expiration date, and CVV while showing a realistic card visualization and payment summary.
-4. **Processing deception** — a loading screen gives the appearance of payment processing while the submitted card data is sent to attacker infrastructure.
+1. **Trust establishment**, a localized landing page copies official branding, navigation labels, service badges, SSL-trust language, and a three-step verification / details / payment flow.
+2. **Urgency creation**, after a vehicle-registration lookup, the page fabricates traffic-fine details, including a process number, violation type, due date, payment status, and amount.
+3. **Payment-card collection**, a payment page asks for cardholder name, card number, expiration date, and CVV while showing a realistic card visualization and payment summary.
+4. **Processing deception**, a loading screen gives the appearance of payment processing while the submitted card data is sent to attacker infrastructure.
 
 ### Infrastructure and campaign pivots
 - Hunt.io found **1,628 malicious URLs** across **19 countries** and multiple sectors.
@@ -73,10 +73,10 @@ Hunt.io's 1,628-URL cluster included the following country / brand themes:
 ### Hosting footprint
 Hunt.io mapped **32 backend IP addresses** across six geographic regions and several hosting models:
 
-- **Tencent Cloud / AS132203** — 15 servers across Singapore, Frankfurt, and Santa Clara.
-- **Cloudflare / AS13335** — 14 anycast IPs fronting parts of the operation.
-- **Alibaba Cloud / AS45102** — three Frankfurt-based servers.
-- **ALEXHOST Moldova / AS200019** — two Chisinau servers with OpenSSH, nginx, and unusual ports `887` / `888` exposed.
+- **Tencent Cloud / AS132203**, 15 servers across Singapore, Frankfurt, and Santa Clara.
+- **Cloudflare / AS13335**, 14 anycast IPs fronting parts of the operation.
+- **Alibaba Cloud / AS45102**, three Frankfurt-based servers.
+- **ALEXHOST Moldova / AS200019**, two Chisinau servers with OpenSSH, nginx, and unusual ports `887` / `888` exposed.
 
 Hunt.io notes that the provider spread complicates takedown and cross-border law-enforcement requests. It also warns that two Cloudflare anycast IPs in the broader cluster had unrelated domains flagged with Tactical RMM and Cobalt Strike signatures; do not treat those shared anycast observations as direct attribution to this smishing operation.
 

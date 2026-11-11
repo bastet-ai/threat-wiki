@@ -49,9 +49,9 @@ The framework combines customizable APK generation, phishing overlays, Accessibi
 
 ## Framework and delivery chain
 1. Operators customize one of the bundled Android templates with a lure name, icon, text, and C2 callback address.
-2. The builder replaces the original `com.icontrol.protector` package name with legitimate-looking randomized segments and renames recognizable classes with random 8–14 character strings.
+2. The builder replaces the original `com.icontrol.protector` package name with legitimate-looking randomized segments and renames recognizable classes with random 8-14 character strings.
 3. Callback URLs are encrypted with AES-128-CBC; the builder derives the key with PBKDF2-SHA1 using 65,536 iterations and hard-coded defaults retained for compatibility with the earlier Windows `.NET` component `EaodWorker.exe`.
-4. The build script adds roughly 2.8–3.5 MB of Base64-looking JSON assets intended to resemble SDK caches and reduce simple entropy-based detection.
+4. The build script adds roughly 2.8-3.5 MB of Base64-looking JSON assets intended to resemble SDK caches and reduce simple entropy-based detection.
 5. Victims are lured into sideloading APKs impersonating government services, adult-streaming or social-media applications, financial applications, or public-welfare projects.
 6. The implant abuses Android Accessibility Service and gesture injection, communicates over WebSocket and Firebase, and exposes device surveillance and financial-phishing functions through the operator panel.
 
@@ -70,7 +70,7 @@ Hunt.io analyzed a 388 MB Docker deployment named `中国龙.zip` distributed by
 
 An exposed directory at `77.105.161[.]235:8000` contained 2,383 files across 576 directories and shared the same misspelled `SECRIT_KEY` variable, PHP filenames, and code structure. Public channel messages claimed the original Flying Eagle source and 189 customer databases had been stolen in early 2026. Treat that database count as a leaked-channel claim, not independently validated victim telemetry.
 
-Yx Technology published operational fraud instructions and cash-out offers charging 20–50 percent. `SQLRCE0` advertised a repaired build for 2,000 USDT and posted fixes for connectivity, WebSocket stability, and anti-uninstall behavior. These observations support a financially motivated Chinese-language criminal ecosystem; they do not prove that every panel or APK belongs to one group.
+Yx Technology published operational fraud instructions and cash-out offers charging 20-50 percent. `SQLRCE0` advertised a repaired build for 2,000 USDT and posted fixes for connectivity, WebSocket stability, and anti-uninstall behavior. These observations support a financially motivated Chinese-language criminal ecosystem; they do not prove that every panel or APK belongs to one group.
 
 ## Night Dragon follow-on
 Night Dragon was advertised with payment-password capture for Alipay, WeChat, and banking applications, a black-screen fake-update mode, and automatic icon hiding. Hunt.io found two active panel servers on AS54801 in Hong Kong. One exposed panel displayed 46 devices, 29 marked connected, all in China; the researchers could not verify whether these represented real victims or test data.

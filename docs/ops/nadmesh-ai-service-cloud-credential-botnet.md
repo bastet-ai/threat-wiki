@@ -78,7 +78,7 @@ Behavioral pivots include:
 - Remove AI inference, workflow, notebook, MCP, Docker, Kubernetes, Redis, and Jenkins administration surfaces from the public internet. Require strong authentication and network allow-listing; do not expose Docker TCP/2375 or command-capable MCP tools anonymously.
 - Inventory internet-facing ports 8188, 11434, 7860, and 5678 first, then the broader container, orchestration, database, and administration set. Patch Marimo before 0.23.0 and rclone RC versions 1.45.0 through 1.73.5 where exposed without HTTP authentication.
 - Hunt all three persistence layers before replacement credentials are issued. Isolate affected hosts, preserve cron files, keys, binaries, shell history, process memory, and controller traffic, then remove the implant from a trusted environment.
-- Revoke—not merely rotate in place—AWS keys, Kubernetes tokens, Docker registry credentials, `.env` secrets, model-provider keys, MCP credentials, and other secrets readable by the compromised process. Review cloud audit logs and Kubernetes API activity for downstream use.
+- Revoke,not merely rotate in place,AWS keys, Kubernetes tokens, Docker registry credentials, `.env` secrets, model-provider keys, MCP credentials, and other secrets readable by the compromised process. Review cloud audit logs and Kubernetes API activity for downstream use.
 - Prefer behavioral detections over sample hashes: watch for packed/obfuscated Go processes combining scanning, credential-file access, SSH-key modification, cron creation, and outbound controller beacons.
 
 ## Related pages

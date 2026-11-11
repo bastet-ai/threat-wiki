@@ -27,7 +27,7 @@ Seqrite assesses the activity with **moderate-to-high confidence** as a China-ne
 - The lure documents were not generic: Seqrite says the actor harvested genuine legal and investigative documents, increasing credibility and reducing the value of simple awareness training.
 - The initial execution chain blends into Windows-native behavior: LNK launches `ftp.exe -s`, a batch script reconstructs payloads with `copy /b`, and the final binaries are assembled only on disk at runtime.
 - The implant stack combines loader flexibility, fileless execution, process injection into `explorer.exe`, C2 over HTTPS, screenshot capture, directory reconnaissance, file upload/execution, and credential harvesting.
-- The targets — a military-linked telecom operator and a healthcare provider — make the campaign durable for defenders tracking Southeast Asia-focused espionage.
+- The targets, a military-linked telecom operator and a healthcare provider, make the campaign durable for defenders tracking Southeast Asia-focused espionage.
 
 ## Reported targeting
 - **Campaign 1:** Vietnam, network and telecommunications sector; Seqrite names Viettel Group, which operates under Vietnam's Ministry of National Defence.
@@ -86,4 +86,4 @@ Seqrite says the malware searches for:
 - The public report does not establish a stable named group profile, so this page tracks the operation rather than creating a separate actor page.
 
 ## Sources
-- Seqrite Labs — Operation GriefLure: Dissecting an APT Campaign Targeting Vietnam's Military Telecom & Philippine Healthcare: [https://www.seqrite.com/blog/operation-grieflure-dissecting-an-apt-campaign-targeting-vietnams-military-telecom-philippine-healthcare/](https://www.seqrite.com/blog/operation-grieflure-dissecting-an-apt-campaign-targeting-vietnams-military-telecom-philippine-healthcare/)
+- Seqrite Labs, Operation GriefLure: Dissecting an APT Campaign Targeting Vietnam's Military Telecom & Philippine Healthcare: [https://www.seqrite.com/blog/operation-grieflure-dissecting-an-apt-campaign-targeting-vietnams-military-telecom-philippine-healthcare/](https://www.seqrite.com/blog/operation-grieflure-dissecting-an-apt-campaign-targeting-vietnams-military-telecom-philippine-healthcare/)

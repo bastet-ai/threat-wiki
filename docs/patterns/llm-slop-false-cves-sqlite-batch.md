@@ -1,7 +1,7 @@
 # LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA
 
 ## Summary
-JFrog Security Research's July 30, 2026 analysis, "SQLite Critical CVEs or LLM Slop?", documents a newly created GitHub repository, `programmervuln/cveadvisory-`, that published a batch of SQLite vulnerability advisories alongside 50+ other CVEs that the researchers assessed as also being AI-generated. NVD quickly flagged several as critical and CISA's ADP agreed — but JFrog's verification found the claims fell apart: the cited code did not exist in the referenced versions, the PoC payloads did not trigger any crash, none of the CVEs appear on SQLite's official advisory page (the gold standard for real SQLite vulnerabilities), and the advisories flag as AI-generated under GPTZero.
+JFrog Security Research's July 30, 2026 analysis, "SQLite Critical CVEs or LLM Slop?", documents a newly created GitHub repository, `programmervuln/cveadvisory-`, that published a batch of SQLite vulnerability advisories alongside 50+ other CVEs that the researchers assessed as also being AI-generated. NVD quickly flagged several as critical and CISA's ADP agreed, but JFrog's verification found the claims fell apart: the cited code did not exist in the referenced versions, the PoC payloads did not trigger any crash, none of the CVEs appear on SQLite's official advisory page (the gold standard for real SQLite vulnerabilities), and the advisories flag as AI-generated under GPTZero.
 
 This is a pattern page, not a named-actor or campaign profile. The durable defender lesson is that **the vulnerability data pipeline itself is now an attack surface**: LLM-generated, plausibly structured advisories can reach NVD/CISA with high severity scores, drive automated patching and alerting, and create a "false-critical" class of noise that degrades triage. Defenders should treat any CVE that cites non-existent functions, contradicts vendor advisory pages, or ships a non-functional PoC as unverified until checked against primary vendor sources.
 
@@ -32,7 +32,7 @@ This is a pattern page, not a named-actor or campaign profile. The durable defen
 
 ## Why this matters
 - A batch of AI-generated "critical" SQLite CVEs was accepted into NVD and CISA ADP with high severity before being debunked. Automated vulnerability-management and patching systems that ingest NVD/CISA will treat these as real, critical, and urgent.
-- CVE-2026-51302 in particular was initially assigned a 10.0 Critical score by Red Hat and later downgraded to 7.6 High — evidence that downstream scorers can propagate a fabricated severity until the flaw is disproven.
+- CVE-2026-51302 in particular was initially assigned a 10.0 Critical score by Red Hat and later downgraded to 7.6 High, evidence that downstream scorers can propagate a fabricated severity until the flaw is disproven.
 - The false-critical class inflates patching urgency, distracts triage, and can drive risky emergency-change behavior against a flaw that does not exist. The same mechanism could be used to bury a real high-severity CVE in a flood of AI noise.
 - The failure mode is general, not SQLite-specific: any project whose advisories are machine-ingested into NVD/GHSA is exposed to LLM-generated, structurally plausible, but technically false reports.
 - It is a distinct and complementary risk to AI-assisted offensive tradecraft (AI-generated malware, exploit scripts, phishing) documented elsewhere in the wiki. Here the adversary's product is the *vulnerability record itself*.

@@ -57,19 +57,19 @@ The durable signal is the driver and tooling combination. Symantec says PoisonX 
 - **GodDamn** appears to be the latest Hyadina iteration. Some attacks use the `.God8Damn` extension, while the Symantec-investigated incident renamed encrypted files with the victim organization's name as the extension.
 
 ## Selected file indicators
-- `csidl_profile\music\symantec.exe` — defense-evasion dropper masquerading as a Symantec product
-- `csidl_system\drivers\g11.sys` — PoisonX driver path
-- `csidl_profile\downloads\encrypter-windows-gui-x86.exe` — GodDamn encryptor path
-- `csidl_profile\music\encrypter-windows-gui-x86.exe` — alternate GodDamn encryptor path
-- `141b2190f51397dbd0dfde0e3904b264c91b6f81febc823ff0c33da980b69944` — PsExec / `psexesvc.exe`
-- `17fb52476016677db5a93505c4a1c356984bc1f6a4456870f920ac90a7846180` — NetPass / `netpass64.exe`
-- `19bab15a34d5ad838ccf4d187eb40379c335fa56446d0f9621865b2767d4ac7d` — WirelessKeyView / `wirelesskeyview64.exe`
-- `2d91a78e739891c9854c254f5b2a6b84c0e167dfa253466cbccd2cdd1c20145d` — PoisonX / `g11.sys`
-- `31eb1de7e840a342fd468e558e5ab627bcb4c542a8fe01aec4d5ba01d539a0fc` — Mimikatz / `mimik.exe`
-- `45126297c07c6ef56b51440cd0dc30acf7b3b938e2e9e656334886fe2f81f220` — AnyDesk / `anydesk.exe`
-- `9fae3f15900e13ec3860a109555ecd33ca43d38907c63438c50a2d6d91bfee1d` — NetScan / `netscan.exe`
-- `b29f91a440527fb621d106a2048f6379fff3263c60aeda9c82ff8c1d5ae880a8` — defense-evasion tool / `symantec.exe`
-- `e097f3b445b63b07afacde8d6a67f0be654dd51e228a3610fb0710a1f7e29a69` — GodDamn ransomware / `encrypter-windows-gui-x86.exe`
+- `csidl_profile\music\symantec.exe`, defense-evasion dropper masquerading as a Symantec product
+- `csidl_system\drivers\g11.sys`, PoisonX driver path
+- `csidl_profile\downloads\encrypter-windows-gui-x86.exe`, GodDamn encryptor path
+- `csidl_profile\music\encrypter-windows-gui-x86.exe`, alternate GodDamn encryptor path
+- `141b2190f51397dbd0dfde0e3904b264c91b6f81febc823ff0c33da980b69944`, PsExec / `psexesvc.exe`
+- `17fb52476016677db5a93505c4a1c356984bc1f6a4456870f920ac90a7846180`, NetPass / `netpass64.exe`
+- `19bab15a34d5ad838ccf4d187eb40379c335fa56446d0f9621865b2767d4ac7d`, WirelessKeyView / `wirelesskeyview64.exe`
+- `2d91a78e739891c9854c254f5b2a6b84c0e167dfa253466cbccd2cdd1c20145d`, PoisonX / `g11.sys`
+- `31eb1de7e840a342fd468e558e5ab627bcb4c542a8fe01aec4d5ba01d539a0fc`, Mimikatz / `mimik.exe`
+- `45126297c07c6ef56b51440cd0dc30acf7b3b938e2e9e656334886fe2f81f220`, AnyDesk / `anydesk.exe`
+- `9fae3f15900e13ec3860a109555ecd33ca43d38907c63438c50a2d6d91bfee1d`, NetScan / `netscan.exe`
+- `b29f91a440527fb621d106a2048f6379fff3263c60aeda9c82ff8c1d5ae880a8`, defense-evasion tool / `symantec.exe`
+- `e097f3b445b63b07afacde8d6a67f0be654dd51e228a3610fb0710a1f7e29a69`, GodDamn ransomware / `encrypter-windows-gui-x86.exe`
 
 ## Defender guidance
 - Treat discovery of `g11.sys`, the PoisonX hash, or a suspicious Microsoft Hardware Compatibility Publisher-signed driver as an emergency defense-impairment event. Preserve the driver, loader, signature metadata, process tree, and EDR tamper telemetry before cleanup.

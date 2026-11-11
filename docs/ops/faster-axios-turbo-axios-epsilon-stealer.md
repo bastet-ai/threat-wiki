@@ -33,10 +33,10 @@ This is separate from the earlier real-Axios compromise coverage: here the distr
 - The `faster-axios` package used a throwaway maintainer identity, forged real Axios metadata such as the original author, repository, and homepage, and carried forged file mtimes from `1985-10-26 08:15:00`.
 
 ### Four-stage payload
-1. **npm `postinstall` loader** — `lib/core/eval.js` fetched remote JavaScript and ran it through `eval()`. SafeDep reported `faster-axios@1.17.4` fetched `datab1` from `apparently-movers-mysql-heights.trycloudflare[.]com`, while earlier infrastructure included `cold5.gofile[.]io`.
-2. **Windows dropper** — the fetched JavaScript downloaded `epsilon` to `%TEMP%\hello.exe` and executed it. SafeDep notes stages 1 and 2 can run on any OS because the C2 controls the JavaScript returned, even though the payload live during analysis was Windows-specific.
-3. **NSIS installer** — `hello.exe` was an 86 MB Nullsoft installer with SHA256 `bc46e88b1fdf8c27e3404146306b4651f69728f7d8d939a219dfbcb5a23ef69a`, unpacking to an Electron app.
-4. **Epsilon Stealer** — the inner Electron app identified itself as `winhost`, used decoy author `OracleCorporation`, and contained operator license key `SK-754644F96BBA9652C8A2A08042ABAF58827D`.
+1. **npm `postinstall` loader**, `lib/core/eval.js` fetched remote JavaScript and ran it through `eval()`. SafeDep reported `faster-axios@1.17.4` fetched `datab1` from `apparently-movers-mysql-heights.trycloudflare[.]com`, while earlier infrastructure included `cold5.gofile[.]io`.
+2. **Windows dropper**, the fetched JavaScript downloaded `epsilon` to `%TEMP%\hello.exe` and executed it. SafeDep notes stages 1 and 2 can run on any OS because the C2 controls the JavaScript returned, even though the payload live during analysis was Windows-specific.
+3. **NSIS installer**, `hello.exe` was an 86 MB Nullsoft installer with SHA256 `bc46e88b1fdf8c27e3404146306b4651f69728f7d8d939a219dfbcb5a23ef69a`, unpacking to an Electron app.
+4. **Epsilon Stealer**, the inner Electron app identified itself as `winhost`, used decoy author `OracleCorporation`, and contained operator license key `SK-754644F96BBA9652C8A2A08042ABAF58827D`.
 
 ## Epsilon Stealer behavior
 SafeDep's recovered sample reported:
@@ -62,12 +62,12 @@ SafeDep's recovered sample reported:
 - npm malware notice: `MAL-2026-4695` for `turbo-axios`
 
 ### Network
-- `apparently-movers-mysql-heights.trycloudflare[.]com` — payload delivery and shellcode
-- `recorded-distinct-face-girlfriend.trycloudflare[.]com/customer` — exfiltration API
-- `consequences-faces-weblogs-clinical.trycloudflare[.]com` — secondary download; shared with `turbo-axios`
-- `prep-integer-lit-preferences.trycloudflare[.]com` — WebSocket RAT gateway
-- `philosophy-moms-incoming-milton.trycloudflare[.]com` — `turbo-axios` stage-2 infrastructure
-- `cold5.gofile[.]io` — earlier `faster-axios` delivery path reported by SafeDep
+- `apparently-movers-mysql-heights.trycloudflare[.]com`, payload delivery and shellcode
+- `recorded-distinct-face-girlfriend.trycloudflare[.]com/customer`, exfiltration API
+- `consequences-faces-weblogs-clinical.trycloudflare[.]com`, secondary download; shared with `turbo-axios`
+- `prep-integer-lit-preferences.trycloudflare[.]com`, WebSocket RAT gateway
+- `philosophy-moms-incoming-milton.trycloudflare[.]com`, `turbo-axios` stage-2 infrastructure
+- `cold5.gofile[.]io`, earlier `faster-axios` delivery path reported by SafeDep
 
 ### Host artifacts
 - `%TEMP%\hello.exe`

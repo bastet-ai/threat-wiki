@@ -31,12 +31,12 @@ The loader retrieves command-and-control addresses from an outbound Ethereum tra
 
 ## Affected packages and versions
 
-### Hijacked legitimate packages — `sonatype-2026-005899`
+### Hijacked legitimate packages, `sonatype-2026-005899`
 - `@kolbo/mcp@1.57.1`
 - `agentgui@1.0.1127`
 - `godot-kit@1.0.1786316795`
 
-### Malware-bearing new packages — `sonatype-2026-005901`
+### Malware-bearing new packages, `sonatype-2026-005901`
 - `envpack-conf@1.0.1`
 - `postcss-initial-provider@3.0.4`
 - `tailwindcss-motion-advanced@1.0.1`

@@ -26,9 +26,9 @@ This is not a way to change source code while preserving a victim's signature. T
 
 The paper identifies three practical malleation routes across signature formats that Git forges commonly verify:
 
-1. **ECDSA algebraic inversion** — transform the signature value `s` to `n - s`; both forms remain valid for the same signed data.
-2. **OpenPGP subpacket insertion** — add an unhashed OpenPGP subpacket for RSA / EdDSA signatures without changing the signed payload.
-3. **S/MIME CMS re-encoding** — use non-canonical DER length re-encoding inside the CMS envelope.
+1. **ECDSA algebraic inversion**, transform the signature value `s` to `n - s`; both forms remain valid for the same signed data.
+2. **OpenPGP subpacket insertion**, add an unhashed OpenPGP subpacket for RSA / EdDSA signatures without changing the signed payload.
+3. **S/MIME CMS re-encoding**, use non-canonical DER length re-encoding inside the CMS envelope.
 
 Because a Git commit's object ID covers the raw bytes of the commit object, including the signature header, changing signature encoding bytes changes the commit hash even when the signed content and file tree are unchanged. Rewriting one signed commit also forces new hashes for descendants that point to it as a parent. A descendant's own signature does not automatically remain valid after its parent pointer changes, so the impact is strongest where a signed commit or a partially signed history is accepted based on forge verification signals rather than immutable hash provenance.
 

@@ -35,7 +35,7 @@ Recorded Future Insikt Group's **August 28, 2026** analysis (cited via The Hacke
 5. The batch backdoor runs a polling loop: fetches arbitrary `.cmd` payloads from a staging `webhook[.]site` URL, executes them, and returns output to the webhook **using an HTML file**, with retrieval and exfiltration performed by launching **Microsoft Edge in headless mode or a hidden window**.
 6. After transmission, temporary files are deleted and any process whose window title matches the HOOKEDGE task identifier is terminated.
 7. A hidden image in the lure document originally referenced a `webhook[.]site` URL to alert operators when the document was opened; that canary was later **removed** to reduce network-based IOCs.
-8. For high-value targets, a **second-stage payload** was deployed with beaconing intervals as short as five minutes — separating initial-access infrastructure from active collection infrastructure because the free-tier quota would otherwise be exhausted within ~2–3 days at a 30-minute interval.
+8. For high-value targets, a **second-stage payload** was deployed with beaconing intervals as short as five minutes, separating initial-access infrastructure from active collection infrastructure because the free-tier quota would otherwise be exhausted within ~2-3 days at a 30-minute interval.
 
 ## Attribution notes
 - Recorded Future Insikt Group (Mastercard-owned) attributes the campaigns to APT28 with **moderate confidence**, based on code and tradecraft overlap with HEADLACE, including shared core architecture and shared abuse of `webhook[.]site` for C2, payload staging, and exfiltration.

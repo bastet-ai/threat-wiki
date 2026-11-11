@@ -84,15 +84,15 @@ ModeloRAT remains a key pivot for tracking the cluster:
 ## IOCs and pivots
 Broadcom published hashes including:
 
-- `1e41c7bfaa6aa3b93b6cc024274a10e33f3e12fe7c98c1db387ef8927f9d1984` — Backdoor.Mistic / `endpointdlp.dll`
-- `34d798a6c55e57ed0932b6499f4fbcb5454bdfca903307be101a0594b0ac07bc` — fake lock screen / `f.dll`
-- `3f797a639bc855bc6d5471f327924b62d10900ddec49b970eca6604142bbb4be` — Backdoor.Mistic / `aeff97fe.msi`
-- `59e3c4cb06331b4f2d78a9a0592f3747e573bd01c5a7650c26361d1e25520712` — loader / `version.dll`
-- `8c935feec4bd05d5d918df308be417532fb42608fb989a08eab183e0ae699235` — likely privilege escalation / `n.dll`
-- `afd5f1ed45a9867daf3bc64152cef460a06b164c8183e490db39146d4749a82c` — Backdoor.Mistic / `endpointdlp.dll`
-- `db972979d508e75fe730d3b72c2701470fbdaeaf8ebdd674744754fa44438ca5` — Backdoor.Mistic / `endpointdlp.dll`
-- `f591275a8f014b29e567529d67c54eb7bb4473db1c38737d6bfd5b3d52c9344e` — Backdoor.Mistic / `48b47c0.msi`
-- `fb3630822b70bacb56aa4cec29b5a0e3e9acb3920809e70310a4003385a6d34a` — Backdoor.Mistic / `endpointdlp.dll`
+- `1e41c7bfaa6aa3b93b6cc024274a10e33f3e12fe7c98c1db387ef8927f9d1984`, Backdoor.Mistic / `endpointdlp.dll`
+- `34d798a6c55e57ed0932b6499f4fbcb5454bdfca903307be101a0594b0ac07bc`, fake lock screen / `f.dll`
+- `3f797a639bc855bc6d5471f327924b62d10900ddec49b970eca6604142bbb4be`, Backdoor.Mistic / `aeff97fe.msi`
+- `59e3c4cb06331b4f2d78a9a0592f3747e573bd01c5a7650c26361d1e25520712`, loader / `version.dll`
+- `8c935feec4bd05d5d918df308be417532fb42608fb989a08eab183e0ae699235`, likely privilege escalation / `n.dll`
+- `afd5f1ed45a9867daf3bc64152cef460a06b164c8183e490db39146d4749a82c`, Backdoor.Mistic / `endpointdlp.dll`
+- `db972979d508e75fe730d3b72c2701470fbdaeaf8ebdd674744754fa44438ca5`, Backdoor.Mistic / `endpointdlp.dll`
+- `f591275a8f014b29e567529d67c54eb7bb4473db1c38737d6bfd5b3d52c9344e`, Backdoor.Mistic / `48b47c0.msi`
+- `fb3630822b70bacb56aa4cec29b5a0e3e9acb3920809e70310a4003385a6d34a`, Backdoor.Mistic / `endpointdlp.dll`
 
 Use hashes as confirmation pivots, not the only detection path; the sideloading shape and ModeloRAT / ClickFix behaviors are more durable.
 

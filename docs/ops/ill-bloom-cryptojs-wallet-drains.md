@@ -1,7 +1,7 @@
 # Ill Bloom CryptoJS wallet-drain campaign
 
 ## Summary
-On August 5–6, 2026, Coinspect publicly identified the weak generator behind its **Ill Bloom** investigation as `CryptoJS.lib.WordArray.random()` and named five wallet applications that used the function to create recovery phrases. The affected code reduced nominal 128- and 256-bit entropy to effective search spaces of about **2^39** and **2^47**, making candidate recovery phrases enumerable on commodity hardware.
+On August 5-6, 2026, Coinspect publicly identified the weak generator behind its **Ill Bloom** investigation as `CryptoJS.lib.WordArray.random()` and named five wallet applications that used the function to create recovery phrases. The affected code reduced nominal 128- and 256-bit entropy to effective search spaces of about **2^39** and **2^47**, making candidate recovery phrases enumerable on commodity hardware.
 
 Coinspect measured two exploitation waves beginning May 27. Across the monitored address set, attackers drained about **$5.69 million** from 431 accounts in the first wave and addresses associated with 522 seeds in the second, spanning Bitcoin, Ethereum, Tron, Rootstock, and Polygon. The figure is a measured lower bound, not a complete loss estimate.
 
@@ -68,7 +68,7 @@ The public disclosure does not provide complete vulnerable-version ranges for RR
 Coinspect reproduced the attack chain by enumerating outputs from the affected generator, converting them to BIP-39 recovery phrases, deriving addresses, and comparing those addresses with public blockchain data.
 
 - **May 27:** the first observed sweep took about $3.14 million from 431 accounts.
-- **May 30–July 13:** a second wave drained addresses associated with 522 seeds for about $2.55 million, including roughly $2.18 million USDT from one Tron account on July 4.
+- **May 30-July 13:** a second wave drained addresses associated with 522 seeds for about $2.55 million, including roughly $2.18 million USDT from one Tron account on July 4.
 - **Measured total through July 13:** $5,690,922 across the two waves.
 - **Monitored set:** 2,114 seeds with on-chain activity across Bitcoin, Ethereum, Tron, Rootstock, and Polygon.
 

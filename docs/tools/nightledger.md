@@ -46,7 +46,7 @@
 - Preserve both the malicious and legitimate DLLs and record their load paths before remediation.
 
 ## Public indicator
-- `A239E655709A2518DD0B7BDBED163679` — reported `sspicli.dll` file hash
+- `A239E655709A2518DD0B7BDBED163679`, reported `sspicli.dll` file hash
 
 ## Related pages
 - [Mirage Kitten](../actors/mirage-kitten.md)

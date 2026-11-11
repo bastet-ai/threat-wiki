@@ -53,14 +53,14 @@ The campaign is notable for surviving its first npm takedown in roughly 11 hours
 | 2026-07-05 to 2026-07-21 | The original package shipped 33 additional versions and remained installable for roughly two and a half weeks. |
 | 2026-07-21 21:00 | npm removed the original package and replaced it with `0.0.1-security`. |
 | 2026-07-22 08:04 | The operator republished the dropper as `@copilot-mcp/apex`. |
-| 2026-07-22 08:04–16:48 | More than 20 replacement versions were published while launcher behavior changed. |
+| 2026-07-22 08:04-16:48 | More than 20 replacement versions were published while launcher behavior changed. |
 | 2026-07-22 after 17:53 | npm removed the replacement package; registry requests returned `Not found`. |
 
 A July 23 public-registry check by threat.wiki confirmed that `@apexfdn/apex` resolved only to npm's `0.0.1-security` placeholder and that `@copilot-mcp/apex` returned HTTP 404. Registry removal does not establish whether cached tarballs, mirrors, private registries, cloned repositories, or downloaded release assets were removed.
 
 ## Delivery and execution chain
 1. Installation or `npx` execution ran `node install.cjs` through `postinstall`.
-2. The installer selected and downloaded a roughly 120–150 MB binary from `Apex-Foundation/copilot` GitHub release `v1.0.0`, not from the repository named in package metadata.
+2. The installer selected and downloaded a roughly 120-150 MB binary from `Apex-Foundation/copilot` GitHub release `v1.0.0`, not from the repository named in package metadata.
 3. The static release tag allowed its assets to be replaced without a new npm version. SafeDep observed release assets re-uploaded while replacement package versions were being published.
 4. On macOS, launcher variants fetched `loader.sh` directly, ran a compiled helper, or invoked the shell chain through `osascript`; later variants detached and suppressed output.
 5. The loader downloaded `payload.enc`, derived an AES-256-CBC key from an embedded upload token, decrypted the payload, and piped the plaintext to `osascript` without writing a separate plaintext script.
@@ -91,10 +91,10 @@ The LaunchAgent was a command channel rather than passive persistence: SafeDep r
 
 ## Indicators
 ### Packages and distribution
-- `@apexfdn/apex` — original malicious dropper; removed and replaced with `0.0.1-security`
-- `@copilot-mcp/apex` versions `1.0.0` through at least `1.0.22` — republished malicious dropper; removed
-- `@apexfdn/copilot-mcp` — payload-free same-operator front; treat as attacker-controlled
-- `hxxps://arena[.]apexfdn[.]xyz/api/copilot/mcp` — hosted remote MCP endpoint
+- `@apexfdn/apex`, original malicious dropper; removed and replaced with `0.0.1-security`
+- `@copilot-mcp/apex` versions `1.0.0` through at least `1.0.22`, republished malicious dropper; removed
+- `@apexfdn/copilot-mcp`, payload-free same-operator front; treat as attacker-controlled
+- `hxxps://arena[.]apexfdn[.]xyz/api/copilot/mcp`, hosted remote MCP endpoint
 - GitHub organization: `Apex-Foundation`
 - Weaponized binary repository: `Apex-Foundation/copilot`
 - Advertised source/front repository: `Apex-Foundation/copilot-mcp`
@@ -118,8 +118,8 @@ The LaunchAgent was a command channel rather than passive persistence: SafeDep r
 SafeDep described a Caddy reverse proxy in front of Uvicorn/FastAPI and a publicly exposed `/openapi.json`. Its route schema suggested a multi-tenant panel capable of provisioning campaign subdomains and upload tokens. Do not probe suspected attacker infrastructure during ordinary hunting; use preserved proxy, DNS, EDR, and passive-intelligence records.
 
 ### Files and hashes
-- `/tmp/osalogging.zip` — staged theft archive, deleted after successful upload
-- `/tmp/sync<random>/` — temporary collection directory
+- `/tmp/osalogging.zip`, staged theft archive, deleted after successful upload
+- `/tmp/sync<random>/`, temporary collection directory
 - `~/Library/LaunchAgents/com.system.notifications.agent.plist`
 - `~/Library/Application Support/System/System Notifications.app`
 - `payload.enc` SHA-256: `ecd1113fae1ede9869afd9d1af612bab7f1a2054e5c45a346e18c107c22b9164`

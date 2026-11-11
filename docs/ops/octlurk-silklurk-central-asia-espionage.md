@@ -53,7 +53,7 @@ The loader double-XOR-decrypts and zlib-decompresses its configuration and paylo
 The actor deployed LurkProxy through a similar obfuscated loader and a service such as `Cusrxsrv`. The observed implant listened on all interfaces on TCP/64980 and established a TLS-encrypted proprietary channel to `154.196.162[.]76`. Its static configuration selected either SOCKS5 reverse-proxy behavior or transparent forwarding; Kaspersky observed the SOCKS5 mode.
 
 ### SilkLurk
-SilkLurk used legitimate NVIDIA and Realtek executables—including `nvgwls.exe`, `NetSetSvc.exe`, `RtkSmbus.exe`, and `RtkNGUI64.exe`—to sideload malicious DLLs such as `vulkan-1.dll`, `nvml.dll`, `RtkSmbusLoc.dll`, or `RtkNGUI64Loc.dll`. The loader moved a payload such as `OneDrive.dat` to a victim-specific path and created an auto-start service such as `RmSs` with restart-on-failure behavior.
+SilkLurk used legitimate NVIDIA and Realtek executables,including `nvgwls.exe`, `NetSetSvc.exe`, `RtkSmbus.exe`, and `RtkNGUI64.exe`,to sideload malicious DLLs such as `vulkan-1.dll`, `nvml.dll`, `RtkSmbusLoc.dll`, or `RtkNGUI64Loc.dll`. The loader moved a payload such as `OneDrive.dat` to a victim-specific path and created an auto-start service such as `RmSs` with restart-on-failure behavior.
 
 SilkLurk hashes the computer name to decrypt the payload path, payload bytes, PE metadata, sections, relocations, and entry point before reflective injection. It supports up to four C2 endpoints and optional authenticated HTTP proxies. Commands can retrieve or update configuration and inject additional plugins directly into memory.
 
@@ -99,7 +99,7 @@ SilkLurk hashes the computer name to decrypt the payload path, payload bytes, PE
 - Review domain-controller access for `secretsdump` behavior, remote scheduled-task creation, service installation, and immediate Domain Controllers group enumeration.
 - Hunt the `AnyDesk.exe`/`dev0`/`dev1` keylogger path cluster, but distinguish it from legitimate AnyDesk by signer, path, hash, process behavior, and scheduled-task command.
 - Review `net use` access followed by recursive document discovery, share disconnection, and WinRAR/7-Zip execution from `Libraries` or `C:\windows\vss`.
-- If a loader is found, treat decryption failure in a sandbox as a reason to preserve victim context—not evidence that the file is benign.
+- If a loader is found, treat decryption failure in a sandbox as a reason to preserve victim context,not evidence that the file is benign.
 - Rotate domain, email, browser, and administrative credentials after containment; remove redundant backdoors and remote agents through a trusted rebuild where compromise scope is uncertain.
 
 ## Attribution notes

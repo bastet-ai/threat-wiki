@@ -3,7 +3,7 @@
 ## Summary
 **Dysphoria** is a rapidly evolving Linux IoT botnet jointly documented by CNCERT and QiAnXin XLab. Public reporting traces it from post-disruption JackSkid and fbot-derived samples into a hybrid DDoS and relay network that resolves infrastructure through Ethereum Name Service (ENS) and Solana Name Service (SNS) records, then hides controllers behind victim-operated relays.
 
-XLab reports more than 200,000 bots, 4,401 confirmed active devices in China from July 14–20, 2026, and a one-day peak of 239,000 active devices outside China. Treat those figures as source-reported estimates rather than a precise census: the report does not publish its counting or de-duplication methodology, and the overseas figure is partly complicated by infected hosts acting as C2 relays.
+XLab reports more than 200,000 bots, 4,401 confirmed active devices in China from July 14-20, 2026, and a one-day peak of 239,000 active devices outside China. Treat those figures as source-reported estimates rather than a precise census: the report does not publish its counting or de-duplication methodology, and the overseas figure is partly complicated by infected hosts acting as C2 relays.
 
 ## Tags
 - ops
@@ -37,11 +37,11 @@ XLab reports more than 200,000 bots, 4,401 confirmed active devices in China fro
 ## Evolution
 - **March 25:** XLab captured a JackSkid variant that resolved `m3rnbvs5d[.]eth`, six days after coordinated law-enforcement action against JackSkid infrastructure.
 - **April 1:** an fbot-derived build appeared.
-- **April 29–30:** samples added customized RC4-like string protection and enabled `ukranianhorseriding[.]eth`.
+- **April 29-30:** samples added customized RC4-like string protection and enabled `ukranianhorseriding[.]eth`.
 - **Early May:** the botnet added SNS resolution through `24carnforth2merseyside[.]sol`.
 - **June 10:** `burrberry[.]eth` appeared as an ENS infrastructure record.
 - **June 25:** XLab observed a separate relay-only build with the DDoS modules removed.
-- **June 27–28:** relay builds added automated UPnP mappings, while DDoS builds began retrieving dynamic victim-relay lists from distribution nodes.
+- **June 27-28:** relay builds added automated UPnP mappings, while DDoS builds began retrieving dynamic victim-relay lists from distribution nodes.
 
 ## Architecture and behavior
 ### Blockchain-assisted infrastructure resolution

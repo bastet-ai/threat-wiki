@@ -3,7 +3,7 @@
 ## Summary
 SafeDep reported a July 1, 2026 continuation of the `oob.moika.tech`-style dependency-confusion activity: npm user `marketfront` batch-published 25 `@marketfront/*` packages at version `7.0.0`, and npm user `t.tqm.mfe` published `@tqm-mfe/main` at versions `5.4.7` and `5.5.0` earlier the same day.
 
-The packages reused the campaign's durable lure string, `Internal package — Platform Engineering Team`, but the payload had evolved from broad `process.env` collection into an install-time credential-file harvester. Treat any developer workstation or CI runner that installed one of these packages as credential-compromised.
+The packages reused the campaign's durable lure string, `Internal package, Platform Engineering Team`, but the payload had evolved from broad `process.env` collection into an install-time credential-file harvester. Treat any developer workstation or CI runner that installed one of these packages as credential-compromised.
 
 ## Tags
 - ops
@@ -37,7 +37,7 @@ The packages reused the campaign's durable lure string, `Internal package — Pl
 - **Primary publisher:** npm user `marketfront`.
 - **Primary versions:** 25 packages at `7.0.0`.
 - **Sibling scope:** `@tqm-mfe/main`, published by npm user `t.tqm.mfe` at `5.4.7` and then `5.5.0` around `2026-07-01T17:12:57Z`.
-- **Durable lure marker:** `Internal package — Platform Engineering Team`.
+- **Durable lure marker:** `Internal package, Platform Engineering Team`.
 - **Install hook:** `postinstall: node scripts/postinstall.js`.
 - **Payload shape:** single-line `obfuscator.io`-style JavaScript around 182 KB, with sensitive strings hidden behind RC4 plus XOR.
 - **Exfil behavior:** gzip-compressed HTTPS POST to `/api/v1/events` with a custom `X-Secret` header, plus DNS resolver beaconing.
@@ -91,7 +91,7 @@ SafeDep reports the payload reads roughly 20 local credential and secret locatio
 The collected material is compressed and posted to `/api/v1/events` with an `X-Secret` header. SafeDep did not publish a resolved C2 hostname because the host was hidden behind RC4 plus XOR and was not recovered without executing the payload.
 
 ## Relationship to earlier waves
-SafeDep ties the July `@marketfront` / `@tqm-mfe` activity to the dependency-confusion template previously seen across `mr.4nd3r50n`, `pik-libs`, `t-in-one`, and `emcd-vue` accounts and documented in the `oob.moika.tech` campaign. The reusable marker is the README line `Internal package — Platform Engineering Team`, often paired with scope-parameterized decoy domains such as `github.<scope>.io`, `jira.<scope>.io`, `docs.<scope>.io`, and an internal-registry instruction.
+SafeDep ties the July `@marketfront` / `@tqm-mfe` activity to the dependency-confusion template previously seen across `mr.4nd3r50n`, `pik-libs`, `t-in-one`, and `emcd-vue` accounts and documented in the `oob.moika.tech` campaign. The reusable marker is the README line `Internal package, Platform Engineering Team`, often paired with scope-parameterized decoy domains such as `github.<scope>.io`, `jira.<scope>.io`, `docs.<scope>.io`, and an internal-registry instruction.
 
 The actor changed the payload underneath that marker:
 

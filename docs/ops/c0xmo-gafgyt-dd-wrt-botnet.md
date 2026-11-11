@@ -81,9 +81,9 @@ The scanner maintains blacklist and failure files to avoid selected ranges, know
 ## Public infrastructure
 Defang and validate these pivots in context; hosting addresses may be reassigned.
 
-- `85.215.131[.]70` — bot C2 reported by FortiGuard
-- `217.160.125[.]125:15527` — scanner and payload distribution
-- `176.100.37[.]91` — campaign IOC
+- `85.215.131[.]70`, bot C2 reported by FortiGuard
+- `217.160.125[.]125:15527`, scanner and payload distribution
+- `176.100.37[.]91`, campaign IOC
 
 FortiGuard also published a larger set of SHA-256 hashes in the source report. Prefer the complete vendor IOC list for blocking and retrospective hunting rather than copying an incomplete subset.
 

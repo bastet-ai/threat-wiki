@@ -1,7 +1,7 @@
 # Operation DangerousPassword axios npm compromise
 
 ## Summary
-ESET's May 28, 2026 APT activity report says Lazarus continued **Operation DangerousPassword** during Q4 2025–Q1 2026 and that the activity led to compromise of the widely used `axios` JavaScript library.
+ESET's May 28, 2026 APT activity report says Lazarus continued **Operation DangerousPassword** during Q4 2025-Q1 2026 and that the activity led to compromise of the widely used `axios` JavaScript library.
 
 According to ESET, attackers used compromised lead-maintainer credentials to publish malicious `axios` versions to npm. Socket's March 31, 2026 technical analysis identifies the poisoned npm releases as `axios@1.14.1` and `axios@0.30.4`, which pulled the malicious dependency `plain-crypto-js@4.2.1`. Because `axios` has more than 100 million weekly npm downloads and is embedded across web, mobile, and server-side JavaScript applications, the incident represents a high-blast-radius maintainer-account compromise with durable downstream cache and lockfile risk.
 
@@ -64,7 +64,7 @@ Hunt.io later published a reverse-engineering writeup that expands the payload a
 - Hunt.io attributed the infrastructure to TA444 / BlueNoroff (DPRK) based on overlaps including a shared ETag with a known JustJoin server, the same Hostwinds AS54290 subnet, and NukeSped malware classification. Keep that as Hunt.io's infrastructure assessment alongside ESET's Lazarus / Operation DangerousPassword framing.
 
 ## Defender heuristics
-- Inventory all `axios` versions installed from npm across source repositories, lockfiles, build systems, private registries, package caches, container images, and deployed artifacts around the Q4 2025–Q1 2026 window. Explicitly hunt for `axios@1.14.1`, `axios@0.30.4`, `plain-crypto-js@4.2.1`, and suspicious vendored copies of those packages.
+- Inventory all `axios` versions installed from npm across source repositories, lockfiles, build systems, private registries, package caches, container images, and deployed artifacts around the Q4 2025-Q1 2026 window. Explicitly hunt for `axios@1.14.1`, `axios@0.30.4`, `plain-crypto-js@4.2.1`, and suspicious vendored copies of those packages.
 - Prefer registry provenance, signed publish metadata, package-integrity hashes, and reproducible-build comparisons where available; do not rely only on current npm package state after removal.
 - Review npm, GitHub, SSO, cloud, and CI/CD audit logs for unusual maintainer-token use, package-publish events, release automation changes, unexpected two-factor resets, and new automation tokens.
 - Rebuild affected applications from known-good dependency sets after cache eviction; stale lockfiles or private mirrors can continue serving removed malicious versions.

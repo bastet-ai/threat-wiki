@@ -3,7 +3,7 @@
 ## Summary
 **Velvet Ant** is a China-nexus threat actor tracked by Sygnia across multiple long-running intrusion investigations. Sygnia's June 2026 **Operation Highland** report describes a near-decade presence in an internal, non-internet-connected network where Velvet Ant replaced Linux PAM and OpenSSH components with backdoored versions for authentication bypass, credential capture, keylogging, and durable access.
 
-This profile is intentionally sourced to Sygnia's public reporting. Use it to connect Velvet Ant's repeated preference for less-monitored infrastructure—F5 BIG-IP, Cisco Nexus, Linux authentication stacks, and segmented management paths—without merging unrelated China-nexus activity unless a primary source supports the link.
+This profile is intentionally sourced to Sygnia's public reporting. Use it to connect Velvet Ant's repeated preference for less-monitored infrastructure,F5 BIG-IP, Cisco Nexus, Linux authentication stacks, and segmented management paths,without merging unrelated China-nexus activity unless a primary source supports the link.
 
 ## Tags
 - group

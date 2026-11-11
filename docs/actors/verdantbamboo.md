@@ -29,9 +29,9 @@ Volexity's June 2026 incident-response writeup describes VerdantBamboo maintaini
 - After initial remediation, VerdantBamboo returned by using stolen administrative credentials against the victim firewall, configuring web SSL VPN access, pivoting internally, and deploying PLENET to a Synology NAS.
 
 ## Malware families reported by Volexity
-- **BRICKSTORM** — primary VerdantBamboo implant observed on Linux and FreeBSD appliances, including a pfSense firewall sample. Volexity describes modular task-based construction, WebSocket / proxying behavior, and customized appliance persistence.
-- **PLENET / GRIMBOLT** — cross-platform .NET Core backdoor compiled with Native AOT; Volexity observed it on a Linux-based Synology NAS and Google had previously used the GRIMBOLT name in UNC6201 reporting.
-- **AGENTPSD** — Python backdoor compiled to a binary with limited functionality; Volexity assesses with high confidence that it served as a fallback if BRICKSTORM stopped functioning.
+- **BRICKSTORM**, primary VerdantBamboo implant observed on Linux and FreeBSD appliances, including a pfSense firewall sample. Volexity describes modular task-based construction, WebSocket / proxying behavior, and customized appliance persistence.
+- **PLENET / GRIMBOLT**, cross-platform .NET Core backdoor compiled with Native AOT; Volexity observed it on a Linux-based Synology NAS and Google had previously used the GRIMBOLT name in UNC6201 reporting.
+- **AGENTPSD**, Python backdoor compiled to a binary with limited functionality; Volexity assesses with high confidence that it served as a fallback if BRICKSTORM stopped functioning.
 
 ## Defender notes
 - Treat internet-facing and management-plane appliances as Tier-0 intrusion surfaces when they can proxy into identity, cloud, or virtualization environments.

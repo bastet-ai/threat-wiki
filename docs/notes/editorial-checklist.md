@@ -3,7 +3,7 @@
 Use this before publishing a new page or major update.
 
 ## Basics
-- [ ] Title is short and specific
+- [ ] Title is short and specific: max 100 characters, no em-dashes/en-dashes (hard rule; `python3 scripts/audit_titles.py --check` enforces it in `scripts/build.sh`). Nav titles and H1s carry the NAME, not the thesis; the thesis belongs in the opening paragraph.
 - [ ] Links are clickable Markdown links
 - [ ] Sources are linked inline
 - [ ] Page has the right section (Groups / People / Ops / Tools / Patterns / Notes / Blog)

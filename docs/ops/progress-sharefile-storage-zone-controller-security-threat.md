@@ -5,7 +5,7 @@ Progress confirmed on July 10, 2026 that ShareFile customers running **Storage Z
 
 The public record was still incomplete at publication time: Progress had not tied the July 10 shutdown to a specific actor, exploit path, or confirmed data access. The durable defender value is the operational signal. A vendor-directed shutdown of internet-facing file-transfer edge controllers should be handled as potential compromise until Progress publishes enough detail to scope otherwise.
 
-Important context: watchTowr had previously disclosed a pre-authentication RCE chain in the 5.x Storage Zone Controller branch — **CVE-2026-2699** authentication bypass chained with **CVE-2026-2701** post-authentication RCE — fixed in **5.12.4**. That earlier research is not proof of the July 10 threat path, but it gives defenders concrete exposure and web-shell-hunting pivots for any internet-facing controller that was not already rebuilt or upgraded.
+Important context: watchTowr had previously disclosed a pre-authentication RCE chain in the 5.x Storage Zone Controller branch, **CVE-2026-2699** authentication bypass chained with **CVE-2026-2701** post-authentication RCE, fixed in **5.12.4**. That earlier research is not proof of the July 10 threat path, but it gives defenders concrete exposure and web-shell-hunting pivots for any internet-facing controller that was not already rebuilt or upgraded.
 
 ## Tags
 - ops
@@ -48,14 +48,14 @@ At publication time, Progress had not publicly tied the July 10 threat to the cr
 
 The earlier watchTowr chain is still operationally relevant:
 
-- **CVE-2026-2699 / WT-2026-0006** — authentication-bypass behavior in branch 5.x Storage Zone Controller, with watchTowr's non-destructive detection artifact checking anomalous pre-authenticated access to `Admin.aspx`.
-- **CVE-2026-2701 / WT-2026-0007** — post-authentication RCE that watchTowr chained after bypassing authentication to control upload paths and place a web shell under storage-zone file paths.
+- **CVE-2026-2699 / WT-2026-0006**, authentication-bypass behavior in branch 5.x Storage Zone Controller, with watchTowr's non-destructive detection artifact checking anomalous pre-authenticated access to `Admin.aspx`.
+- **CVE-2026-2701 / WT-2026-0007**, post-authentication RCE that watchTowr chained after bypassing authentication to control upload paths and place a web shell under storage-zone file paths.
 - watchTowr identified the issue in `StorageCenter_5.12.3`; Progress released **5.12.4** on March 10, 2026 to remediate the reported chain.
 - watchTowr estimated roughly **30,000** internet-facing Storage Zone Controller deployments, making stale or partially remediated exposure attractive for opportunistic and targeted actors.
 
 ## Defender heuristics
 - Follow Progress's shutdown instruction first. Keep affected Storage Zone Controllers offline until Progress publishes restart conditions or a mitigation path.
-- Confirm controller versions are current — The Hacker News points to `5.12.4` or later on the 5.x line, or a 6.x release — but do not treat patch currency alone as authorization to bring systems back online while the vendor incident remains unresolved.
+- Confirm controller versions are current, The Hacker News points to `5.12.4` or later on the 5.x line, or a 6.x release, but do not treat patch currency alone as authorization to bring systems back online while the vendor incident remains unresolved.
 - For 5.x controllers, specifically test exposure to CVE-2026-2699 using only safe validation. Do **not** run RCE-chain proof-of-concept code against production controllers; web-shell-capable upload tests can create availability and evidence-integrity problems.
 - If a controller was internet-exposed, start incident response rather than routine maintenance. Preserve IIS logs, Windows event logs, ShareFile controller logs, web directories, storage-zone paths, scheduled tasks, services, PowerShell history, and network telemetry before cleanup.
 - Hunt for unfamiliar `.aspx` files, unexpected writable web paths, Storage Zone Controller upload paths resembling `files/ul-<uploadid>/`, new local users, unknown services, suspicious scheduled tasks, archive/exfiltration tooling, and outbound connections from the controller to unusual infrastructure.

@@ -43,12 +43,12 @@
 - Per-user variants mean a sample that exits in a sandbox is not proof of benign behavior; preserve and test with the victim context isolated from production.
 
 ## Public indicators
-- `6038D42AF0AFFD1FB263F470C0956F6B` — `unbcl.dll`
-- `AE628EFA305387B633DCE82F9364875B` — `unbcl.dll`
-- `F7D36CC5904A53252D2BB3D21615134F` — `libwinpthread-1.dll`
-- `C90F0EFADBF322E5EB1C4103A38C30E6` — `libwinpthread-1.dll`
-- `D09B14A2FE01C7363ECC56F5D046162C` — `IPHLPAPI.dll`
-- `C832ECD135781B11F59E3FFFB3D2B6AC` — separately described WSS variant
+- `6038D42AF0AFFD1FB263F470C0956F6B`, `unbcl.dll`
+- `AE628EFA305387B633DCE82F9364875B`, `unbcl.dll`
+- `F7D36CC5904A53252D2BB3D21615134F`, `libwinpthread-1.dll`
+- `C90F0EFADBF322E5EB1C4103A38C30E6`, `libwinpthread-1.dll`
+- `D09B14A2FE01C7363ECC56F5D046162C`, `IPHLPAPI.dll`
+- `C832ECD135781B11F59E3FFFB3D2B6AC`, separately described WSS variant
 
 ## Related pages
 - [Mirage Kitten](../actors/mirage-kitten.md)

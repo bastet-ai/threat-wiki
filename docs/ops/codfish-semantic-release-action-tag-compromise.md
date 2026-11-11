@@ -1,7 +1,7 @@
 # codfish semantic-release-action tag compromise
 
 ## Summary
-StepSecurity reported that on June 24, 2026 an attacker compromised the `codfish/semantic-release-action` GitHub repository and force-pushed a malicious commit, `6b9501e1889cc45c91726729610cf69c2442b8c5` (`6b9501e`). StepSecurity says seven existing version tags — `v1.6.1`, `v1.6.2`, `v1.7.0`, `v1.8.0`, `v1.9.0`, `v2.0.0`, and `v2.2.1` — were repointed to that commit at `2026-06-24 15:39:06 UTC`, so downstream workflows using those mutable tags executed attacker-controlled code on their next run.
+StepSecurity reported that on June 24, 2026 an attacker compromised the `codfish/semantic-release-action` GitHub repository and force-pushed a malicious commit, `6b9501e1889cc45c91726729610cf69c2442b8c5` (`6b9501e`). StepSecurity says seven existing version tags, `v1.6.1`, `v1.6.2`, `v1.7.0`, `v1.8.0`, `v1.9.0`, `v2.0.0`, and `v2.2.1`, were repointed to that commit at `2026-06-24 15:39:06 UTC`, so downstream workflows using those mutable tags executed attacker-controlled code on their next run.
 
 The payload converted the action from a Docker action to a composite action that installed Bun with `oven-sh/setup-bun@v2` and ran a heavily obfuscated JavaScript payload with `if: always()`. StepSecurity's initial analysis says the payload targeted GitHub Actions OIDC tokens and GitHub personal access tokens, encrypted collected material with AES-128-GCM, and attempted to propagate a backdoor into repositories reachable with stolen credentials.
 

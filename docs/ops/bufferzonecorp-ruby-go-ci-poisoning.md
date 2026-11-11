@@ -34,8 +34,8 @@ Socket and The Hacker News reported these Ruby gems as associated with the campa
 - `knot-rack-session-store`
 - `knot-rails-assets-pipeline`
 - `knot-rspec-formatter-json`
-- `knot-date-utils-rb` — reported as a sleeper gem
-- `knot-simple-formatter` — reported as a sleeper gem
+- `knot-date-utils-rb`, reported as a sleeper gem
+- `knot-simple-formatter`, reported as a sleeper gem
 
 The names impersonate familiar Rails/Rack/devise/formatter utilities by adding a `knot-` prefix while preserving recognizable developer-tool semantics.
 
@@ -49,9 +49,9 @@ Reported Go modules under `github[.]com/BufferZoneCorp` included:
 - `grpc-client`
 - `net-helper`
 - `config-loader`
-- `log-core` — reported as a sleeper module
-- `go-envconfig` — reported as a sleeper module
-- `go-stdlog` — reported as public source with malicious reconnaissance logic, but not yet pushed to the Go module ecosystem at the time of Socket's writeup
+- `log-core`, reported as a sleeper module
+- `go-envconfig`, reported as a sleeper module
+- `go-stdlog`, reported as public source with malicious reconnaissance logic, but not yet pushed to the Go module ecosystem at the time of Socket's writeup
 
 These names mimic common Go library patterns and, in several cases, resemble known packages such as `go-retryablehttp` and `envconfig`.
 

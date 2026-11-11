@@ -32,9 +32,9 @@ Track this as an operation because the durable defender lesson is browser-extens
 - Socket downloaded and SHA-256-verified `js/bg.js` for 141 extensions; the remaining 11 were already delisted when Socket checked.
 - Across the 141 live listings, Socket observed the same template across **38 publisher accounts**.
 - Socket highlighted three shared brand backends:
-  - `tabplugins[.]com` — 109 analyzed extensions, including the newer template with forged Google attribution and cloaked uninstall redirect.
-  - `yowgames[.]com` — 19 extensions, using a games-themed front without the forged Google attribution.
-  - `chromewallpaper[.]com` — 13 extensions, structurally similar to the `yowgames` variant.
+  - `tabplugins[.]com`, 109 analyzed extensions, including the newer template with forged Google attribution and cloaked uninstall redirect.
+  - `yowgames[.]com`, 19 extensions, using a games-themed front without the forged Google attribution.
+  - `chromewallpaper[.]com`, 13 extensions, structurally similar to the `yowgames` variant.
 
 ### Traffic laundering
 - The `tabplugins[.]com` service worker hardcoded install and uninstall URLs.

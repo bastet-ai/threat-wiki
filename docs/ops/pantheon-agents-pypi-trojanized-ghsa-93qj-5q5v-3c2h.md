@@ -26,7 +26,7 @@ This page captures the durable operational and remediation detail from the first
 ## Key facts from the advisory
 - **Affected:** `pantheon-agents` **0.6.1** and **0.6.2** on PyPI (vulnerable range `>= 0.6.1, <= 0.6.2`).
 - **Not affected:** installs from the GitHub source, version **0.6.0 and earlier**, and the maintainer's Desktop / Online apps.
-- **Root cause:** a stolen, long-lived PyPI API token used to upload the malicious wheels — a **maintainer / publisher-account compromise**, not a flaw in the package's code.
+- **Root cause:** a stolen, long-lived PyPI API token used to upload the malicious wheels, a **maintainer / publisher-account compromise**, not a flaw in the package's code.
 - **Distribution:** PyPI distribution is suspended; it will resume after account recovery and migration to **PyPI Trusted Publishing (OIDC)**.
 
 ## Attack behavior
@@ -41,13 +41,13 @@ This page captures the durable operational and remediation detail from the first
 - A **Bun runtime** under `~/.bun` that was not intentionally installed.
 
 ## Impact assessment
-Anyone who `pip install`ed `pantheon-agents` 0.6.1 or 0.6.2 should **assume every credential present on that machine has been exfiltrated** — environment variables, registry tokens, cloud credentials, and SSH keys are all in scope.
+Anyone who `pip install`ed `pantheon-agents` 0.6.1 or 0.6.2 should **assume every credential present on that machine has been exfiltrated**, environment variables, registry tokens, cloud credentials, and SSH keys are all in scope.
 
 ## Remediation
 1. **Do not install `pantheon-agents` from PyPI** until distribution resumes.
 2. If 0.6.1 or 0.6.2 was installed:
    - Run `pip uninstall pantheon-agents` immediately and check for the IoCs above.
-   - **Rotate every credential** that was present on that machine (API keys, tokens, SSH keys, cloud credentials) — but only after containing the host and removing the persistence artifacts.
+   - **Rotate every credential** that was present on that machine (API keys, tokens, SSH keys, cloud credentials), but only after containing the host and removing the persistence artifacts.
 3. Install only from the clean GitHub source:
    ```
    pip install "git+https://github.com/aristoteleo/PantheonOS.git"
@@ -63,7 +63,7 @@ The PyPI account is **suspended** and the malicious token has been **disabled**.
 - A **first-party GHSA** turns a vendor-tracked supply-chain incident into a citable, durable advisory with a defined affected range, a clean-source fallback, and a specific root cause (stolen long-lived PyPI token).
 - It confirms the **Hades lineage's PyPI delivery shape** (`.pth` startup hook → Bun → `_index.js` stealer) in the wild with a named, remediated victim, strengthening hunts for that exact artifact shape across other affected packages.
 - The **Trusted Publishing (OIDC)** migration is the reusable lesson: replace long-lived publisher API tokens with OIDC-bound publishing so a stolen token cannot be used to republish poisoned versions.
-- Because the compromise is at the **publisher-account** level, sibling packages by the same maintainer are in scope even if the originally installed package is clean — defenders should audit every package the affected maintainer publishes.
+- Because the compromise is at the **publisher-account** level, sibling packages by the same maintainer are in scope even if the originally installed package is clean, defenders should audit every package the affected maintainer publishes.
 
 ## Related pages
 - [binding.gyp npm CI/CD worm (Miasma / Mini Shai-Hulud / Hades)](binding-gyp-npm-cicd-worm.md)

@@ -35,7 +35,7 @@ The Hacker News amplified the research on July 1, 2026. Treat this as a pattern 
 - Compromised WordPress sites remain a common delivery layer, so website-exposure management and endpoint telemetry both matter.
 
 ## Operational characteristics
-- **Technique:** ClickFix maps to MITRE ATT&CK `T1204.004` — User Execution: Malicious Copy and Paste. Victims are instructed to prove they are human, fix an error, or complete a fake verification by pasting a command the page silently wrote to the clipboard.
+- **Technique:** ClickFix maps to MITRE ATT&CK `T1204.004`, User Execution: Malicious Copy and Paste. Victims are instructed to prove they are human, fix an error, or complete a fake verification by pasting a command the page silently wrote to the clipboard.
 - **Delivery paths:** Pals described targeted email-driven ClickFix infrastructure and broader browsing-based infections, often through compromised WordPress sites or vulnerable plugins that inject fake CAPTCHA overlays.
 - **Localization:** reviewed ClickFix JavaScript supported visitor-language delivery across 25 languages.
 - **Execution flows:** older pages guide victims through `Win+R`; newer flows guide victims through `Win+X`, selecting Terminal, and letting PowerShell execute inside Windows Terminal.

@@ -69,41 +69,41 @@ SentinelOne reports three notable `cms_plugin.exe` findings around the Balochist
 
 ## Indicators
 ### IP addresses
-- `142.171.183[.]8` — Cobalt Strike C2
-- `172.111.233[.]105` — PlugX C2
-- `172.111.233[.]12` — PlugX C2
-- `172.111.233[.]26` — PlugX C2
-- `172.111.233[.]36` — PlugX C2
-- `172.111.233[.]96` — PlugX C2
-- `172.94.9[.]19` — PlugX C2
-- `172.94.9[.]43` — PlugX C2
-- `172.94.9[.]49` — PlugX C2
-- `193.42.25[.]65` — Cobalt Strike C2 / `cms_plugin.exe` staging
-- `41.216.188[.]140` — AsyncRAT C2
-- `45.125.32[.]218` — ShadowPad C2
-- `45.74.6[.]17` — PlugX C2
-- `89.31.121[.]220` — Remcos C2
+- `142.171.183[.]8`, Cobalt Strike C2
+- `172.111.233[.]105`, PlugX C2
+- `172.111.233[.]12`, PlugX C2
+- `172.111.233[.]26`, PlugX C2
+- `172.111.233[.]36`, PlugX C2
+- `172.111.233[.]96`, PlugX C2
+- `172.94.9[.]19`, PlugX C2
+- `172.94.9[.]43`, PlugX C2
+- `172.94.9[.]49`, PlugX C2
+- `193.42.25[.]65`, Cobalt Strike C2 / `cms_plugin.exe` staging
+- `41.216.188[.]140`, AsyncRAT C2
+- `45.125.32[.]218`, ShadowPad C2
+- `45.74.6[.]17`, PlugX C2
+- `89.31.121[.]220`, Remcos C2
 
 ### SHA-1 hashes
-- `000fad96a85dd6933c22d3dbec9aed47b7f1f066` — TAG-179 backdoor launcher
-- `08570471f39bb6725f07b8cddbea99ed48c22686` — TAG-179 backdoor launcher
-- `23f4766c011d193f076dfc735dc460e2a41ead79` — TAG-179 backdoor launcher
-- `23f6781919a50b118d8d4e6a7e9ae63b71ecc885` — `cms_plugin.exe`
-- `2bab40c55637398f0497cff9c8cbea564d595c7f` — TAG-179 lure file
-- `4039454c9189e64285e93fc075a30b93f814b5b5` — `cms_plugin.exe`
-- `47f8cb0c2dcf62702f58cfc1603d6325755f6820` — TAG-179 backdoor launcher
-- `539bd79fbb684edea94eb37518134b97e94b9dd8` — TAG-179 lure file
-- `58cb2d95063b9df807b7aa8dc106b74ce988a491` — `cms_plugin.exe`
-- `5d60ff36ff519c2e13e7f66cfa0bb46be79592a7` — TAG-179 backdoor
-- `63b88d00331de88af696dfb7a896935d830e485f` — TAG-179 backdoor
-- `6fe2e74d009abbd56de01fd7404a1245e9b47c79` — TAG-179 lure file
-- `71757adba833b46f961e840d0f055bcce0b529c4` — TAG-179 lure file
-- `8c329db96e093fa25268e078405a33c518dbb5c9` — TAG-179 backdoor
-- `c6c197e61079a0a33108c2c87b5e3c7056a138ec` — TAG-179 lure file
-- `d66ab0cd2e44dc8389c111b7ed34c7bcb0b35311` — TAG-179 backdoor
+- `000fad96a85dd6933c22d3dbec9aed47b7f1f066`, TAG-179 backdoor launcher
+- `08570471f39bb6725f07b8cddbea99ed48c22686`, TAG-179 backdoor launcher
+- `23f4766c011d193f076dfc735dc460e2a41ead79`, TAG-179 backdoor launcher
+- `23f6781919a50b118d8d4e6a7e9ae63b71ecc885`, `cms_plugin.exe`
+- `2bab40c55637398f0497cff9c8cbea564d595c7f`, TAG-179 lure file
+- `4039454c9189e64285e93fc075a30b93f814b5b5`, `cms_plugin.exe`
+- `47f8cb0c2dcf62702f58cfc1603d6325755f6820`, TAG-179 backdoor launcher
+- `539bd79fbb684edea94eb37518134b97e94b9dd8`, TAG-179 lure file
+- `58cb2d95063b9df807b7aa8dc106b74ce988a491`, `cms_plugin.exe`
+- `5d60ff36ff519c2e13e7f66cfa0bb46be79592a7`, TAG-179 backdoor
+- `63b88d00331de88af696dfb7a896935d830e485f`, TAG-179 backdoor
+- `6fe2e74d009abbd56de01fd7404a1245e9b47c79`, TAG-179 lure file
+- `71757adba833b46f961e840d0f055bcce0b529c4`, TAG-179 lure file
+- `8c329db96e093fa25268e078405a33c518dbb5c9`, TAG-179 backdoor
+- `c6c197e61079a0a33108c2c87b5e3c7056a138ec`, TAG-179 lure file
+- `d66ab0cd2e44dc8389c111b7ed34c7bcb0b35311`, TAG-179 backdoor
 
 ### URL
-- `https[://]cms.balochistanpolice[.]gov[.]pk/client%20scripts/cms_plugin.exe` — implant-hosting URL on the Balochistan Police CMS portal
+- `https[://]cms.balochistanpolice[.]gov[.]pk/client%20scripts/cms_plugin.exe`, implant-hosting URL on the Balochistan Police CMS portal
 
 ## Related pages
 - [UAT-7810 LONGLEASH ORB network expansion](uat-7810-longleash-orb-network.md)

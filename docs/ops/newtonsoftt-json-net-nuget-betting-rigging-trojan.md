@@ -47,9 +47,9 @@ The legitimate package is `Newtonsoft.Json`, not `Newtonsoftt.Json.Net`.
 ### Package camouflage and load path
 The malicious package claimed author `James Newton-King`, linked to the legitimate Newtonsoft project, and used plausible-looking 11.0.x versions. Under `lib/net8.0/`, it bundled:
 
-- `Newtonsoft.Json.net.dll` — a trojanized `Newtonsoft.Json` 13.0.3 fork;
-- `Newtonsoft.Values.Net.dll` — the malicious payload;
-- `0Harmony.dll` — the legitimate HarmonyLib patching library.
+- `Newtonsoft.Json.net.dll`, a trojanized `Newtonsoft.Json` 13.0.3 fork;
+- `Newtonsoft.Values.Net.dll`, the malicious payload;
+- `0Harmony.dll`, the legitimate HarmonyLib patching library.
 
 Because NuGet references assemblies under the target framework's `lib` directory, applications loaded the added components alongside the working JSON implementation. Package metadata also exposed an internal Digitain TFS URL referring to `BetOnGames / FG-Crash`, strengthening the target-specific assessment.
 

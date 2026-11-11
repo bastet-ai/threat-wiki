@@ -57,7 +57,7 @@ FakeGit builds credibility through several layers:
 2. Publish it from a lookalike profile, sometimes differing from a legitimate developer name by one character.
 3. Add familiar documentation, modest stars or forks, and a plausible enterprise or developer use case.
 4. Present a ZIP archive as the release, installer, Skill, plugin, or MCP server.
-5. Tell the user—or an AI assistant acting as an installation guide—to extract and run it.
+5. Tell the user,or an AI assistant acting as an installation guide,to extract and run it.
 
 Island's `45d5r/databricks-mcp-server` example advertised 263 Databricks tools, but its ZIP contained only a command launcher, `luau.exe`, and `ico64.txt`. The launcher ran:
 

@@ -1,7 +1,7 @@
 # JWR phishing framework (likely The Outsider variant)
 
 ## Summary
-Cisco Talos identified an undocumented phishing framework, internally branded **JWR** by its developer, that impersonates checkout and login pages for major payment and shopping platforms (Shopify, PayPal, Apple, Klarna, banks). Unlike a static credential-stealing page, the JWR client engine keeps a live **AES-CTR encrypted WebSocket** open to the operator so each victim's session can be steered in real time. It harvests payment data, identity documents, Social Security numbers, passport/driver's-license images, site and PayPal credentials, 2FA codes, and full device fingerprints — all committed to the actor's server when a session ends.
+Cisco Talos identified an undocumented phishing framework, internally branded **JWR** by its developer, that impersonates checkout and login pages for major payment and shopping platforms (Shopify, PayPal, Apple, Klarna, banks). Unlike a static credential-stealing page, the JWR client engine keeps a live **AES-CTR encrypted WebSocket** open to the operator so each victim's session can be steered in real time. It harvests payment data, identity documents, Social Security numbers, passport/driver's-license images, site and PayPal credentials, 2FA codes, and full device fingerprints, all committed to the actor's server when a session ends.
 
 Talos assesses with **medium confidence** that JWR is a variant of **The Outsider** phishing-as-a-service platform, based on shared client-engine scripts and functionality between the two PhaaS platforms.
 
@@ -29,7 +29,7 @@ Talos assesses with **medium confidence** that JWR is a variant of **The Outside
 
 ## Why this matters
 - JWR turns a phishing page into an interactive, operator-driven session: the attacker can watch keystrokes, redirect the victim, and re-target in real time rather than relying on one-shot form capture.
-- The data schema (`cvvform`) spans financial and identity-theft: card number, CVV, PIN, expiry, SSN, passport/ID images, 2FA codes, site logins, and PayPal credentials — a single compromise can fund both payment fraud and identity takeover.
+- The data schema (`cvvform`) spans financial and identity-theft: card number, CVV, PIN, expiry, SSN, passport/ID images, 2FA codes, site logins, and PayPal credentials, a single compromise can fund both payment fraud and identity takeover.
 - Delivery was observed via **SMS lures impersonating toll authorities and postal/courier services** across Southeast Asia and the Middle East, tying the framework to a smishing (SMS-phishing) initial-access channel.
 - If JWR is a variant of The Outsider, it extends the PhaaS surface already tracked in the [Outsider Enterprise smishing PhaaS](outsider-enterprise-smishing-phaas.md) page, giving operators a shared client-engine fingerprint to cluster.
 
@@ -50,7 +50,7 @@ Talos assesses with **medium confidence** that JWR is a variant of **The Outside
 
 ## Defender heuristics
 - Treat unsolicited SMS links for tolls, postal/courier exceptions, account alerts, and payment claims as hostile; verify through the official app or a typed domain.
-- Cluster new payment/checkout phishing URLs by page-template similarity, host, kit artifacts, and repeated lure copy rather than only the impersonated brand — JWR-style kits share a common 44-page engine.
+- Cluster new payment/checkout phishing URLs by page-template similarity, host, kit artifacts, and repeated lure copy rather than only the impersonated brand, JWR-style kits share a common 44-page engine.
 - Hunt for persistent WebSocket connections from browser sessions to non-first-party C2 hosts with AES-CTR framing; static form-capture pages do not hold a live encrypted channel.
 - For brand-protection and telecom-abuse teams, look for real-time operator steering signatures (keystroke streaming, mid-session redirects, 40+ instruction round-trips) that distinguish a live PhaaS session from a dead credential page.
 - Correlate JWR infrastructure against The Outsider / Outsider Enterprise client-engine fingerprints to determine whether these are the same operator or a shared PhaaS lineage.
@@ -62,4 +62,4 @@ Talos assesses with **medium confidence** that JWR is a variant of **The Outside
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 
 ## Sources
-- Cisco Talos: [Dissecting the JWR phishing framework](https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/) — August 13, 2026
+- Cisco Talos: [Dissecting the JWR phishing framework](https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/), August 13, 2026

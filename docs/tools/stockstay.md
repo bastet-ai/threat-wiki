@@ -36,11 +36,11 @@ GTIG assesses that Turla has developed and deployed STOCKSTAY since at least Dec
 - The C2 path uses secure WebSockets and third-party hosting / web-service platforms; detection should combine process lineage, configuration artifacts, run keys, and `wss://` destinations.
 
 ## Components
-- **STOCKSTAY.STOCKBROKER** (`net`) — proxy-aware tunneler that establishes a secure WebSocket connection and relays C2 traffic between the server and the orchestrator.
-- **STOCKSTAY.STOCKMARKET** (`cor`) — orchestrator that loads encrypted configuration, coordinates components over `WM_COPYDATA` IPC, generates a 4096-bit RSA key pair on first execution, sends the implant public key to C2, and uses an infection identifier for tasking.
-- **STOCKSTAY.STOCKTRADER** (`sys`) — host backdoor supporting file, registry, process-execution, screen-capture, archive, and system-survey operations.
-- **STOCKSTAY.MARKETMAKER** — proxy-aware downloader that retrieves and extracts additional payloads, establishes registry-run persistence, and has been observed masquerading as `MicrosoftUpdateOneDrive`.
-- **Server-side controller** — GTIG found a public GitHub repository containing a Python victim-facing STOCKSTAY WebSocket server controller, consistent with lightweight third-party hosting use.
+- **STOCKSTAY.STOCKBROKER** (`net`), proxy-aware tunneler that establishes a secure WebSocket connection and relays C2 traffic between the server and the orchestrator.
+- **STOCKSTAY.STOCKMARKET** (`cor`), orchestrator that loads encrypted configuration, coordinates components over `WM_COPYDATA` IPC, generates a 4096-bit RSA key pair on first execution, sends the implant public key to C2, and uses an infection identifier for tasking.
+- **STOCKSTAY.STOCKTRADER** (`sys`), host backdoor supporting file, registry, process-execution, screen-capture, archive, and system-survey operations.
+- **STOCKSTAY.MARKETMAKER**, proxy-aware downloader that retrieves and extracts additional payloads, establishes registry-run persistence, and has been observed masquerading as `MicrosoftUpdateOneDrive`.
+- **Server-side controller**, GTIG found a public GitHub repository containing a Python victim-facing STOCKSTAY WebSocket server controller, consistent with lightweight third-party hosting use.
 
 ## Backdoor capabilities reported by GTIG
 - Delete files or directories (`Del`, `RmDir`).

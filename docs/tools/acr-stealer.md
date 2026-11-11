@@ -66,14 +66,14 @@ Microsoft reports both campaigns target:
 - `apigrokcloud[.]icu`
 
 ### Campaign 2 C2 / staging domains
-- `enhanceblabber[.]cc` — C2 domain
-- `deep-harborio[.]com` — first-stage payload hosting
-- `auramatrixa[.]com` — first-stage payload hosting
-- `zealpraxis[.]com` — first-stage payload hosting
-- `prism-vertex[.]com` — first-stage payload hosting
-- `prism-matrixs[.]com` — first-stage payload hosting
-- `proton-network[.]com` — first-stage payload hosting
-- `creativecommunityinfo[.]art` — payload hosting
+- `enhanceblabber[.]cc`, C2 domain
+- `deep-harborio[.]com`, first-stage payload hosting
+- `auramatrixa[.]com`, first-stage payload hosting
+- `zealpraxis[.]com`, first-stage payload hosting
+- `prism-vertex[.]com`, first-stage payload hosting
+- `prism-matrixs[.]com`, first-stage payload hosting
+- `proton-network[.]com`, first-stage payload hosting
+- `creativecommunityinfo[.]art`, payload hosting
 
 ## Defender heuristics
 - Treat ClickFix prompts that ask users to paste/run shell commands as malware delivery, especially when command history shows `cmd.exe`, `powershell.exe`, `rundll32.exe`, `mshta.exe`, remote HTTPS paths, or `@ssl` WebDAV syntax.

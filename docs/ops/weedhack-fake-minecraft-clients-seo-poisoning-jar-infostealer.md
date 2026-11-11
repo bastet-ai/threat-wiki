@@ -1,7 +1,7 @@
 # Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer
 
 ## Summary
-McAfee Labs (via The Hacker News, August 24, 2026) reported that several lookalike websites are **still actively distributing the Weedhack malware family** to gamers, masquerading as Minecraft clients. McAfee detected and blocked **more than 6,300 attempts** to reach malicious sites. Weedhack was first documented by McAfee in **June 2026**; it uses **SEO poisoning and YouTube** to redirect traffic to bogus domains that replicate legitimate Minecraft projects — including branding, feature lists, FAQs, installation guides, developer credits, and links to genuine GitHub repositories. The attack is a multi-stage sequence ending in **JAR payloads** that collect system information, **configure Microsoft Defender exclusions**, and steal sensitive data. Notably, **one malicious site was built with Lovable**, an AI-powered website builder — further lowering the barrier to convincing malicious infrastructure. Nearly half of the identified malicious URLs were **Discord links (49.6%)**, followed by **MediaFire (23.4%)** and **GitHub (8.2%)**, showing attackers leveraging familiar platforms alongside fake sites.
+McAfee Labs (via The Hacker News, August 24, 2026) reported that several lookalike websites are **still actively distributing the Weedhack malware family** to gamers, masquerading as Minecraft clients. McAfee detected and blocked **more than 6,300 attempts** to reach malicious sites. Weedhack was first documented by McAfee in **June 2026**; it uses **SEO poisoning and YouTube** to redirect traffic to bogus domains that replicate legitimate Minecraft projects, including branding, feature lists, FAQs, installation guides, developer credits, and links to genuine GitHub repositories. The attack is a multi-stage sequence ending in **JAR payloads** that collect system information, **configure Microsoft Defender exclusions**, and steal sensitive data. Notably, **one malicious site was built with Lovable**, an AI-powered website builder, further lowering the barrier to convincing malicious infrastructure. Nearly half of the identified malicious URLs were **Discord links (49.6%)**, followed by **MediaFire (23.4%)** and **GitHub (8.2%)**, showing attackers leveraging familiar platforms alongside fake sites.
 
 ## Tags
 - ops
@@ -42,15 +42,15 @@ McAfee Labs (via The Hacker News, August 24, 2026) reported that several lookali
 ## Payload behavior
 - Multi-stage download sequence culminating in a **JAR payload** (Java execution chain on Windows).
 - The JAR **collects system information** and **steals sensitive data** (infostealer behavior).
-- It **sets Microsoft Defender exclusions** — a deliberate AV-evasion step that also leaves a strong forensic artifact.
+- It **sets Microsoft Defender exclusions**, a deliberate AV-evasion step that also leaves a strong forensic artifact.
 - Initial documentation (June 2026) confirmed SEO poisoning + YouTube as the primary redirect vectors.
 
 ## Defender heuristics
-1. **Hunt Microsoft Defender exclusion creation from Java/JAR processes** — a `java` process modifying Defender exclusion paths is a Weedhack signature (and a general gaming-malware indicator).
+1. **Hunt Microsoft Defender exclusion creation from Java/JAR processes**, a `java` process modifying Defender exclusion paths is a Weedhack signature (and a general gaming-malware indicator).
 2. **Scope URL reputation to the abused platforms:** Discord, MediaFire, and GitHub links are the primary payload carriers, so domain-level blocklists of the fake Minecraft sites miss most of the traffic.
 3. **Validate download destinations for gaming tools:** check that a "Minecraft client/mod" download resolves to the project's canonical domain (compare against the genuine GitHub/official site), and treat `github[.]io` lookalikes and `.lovable[.]app` subdomains as hostile in gaming contexts.
-4. **Treat AI-builder lookalikes as a new infrastructure class:** Lovable/`lovable[.]app` and similar builder-hosted domains are cheap, disposable, and convincing — add builder-platform domains to phishing/typosquat watchlists.
-5. **Monitor search rankings for your org's tool names** — if your project is a Minecraft-adjacent name (or any widely searched tool name), check whether SEO-poisoned lookalikes hold top results on major engines; Weedhack's fakes are still live and ranking.
+4. **Treat AI-builder lookalikes as a new infrastructure class:** Lovable/`lovable[.]app` and similar builder-hosted domains are cheap, disposable, and convincing, add builder-platform domains to phishing/typosquat watchlists.
+5. **Monitor search rankings for your org's tool names**, if your project is a Minecraft-adjacent name (or any widely searched tool name), check whether SEO-poisoned lookalikes hold top results on major engines; Weedhack's fakes are still live and ranking.
 
 ## Related pages
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](ox-clickfix-phishing-npm-mirror-payload-storage.md)
@@ -58,4 +58,4 @@ McAfee Labs (via The Hacker News, August 24, 2026) reported that several lookali
 
 ## Sources
 - The Hacker News: [Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning](https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html)
-- McAfee Labs: [Weedhack Minecraft malware — fake gaming websites & SEO poisoning](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/weedhack-minecraft-malware-fake-gaming-websites-seo-poisoning/)
+- McAfee Labs: [Weedhack Minecraft malware, fake gaming websites & SEO poisoning](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/weedhack-minecraft-malware-fake-gaming-websites-seo-poisoning/)

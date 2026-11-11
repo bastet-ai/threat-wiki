@@ -62,11 +62,11 @@ Payload download URLs commonly used paths such as `/files/telemetriawork/telepuz
 | 2026-07-06 | `172.67.165[.]144/files/telemetriawork/telepuz.dll` |
 
 ### C2 and fallback infrastructure
-- `cal.joycedoula[.]com[.]br` — earliest sample configuration.
-- `cal.snehamumbai[.]org` — latest C2 reported by Elastic.
-- `t[.]me/chanadarkpart` — Telegram fallback profile.
-- `steamcommunity[.]com//profiles/76561199705801219` — Steam fallback profile.
-- `codebasecode[.]com` — DNS fallback query target.
+- `cal.joycedoula[.]com[.]br`, earliest sample configuration.
+- `cal.snehamumbai[.]org`, latest C2 reported by Elastic.
+- `t[.]me/chanadarkpart`, Telegram fallback profile.
+- `steamcommunity[.]com//profiles/76561199705801219`, Steam fallback profile.
+- `codebasecode[.]com`, DNS fallback query target.
 - Polygon contract `0xf55Bea1FdCf1c3ABb39ab92567C09aC1BFf6753E` with method selector `0xc3f909d4`.
 
 ## Defender guidance

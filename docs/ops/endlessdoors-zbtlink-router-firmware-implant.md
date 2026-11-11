@@ -81,10 +81,10 @@ Treat these as detection and investigation pivots. IP ownership and DNS answers 
 
 | Role | Endpoint | Reported resolution / hosting |
 |---|---|---|
-| Primary | `zbtctl.epplink[.]net` | `47.100.190[.]96` — Alibaba Cloud, Shanghai |
-| Primary | hard-coded address | `47.107.224[.]89` — Alibaba Cloud, Shenzhen |
-| Secondary | `online-string[.]com` | `45.32.81[.]152` — Vultr |
-| Secondary | `rbdg4nzqadui.wikaba[.]com` | `43.248.136[.]125` — Jiangsu Dongyun Cloud |
+| Primary | `zbtctl.epplink[.]net` | `47.100.190[.]96`, Alibaba Cloud, Shanghai |
+| Primary | hard-coded address | `47.107.224[.]89`, Alibaba Cloud, Shenzhen |
+| Secondary | `online-string[.]com` | `45.32.81[.]152`, Vultr |
+| Secondary | `rbdg4nzqadui.wikaba[.]com` | `43.248.136[.]125`, Jiangsu Dongyun Cloud |
 
 Also monitor outbound TCP `7000` and `7001` from router, cellular-CPE, and network-infrastructure segments.
 
@@ -103,5 +103,5 @@ Also monitor outbound TCP `7000` and `7001` from router, cellular-CPE, and netwo
 - CVE-2026-66747 describes the unauthenticated command channel. At publication, the cited source reports no fixed firmware and recommends treating the issue as a device-trust problem.
 
 ## Source
-- VulnCheck: [ENDLESSDOORS Is Phoning Home. Pick Up.](https://www.vulncheck.com/blog/zbt-endlessdoors) — August 5, 2026
-- Follow-up: VulnCheck published two further implants in the same ZBT / MoreQuick firmware lineage on August 27, 2026 — see [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware](speakingstone-darklantern-zbt-router-implants.md).
+- VulnCheck: [ENDLESSDOORS Is Phoning Home. Pick Up.](https://www.vulncheck.com/blog/zbt-endlessdoors), August 5, 2026
+- Follow-up: VulnCheck published two further implants in the same ZBT / MoreQuick firmware lineage on August 27, 2026, see [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware](speakingstone-darklantern-zbt-router-implants.md).

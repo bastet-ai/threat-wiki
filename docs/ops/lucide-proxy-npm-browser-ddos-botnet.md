@@ -75,9 +75,9 @@ JFrog published these durable pivots:
 - Developer emails: `main@geeked.wtf`, `me@geeked.wtf`, `stefanvangetson54@gmail.com`
 
 ### Payload hashes
-- `eb4e1394d537d8eba509dd5c57e7aaf4c1df57715c7161330012a11f6202af84` — `assets/73sxysj46r.js`
-- `10ddbbae0070267b8d15888b09a3cdb19fa74d861315b71f21c9ace8b9f85c75` — `assets/script.js`
-- `4b188d179e50e8208a6efec85e273e88d8fc390c836f299ba12915e0840408fd` — archived HTTP flood payload
+- `eb4e1394d537d8eba509dd5c57e7aaf4c1df57715c7161330012a11f6202af84`, `assets/73sxysj46r.js`
+- `10ddbbae0070267b8d15888b09a3cdb19fa74d861315b71f21c9ace8b9f85c75`, `assets/script.js`
+- `4b188d179e50e8208a6efec85e273e88d8fc390c836f299ba12915e0840408fd`, archived HTTP flood payload
 
 ## Response guidance
 1. Block the listed domains and Wisp endpoints in school, corporate, and managed-browser networks.

@@ -48,10 +48,10 @@
 - Host identifier: `129--<hostname>`.
 - Iterates over a C2 chain until registration succeeds: `https://sahi-finance[.]com`, `https://GamebarAppinformation[.]azurewebsites[.]net`, `https://GamebarApp[.]azurewebsites[.]net`.
 - Registration: `POST /beacon` with `{"clientId":"<client-id>","type":"poll","pcName":"<hostname>","userName":"<username>"}`.
-- **Unusual success signal:** on successful registration PollCat expects an **HTTP 400** (not 200) containing `{"socketId":"<socket-id>","pollInterval":<ms>,"jitterTime":<ms>}`. This mirrors the Retrograde/MiniFast handshake that also treats HTTP 400 as success — a key attribution marker.
+- **Unusual success signal:** on successful registration PollCat expects an **HTTP 400** (not 200) containing `{"socketId":"<socket-id>","pollInterval":<ms>,"jitterTime":<ms>}`. This mirrors the Retrograde/MiniFast handshake that also treats HTTP 400 as success, a key attribution marker.
 - Post-registration endpoints: `POST /gate/hello` (host/user/domain/OS + privilege level), `GET /gate/fetch?token=<socketId>` (poll commands), `POST /gate/submit` (Base64 command results), `GET /vault/<uuid>` (download C2 file), `PUT /vault/push/` (upload local file/chunk), `POST /gate/track` (chunk-upload progress).
 - Default beacon: **every two minutes** with up to **five seconds of jitter**; commands and results are stored as little-endian binary records carried as Base64 text.
-- **22 declared commands, 3 unimplemented** (`0XA1` WS_DOWNLOAD, `0xB0` REQUEST_ELEVATION, `0xB1` PERSIST). Notable implemented commands: `EVAL_JS` (run C2-supplied JavaScript with full Node.js module/process/network access), `RUN`/`RUN_HIDDEN`, `SYSTEM_CHECK` (process + software inventory; lists `%Program Files`, `%LOCALAPPDATA%`, `%APPDATA%`, `%APPDATA%\Microsoft\Outlook`, `%LOCALAPPDATA%\Microsoft\Olk\Attachments`, `%USERPROFILE%\Documents`, and any folder matching 24 hardcoded security-vendor strings — Google, Microsoft, Palo Alto Networks, Cisco, VMware, Fortinet, Citrix, CheckPoint, Juniper Networks, LogMeIn, Sophos, Symantec, Trend Micro, McAfee, Kaspersky Lab, ESET, Bitdefender, Avast Software, CrowdStrike, SentinelOne, Malwarebytes, BraveSoftware, Tencent, Naver), file transfer (UPLOAD/DOWNLOAD/CHUNKED_DOWNLOAD from the C2 perspective), `ZIP`, `MKDIR`, `RUNDLL`.
+- **22 declared commands, 3 unimplemented** (`0XA1` WS_DOWNLOAD, `0xB0` REQUEST_ELEVATION, `0xB1` PERSIST). Notable implemented commands: `EVAL_JS` (run C2-supplied JavaScript with full Node.js module/process/network access), `RUN`/`RUN_HIDDEN`, `SYSTEM_CHECK` (process + software inventory; lists `%Program Files`, `%LOCALAPPDATA%`, `%APPDATA%`, `%APPDATA%\Microsoft\Outlook`, `%LOCALAPPDATA%\Microsoft\Olk\Attachments`, `%USERPROFILE%\Documents`, and any folder matching 24 hardcoded security-vendor strings, Google, Microsoft, Palo Alto Networks, Cisco, VMware, Fortinet, Citrix, CheckPoint, Juniper Networks, LogMeIn, Sophos, Symantec, Trend Micro, McAfee, Kaspersky Lab, ESET, Bitdefender, Avast Software, CrowdStrike, SentinelOne, Malwarebytes, BraveSoftware, Tencent, Naver), file transfer (UPLOAD/DOWNLOAD/CHUNKED_DOWNLOAD from the C2 perspective), `ZIP`, `MKDIR`, `RUNDLL`.
 - `SYSTEM_CHECK` results are sent as JSON to `POST /api/system-details/result`.
 
 ## Attribution markers
@@ -76,7 +76,7 @@
 
 ## Detection pivots
 - A React/Node "coding challenge" or "tech assessment" archive that runs `npm i && node index.js`, has a root `package.json` named `ctf-server`, and requires a recruiter-supplied OTP.
-- Outbound HTTPS to `sahi-finance[.]com` / `gamebarapp*` Azure domains, or a **non-2xx (HTTP 400) JSON response containing a `socketId`** — a strong C2-protocol tell.
+- Outbound HTTPS to `sahi-finance[.]com` / `gamebarapp*` Azure domains, or a **non-2xx (HTTP 400) JSON response containing a `socketId`**, a strong C2-protocol tell.
 - The `129--<hostname>` beacon identifier.
 - `~/.node_packages`, `com.harsh.requireobject.plist`, or a `NetSync_<username>` scheduled task.
 

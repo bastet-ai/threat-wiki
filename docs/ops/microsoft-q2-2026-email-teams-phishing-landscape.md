@@ -1,7 +1,7 @@
 # Microsoft Q2 2026 email and Teams phishing landscape
 
 ## Summary
-Microsoft Threat Intelligence's Q2 2026 review measures a sharp post-disruption decline in Tycoon2FA activity alongside continued migration into Microsoft Teams social engineering, especially voice phishing. Microsoft detected about 7.6 billion email-based phishing threats during the quarter. Credential phishing remained the objective in 94–96% of malicious-payload attacks, while weekly malicious Teams call attempts ended June at nearly ten times the mid-2025 baseline.
+Microsoft Threat Intelligence's Q2 2026 review measures a sharp post-disruption decline in Tycoon2FA activity alongside continued migration into Microsoft Teams social engineering, especially voice phishing. Microsoft detected about 7.6 billion email-based phishing threats during the quarter. Credential phishing remained the objective in 94-96% of malicious-payload attacks, while weekly malicious Teams call attempts ended June at nearly ten times the mid-2025 baseline.
 
 Two campaigns provide durable defender pivots: an automated business email compromise operation reached more than 67,000 users at more than 42,000 organizations in under three hours, and a nested-EML / calendar-invite campaign targeted more than 107,000 users at nearly 19,000 organizations before using a Microsoft authentication redirect to deliver a batch-file malware dropper.
 
@@ -33,7 +33,7 @@ Two campaigns provide durable defender pivots: an automated business email compr
 - Microsoft detected about 7.6 billion email phishing threats, declining from 2.7 billion in April to 2.4 billion in June.
 - QR-code phishing fell from 17.4 million attacks in April to 8.3 million in June. PDF delivery remained dominant but fell to 58% of QR attacks, while DOC/DOCX rose to 40%.
 - CAPTCHA-gated phishing fell from 8.2 million attacks in April to 2.2 million in June. SVG delivery rebounded from 5% in April to 26% in June, and embedded URLs returned to the largest share in June even though their raw volume remained historically low.
-- Credential phishing accounted for 94–96% of malicious payloads; traditional malware delivery accounted for 4–6%.
+- Credential phishing accounted for 94-96% of malicious payloads; traditional malware delivery accounted for 4-6%.
 - ICS calendar invitations remained a small share, about 4%, but increased 277% in June. Calendar objects deserve separate controls because they can place attacker content into a user's calendar without the normal attachment-open path.
 
 ### Teams and vishing migration
@@ -88,7 +88,7 @@ The link requested silent authentication to an attacker-registered multitenant E
 
 ## Public indicators
 
-### June 14–15 malware-delivery campaign
+### June 14-15 malware-delivery campaign
 - `9i6pokerdepot[.]com`
 - `Customer.Service[@]9i6pokerdepot[.]com`
 - `t90141296286.p.clickup-attachments[.]com`

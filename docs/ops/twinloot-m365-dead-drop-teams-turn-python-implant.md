@@ -39,12 +39,12 @@ Assessed to be **social engineering via Microsoft Teams**: the actor masquerades
 
 ## C2 architecture
 TWINLOOT runs **two parallel channels** from the victim machine:
-1. **SharePoint dead drop** — authenticates to an attacker-controlled Azure tenant and polls a SharePoint location via the Graph API (driven through headless Edge + CDP; the tab is navigated to `graph.microsoft[.]com` and the Drive API is used to interact with the actor's SharePoint).
-2. **Teams TURN relay** — interactive operator access over WebRTC DataChannels relayed by Microsoft Teams TURN servers, using the `aiortc` library.
+1. **SharePoint dead drop**, authenticates to an attacker-controlled Azure tenant and polls a SharePoint location via the Graph API (driven through headless Edge + CDP; the tab is navigated to `graph.microsoft[.]com` and the Drive API is used to interact with the actor's SharePoint).
+2. **Teams TURN relay**, interactive operator access over WebRTC DataChannels relayed by Microsoft Teams TURN servers, using the `aiortc` library.
 
 This is the same class of technique Praetorian codenamed **"Ghost Calls"** (TURN relay abuse). Ontinue notes multiple actors converged on it within a year of its public disclosure:
 - **Backdoor.Turn** (previously documented) conceals C2 inside Teams relay infrastructure but uses a **QUIC session** rather than WebRTC DataChannels.
-- **msaRAT** — a Rust-based RAT attributed to the **Chaos ransomware group**, observed using the same TURN method but against **Twilio instead of Teams**, implemented on the Tokio async runtime controlling a headless browser; its DLL (`lib.dll`) is delivered via an MSI installer and performs C2 exclusively through CDP, offloading HTTP to the browser and signaling via Cloudflare Workers.
+- **msaRAT**, a Rust-based RAT attributed to the **Chaos ransomware group**, observed using the same TURN method but against **Twilio instead of Teams**, implemented on the Tokio async runtime controlling a headless browser; its DLL (`lib.dll`) is delivered via an MSI installer and performs C2 exclusively through CDP, offloading HTTP to the browser and signaling via Cloudflare Workers.
 
 Ontinue flags the convergence: two unrelated actors independently arrived at "drive the victim's own browser as a C2 transport" within the same month.
 
@@ -56,7 +56,7 @@ Ontinue flags the convergence: two unrelated actors independently arrived at "dr
 - **EtherHiding-style fallback** to obtain runtime configuration if the Azure Blob Storage dead-drop method fails (unused in the observed build, suggesting active development).
 
 ## Persistence
-Persistence is build-flagged (`PERSIST_ENABLED=True|False`) and uses four methods. The most novel is an **offline-built mandatory Windows profile hive**: the implant builds a full Windows profile hive entirely offline using `RegLoadAppKeyW` and Microsoft's offline registry library `offreg.dll` (`ORCreateKey`, `ORSetValue`, `ORSaveHive`), then writes the result to `%USERPROFILE%\NTUSER.MAN`. Because Windows loads `NTUSER.MAN` (mandatory profile override) **before** `NTUSER.DAT`, its contents take precedence — a method Ontinue says is the **first recorded malicious in-the-wild use** of this persistence technique.
+Persistence is build-flagged (`PERSIST_ENABLED=True|False`) and uses four methods. The most novel is an **offline-built mandatory Windows profile hive**: the implant builds a full Windows profile hive entirely offline using `RegLoadAppKeyW` and Microsoft's offline registry library `offreg.dll` (`ORCreateKey`, `ORSetValue`, `ORSaveHive`), then writes the result to `%USERPROFILE%\NTUSER.MAN`. Because Windows loads `NTUSER.MAN` (mandatory profile override) **before** `NTUSER.DAT`, its contents take precedence, a method Ontinue says is the **first recorded malicious in-the-wild use** of this persistence technique.
 
 ## Attribution and assessment limits
 - **Not attributed to a named actor.** Ontinue says it shares operational parallels with the cluster **STAC4749** (known for orchestrating Teams voice-phishing campaigns to deploy Chaos ransomware): Teams vishing delivery, PyArmor-obfuscated Python backdoor, reverse SOCKS5 proxy, HKCU Run-Key persistence, and an adjacent timeline.
@@ -77,6 +77,6 @@ Persistence is build-flagged (`PERSIST_ENABLED=True|False`) and uses four method
 - [Microsoft Q2 2026 email and Teams phishing landscape](microsoft-q2-2026-email-teams-phishing-landscape.md)
 
 ## Sources
-- The Hacker News: [TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks](https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html) — August 18, 2026, citing Ontinue technical report
+- The Hacker News: [TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks](https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html), August 18, 2026, citing Ontinue technical report
 - Praetorian "Ghost Calls" (TURN relay abuse technique, 2025)
 - Cisco Talos: msaRAT / Chaos ransomware TURN-relay observations (late July 2026)

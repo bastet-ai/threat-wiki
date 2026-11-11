@@ -1,7 +1,7 @@
 # Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats
 
 ## Summary
-Seqrite Labs (coverage via The Hacker News, August 24, 2026; original analysis August 17, 2026) documented **Operation QUICSILVER**, an espionage campaign attributed with moderate confidence to a **China-nexus actor** targeting Myanmar government and IT interests — specifically entities tied to the **ITCSD (Information Technology Centre for Sustainable Development) under Myanmar's Ministry of Transport and Communications** — first observed around **April 2026**. The campaign delivers a new Go-based backdoor, **QUICAgent**, through double-extension LNK files that point at VHD containers, and communicates over **QUIC (UDP/443)** to infrastructure behind Cloudflare Workers discovery domains.
+Seqrite Labs (coverage via The Hacker News, August 24, 2026; original analysis August 17, 2026) documented **Operation QUICSILVER**, an espionage campaign attributed with moderate confidence to a **China-nexus actor** targeting Myanmar government and IT interests, specifically entities tied to the **ITCSD (Information Technology Centre for Sustainable Development) under Myanmar's Ministry of Transport and Communications**, first observed around **April 2026**. The campaign delivers a new Go-based backdoor, **QUICAgent**, through double-extension LNK files that point at VHD containers, and communicates over **QUIC (UDP/443)** to infrastructure behind Cloudflare Workers discovery domains.
 
 ## Tags
 - ops
@@ -28,10 +28,10 @@ Seqrite Labs (coverage via The Hacker News, August 24, 2026; original analysis A
 - holiday calendar lure
 
 ## Campaign chain
-- **Lure:** early deliveries used `HolidayNotice.pdf.exe` alongside a fake Belgian–Myanmar holiday calendar; from June/July 2026 the actor shifted to **VHD files containing LNK decoys** — notably a Burmese-language fake graduation invitation attributed to the ITCSD.
-- **Execution:** the LNK launches `ftp.exe -s` with a script file (**LOLBAS**). The script reconstructs the payload by binary-copying hidden OOXML parts — `_rels/header.doc` and `body.doc` — via `copy /b` into the final executable.
+- **Lure:** early deliveries used `HolidayNotice.pdf.exe` alongside a fake Belgian-Myanmar holiday calendar; from June/July 2026 the actor shifted to **VHD files containing LNK decoys**, notably a Burmese-language fake graduation invitation attributed to the ITCSD.
+- **Execution:** the LNK launches `ftp.exe -s` with a script file (**LOLBAS**). The script reconstructs the payload by binary-copying hidden OOXML parts, `_rels/header.doc` and `body.doc`, via `copy /b` into the final executable.
 - **Payload:** the rebuilt implant is the Go-based **QUICAgent** backdoor.
-- **Sandbox evasion:** the implant applies a randomized 100–600 ms delay at startup and burns CPU with ~1000× SHA-256 computations before beaconing.
+- **Sandbox evasion:** the implant applies a randomized 100-600 ms delay at startup and burns CPU with ~1000× SHA-256 computations before beaconing.
 - **C2:** discovery domains resolve to **Cloudflare Workers**; beaconing goes to `104.64.211[.]22` on **port 443 over QUIC/UDP**, with a ~5 second beacon interval and a unique `X-Agent-ID` per host. The observed command set comprises five commands.
 - **Persistence:** an LNK placed in the Startup folder re-executes the chain at logon.
 

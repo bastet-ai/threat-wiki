@@ -44,13 +44,13 @@ Despite the rotation, the phishing kit leaves **persistent fingerprints** that c
 - The **`secure.html` → `project/*.zip` delivery structure**.
 
 ## Delivery chain
-1. **Lure:** a fake document — CRA tax form (Canada), SSA-themed notice (US), shipping/UPS communication, invoice, or Adobe PDF — delivered by email.
+1. **Lure:** a fake document, CRA tax form (Canada), SSA-themed notice (US), shipping/UPS communication, invoice, or Adobe PDF, delivered by email.
 2. **Phishing kit:** hosted on disposable frontend infrastructure (Vercel, GitHub Pages, Netlify, compromised sites). 94% of the 425 observed kit URLs lived on their host for a single day.
 3. **Payload staging:** the kit references a payload staged on a separate object-store or file-transfer service (Amazon S3, Cloudflare R2, GitHub, DigitalOcean Spaces, Dropbox, GoFile).
 4. **RMM installation:** the victim is socially engineered into installing a legitimate RMM product, giving the attacker a persistent, trusted-looking remote access channel.
 
 ## Durable read
-The campaign is a clear instance of **legitimate-software initial access**: the malware verdict, the domain reputation, and the individual IOC are all disposable, while the **underlying delivery chain is stable**. ANY.RUN's framing is that detection **cannot depend solely on malware verdicts, reputation, or individual IOCs** — SOC teams need the full behavioral context behind suspicious RMM activity to distinguish legitimate use from abuse.
+The campaign is a clear instance of **legitimate-software initial access**: the malware verdict, the domain reputation, and the individual IOC are all disposable, while the **underlying delivery chain is stable**. ANY.RUN's framing is that detection **cannot depend solely on malware verdicts, reputation, or individual IOCs**, SOC teams need the full behavioral context behind suspicious RMM activity to distinguish legitimate use from abuse.
 
 ## Detection / defensive heuristics
 - **Phishing-kit fingerprints (persistent):** the shared `font1.woff2` asset, recurring image resources, and the `secure.html` → `project/*.zip` delivery structure are the stable cross-host identifiers. Hunt these in web telemetry even when the serving domain has a single-day lifetime.
@@ -77,5 +77,5 @@ The campaign is a clear instance of **legitimate-software initial access**: the 
 - [Spring Ring: Microsoft Teams vishing to RMM / PetitPotam campaigns (Unit 42, Aug 31, 2026)](spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 
 ## Sources
-- The Hacker News — "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries" (published 2026-09-04, relaying ANY.RUN research): [https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html](https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html)
+- The Hacker News, "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries" (published 2026-09-04, relaying ANY.RUN research): [https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html](https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html)
 - ANY.RUN Cybersecurity Blog: [https://any.run/cybersecurity-blog/](https://any.run/cybersecurity-blog/)

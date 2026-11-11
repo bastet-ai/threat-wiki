@@ -42,15 +42,15 @@ Unlike JADEPUFFER's earlier improvised MySQL/Nacos encryption, ENCFORGE is a com
 
 ## Public indicators
 ### Infrastructure and artifacts
-- `34.153.223[.]102:9191` — payload staging server observed by Sysdig
-- `/tmp/.sk/lockd` — attempted local staging path
-- `.locked` — encrypted-file extension
-- `README`, `HOW_TO_DECRYPT`, `README_DECRYPT` — ransom-note names
-- `e78393397@proton[.]me` — extortion contact
+- `34.153.223[.]102:9191`, payload staging server observed by Sysdig
+- `/tmp/.sk/lockd`, attempted local staging path
+- `.locked`, encrypted-file extension
+- `README`, `HOW_TO_DECRYPT`, `README_DECRYPT`, ransom-note names
+- `e78393397@proton[.]me`, extortion contact
 
 ### SHA-256
-- `8cb0c223b018cecef1d990ec81c67b826eb3c30d54f06193cf69969e9a8baea2` — packed binary
-- `ea7822eac6cecef7746c606b862b4d3034856caf754c4cf69533662637905328` — unpacked binary
+- `8cb0c223b018cecef1d990ec81c67b826eb3c30d54f06193cf69969e9a8baea2`, packed binary
+- `ea7822eac6cecef7746c606b862b4d3034856caf754c4cf69533662637905328`, unpacked binary
 
 ## Detection and response
 - Alert on Langflow or other application processes accessing `/var/run/docker.sock`, creating containers, or invoking Docker container-creation APIs.

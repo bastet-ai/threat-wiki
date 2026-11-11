@@ -27,14 +27,14 @@
 ## Delivery
 - Delivered inside **trojanized "coding challenge" archives** (e.g. a `Front-Technical-Challenge.zip` "TaskFlow" Express/React/Vite project) hosted on **Amazon S3**, reached through recruiter-themed outreach on LinkedIn and other job-search platforms.
 - The challenge's `server.js` first line imports a **bundled, registry-absent npm package** (`colorized_terminal` v2.1.0, later variants use `pretty-log` v2.1.0). The package is placed directly in the challenge's `node_modules/` (not published to the npm registry) and silently launches the implant from `node_modules/.cache/.320697f1/index.js` as a detached background process.
-- The README explicitly tells the candidate that `server.js` is "bug-free" and must not be modified, and bans AI assistants / imposes a time limit — steering attention away from the one altered file.
+- The README explicitly tells the candidate that `server.js` is "bug-free" and must not be modified, and bans AI assistants / imposes a time limit, steering attention away from the one altered file.
 
 ## Agent identity and anti-analysis
 - Generates a unique agent ID: SHA-256 of hostname + username + OS version + architecture + MAC address, truncated to the first 32 hex characters.
 - **Variant 1** binds a TCP listener to `127.0.0.1:48739` as a single-instance check (exits silently if the port is taken).
 - **Variant 2** adds anti-analysis: terminates if it sees low memory, low CPU count, short uptime, analyst-associated user/hostnames, or common analysis tools; before exiting it issues benign `HEAD` requests to `www.google.com`, `www.microsoft.com`, and `www.cloudflare.com`.
 - **Variant 2** adds corporate-proxy support: reads HTTP(S) proxy env vars, Windows Internet Settings (incl. explicit PAC URL), and WinHTTP config; tunnels HTTPS C2 through `HTTP CONNECT`; falls back to `curl.exe --proxy-anyauth --proxy-user` for NTLM/Negotiate; caches proxy discovery for five minutes and re-discovers on NIC/IP change.
-- **Variant 2** single-instance port: `41984 + (first 4 hex chars of agent ID as int, mod 5000)` → range `41984`–`46983`, host-specific.
+- **Variant 2** single-instance port: `41984 + (first 4 hex chars of agent ID as int, mod 5000)` → range `41984`-`46983`, host-specific.
 
 ## Persistence (per platform)
 | Platform | Variant 1 | Variant 2 | Variant 3 |
@@ -42,7 +42,7 @@
 | Windows | `%APPDATA%\Microsoft\EdgeUpdate\msedge_update.js`; clone local `node.exe` → `nodew.exe`, patch PE subsystem Console→GUI; `HKCU\...\Run\MicrosoftEdgeUpdate` | `%LOCALAPPDATA%\Intel\DSA\idriver_support.js`; clone `node.exe` → `IntelDSA.exe` (PE GUI); scheduled task **IntelDriverSupportUpdate** daily 10AM | ProgramData (`/ru SYSTEM /rl highest`, chosen by probing `C:\Windows\System32\config`) or LocalAppData; build-specific daily 10AM task |
 | Linux | `~/.config/microsoft-edge-update/msedge_update.js` + `@reboot` cron | `~/.config/intel-dsa/idriver_support.js` + `@reboot` cron | `~/.local/share` payload + `@reboot` cron (skipped if `crontab -l` fails) |
 | macOS | `~/Library/LaunchAgents/com.microsoft.edgeupdate.plist` (RunAtLoad+KeepAlive) | `com.intel.dsa.helper` LaunchAgent (RunAtLoad+KeepAlive) | LaunchAgent RunAtLoad/KeepAlive |
-| WSL | — | — | Reuses the Linux payload; writes `launcher.vbs` under the Windows profile + daily 10AM Windows task relaunching via `wscript.exe` + `wsl.exe` |
+| WSL |, |, | Reuses the Linux payload; writes `launcher.vbs` under the Windows profile + daily 10AM Windows task relaunching via `wscript.exe` + `wsl.exe` |
 
 ## C2 and commands
 - **Variant 1** Azure-hosted C2 chain: `plugplay.azurewebsites[.]net`, `Rgbteller.azurewebsites[.]net`, `Wslwebui.azurewebsites[.]net` (falls over the chain on failure). Endpoints: `POST /api/rabbit/checkin`, `POST /api/rabbit/task`, `POST /api/rabbit/result`.
@@ -64,7 +64,7 @@
 
 ## Detection pivots
 - A `node`/`node.exe` (or renamed `nodew.exe`/`IntelDSA.exe` with PE subsystem patched to GUI) spawning from a project's `node_modules/.cache/` path, or importing a non-registry `colorized_terminal`/`pretty-log` package, after a "coding challenge" archive.
-- The fixed `127.0.0.1:48739` single-instance port (Variant 1) or host-specific listener in `41984`–`46983` (Variant 2).
+- The fixed `127.0.0.1:48739` single-instance port (Variant 1) or host-specific listener in `41984`-`46983` (Variant 2).
 - Persistence named `MicrosoftEdgeUpdate`, `IntelDriverSupportUpdate`, `com.microsoft.edgeupdate`, `com.intel.dsa.helper`.
 - Outbound HTTPS to the listed Azure/Cloudflare C2 domains, especially with the `{"d":…,"_r":…,"_t":…}` AES-GCM body shape.
 - A fake "GitHub Copilot Helper" VS Code extension, or a `# shepherd-persist` line appended to `.git/hooks/post-merge` / `post-checkout` in repositories under the developer's control.

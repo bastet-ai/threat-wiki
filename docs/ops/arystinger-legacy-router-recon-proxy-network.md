@@ -36,9 +36,9 @@ XLab measured at least **4,300 infected RTL819X-class routers**, with D-Link dev
 ## Reported infection scope
 - XLab measured **4,300+ infected routers** for the RTL819X-class wave; this count does not include NAS infections.
 - Observed router models were mostly D-Link:
-  - `DIR-850L` — about 75% of observed infections.
-  - `DIR-818LW` — about 13%.
-  - `DIR-816L`, `DIR-818L`, `DWR-118`, and `DIR-817LW` — smaller observed shares.
+  - `DIR-850L`, about 75% of observed infections.
+  - `DIR-818LW`, about 13%.
+  - `DIR-816L`, `DIR-818L`, `DWR-118`, and `DIR-817LW`, smaller observed shares.
 - XLab's geography breakdown for infected routers was led by South Korea, China, Sweden, Malaysia, and Singapore.
 
 ## Compromise and capability chain

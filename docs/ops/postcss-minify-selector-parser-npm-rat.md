@@ -92,12 +92,12 @@ JFrog reconstructed these RAT capabilities from Nuitka module resources and code
 
 JFrog described the module split as:
 
-- `config.pyd` — constants, command IDs, C2 URL, registry key names.
-- `api.pyd` — HTTP C2 packet exchange.
-- `audiodriver.pyd` — main RAT orchestration loop.
-- `command.pyd` — host actions, VM checks, file transfer, shell execution.
-- `auto.pyd` — Chrome credential and extension theft.
-- `util.pyd` — tar / gzip archive helpers.
+- `config.pyd`, constants, command IDs, C2 URL, registry key names.
+- `api.pyd`, HTTP C2 packet exchange.
+- `audiodriver.pyd`, main RAT orchestration loop.
+- `command.pyd`, host actions, VM checks, file transfer, shell execution.
+- `auto.pyd`, Chrome credential and extension theft.
+- `util.pyd`, tar / gzip archive helpers.
 
 ## Defender heuristics
 

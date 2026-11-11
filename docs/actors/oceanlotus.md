@@ -1,7 +1,7 @@
 # OceanLotus
 
 ## Summary
-**OceanLotus** is a Vietnam-aligned espionage group also widely reported as **APT32**. Public reporting tracks the group back to at least 2012, with targeting across China, Southeast Asia, Vietnamese diaspora or activist communities, and — in ESET's 2026 reporting — a stronger recent emphasis on domestic Vietnamese targets.
+**OceanLotus** is a Vietnam-aligned espionage group also widely reported as **APT32**. Public reporting tracks the group back to at least 2012, with targeting across China, Southeast Asia, Vietnamese diaspora or activist communities, and, in ESET's 2026 reporting, a stronger recent emphasis on domestic Vietnamese targets.
 
 ESET's June 2026 report describes two 2024-2026 OceanLotus operations that deployed **SPECTRALVIPER**: a selective supply-chain compromise of the FireAnt MetaKit stock-investor platform and a long-running intrusion at a Vietnamese infrastructure and transport construction corporation.
 

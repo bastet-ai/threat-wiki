@@ -26,17 +26,17 @@ JetBrains says it received reports on June 16, 2026, removed all 15 plugins from
 ## Why this matters
 - This was not a broken proof of concept: the plugins were functional enough to look useful and collectively accumulated roughly 70,000 reported installs over about eight months.
 - The campaign abused the developer-tool trust boundary rather than a package manager: IDE marketplace plugins can read configuration secrets and run local JVM code in high-trust developer environments.
-- The theft path was simple and detectable — raw IP C2, unencrypted HTTP, a static `X-Api-Key` request header, and `/api/software/*` paths — but still survived Marketplace review until external reporting.
+- The theft path was simple and detectable, raw IP C2, unencrypted HTTP, a static `X-Api-Key` request header, and `/api/software/*` paths, but still survived Marketplace review until external reporting.
 - JetBrains' remote-disable action reduces new execution, but it does not revoke copied provider keys or remove local plugin artifacts from every workstation.
 
 ## Timeline
-- **2025-10-31** — first reported malicious plugin, `DeepSeek Junit Test` / `org.sm.yms.toolkit`, appears in JetBrains Marketplace.
-- **2025-11 to 2026-02** — additional DeepSeek- and AI-themed utility plugins are published under multiple vendor accounts.
-- **2026-04-18** — `DeepSeek Code Review` / `com.coder.ai.dpt` is published.
-- **2026-06-09 to 2026-06-10** — `CodeGPT AI Assistant` / `com.my.code.tools` and `DeepSeek AI Assist` / `ord.cp.code.ai.kit` are published; StepSecurity says these two accounted for more than 53,000 reported downloads.
-- **2026-06-16** — JetBrains receives security reports about the campaign.
-- **2026-06-17** — JetBrains removes all 15 plugins, blocks seven publisher accounts, and remotely disables installed copies on IDE relaunch.
-- **2026-06-19** — StepSecurity reports that the hardcoded C2 at `39.107.60[.]51` remains live and responds to API requests.
+- **2025-10-31**, first reported malicious plugin, `DeepSeek Junit Test` / `org.sm.yms.toolkit`, appears in JetBrains Marketplace.
+- **2025-11 to 2026-02**, additional DeepSeek- and AI-themed utility plugins are published under multiple vendor accounts.
+- **2026-04-18**, `DeepSeek Code Review` / `com.coder.ai.dpt` is published.
+- **2026-06-09 to 2026-06-10**, `CodeGPT AI Assistant` / `com.my.code.tools` and `DeepSeek AI Assist` / `ord.cp.code.ai.kit` are published; StepSecurity says these two accounted for more than 53,000 reported downloads.
+- **2026-06-16**, JetBrains receives security reports about the campaign.
+- **2026-06-17**, JetBrains removes all 15 plugins, blocks seven publisher accounts, and remotely disables installed copies on IDE relaunch.
+- **2026-06-19**, StepSecurity reports that the hardcoded C2 at `39.107.60[.]51` remains live and responds to API requests.
 
 ## Affected plugins
 JetBrains and StepSecurity list these plugin names and IDs as affected:

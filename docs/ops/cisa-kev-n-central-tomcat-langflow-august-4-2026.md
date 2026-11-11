@@ -29,12 +29,12 @@ All three have a **2026-08-07** federal remediation deadline under BOD 26-04. CI
 - RMM
 - AI application infrastructure
 
-## CVE-2026-18556 — N-able N-central
+## CVE-2026-18556, N-able N-central
 CISA describes CVE-2026-18556 as an authentication bypass using an alternate path or channel. The August 4 addition complements the catalog's August 3 addition of **CVE-2026-18577**, the alternate path left by the incomplete first fix. The two entries have different deadlines: August 7 for CVE-2026-18556 and August 6 for CVE-2026-18577.
 
 Operators should not interpret the second KEV entry as a separate patch target. N-able's emergency guidance remains to upgrade N-central to **2026.3.1.7** and then investigate the management server and downstream endpoints for activity conducted through Take Control, including Cloudflare Tunnel persistence. See the [N-central incident page](n-able-n-central-cve-2026-18556-18577-exploitation.md) for campaign detail and public indicators.
 
-## CVE-2026-34486 — Apache Tomcat EncryptInterceptor bypass
+## CVE-2026-34486, Apache Tomcat EncryptInterceptor bypass
 Apache rates CVE-2026-34486 **Important**. An error in the CVE-2026-29146 fix allowed Tomcat's `EncryptInterceptor` to be bypassed. Apache lists these specific affected releases and fixed versions:
 
 | Affected release | Upgrade target |
@@ -45,7 +45,7 @@ Apache rates CVE-2026-34486 **Important**. An error in the CVE-2026-29146 fix al
 
 `EncryptInterceptor` protects Tomcat cluster traffic; exploitation relevance therefore depends on use and exposure of the affected clustering path. CISA's KEV addition confirms exploitation but does not publish request patterns, infrastructure, payloads, or victim details. Inventory exact Tomcat versions and cluster configuration, upgrade affected nodes, and review cluster-member and network telemetry for unexpected peers or unencrypted/suspicious replication traffic.
 
-## CVE-2026-9198 — Langflow unauthenticated RCE
+## CVE-2026-9198, Langflow unauthenticated RCE
 IBM scores CVE-2026-9198 **9.8 CVSS 3.1** and lists Langflow OSS `1.0.0` through `1.10.0` as affected. The default-deployment chain combines:
 
 1. unauthenticated access to `/api/v1/auto_login`, which can mint a superuser bearer token for a network caller; and
@@ -70,7 +70,7 @@ Do not conflate CVE-2026-9198 with the several other Langflow vulnerabilities an
 
 ## Sources
 - CISA: [Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
-- CISA: [August 4, 2026 alert — CISA Adds Three Known Exploited Vulnerabilities to Catalog](https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog)
+- CISA: [August 4, 2026 alert, CISA Adds Three Known Exploited Vulnerabilities to Catalog](https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog)
 - Apache Tomcat: [CVE-2026-34486 security advisory](https://lists.apache.org/thread/9510k5p5zdvt9pkkgtyp85mvwxo2qrly)
 - IBM: [Security Bulletin: Unauthenticated Remote Code Execution via Auto-Login Bypass and Code Validation](https://www.ibm.com/support/pages/node/7278927)
 - N-able: [N-central security update](https://www.n-able.com/blog/n-central-security-update-august-2-2026)

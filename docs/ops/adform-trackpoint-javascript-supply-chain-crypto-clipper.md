@@ -72,7 +72,7 @@ The sample demonstrates exfiltration-capable code, but public evidence does not 
 - Example request shape: `http://84.32.102[.]230:7744/p?h=<hostname>&u=<path>`
 - Published captured-script SHA-256: `02ff86c7f9fe609a753ff15bda90baa3c3e0d4a2e559ec4fcf8a3de0954b7c55`
 
-Treat these as historical investigation pivots. `s2.adform[.]net` is legitimate provider infrastructure and should not be treated as intrinsically malicious. The destination IP may be reassigned, and a hash match establishes possession or delivery of the captured script—not wallet theft by itself.
+Treat these as historical investigation pivots. `s2.adform[.]net` is legitimate provider infrastructure and should not be treated as intrinsically malicious. The destination IP may be reassigned, and a hash match establishes possession or delivery of the captured script,not wallet theft by itself.
 
 ## Evidence limits
 - Adform has not published the initial-access path into its deployment process or identified an actor.

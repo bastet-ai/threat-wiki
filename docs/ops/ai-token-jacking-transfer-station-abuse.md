@@ -72,7 +72,7 @@ Unit 42 says transfer stations can generate tens of millions of API calls per da
 - `95.214.112[.]26`
 
 ### HTTP pivot
-- `Go-http-client/2.0,gzip(gfe)` — user-agent value Unit 42 associated with malicious API calls
+- `Go-http-client/2.0,gzip(gfe)`, user-agent value Unit 42 associated with malicious API calls
 
 Treat all network indicators as historical pivots. Validate ownership and expected business use before blocking, and preserve provider, proxy, DNS, authentication, and billing telemetry.
 

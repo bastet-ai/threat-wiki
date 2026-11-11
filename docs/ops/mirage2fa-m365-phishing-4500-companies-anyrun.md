@@ -22,14 +22,14 @@ ANY.RUN research (via The Hacker News, August 25, 2026) documents the scale of t
 - enterprise security
 
 ## Campaign mechanics
-- Mirage2FA is a commercial PhaaS toolkit sold to operators, not a single-actor campaign — treat it as a reusable service rather than one intrusion chain.
+- Mirage2FA is a commercial PhaaS toolkit sold to operators, not a single-actor campaign, treat it as a reusable service rather than one intrusion chain.
 - The attack abuses **legitimate M365 login flows** (adaptive-identity / AiTM shape): the victim authenticates through a forged but protocol-valid flow, so the session token/cookie is issued by Microsoft's own infrastructure and carries normal MFA posture.
 - Stolen **session cookies** are the primary prize: they let the attacker act as the authenticated user without re-triggering M365 sign-in, and SSO federation extends the foothold to connected enterprise apps.
 - ANY.RUN's scoping: ~4,532 organization domains, 63.7% US-based, 9,000+ potential compromise events, 48% of targeted addresses potentially compromised.
 - Impact compounds beyond the initial account: follow-on access through SSO-connected apps and internal workflows widens the attack radius and raises containment cost.
 
 ## Defender heuristics
-1. **Treat session theft as an identity incident, not a password event** — rotating passwords does not kill a live stolen M365 session; force session invalidation / sign-in everywhere and review conditional-access refresh.
+1. **Treat session theft as an identity incident, not a password event**, rotating passwords does not kill a live stolen M365 session; force session invalidation / sign-in everywhere and review conditional-access refresh.
 2. **Alert on anomalous sign-in flow shapes** in M365 audit: successful MFA + immediate SSO fan-out to apps the user has not recently used, impossible-travel pairs, and access-token reuse across devices.
 3. **Enforce the strongest authentication posture possible**: phishing-resistant MFA (FIDO2/passkeys), conditional access that requires device compliance and token freshness, and per-app MFA for the highest-value apps to blunt SSO fan-out.
 4. **Hunt for cookie-based access**: correlate M365 sign-in events with downstream SSO app authentications that bypass a fresh sign-in; a session that appears in an SSO app with no preceding interactive M365 sign-in is the session-theft signature.

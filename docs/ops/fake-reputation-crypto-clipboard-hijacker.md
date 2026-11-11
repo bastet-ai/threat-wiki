@@ -3,7 +3,7 @@
 ## Summary
 Check Point Research reported a cryptocurrency clipboard-hijacker campaign that uses **fake reputation** across multiple public platforms to make malicious "trading", "sniper bot", and gambling-predictor tools look safe. The same operation promotes Windows and macOS Rust clippers through a WordPress phishing hub, GitHub and SourceForge projects, AI-narrated YouTube videos, crypto forums, news-site posts, and benign-looking VirusTotal community votes or comments.
 
-The durable threat-intelligence value is not just another clipper payload. The campaign shows how adversaries can manipulate social proof — stars, forks, comments, downloads, views, reviews, and "safe" votes — to weaken user judgment and reputation-based triage before the victim ever runs the malware.
+The durable threat-intelligence value is not just another clipper payload. The campaign shows how adversaries can manipulate social proof, stars, forks, comments, downloads, views, reviews, and "safe" votes, to weaken user judgment and reputation-based triage before the victim ever runs the malware.
 
 ## Tags
 - ops

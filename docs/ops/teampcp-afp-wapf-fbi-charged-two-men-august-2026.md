@@ -65,7 +65,7 @@ The syndicate "worked by stealing publishing credentials from trusted open-sourc
 
 ## Confidence and caveats
 - The charging is **allegation-based**; the individuals are presumed innocent, and no charge names a specific compromised project.
-- Scale figures (1,000+ organizations, 500,000+ credentials, 300+ GB; 2,500+ orgs / 434,000 pipelines; 118,829 dumps / 2,488 domains) come from the AFP, Unit 42, CloudSEK, Hudson Rock, and StepSecurity respectively and use **different collection and classification windows** — use their union for scoping, and do not treat any single count as final.
+- Scale figures (1,000+ organizations, 500,000+ credentials, 300+ GB; 2,500+ orgs / 434,000 pipelines; 118,829 dumps / 2,488 domains) come from the AFP, Unit 42, CloudSEK, Hudson Rock, and StepSecurity respectively and use **different collection and classification windows**, use their union for scoping, and do not treat any single count as final.
 - "Credential theft ≠ compromise": the confirmed victim count is the 16 leak-site organizations; reconstructed exposure figures are lower-bound scoping aids, not confirmed intrusions.
 - The PyPI "still returns 200 at the direct URL" detail reflects a CDN caching / content-retention artifact, not an active malicious release; verify against the index, not the bare object URL.
 
@@ -79,8 +79,8 @@ The syndicate "worked by stealing publishing credentials from trusted open-sourc
 - [StepSecurity state of open source supply chain attacks 2026](stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 
 ## Sources
-- WIRED (Sept 18, 2026) reporting Austin Larsen's LABScon talk reveals the **Google identification trail behind these arrests**: BreachForums leak tied CanisterWorm's most-active handle to sheepstealing@gmail.com → a 2019 PayPal refund dispute pointed to ruben@thomsonfamily.net.au (Thomson) → TeamPCP's relocated credential server was backed up to a Google Drive on that same account → Google's tip to the FBI — see [Google GTG undercover-infiltration page](google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
-- The Hacker News: [Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks](https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html) — August 27, 2026 (summarizing the AFP / WAPF / FBI joint release)
-- Australian Federal Police media release (joint with WAPF / FBI) — August 27, 2026
-- FBI Cyber Division joint media release (Assistant Director Brett E. Leatherman) — August 27, 2026
+- WIRED (Sept 18, 2026) reporting Austin Larsen's LABScon talk reveals the **Google identification trail behind these arrests**: BreachForums leak tied CanisterWorm's most-active handle to sheepstealing@gmail.com → a 2019 PayPal refund dispute pointed to ruben@thomsonfamily.net.au (Thomson) → TeamPCP's relocated credential server was backed up to a Google Drive on that same account → Google's tip to the FBI, see [Google GTG undercover-infiltration page](google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
+- The Hacker News: [Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks](https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html), August 27, 2026 (summarizing the AFP / WAPF / FBI joint release)
+- Australian Federal Police media release (joint with WAPF / FBI), August 27, 2026
+- FBI Cyber Division joint media release (Assistant Director Brett E. Leatherman), August 27, 2026
 - The Hacker News confirmation via PyPI (August 27, 2026): two malicious LiteLLM builds absent from release history but still serving HTTP 200 at direct CDN URLs

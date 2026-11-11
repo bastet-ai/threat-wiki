@@ -1,7 +1,7 @@
 # Mustang Panda ZOHOMURK / MINIRECON India campaigns
 
 ## Summary
-Acronis Threat Research Unit reported two concurrent **Mustang Panda** espionage campaigns against Indian government targets, including the hydropower sector and government entities tied to India–Taiwan cooperation agreements. The campaigns used hydropower- and memorandum-of-understanding-themed archives to deliver **SHARDLOADER**, which then deployed two newly described implants: **MINIRECON** and **ZOHOMURK**.
+Acronis Threat Research Unit reported two concurrent **Mustang Panda** espionage campaigns against Indian government targets, including the hydropower sector and government entities tied to India-Taiwan cooperation agreements. The campaigns used hydropower- and memorandum-of-understanding-themed archives to deliver **SHARDLOADER**, which then deployed two newly described implants: **MINIRECON** and **ZOHOMURK**.
 
 The durable defender signal is the combination of China-aligned targeting, legitimate signed-binary DLL sideloading, hidden DLLs inside spear-phishing archives, scheduled-task persistence, and cloud-service C2. ZOHOMURK is notable because it uses **Zoho WorkDrive** for command-and-control, victim foldering, tasking, and exfiltration, while MINIRECON communicates over WebSocket to attacker infrastructure and shares architectural overlap with Mustang Panda's TONESHELL tooling.
 
@@ -36,7 +36,7 @@ The durable defender signal is the combination of China-aligned targeting, legit
 
 ## Why this matters
 - Acronis says it observed active beaconing from multiple compromised Indian government systems between **June 12 and June 22, 2026**, including systems associated with senior administrative personnel, and coordinated relevant findings with **CERT-In**.
-- The campaign blends with local context: lure material referenced hydropower cooperation and India–Taiwan government agreements, while Zoho WorkDrive is a legitimate platform with adoption in the Indian government sector.
+- The campaign blends with local context: lure material referenced hydropower cooperation and India-Taiwan government agreements, while Zoho WorkDrive is a legitimate platform with adoption in the Indian government sector.
 - ZOHOMURK turns a trusted SaaS API into the operator's C2 and exfiltration layer. Blocking only raw IPs or unfamiliar domains will miss activity that authenticates to `accounts.zoho.com` and calls Zoho WorkDrive APIs.
 - The loader chain uses signed legitimate executables and hidden DLLs, reducing user suspicion and weakening detection that focuses only on unsigned launchers.
 - Acronis attributes the activity to Mustang Panda with high confidence based on deployment patterns, operational characteristics, code overlap with TONESHELL, and recurring infrastructure / tooling choices.

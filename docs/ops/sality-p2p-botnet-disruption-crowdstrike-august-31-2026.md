@@ -1,9 +1,9 @@
 # Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)
 
 ## Summary
-On **August 31, 2026**, CrowdStrike's **Counter Adversary Operations (CAO)** team, working with the **U.S. DOJ, FBI, the DoD Office of the Inspector General's Defense Criminal Investigative Service (DCIS), and the Shadowserver Foundation**, with support from **Europol, Eurojust, and law enforcement in Bulgaria, Hungary, and Romania**, executed a **coordinated P2P sinkholing disruption of the Sality peer-to-peer (P2P) botnet** — a polymorphic **file-infecting** criminal infrastructure that has operated since **2003**. The operation isolated all ~**33,000+ infected machines** from the operator by poisoning each bot's super-peer list so that infected hosts can no longer receive **URL packs** (payload-download instructions) or **file packs** (direct payload transfers). CrowdStrike published the full operation on **September 1, 2026** ("Peer Pressure: Inside the Sality Botnet Disruption Operation").
+On **August 31, 2026**, CrowdStrike's **Counter Adversary Operations (CAO)** team, working with the **U.S. DOJ, FBI, the DoD Office of the Inspector General's Defense Criminal Investigative Service (DCIS), and the Shadowserver Foundation**, with support from **Europol, Eurojust, and law enforcement in Bulgaria, Hungary, and Romania**, executed a **coordinated P2P sinkholing disruption of the Sality peer-to-peer (P2P) botnet**, a polymorphic **file-infecting** criminal infrastructure that has operated since **2003**. The operation isolated all ~**33,000+ infected machines** from the operator by poisoning each bot's super-peer list so that infected hosts can no longer receive **URL packs** (payload-download instructions) or **file packs** (direct payload transfers). CrowdStrike published the full operation on **September 1, 2026** ("Peer Pressure: Inside the Sality Botnet Disruption Operation").
 
-Sality is significant because it demonstrates that **P2P architecture is not a disruption-proof shield**: the same properties that made the botnet resilient for two decades — no single point of failure, unauthenticated peer acceptance, a permanently stale (file-infector) protocol that cannot be code-updated — are what the sinkhole exploited. CrowdStrike's framing: *"the protocol cannot be hardened against attack, and the network cannot exclude an active defender who speaks its language."*
+Sality is significant because it demonstrates that **P2P architecture is not a disruption-proof shield**: the same properties that made the botnet resilient for two decades, no single point of failure, unauthenticated peer acceptance, a permanently stale (file-infector) protocol that cannot be code-updated, are what the sinkhole exploited. CrowdStrike's framing: *"the protocol cannot be hardened against attack, and the network cannot exclude an active defender who speaks its language."*
 
 ## Tags
 - ops
@@ -39,30 +39,30 @@ Sality is significant because it demonstrates that **P2P architecture is not a d
 
 ## Why this matters
 - **A 23-year-old criminal botnet was taken down by protocol-level manipulation, not endpoint malware removal.** The operator lost control of the network; the bots are now isolated. This is the same class of technique as earlier large-scale botnet disruptions (e.g., Zeus, GameOver, Operation Endgame/SocGholish) and is a durable reminder that P2P resiliency is not invincibility.
-- **Sality's persistence came from its file-infecting design.** It is not a bot that phones home to a C2 panel; it is a **polymorphic infector** that attaches itself to executables on disk and spreads over **network shares, removable drives, and file sharing**. Infections regenerate continuously without any operator phishing or exploit activity — which is why it survived decades and why endpoint-only detection struggles.
+- **Sality's persistence came from its file-infecting design.** It is not a bot that phones home to a C2 panel; it is a **polymorphic infector** that attaches itself to executables on disk and spreads over **network shares, removable drives, and file sharing**. Infections regenerate continuously without any operator phishing or exploit activity, which is why it survived decades and why endpoint-only detection struggles.
 - **The primary payload has been EggJagger, a clipjacking tool, for ~8 years.** It monitors the clipboard for **Bitcoin/Ethereum wallet addresses** and silently swaps them for operator-controlled addresses, redirecting payments. CrowdStrike estimates the operator stole **≥ ₽12.1M (~$150,000 USD)** in crypto; the never-spent portfolio peaked at **~₽147M (Jan 2025)**, enough to fund a single actor with near-zero overhead.
-- **The operator also ran DDoS on demand.** Three notable campaigns: an **Arabic financial-forum DDoS (April 2016)**, a **Ukrainian forum DDoS on Feb 25, 2022** (the day after Russia's full-scale invasion of Ukraine, apparently to suppress discussion), and a **Russian crypto-exchange DDoS (Sept 2023)** where the payload was compiled seconds before upload — an impulsive, likely personal grievance. This shows the botnet was financially motivated but **willingly weaponized for political/personal targets on short notice**.
+- **The operator also ran DDoS on demand.** Three notable campaigns: an **Arabic financial-forum DDoS (April 2016)**, a **Ukrainian forum DDoS on Feb 25, 2022** (the day after Russia's full-scale invasion of Ukraine, apparently to suppress discussion), and a **Russian crypto-exchange DDoS (Sept 2023)** where the payload was compiled seconds before upload, an impulsive, likely personal grievance. This shows the botnet was financially motivated but **willingly weaponized for political/personal targets on short notice**.
 
 ## Disruption mechanism (durable defender lesson)
 Sality's P2P protocol had two fatal, permanent properties that the sinkhole exploited:
-1. **No authentication / no cryptographic identity / no allowlist.** Any publicly reachable host that answered the P2P handshake correctly was accepted as a legitimate peer. Availability was the only requirement — so **an active defender could join the network as a full, indistinguishable participant**.
+1. **No authentication / no cryptographic identity / no allowlist.** Any publicly reachable host that answered the P2P handshake correctly was accepted as a legitimate peer. Availability was the only requirement, so **an active defender could join the network as a full, indistinguishable participant**.
 2. **The file-infecting design means the protocol can't be code-updated.** Bots don't fetch new code from a C2; the spreading mechanism is on-disk. Releasing an updated variant would only fragment the botnet. **Every weakness in the protocol has been permanent for 20 years.**
 
 The operation targeted the **super-peer list** (the finite set of publicly reachable infected machines that form the P2P backbone). Every bot re-verifies its stored peers **every ~40 minutes**; responders accumulate reputation, failures lose it and are purged. The sinkhole:
 - **Invalidates legitimate super-peer entries** during peer verification (protocol-level manipulation), progressively isolating each bot.
-- **Injects purpose-built sinkholes** into the emptied peer lists — giving visibility into progress, infection tracking, and victim notification.
+- **Injects purpose-built sinkholes** into the emptied peer lists, giving visibility into progress, infection tracking, and victim notification.
 - **Targets super peers first** (the backbone). Once isolated, both URL packs and file packs stop propagating. Bots behind NAT/firewall are handled passively: when they contact sinkholes during maintenance, their peer lists are purged and they are **permanently isolated**.
 
 In parallel, international law enforcement **took down the URLs currently hosting Sality payloads** (URL-pack targets on compromised / operator-maintained web servers), so bots still holding active URL packs cannot fetch new payloads during the transition.
 
-**Result:** all Sality-infected machines now **beacon to CrowdStrike-operated sinkholes**. The operator has lost the ability to task the network. Note: this **does not remove already-installed malware** from infected hosts — existing payloads remain active and must still be remediated.
+**Result:** all Sality-infected machines now **beacon to CrowdStrike-operated sinkholes**. The operator has lost the ability to task the network. Note: this **does not remove already-installed malware** from infected hosts, existing payloads remain active and must still be remediated.
 
 ## Indicators of infection (durable hunt targets)
 - **Lighthouse beacon:** any **UDP traffic to `188.166.101[.]148`** indicates an active Sality infection requiring remediation.
-- **URL-pack URLs** — any access to these indicates a Sality infection:
+- **URL-pack URLs**, any access to these indicates a Sality infection:
   - **v3** URL pack (version 25202): `http[:]//theunforgiven.p8[.]hu/img/top.gif`, `http[:]//painelwebradiodigital.awardspace[.]info/v3/readme.pdf`, `http[:]//sgwebdesigner.free[.]fr/left.gif`, `http[:]//www.yonelco[.]com/icon.png`, `http[:]//pozdravizbeograda[.]com/readme.pdf`, `http[:]//highclass.atspace[.]com/styles.gif`, `http[:]//situluimihai.3x[.]ro/top.png`
   - **v4** URL pack (version 31010): `http[:]//gatheredovertime[.]com/nb4`, `http[:]//imagebucket[.]biz/nv4`
-- **YARA detection** — scan running processes for Sality's **hardcoded RSA public keys** (used to verify payload signatures). CrowdStrike published two rules, `CrowdStrike_Salityv3_01` (v3 key) and `CrowdStrike_Salityv4_01` (v4 key), matching the distinct RSA public keys embedded in the v3 and v4 P2P code. The keys are the durable, strain-stable signature:
+- **YARA detection**, scan running processes for Sality's **hardcoded RSA public keys** (used to verify payload signatures). CrowdStrike published two rules, `CrowdStrike_Salityv3_01` (v3 key) and `CrowdStrike_Salityv4_01` (v4 key), matching the distinct RSA public keys embedded in the v3 and v4 P2P code. The keys are the durable, strain-stable signature:
 
 ```yara
 rule CrowdStrike_Salityv3_01 : p2p sality version3
@@ -121,7 +121,7 @@ rule CrowdStrike_Salityv4_01 : p2p sality version4
         all of them
 }
 ```
-- **Two independent P2P networks** (v3 and v4) shared the same codebase and operator but used **incompatible protocol versions and different cryptographic keys** — so a host can be in both or either.
+- **Two independent P2P networks** (v3 and v4) shared the same codebase and operator but used **incompatible protocol versions and different cryptographic keys**, so a host can be in both or either.
 
 ## Defender heuristics
 - **Treat this as an active hunt, not just a disruption note.** Sality infections that were not already removed still run locally. Scan endpoints with the published **YARA rules** (v3 + v4 embedded RSA keys) and hunt the **lighthouse UDP beacon** in network telemetry.
@@ -129,7 +129,7 @@ rule CrowdStrike_Salityv4_01 : p2p sality version4
 - **Watch for clipjacking (EggJagger).** If a host was a Sality peer, the user's crypto payments may have been silently redirected. Rotate / treat any wallet addresses that transited an infected host's clipboard as compromised, and alert on clipboard-monitoring behavior.
 - **File-infecter hygiene.** Because Sality spreads via **network shares, removable media, and file sharing**, prioritize: scanning shared folders and mapped drives, controlling removable-media autorun/execution, and monitoring for newly self-modifying executables.
 - **P2P botnet general lesson:** if you operate resilient "self-sustaining" P2P infra, the durable weak point is **peer-list trust** (no peer identity/auth) and **protocol immutability**. Adversaries who understand your protocol can sinkhole or poison it from inside; conversely, defenders can do the same to criminal P2P.
-- **Do not treat the disruption as cleanup.** The operator is defanged, but installed payloads persist — complete endpoint remediation and re-scan.
+- **Do not treat the disruption as cleanup.** The operator is defanged, but installed payloads persist, complete endpoint remediation and re-scan.
 
 ## Attribution and status
 - **Operator:** a single, financially motivated **criminal** (not attributed to a state actor) who ran Sality for 23 years. CrowdStrike's YARA metadata labels the actor **`SALTY SPIDER`**.
@@ -137,11 +137,11 @@ rule CrowdStrike_Salityv4_01 : p2p sality version4
 - **Partners:** DOJ, FBI, DCIS (DoD OIG), Shadowserver Foundation; support from Europol, Eurojust, and LE in Bulgaria, Hungary, Romania.
 
 ## Related pages
-- [StealC / Amadey infrastructure disruption](stealc-amadey-infrastructure-disruption.md) — another coordinated infrastructure-disruption operation.
-- [Operation Endgame SocGholish disruption](operation-endgame-socgholish-disruption.md) — a major botnet/malware-as-a-service disruption.
-- [Fake-reputation crypto clipboard hijacker](fake-reputation-crypto-clipboard-hijacker.md) — clipjacking / crypto-clipboard hijack technique context.
-- [Crypto Clipper Tor / USB worm](crypto-clipper-tor-usb-worm.md) — crypto-clipboard theft via Tor/USB.
-- [NetNut P2P residential proxy network disruption](netnut-popa-residential-proxy-network-disruption.md) — P2P-network disruption methodology context.
+- [StealC / Amadey infrastructure disruption](stealc-amadey-infrastructure-disruption.md), another coordinated infrastructure-disruption operation.
+- [Operation Endgame SocGholish disruption](operation-endgame-socgholish-disruption.md), a major botnet/malware-as-a-service disruption.
+- [Fake-reputation crypto clipboard hijacker](fake-reputation-crypto-clipboard-hijacker.md), clipjacking / crypto-clipboard hijack technique context.
+- [Crypto Clipper Tor / USB worm](crypto-clipper-tor-usb-worm.md), crypto-clipboard theft via Tor/USB.
+- [NetNut P2P residential proxy network disruption](netnut-popa-residential-proxy-network-disruption.md), P2P-network disruption methodology context.
 
 ## Sources
 - CrowdStrike Threat Intelligence: ["Peer Pressure: Inside the Sality Botnet Disruption Operation"](https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/) (published 2026-09-01; operation executed 2026-08-31).

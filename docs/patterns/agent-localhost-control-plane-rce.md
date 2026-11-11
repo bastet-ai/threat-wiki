@@ -58,9 +58,9 @@ Microsoft says the vulnerable chain was addressed on AutoGen Studio's main branc
 ## OpenClaw WhatsApp-to-host case study
 GitHub advisories published June 30, 2026 and summarized publicly on July 10 described three patched OpenClaw flaws that matter because they show how ordinary chat ingress can become a host-execution boundary when an AI assistant is wired to local tools:
 
-1. **GHSA-hjr6-g723-hmfm** — OpenClaw `<= 2026.6.1` could miss interpreter startup variables in host-execution environment filtering. GitHub rated the issue high severity with CVSS 8.8 and CWE-78 / CWE-184, noting that a lower-trust caller or configured input path could execute or persist actions beyond the intended authorization.
-2. **GHSA-9969-8g9h-rxwm** — OpenClaw `<= 2026.6.1` could allow Git `ext::` transport through host-execution filtering, again creating a high-severity OS-command-injection path when the affected feature was enabled and reachable.
-3. **GHSA-575v-8hfq-m3mc** — OpenClaw versions before `2026.6.6` could let sandbox bind mounts bypass parent-directory denylist checks, crossing from a lower-trust sandboxed path into files or actions that should have required stronger authorization.
+1. **GHSA-hjr6-g723-hmfm**, OpenClaw `<= 2026.6.1` could miss interpreter startup variables in host-execution environment filtering. GitHub rated the issue high severity with CVSS 8.8 and CWE-78 / CWE-184, noting that a lower-trust caller or configured input path could execute or persist actions beyond the intended authorization.
+2. **GHSA-9969-8g9h-rxwm**, OpenClaw `<= 2026.6.1` could allow Git `ext::` transport through host-execution filtering, again creating a high-severity OS-command-injection path when the affected feature was enabled and reachable.
+3. **GHSA-575v-8hfq-m3mc**, OpenClaw versions before `2026.6.6` could let sandbox bind mounts bypass parent-directory denylist checks, crossing from a lower-trust sandboxed path into files or actions that should have required stronger authorization.
 
 The first stable patched version for all three advisories is `2026.6.6`. The advisories emphasize that OpenClaw still assumes authenticated Gateway operators, installed plugins, and intentional local execution surfaces are trusted unless a separate policy or sandbox boundary is declared. That is exactly the risk defenders should model: once a Gateway accepts lower-trust WhatsApp/chat content, plugin output, repository data, or webhook text and routes it toward host-execution features, “trusted operator” assumptions can collapse into confused-deputy execution.
 

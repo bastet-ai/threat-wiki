@@ -45,4 +45,4 @@ Public technical detail remains intentionally limited: Zscaler's Part 1 identifi
 - [MIXEDKEY](mixedkey.md)
 
 ## Sources
-- Zscaler ThreatLabz: [Targeted Attack on Government Entities in the Middle East — Part 1](https://www.zscaler.com/blogs/security-research/targeted-attack-government-entities-middle-east-part-1)
+- Zscaler ThreatLabz: [Targeted Attack on Government Entities in the Middle East, Part 1](https://www.zscaler.com/blogs/security-research/targeted-attack-government-entities-middle-east-part-1)

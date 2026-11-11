@@ -5,8 +5,8 @@
 Unit 42 describes a reusable cloud-defense-evasion pattern: attackers who gain permissions over logging control planes can blind downstream security tools, poison forensic records, or route victim telemetry to infrastructure they control. The research focuses on AWS CloudTrail and Google Cloud Logging, but the defender lesson is broader: cloud audit-log configuration is a privileged security control, not ordinary plumbing.
 
 The durable risk is two-sided:
-- **Defense evasion** — stop logging, delete or alter log routing, delete the log destination, make encrypted logs unreadable, or modify stored log objects.
-- **Continuous visibility** — create or change log routes so victim activity is copied to an attacker-controlled destination, reducing the need for noisy discovery commands.
+- **Defense evasion**, stop logging, delete or alter log routing, delete the log destination, make encrypted logs unreadable, or modify stored log objects.
+- **Continuous visibility**, create or change log routes so victim activity is copied to an attacker-controlled destination, reducing the need for noisy discovery commands.
 
 ## Tags
 - patterns

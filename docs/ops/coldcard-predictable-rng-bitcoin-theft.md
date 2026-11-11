@@ -1,7 +1,7 @@
 # COLDCARD predictable-RNG Bitcoin theft risk
 
 ## Summary
-On July 30–31, 2026, Coinkite and Block published emergency warnings that affected COLDCARD firmware generated Bitcoin wallet seeds through a deterministic MicroPython pseudorandom-number-generator fallback instead of the intended STM32 hardware random-number generator. Block says active exploitation is underway and that its investigation began after reports of COLDCARD users losing funds. Coinkite says funded wallets created on affected firmware are at risk unless sufficient independent private dice entropy or a strong, unique BIP-39 passphrase protects them.
+On July 30-31, 2026, Coinkite and Block published emergency warnings that affected COLDCARD firmware generated Bitcoin wallet seeds through a deterministic MicroPython pseudorandom-number-generator fallback instead of the intended STM32 hardware random-number generator. Block says active exploitation is underway and that its investigation began after reports of COLDCARD users losing funds. Coinkite says funded wallets created on affected firmware are at risk unless sufficient independent private dice entropy or a strong, unique BIP-39 passphrase protects them.
 
 The vulnerability is historical seed compromise, not merely a firmware-version problem. Installing fixed firmware corrects future generation but does **not** repair an existing seed. Restoring affected seed words onto updated firmware or another wallet preserves the weakness; users must generate a new seed on fixed firmware and migrate funds.
 
@@ -33,7 +33,7 @@ Exposure follows the firmware used when the secret was generated, not the device
 
 | Device | Publicly reported affected seed-generation firmware | Fixed release |
 | --- | --- | --- |
-| Mk2 / Mk3 | Coinkite: 4.0.1–4.1.9; Block: 4.0.0–4.1.9 | 4.2.0 or later |
+| Mk2 / Mk3 | Coinkite: 4.0.1-4.1.9; Block: 4.0.0-4.1.9 | 4.2.0 or later |
 | Mk4 / Mk5 standard track | Before 5.6.0 | 5.6.0 or later |
 | Mk4 / Mk5 Edge track | Before 6.6.0X | 6.6.0X or later |
 | Q standard track | Before 1.5.0Q | 1.5.0Q or later |

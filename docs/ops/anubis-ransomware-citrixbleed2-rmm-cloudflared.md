@@ -42,7 +42,7 @@ The report frames the activity as affiliate-level tradecraft across Anubis ranso
 - Arctic Wolf links Anubis intrusions to **CitrixBleed 2 exploitation**, adding ransomware-affiliate post-exploitation detail to a high-priority edge/VPN vulnerability already tracked in CISA KEV.
 - The intrusion pattern turns edge-session theft or valid VPN credentials into a familiar ransomware chain: RDP/SMB movement, PsExec service execution, RMM deployment, credential dumping, cloud/data-transfer tooling, and encryption.
 - Legitimate RMM tooling can hide in normal IT operations. Arctic Wolf observed ScreenConnect, Zoho Assist, MeshAgent, Remotely, UltraVNC, and Total Software Deployment across reviewed incidents.
-- The targeting focus—Remote Desktop Services, domain controllers, hypervisors, backup-adjacent systems, and NAS devices—raises recovery-denial risk even before encryption.
+- The targeting focus,Remote Desktop Services, domain controllers, hypervisors, backup-adjacent systems, and NAS devices,raises recovery-denial risk even before encryption.
 - Alternate access paths such as `cloudflared`, authenticated proxies, and SSH SOCKS tunnels mean defenders should not scope containment to the first VPN/RMM channel discovered.
 
 ## Public reporting details
@@ -68,13 +68,13 @@ Arctic Wolf's cases varied by affiliate, but the durable sequence is:
 ## Network and artifact pivots
 Arctic Wolf's public GitHub IOC bundle includes these durable examples:
 
-- `45[.]227[.]254[.]25` — CVE-2025-5777 exploitation source; AS267784 / Flyservers S.A.
-- `45[.]76[.]79[.]92` — Remotely Desktop C2; AS20473 / The Constant Company.
-- `149[.]28[.]66[.]79`, `66[.]135[.]2[.]118`, `78[.]141[.]225[.]239`, `95[.]179[.]191[.]47`, `192[.]248[.]145[.]210` — VPN authentication sources in the Arctic Wolf bundle.
-- `relay.promotds[.]us` — ScreenConnect relay domain.
-- `azuremicrosoft[.]us` and `promotds[.]us` — typosquatted domains called out in Arctic Wolf's defensive guidance.
-- `RESTORE FILES.html` — reported Anubis ransom note.
-- `.anubis` — encrypted-file extension.
+- `45[.]227[.]254[.]25`, CVE-2025-5777 exploitation source; AS267784 / Flyservers S.A.
+- `45[.]76[.]79[.]92`, Remotely Desktop C2; AS20473 / The Constant Company.
+- `149[.]28[.]66[.]79`, `66[.]135[.]2[.]118`, `78[.]141[.]225[.]239`, `95[.]179[.]191[.]47`, `192[.]248[.]145[.]210`, VPN authentication sources in the Arctic Wolf bundle.
+- `relay.promotds[.]us`, ScreenConnect relay domain.
+- `azuremicrosoft[.]us` and `promotds[.]us`, typosquatted domains called out in Arctic Wolf's defensive guidance.
+- `RESTORE FILES.html`, reported Anubis ransom note.
+- `.anubis`, encrypted-file extension.
 - Staging paths observed by Arctic Wolf include `C:\Apps`, `C:\PerfLogs`, user `Desktop` / `AppData` / `AppData\Local`, `C:\Users\Public`, and `C:\Windows\Temp\netscan`.
 - Example encryptor filenames and hashes in the IOC bundle include `4s6d0z.exe` / SHA-256 `91192cc647a6744b5426a7893401ead26a256baffd577acc983093c4f67654fa` and `wa2cz8.exe` / SHA-256 `7efdca00d75724ec8773b35ae4b1154f840694d02f3a66058b5ae04157b367ef`.
 

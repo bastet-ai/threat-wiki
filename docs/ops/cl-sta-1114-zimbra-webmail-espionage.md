@@ -139,7 +139,7 @@ The joint government advisory identifies the operator as Russian state-supported
 - [Russian intelligence Signal backup-key phishing](russian-intelligence-signal-backup-key-phishing.md)
 
 ## Sources
-- CISA et al., July 23, 2026: [AA26-204A — Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a)
+- CISA et al., July 23, 2026: [AA26-204A, Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a)
 - Unit 42, July 23, 2026: [Russian Global Webmail Espionage](https://unit42.paloaltonetworks.com/russian-webmail-espionage/)
 - Seqrite Labs, March 2026: [Operation GhostMail: Russian APT exploits Zimbra Webmail to Target Ukraine State Agency](https://www.seqrite.com/blog/operation-ghostmail-zimbra-xss-russian-apt-ukraine/)
 - Microsoft Security Blog, May 27, 2025: [New Russia-affiliated actor Void Blizzard targets critical sectors for espionage](https://www.microsoft.com/en-us/security/blog/2025/05/27/new-russia-affiliated-actor-void-blizzard-targets-critical-sectors-for-espionage/)

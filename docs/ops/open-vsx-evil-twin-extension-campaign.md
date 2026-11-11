@@ -34,7 +34,7 @@ All 77 packages contacted infrastructure under `mangorbit[.]com`. Fifty-eight se
 
 ## Collection behavior
 ### Lightweight group: 58 extensions
-The smaller payloads, roughly 1.6–3.3 KB, sent the hostname and sometimes the workspace-folder name or editor version with a package-specific tracking identifier. Delivery varied between POST endpoints, GET query strings, and multi-endpoint failover.
+The smaller payloads, roughly 1.6-3.3 KB, sent the hostname and sometimes the workspace-folder name or editor version with a package-specific tracking identifier. Delivery varied between POST endpoints, GET query strings, and multi-endpoint failover.
 
 ### Reconnaissance group: 19 extensions
 Roughly four to five seconds after activation, the larger payload assembled a profile containing:

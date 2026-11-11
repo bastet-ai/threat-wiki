@@ -61,10 +61,10 @@ StepSecurity stated that credential harvesting and exfiltration capability resid
 
 ## Indicators and hunt pivots
 ### Packages and infrastructure
-- `git_credential_manager` versions 2.8.0–2.8.3
-- `Dendreo` versions 1.1.3–1.1.4
+- `git_credential_manager` versions 2.8.0-2.8.3
+- `Dendreo` versions 1.1.3-1.1.4
 - `fastlane-plugin-run_tests_firebase_testlab` version 0.3.2
-- `git.disroot.org/git-ecosystem/` — attacker-controlled account/path on a legitimate public Forgejo host
+- `git.disroot.org/git-ecosystem/`, attacker-controlled account/path on a legitimate public Forgejo host
 - HTTPS requests from Ruby with certificate verification disabled and user agent `Git`
 
 ### Host artifacts

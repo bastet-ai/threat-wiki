@@ -90,16 +90,16 @@ The current proxy relays onion-wrapped requests between the browser and the Sess
 The HTML app contains an S3-compatible browser that parses Wasabi credentials from supplied URIs, signs AWS4-HMAC-SHA256 requests, lists bucket contents, and generates presigned downloads. This allows browsable leak hosting without a conventional attacker-operated file server. It also creates response opportunities around exposed Wasabi credentials, bucket access logs, object takedown, and presigned-URL telemetry.
 
 ## Indicators
-- `a1fdf65020ce4a0f0940c793c6425baf8a0b994ec48b9baaf72788661a9d29f4` — SHA-256, analyzed DeadLock encryptor
-- `deadlock.liveblog365[.]com` — reported leak-site domain
-- `dlock.liveblog365[.]com` — reported leak-site domain
-- `deadblogdbdu5wprek7wa2o4ce7rnt6u6ntqeud3hzjjcveosgpsqqqd[.]onion` — reported leak-site onion service
-- `deadlockblog.great-site[.]net` — reported leak-site domain
-- `deadlockblog.medianewsonline[.]com` — reported leak-site domain
-- `.dlock` — encrypted-file suffix following a victim UID
-- `HOW_RECOVER.<UID>.txt` — text ransom note
-- `RECOVERY_CHAT.<UID>.html` — interactive recovery application
-- `dDlK` — encrypted-footer validation marker
+- `a1fdf65020ce4a0f0940c793c6425baf8a0b994ec48b9baaf72788661a9d29f4`, SHA-256, analyzed DeadLock encryptor
+- `deadlock.liveblog365[.]com`, reported leak-site domain
+- `dlock.liveblog365[.]com`, reported leak-site domain
+- `deadblogdbdu5wprek7wa2o4ce7rnt6u6ntqeud3hzjjcveosgpsqqqd[.]onion`, reported leak-site onion service
+- `deadlockblog.great-site[.]net`, reported leak-site domain
+- `deadlockblog.medianewsonline[.]com`, reported leak-site domain
+- `.dlock`, encrypted-file suffix following a victim UID
+- `HOW_RECOVER.<UID>.txt`, text ransom note
+- `RECOVERY_CHAT.<UID>.html`, interactive recovery application
+- `dDlK`, encrypted-footer validation marker
 
 Treat public RPC hosts and legitimate Session or Wasabi services as contextual pivots, not standalone malicious indicators.
 

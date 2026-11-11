@@ -1,7 +1,7 @@
 # PATCHCORD / SHEETCORD: APT36 backdoor campaign against Afghan telecom and South Asian critical infrastructure
 
 ## Summary
-Acronis Threat Research Unit (TRU) reported a new, ongoing campaign delivering a previously undocumented backdoor, **PATCHCORD**, against **Afghan telecom providers and South Asian (including Indian) critical-infrastructure organizations**. PATCHCORD is a compiled **C/C++** implant delivered through sector-specific lures — including **fake VPN installers impersonating Afghan Telecom (AFTEL)** and telecom management tools. Infrastructure analysis also surfaced a second, **Go-based** backdoor, **SHEETCORD**, which uses **Google Sheets** for command-and-control. The delivery chain's starting point is a ZIP named `Telecom_TMS.zip` containing an Inno Setup installer (`TMS_AfghanTelecom.exe`) that deploys PATCHCORD. The activity is assessed with **moderate confidence** to be **APT36 (aka Transparent Tribe)**, a Pakistan-aligned actor, based on targeting overlaps, malware similarities, shared infrastructure, and tradecraft. A SHEETCORD-related domain impersonates India's **National Informatics Centre (NIC)**, and the campaign centers on a single C2 server with associated domains — including domains impersonating Afghan telecom operators and a hijacked legitimate healthcare domain.
+Acronis Threat Research Unit (TRU) reported a new, ongoing campaign delivering a previously undocumented backdoor, **PATCHCORD**, against **Afghan telecom providers and South Asian (including Indian) critical-infrastructure organizations**. PATCHCORD is a compiled **C/C++** implant delivered through sector-specific lures, including **fake VPN installers impersonating Afghan Telecom (AFTEL)** and telecom management tools. Infrastructure analysis also surfaced a second, **Go-based** backdoor, **SHEETCORD**, which uses **Google Sheets** for command-and-control. The delivery chain's starting point is a ZIP named `Telecom_TMS.zip` containing an Inno Setup installer (`TMS_AfghanTelecom.exe`) that deploys PATCHCORD. The activity is assessed with **moderate confidence** to be **APT36 (aka Transparent Tribe)**, a Pakistan-aligned actor, based on targeting overlaps, malware similarities, shared infrastructure, and tradecraft. A SHEETCORD-related domain impersonates India's **National Informatics Centre (NIC)**, and the campaign centers on a single C2 server with associated domains, including domains impersonating Afghan telecom operators and a hijacked legitimate healthcare domain.
 
 ## Tags
 - ops
@@ -24,7 +24,7 @@ Acronis Threat Research Unit (TRU) reported a new, ongoing campaign delivering a
 
 ## Why this matters
 - **Telecom + critical-infrastructure convergence:** the lures impersonate real internal systems (AFTEL's Transport Management System) and a national government IT body (India's NIC), signaling targeted rather than spray-and-pray delivery.
-- **Two backdoors, two languages, two C2 styles:** C/C++ PATCHCORD plus Go SHEETCORD with a consumer-cloud C2 (Google Sheets) — a tradecraft mix that complicates a single-detection-rule response.
+- **Two backdoors, two languages, two C2 styles:** C/C++ PATCHCORD plus Go SHEETCORD with a consumer-cloud C2 (Google Sheets), a tradecraft mix that complicates a single-detection-rule response.
 - **Moderate-confidence APT36 attribution** adds this campaign to the Pakistan-aligned cluster already tracked for telecom and critical-infrastructure intrusions; shared-infrastructure and malware-overlap evidence should be cross-checked against existing APT36/Transparent Tribe sightings.
 - **Hijacked legitimate healthcare domain** in the C2 set is a concrete, durable hunting pivot.
 
@@ -60,4 +60,4 @@ Acronis Threat Research Unit (TRU) reported a new, ongoing campaign delivering a
 
 ## Sources
 - Acronis TRU: [PATCHCORD: new malware cluster targets Afghan telecom and South Asian critical infrastructure](https://www.acronis.com/en/tru/posts/patchcord-new-malware-cluster-targets-afghan-telecom-and-south-asian-critical-infrastructure/)
-- The Hacker News: [New PATCHCORD Backdoor Targets Afghan Telecom and Indian Critical Infrastructure](https://thehackernews.com/2026/08/new-patchcord-backdoor-targets-afghan.html) — August 13, 2026
+- The Hacker News: [New PATCHCORD Backdoor Targets Afghan Telecom and Indian Critical Infrastructure](https://thehackernews.com/2026/08/new-patchcord-backdoor-targets-afghan.html), August 13, 2026

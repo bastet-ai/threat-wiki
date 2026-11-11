@@ -62,12 +62,12 @@ SOCRadar reported Breeze Cache Cleaner as the most productive single exploit, wi
 - Treat confirmed shells as potential access-broker inventory: rotate application secrets, database credentials, cloud keys, payment keys, and CMS administrator credentials exposed to the host.
 
 ## Indicators
-- `137.175.93[.]126` — exposed operator server / open directory
-- `43.108.17[.]80` — reported infrastructure
-- `113.196.56[.]150` — reported infrastructure
-- `xs.xxooonline[.]eu[.]cc` — reported domain
-- `/home/tance` — exposed operator home directory path
-- `nacos-xxljob批量` — reported directory naming clue
+- `137.175.93[.]126`, exposed operator server / open directory
+- `43.108.17[.]80`, reported infrastructure
+- `113.196.56[.]150`, reported infrastructure
+- `xs.xxooonline[.]eu[.]cc`, reported domain
+- `/home/tance`, exposed operator home directory path
+- `nacos-xxljob批量`, reported directory naming clue
 
 ## Related pages
 - [Joomla JCE CVE-2026-48907 exploitation](joomla-jce-cve-2026-48907-exploitation.md)

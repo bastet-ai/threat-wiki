@@ -64,10 +64,10 @@ The Android branch used APK files disguised as security software and sent throug
 - A sideloaded app reading contacts, location, and broad document/archive extensions, then contacting Dropbox, Steam Community, `images.stockmemory` hosts, or `proxy.duckduckgo.com` outside expected user activity.
 
 ### Selected public network indicators
-- `update-requirements[.]com` — FREAKYPOLL
-- `entouchnetworks[.]com` — SMARTAXE
-- `static[.]diagnostics-monitoring[.]com` and `static[.]opennetworkconnect[.]com` — GHETTOVIBE
-- `softupdater[.]org`, `soft[.]softchecker[.]org`, and `pack[.]softpacker[.]org` — FLUIDLEECH
+- `update-requirements[.]com`, FREAKYPOLL
+- `entouchnetworks[.]com`, SMARTAXE
+- `static[.]diagnostics-monitoring[.]com` and `static[.]opennetworkconnect[.]com`, GHETTOVIBE
+- `softupdater[.]org`, `soft[.]softchecker[.]org`, and `pack[.]softpacker[.]org`, FLUIDLEECH
 - `smartlinkupload[.]com`, `delta[.]smartlinkupload[.]com`, `offlce366[.]com`, and `365softupdate[.]com`
 
 CERT-UA labels `images.stockmemory.site`, `images.stockmemory.space`, and `proxy.duckduckgo.com` as legitimate services used in the COWARDDUCK chain; do not block or attribute them without contextual validation.

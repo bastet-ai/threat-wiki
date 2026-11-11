@@ -26,7 +26,7 @@ The risk comes from a YouTube-focused extension requesting `<all_urls>`, using a
 ## Why this matters
 - Browser extensions are durable, high-privilege supply-chain dependencies: once installed, a remote configuration plane can affect millions of browsers faster than enterprise endpoint controls may notice.
 - Island's core finding is a **latent capability**, not confirmed active theft. Treat it as high-risk exposure and configuration-control failure, while preserving that caveat in incident communications.
-- Ad blockers often receive broad host permissions for legitimate reasons. The defensible boundary is narrow, auditable rule handling — not all-site code execution controlled by a backend service.
+- Ad blockers often receive broad host permissions for legitimate reasons. The defensible boundary is narrow, auditable rule handling, not all-site code execution controlled by a backend service.
 - The extension's reported history increases risk: Island tied the ecosystem to sister ad-blocking extensions later removed for malware and to older ad-injection SDK behavior.
 
 ## Reported extension and infrastructure

@@ -1,7 +1,7 @@
 # AI-brand impersonation phishing and malvertising
 
 ## Summary
-Microsoft Threat Intelligence reports a 2026 wave of social-engineering campaigns that impersonate widely recognized AI brands — including ChatGPT, Anthropic Claude, DeepSeek, and Microsoft Copilot — to drive credential theft, payment-card theft, adversary-in-the-middle (AiTM) token theft, and malware delivery.
+Microsoft Threat Intelligence reports a 2026 wave of social-engineering campaigns that impersonate widely recognized AI brands, including ChatGPT, Anthropic Claude, DeepSeek, and Microsoft Copilot, to drive credential theft, payment-card theft, adversary-in-the-middle (AiTM) token theft, and malware delivery.
 
 Microsoft explicitly says the activity is abuse of AI brand names as lures, not compromise of the referenced AI services. Treat the durable pattern as **trend-jacking around AI launches and subscriptions**: attackers recycle whichever AI product is timely into phishing emails, PDFs, SEO-optimized GitHub repositories, malvertising pages, and signed malware downloads.
 
@@ -35,12 +35,12 @@ Microsoft explicitly says the activity is abuse of AI brand names as lures, not 
 
 ### ChatGPT-themed payment phishing
 - Microsoft detected a May 5, 2026 ChatGPT-themed phishing campaign that sent about 4,500 emails, mostly to targets in South Africa, as part of broader infrastructure also observed sending up to 100,000 emails in one day to Switzerland, Austria, and South Africa.
-- The lure used the display name `ChatGPT` and the subject `To ensure your ChatGPT Plus continues to work – please update your payment method`.
+- The lure used the display name `ChatGPT` and the subject `To ensure your ChatGPT Plus continues to work - please update your payment method`.
 - The redirect chain abused legitimate services before landing on a compromised domain under `/ChatGPT/`.
 - The phishing flow used a simple CAPTCHA-like gate, then collected names, addresses, credit-card numbers, expiration dates, and card verification codes.
 
 ### Claude-themed account-enforcement phishing
-- Microsoft observed an April 20–22, 2026 campaign impersonating Anthropic / Claude account enforcement across more than 2,000 organizations, primarily in the United States, United Kingdom, and India.
+- Microsoft observed an April 20-22, 2026 campaign impersonating Anthropic / Claude account enforcement across more than 2,000 organizations, primarily in the United States, United Kingdom, and India.
 - The lure used display names such as `Anthropic Teams` and `Anthropic PBC`, with `Claude Appeal Request` subject lines.
 - A PDF named `Fill and Sign Claude Appeal Form.pdf` pushed users through a Claude-branded appeal flow.
 - Microsoft assessed the chain was consistent with AiTM credential and token theft: CAPTCHA-style gating, intermediate branded pages, mobile/desktop conditional redirects, and likely final Microsoft sign-in impersonation.

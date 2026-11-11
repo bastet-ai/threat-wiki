@@ -3,7 +3,7 @@
 ## Summary
 SafeDep reported a May 27, 2026 npm dependency-confusion campaign that published 164 packages across five scoped namespaces, with 162 active packages using `postinstall` execution to steal full environment variables and fetch a second-stage script from `oob.moika.tech`.
 
-Microsoft Threat Intelligence later reported a May 28–29 follow-up cluster of 33 malicious npm packages that reused `oob.moika.tech` infrastructure, shifted toward reconnaissance-first profiling, and published under additional maintainer aliases and internal-looking organizational scopes.
+Microsoft Threat Intelligence later reported a May 28-29 follow-up cluster of 33 malicious npm packages that reused `oob.moika.tech` infrastructure, shifted toward reconnaissance-first profiling, and published under additional maintainer aliases and internal-looking organizational scopes.
 
 The package names were tailored to cloud-platform, ML-workspace, car-loan, deposit-form, debit / internet-banking, payment-widget, data-science, travel-automation, and SberPay-style micro-frontend scopes, indicating the actor profiled internal package ecosystems rather than spraying generic typosquats.
 
@@ -32,14 +32,14 @@ The package names were tailored to cloud-platform, ML-workspace, car-loan, depos
 - **Accounts:** `mr.4nd3r50n` and `pik-libs`.
 - **Scale:** 164 packages, all versioned `99.99.99`; 162 carried an active payload and two were inert probes.
 - **Targeted scopes:**
-  - `@cloudplatform-single-spa` — 122 packages for cloud-platform micro-frontend modules.
-  - `@mlspace` — 17 packages for ML / AI workspace modules.
-  - `@car-loans` — 19 car-loan application micro-frontend packages.
-  - `@fb-deposit` — 4 banking deposit-form packages.
-  - `@debit-ib` — 2 debit / internet-banking form packages.
+  - `@cloudplatform-single-spa`, 122 packages for cloud-platform micro-frontend modules.
+  - `@mlspace`, 17 packages for ML / AI workspace modules.
+  - `@car-loans`, 19 car-loan application micro-frontend packages.
+  - `@fb-deposit`, 4 banking deposit-form packages.
+  - `@debit-ib`, 2 debit / internet-banking form packages.
 - **Representative names:** `certificate-manager`, `vpn`, `ml-inference`, `experiments-monitoring`, `mobile-car-loans-application`, `form-deposit-auth`.
 
-## Microsoft follow-up cluster: May 28–29, 2026
+## Microsoft follow-up cluster: May 28-29, 2026
 - **Source:** Microsoft Threat Intelligence, published May 29, 2026.
 - **Scale:** 33 malicious npm packages across two publishing bursts.
 - **Maintainer aliases:** `mr.4nd3r50n`, `ce-rwb`, and `t-in-one`; Microsoft assessed the aliases as a single operator based on shared C2, shared `X-Secret` value, near-identical staging code, and registry metadata overlap.

@@ -99,11 +99,11 @@ Socket's ongoing list at capture time included:
 
 StepSecurity's early list also included packages in `@arv-bedrock`, `@deliveroo`, `@hubsync`, `@onereach`, `@or-sdk`, `@ornikar`, `@picsart`, `@qlik`, and `@servicetitan` scopes, plus `ecto`, `pob-test-typescript-package-in-monorepo`, and `tslint-folder-schema`. Aikido reported rapid spread into additional maintainers and organizations. Do not treat this table as complete.
 
-### StepSecurity scope update — 13:20 UTC
+### StepSecurity scope update, 13:20 UTC
 
-StepSecurity's updated incident snapshot counted 444 package names and 2,212 malicious versions during the 09:40–13:20 UTC observation window. Eleven Jared Wray ecosystem packages were full carriers; the worm republished 433 additional package names and 2,201 versions through credentials belonging to at least a dozen unrelated organizations. Many historical versions were replayed, so the version count is not a victim or execution count. Scope exposure from lockfiles and caches separately from confirmed execution of the `preinstall` hook.
+StepSecurity's updated incident snapshot counted 444 package names and 2,212 malicious versions during the 09:40-13:20 UTC observation window. Eleven Jared Wray ecosystem packages were full carriers; the worm republished 433 additional package names and 2,201 versions through credentials belonging to at least a dozen unrelated organizations. Many historical versions were replayed, so the version count is not a victim or execution count. Scope exposure from lockfiles and caches separately from confirmed execution of the `preinstall` hook.
 
-### StepSecurity technical update — 15:13 UTC
+### StepSecurity technical update, 15:13 UTC
 
 The expanded analysis places the first poisoned `keyv` commit (`ee2681a`) at 09:02:37 UTC and the repository-hook commit (`d8c850c`) at 09:04:30. `keyv@6.0.0` was then published at 09:35 through GitHub Actions workflow run `30896232272` with a valid trusted-publishing attestation. StepSecurity observed the automated second wave beginning at 09:38:13 and continuing through 11:44.
 
@@ -115,7 +115,7 @@ The payload also:
 - installs `~/.local/bin/gh-token-monitor.sh` with a user service or macOS LaunchAgent, polls `api.github.com/user` every 60 seconds for 24 hours, and executes an attacker-supplied handler after token revocation;
 - resolves C2 through Ethereum and sends a gzip, AES-256-GCM, RSA-OAEP-SHA256, and base64 envelope that StepSecurity says it intercepted and decrypted in its sandbox.
 
-### StepSecurity containment update — 18:10 UTC
+### StepSecurity containment update, 18:10 UTC
 
 StepSecurity reported that npm's rolling response began with removal of `cacheable-request@13.0.20` at 10:39 UTC and a `keyv` dist-tag rollback to `5.6.0` around 11:15. By 18:10, all 11 full carriers had been reverted to safe versions. The response was still incomplete across the worm-propagated package set:
 
@@ -126,7 +126,7 @@ StepSecurity reported that npm's rolling response began with removal of `cacheab
 
 Treat these as a time-bounded response snapshot, not a final registry inventory. Continue using vendor-maintained affected-version lists and inspect internal registry proxies, package caches, lockfiles, and built artifacts even after public removal or dist-tag rollback.
 
-### Confirmed public CI execution — Backstage
+### Confirmed public CI execution, Backstage
 
 StepSecurity searched roughly 44,000 public workflow runs from an eight-hour window for connections to `npm-cache.com`. Excluding five runs in its own detonation repository, it found ten matching runs in `backstage/backstage`. In the affected E2E jobs, fresh application scaffolding installed current dependencies outside the project's committed lockfile. The resulting Bun process contacted `eth.llamarpc.com`, `go.getblock.io`, `eth-mainnet.nodereal.io`, and then `npm-cache.com` in the same sequence observed in StepSecurity's detonation.
 
@@ -199,7 +199,7 @@ Unit 42's August 6 deobfuscation adds victim-side and control-plane evidence. It
 
 The report also identifies the exact Ethereum state-change transaction `0xc55920f1bd0531b6738153068a666c080ddded47e6256f1fd980d51c0b507c91`. The contract owner rotated the active domain from `npm-cache[.]com` to `awqhnjewqjkl[.]icu` on August 4. Unit 42 says the new domain was registered at 15:15:26 UTC, first observed in use at 16:10:03 UTC, and reached by environments in North America, Europe, Asia, and Africa within roughly 19 hours. The reported addresses `104.21.91[.]101` and `172.67.215[.]154` are shared Cloudflare edge addresses; hunt or block on domain/SNI and correlated process ancestry rather than treating the IPs as attacker-owned infrastructure. Monitoring contract setter `0xd3c159e5` can provide warning of future rotations.
 
-Unit 42 recovered a narrowly gated propagation branch for `opensearch-project/opensearch-js`. When `GITHUB_ACTIONS` is set and `GITHUB_REPOSITORY` and `GITHUB_WORKFLOW_REF` match the repository and `release-drafter.yml`, the code requests npm and Sigstore OIDC tokens, injects a pinned `@opensearch/setup` dependency into `@opensearch-project/opensearch`, and can publish with a genuine Fulcio/Rekor-backed SLSA statement. Unit 42 did **not** observe this branch execute. Treat it as implemented, reachable targeting evidence—not proof that OpenSearch was compromised or that the typosquatted dependency was published.
+Unit 42 recovered a narrowly gated propagation branch for `opensearch-project/opensearch-js`. When `GITHUB_ACTIONS` is set and `GITHUB_REPOSITORY` and `GITHUB_WORKFLOW_REF` match the repository and `release-drafter.yml`, the code requests npm and Sigstore OIDC tokens, injects a pinned `@opensearch/setup` dependency into `@opensearch-project/opensearch`, and can publish with a genuine Fulcio/Rekor-backed SLSA statement. Unit 42 did **not** observe this branch execute. Treat it as implemented, reachable targeting evidence,not proof that OpenSearch was compromised or that the typosquatted dependency was published.
 
 Its sample also narrows persistence claims. The VS Code task calls `.claude/setup.mjs` and reaches the dropped `.claude/math_init.js`; the reciprocal Claude Code hook calls `.vscode/setup.mjs`, but that loader looks for a missing `.vscode/math_init.js`, so only the VS Code path was functional in that build. The macOS LaunchAgent and Linux user-service installer was embedded but had no call site in the analyzed main path. Other reports observed or described token-monitor persistence, so responders should still hunt all artifacts while distinguishing latent code from execution evidence on each host.
 
@@ -207,8 +207,8 @@ Its sample also narrows persistence claims. The VS Code task calls `.claude/setu
 
 OX's August 9, 2026 "Shai-Hulud Outbreak Debrief: The Worm Evolves into MCP" (5 days post-infection) frames the wave as one of the most widespread supply-chain attacks of 2026: **over 440 unique npm packages compromised, reaching downstream projects with an estimated 2+ billion combined monthly downloads**. Its residual findings at that snapshot:
 
-- **5 GitHub repositories still distributing infected Claude Code / VS Code settings files**, one of which is the source repository for a **public MCP server listed in a public MCP marketplace** — the registry-to-repository delivery path detailed below.
-- **3,800+ public GitHub repositories containing exfiltrated credential dumps** (matching the `results-<ID>.json` structural pattern seen across prior Shai-Hulud variants) still publicly accessible and searchable — a cross-variant combined count.
+- **5 GitHub repositories still distributing infected Claude Code / VS Code settings files**, one of which is the source repository for a **public MCP server listed in a public MCP marketplace**, the registry-to-repository delivery path detailed below.
+- **3,800+ public GitHub repositories containing exfiltrated credential dumps** (matching the `results-<ID>.json` structural pattern seen across prior Shai-Hulud variants) still publicly accessible and searchable, a cross-variant combined count.
 - **Active propagation:** compromised maintainer accounts continued to automatically spawn new infected repositories bearing the signature string "Shai-Hulud: Here We Go Again."
 - **Delayed-response issue:** `@ornikar/intl-config` and `@ornikar/react-native-svg-transformer` stayed live for **3 full days** and were removed ~72 hours after initial infection.
 
@@ -238,9 +238,9 @@ This list expands package-name scoping beyond SafeDep's 444-name reconstruction 
 
 ### Unit 42 SDLC-perspective follow-up (August 21)
 
-Unit 42's August 21, 2026 "Connecting the Dots" post reframes ChainDrop (and the Shai-Hulud lineage) as evidence that supply-chain attack focus has shifted from hunting bugs in finished software to **poisoning the digital factory that builds it** — CI/CD pipelines, developer endpoints, and registries. No new ChainDrop indicators are reported; the post's durable additions are scoping and defender heuristics:
+Unit 42's August 21, 2026 "Connecting the Dots" post reframes ChainDrop (and the Shai-Hulud lineage) as evidence that supply-chain attack focus has shifted from hunting bugs in finished software to **poisoning the digital factory that builds it**, CI/CD pipelines, developer endpoints, and registries. No new ChainDrop indicators are reported; the post's durable additions are scoping and defender heuristics:
 
-- **Three-step ChainDrop chain, restated for defenders:** (1) the hook — malicious `preinstall` scripts download the legitimate Bun runtime to silently launch the ~727 KB obfuscated payload; (2) the theft — a hidden Python script reads **live process memory** from GitHub Actions runners to steal temporary OIDC tokens and secrets (not just disk files), plus a local developer-credential sweep; (3) the payload — stolen npm/GitHub tokens republish infected packages with legitimate functionality intact, with long-term persistence via cross-linked hooks in VS Code and Claude Code and C2 managed through Ethereum transactions.
+- **Three-step ChainDrop chain, restated for defenders:** (1) the hook, malicious `preinstall` scripts download the legitimate Bun runtime to silently launch the ~727 KB obfuscated payload; (2) the theft, a hidden Python script reads **live process memory** from GitHub Actions runners to steal temporary OIDC tokens and secrets (not just disk files), plus a local developer-credential sweep; (3) the payload, stolen npm/GitHub tokens republish infected packages with legitimate functionality intact, with long-term persistence via cross-linked hooks in VS Code and Claude Code and C2 managed through Ethereum transactions.
 - **Runner-memory scraping is the distinguishing primitive.** ChainDrop's value over disk-only scrapers is that build-runner OIDC tokens and CI secrets exist transiently in process memory; defenders who hunt only file-based credential theft miss this. Correlate `npm install`/`preinstall` ancestry with Python memory-access behavior on CI runners.
 - **SBOM-at-the-end-of-build is insufficient.** The post's core claim: an SBOM inventory created at the finish line does not catch malware that executed *during* the build. Map every place third-party packages touch (developer laptops, CI/CD, cloud) and treat build-time execution as the incident class, not build-time presence only.
 - **Developer endpoints lack the guardrails browsers have.** `npm install`, `pip install`, `cargo build`, IDE extensions, and setup scripts run with the user's full permissions and no sandbox; registry and marketplace targets (cf. the earlier GlassWorm developer-botnet activity) are prime because of that, not in spite of it.
@@ -273,18 +273,18 @@ Unit 42's August 21, 2026 "Connecting the Dots" post reframes ChainDrop (and the
 - repository commits `ee2681a9b62f3637b0eb5133c36c864d3376cc5b` (payload), `d8c850c7800e…` (IDE/agent hooks), `f97eabcdd057105f1fce3f05d6c029dac3f2ac78` (evidence removal), and `174f6a55690b0812a69adef47260ba8714a9be48` (sibling staging)
 
 ### SHA-256
-- `d584f9b6af48b7ed1f93713944f033783bf149e1c25e1643eb8c0e9df5dc7782` — `keyv@6.0.0` npm tarball, independently calculated by Snyk
-- `fd3ca4007b225fdf8de7af4345a19179d5efa8c4bb9205f88cda806e5684b1eb` — `setup.mjs`
-- `54dc7ea54a1317cca0e890a2770630cf7fa6c97813e0cb9d2caa93012b350668` — `setup.mjs` tarball variant
-- `9fc2570b7cef51c1b8df116d144d11ff4096357be7d2c4c6367cfc2509cf1bcc` — `math_init.js` / `Math_Symbol.js`
-- `927387d0cfac1118df4b383decc2ea6ba49c9d2f98b47098bcbcba1efc026e1f` — planted `.vscode/tasks.json`, per JFrog
-- `14eb4ce01dd4307759887ff819359b70d7d9ff709ecde039a5abc1aac325b128` — planted `.claude/settings.json`, per JFrog
-- `3f3f42d072bd36860ab7bd7fb5e10ac0d22c741c13c89505ccd6ec0ea572eea7` — injected GitHub Actions workflow, per JFrog
-- `29ac906c8bd801dfe1cb39596197df49f80fff2270b3e7fbab52278c24e4f1a7` — runner-memory scraper, per JFrog
-- `b27b82afa5f15512f3856e549fb83d873fd0049759a4b62ce64c8d7d4dc2c678` — Unit 42 TLSH-pivoted `setup.mjs.malicious` variant
+- `d584f9b6af48b7ed1f93713944f033783bf149e1c25e1643eb8c0e9df5dc7782`, `keyv@6.0.0` npm tarball, independently calculated by Snyk
+- `fd3ca4007b225fdf8de7af4345a19179d5efa8c4bb9205f88cda806e5684b1eb`, `setup.mjs`
+- `54dc7ea54a1317cca0e890a2770630cf7fa6c97813e0cb9d2caa93012b350668`, `setup.mjs` tarball variant
+- `9fc2570b7cef51c1b8df116d144d11ff4096357be7d2c4c6367cfc2509cf1bcc`, `math_init.js` / `Math_Symbol.js`
+- `927387d0cfac1118df4b383decc2ea6ba49c9d2f98b47098bcbcba1efc026e1f`, planted `.vscode/tasks.json`, per JFrog
+- `14eb4ce01dd4307759887ff819359b70d7d9ff709ecde039a5abc1aac325b128`, planted `.claude/settings.json`, per JFrog
+- `3f3f42d072bd36860ab7bd7fb5e10ac0d22c741c13c89505ccd6ec0ea572eea7`, injected GitHub Actions workflow, per JFrog
+- `29ac906c8bd801dfe1cb39596197df49f80fff2270b3e7fbab52278c24e4f1a7`, runner-memory scraper, per JFrog
+- `b27b82afa5f15512f3856e549fb83d873fd0049759a4b62ce64c8d7d4dc2c678`, Unit 42 TLSH-pivoted `setup.mjs.malicious` variant
 
 ### Network and control-plane behavior
-- `github[.]com/oven-sh/bun/releases/download/bun-v1.3.13/` — legitimate Bun distribution path; validate package-install process ancestry rather than blocking blindly
+- `github[.]com/oven-sh/bun/releases/download/bun-v1.3.13/`, legitimate Bun distribution path; validate package-install process ancestry rather than blocking blindly
 - `169[.]254[.]169[.]254` and `169[.]254[.]170[.]2` metadata access from developer or build processes
 - `registry[.]npmjs[.]org/-/whoami`
 - `registry[.]npmjs[.]org/-/npm/v1/tokens`
@@ -293,13 +293,13 @@ Unit 42's August 21, 2026 "Connecting the Dots" post reframes ChainDrop (and the
 - anomalous DNS exfiltration from package-install or Bun processes
 - Ethereum mainnet contract `0xE1f2395ee43e45A1556EC6438a88c31B83493103`, queried with `eth_call` selector `0x53ed5143`
 - GitHub commit-search strings `thebeautifulmarchoftime` and `IfYouBlockThisAPIKeyItWillCrashTheLiveProductionServersOfAllThirdPartyClients`
-- `npm-cache[.]com` — C2 domain observed by StepSecurity; investigate `GET /router` health checks returning HTTP 400/404 and encrypted `POST /router` traffic
-- `awqhnjewqjkl[.]icu` — additional smart-contract-resolved C2 domain observed during Elastic Security Labs detonation
-- `pypi-get[.]com` and `js-mirror[.]com` — historical smart-contract-resolved domains reported by Wiz; validate current ownership and historical DNS/HTTP telemetry before blocking
-- Ethereum transaction `0xc55920f1bd0531b6738153068a666c080ddded47e6256f1fd980d51c0b507c91` — Unit 42-observed August 4 rotation to `awqhnjewqjkl[.]icu`
-- contract owner `0x55f9780e1492344b7417fa723aedc4d0b97f31cd` and setter selector `0xd3c159e5` — monitor as control-plane pivots, not actor identity
-- `104.21.91[.]101` and `172.67.215[.]154` — shared Cloudflare edges observed for `awqhnjewqjkl[.]icu`; do not block or attribute these IPs without hostname context
-- `Bun/1.3.13` — Wiz-reported user agent; correlate with npm install, temporary Bun-download paths, and the listed C2/RPC destinations because Bun itself is legitimate
+- `npm-cache[.]com`, C2 domain observed by StepSecurity; investigate `GET /router` health checks returning HTTP 400/404 and encrypted `POST /router` traffic
+- `awqhnjewqjkl[.]icu`, additional smart-contract-resolved C2 domain observed during Elastic Security Labs detonation
+- `pypi-get[.]com` and `js-mirror[.]com`, historical smart-contract-resolved domains reported by Wiz; validate current ownership and historical DNS/HTTP telemetry before blocking
+- Ethereum transaction `0xc55920f1bd0531b6738153068a666c080ddded47e6256f1fd980d51c0b507c91`, Unit 42-observed August 4 rotation to `awqhnjewqjkl[.]icu`
+- contract owner `0x55f9780e1492344b7417fa723aedc4d0b97f31cd` and setter selector `0xd3c159e5`, monitor as control-plane pivots, not actor identity
+- `104.21.91[.]101` and `172.67.215[.]154`, shared Cloudflare edges observed for `awqhnjewqjkl[.]icu`; do not block or attribute these IPs without hostname context
+- `Bun/1.3.13`, Wiz-reported user agent; correlate with npm install, temporary Bun-download paths, and the listed C2/RPC destinations because Bun itself is legitimate
 
 The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, identity, volume, and timing rather than treating the domains as stand-alone malicious indicators.
 
@@ -328,15 +328,15 @@ The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, 
 - Separate untrusted pull-request workflows from release permissions, protect release branches/tags, require reviewed changes to workflow and editor/agent configuration, and monitor force pushes.
 - Restrict CI and developer egress to cloud metadata, secret stores, npm publication endpoints, GitHub repository creation, and unnecessary DNS resolvers.
 
-## <a id="october-7-unit-42-web3-c2-evolution"></a>October 7–8: Unit 42 recasts the Web3 C2 problem as a three-phase architecture — ChainDrop and PolinRider as the two live exemplars (full text captured by this wiki Oct 8)
+## <a id="october-7-unit-42-web3-c2-evolution"></a>October 7-8: Unit 42 recasts the Web3 C2 problem as a three-phase architecture, ChainDrop and PolinRider as the two live exemplars (full text captured by this wiki Oct 8)
 
-**Captured: Unit 42, ["Evolution of Web3 in Cloud Supply Chain Attacks"](https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks/) (published 2026-10-07 22:00 UTC; full text captured by this wiki Oct 8 via proxy after a direct fetch 404'd the guessed slug).** No new incident — a durable architecture synthesis of this page's campaign and PolinRider, with three elements worth pinning:
+**Captured: Unit 42, ["Evolution of Web3 in Cloud Supply Chain Attacks"](https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks/) (published 2026-10-07 22:00 UTC; full text captured by this wiki Oct 8 via proxy after a direct fetch 404'd the guessed slug).** No new incident, a durable architecture synthesis of this page's campaign and PolinRider, with three elements worth pinning:
 
-1. **The C2-evolution taxonomy:** Phase 1 **EtherHiding** — hardcoded smart-contract address, read-only `eth_call`, C2 domain in contract state (our `iseekaigogo`-class contract resolution); Phase 2 — C2 moved into transaction PAYLOADS (the payload-stego generation); Phase 3 — **zero-data `NullReceiver`** address resolution as the backup channel when RPC gateways or multi-chain lookups are blocked. Actors deploy MULTIPLE mechanisms in a hybrid architecture — blocking one channel does not close the resolver. PolinRider's multi-chain set: TRON, Aptos, BSC.
-2. **ChainDrop's credential model stated formally:** beyond disk files, the worm **scans the memory of running build processes** for ephemeral cloud IAM keys, CI/CD worker tokens, and short-lived OIDC federation keys, then the runner terminates — i.e. the harvest window is the build itself, and short-lived-token policies do NOT bound the exposure. ChainDrop resolves its exfil endpoint via EtherHiding contract transactions and persists via task hooks that fire **on project open or AI-coding-session start** (our `.claude/settings.json` / `.vscode/tasks.json` observation, restated by Unit 42 at the architecture level). Unit 42's count for ChainDrop: **400+ npm packages** including `keyv` and `cacheable-request`.
-3. **The defensive inversion worth adopting as policy:** Unit 42's first recommendation is a *negative* baseline — determine whether your org ever needs outbound Web3/blockchain network activity; if never, an egress deny on JSON-RPC/blockchain endpoints is a complete control against the whole Phase-1–3 class, independent of payload detection. Otherwise: monitor the RPC egress path itself, since the payload deliberately carries no static IoC. The attribution framing matches our standing caveat: ChainDrop = Shai-Hulud-family lineage (not identity), PolinRider = DPRK-linked (Alluring Pisces named among operators of the adjacent campaigns: Axios, Mastra AI, Rust `arrayref`).
+1. **The C2-evolution taxonomy:** Phase 1 **EtherHiding**, hardcoded smart-contract address, read-only `eth_call`, C2 domain in contract state (our `iseekaigogo`-class contract resolution); Phase 2, C2 moved into transaction PAYLOADS (the payload-stego generation); Phase 3, **zero-data `NullReceiver`** address resolution as the backup channel when RPC gateways or multi-chain lookups are blocked. Actors deploy MULTIPLE mechanisms in a hybrid architecture, blocking one channel does not close the resolver. PolinRider's multi-chain set: TRON, Aptos, BSC.
+2. **ChainDrop's credential model stated formally:** beyond disk files, the worm **scans the memory of running build processes** for ephemeral cloud IAM keys, CI/CD worker tokens, and short-lived OIDC federation keys, then the runner terminates, i.e. the harvest window is the build itself, and short-lived-token policies do NOT bound the exposure. ChainDrop resolves its exfil endpoint via EtherHiding contract transactions and persists via task hooks that fire **on project open or AI-coding-session start** (our `.claude/settings.json` / `.vscode/tasks.json` observation, restated by Unit 42 at the architecture level). Unit 42's count for ChainDrop: **400+ npm packages** including `keyv` and `cacheable-request`.
+3. **The defensive inversion worth adopting as policy:** Unit 42's first recommendation is a *negative* baseline, determine whether your org ever needs outbound Web3/blockchain network activity; if never, an egress deny on JSON-RPC/blockchain endpoints is a complete control against the whole Phase-1-3 class, independent of payload detection. Otherwise: monitor the RPC egress path itself, since the payload deliberately carries no static IoC. The attribution framing matches our standing caveat: ChainDrop = Shai-Hulud-family lineage (not identity), PolinRider = DPRK-linked (Alluring Pisces named among operators of the adjacent campaigns: Axios, Mastra AI, Rust `arrayref`).
 
-**Wiki consequence:** no IoC changes; this section joins the Aug 4 incident page and the [PolinRider page](polinrider-cross-ecosystem-supply-chain.md) as the architecture reference for resolver-class hunting — when hunting any loader with a resolver, ask which phase it is in and whether a Phase-3 zero-data fallback is wired, because takedown-style blocking only defeats Phase 1.
+**Wiki consequence:** no IoC changes; this section joins the Aug 4 incident page and the [PolinRider page](polinrider-cross-ecosystem-supply-chain.md) as the architecture reference for resolver-class hunting, when hunting any loader with a resolver, ask which phase it is in and whether a Phase-3 zero-data fallback is wired, because takedown-style blocking only defeats Phase 1.
 
 ## Open questions
 - Final affected package/version and download scope after npm containment; SafeDep's later August 4 snapshot is 444 packages and 2,234 versions across 12 organizations, while Unit 42's August 9 response list contains 483 package names and 1,675 package-version pairs.

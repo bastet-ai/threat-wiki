@@ -66,20 +66,20 @@ The Chrome-cookie extractor is tied to the public Chrome App-Bound Encryption de
 
 ## Indicators reported by Elastic
 ### C2 / fallback infrastructure
-- `cal.joycedoula[.]com[.]br` — present in earliest sample configurations.
-- `cal.snehamumbai[.]org` — latest C2 and fallback value recovered from Telegram / Polygon paths.
-- `t[.]me/chanadarkpart` — Telegram fallback profile.
-- `steamcommunity[.]com//profiles/76561199705801219` — Steam fallback profile.
-- `codebasecode[.]com` — DNS fallback query target.
+- `cal.joycedoula[.]com[.]br`, present in earliest sample configurations.
+- `cal.snehamumbai[.]org`, latest C2 and fallback value recovered from Telegram / Polygon paths.
+- `t[.]me/chanadarkpart`, Telegram fallback profile.
+- `steamcommunity[.]com//profiles/76561199705801219`, Steam fallback profile.
+- `codebasecode[.]com`, DNS fallback query target.
 - Polygon contract `0xf55Bea1FdCf1c3ABb39ab92567C09aC1BFf6753E`, selector `0xc3f909d4`.
 
 ### Sample and module hashes
-- `58aec6e3835aaf20f7b4a7e308b36a19e7454673a6f71783871e9bcf6cae8eed` — reference TELEPUZ main payload.
-- `bf3b4e645a3c0c23f87c55971069014f7424ad14497371ee7567eff68ffaf343` — TELEPUZ main payload.
-- `ff791fe1532a2dc3b3c188a71bfd0177f973ef228e4d1dda1db6d3c4b0d62b3e` — TELEPUZ main payload.
-- `a955d7e2819d5fa8b5f879cb970e1a1a91327098a7383f2a03a5e1e7e19435e3` — keylogger module.
-- `9733a3f6409de81271f21993c7f8b9865ac9f5c68c3d4336e91afe6b312477eb` — stealer module.
-- `444f1c0c82b3f6cc31d685bac68b20edbde5722ce219af9cceab0c2a6537efc1` — web-injector module.
+- `58aec6e3835aaf20f7b4a7e308b36a19e7454673a6f71783871e9bcf6cae8eed`, reference TELEPUZ main payload.
+- `bf3b4e645a3c0c23f87c55971069014f7424ad14497371ee7567eff68ffaf343`, TELEPUZ main payload.
+- `ff791fe1532a2dc3b3c188a71bfd0177f973ef228e4d1dda1db6d3c4b0d62b3e`, TELEPUZ main payload.
+- `a955d7e2819d5fa8b5f879cb970e1a1a91327098a7383f2a03a5e1e7e19435e3`, keylogger module.
+- `9733a3f6409de81271f21993c7f8b9865ac9f5c68c3d4336e91afe6b312477eb`, stealer module.
+- `444f1c0c82b3f6cc31d685bac68b20edbde5722ce219af9cceab0c2a6537efc1`, web-injector module.
 
 ### Host artifacts
 - Mutexes: `cfgmgr_mtx`, `bginfod_mtx`, `wfj64_mtx`.

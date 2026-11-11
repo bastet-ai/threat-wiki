@@ -1,7 +1,7 @@
 # Iran-linked threat landscape: access optionality and evidence quality
 
 ## Summary
-SentinelLABS' July 21, 2026 midyear assessment reframes the Iran-linked cyber threat around **access plus mission plus dependency**, rather than public personas or claim volume. Its central judgment is that the near-term base case remains persistent espionage and access development, accompanied by persona-led coercion and lower-impact opportunistic activity—not a synchronized national-scale destructive campaign.
+SentinelLABS' July 21, 2026 midyear assessment reframes the Iran-linked cyber threat around **access plus mission plus dependency**, rather than public personas or claim volume. Its central judgment is that the near-term base case remains persistent espionage and access development, accompanied by persona-led coercion and lower-impact opportunistic activity,not a synchronized national-scale destructive campaign.
 
 The durable defender lesson is **access optionality**: a compromised identity, cloud account, service provider, remote monitoring and management (`RMM`) agent, or trusted administrator can support collection today and selective disruption later as tasking changes. Existing access does not by itself prove pre-positioning or a software supply-chain compromise; downstream builds, updates, customers, or distribution must be shown to be affected before applying that label.
 

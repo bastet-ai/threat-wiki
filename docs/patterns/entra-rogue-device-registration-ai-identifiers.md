@@ -2,11 +2,11 @@
 
 ## Summary
 
-Wiz Research (Shahar Dorfman and Sapir Federovsky, August 18, 2026) documents how AI-generated artifacts are eroding the static fingerprints defenders rely on to detect rogue device registration in **Microsoft Entra ID**. Because Conditional Access policies commonly restrict access to domain-joined devices, attackers abuse the **Device Registration Service (DRS)** — which legitimately lets users register their own devices — to enroll rogue devices under a victim's identity. The pattern is widespread: in a 90-day window, **nearly one in seven Entra ID environments** experienced at least one such attack.
+Wiz Research (Shahar Dorfman and Sapir Federovsky, August 18, 2026) documents how AI-generated artifacts are eroding the static fingerprints defenders rely on to detect rogue device registration in **Microsoft Entra ID**. Because Conditional Access policies commonly restrict access to domain-joined devices, attackers abuse the **Device Registration Service (DRS)**, which legitimately lets users register their own devices, to enroll rogue devices under a victim's identity. The pattern is widespread: in a 90-day window, **nearly one in seven Entra ID environments** experienced at least one such attack.
 
 Historically, device-registration tooling left consistent, atomic IOCs: User-Agent strings like `Dsreg/10.0 (Windows 10.0.19041.928)` and predictable names like `DESKTOP-XXXXXXXX`. Wiz observes that the **DESKTOP-named device-registration pattern alone affects roughly 1 in 10 of their customer base**. Attackers already evade simple checks with trivial variants such as `microsoft-XXXXXXXX`, and AI now lets them generate highly customized, benign-looking identifiers that defeat static matching entirely.
 
-The shift: from matching tool fingerprints to **behavioral detection** — naming-convention anomaly detection on newly registered devices, and sequential correlation of device-code phishing alerts with subsequent device registration events. Wiz frames its AI-model experiments as hypothesis generators, not attribution: a generic device name or unfamiliar User-Agent cannot prove AI involvement on its own.
+The shift: from matching tool fingerprints to **behavioral detection**, naming-convention anomaly detection on newly registered devices, and sequential correlation of device-code phishing alerts with subsequent device registration events. Wiz frames its AI-model experiments as hypothesis generators, not attribution: a generic device name or unfamiliar User-Agent cannot prove AI involvement on its own.
 
 ## Tags
 
@@ -34,26 +34,26 @@ The shift: from matching tool fingerprints to **behavioral detection** — namin
 2. **Rogue device registration**: the resulting access registers a new device in the victim's environment, defeating joined-device Conditional Access requirements.
 3. **Post-registration objectives**: access to Microsoft 365 resources, email exfiltration, persistence, or tenant expansion.
 
-Wiz observed the same infrastructure hosting the phishing page and performing the initial sign-in after compromise — an overlap that helps identify newly deployed phishing infrastructure. A concrete example: the **AWS IP address `3.149.231.11`** appeared across device-code sign-ins associated with multiple victims, and around the same time URLScan captured a phishing page at `lockwall.xyz/prime/` using a "shared document" lure that presented victims with a pre-generated Microsoft device code. The resulting access allowed the attacker to register a new device in the victim's environment.
+Wiz observed the same infrastructure hosting the phishing page and performing the initial sign-in after compromise, an overlap that helps identify newly deployed phishing infrastructure. A concrete example: the **AWS IP address `3.149.231.11`** appeared across device-code sign-ins associated with multiple victims, and around the same time URLScan captured a phishing page at `lockwall.xyz/prime/` using a "shared document" lure that presented victims with a pre-generated Microsoft device code. The resulting access allowed the attacker to register a new device in the victim's environment.
 
 ## Pre-AI fingerprints (and their decay)
 
-Attackers relied heavily on **ROADrecon**, the well-known open-source Entra exploitation framework. Its automation produced consistency — defenders' favorite low-hanging fruit:
+Attackers relied heavily on **ROADrecon**, the well-known open-source Entra exploitation framework. Its automation produced consistency, defenders' favorite low-hanging fruit:
 
 - **User-Agent**: `Dsreg/10.0 (Windows 10.0.19041.928)` and similar mimicked-legitimate strings.
 - **Device name**: predictable patterns like `DESKTOP-XXXXXXXX`.
 
-Even minor modifications defeat rigid matching — Wiz observed `microsoft-XXXXXXXX` names in the wild. AI compounds the fragility by generating customized, unpredictable, benign-looking identifiers at scale.
+Even minor modifications defeat rigid matching, Wiz observed `microsoft-XXXXXXXX` names in the wild. AI compounds the fragility by generating customized, unpredictable, benign-looking identifiers at scale.
 
 ## AI-eroded fingerprints
 
-Wiz's hunt asked models to analyze unusual User-Agent strings in device-registration and sign-in activity for characteristics consistent with AI-generated tooling. One string stood out: **`MSTokens-PRT/1.0.`**, which registered a device named **`Work PC`** — a plausible product name with a clean name/version structure resembling patterns previously seen in AI-generated tooling such as `Azure-Enum/1.0`.
+Wiz's hunt asked models to analyze unusual User-Agent strings in device-registration and sign-in activity for characteristics consistent with AI-generated tooling. One string stood out: **`MSTokens-PRT/1.0.`**, which registered a device named **`Work PC`**, a plausible product name with a clean name/version structure resembling patterns previously seen in AI-generated tooling such as `Azure-Enum/1.0`.
 
 Wiz then queried multiple models from an attacker's perspective, asking which device names would make an Azure device registration appear inconspicuous, and compared recurring suggestions against real-world telemetry. The intent was hypothesis generation, not attribution: the model outputs produced new hunting hypotheses that were validated using behavioral context (device-code authentication followed shortly by a new device registration from unusual infrastructure). This identified suspicious activity that searches for known tool fingerprints would have missed.
 
 ## Behavioral detection techniques
 
-- **Naming-convention anomaly detection**: instead of matching specific device names, flag newly registered devices whose display names deviate from established organizational naming conventions — a pattern attackers struggle to emulate convincingly.
+- **Naming-convention anomaly detection**: instead of matching specific device names, flag newly registered devices whose display names deviate from established organizational naming conventions, a pattern attackers struggle to emulate convincingly.
 - **Sequential attack correlation**: correlate device-code-phishing alerts with subsequent device-registration events. Device registration is rarely isolated; evaluating the entire attack chain rather than isolated registration logs dramatically reduces the search space.
 
 ## Defender actions
@@ -97,7 +97,7 @@ SigninLogs
 
 - User-Agent `MSTokens-PRT/1.0.` on device-registration events (observed with a `Work PC` device name).
 - Device names deviating from organizational conventions: generic identifiers like `Work PC`, or trivial variants of expected patterns like `microsoft-XXXXXXXX` instead of `DESKTOP-XXXXXXXX`.
-- Device-code sign-ins from a single source IP across multiple victims — e.g. AWS `3.149.231.11` in Wiz's example.
+- Device-code sign-ins from a single source IP across multiple victims, e.g. AWS `3.149.231.11` in Wiz's example.
 - Phishing page co-located with the initial sign-in infrastructure, e.g. `lockwall.xyz/prime/` with a "shared document" lure and pre-generated Microsoft device code.
 - Known-tool fingerprints that still work for the naive subset: `Dsreg/10.0` User-Agent, `DESKTOP-XXXXXXXX` names, ROADrecon automation consistency.
 - The sequence itself: device-code authentication followed shortly by a new device registration from unusual infrastructure.
@@ -118,4 +118,4 @@ SigninLogs
 
 ## Sources
 
-- Wiz Research: [Rogue Device Joins — detecting Entra ID device-registration abuse and AI-generated identifiers](https://www.wiz.io/blog/detecting-entra-device-registration-abuse) (Shahar Dorfman, Sapir Federovsky, August 18, 2026)
+- Wiz Research: [Rogue Device Joins, detecting Entra ID device-registration abuse and AI-generated identifiers](https://www.wiz.io/blog/detecting-entra-device-registration-abuse) (Shahar Dorfman, Sapir Federovsky, August 18, 2026)

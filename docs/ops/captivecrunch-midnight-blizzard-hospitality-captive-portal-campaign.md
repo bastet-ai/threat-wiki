@@ -3,7 +3,7 @@
 ## Summary
 Microsoft Threat Intelligence attributes **CaptiveCrunch**, an ongoing campaign observed since early May 2026, to **Storm-2945**, which it assesses is an operational subcluster of Midnight Blizzard. The actor compromises or otherwise gains traffic-manipulation access within hospitality and shared-venue captive-portal networks, redirects travelers through actor-controlled infrastructure, and uses fake connectivity, browser, or operating-system update flows to deliver malware or device-code phishing.
 
-The operation is high-signal because the initial trust boundary is the network itself: a successful connection to hotel, conference-center, or other guest Wi-Fi can trigger malicious content in response to normal browser connectivity checks. Microsoft reports widespread affected networks in several countries and notes common equipment and management systems across multiple victims, raising—but not proving—the possibility of access to shared captive-portal services rather than only isolated venue compromises.
+The operation is high-signal because the initial trust boundary is the network itself: a successful connection to hotel, conference-center, or other guest Wi-Fi can trigger malicious content in response to normal browser connectivity checks. Microsoft reports widespread affected networks in several countries and notes common equipment and management systems across multiple victims, raising,but not proving,the possibility of access to shared captive-portal services rather than only isolated venue compromises.
 
 ## Tags
 - ops
@@ -122,22 +122,22 @@ Device-code success should be treated as cloud-account compromise even if no mal
 ## Public indicators
 
 ### Domains
-- `ms365-device[.]com` — device-code-flow redirect
-- `ms365-live[.]com` — device-code-flow redirect
-- `m365-owa[.]com` — adversary-in-the-middle infrastructure
-- `owa-ms365[.]com` — adversary-in-the-middle infrastructure
+- `ms365-device[.]com`, device-code-flow redirect
+- `ms365-live[.]com`, device-code-flow redirect
+- `m365-owa[.]com`, adversary-in-the-middle infrastructure
+- `owa-ms365[.]com`, adversary-in-the-middle infrastructure
 
 ### IP addresses
-- `31.57.243[.]154` — adversary-in-the-middle infrastructure
-- `38.146.28[.]75` — adversary-in-the-middle infrastructure
-- `38.146.28[.]132` — DNS resolver
-- `104.194.159[.]150` — adversary-in-the-middle infrastructure
-- `107.189.26[.]194` — ChocoShell C2 / DNS resolver
-- `213.145.86[.]112` — ChocoShell C2
+- `31.57.243[.]154`, adversary-in-the-middle infrastructure
+- `38.146.28[.]75`, adversary-in-the-middle infrastructure
+- `38.146.28[.]132`, DNS resolver
+- `104.194.159[.]150`, adversary-in-the-middle infrastructure
+- `107.189.26[.]194`, ChocoShell C2 / DNS resolver
+- `213.145.86[.]112`, ChocoShell C2
 
 ### SHA-256
-- `918fa52ae45ed60ba7cc8bdc99c3cbe9ab92e0375ec31fc05d0d4513be11c593` — CornFlake
-- `be99857449d2856dd5a84e21c8a3d5e0e01456adb44062ddec5a6b4970d8d42c` — ChocoShell
+- `918fa52ae45ed60ba7cc8bdc99c3cbe9ab92e0375ec31fc05d0d4513be11c593`, CornFlake
+- `be99857449d2856dd5a84e21c8a3d5e0e01456adb44062ddec5a6b4970d8d42c`, ChocoShell
 
 ## Evidence limits
 - Microsoft has not publicly identified the captive-portal equipment, management platform, shared provider, initial access vulnerability, or compromised credentials.

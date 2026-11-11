@@ -30,7 +30,7 @@ Reco (agent-security platform) named a long-running scraping operation the **Cit
 
 ## Reported technique
 1. A single Go binary (default `Go-http-client` user agent on every request) sends high-volume guest requests.
-2. **Salesforce:** Aura guest requests enumerate objects and page through records (bulk of traffic), plus LWR UI-API calls across API versions v56.0–v66.0 on Experience Cloud sites.
+2. **Salesforce:** Aura guest requests enumerate objects and page through records (bulk of traffic), plus LWR UI-API calls across API versions v56.0-v66.0 on Experience Cloud sites.
 3. **ServiceNow:** repeated `POST /api/now/sp/search` against native Service Portal search, harvesting what the portal's guest-facing search criteria return.
 4. Passive DNS ties the `City Forum` domain to 158.220.87.79 back to at least **March 2025**; the server has not moved since.
 
@@ -48,7 +48,7 @@ Reco (agent-security platform) named a long-running scraping operation the **Cit
 ## Remediation
 - **Salesforce:** review guest sharing rules; strip object/field-level access the guest does not need; disable self-registration where not required; turn off the Experience Builder setting that lets guest users reach public APIs.
 - **ServiceNow:** map which search sources are exposed on public-facing portals; audit the Knowledge Base read criteria that determine what anonymous search returns.
-- Both fixes target the **guest profile**, not the endpoints — the endpoints are behaving correctly relative to their configuration.
+- Both fixes target the **guest profile**, not the endpoints, the endpoints are behaving correctly relative to their configuration.
 
 ## Confidence and attribution
 - Reco has not attributed the campaign to a named group; treat "City Forum" as Reco's operational label (from a domain tied to the attacker IP).
@@ -61,5 +61,5 @@ Reco (agent-security platform) named a long-running scraping operation the **Cit
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](servicenow-ai-platform-cve-2026-6875-exploitation.md)
 
 ## Sources
-- Reco: [City Forum campaign — Salesforce and ServiceNow guest-access scraping](https://www.reco.ai/blog/city-forum-campaign-salesforce-servicenow)
-- The Hacker News: [One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025](https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html) — August 18, 2026
+- Reco: [City Forum campaign, Salesforce and ServiceNow guest-access scraping](https://www.reco.ai/blog/city-forum-campaign-salesforce-servicenow)
+- The Hacker News: [One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025](https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html), August 18, 2026

@@ -66,7 +66,7 @@ Catcher listens on TCP port 8000 behind Nginx and on DNS port 53. Received files
 - HTTPS JSON posts use `/v/p`; binary uploads use `/v/d` with an `X-Filename` header.
 - Repeated binary filenames include `zimbra_batch_analytics.json`, `telemetry_{1-20}.json`, and `telemetryData_{0-89}.json`.
 - Catcher's `pixel.gif` response has SHA-256 `ef1955ae757c8b966c83248350331bd3a30f658ced11f387f8ebf05ab3368629`.
-- Flowerbed servers were reportedly rotated after 7–60 days and primarily administered through Mullvad VPN.
+- Flowerbed servers were reportedly rotated after 7-60 days and primarily administered through Mullvad VPN.
 
 ## Detection and response
 - Search `/opt/zimbra/log/mailbox.log` for dense SOAP activity from one user, especially `SearchGalRequest`, `CreateAppSpecificPasswordRequest` creating `ZimbraWeb`, and `GetScratchCodesRequest`.
@@ -85,6 +85,6 @@ The joint advisory identifies the operator as Russian state-supported and lists 
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 
 ## Sources
-- CISA et al., July 23, 2026: [AA26-204A — Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a)
+- CISA et al., July 23, 2026: [AA26-204A, Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a)
 - Unit 42, July 23, 2026: [Russian Global Webmail Espionage](https://unit42.paloaltonetworks.com/russian-webmail-espionage/)
 - Seqrite Labs, March 2026: [Operation GhostMail: Russian APT exploits Zimbra Webmail to Target Ukraine State Agency](https://www.seqrite.com/blog/operation-ghostmail-zimbra-xss-russian-apt-ukraine/)

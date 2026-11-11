@@ -40,7 +40,7 @@ The analyzed baseline is a stripped, statically linked 32-bit ARM ELF built with
 Unit 42 also identified Android APK wrappers from October through December 2025. They masqueraded as `SystemService`, probed for root access, and launched an embedded ELF. Related payload names included `libdevice.so` and a redacted `lib*kernel.so`; observed process names included `TVHelper` and `inetd`. The earliest x86 sample's `libcow.so` naming and behavior suggested a Dirty COW lineage before the operation shifted toward Android/ADB propagation.
 
 ## DDoS capability
-The dispatch table contains 15 methods across Layers 3–7, including:
+The dispatch table contains 15 methods across Layers 3-7, including:
 
 - TCP socket, SYN, ACK, SYN-ACK, RST, connection, and epoll-based floods;
 - multiple UDP floods, a game-server UDP method for port 27015, and a DNS flood;
@@ -86,12 +86,12 @@ Treat network infrastructure as historical and time-bounded.
 - APK signing-certificate SHA-1: `2a1d96f1b066877812587ac94f45f82dfff5f5f9`
 
 ### Infrastructure
-- `23.94.221[.]104` — hosted `rpcuniverse[.]com`; contacted directly by ELF and APK samples
+- `23.94.221[.]104`, hosted `rpcuniverse[.]com`; contacted directly by ELF and APK samples
 - `212.193.31[.]158:443`
 - `212.193.31[.]92:443`
 - `212.193.31[.]119:13`
 - `212.193.31[.]122:13`
-- `212.193.31[.]102` — pivot linked by the shared SSH host key
+- `212.193.31[.]102`, pivot linked by the shared SSH host key
 
 ## Detection and response
 - Inventory Android TV boxes, set-top boxes, and other unmanaged Android devices. Disable network ADB, restrict ADB to USB-only operation where possible, and verify that TCP/5555 is not reachable from local, guest, VPN, or residential-proxy paths.

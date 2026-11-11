@@ -73,11 +73,11 @@ The defender takeaway is practical: generated malware can be simultaneously fast
 
 ## Reported infrastructure and indicators
 Unit 42's public indicators include:
-- `209.182.237[.]133` — C2 server observed on TCP `2222`.
-- `185.10.68[.]127` — source-code pivot that Unit 42 links to Keksec / Kaitori ecosystem infrastructure.
-- `37.32.24[.]195` — `digikalas[.]online` resolution reported for developer-domain infrastructure.
-- `digikalas[.]online`, `api.digikalas[.]online`, `health.digikalas[.]online`, `newtuxdev.sevielw.digikalas[.]online` — reported developer-domain artifacts.
-- `188.166.2[.]226` — hard-coded dead-code payload host copied from older Tsunami/r00ts3c-style material; Unit 42 says the current host is decommissioned for this purpose and serving unrelated Ubiquiti UISP content.
+- `209.182.237[.]133`, C2 server observed on TCP `2222`.
+- `185.10.68[.]127`, source-code pivot that Unit 42 links to Keksec / Kaitori ecosystem infrastructure.
+- `37.32.24[.]195`, `digikalas[.]online` resolution reported for developer-domain infrastructure.
+- `digikalas[.]online`, `api.digikalas[.]online`, `health.digikalas[.]online`, `newtuxdev.sevielw.digikalas[.]online`, reported developer-domain artifacts.
+- `188.166.2[.]226`, hard-coded dead-code payload host copied from older Tsunami/r00ts3c-style material; Unit 42 says the current host is decommissioned for this purpose and serving unrelated Ubiquiti UISP content.
 - Sample SHA-256 values published by Unit 42 include:
   - `71dfbb171eca4ef9d02ff630b56e5283bbef7b375d4dbe9e8c9531bef312fa8d`
   - `6b7a8e0c96c2318e747f074f9a99d26738700769ac01bba692d19fc884847737`

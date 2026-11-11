@@ -29,7 +29,7 @@ The final `aone-cli` payload targets Alibaba-oriented developer and collaboratio
 Socket traced two related delivery paths:
 
 1. `lib-mtop`, an unscoped lookalike for a private `@ali` package, received three new versions in late March 2026 and directly downloaded JavaScript with `curl` before loading it from disk. The sparse older package history suggests possible account takeover, but public evidence does not distinguish takeover from a malicious or rogue publisher.
-2. A larger package cluster was staged across April 27–28. Top-layer lures copied private `@ali/*` package names and declared both the real private dependency and attacker-controlled `smart-config-manager`.
+2. A larger package cluster was staged across April 27-28. Top-layer lures copied private `@ali/*` package names and declared both the real private dependency and attacker-controlled `smart-config-manager`.
 3. `smart-config-manager` pulled `cloud-config-fetcher` and `local-config-parser`, published through different accounts. Each helper looked consistent with its stated purpose when reviewed alone.
 4. `cloud-config-fetcher` retrieved `preferences.json` from `smi1e2u/smart-config-manager` on GitHub and stored it as `.cloud-preferences.json`.
 5. `local-config-parser` evaluated a disguised rule from that file. The rule escaped the Node.js `vm` sandbox through `items.constructor.constructor`, recovered `process` and module-loader access, and downloaded `setting.js` from Alibaba Cloud Object Storage.
@@ -89,8 +89,8 @@ HTTP requests can carry fake `Origin` and `Referer` values of `https://alidocs.d
 - `aone-cli-next[.]oss-cn-beijing[.]aliyuncs[.]com`
 - `aone-ai-cli[.]oss-cn-beijing[.]aliyuncs[.]com`
 - `aone-kit[.]oss-cn-beijing[.]aliyuncs[.]com`
-- `xemzqli2vu[.]ai-app[.]pub` — primary C2 reported by Socket
-- `diamond-cli-znsxphqell[.]cn-shanghai[.]fcapp[.]run` — reverse-proxy WebSocket C2
+- `xemzqli2vu[.]ai-app[.]pub`, primary C2 reported by Socket
+- `diamond-cli-znsxphqell[.]cn-shanghai[.]fcapp[.]run`, reverse-proxy WebSocket C2
 - fake HTTP origin/referrer: `https://alidocs.dingtalk.com`
 
 ### Host and code
@@ -101,14 +101,14 @@ HTTP requests can carry fake `Origin` and `Referer` values of `https://alidocs.d
 - unapproved edits to Alilang `app.asar`, `.skills` Python files, `~/.zshrc`, or LaunchAgent definitions
 
 ### SHA-256
-- `84a6ccaaab1596139d28e822f40cc99c68d337d4c81d1c6d9692c1d6bb22e4af` — malicious `preferences.json`
-- `6044974c633b3a319c31bb32110411520c425e89722a64806528553227e7a50a` — `setting.js`
-- `0910ecfa049738ef3f2540855341a380df89224ff71da94b4c21689fd66f62e3` — macOS `aone-cli.js`
-- `b8b81af76163bdcc5b4f7d8fe6795f164991f8a62678c971db031b9e90a27813` — Linux `aone-cli`
-- `ef9a1896eeaae929800eade768276e2240ef252d26d0d96c1950a1a5e1aadb34` — Windows `aone-cli.zip`
-- `e5d8350f1540fe91145dc262c455bca7748ad97dafb2d9facd5adebed9f66d2d` — `aone-cli-deps.tar.gz`
-- `41957bd0ba2d9c07af2e069f10780fdf6b2102c065bebe0db2136dfe07d67a28` — `crypto.js`
-- `33b58598eb317553942e27545982d4c25ce6120eae10e42393746eb0e02ecae9` — Linux `aone-kit-update`
+- `84a6ccaaab1596139d28e822f40cc99c68d337d4c81d1c6d9692c1d6bb22e4af`, malicious `preferences.json`
+- `6044974c633b3a319c31bb32110411520c425e89722a64806528553227e7a50a`, `setting.js`
+- `0910ecfa049738ef3f2540855341a380df89224ff71da94b4c21689fd66f62e3`, macOS `aone-cli.js`
+- `b8b81af76163bdcc5b4f7d8fe6795f164991f8a62678c971db031b9e90a27813`, Linux `aone-cli`
+- `ef9a1896eeaae929800eade768276e2240ef252d26d0d96c1950a1a5e1aadb34`, Windows `aone-cli.zip`
+- `e5d8350f1540fe91145dc262c455bca7748ad97dafb2d9facd5adebed9f66d2d`, `aone-cli-deps.tar.gz`
+- `41957bd0ba2d9c07af2e069f10780fdf6b2102c065bebe0db2136dfe07d67a28`, `crypto.js`
+- `33b58598eb317553942e27545982d4c25ce6120eae10e42393746eb0e02ecae9`, Linux `aone-kit-update`
 
 ## Defender actions
 1. Search lockfiles, SBOMs, npm caches, internal mirrors, CI logs, build artifacts, and developer-host package trees for the reported package names and versions.

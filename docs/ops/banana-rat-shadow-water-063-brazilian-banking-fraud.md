@@ -37,7 +37,7 @@ The campaign is financially motivated and focused on Brazilian financial institu
 ## Reported chain
 1. Victims are lured through WhatsApp or a possible phishing URL to download `Consultar_NF-e.bat` from `convitemundial2026[.]com`, using Brazil's electronic-invoice context as the lure.
 2. The batch file launches an obfuscated PowerShell command that hides the console and retrieves a staging payload such as `payload.php` / `msedge.txt` from attacker infrastructure.
-3. The operator-side service maintains a clean PowerShell banker source and uses a FastAPI-based crypter to generate 100–200 ready builds per pool. Each request receives a byte-unique payload with randomized variables, junk code, XOR keys, fragmented .NET type names, and AES-wrapped code blobs.
+3. The operator-side service maintains a clean PowerShell banker source and uses a FastAPI-based crypter to generate 100-200 ready builds per pool. Each request receives a byte-unique payload with randomized variables, junk code, XOR keys, fragmented .NET type names, and AES-wrapped code blobs.
 4. The victim-side stager writes a staged file under user-writable paths such as `C:\Users\Public\Documents\msedge.txt`, decrypts the AES-wrapped body in memory, and executes it through `ScriptBlock::Create` / `IEX` so the plaintext banker does not land on disk.
 5. The unpacked PowerShell RAT compiles temporary C# helpers through `csc.exe` for screen capture, overlays, keyboard tracking, native input control, process / credential-access support, and C2 modules.
 6. The malware establishes persistence through a hidden scheduled task that runs `powershell.exe` with `-WindowStyle Hidden`, `-ExecutionPolicy Bypass`, and an encoded command every minute for 9,999 days.

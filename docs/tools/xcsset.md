@@ -21,17 +21,17 @@
 ## Execution and propagation
 A malicious Xcode run-script phase executes when a developer builds a poisoned project. The staged chain fingerprints the host, retrieves a loader and AppleScript wrapper, starts the `boot` orchestrator, removes temporary files, and streams encrypted modules into memory.
 
-Propagation modules infect local Xcode projects, Git pre-commit paths, and Xcode projects contained in ZIP archives. XCSSET can therefore turn a developer endpoint into a repository and downstream-build compromise point. On September 8, 2026 the worm was found shipped inside a pub.dev package (`universal_file_viewer` 0.1.5) when an infected maintainer published from a compromised machine — see [XCSSET in a pub.dev Flutter package: `universal_file_viewer`](../ops/xcsset-pub-dev-flutter-universal-file-viewer-aikido-september-2026.md).
+Propagation modules infect local Xcode projects, Git pre-commit paths, and Xcode projects contained in ZIP archives. XCSSET can therefore turn a developer endpoint into a repository and downstream-build compromise point. On September 8, 2026 the worm was found shipped inside a pub.dev package (`universal_file_viewer` 0.1.5) when an infected maintainer published from a compromised machine, see [XCSSET in a pub.dev Flutter package: `universal_file_viewer`](../ops/xcsset-pub-dev-flutter-universal-file-viewer-aikido-september-2026.md).
 
 ## V40 module set
 Unit 42 mapped 17 modules, including:
-- `boot` — orchestration and module dispatch;
-- `stats` — host, browser-extension, and VM reconnaissance;
-- `replicator_finder`, `git_finder`, and `zip_infect_finder` — Xcode, Git-hook, and archive infection;
-- `data_folders_finder`, `firefox_data`, and `notes_app` — data discovery and theft;
-- `settings_app`, `finder_app`, and `persist` — LaunchDaemon, trojanized-app, shell, Dock-app, and TCC-related persistence;
-- `browser_remote`, `safari_remote`, and `chrome_remote` — browser dispatch, hijacking, and remote access;
-- `tdesktop` — Telegram Desktop replacement.
+- `boot`, orchestration and module dispatch;
+- `stats`, host, browser-extension, and VM reconnaissance;
+- `replicator_finder`, `git_finder`, and `zip_infect_finder`, Xcode, Git-hook, and archive infection;
+- `data_folders_finder`, `firefox_data`, and `notes_app`, data discovery and theft;
+- `settings_app`, `finder_app`, and `persist`, LaunchDaemon, trojanized-app, shell, Dock-app, and TCC-related persistence;
+- `browser_remote`, `safari_remote`, and `chrome_remote`, browser dispatch, hijacking, and remote access;
+- `tdesktop`, Telegram Desktop replacement.
 
 The v40 `chrome_remote` helper enables Chrome DevTools Protocol, attaches to the browser, receives JavaScript over a C2 WebSocket, hooks browser APIs, steals cookies and credentials, manipulates wallet transactions, and converts specially formatted console messages into host shell commands. `tdesktop` replaces and ad hoc signs Telegram Desktop and maintains C2-supplied state in `~/.tr` and `~/.tr_map`.
 

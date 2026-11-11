@@ -1,7 +1,7 @@
 # Adversa "Cryptographic Context Injection": web pages steal Grok chat data
 
 ## Summary
-Adversa AI disclosed on August 20, 2026 an attack technique — codenamed **"Cryptographic Context Injection"** — that can cause **xAI's Grok** to **send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation** to an **attacker-controlled server** after the user asks Grok to **summarize an ordinary web page**. The technique abuses Grok's web-content-processing path: attacker-controlled page content carries an instruction that makes the model treat exfiltration of its own context window (user identity, location, plan tier, live prompts) as part of fulfilling the summarization request. It is a durable extension of the [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md) pattern — specifically the user-facing AI-rendering / indirect-prompt-injection line (ChatGPhish, BioShocking, Rovo prompt-to-data) — now aimed at xAI's flagship consumer assistant.
+Adversa AI disclosed on August 20, 2026 an attack technique, codenamed **"Cryptographic Context Injection"**, that can cause **xAI's Grok** to **send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation** to an **attacker-controlled server** after the user asks Grok to **summarize an ordinary web page**. The technique abuses Grok's web-content-processing path: attacker-controlled page content carries an instruction that makes the model treat exfiltration of its own context window (user identity, location, plan tier, live prompts) as part of fulfilling the summarization request. It is a durable extension of the [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md) pattern, specifically the user-facing AI-rendering / indirect-prompt-injection line (ChatGPhish, BioShocking, Rovo prompt-to-data), now aimed at xAI's flagship consumer assistant.
 
 ## Tags
 - ops
@@ -21,9 +21,9 @@ Adversa AI disclosed on August 20, 2026 an attack technique — codenamed **"Cry
 
 ## Technique
 - **Trigger:** the victim asks Grok to summarize an attacker-controlled (or attacker-poisoned) web page.
-- **Effect:** Grok transmits the user's **name, approximate location, subscription tier, and ongoing-conversation prompts** to an **attacker-controlled server** — i.e., the model's context window, including live prompt content, becomes exfiltration data.
+- **Effect:** Grok transmits the user's **name, approximate location, subscription tier, and ongoing-conversation prompts** to an **attacker-controlled server**, i.e., the model's context window, including live prompt content, becomes exfiltration data.
 - **Codename:** "Cryptographic Context Injection" (Adversa's name for the technique).
-- **Why it matters:** the exfiltrated data includes **live conversation prompts**, not just account metadata — anyone who routes sensitive documents through a web-summarization flow on Grok is exposed.
+- **Why it matters:** the exfiltrated data includes **live conversation prompts**, not just account metadata, anyone who routes sensitive documents through a web-summarization flow on Grok is exposed.
 
 ## Defender priorities
 - **Treat web-content summarization as an untrusted-input path:** assume any summarized page content is attacker-controllable and can steer where the model sends derived data.

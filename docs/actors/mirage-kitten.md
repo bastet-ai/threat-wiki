@@ -54,9 +54,9 @@ Keep the aliases as source-reported equivalences, not as proof that every activi
 - Treat the Tortoiseshell / Charming Kitten cluster framing as source-reported linkage, not a multi-agency confirmed alias chain.
 
 ### September 2026 Node.js/JavaScript implants (Kaspersky)
-- Kaspersky GReAT (September 1, 2026) disclosed **NodeRabbit** (a Node.js RAT) and **PollCat** (a JavaScript RAT), the group's first publicly documented Node.js/JavaScript implants — a departure from its native DLL-search-order-hijacking malware. Both are cross-platform (Windows, Linux, macOS; NodeRabbit also WSL).
+- Kaspersky GReAT (September 1, 2026) disclosed **NodeRabbit** (a Node.js RAT) and **PollCat** (a JavaScript RAT), the group's first publicly documented Node.js/JavaScript implants, a departure from its native DLL-search-order-hijacking malware. Both are cross-platform (Windows, Linux, macOS; NodeRabbit also WSL).
 - **NodeRabbit** (3 variants) is delivered through trojanized "coding challenge" archives (bundled `colorized_terminal` / `pretty-log` npm packages); variant 3 adds 12 commands (23 total) and developer-workflow persistence (a fake "GitHub Copilot Helper" VS Code extension and `# shepherd-persist` injection into `.git/hooks/post-merge` / `post-checkout`). C2 over Azure + Cloudflare chains.
-- **PollCat** is delivered inside a trojanized React `RankChallenge-react` "assessment" with a recruiter-supplied OTP; it registers via `POST /beacon` and treats an **HTTP 400** response (carrying a `socketId`) as success — the same handshake as the group's historical Retrograde/MiniFast. C2 on `sahi-finance[.]com` and `gamebarapp*` Azure domains.
+- **PollCat** is delivered inside a trojanized React `RankChallenge-react` "assessment" with a recruiter-supplied OTP; it registers via `POST /beacon` and treats an **HTTP 400** response (carrying a `socketId`) as success, the same handshake as the group's historical Retrograde/MiniFast. C2 on `sahi-finance[.]com` and `gamebarapp*` Azure domains.
 - Delivery is recruiter-themed social engineering (fake "technical assessments" on Amazon S3), targeting **aviation and FinTech** in the Middle East and Africa (Egypt, Ethiopia, Afghanistan observed).
 - Lure hosting shifted from prior onlyoffice.com to **Amazon S3**.
 

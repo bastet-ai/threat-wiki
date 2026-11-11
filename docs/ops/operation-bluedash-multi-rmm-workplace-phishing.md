@@ -95,18 +95,18 @@ Treat the public repositories as historical evidence and hunt pivots, not as an 
 Historical infrastructure may be inactive or reassigned. Verify context before blocking shared services.
 
 ### Domains and hosting
-- `zerrinperde[.]com[.]tr` — compromised site used in the original Teams lure.
-- `anujyotindustries[.]com` — compromised site that hosted an identical lure.
-- `teamvem[.]com` — live Teams-themed fake Microsoft Store deployment during the investigation.
-- `bluedashlimited[.]netlify[.]app` — associated Netlify deployment.
-- `support[.]berrydev[.]xyz` — GitHub Pages custom domain and SupportDev host.
-- `linux[.]berrydev[.]xyz` — related infrastructure.
-- `sqnchzmt4lsc[.]net` — ScreenConnect client delivery used by SupportDev.
-- `sympatico15[.]screenconnect[.]com` — historical direct ScreenConnect delivery.
-- `bgustavo[.]screenconnect[.]com` — connected campaign infrastructure.
-- `api[.]investrneent[.]com` — Tactical RMM API server.
-- `rmm[.]investrneent[.]com` — related Tactical RMM infrastructure.
-- `mesh[.]investrneent[.]com` — related RMM infrastructure.
+- `zerrinperde[.]com[.]tr`, compromised site used in the original Teams lure.
+- `anujyotindustries[.]com`, compromised site that hosted an identical lure.
+- `teamvem[.]com`, live Teams-themed fake Microsoft Store deployment during the investigation.
+- `bluedashlimited[.]netlify[.]app`, associated Netlify deployment.
+- `support[.]berrydev[.]xyz`, GitHub Pages custom domain and SupportDev host.
+- `linux[.]berrydev[.]xyz`, related infrastructure.
+- `sqnchzmt4lsc[.]net`, ScreenConnect client delivery used by SupportDev.
+- `sympatico15[.]screenconnect[.]com`, historical direct ScreenConnect delivery.
+- `bgustavo[.]screenconnect[.]com`, connected campaign infrastructure.
+- `api[.]investrneent[.]com`, Tactical RMM API server.
+- `rmm[.]investrneent[.]com`, related Tactical RMM infrastructure.
+- `mesh[.]investrneent[.]com`, related RMM infrastructure.
 
 ### Repositories and files
 - `github[.]com/berry4603/Bluedashltd`

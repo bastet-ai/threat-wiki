@@ -7,9 +7,9 @@ In January 2024, Microsoft disclosed that Midnight Blizzard had accessed Microso
 This page covers the Microsoft-disclosed mailbox theft and the immediate public response, not the entire history of APT29 activity.
 
 ## Timeline
-- **2024-01-12** — Microsoft detected a nation-state intrusion in corporate systems and began response actions.
-- **2024-01-25** — Microsoft published responder guidance and identified the actor as Midnight Blizzard, also known as NOBELIUM.
-- **2024-10-29** — Microsoft reported additional Midnight Blizzard spear-phishing activity using signed RDP configuration files.
+- **2024-01-12**, Microsoft detected a nation-state intrusion in corporate systems and began response actions.
+- **2024-01-25**, Microsoft published responder guidance and identified the actor as Midnight Blizzard, also known as NOBELIUM.
+- **2024-10-29**, Microsoft reported additional Midnight Blizzard spear-phishing activity using signed RDP configuration files.
 
 ## Related groups and people
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)

@@ -69,8 +69,8 @@ The most durable May 2026 updates are Kaspersky's consolidation of new PebbleDas
 - Preserve endpoint, identity, GitHub, VS Code tunnel, Slack webhook, and network logs before broad containment; these campaigns can use legitimate infrastructure where post-compromise context matters more than any one IOC.
 
 ## 2026 activity notes
-- **May 2026 — Kaspersky PebbleDash / AppleSeed consolidation:** Kaspersky reported new PebbleDash-based tools, AppleSeed cluster links, VS Code tunneling, DWAgent, Cloudflare Quick Tunnels, LLM/Rust adoption, and South Korea-focused victimology with broader defense-sector PebbleDash targeting.
-- **May 2026 — ENKI HTTPSpy / JSONPing reporting:** ENKI reported fake security-software and Webex meeting flows, JSONPing infection checks, selective follow-on payload delivery, and HTTPSpy execution chains targeting South Korean military and corporate entities in March-April 2026.
+- **May 2026, Kaspersky PebbleDash / AppleSeed consolidation:** Kaspersky reported new PebbleDash-based tools, AppleSeed cluster links, VS Code tunneling, DWAgent, Cloudflare Quick Tunnels, LLM/Rust adoption, and South Korea-focused victimology with broader defense-sector PebbleDash targeting.
+- **May 2026, ENKI HTTPSpy / JSONPing reporting:** ENKI reported fake security-software and Webex meeting flows, JSONPing infection checks, selective follow-on payload delivery, and HTTPSpy execution chains targeting South Korean military and corporate entities in March-April 2026.
 
 ## Related pages
 - [RemotePE](../tools/remotepe.md)

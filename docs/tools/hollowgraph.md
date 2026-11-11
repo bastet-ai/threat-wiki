@@ -92,7 +92,7 @@ The configuration includes sensitive application credentials, mailbox identity, 
 ## Detection and hunting
 
 ### Microsoft 365 and Graph
-- Search for calendar events dated `2050-05-13`, especially during `22:00–23:00 UTC`.
+- Search for calendar events dated `2050-05-13`, especially during `22:00-23:00 UTC`.
 - Hunt event subjects containing `Event ID:`, matching `Boss{...}ID{...}`, or consisting only of a GUID.
 - Correlate those events with attachments named `File{n}.txt` and `application/octet-stream` content.
 - Audit application-driven Graph operations that create calendar events, upload attachments, or patch event subjects, especially where no corresponding user session exists.

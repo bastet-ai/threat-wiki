@@ -29,13 +29,13 @@ The campaign is notable because the delivery path starts as email but can become
 - Proofpoint
 
 ## Reported chain
-1. **Reconnaissance and targeting** — the actor appears to identify university departments running Roundcube versions vulnerable to N-day issues before sending exploit-triggering mail.
-2. **Email delivery** — messages are sent from compromised senders and domains that can be spoofed because of weak DMARC posture.
-3. **Roundcube XSS trigger** — when a recipient opens the message in Roundcube, the campaign abuses **CVE-2024-42009** to run JavaScript in the victim browser context.
-4. **IceCube JavaScript payload** — the reported payload steals browser-stored credential information, two-factor-authentication material, cookies, browser language, screen size, and form-field values, then POSTs the data to external infrastructure.
-5. **RCE chaining** — IceCube uses the active session's CSRF token to exploit **CVE-2025-49113**, a post-authenticated Roundcube RCE.
-6. **Server foothold** — the primary path drops an in-memory PHP web shell called **SquareShell** at `plugins/newmail_notifier/mail_preview.php`; the fallback path runs a shell script that fetches an architecture-matched **SNOWLIGHT** ELF loader and ultimately deploys **VShell**.
-7. **Anti-forensics / continuity** — IceCube reportedly hooks page-close, tab-change, mouse-leave, and logout-button events as deferred triggers, retries exploitation, beacons when the user leaves the Roundcube session, and destroys user and malware-created server sessions to force logout and reduce server-side forensic traces.
+1. **Reconnaissance and targeting**, the actor appears to identify university departments running Roundcube versions vulnerable to N-day issues before sending exploit-triggering mail.
+2. **Email delivery**, messages are sent from compromised senders and domains that can be spoofed because of weak DMARC posture.
+3. **Roundcube XSS trigger**, when a recipient opens the message in Roundcube, the campaign abuses **CVE-2024-42009** to run JavaScript in the victim browser context.
+4. **IceCube JavaScript payload**, the reported payload steals browser-stored credential information, two-factor-authentication material, cookies, browser language, screen size, and form-field values, then POSTs the data to external infrastructure.
+5. **RCE chaining**, IceCube uses the active session's CSRF token to exploit **CVE-2025-49113**, a post-authenticated Roundcube RCE.
+6. **Server foothold**, the primary path drops an in-memory PHP web shell called **SquareShell** at `plugins/newmail_notifier/mail_preview.php`; the fallback path runs a shell script that fetches an architecture-matched **SNOWLIGHT** ELF loader and ultimately deploys **VShell**.
+7. **Anti-forensics / continuity**, IceCube reportedly hooks page-close, tab-change, mouse-leave, and logout-button events as deferred triggers, retries exploitation, beacons when the user leaves the Roundcube session, and destroys user and malware-created server sessions to force logout and reduce server-side forensic traces.
 
 ## Tools and components
 | Name | Role |

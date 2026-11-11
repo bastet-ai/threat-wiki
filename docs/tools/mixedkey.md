@@ -43,7 +43,7 @@ MIXEDKEY also uses large numbers of mixed-boolean-arithmetic operations and opaq
 - Look for a signed or legitimate process reading the `.PCPKEY` file and then allocating or executing private memory.
 
 ## Public indicator
-- SHA-256 `3b3eaea783fd6dab90f0408274bf8a9c49adbdc70c0efd70658d65b0e1684a3f` — `pthreadVC2.dll`.
+- SHA-256 `3b3eaea783fd6dab90f0408274bf8a9c49adbdc70c0efd70658d65b0e1684a3f`, `pthreadVC2.dll`.
 
 ## Related pages
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
@@ -51,4 +51,4 @@ MIXEDKEY also uses large numbers of mixed-boolean-arithmetic operations and opaq
 - [BINDCLOAK](bindcloak.md)
 
 ## Sources
-- Zscaler ThreatLabz: [Targeted Attack on Government Entities in the Middle East — Part 1](https://www.zscaler.com/blogs/security-research/targeted-attack-government-entities-middle-east-part-1)
+- Zscaler ThreatLabz: [Targeted Attack on Government Entities in the Middle East, Part 1](https://www.zscaler.com/blogs/security-research/targeted-attack-government-entities-middle-east-part-1)

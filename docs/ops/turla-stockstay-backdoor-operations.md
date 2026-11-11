@@ -37,13 +37,13 @@ STOCKSTAY communicates over secure WebSockets, splits responsibilities across tu
 - C2 over WebSockets plus stock-market-themed encrypted configuration makes network-only detection brittle unless defenders also hunt host artifacts and business-hours beacon shaping.
 
 ## Public operational timeline from GTIG
-- **December 2022** — GTIG identified a uniquely trackable actor-compiled `websocket-sharp.dll` artifact bundled with most observed STOCKSTAY.STOCKBROKER samples, giving a development anchor.
-- **September 2023 / Germany** — an early `DriversPrinterGraphic.rar` sample was uploaded to VirusTotal shortly after creation, likely from the malware developer.
-- **Late 2023 / January 2024 / Ukraine** — during review of a Ukrainian organization compromise, Mandiant observed Turla deploying WILDDAY, DIAMONDBACK, KAZUAR, and STOCKSTAY via malicious GPO installation from a compromised domain controller. STOCKSTAY archives and configuration were staged on the domain controller near WILDDAY registry staging and a PowerShell backdoor (`iclsClient.ps1`).
-- **February 2024 / Italy** — a `Copia.msi` package masqueraded as ILSpy and installed STOCKSTAY under `%LOCALAPPDATA%/Programs/SMN/` with registry-run persistence. The MSI opened an Italian-language election / foreign-affairs-themed URL and reused `wss://wool-basalt-clock.glitch[.]me/ws` C2.
-- **March-April 2025 / Ukraine** — a compromised email account sent a university-themed message with a malicious RDP file. After the victim connected to actor infrastructure, Turla deployed STOCKSTAY.MARKETMAKER, which downloaded `docs.zip` from compromised State Regulatory Service of Ukraine infrastructure and used `wss://weatherdataai.theworkpc[.]com/ws` C2.
-- **May 2025 / Poland submissions** — GTIG observed STOCKSTAY.STOCKBROKER samples obfuscated with **K1MORPHER**, a mechanism later seen in all core STOCKSTAY components and selected KAZUAR samples.
-- **Mid-2025 / Ukraine** — GTIG reported additional Ukrainian delivery through calculator-themed archive / HTA activity hosted on compromised infrastructure.
+- **December 2022**, GTIG identified a uniquely trackable actor-compiled `websocket-sharp.dll` artifact bundled with most observed STOCKSTAY.STOCKBROKER samples, giving a development anchor.
+- **September 2023 / Germany**, an early `DriversPrinterGraphic.rar` sample was uploaded to VirusTotal shortly after creation, likely from the malware developer.
+- **Late 2023 / January 2024 / Ukraine**, during review of a Ukrainian organization compromise, Mandiant observed Turla deploying WILDDAY, DIAMONDBACK, KAZUAR, and STOCKSTAY via malicious GPO installation from a compromised domain controller. STOCKSTAY archives and configuration were staged on the domain controller near WILDDAY registry staging and a PowerShell backdoor (`iclsClient.ps1`).
+- **February 2024 / Italy**, a `Copia.msi` package masqueraded as ILSpy and installed STOCKSTAY under `%LOCALAPPDATA%/Programs/SMN/` with registry-run persistence. The MSI opened an Italian-language election / foreign-affairs-themed URL and reused `wss://wool-basalt-clock.glitch[.]me/ws` C2.
+- **March-April 2025 / Ukraine**, a compromised email account sent a university-themed message with a malicious RDP file. After the victim connected to actor infrastructure, Turla deployed STOCKSTAY.MARKETMAKER, which downloaded `docs.zip` from compromised State Regulatory Service of Ukraine infrastructure and used `wss://weatherdataai.theworkpc[.]com/ws` C2.
+- **May 2025 / Poland submissions**, GTIG observed STOCKSTAY.STOCKBROKER samples obfuscated with **K1MORPHER**, a mechanism later seen in all core STOCKSTAY components and selected KAZUAR samples.
+- **Mid-2025 / Ukraine**, GTIG reported additional Ukrainian delivery through calculator-themed archive / HTA activity hosted on compromised infrastructure.
 
 ## Attack chain and tradecraft
 1. Initial access and deployment vary by operation: malicious GPO from a compromised domain controller, MSI installation, RDP-file spear phishing, or malicious HTA/archive lures.

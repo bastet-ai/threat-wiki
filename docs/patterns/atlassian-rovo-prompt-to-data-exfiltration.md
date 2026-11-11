@@ -45,9 +45,9 @@ Disabling Rovo web search did not stop the demonstrated URL-retrieval path becau
 ## Security boundary
 Both chains combine three capabilities:
 
-1. **Untrusted input becomes instructions** — a URL parameter, uploaded file, issue text, connector data, or other external content enters model context.
-2. **The agent can read private data** — Rovo can search resources the current user is already authorized to access, potentially across many connected services.
-3. **The agent can communicate outward** — URL retrieval, rendered images, browsing, posting, previews, webhooks, or another tool can carry derived data to a destination outside the intended task.
+1. **Untrusted input becomes instructions**, a URL parameter, uploaded file, issue text, connector data, or other external content enters model context.
+2. **The agent can read private data**, Rovo can search resources the current user is already authorized to access, potentially across many connected services.
+3. **The agent can communicate outward**, URL retrieval, rendered images, browsing, posting, previews, webhooks, or another tool can carry derived data to a destination outside the intended task.
 
 Every backend read may be individually authorized while the overall sequence violates user intent. Model refusal is therefore not a sufficient authorization or data-loss boundary.
 

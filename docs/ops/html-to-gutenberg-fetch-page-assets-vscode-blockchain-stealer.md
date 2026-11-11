@@ -57,8 +57,8 @@ Staging paths reported by JFrog include `%USERPROFILE%\.npm` on Windows and `/tm
 
 ## Reported indicators and pivots
 ### Package and detection records
-- `html-to-gutenberg@4.2.11` — JFrog Xray `XRAY-1008590`
-- `fetch-page-assets@1.2.9` — JFrog Xray `XRAY-1008535`
+- `html-to-gutenberg@4.2.11`, JFrog Xray `XRAY-1008590`
+- `fetch-page-assets@1.2.9`, JFrog Xray `XRAY-1008535`
 - Host trigger: `.vscode/tasks.json` containing `runOptions.runOn: "folderOpen"`
 - Hidden payload path: `public/fonts/fa-solid-400.woff2`
 - Example task label: `eslint-check`

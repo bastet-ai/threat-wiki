@@ -43,9 +43,9 @@ SafeDep's trace found that `nodemon-sudo` did not import `tslint-conf`; the pack
 ### Payload host
 `tslint-conf` masqueraded as a logger package. SafeDep found it was largely a repackaged copy of `pino`, but with three non-`pino` files:
 
-- `index.js` — exports middleware / logger-looking functions and starts the hidden child process only when called.
-- `lib/caller.js` — fetches and evaluates the second stage.
-- `lib/const.js` — unused campaign metadata / dead-drop artifact linking the pair to earlier tooling.
+- `index.js`, exports middleware / logger-looking functions and starts the hidden child process only when called.
+- `lib/caller.js`, fetches and evaluates the second stage.
+- `lib/const.js`, unused campaign metadata / dead-drop artifact linking the pair to earlier tooling.
 
 When called, `index.js` used `spawn("node", [script, JSON.stringify(args)], { detached: true, stdio: "ignore" })` followed by `child.unref()`. That hides output and allows the parent process to exit while the child continues.
 
@@ -61,10 +61,10 @@ The script retried up to five times and saved/restored `console.log` around exec
 
 ## Indicators
 ### Packages and accounts
-- `nodemon-sudo@3.1.16` — malicious top-level package
-- `tslint-conf@7.2.1` — malicious payload host
-- `nodemon-node` — earlier package pair, later `0.0.1-security`
-- `ts-await` — earlier package pair, later `0.0.1-security`
+- `nodemon-sudo@3.1.16`, malicious top-level package
+- `tslint-conf@7.2.1`, malicious payload host
+- `nodemon-node`, earlier package pair, later `0.0.1-security`
+- `ts-await`, earlier package pair, later `0.0.1-security`
 - npm maintainer: `conodeeth`
 - Forged author string reported by SafeDep: `Alexus111`
 - Forged bugs URL: `jsonspack[.]com/issues`
@@ -77,11 +77,11 @@ The script retried up to five times and saved/restored `console.log` around exec
 - Request header: `x-secret-key: _`
 
 ### Hashes reported by SafeDep
-- `aa9b9847e4ffd894a19ec9712848651882b0195de5f4953eef9b47791adddabf` — `nodemon-sudo` artifact
-- `d4b7add83e5c716b5e52082f713d71ec9d7bfd93e358d500d77c2393302dd004` — `tslint-conf` artifact
-- `2956b023858d706a5e241cd28b845088e5f414c5f70bd5d8cb73cb427d081065` — `index.js`
-- `541c35bd90653c9d7f93cdadb7f52c281d7a1375ffc9c0e118cf1d9df977dea7` — `lib/caller.js`
-- `d10853dde92fdc48d8cb5505d89e0030fd35e1416a16a820fe5ec4aceef01c4f` — `lib/const.js`
+- `aa9b9847e4ffd894a19ec9712848651882b0195de5f4953eef9b47791adddabf`, `nodemon-sudo` artifact
+- `d4b7add83e5c716b5e52082f713d71ec9d7bfd93e358d500d77c2393302dd004`, `tslint-conf` artifact
+- `2956b023858d706a5e241cd28b845088e5f414c5f70bd5d8cb73cb427d081065`, `index.js`
+- `541c35bd90653c9d7f93cdadb7f52c281d7a1375ffc9c0e118cf1d9df977dea7`, `lib/caller.js`
+- `d10853dde92fdc48d8cb5505d89e0030fd35e1416a16a820fe5ec4aceef01c4f`, `lib/const.js`
 
 ## Defender heuristics
 - Search package manifests, lockfiles, SBOMs, npm caches, private registries, CI runners, containers, and developer workstations for `nodemon-sudo`, `tslint-conf`, `nodemon-node`, or `ts-await`.

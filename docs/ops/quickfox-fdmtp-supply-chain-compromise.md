@@ -77,17 +77,17 @@ Treat these as victim-filter context, not malicious processes. The stronger beha
 - legitimate `csmonitor.exe` loading `Microsoft.ServiceHosting.Tools.dll` from a user-writable QuickFox temporary directory
 
 ### SHA-256
-- `2b6cdafdfe427a3de1a94a8a2ca1f09fc4c8f90e4f59089fd9b35b73185ed01c` — generation 1 loader with embedded FDMTP
-- `795594ad5e6f2868cc4d8ed12dabf4f3999a1477c6b250527c5ede9a98528fb9` — generation 2 loader
-- `6634339b813e6105b5138de6ab67b016b8dfbf49233c29de9bab3207e8b50d24` — generation 2 `config.bin` loader variant
-- `dc666e9c148bbca5e21d8c9a97143575c075f53360f135e0191aed9e8278d396` and `5cbb64375636e83b5f17d6083633cecc02e2a5f4168cd7cca5cdee36cca9b38` — encrypted `update.bin` payloads
-- `a53d756f28457b1c4a239c91cdec8ed7b7da67a93e332e6df9621cbef8417474` — encrypted `config.bin` payload
+- `2b6cdafdfe427a3de1a94a8a2ca1f09fc4c8f90e4f59089fd9b35b73185ed01c`, generation 1 loader with embedded FDMTP
+- `795594ad5e6f2868cc4d8ed12dabf4f3999a1477c6b250527c5ede9a98528fb9`, generation 2 loader
+- `6634339b813e6105b5138de6ab67b016b8dfbf49233c29de9bab3207e8b50d24`, generation 2 `config.bin` loader variant
+- `dc666e9c148bbca5e21d8c9a97143575c075f53360f135e0191aed9e8278d396` and `5cbb64375636e83b5f17d6083633cecc02e2a5f4168cd7cca5cdee36cca9b38`, encrypted `update.bin` payloads
+- `a53d756f28457b1c4a239c91cdec8ed7b7da67a93e332e6df9621cbef8417474`, encrypted `config.bin` payload
 
 ### Network
-- `cdns3.51quickfox[.]cn` — malicious domain masquerading as QuickFox infrastructure
-- `/script/firebase-app-compat.js` — obfuscated loader
-- `/2025090411/update.zip` — sideload bundle
-- `www.icloud-cdn[.]net`, `www.google-apis[.]net`, `www.techcheck1[.]com`, `www.yahoo-cdn[.]it[.]com`, `www.wangmeng[.]xyz`, `www.wangmengsb[.]com`, and `www.wangmeng66[.]top` — reported staging and registration domains
+- `cdns3.51quickfox[.]cn`, malicious domain masquerading as QuickFox infrastructure
+- `/script/firebase-app-compat.js`, obfuscated loader
+- `/2025090411/update.zip`, sideload bundle
+- `www.icloud-cdn[.]net`, `www.google-apis[.]net`, `www.techcheck1[.]com`, `www.yahoo-cdn[.]it[.]com`, `www.wangmeng[.]xyz`, `www.wangmengsb[.]com`, and `www.wangmeng66[.]top`, reported staging and registration domains
 - registration paths including `/GetCluster`, `/GetSlaver`, `/GetGateways`, `/GetEndpoints`, `/GetServers`, `/GetHosts`, and `/GetNodes`
 - FDMTP cluster traffic on ports Fortinet rendered as `20800-208016`; validate against the source IOC table and local telemetry rather than assuming the displayed upper bound is a single valid TCP port
 
@@ -117,4 +117,4 @@ Cloudflare and shared-hosting IPs in the source should not be blocked without do
 
 ## Sources
 - FortiGuard Labs: [QuickFox Supply Chain Attack Used to Deploy FDMTP Implant](https://www.fortinet.com/blog/threat-research/quickfox-supply-chain-attack-used-to-deploy-fdmtp-implant)
-- The Hacker News: [QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer](https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html) — secondary discovery pointer; technical claims above are grounded in Fortinet's primary report
+- The Hacker News: [QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer](https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html), secondary discovery pointer; technical claims above are grounded in Fortinet's primary report

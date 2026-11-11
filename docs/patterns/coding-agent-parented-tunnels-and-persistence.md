@@ -58,12 +58,12 @@ Broker apex reputation and rare-domain alerts are useful pivots, but they are no
 - During triage, document both plausible readings. Confirm who initiated the session, what local service was exposed, whether the public URL was authorized, who accessed it, and whether persistence was expected before labeling the activity malicious.
 
 ## ATT&CK mapping
-- **T1059.004** — Unix Shell
-- **T1090** — Proxy
-- **T1105** — Ingress Tool Transfer
-- **T1543.001** — Launch Agent
-- **T1555.001** — Keychain
-- **T1057** — Process Discovery
+- **T1059.004**, Unix Shell
+- **T1090**, Proxy
+- **T1105**, Ingress Tool Transfer
+- **T1543.001**, Launch Agent
+- **T1555.001**, Keychain
+- **T1057**, Process Discovery
 
 ## Related pages
 - [AI-augmented adversary operations](ai-augmented-adversary-operations.md)

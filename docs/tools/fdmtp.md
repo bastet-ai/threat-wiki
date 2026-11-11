@@ -3,7 +3,7 @@
 ## Summary
 **FDMTP** is a modular .NET Windows backdoor named for its use of TouchSocket's Duplex Message Transport Protocol. Public reporting has associated it with Mustang Panda / Twill Typhoon activity, but use of the implant alone is not sufficient actor attribution.
 
-FortiGuard Labs documented FDMTP in the 2025–2026 QuickFox software-supply-chain campaign. A process-filtering JavaScript loader installed the implant through DLL sideloading, after which FDMTP registered with web-based staging infrastructure, received cluster endpoints, collected host information, and loaded server-provided plugins.
+FortiGuard Labs documented FDMTP in the 2025-2026 QuickFox software-supply-chain campaign. A process-filtering JavaScript loader installed the implant through DLL sideloading, after which FDMTP registered with web-based staging infrastructure, received cluster endpoints, collected host information, and loaded server-provided plugins.
 
 ## Tags
 - tools

@@ -74,7 +74,7 @@ Microsoft reports the clipper can:
 
 ## Microsoft-reported indicators
 ### Filenames and network pivots
-- `ugate.exe` — renamed portable Tor binary.
+- `ugate.exe`, renamed portable Tor binary.
 - Local Tor SOCKS5 proxy: `127.0.0.1:9050` / `localhost:9050`.
 - Hidden-service C2 domains reported by Microsoft:
   - `cgky6bn6ux5wvlybtmm3z255igt52ljml2ngnc5qp3cnw5jlglamisad[.]onion`

@@ -1,4 +1,4 @@
-# "ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors
+# "ted backdoor": DPRK-linked Linux espionage toolkit, HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors
 
 ## Tags
 - ops
@@ -26,11 +26,11 @@
 - MITRE ATT&CK
 
 ## Summary
-On **September 4, 2026**, Rapid7 Labs disclosed a **previously undocumented Linux espionage toolkit** — built around a backdoor it names the **"ted backdoor"** — that has been used to **target organizations across South Korea's automotive and media industries** with minimal detection. Rapid7 attributes the campaign **with medium confidence to DPRK APTs**, citing the target sectors (long-term espionage), simple XOR-based encryption and a custom substitution cipher, and the fact that the hardcoded C2 list is **associated to APT37 (Lazarus) on ThreatFox**.
+On **September 4, 2026**, Rapid7 Labs disclosed a **previously undocumented Linux espionage toolkit**, built around a backdoor it names the **"ted backdoor"**, that has been used to **target organizations across South Korea's automotive and media industries** with minimal detection. Rapid7 attributes the campaign **with medium confidence to DPRK APTs**, citing the target sectors (long-term espionage), simple XOR-based encryption and a custom substitution cipher, and the fact that the hardcoded C2 list is **associated to APT37 (Lazarus) on ThreatFox**.
 
-The toolkit's defining feature is the depth of its integration with the victim environment. The **ted backdoor is compiled into the victim's existing HAProxy 2.8.12** build (a trojanized **HAProxy 2.8.12-0fdb194**, released November 22, 2024 — the earliest possible compilation date; the earliest VirusTotal uploads of its components date to **mid-2025**). It uses HAProxy's **native filter API, internal memory pools, event scheduler, and process-management infrastructure** to intercept web traffic and hide from monitoring while genuine load-balancing traffic continues normally. Operating alongside it are an **SSH keylogger**, a **curl-based RAT (CurlRAT)**, and a **stager**, plus **trojanized system daemons: crond, agetty, atd, sshd, and polkitd**.
+The toolkit's defining feature is the depth of its integration with the victim environment. The **ted backdoor is compiled into the victim's existing HAProxy 2.8.12** build (a trojanized **HAProxy 2.8.12-0fdb194**, released November 22, 2024, the earliest possible compilation date; the earliest VirusTotal uploads of its components date to **mid-2025**). It uses HAProxy's **native filter API, internal memory pools, event scheduler, and process-management infrastructure** to intercept web traffic and hide from monitoring while genuine load-balancing traffic continues normally. Operating alongside it are an **SSH keylogger**, a **curl-based RAT (CurlRAT)**, and a **stager**, plus **trojanized system daemons: crond, agetty, atd, sshd, and polkitd**.
 
-The framework enables **remote command execution on compromised servers, injection of malicious scripts into web traffic, credential harvesting, and long-term surveillance** — an espionage posture, not a monetizing one.
+The framework enables **remote command execution on compromised servers, injection of malicious scripts into web traffic, credential harvesting, and long-term surveillance**, an espionage posture, not a monetizing one.
 
 ## Components and capabilities
 - **ted backdoor (HAProxy-embedded):** compiled as part of HAProxy 2.8.12, using the filter API, memory pools, event scheduler, and process management to intercept traffic, hide from monitoring, and keep real load-balancing operational. It tunnels its C2 **as HTTP through the load balancer** and blacklists known scanner IPs.
@@ -86,29 +86,29 @@ a1d8af3a6acb731f07f72040eccb3450c1c83d40e29f736c2a63d35388660be4  (polkitd)
 C2 domains (defanged): `img.monderhouse[.]space`, `img.smartnords[.]site`, `img.darklights[.]store`, `img.responsive[.]pstatic[.]autos`, `img.socialteams[.]store`, `img.worksongo[.]store`.
 
 ## Why this matters
-- **The load balancer is the backdoor.** Embedding the implant inside the HAProxy filter API and process lifecycle means the C2 traffic, the credential capture, and the session hijacking all ride on a process the operator trusts to be doing legitimate work — genuine load balancing continues while the toolkit surveils. The durable tell is a **HAProxy that is intercepting and rewriting responses it should only be routing**, not a new process on the box.
+- **The load balancer is the backdoor.** Embedding the implant inside the HAProxy filter API and process lifecycle means the C2 traffic, the credential capture, and the session hijacking all ride on a process the operator trusts to be doing legitimate work, genuine load balancing continues while the toolkit surveils. The durable tell is a **HAProxy that is intercepting and rewriting responses it should only be routing**, not a new process on the box.
 - **It is an espionage kit, not a ransomware drop.** Remote command execution, web-traffic script injection, PAM-level SSH credential capture, browser-session hijacking, and hourly HAProxy health reporting are the signatures of **long-term surveillance**, and the medium-confidence DPRK / APT37 association (South Korean media + automotive) puts it in the state-sponsored espionage lane.
-- **Trojanized system daemons widen the surface.** Compromised `crond`, `agetty`, `atd`, `sshd`, and `polkitd` mean persistence and credential capture are not confined to HAProxy — a clean HAProxy rebuild alone does not remove the backdoor.
+- **Trojanized system daemons widen the surface.** Compromised `crond`, `agetty`, `atd`, `sshd`, and `polkitd` mean persistence and credential capture are not confined to HAProxy, a clean HAProxy rebuild alone does not remove the backdoor.
 
 ## Detection / defensive heuristics
 - **Hunt for the `img.<name>.<tld>` C2 naming pattern** and the specific domains above; the consistent `img.` prefix across `.space`/`.site`/`.store`/`.autos` is the registration-workflow tell.
 - **Alert on HAProxy processes rewriting response bodies** (Content-Type/Content-Length/Content-Disposition changes, forced 200, stripped Accept-Ranges) for traffic that should be pure routing.
 - **PAM integrity:** monitor for unexpected PAM modules in `sshd`'s auth chain and the **encrypted credential log at `/var/lib/sshd/c8c68e629bba773a10ac80012d10bf19`**.
 - **Watchdog behavior:** a non-HAProxy process **polling `/proc/haproxy.pid` hourly** and reporting to `writeservice_info` is a high-signal CurlRAT indicator.
-- **Daemons:** verify `crond`, `agetty`, `atd`, `sshd`, and `polkitd` binary hashes against known-good — trojanized variants here are the persistence, not just the entry.
+- **Daemons:** verify `crond`, `agetty`, `atd`, `sshd`, and `polkitd` binary hashes against known-good, trojanized variants here are the persistence, not just the entry.
 - **Sandbox-evasion correlation:** a process that checks `libvirtlog.so.0` and aborts in a VM, then MD5s `hostname+IP+hardware UUID+cron version` into a `User-token` header, is the CurlRAT fingerprint.
 
 ## Assessment limits
-- **Attribution is medium confidence.** Rapid7 ties it to DPRK APTs on sector targeting, primitive encryption (XOR + substitution cipher), and ThreatFox APT37 C2 association — a reasonable but not conclusive inference.
+- **Attribution is medium confidence.** Rapid7 ties it to DPRK APTs on sector targeting, primitive encryption (XOR + substitution cipher), and ThreatFox APT37 C2 association, a reasonable but not conclusive inference.
 - **Earliest-compilation bound is structural** (the HAProxy 2.8.12-0fdb194 release date of November 22, 2024 and mid-2025 VirusFirst uploads), not a confirmed first-seen.
 - **No named victims, payment, or exfiltration scope** is disclosed; the campaign is described as long-term surveillance of South Korean media and automotive organizations.
 - **IOC set is Rapid7-published only**; independent confirmation of the hashes and C2 across other vendors has not been recorded in this page.
 
 ## Related pages
 - [ulid-xyz transitive delivery chain / MicrosoftSystem64 RAT (DPRK-linked cross-platform implant, same "persistence name is the durable tell" logic)](ulid-xyz-transitive-delivery-chain-microsoftsystem64-dprk-september-2026.md)
-- [RMM phishing campaign spanning 46 countries (ANY.RUN, Sep 4 — same scan window)](rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
-- [Kimsuky / Emerald Sleet / TA427 (DPRK APT actor profile — context for the DPRK espionage lane)](../actors/kimsuky-emerald-sleet-ta427.md)
+- [RMM phishing campaign spanning 46 countries (ANY.RUN, Sep 4, same scan window)](rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
+- [Kimsuky / Emerald Sleet / TA427 (DPRK APT actor profile, context for the DPRK espionage lane)](../actors/kimsuky-emerald-sleet-ta427.md)
 
 ## Sources
-- Rapid7 Labs — "Inside the 'ted' backdoor: HAProxy-based Linux espionage toolkit targets South Korean media and automotive sectors" (published 2026-09-04): [https://www.rapid7.com/blog/post/tr-dprk-apts-ted-backdoor-curlrat-target-south-korean-media-automotive-sectors/](https://www.rapid7.com/blog/post/tr-dprk-apts-ted-backdoor-curlrat-target-south-korean-media-automotive-sectors/)
-- The Hacker News — "New 'Ted' Backdoor Hides Inside Victims' HAProxy Builds" (2026-09-04): [https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html](https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html)
+- Rapid7 Labs, "Inside the 'ted' backdoor: HAProxy-based Linux espionage toolkit targets South Korean media and automotive sectors" (published 2026-09-04): [https://www.rapid7.com/blog/post/tr-dprk-apts-ted-backdoor-curlrat-target-south-korean-media-automotive-sectors/](https://www.rapid7.com/blog/post/tr-dprk-apts-ted-backdoor-curlrat-target-south-korean-media-automotive-sectors/)
+- The Hacker News, "New 'Ted' Backdoor Hides Inside Victims' HAProxy Builds" (2026-09-04): [https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html](https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html)

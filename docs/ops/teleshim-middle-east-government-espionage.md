@@ -81,10 +81,10 @@ This binding is useful to the operator because the final implant detonates only 
 
 ## Public indicators
 ### Network
-- `cert.hypersnet[.]com` — BINDCLOAK C2.
-- `ssl.blsouqs[.]com` — operator connectivity check.
-- `contacts.ftabnews[.]com` — operator connectivity check.
-- `api.telegram.org` — TELESHIM's legitimate-service C2 channel; require process and path context.
+- `cert.hypersnet[.]com`, BINDCLOAK C2.
+- `ssl.blsouqs[.]com`, operator connectivity check.
+- `contacts.ftabnews[.]com`, operator connectivity check.
+- `api.telegram.org`, TELESHIM's legitimate-service C2 channel; require process and path context.
 
 ### Host artifacts
 - `RegSchdTask.exe` + `AsTaskSched.dll`
@@ -123,5 +123,5 @@ This binding is useful to the operator because the final implant detonates only 
 - [CL-STA-1062 Southeast Asia government and energy intrusions](cl-sta-1062-southeast-asia-tinyrct.md)
 
 ## Sources
-- Zscaler ThreatLabz: [Targeted Attack on Government Entities in the Middle East — Part 1](https://www.zscaler.com/blogs/security-research/targeted-attack-government-entities-middle-east-part-1)
+- Zscaler ThreatLabz: [Targeted Attack on Government Entities in the Middle East, Part 1](https://www.zscaler.com/blogs/security-research/targeted-attack-government-entities-middle-east-part-1)
 - The Hacker News: [TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments](https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html)

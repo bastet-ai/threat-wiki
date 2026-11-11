@@ -21,7 +21,7 @@
 
 ## Summary
 
-On August 26, 2026, Microsoft Security Research published "When AI infrastructure becomes the target: Securing gateways and control points," documenting three distinct compromises of AI workloads — a **LiteLLM** LLM proxy gateway, a **RAGFlow** retrieval-augmented-generation deployment, and a **Kestra** workflow orchestration environment. Although the initial-access vectors differed, the post-compromise objectives converged: **credential theft, durable host access, and compute-resource monetization (cryptomining)**. The post frames AI gateways, retrieval platforms, and orchestration services as a new Tier-0 layer that concentrates model-provider keys, database connection strings, workflow execution, and container privileges in a single runtime context.
+On August 26, 2026, Microsoft Security Research published "When AI infrastructure becomes the target: Securing gateways and control points," documenting three distinct compromises of AI workloads, a **LiteLLM** LLM proxy gateway, a **RAGFlow** retrieval-augmented-generation deployment, and a **Kestra** workflow orchestration environment. Although the initial-access vectors differed, the post-compromise objectives converged: **credential theft, durable host access, and compute-resource monetization (cryptomining)**. The post frames AI gateways, retrieval platforms, and orchestration services as a new Tier-0 layer that concentrates model-provider keys, database connection strings, workflow execution, and container privileges in a single runtime context.
 
 This page focuses on the operational chain, indicators, and defender takeaways from the Microsoft publication. It complements the existing [LiteLLM compromise](litellm-compromise.md) and [LiteLLM CVE-2026-42271](litellm-cve-2026-42271-mcp-stdio-command-injection.md) pages by adding three new case studies, a new IOC set, and a durable "AI infrastructure as control point" defender pattern.
 
@@ -56,11 +56,11 @@ RAGFlow supports document-processing and retrieval-augmented-generation workflow
 Microsoft assesses with **high confidence** that initial access likely occurred through exploitation of the exposed RAGFlow application surface. Telemetry showed the RAGFlow server process retrieving an attacker-supplied URL through the application's own HTTP client, resulting in an **outbound Burp Collaborator callback** without corresponding child-process execution. Remote code execution in the same service context followed several days later.
 
 Microsoft assesses with **low confidence** which specific vulnerability, if any, enabled that code execution. Publicly documented vulnerabilities affecting relevant RAGFlow versions include:
-- **CVE-2026-45312** — authenticated Jinja2 SSTI in the prompt generator
-- **CVE-2026-28797** — authenticated Jinja2 SSTI in the Agent workflow component
-- **CVE-2026-24770** — MinerU parser path-traversal (arbitrary file overwrite → code execution)
-- **CVE-2025-68700** — Canvas CodeExec sandbox-bypass (GHSA-8xw3-v6c2-j84j)
-- **CVE-2025-69286** — account-access weakness that could influence access to authenticated functionality
+- **CVE-2026-45312**, authenticated Jinja2 SSTI in the prompt generator
+- **CVE-2026-28797**, authenticated Jinja2 SSTI in the Agent workflow component
+- **CVE-2026-24770**, MinerU parser path-traversal (arbitrary file overwrite → code execution)
+- **CVE-2025-68700**, Canvas CodeExec sandbox-bypass (GHSA-8xw3-v6c2-j84j)
+- **CVE-2025-69286**, account-access weakness that could influence access to authenticated functionality
 
 None of these are attributed as the confirmed cause. The possible SSRF activity through the OASTify relay network is a useful precursor signal because RCE in the same service context followed.
 
@@ -134,25 +134,25 @@ Several payloads exhibited characteristics often associated with assisted or gen
 ### Network
 | IOC | Type | Role |
 |-----|------|------|
-| `45.150.109[.]151` | IPv4 | Scanning/recon — multiple targeted AI workloads |
-| `135.125.10[.]56:19888` | IPv4:port | RAGFlow exploitation C2 — LLM API key exfiltration endpoint |
+| `45.150.109[.]151` | IPv4 | Scanning/recon, multiple targeted AI workloads |
+| `135.125.10[.]56:19888` | IPv4:port | RAGFlow exploitation C2, LLM API key exfiltration endpoint |
 | `172.232.38[.]92:32991` | IPv4:port | Kestra reverse shell C2 (Linode VPS) |
 | `45.150.109.151.sslip[.]io` | Domain | DNS rebinding used in LiteLLM attacks to evade domain reputation checks |
 | `auto.c3pool[.]org:443` | Domain:port | XMRig Monero mining pool (Kestra) |
 | `2001:41d0:701:1100::adfd` | IPv6 | c3pool mining endpoint (Kestra) |
 | `47.86.197[.]116` | IPv4 | c3pool mining endpoint (Kestra) |
-| `yosemite[.]jp` | Domain | C2/exfiltration — LiteLLM credential harvesting (OAST + recv.php) |
-| `gobygo[.]net` | Domain | C2 beacon infrastructure — subdomain-encoded LiteLLM beacons |
-| `oast[.]me` / `oast[.]pro` / `oast[.]fun` | Domains | OOB callback domains — execution confirmation and credential exfiltration (LiteLLM) |
+| `yosemite[.]jp` | Domain | C2/exfiltration, LiteLLM credential harvesting (OAST + recv.php) |
+| `gobygo[.]net` | Domain | C2 beacon infrastructure, subdomain-encoded LiteLLM beacons |
+| `oast[.]me` / `oast[.]pro` / `oast[.]fun` | Domains | OOB callback domains, execution confirmation and credential exfiltration (LiteLLM) |
 | `194.213.18[.]133` | IPv4 | Attacker-controlled mail MX / mail infrastructure |
 
 ### File
 | File / Path | SHA-256 | Notes |
 |-------------|---------|-------|
-| `/tmp/d` (ELF binary) | `f64b88e9318bdf23f2dd119a0ce1dd1bdb3c8cd2e0e1e23ba3ef2e19072b79cc` | LiteLLM stage-2 — unknown ELF |
+| `/tmp/d` (ELF binary) | `f64b88e9318bdf23f2dd119a0ce1dd1bdb3c8cd2e0e1e23ba3ef2e19072b79cc` | LiteLLM stage-2, unknown ELF |
 | XMRig cryptominer | `49fdcf32bfe837899a84e8938f0d07ae96ddd218a280a09eb60df8d64597bd8f` | LiteLLM |
 | XMRig cryptominer (variant) | `3af9f25a4d45bb4f1ec5627cdbc6703cf3b4be75a892162d299d80ddfb266f42` | LiteLLM variant |
-| Installer / bridge script | `3d24ac736635e0fa0c5c459c9e18ca09d1ec9a1751a4503130934395609bd7e0` | LiteLLM — drops `/tmp/python3` and launches supervisord bridge |
+| Installer / bridge script | `3d24ac736635e0fa0c5c459c9e18ca09d1ec9a1751a4503130934395609bd7e0` | LiteLLM, drops `/tmp/python3` and launches supervisord bridge |
 
 ### Process / behavioral
 - Gateway process (`litellm`, `litellm-proxy`, `litellm_proxy`, `ragflow`, `kestra`) spawning `bash`, `sh`, `dash`, `curl`, `wget`, `python`, `python3`
@@ -182,7 +182,7 @@ Several payloads exhibited characteristics often associated with assisted or gen
 ## Related pages
 - [LiteLLM compromise](litellm-compromise.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](litellm-cve-2026-42271-mcp-stdio-command-injection.md)
-- [Wiz Threat Research: 90 days of honeypot telemetry on AI-infrastructure attacks](wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md) (complementing honeypot telemetry on the same LiteLLM MCP chain — CVE-2026-42271 + CVE-2026-48710 — plus observed blind prompt injection and AI-native post-exploitation; external researchers link the chain's active exploitation to the Qilin ransomware group)
+- [Wiz Threat Research: 90 days of honeypot telemetry on AI-infrastructure attacks](wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md) (complementing honeypot telemetry on the same LiteLLM MCP chain, CVE-2026-42271 + CVE-2026-48710, plus observed blind prompt injection and AI-native post-exploitation; external researchers link the chain's active exploitation to the Qilin ransomware group)
 - [Trivy → TeamPCP → CanisterWorm timeline](trivy-lite-llm-compromise-timeline.md)
 - [TeamPCP](../actors/teampcp.md)
 
