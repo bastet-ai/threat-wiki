@@ -1,4 +1,4 @@
-# The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)
+# The `algamil7x` npm cluster
 
 ## Tags
 - ops

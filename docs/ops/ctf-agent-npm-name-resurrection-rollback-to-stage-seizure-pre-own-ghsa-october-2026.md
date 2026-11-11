@@ -1,4 +1,4 @@
-# ctf-agent (npm): THE NAME RESURRECTION, a re-registered name inherits its murdered predecessor's time-map, seized 16 s BEFORE its own GHSA
+# ctf-agent (npm)
 
 **Registry:** npm · **Package:** `ctf-agent` · **Advisories:** `GHSA-2j3v-rjgw-5wgg` (`critical`, CWE-506, `published 2026-10-26T20:42:32Z`) + `MAL-2026-18335` (alias AT BIRTH) · **Publisher of record:** `nvtruongops <nvtruongops@gmail.com>` (maintainer-search total `1`) · **First seen by this wiki:** Oct 26, 221st sweep (~21:1x-21:4x UTC)
 

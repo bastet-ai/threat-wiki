@@ -1,4 +1,4 @@
-# `ig-gox` (PyPI), a "Gox Secure Runtime Engine for Android Termux" that is really an import-time, anti-analysis, HMAC/XOR/zlib, in-memory-`exec` loader whose real payload NEVER ships in the package: this wiki statically unpacked both layers (no execution) and found device-gated remote fetch from `https://goxtools.shop/api`, a license server that is LIVE and answering structured JSON at check, with zero OSV + zero GHSA coverage on either lane
+# `ig-gox` (PyPI), a "Gox Secure Runtime Engine for Android Termux" that is really an import-time…
 
 ## Tags
 - tools

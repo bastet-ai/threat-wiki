@@ -1,4 +1,4 @@
-# Unit 42: CL-CRI-1131 / CL-CRI-1163, LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)
+# Unit 42: CL-CRI-1131 / CL-CRI-1163, LLM-orchestrated Latin America intrusion campaigns with…
 
 ## Tags
 - ops

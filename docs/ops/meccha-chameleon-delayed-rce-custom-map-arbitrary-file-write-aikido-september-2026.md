@@ -1,4 +1,4 @@
-# MECCHA CHAMELEON: second delayed RCE via custom map, arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)
+# MECCHA CHAMELEON
 
 ## Tags
 - ops

@@ -1,4 +1,4 @@
-# NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages, found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)
+# NeedyMantis
 
 ## Tags
 - tools

@@ -1,4 +1,4 @@
-# `minecraftaccfinder` (PyPI), a `SKULL`-bannered Minecraft-account stealer + full Windows RAT with Discord exfil, published as a six-version ladder in 23 minutes, and at check the machine advisory lane has seen NONE of it
+# `minecraftaccfinder`
 
 **Captured by this wiki October 12, 2026 (~09:2x-09:5x UTC, one-hundred-and-seventh sweep).** Live subject page: curated-lane PR [`ossf/malicious-packages` #1625](https://github.com/ossf/malicious-packages/pull/1625) (reporter `eskim86`, opened 08:02:31Z) is the ONLY public record, **ZERO OSV, ZERO GHSA ≈8.7 h after the first publish** while every version remains installable from PyPI.
 

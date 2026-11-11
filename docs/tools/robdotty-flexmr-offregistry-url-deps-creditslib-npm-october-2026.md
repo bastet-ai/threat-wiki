@@ -1,4 +1,4 @@
-# `robdotty` npm six-name cohort, every published version is a one-line `require()` shim whose ONLY dependency is a URL-spec tarball from `artifacts.creditslib.com`, a Cloudflare-fronted OFF-REGISTRY delivery host that answers `200` at check (OSV `MAL-2026-17888` on `@flexmr/utils` arrived `≈17 h` late, mirrors `GHSA-f8pr-fqvq-vvxv` `21:32:28Z`; the five sibling names stay zero-OSV + zero-GHSA + `200` installable, the delivery channel lives entirely OUTSIDE registry enforcement)
+# `robdotty` npm six-name cohort, every published version is a one-line `require()` shim whose ONLY…
 
 ## Tags
 - tools

@@ -1,4 +1,4 @@
-# Microsoft: AI-assisted executive impersonation and invoice fraud, million-email ACH scam (Sep 10, 2026)
+# Microsoft
 
 ## Tags
 - ops

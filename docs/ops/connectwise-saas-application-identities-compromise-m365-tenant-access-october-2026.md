@@ -1,4 +1,4 @@
-# ConnectWise SaaS application-identity compromise, seven Entra app identities disabled, Cloud Backup suspended, ~1,000 tenants probed (Oct 13-18, 2026)
+# ConnectWise SaaS application-identity compromise, seven Entra app identities disabled, Cloud…
 
 **What happened.** ConnectWise disclosed that unknown threat actors obtained unauthorized access to its own SaaS application identities and used them to reach customer Microsoft 365 tenants. On **October 17, 2026 07:00 UTC** the company disabled seven application identities and revoked the certificates used for affected application connections **across all users**, suspending ConnectWise Cloud Backup entirely; SaaS Security and Cloud Management were temporarily taken offline. The issue was identified **October 14, 2026** via internal monitoring; whether a product vulnerability contributed, and the credential-exposure mechanism, were both unresolved at disclosure.
 

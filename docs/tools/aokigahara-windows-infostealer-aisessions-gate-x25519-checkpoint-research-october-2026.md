@@ -1,4 +1,4 @@
-# Aokigahara: a Windows infostealer whose distinctive handler steals AI-app and AI-agent sessions (Check Point Research, October 23, 2026)
+# Aokigahara
 
 **First seen:** October 23, 2026 (Check Point Research publication; sample set analyzed earlier)
 **Type:** Windows infostealer with a dedicated AI-application/developer-tool session collector (`aisessions`), clipper component, and a structured X25519 + AES-GCM upload gate

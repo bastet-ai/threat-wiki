@@ -1,4 +1,4 @@
-# `marocolor` (PyPI), a color-palette costume that at IMPORT time spawns two daemon threads: `steal()` walks the victim's home directory for nine sensitive extensions and POSTs every match to a hardcoded Telegram bot `sendDocument`, while `crash()` runs a thread-fork-bomb plus a `127.0.0.1:80` connect-loop DoS; Arabic operator-addressed comments mark it in the LLM-authored tell class; `MAL-2026-17900` (kam193 lane, campaign `2026-10-marocolor`) is the ledger's live NEVER-JOIN control, it arrived OSV-first, got its `GHSA-m6jr-rmfr-29w4` mirror `1 h 52 m` later, and still reads `aliases: None` at `+59 min`
+# `marocolor` (PyPI), a color-palette costume that at IMPORT time spawns two daemon threads
 
 ## Tags
 - ops

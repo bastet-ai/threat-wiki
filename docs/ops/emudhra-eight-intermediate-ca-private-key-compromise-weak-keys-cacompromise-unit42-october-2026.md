@@ -2,7 +2,7 @@
 title: "eMudhra: private keys of EIGHT intermediate CAs compromised via weak key generation, keys derivable from the public certificates themselves, all eight revoked cACompromise 18 Oct 09:24-09:38Z, browser/OS trust collapse in progress (this wiki capture Oct 22)"
 ---
 
-# eMudhra intermediate CA private-key compromise, the weak-key edition: forgeable trust for everything the eight intermediates ever issued
+# eMudhra intermediate CA private-key compromise, the weak-key edition
 
 **Observed:** reported to root programs **Oct 17, 2026 18:05 UTC**; revoked **Oct 18, 2026 09:24:32-09:38:46 UTC**; Unit 42 brief **Oct 22, 2026** (full text captured by this wiki from `unit42.paloaltonetworks.com/emudhra-certificate-compromise/`, published 17:15:32Z). Corroborated against Mozilla bug **2083449** (the CCADB record: all eight identities with SHA-256 fingerprints, serials, CCADB IDs, and the revocation table), the reporter's public proof site (`emudhra.we-have-a-problem.com`), and Cloudflare's disclosure post (aware ~Oct 19 17:00 UTC).
 

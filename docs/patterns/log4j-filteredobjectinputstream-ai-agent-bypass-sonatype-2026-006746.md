@@ -1,4 +1,4 @@
-# "Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)
+# "Reported Log4j RCE" is a hardening gap, not a vulnerability
 
 ## Summary
 

@@ -1,4 +1,4 @@
-# Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)
+# Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise
 
 ## Tags
 - ops

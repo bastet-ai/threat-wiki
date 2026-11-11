@@ -1,4 +1,4 @@
-# ServiceNow AI Platform August 27, 2026 advisory: three CVSS 10.0 unauthenticated flaws and a sandbox escape (CVE-2026-18885 / CVE-2026-18886 / CVE-2026-74820 / CVE-2026-6876)
+# ServiceNow AI Platform August 27, 2026 advisory
 
 ## Summary
 ServiceNow's **August 27, 2026** security advisory addresses **four** flaws in the **ServiceNow AI Platform / Now Platform**, three rated **CVSS 10.0** and exploitable in certain circumstances by an **unauthenticated** attacker. ServiceNow deployed the update to **hosted instances** and provided it to partners and self-hosted customers (who must apply it themselves). The batch follows the July 2026 pre-authentication sandbox escape **CVE-2026-6875** and the June 2026 hosted-instance unauthenticated table-query incident.

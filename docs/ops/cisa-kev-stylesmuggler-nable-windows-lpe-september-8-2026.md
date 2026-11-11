@@ -1,4 +1,4 @@
-# CISA KEV September 8, 2026 additions: four exploited flaws, Adobe/Magento StyleSmuggler RCE, N-able N-central pre-auth RCE, and two Windows local privilege escalations
+# CISA KEV September 8, 2026 additions
 
 ## Summary
 On **September 8, 2026**, CISA added **four** vulnerabilities to the Known Exploited Vulnerabilities (KEV) catalog:

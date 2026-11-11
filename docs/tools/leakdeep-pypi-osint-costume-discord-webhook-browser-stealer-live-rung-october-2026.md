@@ -2,7 +2,7 @@
 title: "LEAKDEEP (PyPI): 'OSINT / Credential Leak Intelligence' costume wrapping a Windows browser+Discord stealer, LIVE after advisories, with an out-of-scope served rung (2.6.2) and a plaintext webhook behind a fake-XOR decoy"
 ---
 
-# LEAKDEEP (PyPI), OSINT-costume Windows stealer, advised fast, still installable, one served rung out of scope
+# LEAKDEEP
 
 **First wiki capture: October 18, 2026 (one-hundred-and-twenty-ninth sweep, ~03:2x-03:4x UTC).** OSV `MAL-2026-17921` (`leakdeep`, PyPI) is the first record to break the `17920` high-water after the 126th's nine-record tick, published `01:45:23Z`, imported `01:52:23Z` (amazon-inspector lane, origins `IN-MAL-2026-021510`-`021514`), with `GHSA-4pw5-gqh4-v2pj` (critical) following `03:31:13Z`, a `≈1 h 46 m` OSV→GHSA mirror clock measured live INSIDE this sweep. No press at capture: the analyst lanes are ahead of the news cycle on this name.
 

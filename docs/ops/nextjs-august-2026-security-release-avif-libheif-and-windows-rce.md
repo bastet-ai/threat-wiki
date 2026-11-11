@@ -1,4 +1,4 @@
-# Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)
+# Next.js August 2026 security release
 
 ## Summary
 On **August 25, 2026**, Vercel published a Next.js security release (second under its formal monthly security program, first released July 21, 2026) fixing **two critical-severity vulnerabilities, both allowing unauthenticated remote code execution**:

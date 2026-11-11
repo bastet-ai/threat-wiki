@@ -1,4 +1,4 @@
-# CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox
+# CISA KEV September 2, 2026 additions
 
 ## Summary
 On **September 2, 2026**, CISA added **seven** vulnerabilities to the Known Exploited Vulnerabilities (KEV) catalog:

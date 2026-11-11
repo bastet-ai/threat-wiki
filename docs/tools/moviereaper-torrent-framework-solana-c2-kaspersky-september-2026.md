@@ -1,4 +1,4 @@
-# MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)
+# MovieReaper
 
 ## Summary
 

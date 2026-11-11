@@ -1,4 +1,4 @@
-# publish-poc cohort, the self-publishing publishing-PoC trio: cleartext npm token shipped to every installer, whole-name `unpublished` wipe ~9-13 h BEFORE the first advisory arrived, ZERO GHSAs, and the wipe-roster as the only surviving census
+# publish-poc cohort, the self-publishing publishing-PoC trio
 
 ## Tags
 - ops

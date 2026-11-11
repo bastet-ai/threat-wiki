@@ -1,4 +1,4 @@
-# OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage
+# OX Security
 
 ## Summary
 OX Security (August 25, 2026) identified a **fake Cloudflare CAPTCHA phishing campaign distributed through 24 malicious npm packages** sharing the exact same HTML page. The packages do not execute code on install, the actor's use of npm is to exploit registry **mirrors (unpkg, npmmirror, yarn, tencent, and others) as free, trusted-domain payload storage**: mirrors serve package files (including bare `index.html`) directly on their own domains, so anyone opening a mirror URL sees a fully rendered phishing page on a reputable host. The page presents a fake Cloudflare verification, then redirects through obfuscated JavaScript to attacker-controlled infrastructure. Packages typically reach 50-300 weekly downloads before removal, but mirror copies persist after registry takedowns.

@@ -1,4 +1,4 @@
-# Microsoft: passkey-themed social engineering leads to identity and cloud compromise, Storm-3121 / Storm-3032 ecosystem
+# Microsoft
 
 ## Summary
 On **September 9, 2026**, Microsoft Security Research published a research post documenting **active cloud-based intrusions observed since May 2026** across multiple accounts, in which the opening move is **identity-focused social engineering dressed up as passkey / MFA / SSO "helpdesk" activity**. The durable sequence, repeated across engagements, is: **phone-based social engineering → AiTM phishing or device-code flow → actor-registered MFA method (persistence) → Microsoft Graph reconnaissance → high-volume SharePoint / OneDrive / Exchange data collection and suspected exfiltration**, all through **proxy-associated infrastructure**.

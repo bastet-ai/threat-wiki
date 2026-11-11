@@ -1,4 +1,4 @@
-# The `mw` trio, the queue name eaten alive: `mw-test-utils`, `mw-communication-client`, `mui-wrapper-x-date-pickers` (npm, ossf `#1673`, unpublished `+21 min` after the queue PR, zero OSV / zero GHSA, collector `38.242.235.206/depconf/` LIVE)
+# The `mw` trio, the queue name eaten alive
 
 **Captured Oct 27, 2026 (232nd sweep, ~19:2x-19:5x UTC) by this wiki. Static analysis only, no package was ever executed. Attribution and authorization claims NOT asserted.**
 

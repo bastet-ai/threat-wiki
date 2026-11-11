@@ -1,4 +1,4 @@
-# "ted backdoor": DPRK-linked Linux espionage toolkit, HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors
+# "ted backdoor"
 
 ## Tags
 - ops

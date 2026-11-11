@@ -1,4 +1,4 @@
-# MALFEX: one Portuguese-language npm operator, twelve packages, two delivery arms, three years of continuity, and the advisory pipeline's gap made visible: `function-flag` sat as a malicious postinstall with NO advisory for fourteen months, and `cdn-img-fetch` stayed installable after npm seized its parent
+# MALFEX: one Portuguese-language npm operator, twelve packages, two delivery arms, three years of…
 
 ## Tags
 - ops

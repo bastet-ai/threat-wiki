@@ -1,4 +1,4 @@
-# dsh-native / @keer1024/dsh-native, the seizure took the bare name; the maintainer's scoped twin was born 53 minutes before the advisory and lives
+# dsh-native / @keer1024/dsh-native, the seizure took the bare name; the maintainer's scoped twin…
 
 ## Tags
 - ops

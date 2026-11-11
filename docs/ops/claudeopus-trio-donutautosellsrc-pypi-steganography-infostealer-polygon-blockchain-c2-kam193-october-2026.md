@@ -1,4 +1,4 @@
-# The `claudeopus*` trio and `dictmerge-lite`: the `2026-09-donutautosellsrc` steganography-stealer returns under LLM-brand names, C2 hidden in Polygon transaction history (OSV `MAL-2026-18298`-`18301`, kam193, PyPI, Oct 25-26, 2026)
+# The `claudeopus*` trio and `dictmerge-lite`
 
 ## Tags
 - ops

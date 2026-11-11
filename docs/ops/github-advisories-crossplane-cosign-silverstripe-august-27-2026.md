@@ -1,4 +1,4 @@
-# GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch
+# GitHub Security Advisories August 27, 2026
 
 ## Summary
 On **August 27, 2026**, four GitHub Security Advisories were published with durable defender value: one **Crossplane** supply-chain / signature-verification bypass and a three-CVE **Silverstripe** batch (two high-severity RCEs and one medium XSS).

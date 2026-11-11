@@ -1,4 +1,4 @@
-# PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)
+# PhantomRaven
 
 ## Summary
 

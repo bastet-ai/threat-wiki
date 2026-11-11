@@ -1,4 +1,4 @@
-# CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs
+# CISA KEV August 26, 2026 additions
 
 ## Summary
 On **August 26, 2026**, CISA added **six** vulnerabilities to the Known Exploited Vulnerabilities (KEV) catalog. Two are new to this wiki: **Citrix NetScaler ADC / NetScaler Gateway CVE-2026-8452** (a memory-overflow denial-of-service in Gateway / AAA virtual servers, NVD CVSS 9.8 Critical) and **Microsoft SQL Server CVE-2019-1068** (an authenticated remote-code-execution flaw, NVD CVSS 8.8 High). The other four, **Ajax.NET Professional CVE-2021-23758** (deserialization RCE), **Linux kernel CVE-2022-0995** (watch_queue out-of-bounds write), **ABRT CVE-2015-5287**, and **libuser CVE-2015-3246**, are the **exact initial-access and Linux-privilege-escalation CVE set documented in the UAT-10147 / SPECTRE / BadIIS campaign**. CISA formally listing them is a durable signal: these are no longer just "the CVEs UAT-10147 uses" but independently confirmed known-exploited vulnerabilities with their own BOD 26-04 federal deadlines.

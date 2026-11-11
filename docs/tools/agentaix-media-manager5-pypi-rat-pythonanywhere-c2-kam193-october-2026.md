@@ -1,4 +1,4 @@
-# `agentaix` + `media-manager5` (PyPI), the `2026-10-agentaix` two-name RAT pair: persistent-job installers doing file exfiltration + remote-code execution to `googleforum.pythonanywhere.com`, kam193 lane, OSV → GHSA mirror measured at ≈93 min, BOTH names PyPI-QUARANTINED within ~1.5 h of OSV arrival, C2 answering `200` at this wiki's check
+# `agentaix` + `media-manager5` (PyPI), the `2026-10-agentaix` two-name RAT pair
 
 ## Tags
 - tools

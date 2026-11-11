@@ -1,4 +1,4 @@
-# Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)
+# Graphalgo crosses ecosystems
 
 ## Tags
 - ops

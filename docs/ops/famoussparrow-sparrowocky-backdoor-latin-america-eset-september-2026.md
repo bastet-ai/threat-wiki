@@ -1,4 +1,4 @@
-# FamousSparrow swaps SparrowDoor for SparroWocky, modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)
+# FamousSparrow swaps SparrowDoor for SparroWocky, modular C++ backdoor with embedded open-source…
 
 ## Summary
 

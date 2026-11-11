@@ -1,4 +1,4 @@
-# Star Blizzard's 2026 overhaul, "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)
+# Star Blizzard's 2026 overhaul, "RedFlick"
 
 ## Tags
 - ops

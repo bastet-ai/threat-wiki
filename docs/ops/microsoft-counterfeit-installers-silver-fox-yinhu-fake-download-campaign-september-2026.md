@@ -1,4 +1,4 @@
-# Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)
+# Counterfeit installers to system compromise
 
 ## Tags
 - ops

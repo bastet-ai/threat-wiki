@@ -1,4 +1,4 @@
-# SiYuan kernel publish-mode security batch: unauthenticated SQL execution and publish-boundary breakdowns (GHSA-69083/69084/72811 criticals, 2026-09-03)
+# SiYuan kernel publish-mode security batch
 
 ## Summary
 On **September 3, 2026**, GitHub Security Advisories published a coordinated **20-advisory batch** against the **SiYuan** kernel (`github.com/siyuan-note/siyuan`), a popular open-source, local-first knowledge base / note-taking application. The batch discloses **3 critical (CVSS 10.0)** unauthenticated SQL-execution flaws reachable in **publish mode**, **9 high**, and **8 medium** flaws, all stemming from a systemic failure to enforce SiYuan's publish/reader access boundary and, in three cases, from passing **client-supplied SQL directly to a read-write database handle** with no single-statement or read-only guard. All 20 are fixed in the **v3.8.3-alpha.1** release line (hardening commits dated 2026-07-21 through 2026-07-23; the `first_patched_version` for the criticals is the pre-release kernel build `0.0.0-20260721004815-cf42dd5680c8` and siblings).

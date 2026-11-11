@@ -1,4 +1,4 @@
-# SubQuery `@subql/common@5.8.3`: release-pipeline artifact substitution, the "release mirror" CI backdoor (October 5, 2026)
+# SubQuery `@subql/common@5.8.3`
 
 A real, advised compromise of a legitimate web3-infrastructure project's npm release pipeline: `@subql/common@5.8.3` shipped with a full credential-stealing + CI-replication payload that was **never in the git repository**, it was downloaded from an attacker URL *inside the release workflow itself*, minutes before `npm publish`, on a disposable branch that was deleted 13 minutes after publication. StepSecurity published the disclosure Oct 5 (issue subquery/subql#3047 + blog); this wiki independently pulled the release commit, both tarballs, the registry time block, OSV/GHSA, and the C2 DNS state.
 

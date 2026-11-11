@@ -1,4 +1,4 @@
-# NovaCookies: Docusign-notification-driven AitM PhaaS stealing Microsoft 365 sessions (Sneaky2FA variant)
+# NovaCookies
 
 ## Summary
 On **August 26, 2026**, Island Security disclosed details (via a report shared with The Hacker News ahead of publication) of **NovaCookies**, an **adversary-in-the-middle (AitM) phishing toolkit** operating as a **$320/month subscription phishing-as-a-service (PhaaS)** platform that relays Microsoft 365 sign-ins through attacker-controlled infrastructure and captures authenticated sessions, including MFA. The kit has been used against **hundreds of organizations across multiple sectors in the U.S., U.K., Canada, Germany, Israel, and the U.A.E.** Proofpoint assesses NovaCookies to be a **variant of the Sneaky 2FA phishing kit**, extending its original Microsoft-account focus with dedicated flows for other identity providers, including **Okta** and **Entra domains federated to GoDaddy**.

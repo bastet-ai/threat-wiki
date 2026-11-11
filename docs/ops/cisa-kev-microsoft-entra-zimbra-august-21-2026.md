@@ -1,4 +1,4 @@
-# Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)
+# Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw
 
 ## Summary
 On August 21, 2026, CISA added **Synacor Zimbra Collaboration Suite (ZCS) CVE-2026-73570** (CVSS 8.9, High) to the Known Exploited Vulnerabilities catalog, with a **2026-08-24** BOD 26-04 remediation deadline. The flaw is an **OS command injection** (CWE-78) in the optional `zimbra-snmp` monitoring component that an unauthenticated attacker can reach by sending crafted SMTP requests when SNMP notifications are enabled. CISA lists ransomware use as unknown and identifies no actor, infrastructure, payload, or victim scope.

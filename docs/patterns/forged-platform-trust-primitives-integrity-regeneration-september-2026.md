@@ -1,4 +1,4 @@
-# Pattern: forging the operating system's own trust primitives, when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)
+# Pattern: forging the operating system's own trust primitives, when attackers regenerate integrity…
 
 ## Tags
 - patterns

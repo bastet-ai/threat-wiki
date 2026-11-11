@@ -1,4 +1,4 @@
-# walknpm rig2, the XMRig miner-postinstall pair: OSV-first advice on LIVE names, and the queue merge that finally showed its clock
+# walknpm rig2, the XMRig miner-postinstall pair
 
 ## Tags
 - ops

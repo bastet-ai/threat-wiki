@@ -1,4 +1,4 @@
-# PyPI `2026-10-emberlytts` cohort: EIGHT simultaneous `*-tts`/`*-asr` "audio-analysis profile" loader names (`driftwavets`, `emberlytts`, `glassbeakasr`, `novalithtts`, `pyrechoasr`, `quasitonnts`, `tonemaptts`, `voltswannts`), all `0.1.0`, one kam193 campaign tag, the whole cohort PyPI-QUARANTINED BEFORE this wiki could pull a single artifact, kam193's own text calls it the continuation of the ledger-tracked `2026-10-voxeval` coin-mining campaign (OSV `MAL-2026-17912`-`17918` + `17920`, Oct 17)
+# PyPI `2026-10-emberlytts` cohort
 
 ## Summary
 

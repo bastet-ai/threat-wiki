@@ -1,4 +1,4 @@
-# The `csec` squat-septet: seven lookalike npm names registered in a 25-second spread, holder-sealed before/at their same-second advisory wave (this wiki Oct 28, 234th sweep)
+# The `csec` squat-septet
 
 ## Tags
 - ops

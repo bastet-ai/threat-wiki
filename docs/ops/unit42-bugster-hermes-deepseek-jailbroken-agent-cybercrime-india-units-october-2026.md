@@ -1,4 +1,4 @@
-# "Next Exploit Opportunities": BUGSTER, a jailbroken agent stack (Hermes Agent + DeepSeek V4 + Cursor) running multi-vector cybercrime end-to-end (Unit 42, October 21, 2026)
+# "Next Exploit Opportunities"
 
 **Source:** Unit 42, `"Next Exploit Opportunities": How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities`, published 2026-10-21 14:00:24 UTC, full text captured by this wiki same-day (one-hundred-and-sixty-sixth sweep). Primary URL: <https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/>
 

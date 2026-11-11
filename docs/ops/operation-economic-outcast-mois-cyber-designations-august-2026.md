@@ -1,4 +1,4 @@
-# Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions
+# Operation Economic Outcast
 
 ## Summary
 On August 24, 2026, the U.S. Treasury announced **Operation Economic Outcast**, a whole-of-government economic campaign against Iran and its enablers that press secretary Scott Bessent framed as an "Economic D-Day." As part of the action, OFAC designated **nearly 60 entities, individuals, and vessels** across nuclear and missile procurement, cyber, and oil/shadow-fleet networks, and issued **five sectoral sanctions determinations under E.O. 13902** (digital assets, technology, gold, aviation, shipping) that expand secondary-sanctions exposure for anyone operating in those Iranian sectors.

@@ -1,4 +1,4 @@
-# WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP, five critical unauthenticated flaws
+# WordPress batch
 
 ## Summary
 On **August 29, 2026**, Wordfence and Patchstack (via The Hacker News) reported a batch of **five critical WordPress plugin/theme flaws** that all allow **unauthenticated attackers** to reach site takeover or arbitrary code execution: **WPMU DEV Dashboard** (authentication bypass, **CVE-2026-76581**, 9.8), **Avada** theme with **Fusion Builder** (arbitrary file write → RCE, **CVE-2026-18431**, 9.8), **TranslatePress** (administrator password-reset URL exposure, **CVE-2026-19632**, 9.8), **Pods** (authorization-bypass privilege escalation, **CVE-2026-19598**, 9.8), and **GiveWP** (PHP object injection → RCE, **CVE-2026-82222**, 10.0). NVD records confirm all five; fixed releases: WPMU DEV Dashboard `> 5.0.1`, Avada `> 7.16` (with Fusion Builder `> 3.16`), TranslatePress `> 3.3.1`, Pods `> 3.3.9`, GiveWP `> 4.16.7.1`. As of the August 29 reporting, no active in-the-wild exploitation of this batch was named.

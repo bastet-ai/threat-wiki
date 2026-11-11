@@ -1,4 +1,4 @@
-# A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)
+# A vault with a heap-view
 
 ## Summary
 

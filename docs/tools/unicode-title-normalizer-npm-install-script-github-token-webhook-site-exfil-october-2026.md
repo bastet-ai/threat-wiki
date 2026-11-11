@@ -1,4 +1,4 @@
-# `unicode-title-normalizer`, npm install-script exfil of `${{GITHUB_TOKEN}}` through a webhook.site URL path (October 2026)
+# `unicode-title-normalizer`, npm install-script exfil of `${{GITHUB_TOKEN}}` through a webhook.site URL…
 
 **Status: SEIZED AND PURGED at this wiki's Oct 20 one-hundred-and-fifty-fifth check, npm holder `0.0.1-security` created `15:59:35Z`, `GHSA-66rv-6q99-h89g` + `MAL-2026-18100` published `15:59:30Z` with alias at birth, all six real versions gone from the versions list; the second-stage gist is still LIVE and unmutated and the drop-box repo is still empty.** Earlier status: LIVE and ITERATING at this wiki's Oct 19 one-hundred-and-forty-fourth check, registry `latest 1.0.2` (moved from `1.0.0` at `18:42:14Z`), zero OSV, zero GHSA.** Reported to the `ossf/malicious-packages` queue by `r-bedekar` (PR `#1653`, filed `2026-10-19T15:27:55Z`). Discovered/reported by the community reporter; this wiki verified registry state AND pulled both tarballs (144th).
 

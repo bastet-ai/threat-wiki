@@ -1,4 +1,4 @@
-# miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)
+# miniOrange SAML 2.0 SSO plugin
 
 ## Summary
 Per The Hacker News (August 25, 2026), attackers are **actively exploiting two severe unauthenticated authentication-bypass flaws** in the **Xecurify miniOrange SAML 2.0 Single Sign On WordPress plugin** (disclosed by Patchstack, reported by the DigitalOcean security team):

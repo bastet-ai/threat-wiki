@@ -1,4 +1,4 @@
-# "Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)
+# "Superior"
 
 ## Summary
 Socket's threat research team identified **18 Chrome extensions and 1 Edge extension** sharing a single, modular malware framework that **drains crypto wallets and steals credentials**. The malicious versions were published over the last six months, but code and operational similarities tie the campaign to a dual-function Chrome-extension threat first reported by **DomainTools in February 2024** and later described by **Secure Annex** ("Pixel Perfect"). Socket tracks the actor under the name **"Superior"**, based on tags in the names of the malicious JavaScript modules.

@@ -1,4 +1,4 @@
-# QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure
+# QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical…
 
 ## Summary
 

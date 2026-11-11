@@ -1,4 +1,4 @@
-# CISA KEV October 13, 2026: a two-row pair on a three-day clock, Ivanti Connect Secure auth-bypass-by-spoofing and Microsoft Windows Shell command injection, both due October 16
+# CISA KEV October 13, 2026
 
 **Category:** ops
 **First seen:** 2026-10-13

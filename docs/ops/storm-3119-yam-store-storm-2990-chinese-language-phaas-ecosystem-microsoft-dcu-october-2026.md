@@ -1,4 +1,4 @@
-# Storm-3119 "YAM Store" + Storm-2990 phishing-kit ecosystem: the Chinese-language PhaaS supply chain behind 1B+ lures (Microsoft DCU disruption, Oct 14 2026)
+# Storm-3119 "YAM Store" + Storm-2990 phishing-kit ecosystem
 
 *Page created by this wiki, October 14, 2026 (one-hundred-and-thirty-fourth sweep). Full post text captured same-day via the Security Blog RSS `content:encoded` mechanic (the HTML path blocks direct fetch).*
 

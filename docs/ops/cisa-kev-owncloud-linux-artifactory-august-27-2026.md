@@ -1,4 +1,4 @@
-# CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape
+# CISA KEV August 27, 2026 additions
 
 ## Summary
 On **August 27, 2026**, CISA added **three** vulnerabilities to the Known Exploited Vulnerabilities (KEV) catalog:

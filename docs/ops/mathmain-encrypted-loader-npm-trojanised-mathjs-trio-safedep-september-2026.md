@@ -1,4 +1,4 @@
-# mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input, the payload itself is still unread (SafeDep, Sep 18, 2026)
+# mathmain / mathsbase / math-universe
 
 ## Tags
 - ops

@@ -1,4 +1,4 @@
-# `npp-ml` (PyPI), a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is STILL INSTALLABLE with BOTH advisories live: `0.1.7`/`0.1.8` shipped a genuine Notepad++ distribution as trust bait, `0.1.9` swapped the installed script to a PASSWORD-PROTECTED zip bundling `AdExplorer.zip`, Sysinternals' Active-Directory reconnaissance tool, zero code, zero quarantine, 980 dl/wk
+# `npp-ml` (PyPI), a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is…
 
 ## Tags
 - tools

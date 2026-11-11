@@ -1,4 +1,4 @@
-# Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)
+# Alinubx.sys / Rapuncel
 
 ## Summary
 

@@ -1,4 +1,4 @@
-# Contagious-Interview Tailwind/Animate.css trio: three live npm plugin costumes, each with a private scoped dependency public scanners cannot read (curated PR #1605 + this wiki tarball forensics, October 2026)
+# Contagious-Interview Tailwind/Animate.css trio
 
 **Sweep origin:** one-hundred-and-sixth sweep, Oct 7 2026 ~19:25-19:55 UTC. Source: `ossf/malicious-packages` PR **#1605** (opened 18:38:04Z, reporter `juanda2222`, 3 files) + this wiki's own registry/tarball/downloads pulls. OSV/GHSA coverage for all three names: **ZERO at check**, the disclosure exists only as this unmerged PR while all three packages sit installable with a real, growing victim pool.
 

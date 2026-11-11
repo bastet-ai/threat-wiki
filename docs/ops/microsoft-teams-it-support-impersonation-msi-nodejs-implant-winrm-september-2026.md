@@ -1,4 +1,4 @@
-# Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)
+# Impersonating IT support
 
 ## Tags
 - ops

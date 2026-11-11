@@ -1,4 +1,4 @@
-# CISA KEV September 22, 2026: a security-product batch, F5 BIG-IP APM OAuth RCE under active exploitation, the Check Point pair (Gateway VPN cert-validation RCE + Management zero-day), and the VeloCloud row landing
+# CISA KEV September 22, 2026
 
 **Category:** ops
 **First seen:** 2026-09-22

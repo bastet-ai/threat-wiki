@@ -1,4 +1,4 @@
-# CL-UNK-1211: AI-Generated-Payload Espionage Against Government Linux Infrastructure (Unit 42, October 2026)
+# CL-UNK-1211
 
 **Status: ACTIVE-observed (campaign window Oct 2025-Apr 2026 per Unit 42; cluster UNK-attributed). Published Oct 15, 2026 22:00Z, full text captured same-window by this wiki (Oct 16, 108th sweep).**
 

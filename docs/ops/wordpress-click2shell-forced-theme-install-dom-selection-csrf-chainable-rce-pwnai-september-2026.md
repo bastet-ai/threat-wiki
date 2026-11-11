@@ -1,4 +1,4 @@
-# WordPress "Click2Shell": one link opened by a logged-in admin force-installs an attacker-chosen wp.org theme with no clicks, session-privilege CSRF through the software's own install button, chainable to RCE via a second theme flaw (pwn.ai, patched in 7.1.1, Sep 17, 2026)
+# WordPress "Click2Shell"
 
 ## Summary
 

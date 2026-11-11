@@ -1,4 +1,4 @@
-# TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)
+# TerminalFix
 
 ## Tags
 - ops

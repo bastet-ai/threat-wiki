@@ -109,7 +109,7 @@ def scrub(title: str) -> str:
 
 
 NAV_LINE = re.compile(r'^(\s*(?:-\s+)?)"((?:[^"\\]|\\.)*)":\s*(\S.*)$')
-H1_LINE = re.compile(r"^#\s+(.+?)\s*$")
+H1_LINE = re.compile(r"^#\s+(.+?)\s*$", re.MULTILINE)
 
 
 def iter_h1_files():

@@ -2,7 +2,7 @@
 title: "LLMjacking as a business model: GCP billing accounts hijacked via sponsored-search phishing, external projects linked to victim billing = invisible mass Gemini inference, tens-to-hundreds of thousands of dollars in 24-48 h (Wiz CIRT Oct 20)"
 ---
 
-# LLMjacking: hijacked cloud billing accounts fund mass LLM inference the victim can neither see nor stop
+# LLMjacking
 
 **Observed:** October 20, 2026 (this wiki capture ~11:3x UTC same-window). **Primary:** Wiz Customer Incident Response Team, "From Phishing to LLMjacking: Threat Actors Targeting Cloud Billing Accounts for LLM Usage" (`www.wiz.io/blog/from-phishing-to-llmjacking`, pub Oct 20 20:03:10 GMT), FULL TEXT CAPTURED by this wiki same-day. Multiple intrusions investigated; the post focuses on Google Cloud Platform campaigns.
 

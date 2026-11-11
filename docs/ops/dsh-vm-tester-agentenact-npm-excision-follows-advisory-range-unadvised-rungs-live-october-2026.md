@@ -1,7 +1,7 @@
 title: "dsh-vm-tester + agentenact (MAL-2026-18345/18346, this wiki Oct 27 233rd): THE EXCISION FOLLOWS THE RANGE FIELD, two same-sweep GHSAs name k rungs each, the registry excises EXACTLY those k (time-map ghosts intact, tarballs 404), and every UNADVISED rung survives installable, dsh-vm-tester keeps latest 0.1.7 live at 1,164 dl/wk, agentenact's excision landed 16 s BEFORE its own advisory"
 ---
 
-# The excision follows the range field: dsh-vm-tester and agentenact, the advisory's version rows are the surgery plan, and the survival lane is the rung nobody advised
+# The excision follows the range field
 
 **Observed:** October 27, 2026 (this wiki capture ~23:0x-23:4x UTC, 233rd sweep). Both names surfaced as the sweep's `+2 CONTIGUOUS` OSV records `MAL-2026-18345`/`MAL-2026-18346`, each minted by the `ghsa-malware` lane with its alias AT BIRTH. Read entirely from public ledgers and registry metadata; the live tarballs were NOT pulled, NOT executed.
 

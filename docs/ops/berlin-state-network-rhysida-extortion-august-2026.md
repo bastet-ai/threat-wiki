@@ -1,4 +1,4 @@
-# Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28-29, 2026)
+# Berlin state network compromise
 
 ## Tags
 - ops

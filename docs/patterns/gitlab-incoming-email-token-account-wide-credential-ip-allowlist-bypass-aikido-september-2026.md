@@ -1,4 +1,4 @@
-# GitLab's "private email address" is an unexpiring account-wide credential: the `glimt-` incoming-email token pushes code, runs CI/CD jobs as the victim, and bypasses project IP allowlists, sender identity is never verified, there is no setting to disable the feature, and GitLab closed the report as intended behavior (Aikido, Sep 23, 2026)
+# GitLab's "private email address" is an unexpiring account-wide credential
 
 ## Tags
 

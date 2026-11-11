@@ -1,4 +1,4 @@
-# Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)
+# Transparent Tribe "Operation RapidRust"
 
 ## Summary
 

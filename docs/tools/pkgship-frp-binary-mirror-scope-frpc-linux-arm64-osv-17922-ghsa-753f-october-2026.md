@@ -1,4 +1,4 @@
-# The `@pkgship` frp binary-mirror scope: one advised arm64 build purged 18 s before its own advisory while ten siblings ride unadvised and byte-identical to upstream (OSV MAL-2026-17922 + GHSA-753f-gx8g-q88w, Oct 18, 2026)
+# The `@pkgship` frp binary-mirror scope
 
 ## Tags
 - tools

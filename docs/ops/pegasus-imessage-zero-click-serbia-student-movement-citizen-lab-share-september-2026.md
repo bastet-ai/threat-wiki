@@ -1,4 +1,4 @@
-# Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)
+# Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets…
 
 ## Tags
 - ops

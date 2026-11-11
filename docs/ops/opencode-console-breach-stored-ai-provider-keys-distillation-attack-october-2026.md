@@ -1,4 +1,4 @@
-# OpenCode Console breach (Oct 16-17, 2026): stored OpenAI/Anthropic/Google provider keys exposed in a "large-scale distillation attack", the second platform-custody credential breach in one week
+# OpenCode Console breach (Oct 16-17, 2026)
 
 **Status: vendor-disclosed, ongoing at disclosure; method, actor, and key-count undisclosed.** On the night of **October 16** an intruder reached a **legacy OpenCode system that was being decommissioned**, and provider API keys that users had saved into **OpenCode Console** (the optional hosted workspace service) **may have been exposed**. OpenCode disclosed on **X October 17** ("we had a security breach last night related to a large-scale distillation attack that impacted 1.4% of OpenCode Console users"), emailed affected users under the subject **"Action Required: Potential provider key breach"** the morning of Oct 17, and stated anyone who did not get an email was unaffected (the affected set is the subset of Console users with an external provider linked). OpenCode is working with **Anthropic, OpenAI, and Google** to remediate; **Anthropic said it revoked the Claude API keys it believes were involved.**
 

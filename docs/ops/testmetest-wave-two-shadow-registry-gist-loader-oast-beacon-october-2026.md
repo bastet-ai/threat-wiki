@@ -1,4 +1,4 @@
-# The test bench RE-SPAWNS and the OAST recon class arrives: `test-brotli2-testmetest` + two NEW binding.gyp/Bun droppers + a shadow-registry hijack (`@conduitops/logview-archive`) + a Gist-fed `preinstall` loader (`formatting-subtitles`) + an install-beacon (`simplewave`) (OSV `MAL-2026-18182`-`18187`, Oct 22, 2026)
+# The test bench RE-SPAWNS and the OAST recon class arrives
 
 ## Tags
 - ops

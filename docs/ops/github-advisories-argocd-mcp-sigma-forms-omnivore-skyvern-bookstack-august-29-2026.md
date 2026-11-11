@@ -1,4 +1,4 @@
-# GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch
+# GitHub Security Advisories August 29, 2026
 
 ## Summary
 On **August 29, 2026**, a batch of GitHub Security Advisories was published with durable defender value. The six highest-impact, and the three additional criticals are:

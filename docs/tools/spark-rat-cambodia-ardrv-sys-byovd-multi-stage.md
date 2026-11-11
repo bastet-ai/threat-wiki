@@ -1,4 +1,4 @@
-# Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver
+# Spark RAT
 
 ## Summary
 Acronis Threat Research Unit (Darrel Virtusio and Subhajeet Singha) documented a **Cambodia-focused phishing campaign** that delivers the open-source, Go-based cross-platform remote access trojan **Spark RAT** (upstream: [XZB-1248/Spark](https://github.com/XZB-1248/Spark)). The multi-stage chain is notable for a **bring your own vulnerable driver (BYOVD)** technique: it loads the legitimate-but-vulnerable **OPSWAT AppRemover driver `ardrv.sys`** (affected by **CVE-2026-36425**) to escalate privileges and terminate security software. Artifacts were observed between **late June and early August 2026**; Acronis does not know if the campaign remains ongoing. The chain has multiple **Silver Fox-style** indicators (DLL side-loading through a signed binary, Huorong targeting, service + scheduled-task persistence, Defender exclusions), but Acronis states there is **not enough evidence** to attribute the campaign to Silver Fox.

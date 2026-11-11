@@ -1,4 +1,4 @@
-# StyleSmuggler (CVE-2026-75650): Magento / Adobe Commerce unauthenticated RCE zero-day under active attack, Adobe emergency hotfix VULN-39341 (APSB26-146) (Sansec, Sep 5; Adobe, Sep 7, 2026)
+# StyleSmuggler (CVE-2026-75650)
 
 ## Tags
 - ops

@@ -1,4 +1,4 @@
-# ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)
+# ChainScript
 
 ## Summary
 

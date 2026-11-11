@@ -1,4 +1,4 @@
-# CISA KEV September 9, 2026 additions: four exploited flaws, Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write
+# CISA KEV September 9, 2026 additions
 
 ## Summary
 On **September 9, 2026**, CISA added **four** vulnerabilities to the Known Exploited Vulnerabilities (KEV) catalog:

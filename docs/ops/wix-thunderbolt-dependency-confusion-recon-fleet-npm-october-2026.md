@@ -1,4 +1,4 @@
-# Wix Thunderbolt dependency-confusion recon fleet, 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)
+# Wix Thunderbolt dependency-confusion recon fleet, 27 npm names, one `thunderboltRegistry.js`…
 
 ## Tags
 - ops

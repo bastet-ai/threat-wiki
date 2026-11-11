@@ -1,4 +1,4 @@
-# CISA KEV September 10-11, 2026 additions: six exploited flaws, ConnectWise ScreenConnect client file-execution, two JFrog Artifactory auth flaws, GitLab unauth file read, and two MikroTik RouterOS flaws
+# CISA KEV September 10-11, 2026 additions
 
 ## Tags
 - ops

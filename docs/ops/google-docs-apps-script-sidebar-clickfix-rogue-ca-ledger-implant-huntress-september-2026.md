@@ -1,4 +1,4 @@
-# Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)
+# Malicious Google Doc sidebar
 
 ## Tags
 - ops

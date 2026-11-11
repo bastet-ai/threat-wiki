@@ -1,4 +1,4 @@
-# RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)
+# RMM phishing campaign spanning 46 countries
 
 ## Tags
 - ops

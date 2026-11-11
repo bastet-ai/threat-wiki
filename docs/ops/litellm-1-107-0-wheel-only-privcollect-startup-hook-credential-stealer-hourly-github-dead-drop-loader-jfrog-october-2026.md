@@ -2,7 +2,7 @@
 title: "LiteLLM hijacked AGAIN: malicious 1.107.0 WHEELS only (sdist clean) ship cook.pth + sitecustomize.py startup hooks, the ~61 KB privcollect credential stealer runs at every Python start even without importing litellm, dumps the LiteLLM proxy credential tables themselves, exfs to www[.]litellm[.]dev/healthcheck, and an hourly GitHub raw dead-drop loader (domain.txt) grants arbitrary code; JFrog Oct 21 full text; this wiki verified all seven 1.107.0 wheels PULLED from PyPI, the dead-drop GitHub account letters9813 404, and ZERO OSV/GHSA malware records covering 1.107.0 at check"
 ---
 
-# LiteLLM 1.107.0: wheel-only injection, interpreter-startup credential theft, and a dead-drop loader, the second LiteLLM hijack of 2026
+# LiteLLM 1.107.0
 
 **Observed:** October 21, 2026 (this wiki capture ~13:2x-13:4x UTC, same-day). **Primary:** JFrog Security Research, "LiteLLM Hijacked Again: Malicious 1.107.0 Wheels Steal Credentials and Load Remote Code" (`research.jfrog.com/post/litellm-hijacked-again/`, Guy Korolevski, 21 Oct 2026), FULL TEXT CAPTURED by this wiki same-day. Community tracking: LiteLLM issue #47826.
 

@@ -1,4 +1,4 @@
-# Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)
+# Brevo supply-chain attack
 
 ## Tags
 - ops

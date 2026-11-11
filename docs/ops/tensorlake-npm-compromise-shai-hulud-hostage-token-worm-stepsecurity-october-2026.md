@@ -1,4 +1,4 @@
-# `tensorlake@0.5.144`: the worm is back and it calls itself Shai-Hulud, a compromised scientific-workflow npm package with a hostage-token wiper
+# `tensorlake@0.5.144`
 
 **Priority-watch event.** On October 8, 2026 StepSecurity published a full write-up of a compromise of the legitimate npm package `tensorlake`: release `0.5.144` was built from the project's OWN `main` branch, carries a VALID npm provenance attestation, steals credentials at install, republishes itself into the victim's own packages, persists through AI-agent and editor config files, exfiltrates into a GitHub repo the malware creates IN THE VICTIM'S ACCOUNT with the description **"Shai-Hulud: Here We Go Again"**, and installs a watchdog that deletes the victim's home directory if the stolen GitHub token is ever revoked. This wiki independently pulled and hashed both payload files from the LIVE `main` branch and confirmed the exfil domain resolves. Identity attribution to the original Shai-Hulud actor is branding, not proven, recorded as declared, not asserted.
 

@@ -1,4 +1,4 @@
-# NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)
+# NightEagle (APT-Q-95) expands to Russian companies
 
 ## Tags
 - ops

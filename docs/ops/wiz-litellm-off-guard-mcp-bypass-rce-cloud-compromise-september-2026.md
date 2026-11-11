@@ -1,4 +1,4 @@
-# Wiz "Off Guard": Breaking LiteLLM from authentication bypass to cloud compromise (CVE-2026-59822 / CVE-2026-59821)
+# Wiz "Off Guard"
 
 ## Summary
 Wiz Threat Research's **September 9, 2026** post ("Off Guard: Breaking LiteLLM from authentication bypass to cloud compromise"; Amitai Cohen, Yaara Shriki; previously presented at DEF CON 34) documents a chain in the most popular open-source LLM gateway, **BerriAI LiteLLM**. Scanning ~3,000 internet-facing deployments, Wiz found **9.6% accept the default master key (`sk-1234`) or require no authentication at all**. From there they reached **root-level RCE** on the host and, via the pass-through endpoint feature, **cloud/IAM credential theft**. Key findings:

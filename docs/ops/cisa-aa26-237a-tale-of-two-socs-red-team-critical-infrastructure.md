@@ -1,4 +1,4 @@
-# CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing
+# CISA AA26-237A "A Tale of Two SOCs"
 
 ## Summary
 On **August 25, 2026**, CISA published advisory **AA26-237A** ("A Tale of Two SOCs"), disclosing the results of **two simultaneous red team assessments** against two critical-infrastructure organizations using similar tradecraft, with sharply different defensive outcomes. Both organizations were **fully compromised at the domain level**, and in both the red team also reached **sensitive business systems (SBSs)** and **cloud resources**:

@@ -1,4 +1,4 @@
-# Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)
+# Spring Ring
 
 ## Tags
 - ops

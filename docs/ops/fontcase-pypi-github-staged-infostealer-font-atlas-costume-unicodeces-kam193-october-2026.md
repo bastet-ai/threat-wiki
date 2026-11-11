@@ -1,4 +1,4 @@
-# `fontcase` (PyPI): a day-old fake "font catalog" GitHub org that published itself through its own Actions workflow and served a 3.2 MB Windows infostealer from its own repo, OSV→registry-deletion in ≈75 minutes (this wiki forensics, Oct 13, 2026)
+# `fontcase` (PyPI)
 
 ## Tags
 - ops

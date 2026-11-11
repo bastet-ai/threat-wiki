@@ -1,4 +1,4 @@
-# BraZetsu: Python-based Windows IAB master toolkit fueling the "Infected Marketplace" (Group-IB, Sep 3, 2026)
+# BraZetsu
 
 ## Tags
 - tools

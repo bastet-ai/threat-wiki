@@ -1,4 +1,4 @@
-# `ukraine69` (PyPI): a "Ukrainian locale helpers" costume whose import-time payload hunts Telegram `.vault` session files and DELETEs the victim's account via GoyGram, then self-cleans after 45 s, six releases in 80 min, TWO published after the queue filing that only covers the first four (queue `#1646`, finder ESTsecurity, this wiki static-verified Oct 17)
+# `ukraine69` (PyPI)
 
 ## Summary
 

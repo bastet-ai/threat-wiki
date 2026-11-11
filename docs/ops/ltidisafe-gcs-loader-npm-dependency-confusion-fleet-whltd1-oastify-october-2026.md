@@ -1,4 +1,4 @@
-# The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons, and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)
+# The `ltidisafe` fleet
 
 ## Tags
 - ops

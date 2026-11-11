@@ -1,4 +1,4 @@
-# `passwordcracker` + `passwordcrackv2` (npm), byte-identical twin "Discord MFA library" packages whose only runtime dependency is a URL-pinned GitHub tarball that executes AT LOAD TIME: a Windows-only stager writing `winsvc.js` into fake WinSxS/Themes/Caches dirs with four-path VBS persistence, fetching a 1.79-MB webpack-obfuscated second stage behind a fake "Microsoft Edge WebView2" license header from `limbomail.com` → 302 into a Replit GCS object store, BOTH LIVE ≈2 days, ZERO OSV + ZERO GHSA; curated PR ossf/malicious-packages #1624 open unmerged
+# `passwordcracker` + `passwordcrackv2`
 
 ## Tags
 - tools

@@ -1,4 +1,4 @@
-# GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May-July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)
+# GemStuffer expands to 3,022 RubyGems packages
 
 ## Tags
 - ops

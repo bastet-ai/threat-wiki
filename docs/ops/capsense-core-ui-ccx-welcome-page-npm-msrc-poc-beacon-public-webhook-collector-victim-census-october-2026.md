@@ -2,7 +2,7 @@
 title: "@capsense/core-ui + @capsense/ccx-welcome-page (npm), self-labeled 'authorized MSRC dependency-confusion PoC' pair staged in 8 minutes, advised OSV-first, and its webhook.site collector turned out to be PUBLICLY READABLE with 50 recorded install beacons from 13 real hosts across 5 countries, including a personal win32 desktop (this wiki forensics, Oct 25, 208th sweep)"
 ---
 
-# `@capsense/*`: the "authorized PoC" beacon whose collector anyone on the internet can read, and the 50-install victim census sitting inside it
+# `@capsense/*`
 
 **Observed:** npm scoped pair `@capsense/core-ui` and `@capsense/ccx-welcome-page`, packuments created `2026-10-25T17:27:47.098Z` / `17:27:49.979Z` (two seconds apart), maintainer `darya.hakeem.abubaker@gmail.com` on both. OSV `MAL-2026-18294` (welcome-page, `99.99.100`) published `18:19:29Z` and `MAL-2026-18295` (core-ui, `99.99.100`) published `18:54:07Z`, both origin `ossf-package-analysis`, `aliases None`, severity `None`, ZERO GHSA at capture. This wiki captured packuments, both tarballs (static extract ONLY, NEVER executed), collector arm-state, **and the collector's entire request log** within ~2 h of staging.
 

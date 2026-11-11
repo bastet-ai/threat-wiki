@@ -2,7 +2,7 @@
 title: "@eforms/forms-api (npm), OSV-first advisory on a LIVE dependency-confusion beacon canary: eight rungs in 40 minutes by a GitHub-less npm account, a FOUR-dist-tag grammar (latest/one/tildedwo/snapshot), two payload generations (preinstall.js 'Bugcrowd natwest-og PoC' → four-hook beacon.js), THREE independently ARMED oastify collectors on one name, and latest 2.99.1 fully installable while only 2.0.0-SNAPSHOT is advised (this wiki forensics, Oct 25, 205th sweep)"
 ---
 
-# `@eforms/forms-api`: the machine lane advised ONE rung of an eight-rung live canary, and the other seven are nobody's advisory scope
+# `@eforms/forms-api`
 
 **Observed:** OSV `MAL-2026-18252` published `2026-10-25T06:26:03Z` (origin `ossf-package-analysis`, import `06:27:19Z`); GHSA twin `GHSA-2cfq-pcr7-8572` minted `06:30:25Z` = **OSV→GHSA `+4 m 22 s`, OSV-first with `aliases: None` at birth**. Packument created `05:28:15Z`, publisher `tabaahi123 <hackingisfuture@gmail.com>`. This wiki captured the registry state, both payload generations (static extract ONLY, NEVER executed), and collector arm-state within `≈1 h 15 m` of birth.
 

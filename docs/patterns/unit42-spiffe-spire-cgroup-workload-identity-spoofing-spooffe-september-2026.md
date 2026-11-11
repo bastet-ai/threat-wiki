@@ -1,4 +1,4 @@
-# Unit 42: post-exploitation workload-identity spoofing in SPIFFE/SPIRE, cgroup-selector manipulation and the Spooffe tool
+# Unit 42: post-exploitation workload-identity spoofing in SPIFFE/SPIRE, cgroup-selector…
 
 ## Tags
 - patterns

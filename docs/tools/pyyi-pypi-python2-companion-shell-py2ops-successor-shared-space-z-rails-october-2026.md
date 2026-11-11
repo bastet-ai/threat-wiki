@@ -1,4 +1,4 @@
-# `pyyi` (PyPI), the `py2ops` operator's NEXT NAME: a single-release `2.4.1` "python companion shell" that installs the same `python2` console script, bakes the SAME two `space-z.ai` C2 rails (byte-identical slugs), carries the full post-`2.3.1` self-heal feature set from birth, and adds an explicit server-fetched payload exec path, LIVE, ACTIVE on PyPI, ZERO OSV + ZERO GHSA ≈11.7 h; curated PR ossf/malicious-packages #1627 open ≈5.4 h; this wiki pulled and statically read the wheel (no execution) and re-probed both baked rails: `POST /api/cli/init` still answers `200 {"ok":true,"apiKey":"ptm_…"}` on BOTH
+# `pyyi` (PyPI), the `py2ops` operator's NEXT NAME
 
 ## Tags
 - tools

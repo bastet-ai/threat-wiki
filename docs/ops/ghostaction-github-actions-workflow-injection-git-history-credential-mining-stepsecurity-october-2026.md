@@ -10,7 +10,7 @@
 - StepSecurity
 - ghostaction
 
-# GhostAction returns: maintainer-account workflow injection sweeps 345 repos, and the October payload mines the ENTIRE git history (StepSecurity, Oct 9, 2026)
+# GhostAction returns
 
 **Class:** CI/CD workflow injection via compromised maintainer accounts, exfiltration of named Actions secrets PLUS every credential pattern in the working tree and the full commit history
 **First reported:** StepSecurity blog, "GhostAction Returns: Malicious 'Security Audit' Workflows Now Mine Credentials from Entire Git Histories" (Rohan Prabhu, October 9, 2026), full text captured by this wiki same-day via blog HTML (the RSS route 404s per the ledger's StepSecurity feed mechanic; blog listing walk worked)

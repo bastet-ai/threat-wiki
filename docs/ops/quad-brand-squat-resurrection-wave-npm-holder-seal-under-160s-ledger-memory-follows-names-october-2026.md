@@ -1,4 +1,4 @@
-# Quad brand-squatted resurrection wave: four burned npm names re-registered in 19 seconds, and the ledger killed them all before any install
+# Quad brand-squatted resurrection wave
 
 **Names:** `paychex-pdftron`, `sc-announcer`, `ccl-global-shopping`, `sc-hydrate-carousel-price`
 **GHSAs:** `GHSA-9mgv-25w8-jwhf` / `GHSA-fxw2-4j5q-6hwg` / `GHSA-hh3m-f424-g8v5` / `GHSA-9gcx-88qx-rxch` (all critical, all published `2026-10-27T15:12:12Z`, the SAME second)

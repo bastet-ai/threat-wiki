@@ -1,4 +1,4 @@
-# Sitecard (PyPI), "SSH access cards" with no-auth default and a hardcoded ntfy rendezvous: the first kam193 MAL-class mint still FULLY SERVED a full hour AFTER its critical GHSA (OSV `MAL-2026-18242`, `GHSA-9wjg-8fcv-pxj2`, 13 rungs, artifacts live throughout)
+# Sitecard (PyPI), "SSH access cards" with no-auth default and a hardcoded ntfy rendezvous
 
  kam193 campaign `2026-10-sitecard` · OSV `MAL-2026-18242` (published 2026-10-23T16:30:56Z) · `GHSA-9wjg-8fcv-pxj2` (critical, published 2026-10-23T18:31:16Z) · 13 rungs `0.1.0`-`0.1.14` · 1,283 downloads last week at capture
 

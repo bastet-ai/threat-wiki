@@ -2,7 +2,7 @@
 title: "TESTMETEST wave three: OSV +14 CONTIGUOUS MAL-2026-18190-18204, the AI-agent-tooling batch (skills collections, prompt-injection scanner, MCP runners) with GHSA-at-birth on 13 of 14, the awaited testmetest GHSAs landing at EXACTLY the same second, an incomplete purge on opencode-skills-collection (2 of 21 advised versions still installable), the @pkgship scope triple, and the first journey-class record with NO GHSA (the pair-mirror law's shape flips)"
 ---
 
-# Testmetest wave three (OSV `MAL-2026-18190`-`18204`): the batch mints against the agent-tooling ecosystem itself, and enforcement runs at `±2 min` of the advisory clock, not after it
+# Testmetest wave three (OSV `MAL-2026-18190`-`18204`)
 
 **Observed by this wiki, October 22, 2026 `≈23:2x-23:5x UTC` (one-hundred-and-nineteenth sweep).** OSV resumed after two quiet hours: fourteen CONTIGUOUS records `MAL-2026-18190`-`MAL-2026-18204` (`18205`-`18210` `404` on the API double-read = high-water `18204`, resume `18205`). Thirteen of the fourteen carry their GHSA alias AT BIRTH; one does not, and that exception is the ledger's dead/quarantined-name law meeting its first shape-flip candidate.
 

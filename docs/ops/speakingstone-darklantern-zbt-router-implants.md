@@ -1,4 +1,4 @@
-# SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)
+# SPEAKINGSTONE and DARKLANTERN
 
 ## Summary
 **SPEAKINGSTONE** and **DARKLANTERN** are two additional remote-control implants that VulnCheck found in the firmware of a white-label ZBT cellular router, following its earlier **ENDLESSDOORS** disclosure. Both are written in **Nim**, both communicate over **UDP**, and both are launched by the same connectivity-watchdog binary, `inetdetect`.

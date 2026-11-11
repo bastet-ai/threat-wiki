@@ -1,4 +1,4 @@
-# The `opencode2` nine-name platform-binary impersonation fleet: an 18-day, 67-version fake-project ladder on a real tool's binary name, ≈49k dl/wk, deleted with zero prior advisory and seized at the re-publish minute (this wiki forensics, Oct 13, 2026)
+# The `opencode2` nine-name platform-binary impersonation fleet
 
 ## Tags
 - ops

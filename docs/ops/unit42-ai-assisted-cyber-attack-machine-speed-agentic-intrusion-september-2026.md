@@ -1,4 +1,4 @@
-# Unit 42: machine-speed agentic intrusion, 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)
+# Unit 42: machine-speed agentic intrusion, 50+ ATT&CK techniques executed in under 10 hours
 
 ## Tags
 - ops

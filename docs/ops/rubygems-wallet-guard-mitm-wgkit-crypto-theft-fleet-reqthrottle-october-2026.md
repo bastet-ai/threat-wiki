@@ -1,4 +1,4 @@
-# RubyGems "Wallet Guard" fleet, 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)
+# RubyGems "Wallet Guard" fleet, 48-gem single-account campaign
 
 ## Tags
 - ops

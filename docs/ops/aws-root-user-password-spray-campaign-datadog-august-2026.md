@@ -1,4 +1,4 @@
-# AWS root user password-spraying campaign across 150+ organizations, two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)
+# AWS root user password-spraying campaign across 150+ organizations, two fixed user agents…
 
 ## Tags
 - ops

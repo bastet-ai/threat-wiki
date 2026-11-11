@@ -1,4 +1,4 @@
-# AMOS (Atomic macOS Stealer): the indicators always rotate, Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)
+# AMOS (Atomic macOS Stealer)
 
 ## Tags
 - tool

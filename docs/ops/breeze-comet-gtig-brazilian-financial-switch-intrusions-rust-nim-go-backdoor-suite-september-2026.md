@@ -1,4 +1,4 @@
-# BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems, Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft
+# BREEZE COMET (GTIG)
 
 ## Tags
 - ops

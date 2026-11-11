@@ -1,4 +1,4 @@
-# The `@accenturecodefoundry` scope squat: an Accenture-lookalike publisher, a five-publish morning, hex hostname/username exfil to an Azure free-app C2, and the attacker iterating live while the disclosure PR sat open (this wiki forensics, Oct 13, 2026)
+# The `@accenturecodefoundry` scope squat
 
 ## Tags
 - ops

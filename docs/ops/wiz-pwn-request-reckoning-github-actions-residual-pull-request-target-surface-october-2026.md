@@ -1,4 +1,4 @@
-# Wiz "Pwn Request Reckoning": GitHub Actions' 2026 hardening closed the default pull_request_target case, the residual surface is explicit opt-ins, pre-backport SHA pins, non-checkout fetches, uncovered privileged triggers, and script injection
+# Wiz "Pwn Request Reckoning"
 
 **Tags:** ops, supply-chain, ci-cd, github-actions, pwn-request, pull-request-target, detection-engineering
 **First seen:** 2026-10-26 (Wiz Research publication)

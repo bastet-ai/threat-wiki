@@ -1,4 +1,4 @@
-# workerd / Cloudflare Code Mode: five memory-corruption bugs enable sandbox escape and cross-tenant "heap swipe"
+# workerd / Cloudflare Code Mode
 
 ## Summary
 Check Point Research's August 6, 2026 writeup "When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers" (presented at Black Hat USA 2026 with public proof-of-concept code) documents **five memory-corruption vulnerabilities in workerd's native C++ layer**, the in-process "glue" between JavaScript and the runtime in Cloudflare's open-source edge runtime **workerd**. workerd is the isolation substrate for both **Cloudflare Workers** (multi-tenant serverless, >10% of all traffic on Cloudflare's network) and the new **Code Mode** technique for AI-agent tool use, where an LLM writes a TypeScript program against a typed tool API instead of emitting one structured tool call at a time.

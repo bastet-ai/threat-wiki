@@ -1,4 +1,4 @@
-# FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor, abuses "Office malicious macros remediation" (THN, Sep 3, 2026)
+# FalconFlank
 
 ## Tags
 - ops

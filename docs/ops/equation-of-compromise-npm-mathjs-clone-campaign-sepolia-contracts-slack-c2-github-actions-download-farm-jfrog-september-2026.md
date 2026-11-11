@@ -1,4 +1,4 @@
-# Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign, the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)
+# Equation of Compromise
 
 ## Tags
 - ops

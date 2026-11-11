@@ -1,4 +1,4 @@
-# `py2ops` (PyPI), an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads every console line with terminal echo switched OFF, hands bare single words to a server-side unlock gate, and self-registers the device to a baked C2 panel on first run, LIVE at `latest = 2.2.1`, ZERO OSV, ZERO GHSA, curated queue PR ossf/malicious-packages #1613 only; this wiki statically unpacked the wheel (no execution) and verified BOTH baked registration endpoints answering `200 {"ok":true,"apiKey":…}` to an unauthenticated probe
+# `py2ops` (PyPI), an "operator-linked companion shell" that ships a REAL Python REPL as cover, reads…
 
 ## Tags
 - tools

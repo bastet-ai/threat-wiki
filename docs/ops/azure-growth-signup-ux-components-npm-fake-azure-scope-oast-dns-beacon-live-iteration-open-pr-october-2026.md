@@ -2,7 +2,7 @@
 title: "@azure-growth/signup-ux-components (npm, ossf #1671 open, OSV {}, GHSA 0): a fake-Azure scope published TODAY with a DNS-exfil OAST beacon (`msrc-poc.<user>.<host>.<token>.oast.fun`), and the attacker shipped a NEW rung FOUR MINUTES AFTER the report PR's own update, live across all three rungs on every lane"
 ---
 
-# The `@azure-growth` scope squat, take two: `signup-ux-components`, vendor-lookalike scope, hostname/username DNS beacon to PortSwigger's free `oast.fun`, `0.0.0-stage` born packument, and the attacker iterating LIVE while the disclosure PR sat open (this wiki forensics, Oct 27, 2026)
+# The `@azure-growth` scope squat, take two
 
 **Observed by this wiki, October 27, 2026 `≈11:2x-11:5x UTC` (two-hundred-and-twenty-eighth / 228th sweep).** ossf/malicious-packages `#1671` opened `2026-10-27T11:17:42Z`, updated `11:20:31Z`: *"report: npm/@azure-growth/signup-ux-components 1.2.2, 1.2.3"*, its file is the **placeholder-id draft** `osv/malicious/npm/@azure-growth/signup-ux-components/MAL-0000-azure-growth-signup-ux-components.json` (the `MAL-0000-<reporter>-<pkg>` grammar, second on-wiki instance after the 226th's `#1669` csvflow-schema). At this wiki's check the package has **ZERO OSV (`/v1/query` `{}`) and ZERO GHSA (echo-checked malware head read)**, the queue is once again the ONLY ledger on a live, installable, actively-published name.
 

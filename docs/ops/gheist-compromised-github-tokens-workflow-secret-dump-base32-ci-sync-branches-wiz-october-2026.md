@@ -11,7 +11,7 @@
 - megalodon
 - polinrider
 
-# Gheist: 13,500+ planted `ci-sync-*` branches across 850+ compromised GitHub accounts dump every repository secret through GitHub's own API, base32 defeats log masking, `permissions: {}` does not gate the `secrets` context, and GitHub's public-repo approval hold is exactly why private repos and GHES burned (Wiz Research, Oct 25, 2026)
+# Gheist: 13,500+ planted `ci-sync-*` branches across 850+ compromised GitHub accounts dump every…
 
 **Captured by this wiki at feed+full-text level Oct 25 ~23:4x UTC, ~45 min after publication.** Wiz Research (published `2026-10-25 17:55:33Z`, `wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles`) tracks since **Sep 15, 2026** a mass-abuse campaign over compromised GitHub tokens: for every repository each stolen token reaches, the tool creates a branch `ci-sync-` + six random chars, commits `.github/workflows/sync-check.yml` with message `ci: sync config` (unsigned, authored as the token owner), the `push` trigger runs the job, and **the tool then downloads the workflow log via the GitHub API and deletes the run within seconds.** API traffic carries user agent `gheist`. Scale on record: **>13,500 planted branches, >850 compromised accounts** (personal projects → enterprise private orgs); as of Oct 24 the attack is ongoing, evolving, and **≈⅔ of implicated accounts are already gone from GitHub** (Wiz reported the activity to GitHub, response activity, not necessarily takedown of the operator).
 

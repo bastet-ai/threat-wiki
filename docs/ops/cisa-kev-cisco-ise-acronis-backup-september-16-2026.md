@@ -1,4 +1,4 @@
-# CISA KEV September 16, 2026 (second and third additions): Cisco ISE CVSS 10.0 unauthenticated management-interface bypass with Cisco confirming active exploitation, and Acronis Backup cPanel/Plesk local privilege escalation under limited targeted exploitation
+# CISA KEV September 16, 2026 (second and third additions)
 
 ## Tags
 - ops

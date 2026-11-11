@@ -1,4 +1,4 @@
-# The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent, with sentinel-file targeting of fintech/trading monorepos, on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)
+# The `npmjs.it.com` agent pair
 
 ## Tags
 - ops

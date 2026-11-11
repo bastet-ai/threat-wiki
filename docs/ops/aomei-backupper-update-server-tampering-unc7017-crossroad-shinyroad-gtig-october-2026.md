@@ -1,4 +1,4 @@
-# AOMEI Backupper / AnyViewer update-server tampering, UNC7017, CROSSROAD/SHINYROAD, the 5-10-minute ephemeral window (GTIG/Mandiant, Oct 2026)
+# AOMEI Backupper / AnyViewer update-server tampering, UNC7017, CROSSROAD/SHINYROAD, the 5-10-minute…
 
 ## Summary
 

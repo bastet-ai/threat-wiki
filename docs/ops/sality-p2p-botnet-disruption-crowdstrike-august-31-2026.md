@@ -1,4 +1,4 @@
-# Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)
+# Sality P2P botnet disrupted
 
 ## Summary
 On **August 31, 2026**, CrowdStrike's **Counter Adversary Operations (CAO)** team, working with the **U.S. DOJ, FBI, the DoD Office of the Inspector General's Defense Criminal Investigative Service (DCIS), and the Shadowserver Foundation**, with support from **Europol, Eurojust, and law enforcement in Bulgaria, Hungary, and Romania**, executed a **coordinated P2P sinkholing disruption of the Sality peer-to-peer (P2P) botnet**, a polymorphic **file-infecting** criminal infrastructure that has operated since **2003**. The operation isolated all ~**33,000+ infected machines** from the operator by poisoning each bot's super-peer list so that infected hosts can no longer receive **URL packs** (payload-download instructions) or **file packs** (direct payload transfers). CrowdStrike published the full operation on **September 1, 2026** ("Peer Pressure: Inside the Sality Botnet Disruption Operation").

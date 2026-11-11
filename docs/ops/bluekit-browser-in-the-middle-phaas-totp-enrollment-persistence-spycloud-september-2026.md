@@ -1,4 +1,4 @@
-# BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS, the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in
+# BlueKit (SpyCloud, Sep 15, 2026)
 
 ## Tags
 - ops

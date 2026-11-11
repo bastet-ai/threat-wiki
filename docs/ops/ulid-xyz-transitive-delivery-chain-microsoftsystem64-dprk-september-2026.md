@@ -1,4 +1,4 @@
-# ulid-xyz transitive delivery chain: a MicrosoftSystem64 RAT three npm dependencies deep (SafeDep, Sep 1, 2026)
+# ulid-xyz transitive delivery chain
 
 ## Tags
 - ops

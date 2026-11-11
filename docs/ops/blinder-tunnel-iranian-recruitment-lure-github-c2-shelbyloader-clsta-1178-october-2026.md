@@ -1,4 +1,4 @@
-# Blinder Tunnel: Iranian CL-STA-1178 fake-Dubai-Airports recruitment lure, weaponized .csproj, and GitHub-API C2 with Issues dead-drop fallback (ShelbyLoader V2 / ShelbyC2 V2 / PsProxy / Blackwood), Unit 42, October 6, 2026
+# Blinder Tunnel
 
 **Actor:** CL-STA-1178 (Unit 42 tracking), assessed **high confidence Iranian state-aligned**; previously linked by Elastic Security Labs to "The Shelby Strategy" and TTP-overlapping with Screening Serpens / Agent Serpens (low-confidence TTP overlap per Unit 42).
 **Campaign:** "Blinder Tunnel" (named after attacker infrastructure terms + the malware's tunneling capability), "Peaky Blinders"-themed branding, theme song embedded in malware. Targets: Iraqi critical infrastructure (telecom, aviation); staging observed as early as **Nov 18, 2025**, activation **March 2026**.

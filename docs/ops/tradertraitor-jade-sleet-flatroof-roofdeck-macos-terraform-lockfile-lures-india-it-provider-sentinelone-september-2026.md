@@ -1,4 +1,4 @@
-# TraderTraitor / Jade Sleet: the KelpDAO-LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties, weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)
+# TraderTraitor / Jade Sleet
 
 ## Summary
 

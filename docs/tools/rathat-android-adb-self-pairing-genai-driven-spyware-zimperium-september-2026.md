@@ -1,4 +1,4 @@
-# RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)
+# RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with…
 
 ## Summary
 

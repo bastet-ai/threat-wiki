@@ -1,4 +1,4 @@
-# PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root, ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)
+# PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory
 
 ## Summary
 

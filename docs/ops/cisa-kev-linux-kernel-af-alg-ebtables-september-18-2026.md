@@ -1,4 +1,4 @@
-# CISA KEV September 18, 2026: three Linux kernel vulnerabilities, remotely triggerable kTLS zero-length-record mishandling (CVSS 9.8 AV:N) plus two local privilege escalations (AF_ALG concurrent-write race, ebtables SNAT out-of-bounds write into splice-shared file pages), ALL THREE carrying CISA SSVC "active exploitation," all on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)
+# CISA KEV September 18, 2026
 
 ## Tags
 - ops
