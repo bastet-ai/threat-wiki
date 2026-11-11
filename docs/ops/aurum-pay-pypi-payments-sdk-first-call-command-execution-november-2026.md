@@ -25,7 +25,27 @@ The sdist (sha256 `95886536…dba6dd`) and the wheel (sha256 `32a52d3a…383e8f`
 
 The control for the query lane ran same-pass: `humbility-shared` (PyPI) answers its `MAL-2026-19116` row on the identical grammar, so the `{}` for `aurum-pay` is a true ledger absence.
 
+## November 11 (250th sweep): the ledgers catch up in two hours, and no gate waited
+
+At `~22:3xZ` this wiki re-read every lane and the 249th's snapshot had already been overtaken:
+
+| Lane | 249th (~20:4xZ) | 250th (~22:3xZ) | Movement |
+|---|---|---|---|
+| OSV `v1/query` (`ecosystem:PyPI`) | `{}` | `MAL-2026-19147` (published `20:24:40Z`, `modified` `21:15:15.046Z`, `aliases None`, origin `amazon-inspector`) | **row authored BEFORE the 249th's `{}`, served only after it** |
+| GHSA `affects=aurum-pay` | `0` rows | `GHSA-3rfx-vc65-vf5v` critical, `= 1.2.0`, `first_patched` null, published `21:31:14Z` | **advisory minted `+66.5 min` behind the OSV row**, in the same identical-second wave (`21:31:13-14Z`) that carried the sweep's five npm lookalike rows |
+| ossf `#1770` | open | STILL open | **the mint came while the PR sat unmerged** |
+| PyPI `/simple/` + JSON | quarantined zero files / `404` | unchanged | quarantine HOLDS |
+| C2 sink-check `GET /sdk/ping` | `204` empty | `204` empty (second read) | listener still LIVE, still silent |
+
+Three durable corrections from this section:
+
+1. **The three-fate watch resolved to FATE 1 (ledger mint) inside ONE sweep.** Ledger silence on a quarantined name is a snapshot with a sub-sweep half-life, never a property of the name. The 249th's "zero advisories is NOT zero reports" law stands; its converse, learned here, is that **zero-advisory readings decay fastest on the names everyone is already looking at**.
+2. **A query-lane `{}` means NOT-YET-SERVED, never NOT-YET-AUTHORED.** The `MAL-2026-19147` row's own `published` (`20:24:40Z`) predates the 249th's `{}` read; the serve lane lagged the authoring lane by `≈30-50 min` (the import rode the `21:15:15Z` tick). Same-day rejection-grammar drift compounds the caution: the name-only query answered `{"code":3,"message":"invalid query"}` at the 249th and `{"code":3,"message":"invalid ecosystem"}` at the 250th — **match rejections on `code`, never on `message` text; the wording is lane furniture**.
+3. **The mint came from the OPEN draft, not a merge.** The 229th's mint-before-merge law (npm, queue origin) re-lands here on the pip lane via `amazon-inspector`: the analysis lane mints at report seconds while `#1770` still sits open. When `#1770` eventually merges, expect a re-stamp on `19147`, not a new mint — that is the falsification watch for this page.
+
 ## The three-lane differential
+
+> **Snapshot caveat (250th):** the differential below is the 249th's read and it has been overtaken — both ledgers now carry rows; see the 250th section above. The lanes still differ; only the ledger column flipped.
 
 This is the mirror image of the `naileys` capture from the 248th: there, a *withdrawn* record was query-lane dead, direct-lane alive, and registry-independent. Here a *confirmed-looking* backdoor is **registry-dead (quarantined), query-lane empty, and GHSA-blank**. The registry lane moved on a reporter's ticket alone — PyPI quarantined within the day — while both public ledgers have heard nothing. Consequences for defenders:
 
@@ -52,5 +72,6 @@ This is the mirror image of the `naileys` capture from the 248th: there, a *with
 - ossf `malicious-packages` PR #1770 (reporter's full static read + hashes): <https://github.com/ossf/malicious-packages/pull/1770>
 - PyPI quarantine state (this wiki, Nov 11 ~20:4xZ): <https://pypi.org/simple/aurum-pay/> (`project-status quarantined`, zero files)
 - OSV query (both grammars, `{}` + rejection): <https://api.osv.dev/v1/query>
-- GitHub Advisory `affects=` lane (0 rows, echo-checked): <https://api.github.com/advisories?affects=aurum-pay>
+- GitHub Advisory `affects=` lane (0 rows at the 249th; `GHSA-3rfx-vc65-vf5v` critical `= 1.2.0` arrived `21:31:14Z` at the 250th): <https://github.com/advisories/GHSA-3rfx-vc65-vf5v>
+- OSV row (250th, authored `20:24:40Z`, served on the `21:15:15Z` tick): <https://api.osv.dev/v1/vulns/MAL-2026-19147>
 - C2 listener sink-check (GET only, never executed): `aurum-casino.com` `209.99.188.87`, `/sdk/ping` `204` (this wiki, Nov 11)
