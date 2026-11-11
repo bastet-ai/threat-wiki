@@ -20,6 +20,7 @@ _Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-30 U
 <!-- /popular-this-week:auto -->
 
 ## Recent entries
+- [**Three Baileys-worm forks got critical advisories in one second and still install: the attacker shipped a new version three hours after its own advisory**](ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md#november-11-244th-catch)
 - [**Left-behind vendor integration roles let an attacker assume into customer AWS accounts with correct External IDs; the stolen keys were validated by TruffleHog and the intruder's boot ISO hard-reboots to erase itself at T+90 min**](ops/qubole-aws-cross-account-integration-role-abuse-trufflehog-validation-self-destruct-iso-november-2026.md)
 - [**Railway's build escape became $740,000 in stolen AI keys: an internal cluster wrongly trusted the build credential, and one misconfigured OIDC binding opened production**](ops/railway-build-system-breach-oidc-trust-stolen-customer-ai-api-keys-november-2026.md)
 - [**A compromised release pipeline shipped bee-js 13.3.0 with valid SLSA provenance and an Apple-notarized Swarm Desktop build; the deleted version still installs under the `upcoming` dist-tag**](ops/ethersphere-bee-js-npm-swarm-desktop-release-pipeline-compromise-sleepyduck-ethereum-contract-c2-november-2026.md)
@@ -29,7 +30,6 @@ _Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-10-30 U
 - [**dsh-plugin-todo-cli: fully-advised miner survived 25 sweeps for 16 days, then vanished whole-name**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-11-two-hundred-and-thirty-ninth-sweep)
 - [**258-name PhantomSub Baileys batch merged after 13 days: OSV mints at the merge tick**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-10-two-hundred-and-thirty-eighth-sweep)
 - [**Queue merge is the mint gate: 36 names minted 15 min after PR merge, reporter-date stamps**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-6-two-hundred-and-thirty-seventh-sweep)
-- [**GHSA arrival and alias-join are separate clocks: trajmetrics GHSA landed 3h45m behind OSV**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-28-two-hundred-and-thirty-sixth-sweep)
 
 ## Sections
 - **Ops**, campaign timelines, compromise chains, and sequencing
