@@ -20,6 +20,8 @@ _Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-11-04 U
 <!-- /popular-this-week:auto -->
 
 ## Recent entries
+- [**A PyPI "payments SDK" runs whatever its ping endpoint returns on the first API call, and PyPI quarantined the name on a reporter's ticket while both public ledgers stayed at zero: no OSV row, no GHSA, and the C2 listener still answers live**](ops/aurum-pay-pypi-payments-sdk-first-call-command-execution-november-2026.md)
+- [**The critical React Server Components RCE (CVSS 9.5, no CVE) reached GitHub's global advisory database twenty-seven days after the fix shipped: CVE-keyed tooling never saw it, and the Next.js fix must come from `next` itself, not `react`**](ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md#november-11-249th-rsc-rce-late-arrival)
 - [**A package whose malware record was withdrawn months ago still installs today: the query lane hides the withdrawn row, the direct lane still serves it, and the npm registry never heard of the withdrawal at all**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-11-two-hundred-and-forty-eighth-sweep)
 - [**A Baileys fork's README claims "no hidden auto-follow" while its code silently follows WhatsApp channels, and its sibling was reported 90 minutes after birth with a file copied byte-for-byte from a previously-minted malware package**](ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md#november-11-248th-queue-pair)
 - [**One template minted 23 lookalike npm names in ninety minutes and the bot sealed every one inside three minutes: the biggest carried 9,476 weekly downloads, and its weekly counter was a pre-seal census**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-11-two-hundred-and-forty-seventh-sweep)
@@ -28,8 +30,6 @@ _Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-11-04 U
 - [**The npm arm of an open-source AI cybersecurity team shipped a malicious release that ran 20 hours unadvised at 339 downloads on its release day: the advised rung is deleted from versions but still alive in the registry's time map**](ops/0sec-cli-npm-ai-security-cli-compromise-november-2026.md)
 - [**Sonatype's PolinRider "taken down" claim is a rung claim: all ten hijacked names still install and one carries 3,088 weekly downloads while its loader release survives in the registry's time map, and the OSV mirror is missing its November row entirely**](ops/polinrider-cross-ecosystem-supply-chain.md#november-11-246th-sonatype-differential)
 - [**Six Baileys forks keep installing at up to 1,551 downloads/week under day-old critical advisories: the advisory lane fires 1-3 hours after every merge, the seizure lane never comes**](ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md#november-11-245th-retraction)
-- [**Three Baileys-worm forks got critical advisories in one second and still install: the attacker shipped a new version three hours after its own advisory**](ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md#november-11-244th-catch)
-- [**Left-behind vendor integration roles let an attacker assume into customer AWS accounts with correct External IDs; the stolen keys were validated by TruffleHog and the intruder's boot ISO hard-reboots to erase itself at T+90 min**](ops/qubole-aws-cross-account-integration-role-abuse-trufflehog-validation-self-destruct-iso-november-2026.md)
 
 ## Sections
 - **Ops**, campaign timelines, compromise chains, and sequencing
