@@ -30,7 +30,6 @@ _Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-11-04 U
 - [**A PyPI "payments SDK" runs whatever its ping endpoint returns on the first API call, and PyPI quarantined the name on a reporter's ticket while both public ledgers stayed at zero: no OSV row, no GHSA, and the C2 listener still answers live**](ops/aurum-pay-pypi-payments-sdk-first-call-command-execution-november-2026.md)
 - [**The critical React Server Components RCE (CVSS 9.5, no CVE) reached GitHub's global advisory database twenty-seven days after the fix shipped: CVE-keyed tooling never saw it, and the Next.js fix must come from `next` itself, not `react`**](ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md#november-11-249th-rsc-rce-late-arrival)
 - [**A package whose malware record was withdrawn months ago still installs today: the query lane hides the withdrawn row, the direct lane still serves it, and the npm registry never heard of the withdrawal at all**](ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-11-two-hundred-and-forty-eighth-sweep)
-- [**A Baileys fork's README claims "no hidden auto-follow" while its code silently follows WhatsApp channels, and its sibling was reported 90 minutes after birth with a file copied byte-for-byte from a previously-minted malware package**](ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md#november-11-248th-queue-pair)
 
 ## Sections
 - **Ops**, campaign timelines, compromise chains, and sequencing
