@@ -213,6 +213,7 @@ nav:
       - 'Railway build-system breach: escape, misplaced trust, stolen AI keys': ops/railway-build-system-breach-oidc-trust-stolen-customer-ai-api-keys-november-2026.md
       - '0sec-cli: the AI security CLI whose own release became the payload': ops/0sec-cli-npm-ai-security-cli-compromise-november-2026.md
       - 'aurum-pay: the PyPI payments SDK whose first call runs its ping response': ops/aurum-pay-pypi-payments-sdk-first-call-command-execution-november-2026.md
+      - 'RubyGems phantom pair and pentest-copilot: the wrong-registry install claim': ops/rubygems-phantom-pair-pentest-copilot-wrong-registry-oracle-november-2026.md
       - 'Apache mod_http2 assign_headers race: CVE-2026-119618 pre-auth RCE across sixteen rungs': ops/apache-mod-http2-assign-headers-race-heap-corruption-rce-cve-2026-119618-wiz-november-2026.md
       - 'OpenAI Codex issue-labeler chain: prompt injection to npm publish keys': ops/openai-codex-issue-labeler-prompt-injection-sandbox-escape-coreclr-memory-cache-poisoning-npm-publish-chain-depi-november-2026.md
       - 'sapho11: AGENTS.md reviewer poisoning, build.rs stealers, TON drain': ops/sapho11-campaign-agents-md-reviewer-poisoning-lwd-uri-util-build-stealer-fragment-api-py-ton-drain-november-2026.md
