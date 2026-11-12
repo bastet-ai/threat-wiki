@@ -40,6 +40,14 @@ This wiki's verification within roughly two hours of the advisory:
 
 **Disposition unchanged:** name still serves, `0.28.8` installs, payload still UNVERIFIED at this read (no maintainer or vendor post has landed). **MONITOR update:** does the excision keep walking `time[]` backward (`0.28.8`, `0.28.7` next?), which would mean the sweep is time-range-based rather than advisory-based.
 
+## <a id="november-12-258th-eight-rung-sweep"></a>November 12 258th sweep: the removal lane walked EIGHT rungs past the advisory in one pass, `latest` is now `0.28.3`
+
+**Re-read `≈14:3xZ` (258th sweep):** packument `modified` rolled to `2026-11-12T13:06:20.926Z` — DURING this sweep — and `versions[]` now reads `[0.15.0, 0.17.0, 0.18.0, 0.21.4, 0.25.0, 0.26.0, 0.28.0, 0.28.1, 0.28.3]` with `dist-tags.latest = 0.28.3` (tarball `200`). **EIGHT rungs gone since the 246th's read (`0.28.2`, `0.28.4`-`0.28.10`), four of them (`0.28.4`, `0.28.5`, `0.28.8`, `0.28.9`) re-probed `404` THIS read; `time[]` still carries all 26 stamps = the ledger remains the only census of what was.** The advisory `GHSA-9j97-6pqr-qvrx` still names ONE rung (`0.28.10`, per-version rows, `first_patched` null).
+
+**The removal left a HOLE in its own middle: `0.28.3` (published `Nov-9 05:44:55Z`) SURVIVES while its younger sibling `0.28.2` (`04:58:43Z`) FELL — the sweep is NOT a time-window cut and NOT advisory-keyed.** Three readings, all quoted, NONE adjudicated: (a) per-tarball verdicts (the lane eats what its detectors flag, schedule be damned — the 255th's bot-minted-is-not-bot-detected law viewed from the other side); (b) the clean-rung survival pattern of the 235th's `glyphmatrix` specimen generalized (the unadvised rung is the survival lane, and sometimes a neighbor of it falls); (c) an internal retry/partial-failure artifact of one big sweep. Either way the durable law sharpens: **the removal lane reads neither the RANGE nor the SCHEDULE — a `404` roster is per-tarball evidence, and an advisory's version rows are never a manifest of what the registry ate** (the 240th's excision-sweeps-past-the-range law, newest and largest specimen).
+
+**Disposition unchanged:** the name still serves and installs (`0.28.3`, `200`), payload still UNVERIFIED (no maintainer or vendor post landed at this read), malware-head GHSA lane quiet since `11:33:05Z`. **MONITOR update:** does the sweep cross the Nov-9 `04:58Z` boundary (kills reading (a)); does `0sec-labs/0` publish anything after the eight-rung day; CDN afterimages of the eight.
+
 ## Durable hunt shapes
 
 - On every `= <version>` exact-row advisory, check `dist-tags.latest` against the advised rung: if `latest` is a clean rung, the name keeps accruing downloads as if nothing happened (this name: 2,462/wk).
