@@ -8,15 +8,15 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 
 ## Popular this week
 <!-- popular-this-week:auto -->
-_Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-11-04 UTC (21880 of ~734 on-page requests attributable; 84 of 734 path batches ok)._
-- [RubyGems 24-gem crypto-utility fleet, the 45.138.12.177 C2 RETURNS under fresh names](/ops/rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026/) — 295 reads
-- [CISA KEV August 27, 2026 additions](/ops/cisa-kev-owncloud-linux-artifactory-august-27-2026/) — 258 reads
-- [Source index](/notes/source-index/) — 163 reads
-- [binding.gyp npm CI/CD worm](/ops/binding-gyp-npm-cicd-worm/) — 142 reads
-- [SubQuery @subql/common@5.8.3](/ops/subql-common-ci-artifact-substitution-release-pipeline-compromise-october-2026/) — 140 reads
-- [Cavern](/tools/cavern/) — 129 reads
-- [Kimsuky / Emerald Sleet / TA427](/actors/kimsuky-emerald-sleet-ta427/) — 116 reads
-- [SilkParasite](/actors/silkparasite/) — 112 reads
+_Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-11-05 UTC (22365 of ~741 on-page requests attributable; 741 of 741 path batches ok)._
+- [Source index](/notes/source-index/) — 169 reads
+- [Djinn Stealer](/tools/djinn-stealer/) — 120 reads
+- [Kimsuky / Emerald Sleet / TA427](/actors/kimsuky-emerald-sleet-ta427/) — 118 reads
+- [Tag index](/notes/tag-index/) — 116 reads
+- [SilkParasite](/actors/silkparasite/) — 114 reads
+- [JiaT75](/people/jiat75/) — 112 reads
+- [Cavern](/tools/cavern/) — 111 reads
+- [PamStealer](/tools/pamstealer/) — 110 reads
 <!-- /popular-this-week:auto -->
 
 ## Recent entries
