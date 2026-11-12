@@ -35,11 +35,15 @@ JFrog says npm removed the lookalikes; this wiki probed all ten named packuments
 | `tailwind-anim` | `['0.0.1-security']` | holder-sealed |
 | `scrollbar-hide-plugin` | `versions: []` | emptied, doc survives (testmetest grammar) |
 | **`tailwind-lines-clamps`** | **`['0.4.5']`, latest 0.4.5** | **LIVE, NOT SEALED at read** |
-| **`tailwind-lineclamp`** | **`['0.4.5']`, latest 0.4.5** | **LIVE, NOT SEALED at read** |
+| **`tailwind-lineclamp`** | **`['0.4.5']`, latest 0.4.5** | **LIVE, NOT SEALED at read (256th) — SEIZED `15:43Z` Nov-12, see 259th section below** |
 
 **Eight of ten are sealed or emptied; two of the line-clamp pair still ship a version.** JFrog's own text says npm removed the packages within days of report and the operator keeps re-publishing — a live `0.4.5` under a named-malicious lookalike is either a fresh re-publication the seizure lane has not caught yet or an unsealed rung from the November wave. **Treat both names as suspect until a payload read settles them (this wiki did not fetch the tarballs); a rank-numbered version where every sibling wears `0.0.1-security` is itself the tell** (the security-holder batch ran around them and missed them, per-read claim).
 
 **Sink-check of the careers site:** `https://accurasofthire[.]com/` answered **`000` (connection failure)** from this host at capture = loader server unreachable/unresponsive or geo-blocked, a per-read claim only — a front coming back is as ambiguous as a front dying (the front-law, standing). Do not conclude takedown.
+
+## November 12 259th sweep: the queue's live claim died in a one-second seizure
+
+**`tailwind-lineclamp` went from "STILL LIVE `0.4.5`" (four consecutive sweeps, the 256th/258th on-wiki claim) to holder-sealed between two reads:** packument re-created `2026-11-12T15:40:26.417Z` (over its own `2026-05-27` `0.4.5` stamp), `GHSA-pjpw-27p4-73xx` critical `15:40:55Z` (`+29 s` after creation), `MAL-2026-19168` alias-AT-BIRTH (`ghsa-malware` origin), sealed `0.0.1-security` at `15:43:06Z`. The `0.4.5` tarball re-probes `404` at read; `0.4.5` survives only in `time[]`. **The seizure lane read the ledger, not the queue** — the `#1765` report that first named this pair is still UNMERGED (`≈23.9 h`); what moved the automaton was the `ghsa-malware` bot's own live-detect event. The sibling `tailwind-lines-clamps` `0.4.5` remains `200` (fifth liveness read, unmoved since April, still zero-ledger). **Law: a liveness claim on these names ages out in minutes, not sweeps; re-probe per-name per-tarball every read.** Whether `lines-clamps` survives its sibling or falls in the next wave stays the tripwire. Sink-check `accurasofthire[.]com` not re-attempted this sweep (per-read claim law stands).
 
 ## Laws this operation lands
 
