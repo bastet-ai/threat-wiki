@@ -849,7 +849,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chucky](#chucky) (1)
 - [chunked exfiltration](#chunked-exfiltration) (1)
 - [CI secrets](#ci-secrets) (1)
-- [CI-CD](#ci-cd) (6)
+- [CI-CD](#ci-cd) (7)
 - [CI-CD-adjacent](#ci-cd-adjacent) (1)
 - [CI-CD-credentials](#ci-cd-credentials) (1)
 - [CI/CD](#cicd) (45)
@@ -953,6 +953,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud storage](#cloud-storage) (1)
 - [cloud storage exfiltration](#cloud-storage-exfiltration) (1)
 - [cloud transcoding](#cloud-transcoding) (1)
+- [cloud-credential-abuse](#cloud-credential-abuse) (1)
 - [cloud-managed](#cloud-managed) (1)
 - [cloud-native](#cloud-native) (1)
 - [Cloudflare](#cloudflare) (6)
@@ -1024,7 +1025,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [compromised VPN credentials](#compromised-vpn-credentials) (1)
 - [compromised websites](#compromised-websites) (3)
 - [compromised WordPress](#compromised-wordpress) (2)
-- [compromised-accounts](#compromised-accounts) (2)
+- [compromised-accounts](#compromised-accounts) (3)
 - [computer name](#computer-name) (1)
 - [computer vision](#computer-vision) (1)
 - [Conditional Access](#conditional-access) (2)
@@ -2311,6 +2312,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS](#ghost-cms) (1)
 - [Ghost Networks](#ghost-networks) (1)
 - [ghostaction](#ghostaction) (1)
+- [ghostaction-adjacent](#ghostaction-adjacent) (1)
 - [GHOSTBLADE](#ghostblade) (1)
 - [GhostContainer](#ghostcontainer) (1)
 - [GhostLock](#ghostlock) (1)
@@ -2384,7 +2386,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub tool hosting](#github-tool-hosting) (1)
 - [github-abuse](#github-abuse) (1)
 - [github-actions](#github-actions) (2)
-- [GitHub-Actions](#github-actions) (2)
+- [GitHub-Actions](#github-actions) (3)
 - [GitHub-Advisories](#github-advisories) (3)
 - [github-c2](#github-c2) (1)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
@@ -3782,7 +3784,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (464)
+- [ops](#ops) (465)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -4499,6 +4501,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Run key](#run-key) (2)
 - [Run key persistence](#run-key-persistence) (1)
 - [rundll32](#rundll32) (3)
+- [runner-memory-scraping](#runner-memory-scraping) (1)
 - [Runner.Worker](#runnerworker) (1)
 - [Runspace](#runspace) (1)
 - [runtime execution](#runtime-execution) (2)
@@ -4603,7 +4606,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Secret Blizzard](#secret-blizzard) (3)
 - [secret exfiltration](#secret-exfiltration) (2)
 - [secret exposure](#secret-exposure) (1)
-- [secret-exfiltration](#secret-exfiltration) (2)
+- [secret-exfiltration](#secret-exfiltration) (3)
 - [secret-stealing](#secret-stealing) (1)
 - [secrets](#secrets) (6)
 - [secrets harvesting](#secrets-harvesting) (1)
@@ -5014,7 +5017,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [steganographic PNG](#steganographic-png) (1)
 - [steganography](#steganography) (7)
 - [StegoAd](#stegoad) (1)
-- [StepSecurity](#stepsecurity) (4)
+- [StepSecurity](#stepsecurity) (5)
 - [Still Audio](#still-audio) (1)
 - [Still Sync](#still-sync) (1)
 - [Still Toolkit](#still-toolkit) (1)
@@ -5063,7 +5066,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (28)
 - [supply chain attack](#supply-chain-attack) (16)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (145)
+- [supply-chain](#supply-chain) (146)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -5694,6 +5697,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Weedhack](#weedhack) (1)
 - [WEEVILPROXY](#weevilproxy) (1)
 - [Werkbit](#werkbit) (1)
+- [wfx](#wfx) (1)
 - [WhatsApp](#whatsapp) (5)
 - [WhatsApp phishing](#whatsapp-phishing) (1)
 - [WhatsApp spam monetisation](#whatsapp-spam-monetisation) (1)
@@ -9234,6 +9238,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GhostAction returns](../ops/ghostaction-github-actions-workflow-injection-git-history-credential-mining-stepsecurity-october-2026.md)
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
+- [WFX Phantom CI secret stealer](../ops/wfx-phantom-github-actions-secret-stealer-stolen-tokens-flyio-app-telegram-exfil-run-deletion-november-2026.md)
 
 ## CI-CD-adjacent
 - [Orkes Conductor pre-auth RCE](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
@@ -9777,6 +9782,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cloud transcoding
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
+## cloud-credential-abuse
+- [WFX Phantom CI secret stealer](../ops/wfx-phantom-github-actions-secret-stealer-stolen-tokens-flyio-app-telegram-exfil-run-deletion-november-2026.md)
+
 ## cloud-managed
 - [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
 
@@ -10085,6 +10093,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## compromised-accounts
 - [Gheist: 13,500+ planted `ci-sync-*` branches across 850+ compromised GitHub accounts dump every…](../ops/gheist-compromised-github-tokens-workflow-secret-dump-base32-ci-sync-branches-wiz-october-2026.md)
 - [GhostAction returns](../ops/ghostaction-github-actions-workflow-injection-git-history-credential-mining-stepsecurity-october-2026.md)
+- [WFX Phantom CI secret stealer](../ops/wfx-phantom-github-actions-secret-stealer-stolen-tokens-flyio-app-telegram-exfil-run-deletion-november-2026.md)
 
 ## computer name
 - [SilkLurk](../tools/silklurk.md)
@@ -14940,6 +14949,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ghostaction
 - [GhostAction returns](../ops/ghostaction-github-actions-workflow-injection-git-history-credential-mining-stepsecurity-october-2026.md)
 
+## ghostaction-adjacent
+- [WFX Phantom CI secret stealer](../ops/wfx-phantom-github-actions-secret-stealer-stolen-tokens-flyio-app-telegram-exfil-run-deletion-november-2026.md)
+
 ## GHOSTBLADE
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
@@ -15232,6 +15244,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub-Actions
 - [Gheist: 13,500+ planted `ci-sync-*` branches across 850+ compromised GitHub accounts dump every…](../ops/gheist-compromised-github-tokens-workflow-secret-dump-base32-ci-sync-branches-wiz-october-2026.md)
 - [GhostAction returns](../ops/ghostaction-github-actions-workflow-injection-git-history-credential-mining-stepsecurity-october-2026.md)
+- [WFX Phantom CI secret stealer](../ops/wfx-phantom-github-actions-secret-stealer-stolen-tokens-flyio-app-telegram-exfil-run-deletion-november-2026.md)
 
 ## GitHub-Advisories
 - [The `@pkgship` frp binary-mirror scope](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
@@ -21546,6 +21559,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [walknpm rig2, the XMRig miner-postinstall pair](../ops/walknpm-rig2-xmrig-miner-postinstall-npm-osv-first-queue-merge-clock-october-2026.md)
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 - [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
+- [WFX Phantom CI secret stealer](../ops/wfx-phantom-github-actions-secret-stealer-stolen-tokens-flyio-app-telegram-exfil-run-deletion-november-2026.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 - [Wix Thunderbolt dependency-confusion recon fleet, 27 npm names, one `thunderboltRegistry.js`…](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
@@ -24446,6 +24460,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
 
+## runner-memory-scraping
+- [WFX Phantom CI secret stealer](../ops/wfx-phantom-github-actions-secret-stealer-stolen-tokens-flyio-app-telegram-exfil-run-deletion-november-2026.md)
+
 ## Runner.Worker
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 
@@ -24891,6 +24908,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## secret-exfiltration
 - [Gheist: 13,500+ planted `ci-sync-*` branches across 850+ compromised GitHub accounts dump every…](../ops/gheist-compromised-github-tokens-workflow-secret-dump-base32-ci-sync-branches-wiz-october-2026.md)
 - [GhostAction returns](../ops/ghostaction-github-actions-workflow-injection-git-history-credential-mining-stepsecurity-october-2026.md)
+- [WFX Phantom CI secret stealer](../ops/wfx-phantom-github-actions-secret-stealer-stolen-tokens-flyio-app-telegram-exfil-run-deletion-november-2026.md)
 
 ## secret-stealing
 - [supplychain.local](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
@@ -26398,6 +26416,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025-Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
+- [WFX Phantom CI secret stealer](../ops/wfx-phantom-github-actions-secret-stealer-stolen-tokens-flyio-app-telegram-exfil-run-deletion-november-2026.md)
 
 ## Still Audio
 - [Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia](../ops/armored-likho-still-toolkit-russia-campaign.md)
@@ -26732,6 +26751,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 - [walknpm rig2, the XMRig miner-postinstall pair](../ops/walknpm-rig2-xmrig-miner-postinstall-npm-osv-first-queue-merge-clock-october-2026.md)
 - [WeaselBiscuit](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
+- [WFX Phantom CI secret stealer](../ops/wfx-phantom-github-actions-secret-stealer-stolen-tokens-flyio-app-telegram-exfil-run-deletion-november-2026.md)
 - [Wix Thunderbolt dependency-confusion recon fleet, 27 npm names, one `thunderboltRegistry.js`…](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 - [XCSSET](../tools/xcsset.md)
@@ -29249,6 +29269,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Werkbit
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
+
+## wfx
+- [WFX Phantom CI secret stealer](../ops/wfx-phantom-github-actions-secret-stealer-stolen-tokens-flyio-app-telegram-exfil-run-deletion-november-2026.md)
 
 ## WhatsApp
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
