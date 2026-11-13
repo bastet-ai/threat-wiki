@@ -48,6 +48,14 @@ This wiki's verification within roughly two hours of the advisory:
 
 **Disposition unchanged:** the name still serves and installs (`0.28.3`, `200`), payload still UNVERIFIED (no maintainer or vendor post landed at this read), malware-head GHSA lane quiet since `11:33:05Z`. **MONITOR update:** does the sweep cross the Nov-9 `04:58Z` boundary (kills reading (a)); does `0sec-labs/0` publish anything after the eight-rung day; CDN afterimages of the eight.
 
+## <a id="november-13-262th-hole-eaten"></a>November 13 262nd sweep: the removal lane came back for the hole's own floor — `0.28.3` is gone, `latest` is `0.28.1`
+
+**Re-read `≈03:0xZ` (262nd sweep):** packument `modified` rolled to `2026-11-13T02:15:53.717Z` and `versions[]` now reads `[0.15.0, 0.17.0, 0.18.0, 0.21.4, 0.25.0, 0.26.0, 0.28.0, 0.28.1]` with `dist-tags.latest = 0.28.1` (tarball `200` re-probed). **The middle-of-the-hole survivor is dead: `0.28.3` (`05:44:55Z`) and `0.28.2` (`04:58:43Z`) both `404` this read, four sweeps after the eight-rung pass and three sweeps after the hole-with-a-hole capture. `time[]` still carries every stamp.**
+
+**What this adjudicates (from the 258th's three readings):** the sweep crossed the Nov-9 `04:58Z` boundary and ate the survivors it had passed — reading (a), per-tarball verdicts with no schedule and no advisory-range discipline, is the surviving reading; reading (b) (clean-rung survival as a stable lane) is DEAD as a property: clean-rung survival is a WAIT, not a fate. The durable law stands sharpened: **the removal lane revisits. A surviving rung is unremoved, not removed-around — re-probe per-tarball every read, and treat any `versions[]` roster as a snapshot between passes.** `GHSA-9j97` still names ONE rung (`0.28.10`) while the registry has now eaten TWELVE.
+
+**Disposition unchanged:** name still serves (`0.28.1` installs, `200`), payload still UNVERIFIED (no maintainer or vendor post at this read). **MONITOR update:** does the second pass stop at `0.28.1` or keep walking `time[]` backward; does `0sec-labs/0` publish anything post-cleanup; CDN afterimages of the eaten rungs.
+
 ## Durable hunt shapes
 
 - On every `= <version>` exact-row advisory, check `dist-tags.latest` against the advised rung: if `latest` is a clean rung, the name keeps accruing downloads as if nothing happened (this name: 2,462/wk).
