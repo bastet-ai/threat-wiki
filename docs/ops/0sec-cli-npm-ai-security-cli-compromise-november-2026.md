@@ -84,3 +84,9 @@ This wiki's verification within roughly two hours of the advisory:
 - OSV `MAL-2026-19118`: <https://api.osv.dev/v1/vulns/MAL-2026-19118>
 - npm registry packument + tarball probes + `api.npmjs.org` downloads (this wiki, Nov 11 ~14:35Z): <https://registry.npmjs.org/0sec-cli>
 - Package page (maintainer-facing description): <https://www.npmjs.com/package/0sec-cli>
+
+## <a id="november-13-265th-floor-holds-one-read"></a>November 13 265th sweep: the lane stopped at `0.26.0` — for exactly one read
+
+**Re-read `≈08:3xZ` (265th sweep):** packument `modified` UNMOVED `2026-11-13T05:27:17.915Z`, `versions[]` still `[0.15.0, 0.17.0, 0.18.0, 0.21.4, 0.26.0]`, `dist-tags.latest 0.26.0` tarball `200`, `0.28.1` tarball `404` re-confirmed. EIGHTEENTH read; the removal lane has stopped at the new floor. **Read this sentence the way the 264th taught:** the 263rd's "stopped at the floor" survived ONE read; every frozen roster quote on this page carries a one-read half-life. The correct claim today is `floor-vs-walk pending re-probe`, not `stable`. `time[]` unchanged, the only census of the thirteen eaten `0.28.x`-span rungs plus `0.25.0`/`0.27.0`; `GHSA-9j97-6pqr-qvrx` still names ONE rung.
+
+**MONITOR update:** NINETEENTH read re-probes per-tarball before any adjective; CDN afterimages of `0.28.0`/`0.28.1`/`0.25.0`/`0.27.0` still un-probed (candidate next sweep); does `0sec-labs/0sec` (homepage repo field) publish post-cleanup. Sweep context → [265th stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-13-two-hundred-and-sixty-fifth-sweep)
