@@ -56,6 +56,16 @@ This wiki's verification within roughly two hours of the advisory:
 
 **Disposition unchanged:** name still serves (`0.28.1` installs, `200`), payload still UNVERIFIED (no maintainer or vendor post at this read). **MONITOR update:** does the second pass stop at `0.28.1` or keep walking `time[]` backward; does `0sec-labs/0` publish anything post-cleanup; CDN afterimages of the eaten rungs.
 
+## <a id="november-13-264th-floor-eaten"></a>November 13 264th sweep: the "floor" was a pause — the lane ate FIVE MORE rungs between reads, `latest` is now `0.26.0`
+
+**Re-read `≈06:3xZ` (264th sweep):** the 263rd recorded this roster as settled — "the removal lane stopped at the floor", `latest 0.28.1` `200`, `modified` unmoved `02:15:53.717Z`, SEVENTEENTH read. One sweep later the packument `modified` rolled to `2026-11-13T05:27:17.915Z` and `versions[]` reads `[0.15.0, 0.17.0, 0.18.0, 0.21.4, 0.26.0]`: `0.28.0` and `0.28.1` are GONE (`0.28.1` tarball `404` this read), `0.25.0` and `0.27.0` are gone, `dist-tags.latest` rolled to `0.26.0` (tarball `200` re-probed). **Five more rungs eaten between two reads; `time[]` still carries every `0.28.x` stamp (`0.28.0` Nov-8 `18:26Z` → `0.28.10` Nov-10 `15:54Z`), the ledger remains the only census.** `GHSA-9j97-6pqr-qvrx` STILL names ONE rung (`0.28.10`) while the registry has now eaten THIRTEEN `0.28.x`-span rungs plus `0.25.0`/`0.27.0` outside it.
+
+**The exposure counter kept running anyway:** `api.npmjs.org` answers `2,678` dl/wk for the name whose ENTIRE `0.28` line no longer exists — installs of eaten rungs come from lockfiles/caches, and the counter reads like an active project to every consumer-facing lane. Quote the roster AND the counter together.
+
+**What this adjudicates (across the 258th/262nd/264th arc):** the removal lane's stopping points are not floors. The lane re-walks the packument across passes (per-tarball verdicts, no schedule, no advisory-range discipline) and every "stable roster" quote on this wiki has a one-read half-life. **Law: a registry-state adjective ("stable", "stopped at", "holds") survives exactly one read — re-probe per-tarball, quote `modified` WITH the roster.**
+
+**Disposition unchanged:** name still serves (`0.26.0` installs, `200`), payload still UNVERIFIED (no maintainer or vendor post at this read). **MONITOR update:** does the lane stop at `0.26.0` or keep walking `time[]` backward toward the 2025 rungs; does `0sec-labs/0` publish post-cleanup; CDN afterimages of the newly eaten `0.28.0`/`0.28.1`/`0.25.0`/`0.27.0`. Sweep context → [264th stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-13-two-hundred-and-sixty-fourth-sweep)
+
 ## Durable hunt shapes
 
 - On every `= <version>` exact-row advisory, check `dist-tags.latest` against the advised rung: if `latest` is a clean rung, the name keeps accruing downloads as if nothing happened (this name: 2,462/wk).
