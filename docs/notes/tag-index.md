@@ -1694,7 +1694,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dependency-confusion shaped](#dependency-confusion-shaped) (1)
 - [deployment_status](#deployment_status) (1)
 - [deposit address replacement](#deposit-address-replacement) (1)
-- [deserialization](#deserialization) (13)
+- [deserialization](#deserialization) (14)
 - [destructive actions](#destructive-actions) (1)
 - [destructive malware](#destructive-malware) (3)
 - [destructive operations](#destructive-operations) (3)
@@ -3567,6 +3567,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NextChat](#nextchat) (1)
 - [Nextcloud](#nextcloud) (1)
 - [Nextcloud Flow](#nextcloud-flow) (1)
+- [nextjs-adjacent](#nextjs-adjacent) (1)
 - [Nexus 9000](#nexus-9000) (1)
 - [nf_tables](#nf_tables) (1)
 - [NFS](#nfs) (1)
@@ -3624,7 +3625,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies](#novacookies) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (101)
+- [npm](#npm) (102)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -3784,7 +3785,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (465)
+- [ops](#ops) (466)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -3916,6 +3917,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Patch the Planet](#patch-the-planet) (1)
 - [patch tuesday](#patch-tuesday) (1)
 - [patch window](#patch-window) (1)
+- [patch-clock](#patch-clock) (1)
 - [patch-now](#patch-now) (1)
 - [PATCHCORD](#patchcord) (1)
 - [patching](#patching) (4)
@@ -4287,6 +4289,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RC4 C2](#rc4-c2) (1)
 - [RC4 encryption](#rc4-encryption) (1)
 - [RCE](#rce) (18)
+- [rce](#rce) (1)
 - [rce-chain](#rce-chain) (1)
 - [Rclone](#rclone) (1)
 - [rclone](#rclone) (1)
@@ -4298,6 +4301,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rdp2tcp](#rdp2tcp) (1)
 - [RDS](#rds) (1)
 - [reachability](#reachability) (1)
+- [react](#react) (1)
 - [React](#react) (1)
 - [Reactor Core](#reactor-core) (1)
 - [Reactor Netty](#reactor-netty) (1)
@@ -5072,7 +5076,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply-chain integrity](#supply-chain-integrity) (1)
 - [supply-chain risk](#supply-chain-risk) (3)
 - [supply-chain staging](#supply-chain-staging) (1)
-- [supply-chain-adjacent](#supply-chain-adjacent) (1)
+- [supply-chain-adjacent](#supply-chain-adjacent) (2)
 - [surveillance](#surveillance) (1)
 - [surveillance abuse](#surveillance-abuse) (1)
 - [suspected China-aligned](#suspected-china-aligned) (1)
@@ -12610,6 +12614,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Pimcore Studio](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
+- [React Server Components Flight RCE: CVE-2026-126187](../ops/react-server-components-flight-rce-cve-2026-126187-typed-array-deserialization-november-2026.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
@@ -19892,6 +19897,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Nextcloud Flow
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 
+## nextjs-adjacent
+- [React Server Components Flight RCE: CVE-2026-126187](../ops/react-server-components-flight-rce-cve-2026-126187-typed-array-deserialization-november-2026.md)
+
 ## Nexus 9000
 - [Cisco Nexus 9000 CVE-2026-20212](../ops/cisco-nexus-9000-cve-2026-20212-unauth-root-rce-september-2026.md)
 
@@ -20173,6 +20181,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 - [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
 - [publish-poc cohort, the self-publishing publishing-PoC trio](../ops/publish-poc-cohort-npm-self-publishing-poc-plaintext-authtoken-unpublished-wipe-osv-first-october-2026.md)
+- [React Server Components Flight RCE: CVE-2026-126187](../ops/react-server-components-flight-rce-cve-2026-126187-typed-array-deserialization-november-2026.md)
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -21452,6 +21461,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical…](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
+- [React Server Components Flight RCE: CVE-2026-126187](../ops/react-server-components-flight-rce-cve-2026-126187-typed-array-deserialization-november-2026.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [RMM phishing campaign spanning 46 countries](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
@@ -22058,6 +22068,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## patch window
 - [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
+
+## patch-clock
+- [React Server Components Flight RCE: CVE-2026-126187](../ops/react-server-components-flight-rce-cve-2026-126187-typed-array-deserialization-november-2026.md)
 
 ## patch-now
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
@@ -23662,6 +23675,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Wiz "Off Guard"](../ops/wiz-litellm-off-guard-mcp-bypass-rce-cloud-compromise-september-2026.md)
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
 
+## rce
+- [React Server Components Flight RCE: CVE-2026-126187](../ops/react-server-components-flight-rce-cve-2026-126187-typed-array-deserialization-november-2026.md)
+
 ## rce-chain
 - [WordPress "Click2Shell"](../ops/wordpress-click2shell-forced-theme-install-dom-selection-csrf-chainable-rce-pwnai-september-2026.md)
 
@@ -23696,6 +23712,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## reachability
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
+
+## react
+- [React Server Components Flight RCE: CVE-2026-126187](../ops/react-server-components-flight-rce-cve-2026-126187-typed-array-deserialization-november-2026.md)
 
 ## React
 - [PollCat](../tools/pollcat.md)
@@ -26780,6 +26799,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## supply-chain-adjacent
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
+- [React Server Components Flight RCE: CVE-2026-126187](../ops/react-server-components-flight-rce-cve-2026-126187-typed-array-deserialization-november-2026.md)
 
 ## surveillance
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
