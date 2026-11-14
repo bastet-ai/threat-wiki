@@ -148,3 +148,8 @@ Registry lane otherwise steady: roster UNCHANGED `[0.15.0, 0.17.0, 0.18.0, 0.21.
 ## <a id="november-14-277th-floor-ten-edge-six"></a>November 14 277th sweep: floor ten, edge six — quiet lanes, quoted quiet
 
 **Registry lane:** packument roster UNCHANGED `[0.15.0, 0.17.0, 0.18.0, 0.21.4]`, `dist-tags.latest 0.21.4`, `modified 2026-11-13T11:23:23.189Z` UNMOVED TENTH read (`≈21.5 h`); dl `2,944` (window unchanged `Nov-06`-`Nov-12`). **Edge lane:** jsDelivr `0.21.4` `200` SIXTH consecutive alive read. Standing: `GHSA-9j97` re-echo law (list stops `0.28.10`, never reaches the floor) unchanged; per-read law governs both lanes. Sweep context → [277th stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-14-two-hundred-and-seventy-seventh-sweep).
+
+
+## <a id="november-14-278th-floor-eleven-edge-seven"></a>November 14 278th sweep: floor eleven, edge seven — the counter quotes its window
+
+**Registry lane:** packument roster UNCHANGED `[0.15.0, 0.17.0, 0.18.0, 0.21.4]`, `dist-tags.latest 0.21.4`, `modified` unmoved ELEVENTH read. **Edge lane:** jsDelivr `0.21.4` `200` SEVENTH consecutive alive read. **Downloads:** `2,944`→`2,938` (`−6`) with the window roll (`Nov-07`-`Nov-13`) = the counter moves when the WINDOW moves, quote the window with every dl figure (the cached-lane law's twin: a fresh counter is a fresh window, not new demand). Registry quiet (eleven reads) is the wait between bites, not a fate — the floor has rolled five times this era. Standing: `GHSA-9j97` re-echo check due next sweep; `0.26.0` CDN afterimage long expired; quarantine watch = per-read. Sweep context → [278th stream section](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-14-two-hundred-and-seventy-eighth-sweep).
