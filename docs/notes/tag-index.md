@@ -1289,6 +1289,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-12569](#cve-2026-12569) (1)
 - [CVE-2026-12957](#cve-2026-12957) (1)
 - [CVE-2026-12958](#cve-2026-12958) (1)
+- [CVE-2026-129784](#cve-2026-129784) (1)
 - [CVE-2026-14494](#cve-2026-14494) (1)
 - [CVE-2026-14894](#cve-2026-14894) (1)
 - [CVE-2026-15409](#cve-2026-15409) (1)
@@ -1692,9 +1693,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dependency confusion](#dependency-confusion) (7)
 - [dependency-confusion](#dependency-confusion) (7)
 - [dependency-confusion shaped](#dependency-confusion-shaped) (1)
+- [dependency-confusion-adjacent](#dependency-confusion-adjacent) (1)
 - [deployment_status](#deployment_status) (1)
 - [deposit address replacement](#deposit-address-replacement) (1)
-- [deserialization](#deserialization) (14)
+- [deserialization](#deserialization) (15)
 - [destructive actions](#destructive-actions) (1)
 - [destructive malware](#destructive-malware) (3)
 - [destructive operations](#destructive-operations) (3)
@@ -2338,6 +2340,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-cv3r-c5h8-f4g5](#ghsa-cv3r-c5h8-f4g5) (1)
 - [GHSA-g89c-p67h-r497](#ghsa-g89c-p67h-r497) (1)
 - [GHSA-hvfh-5mj3-5f3j](#ghsa-hvfh-5mj3-5f3j) (1)
+- [GHSA-jgqw-w3x2-9h6q](#ghsa-jgqw-w3x2-9h6q) (1)
 - [ghsa-join-laws](#ghsa-join-laws) (1)
 - [GHSA-m5w8-4gq2-6f8x](#ghsa-m5w8-4gq2-6f8x) (1)
 - [ghsa-malware](#ghsa-malware) (1)
@@ -2629,6 +2632,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HTTPS C2](#https-c2) (2)
 - [HTTPS exfiltration](#https-exfiltration) (1)
 - [HTTPSpy](#httpspy) (1)
+- [httpx](#httpx) (1)
 - [Hugging Face](#hugging-face) (3)
 - [HUMAN Satori](#human-satori) (1)
 - [humanoid robot](#humanoid-robot) (1)
@@ -2848,7 +2852,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JFrog](#jfrog) (8)
 - [JFrog Artifactory](#jfrog-artifactory) (1)
 - [JFrog Security Research](#jfrog-security-research) (9)
-- [JFrog-Security-Research](#jfrog-security-research) (1)
+- [JFrog-Security-Research](#jfrog-security-research) (2)
 - [JFSA-2026-001686326](#jfsa-2026-001686326) (1)
 - [JFSA-2026-001694382](#jfsa-2026-001694382) (1)
 - [Jinja](#jinja) (1)
@@ -2877,7 +2881,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Jscrambler](#jscrambler) (1)
 - [JScript](#jscript) (1)
 - [jsDelivr](#jsdelivr) (1)
-- [JSON](#json) (1)
+- [JSON](#json) (2)
 - [JSON Web Token](#json-web-token) (1)
 - [JSON-RPC](#json-rpc) (2)
 - [JSON:API](#jsonapi) (1)
@@ -3710,6 +3714,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OIDC](#oidc) (10)
 - [OilRig](#oilrig) (1)
 - [Oj](#oj) (1)
+- [oj](#oj) (1)
 - [OkoBot](#okobot) (1)
 - [Okta](#okta) (6)
 - [Okta Threat Intelligence](#okta-threat-intelligence) (1)
@@ -3785,7 +3790,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (466)
+- [ops](#ops) (467)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -4386,7 +4391,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Remote Utilities](#remote-utilities) (2)
 - [remote-access](#remote-access) (2)
 - [remote-access-trojan](#remote-access-trojan) (2)
-- [remote-code-execution](#remote-code-execution) (1)
+- [remote-code-execution](#remote-code-execution) (2)
 - [remote-dynamic-dependency](#remote-dynamic-dependency) (1)
 - [Remotely](#remotely) (1)
 - [RemotePE](#remotepe) (1)
@@ -4494,8 +4499,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RTL819X](#rtl819x) (1)
 - [RTLO](#rtlo) (1)
 - [rtmutex](#rtmutex) (1)
+- [Ruby](#ruby) (1)
 - [RubyDoc](#rubydoc) (1)
-- [RubyGems](#rubygems) (7)
+- [RubyGems](#rubygems) (8)
 - [rubygems](#rubygems) (1)
 - [rubygems.org](#rubygemsorg) (1)
 - [RubyHack](#rubyhack) (1)
@@ -5070,7 +5076,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (28)
 - [supply chain attack](#supply-chain-attack) (16)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (146)
+- [supply-chain](#supply-chain) (147)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -11201,6 +11207,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-12958
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 
+## CVE-2026-129784
+- [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
+
 ## CVE-2026-14494
 - [GitHub Security Advisories August 29, 2026](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
@@ -12596,6 +12605,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## dependency-confusion shaped
 - [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 
+## dependency-confusion-adjacent
+- [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
+
 ## deployment_status
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
@@ -12608,6 +12620,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 26, 2026 additions](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
+- [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 - [Kaltura mwEmbed unpatched](../ops/kaltura-mwembed-cve-2026-19912-cve-2026-19913-unpatched-rce-file-read.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
@@ -15033,6 +15046,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GHSA-hvfh-5mj3-5f3j
 - [Chainlit MCP](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 
+## GHSA-jgqw-w3x2-9h6q
+- [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
+
 ## ghsa-join-laws
 - [The test bench RE-SPAWNS and the OAST recon class arrives](../ops/testmetest-wave-two-shadow-registry-gist-loader-oast-beacon-october-2026.md)
 
@@ -16106,6 +16122,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HTTPSpy
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
+## httpx
+- [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
+
 ## Hugging Face
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
@@ -17049,6 +17068,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JFrog-Security-Research
 - [curl CVE-2026-92392](../tools/curl-http2-upload-rce-cve-2026-92392-phantom-stream-uaf-heap-grooming-jfrog-october-2026.md)
+- [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
 
 ## JFSA-2026-001686326
 - [Bifrost CVE-2026-90898](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
@@ -17140,6 +17160,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JSON
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
+- [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
 
 ## JSON Web Token
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
@@ -20508,6 +20529,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Oj
 - [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 
+## oj
+- [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
+
 ## OkoBot
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 
@@ -21313,6 +21337,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph](../ops/head-mare-trueconf-phantomcore-campaign.md)
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
+- [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
@@ -24062,6 +24087,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `npmjs.it.com` agent pair](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 
 ## remote-code-execution
+- [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
 - [Unbound DNSSEC validator](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
 
 ## remote-dynamic-dependency
@@ -24437,6 +24463,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## rtmutex
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
 
+## Ruby
+- [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
+
 ## RubyDoc
 - [GemStuffer expands to 3,022 RubyGems packages](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 
@@ -24444,6 +24473,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [GemStuffer expands to 3,022 RubyGems packages](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
+- [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
 - [RubyGems 24-gem crypto-utility fleet, the `45.138.12.177` C2 RETURNS under fresh names](../ops/rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026.md)
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025-Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
@@ -26688,6 +26718,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [Hacktron "HEIF Heist"](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
+- [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
