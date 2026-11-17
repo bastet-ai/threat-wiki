@@ -692,6 +692,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - "JFrog: Black October showed the remediation gap is arithmetic, not intelligence": patterns/jfrog-black-october-remediation-gap-3x-cve-volume-november-2026.md
       - "Aikido: GitLab incoming-email addresses contain the glimt- token - an UNEXPIRING ACCOUNT-WIDE…": patterns/gitlab-incoming-email-token-account-wide-credential-ip-allowlist-bypass-aikido-september-2026.md
       - "Unit 42: AWS AgentCore Harness - A Vault with a Heap-View: in the DEFAULT configuration an…": patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md
       - "AIR: Plugin4Shell - ZERO-CLICK RCE in ALL FOUR major AI coding agents": patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md

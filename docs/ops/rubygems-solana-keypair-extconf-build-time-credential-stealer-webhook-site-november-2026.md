@@ -66,6 +66,6 @@ The collector URL sits on **webhook.site**, the same public request-inspection s
 
 ## Monitor forward
 
-- Sink `webhook.site/cd8ac1c3-…` liveness per-read (the `ec3e3cb9-…` usdm sibling has oscillated `200`/`429` across sweeps — quote status with the read-time).
-- Gem yank clock: does rubygems remove `0.1.0`; does the name re-register (the resurrection grammar the ledger already documents).
+- Sink `webhook.site/cd8ac1c3-…` liveness per-read (the `ec3e3cb9-…` usdm sibling has oscillated `200`/`429` across sweeps — quote status with the read-time). **310th read (`2026-11-17 ≈02:3xZ`): sink answered `404` where the 308th saw `200` — sink state is weather; the steal code in the shipped bytes is not.**
+- Gem yank clock: does rubygems remove `0.1.0`; does the name re-register (the resurrection grammar the ledger already documents). **310th: `200` UNYANKED third read; downloads `205 → 212 → 219` across three reads = `+50%` since first census while GitHub `affects=` stays `0` (control `express` `6`); `0.1.1` re-registration un-tripped.**
 - Row enrichment: `aliases`/`severity` still `None` — does a GHSA ever mint for this row, or does it join the never-join class.
