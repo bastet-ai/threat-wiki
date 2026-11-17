@@ -572,6 +572,7 @@ nav:
       - "Veeam Agent for Windows CVE-2026-32996": tools/veeam-agent-windows-cve-2026-32996-session-uid-log-leak-system-lpe-active-exploitation-arcticwolf-september-2026.md
       - "Puppet Enterprise CVE-2026-115731 (KEV added Nov 17, due Dec 1)": tools/puppet-enterprise-cve-2026-115731-report-deserialization-kev-december-1-bod-26-04-november-2026.md
       - "Java4Shell CVE-2026-114938 (OpenJDK AVX-512 Base64 decoder, Nov 17)": tools/openjdk-java4shell-cve-2026-114938-avx512-base64-decoder-calif-oracle-cpu-november-2026.md
+      - "Microsoft agent-framework PyPI Hijack (.pth Stealer, Nov 17)": tools/pypi-agent-framework-microsoft-hijacked-releases-1-26-1-1-26-2-pth-startup-stealer-azure-ci-webhook-site-ox-security-november-2026.md
       - "@zereight/mcp-gitlab CVE-2026-61560": tools/zereight-mcp-gitlab-cve-2026-61560-unauthenticated-sse-pat-exfiltration-september-2026.md
       - "AMOS (Atomic macOS Stealer)": tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md
       - "BraZetsu": tools/brazetsu.md
