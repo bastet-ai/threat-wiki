@@ -8,15 +8,15 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 
 ## Popular this week
 <!-- popular-this-week:auto -->
-_Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-11-09 UTC (22640 of ~747 on-page requests attributable; 97 of 747 path batches ok)._
-- [Source index](/notes/source-index/) — 148 reads
-- [Tag index](/notes/tag-index/) — 145 reads
-- [TeamPCP](/actors/teampcp/) — 126 reads
-- [SilkParasite](/actors/silkparasite/) — 121 reads
+_Auto-maintained from Cloudflare zone analytics, last 7 days ending 2026-11-10 UTC (22729 of ~753 on-page requests attributable; 78 of 753 path batches ok)._
+- [Source index](/notes/source-index/) — 151 reads
+- [Tag index](/notes/tag-index/) — 147 reads
+- [TeamPCP](/actors/teampcp/) — 132 reads
 - [Djinn Stealer](/tools/djinn-stealer/) — 120 reads
 - [Kimsuky / Emerald Sleet / TA427](/actors/kimsuky-emerald-sleet-ta427/) — 116 reads
+- [Handala](/actors/handala/) — 114 reads
+- [Mirage Kitten](/actors/mirage-kitten/) — 113 reads
 - [JiaT75](/people/jiat75/) — 112 reads
-- [ShinyHunters](/actors/shinyhunters/) — 112 reads
 <!-- /popular-this-week:auto -->
 
 ## Recent entries
