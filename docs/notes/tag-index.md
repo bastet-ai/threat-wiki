@@ -1743,6 +1743,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [devtunnels.ms](#devtunnelsms) (1)
 - [DEWMODE](#dewmode) (1)
 - [DGA](#dga) (1)
+- [diagnostics-mask](#diagnostics-mask) (1)
 - [DIAMONDBACK](#diamondback) (2)
 - [diffpatch](#diffpatch) (1)
 - [digital forensics](#digital-forensics) (1)
@@ -2224,6 +2225,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [folderOpen](#folderopen) (1)
 - [font1.woff2](#font1woff2) (1)
 - [fontcase](#fontcase) (1)
+- [force-push](#force-push) (1)
 - [forced channel follow](#forced-channel-follow) (1)
 - [fordmotbvmorcompany.vu](#fordmotbvmorcompanyvu) (1)
 - [foreign affairs targeting](#foreign-affairs-targeting) (2)
@@ -2395,7 +2397,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub tool hosting](#github-tool-hosting) (1)
 - [github-abuse](#github-abuse) (1)
 - [github-actions](#github-actions) (2)
-- [GitHub-Actions](#github-actions) (3)
+- [GitHub-Actions](#github-actions) (4)
 - [GitHub-Advisories](#github-advisories) (3)
 - [github-c2](#github-c2) (1)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
@@ -3641,9 +3643,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [notification interception](#notification-interception) (1)
 - [NOVA](#nova) (1)
 - [NovaCookies](#novacookies) (1)
+- [November-2026](#november-2026) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (102)
+- [npm](#npm) (103)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -3804,7 +3807,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (469)
+- [ops](#ops) (470)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -4732,6 +4735,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [session theft](#session-theft) (3)
 - [session token theft](#session-token-theft) (2)
 - [session-privilege-abuse](#session-privilege-abuse) (1)
+- [session-tokens](#session-tokens) (1)
 - [session-vault](#session-vault) (1)
 - [setuid](#setuid) (1)
 - [setup.py](#setuppy) (1)
@@ -4844,6 +4848,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Slow Pisces](#slow-pisces) (1)
 - [SLSA](#slsa) (1)
 - [SLSA provenance](#slsa-provenance) (1)
+- [SLSA-provenance](#slsa-provenance) (1)
 - [slug reclaim](#slug-reclaim) (1)
 - [SMA1000](#sma1000) (3)
 - [smart building](#smart-building) (1)
@@ -5045,7 +5050,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [steganographic PNG](#steganographic-png) (1)
 - [steganography](#steganography) (7)
 - [StegoAd](#stegoad) (1)
-- [StepSecurity](#stepsecurity) (5)
+- [StepSecurity](#stepsecurity) (6)
 - [Still Audio](#still-audio) (1)
 - [Still Sync](#still-sync) (1)
 - [Still Toolkit](#still-toolkit) (1)
@@ -5094,7 +5099,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (28)
 - [supply chain attack](#supply-chain-attack) (16)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (148)
+- [supply-chain](#supply-chain) (149)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -5222,6 +5227,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telegram session theft](#telegram-session-theft) (1)
 - [telegram-bot](#telegram-bot) (1)
 - [telegram-bot-c2](#telegram-bot-c2) (1)
+- [Telegram-exfil](#telegram-exfil) (1)
 - [Telegraph dead drop](#telegraph-dead-drop) (1)
 - [telemetry](#telemetry) (1)
 - [telemetry exfil](#telemetry-exfil) (1)
@@ -5377,7 +5383,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [trusted runtime](#trusted-runtime) (1)
 - [trusted-component weaponization](#trusted-component-weaponization) (1)
 - [trusted-domain abuse](#trusted-domain-abuse) (1)
-- [trusted-publishing](#trusted-publishing) (2)
+- [trusted-publishing](#trusted-publishing) (3)
 - [tunnel decapsulation](#tunnel-decapsulation) (1)
 - [tunnel services](#tunnel-services) (1)
 - [tunneling](#tunneling) (5)
@@ -5728,7 +5734,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WEEVILPROXY](#weevilproxy) (1)
 - [Werkbit](#werkbit) (1)
 - [wfx](#wfx) (1)
-- [WhatsApp](#whatsapp) (5)
+- [WhatsApp](#whatsapp) (6)
 - [WhatsApp phishing](#whatsapp-phishing) (1)
 - [WhatsApp spam monetisation](#whatsapp-spam-monetisation) (1)
 - [WHCP](#whcp) (1)
@@ -5818,6 +5824,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WP-SHELLSTORM](#wp-shellstorm) (1)
 - [wp2shell](#wp2shell) (1)
 - [WPMU DEV Dashboard](#wpmu-dev-dashboard) (1)
+- [WPPConnect](#wppconnect) (1)
 - [write-what-where](#write-what-where) (1)
 - [ws2_32.dll](#ws2_32dll) (1)
 - [WScript](#wscript) (1)
@@ -12868,6 +12875,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DGA
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
+## diagnostics-mask
+- [WPPConnect pipeline compromise: provenance proved the build, not the review](../ops/wppconnect-npm-release-pipeline-compromise-trusted-publisher-slsa-provenance-force-push-stepsecurity-november-2026.md)
+
 ## DIAMONDBACK
 - [Turla](../actors/turla.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
@@ -14688,6 +14698,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## fontcase
 - [`fontcase` (PyPI)](../ops/fontcase-pypi-github-staged-infostealer-font-atlas-costume-unicodeces-kam193-october-2026.md)
 
+## force-push
+- [WPPConnect pipeline compromise: provenance proved the build, not the review](../ops/wppconnect-npm-release-pipeline-compromise-trusted-publisher-slsa-provenance-force-push-stepsecurity-november-2026.md)
+
 ## forced channel follow
 - [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 
@@ -15311,6 +15324,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gheist: 13,500+ planted `ci-sync-*` branches across 850+ compromised GitHub accounts dump every…](../ops/gheist-compromised-github-tokens-workflow-secret-dump-base32-ci-sync-branches-wiz-october-2026.md)
 - [GhostAction returns](../ops/ghostaction-github-actions-workflow-injection-git-history-credential-mining-stepsecurity-october-2026.md)
 - [WFX Phantom CI secret stealer](../ops/wfx-phantom-github-actions-secret-stealer-stolen-tokens-flyio-app-telegram-exfil-run-deletion-november-2026.md)
+- [WPPConnect pipeline compromise: provenance proved the build, not the review](../ops/wppconnect-npm-release-pipeline-compromise-trusted-publisher-slsa-provenance-force-push-stepsecurity-november-2026.md)
 
 ## GitHub-Advisories
 - [The `@pkgship` frp binary-mirror scope](../tools/pkgship-frp-binary-mirror-scope-frpc-linux-arm64-osv-17922-ghsa-753f-october-2026.md)
@@ -20195,6 +20209,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## NovaCookies
 - [NovaCookies](../ops/novacookies-docusign-aitm-phaas-m365-session-theft.md)
 
+## November-2026
+- [WPPConnect pipeline compromise: provenance proved the build, not the review](../ops/wppconnect-npm-release-pipeline-compromise-trusted-publisher-slsa-provenance-force-push-stepsecurity-november-2026.md)
+
 ## NoviSpy
 - [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets…](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
@@ -20303,6 +20320,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [walknpm rig2, the XMRig miner-postinstall pair](../ops/walknpm-rig2-xmrig-miner-postinstall-npm-osv-first-queue-merge-clock-october-2026.md)
 - [WeaselBiscuit](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 - [Wix Thunderbolt dependency-confusion recon fleet, 27 npm names, one `thunderboltRegistry.js`…](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
+- [WPPConnect pipeline compromise: provenance proved the build, not the review](../ops/wppconnect-npm-release-pipeline-compromise-trusted-publisher-slsa-provenance-force-push-stepsecurity-november-2026.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## npm lifecycle hook
@@ -21682,6 +21700,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
+- [WPPConnect pipeline compromise: provenance proved the build, not the review](../ops/wppconnect-npm-release-pipeline-compromise-trusted-publisher-slsa-provenance-force-push-stepsecurity-november-2026.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 - [XCSSET hides inside a pub.dev Flutter package: `universal_file_viewer` (Aikido, Sep 8, 2026)](../ops/xcsset-pub-dev-flutter-universal-file-viewer-aikido-september-2026.md)
 - [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
@@ -25383,6 +25402,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## session-privilege-abuse
 - [WordPress "Click2Shell"](../ops/wordpress-click2shell-forced-theme-install-dom-selection-csrf-chainable-rce-pwnai-september-2026.md)
 
+## session-tokens
+- [WPPConnect pipeline compromise: provenance proved the build, not the review](../ops/wppconnect-npm-release-pipeline-compromise-trusted-publisher-slsa-provenance-force-push-stepsecurity-november-2026.md)
+
 ## session-vault
 - [`ukraine69` (PyPI)](../tools/ukraine69-pypi-telegram-vault-deletion-goygram-self-cleaning-queue-1646-october-2026.md)
 
@@ -25769,6 +25791,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SLSA provenance
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+
+## SLSA-provenance
+- [WPPConnect pipeline compromise: provenance proved the build, not the review](../ops/wppconnect-npm-release-pipeline-compromise-trusted-publisher-slsa-provenance-force-push-stepsecurity-november-2026.md)
 
 ## slug reclaim
 - [SlugFest](../patterns/slugfest-npm-trusted-publishing-github-slug-reclaim-bloom-october-2026.md)
@@ -26557,6 +26582,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025-Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 - [WFX Phantom CI secret stealer](../ops/wfx-phantom-github-actions-secret-stealer-stolen-tokens-flyio-app-telegram-exfil-run-deletion-november-2026.md)
+- [WPPConnect pipeline compromise: provenance proved the build, not the review](../ops/wppconnect-npm-release-pipeline-compromise-trusted-publisher-slsa-provenance-force-push-stepsecurity-november-2026.md)
 
 ## Still Audio
 - [Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia](../ops/armored-likho-still-toolkit-russia-campaign.md)
@@ -26896,6 +26922,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WeaselBiscuit](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 - [WFX Phantom CI secret stealer](../ops/wfx-phantom-github-actions-secret-stealer-stolen-tokens-flyio-app-telegram-exfil-run-deletion-november-2026.md)
 - [Wix Thunderbolt dependency-confusion recon fleet, 27 npm names, one `thunderboltRegistry.js`…](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
+- [WPPConnect pipeline compromise: provenance proved the build, not the review](../ops/wppconnect-npm-release-pipeline-compromise-trusted-publisher-slsa-provenance-force-push-stepsecurity-november-2026.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 - [XCSSET](../tools/xcsset.md)
 - [XCSSET hides inside a pub.dev Flutter package: `universal_file_viewer` (Aikido, Sep 8, 2026)](../ops/xcsset-pub-dev-flutter-universal-file-viewer-aikido-september-2026.md)
@@ -27357,6 +27384,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## telegram-bot-c2
 - [`marocolor` (PyPI), a color-palette costume that at IMPORT time spawns two daemon threads](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
+
+## Telegram-exfil
+- [WPPConnect pipeline compromise: provenance proved the build, not the review](../ops/wppconnect-npm-release-pipeline-compromise-trusted-publisher-slsa-provenance-force-push-stepsecurity-november-2026.md)
 
 ## Telegraph dead drop
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
@@ -28018,6 +28048,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## trusted-publishing
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
+- [WPPConnect pipeline compromise: provenance proved the build, not the review](../ops/wppconnect-npm-release-pipeline-compromise-trusted-publisher-slsa-provenance-force-push-stepsecurity-november-2026.md)
 
 ## tunnel decapsulation
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -29433,6 +29464,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
+- [WPPConnect pipeline compromise: provenance proved the build, not the review](../ops/wppconnect-npm-release-pipeline-compromise-trusted-publisher-slsa-provenance-force-push-stepsecurity-november-2026.md)
 
 ## WhatsApp phishing
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
@@ -29832,6 +29864,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WPMU DEV Dashboard
 - [WordPress batch](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
+
+## WPPConnect
+- [WPPConnect pipeline compromise: provenance proved the build, not the review](../ops/wppconnect-npm-release-pipeline-compromise-trusted-publisher-slsa-provenance-force-push-stepsecurity-november-2026.md)
 
 ## write-what-where
 - [Citrix NetScaler CVE-2026-8452(?)](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
