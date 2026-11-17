@@ -113,3 +113,7 @@ in `wrangler.jsonc`. The September 2026 cutover changeset added only this hostna
 with no conflicting DNS records. Preserve unrelated MX/TXT/DNS records in future
 changes. To roll back, first detach this exact custom domain and restore its
 previous GitHub Pages DNS configuration; do not delete the zone or Pages deployment.
+
+## License
+
+Original Bastet code and authored documentation are licensed under the [Apache License 2.0](LICENSE). Third-party dependencies, quoted source material, imported program policies and datasets, binaries, images, and other third-party assets retain their respective rights and notices and are not relicensed by this grant.
