@@ -216,6 +216,8 @@ nav:
       - 'RubyGems phantom pair and pentest-copilot: the wrong-registry install claim': ops/rubygems-phantom-pair-pentest-copilot-wrong-registry-oracle-november-2026.md
       - 'Apache mod_http2 assign_headers race: CVE-2026-119618 pre-auth RCE across sixteen rungs': ops/apache-mod-http2-assign-headers-race-heap-corruption-rce-cve-2026-119618-wiz-november-2026.md
       - 'httpx Ruby gem Oj object-mode deserialization: CVE-2026-129784 RCE, fix shipped three days before the paper': ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md
+      - 'RubyGems solana-keypair: the extconf.rb that steals wallets at gem install': ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md
+      - 'TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs': ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md
       - 'OpenAI Codex issue-labeler chain: prompt injection to npm publish keys': ops/openai-codex-issue-labeler-prompt-injection-sandbox-escape-coreclr-memory-cache-poisoning-npm-publish-chain-depi-november-2026.md
       - 'sapho11: AGENTS.md reviewer poisoning, build.rs stealers, TON drain': ops/sapho11-campaign-agents-md-reviewer-poisoning-lwd-uri-util-build-stealer-fragment-api-py-ton-drain-november-2026.md
       - 'WFX Phantom: the GitHub Actions secret stealer that deletes its own run': ops/wfx-phantom-github-actions-secret-stealer-stolen-tokens-flyio-app-telegram-exfil-run-deletion-november-2026.md

@@ -276,7 +276,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon S3](#amazon-s3) (1)
 - [Amazon SES](#amazon-ses) (2)
 - [Amazon-Inspector](#amazon-inspector) (6)
-- [amazon-inspector](#amazon-inspector) (1)
+- [amazon-inspector](#amazon-inspector) (2)
 - [Amcache](#amcache) (1)
 - [AML.T0043](#amlt0043) (1)
 - [AMOS](#amos) (5)
@@ -413,6 +413,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ASP.NET machine keys](#aspnet-machine-keys) (1)
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
 - [ASPX web shells](#aspx-web-shells) (2)
+- [ASPXSpy](#aspxspy) (1)
 - [assume-breach](#assume-breach) (1)
 - [AssumeRoot](#assumeroot) (1)
 - [Astra](#astra) (1)
@@ -703,6 +704,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [build-time code execution](#build-time-code-execution) (1)
 - [build-time compromise](#build-time-compromise) (3)
 - [build-time execution](#build-time-execution) (1)
+- [build-time-execution](#build-time-execution) (1)
 - [build.rs](#buildrs) (1)
 - [building automation](#building-automation) (1)
 - [builtin wildcard](#builtin-wildcard) (1)
@@ -727,6 +729,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C backdoor](#c-backdoor) (1)
 - [C#](#c) (1)
 - [C++](#c) (5)
+- [C++ malware](#c-malware) (1)
 - [C++/CLI](#ccli) (1)
 - [C0XMO](#c0xmo) (1)
 - [C2](#c2) (18)
@@ -1028,6 +1031,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [compromised-accounts](#compromised-accounts) (3)
 - [computer name](#computer-name) (1)
 - [computer vision](#computer-vision) (1)
+- [comsvcs.dll](#comsvcsdll) (1)
 - [Conditional Access](#conditional-access) (2)
 - [conditional access](#conditional-access) (1)
 - [Conductor](#conductor) (1)
@@ -1128,7 +1132,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential stuffing](#credential-stuffing) (2)
 - [credential theft](#credential-theft) (91)
 - [credential-stealer](#credential-stealer) (2)
-- [credential-theft](#credential-theft) (58)
+- [credential-theft](#credential-theft) (59)
 - [credit card theft](#credit-card-theft) (1)
 - [crimeware](#crimeware) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -1175,7 +1179,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [crypto-js](#crypto-js) (1)
 - [crypto-theft](#crypto-theft) (1)
 - [crypto-theft-costume](#crypto-theft-costume) (1)
-- [crypto-wallets](#crypto-wallets) (1)
+- [crypto-wallets](#crypto-wallets) (2)
 - [cryptocurrency](#cryptocurrency) (15)
 - [cryptocurrency address replacement](#cryptocurrency-address-replacement) (1)
 - [cryptocurrency miner](#cryptocurrency-miner) (1)
@@ -1598,7 +1602,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CyberAv3ngers](#cyberav3ngers) (1)
 - [cybercrime](#cybercrime) (22)
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
-- [cyberespionage](#cyberespionage) (7)
+- [cyberespionage](#cyberespionage) (8)
 - [CyberScoop](#cyberscoop) (1)
 - [Cyclops Blink](#cyclops-blink) (1)
 - [Cyera](#cyera) (1)
@@ -1639,7 +1643,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DCloud](#dcloud) (1)
 - [DCloud Uni-App](#dcloud-uni-app) (1)
 - [DcRAT](#dcrat) (1)
-- [DCSync](#dcsync) (2)
+- [DCSync](#dcsync) (3)
 - [DCU](#dcu) (1)
 - [DD-WRT](#dd-wrt) (1)
 - [DDNS](#ddns) (1)
@@ -1777,7 +1781,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DIVD-2026-00015](#divd-2026-00015) (1)
 - [Djinn Stealer](#djinn-stealer) (3)
 - [DLL search-order hijacking](#dll-search-order-hijacking) (2)
-- [DLL side-loading](#dll-side-loading) (9)
+- [DLL side-loading](#dll-side-loading) (10)
 - [DLL sideloading](#dll-sideloading) (29)
 - [DLL-sideloading](#dll-sideloading) (1)
 - [dlopen](#dlopen) (1)
@@ -1877,6 +1881,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [E4del](#e4del) (1)
 - [Eagle Werewolf](#eagle-werewolf) (3)
 - [Early Bird APC injection](#early-bird-apc-injection) (1)
+- [Earth Alux](#earth-alux) (1)
 - [Earth Lusca](#earth-lusca) (2)
 - [Earth-Estries](#earth-estries) (1)
 - [East Asia](#east-asia) (1)
@@ -2041,6 +2046,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [evolutionary optimization](#evolutionary-optimization) (1)
 - [EWS](#ews) (1)
 - [excessive agency](#excessive-agency) (1)
+- [Exchange impersonation](#exchange-impersonation) (1)
 - [exec compile](#exec-compile) (1)
 - [exec_globals](#exec_globals) (1)
 - [execution guardrails](#execution-guardrails) (1)
@@ -2071,7 +2077,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exposure window](#exposure-window) (1)
 - [exposure-clock](#exposure-clock) (1)
 - [extconf-backdoor](#extconf-backdoor) (2)
-- [extconf.rb](#extconfrb) (1)
+- [extconf.rb](#extconfrb) (2)
 - [extension supply-chain](#extension-supply-chain) (2)
 - [extension takeover](#extension-takeover) (1)
 - [external federation](#external-federation) (1)
@@ -2408,7 +2414,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [go](#go) (2)
 - [Go backdoor](#go-backdoor) (1)
 - [Go loader](#go-loader) (1)
-- [Go malware](#go-malware) (4)
+- [Go malware](#go-malware) (5)
 - [Go modules](#go-modules) (2)
 - [Go net/http user agent](#go-nethttp-user-agent) (1)
 - [Go stealer](#go-stealer) (1)
@@ -2417,7 +2423,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GoDaddy federation](#godaddy-federation) (1)
 - [GodDamn ransomware](#goddamn-ransomware) (1)
 - [GodPotato](#godpotato) (1)
-- [Godzilla](#godzilla) (1)
+- [Godzilla](#godzilla) (2)
 - [GoEdge](#goedge) (1)
 - [GoFile](#gofile) (2)
 - [GoginRAT](#goginrat) (1)
@@ -2573,6 +2579,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hermes Agent](#hermes-agent) (3)
 - [Hetzner](#hetzner) (1)
 - [Hetzner C2](#hetzner-c2) (1)
+- [heuristic camouflage](#heuristic-camouflage) (1)
 - [HexKiller](#hexkiller) (1)
 - [hidden backdoor](#hidden-backdoor) (1)
 - [hidden instructions](#hidden-instructions) (1)
@@ -2627,6 +2634,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HTTP 400 handshake](#http-400-handshake) (1)
 - [HTTP C2](#http-c2) (1)
 - [HTTP/2](#http2) (3)
+- [HTTP/3](#http3) (1)
 - [httpd.conf patching](#httpdconf-patching) (1)
 - [HttpMalice](#httpmalice) (1)
 - [HTTPS C2](#https-c2) (2)
@@ -2751,6 +2759,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [initial access broker](#initial-access-broker) (4)
 - [initial-access](#initial-access) (3)
 - [Injective Labs](#injective-labs) (1)
+- [Ink Dragon](#ink-dragon) (1)
 - [Inno Setup](#inno-setup) (3)
 - [input capture](#input-capture) (1)
 - [insecure deserialization](#insecure-deserialization) (1)
@@ -2801,6 +2810,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm](#ironworm) (1)
 - [Irregular](#irregular) (1)
 - [ischhfd83](#ischhfd83) (1)
+- [isDangerousCommand](#isdangerouscommand) (1)
 - [ISE-PIC](#ise-pic) (1)
 - [Island Security](#island-security) (1)
 - [Island Security Research](#island-security-research) (2)
@@ -2970,6 +2980,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KREMLIN](#kremlin) (2)
 - [kTLS](#ktls) (1)
 - [Kubernetes](#kubernetes) (7)
+- [KUKURAT](#kukurat) (1)
 - [KV cache](#kv-cache) (1)
 - [KV-botnet](#kv-botnet) (1)
 - [KVM](#kvm) (3)
@@ -3127,6 +3138,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [logging impairment](#logging-impairment) (1)
 - [logical decoding](#logical-decoding) (1)
 - [login item persistence](#login-item-persistence) (1)
+- [logon script persistence](#logon-script-persistence) (1)
 - [LOLBAS](#lolbas) (1)
 - [LOLBins](#lolbins) (3)
 - [LOLDrivers](#loldrivers) (1)
@@ -3149,6 +3161,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LPE](#lpe) (1)
 - [LS-DYNA](#ls-dyna) (1)
 - [LSASS](#lsass) (1)
+- [LSASS dumping](#lsass-dumping) (1)
 - [LSHIY](#lshiy) (1)
 - [LSN](#lsn) (1)
 - [LSSC](#lssc) (1)
@@ -3202,6 +3215,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer-compromise](#maintainer-compromise) (2)
 - [Makeself license.tmp](#makeself-licensetmp) (1)
 - [MAL-2026-16347](#mal-2026-16347) (1)
+- [MAL-2026-20019](#mal-2026-20019) (1)
 - [malformed signature](#malformed-signature) (1)
 - [malicious ads](#malicious-ads) (1)
 - [malicious browser extension](#malicious-browser-extension) (1)
@@ -3790,7 +3804,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (467)
+- [ops](#ops) (469)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -3966,6 +3980,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PeopleTools](#peopletools) (1)
 - [PEP 723](#pep-723) (1)
 - [per-host regeneration](#per-host-regeneration) (1)
+- [PerfectPioneer](#perfectpioneer) (1)
 - [PerfWatson2.exe](#perfwatson2exe) (1)
 - [Perplexity AI](#perplexity-ai) (1)
 - [persistence](#persistence) (41)
@@ -4184,7 +4199,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [prt-scan](#prt-scan) (1)
 - [PSEMHUB](#psemhub) (1)
 - [pseudorandom number generator](#pseudorandom-number-generator) (1)
-- [PsExec](#psexec) (4)
+- [PsExec](#psexec) (5)
 - [PSIGW](#psigw) (1)
 - [psnatch](#psnatch) (1)
 - [psychological operations](#psychological-operations) (1)
@@ -4256,7 +4271,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [query injection](#query-injection) (1)
 - [Quest KACE SMA](#quest-kace-sma) (1)
 - [queue-1646](#queue-1646) (1)
-- [QUIC](#quic) (1)
+- [QUIC](#quic) (2)
 - [QUICAgent](#quicagent) (1)
 - [Quick Assist](#quick-assist) (1)
 - [QuickFox](#quickfox) (1)
@@ -4286,7 +4301,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rapid7](#rapid7) (3)
 - [RAR archives](#rar-archives) (1)
 - [RAR staging](#rar-staging) (2)
-- [RAT](#rat) (39)
+- [RAT](#rat) (40)
 - [RatHat](#rathat) (1)
 - [raw packet](#raw-packet) (1)
 - [Ray](#ray) (2)
@@ -4348,6 +4363,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reduced cyber refusals](#reduced-cyber-refusals) (1)
 - [RedWing](#redwing) (2)
 - [REF6045](#ref6045) (2)
+- [REF7707](#ref7707) (1)
 - [REF9334](#ref9334) (2)
 - [REF9403](#ref9403) (1)
 - [reflective .NET loading](#reflective-net-loading) (1)
@@ -4499,9 +4515,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RTL819X](#rtl819x) (1)
 - [RTLO](#rtlo) (1)
 - [rtmutex](#rtmutex) (1)
-- [Ruby](#ruby) (1)
+- [Ruby](#ruby) (2)
 - [RubyDoc](#rubydoc) (1)
-- [RubyGems](#rubygems) (8)
+- [RubyGems](#rubygems) (9)
 - [rubygems](#rubygems) (1)
 - [rubygems.org](#rubygemsorg) (1)
 - [RubyHack](#rubyhack) (1)
@@ -4892,6 +4908,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [solana](#solana) (1)
 - [Solana Name Service](#solana-name-service) (1)
 - [Solana-C2](#solana-c2) (1)
+- [solana-keypair](#solana-keypair) (1)
 - [SolarWinds](#solarwinds) (1)
 - [Solid PDF Creator](#solid-pdf-creator) (1)
 - [SolidPDFCreator.dll](#solidpdfcreatordll) (1)
@@ -4921,7 +4938,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [South Africa](#south-africa) (1)
 - [South Asia](#south-asia) (2)
 - [South Korea](#south-korea) (3)
-- [Southeast Asia](#southeast-asia) (7)
+- [Southeast Asia](#southeast-asia) (8)
 - [southpxdatapp6pi](#southpxdatapp6pi) (1)
 - [SP Page Builder](#sp-page-builder) (1)
 - [space-z.ai](#space-zai) (2)
@@ -4968,6 +4985,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SQLite state](#sqlite-state) (1)
 - [SQLRCE0](#sqlrce0) (1)
 - [SquareShell](#squareshell) (1)
+- [Squidoor](#squidoor) (1)
 - [SSD Secure Disclosure](#ssd-secure-disclosure) (1)
 - [SSDP](#ssdp) (1)
 - [SSE transport](#sse-transport) (1)
@@ -5066,7 +5084,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUID /bin/sh](#suid-binsh) (1)
 - [summarization](#summarization) (1)
 - [SUMMIT](#summit) (3)
-- [Suo5](#suo5) (1)
+- [Suo5](#suo5) (2)
 - [Supabase](#supabase) (1)
 - [supabase C2](#supabase-c2) (1)
 - [Super Forms](#super-forms) (1)
@@ -5076,13 +5094,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (28)
 - [supply chain attack](#supply-chain-attack) (16)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (147)
+- [supply-chain](#supply-chain) (148)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
 - [supply-chain risk](#supply-chain-risk) (3)
 - [supply-chain staging](#supply-chain-staging) (1)
-- [supply-chain-adjacent](#supply-chain-adjacent) (2)
+- [supply-chain-adjacent](#supply-chain-adjacent) (3)
 - [surveillance](#surveillance) (1)
 - [surveillance abuse](#surveillance-abuse) (1)
 - [suspected China-aligned](#suspected-china-aligned) (1)
@@ -5234,6 +5252,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TetrisPhantom](#tetrisphantom) (1)
 - [TeviRAT](#tevirat) (1)
 - [text/plain request body](#textplain-request-body) (1)
+- [TGR-STA-0049](#tgr-sta-0049) (1)
 - [Thailand](#thailand) (4)
 - [The Gentlemen](#the-gentlemen) (1)
 - [The Hacker News](#the-hacker-news) (12)
@@ -5401,6 +5420,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ubiquiti](#ubiquiti) (2)
 - [Ubuntu](#ubuntu) (1)
 - [Udev persistence](#udev-persistence) (1)
+- [UDP 443](#udp-443) (1)
 - [UDP C2](#udp-c2) (2)
 - [UDP/1900](#udp1900) (1)
 - [UI redressing](#ui-redressing) (1)
@@ -5456,7 +5476,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [uninitialized heap memory](#uninitialized-heap-memory) (1)
 - [unintended internet access](#unintended-internet-access) (1)
 - [Unisoc](#unisoc) (1)
-- [Unit 42](#unit-42) (20)
+- [Unit 42](#unit-42) (21)
 - [United States](#united-states) (4)
 - [Unitree](#unitree) (1)
 - [universal binary](#universal-binary) (1)
@@ -5674,7 +5694,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web RCE](#web-rce) (1)
 - [web reconnaissance](#web-reconnaissance) (1)
 - [web server](#web-server) (3)
-- [web shell](#web-shell) (13)
+- [web shell](#web-shell) (14)
 - [web shell hunting](#web-shell-hunting) (1)
 - [web shells](#web-shells) (3)
 - [web skimmer](#web-skimmer) (1)
@@ -5684,7 +5704,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WebAuthn](#webauthn) (1)
 - [WebDAV](#webdav) (7)
 - [webhook-site](#webhook-site) (1)
-- [webhook.site](#webhooksite) (1)
+- [webhook.site](#webhooksite) (2)
 - [webhooks](#webhooks) (1)
 - [WebHost Manager](#webhost-manager) (1)
 - [WebKit](#webkit) (2)
@@ -7045,6 +7065,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## amazon-inspector
 - [GSUT `@gsutevil/hta-stage` HTA/WSH MSI loader + `hta-ui` Banco do Brasil landing templates](../tools/gsut-hta-stage-loader-banco-do-brasil-landing-templates-npm-september-2026.md)
+- [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 
 ## Amcache
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
@@ -7554,6 +7575,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ASPX web shells
 - [CL-STA-1062](../actors/cl-sta-1062.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
+
+## ASPXSpy
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 
 ## assume-breach
 - [CISA AA26-237A "A Tale of Two SOCs"](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
@@ -8674,6 +8698,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## build-time execution
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 
+## build-time-execution
+- [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
+
 ## build.rs
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 
@@ -8767,6 +8794,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FamousSparrow swaps SparrowDoor for SparroWocky, modular C++ backdoor with embedded open-source…](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
 - [SilkParasite](../actors/silkparasite.md)
 - [TELESHIM](../tools/teleshim.md)
+
+## C++ malware
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 
 ## C++/CLI
 - [Cavern](../tools/cavern.md)
@@ -10111,6 +10141,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## computer vision
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 
+## comsvcs.dll
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
+
 ## Conditional Access
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
@@ -10604,6 +10637,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
+- [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
@@ -10798,6 +10832,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## crypto-wallets
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
+- [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 
 ## cryptocurrency
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
@@ -12220,6 +12255,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets…](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 
 ## CyberScoop
 - [GemStuffer expands to 3,022 RubyGems packages](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
@@ -12379,6 +12415,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DCSync
 - [CISA AA26-237A "A Tale of Two SOCs"](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
 - [NightEagle (APT-Q-95) expands to Russian companies](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 
 ## DCU
 - [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
@@ -12964,6 +13001,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SprySOCKS](../tools/sprysocks.md)
 - [TELESHIM](../tools/teleshim.md)
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 
 ## DLL sideloading
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -13335,6 +13373,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Early Bird APC injection
 - [Aeternum](../tools/aeternum.md)
+
+## Earth Alux
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 
 ## Earth Lusca
 - [FishMonger](../actors/fishmonger.md)
@@ -14000,6 +14041,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## excessive agency
 - [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 
+## Exchange impersonation
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
+
 ## exec compile
 - [`ig-gox` (PyPI), a "Gox Secure Runtime Engine for Android Termux" that is really an import-time…](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 
@@ -14116,6 +14160,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RubyGems 24-gem crypto-utility fleet, the `45.138.12.177` C2 RETURNS under fresh names](../ops/rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026.md)
 
 ## extconf.rb
+- [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
 
 ## extension supply-chain
@@ -15344,6 +15389,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
 ## Go modules
@@ -15373,6 +15419,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Godzilla
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 
 ## GoEdge
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -15929,6 +15976,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Hetzner C2
 - [AMOS (Atomic macOS Stealer)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 
+## heuristic camouflage
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
+
 ## HexKiller
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
@@ -16105,6 +16155,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [curl CVE-2026-92392](../tools/curl-http2-upload-rce-cve-2026-92392-phantom-stream-uaf-heap-grooming-jfrog-october-2026.md)
 - [Kimwolf v7](../tools/kimwolf-v7.md)
 - [MODBEACON](../tools/modbeacon.md)
+
+## HTTP/3
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 
 ## httpd.conf patching
 - [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
@@ -16654,6 +16707,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Injective Labs
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 
+## Ink Dragon
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
+
 ## Inno Setup
 - [PATCHCORD / SHEETCORD](../ops/patchcord-sheetcord-apt36-afghan-telecom-south-asia.md)
 - [Spark RAT](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
@@ -16852,6 +16908,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ischhfd83
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
+
+## isDangerousCommand
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 
 ## ISE-PIC
 - [CISA KEV September 16, 2026 (second and third additions)](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
@@ -17480,6 +17539,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [Unit 42: post-exploitation workload-identity spoofing in SPIFFE/SPIRE, cgroup-selector…](../patterns/unit42-spiffe-spire-cgroup-workload-identity-spoofing-spooffe-september-2026.md)
+
+## KUKURAT
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 
 ## KV cache
 - [LMCache CVE-2026-105192](../tools/lmcache-cve-2026-105192-pickle-zmq-unauthenticated-root-rce-jfrog-october-2026.md)
@@ -18127,6 +18189,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## login item persistence
 - [PamStealer](../tools/pamstealer.md)
 
+## logon script persistence
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
+
 ## LOLBAS
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
 
@@ -18199,6 +18264,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LSASS
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
+
+## LSASS dumping
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 
 ## LSHIY
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
@@ -18406,6 +18474,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MAL-2026-16347
 - [PhantomRaven](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
+
+## MAL-2026-20019
+- [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 
 ## malformed signature
 - [miniOrange SAML 2.0 SSO plugin](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
@@ -21493,6 +21564,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 - [RubyGems "Wallet Guard" fleet, 48-gem single-account campaign](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 - [RubyGems 24-gem crypto-utility fleet, the `45.138.12.177` C2 RETURNS under fresh names](../ops/rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026.md)
+- [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
@@ -21543,6 +21615,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 - [TerminalFix](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 - [The `*-testmetest` npm wave](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
 - [The `@accenturecodefoundry` scope squat](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
@@ -22303,6 +22376,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## per-host regeneration
 - [Pattern: forging the operating system's own trust primitives, when attackers regenerate integrity…](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
+
+## PerfectPioneer
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 
 ## PerfWatson2.exe
 - [TinyRCT](../tools/tinyrct.md)
@@ -23212,6 +23288,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
 
 ## PSIGW
@@ -23501,6 +23578,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## QUIC
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 
 ## QUICAgent
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
@@ -23653,6 +23731,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [STOCKSTAY](../tools/stockstay.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 - [TinyRCT](../tools/tinyrct.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 - [Unit 42: CL-CRI-1171 "Untracked Nightmares", a pay-per-install marketplace behind…](../ops/unit42-clcri-1171-offerloader-ppi-marketplace-september-2026.md)
@@ -23885,6 +23964,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## REF6045
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
+
+## REF7707
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 
 ## REF9334
 - [KREMLIN (REF9334)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
@@ -24465,6 +24547,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Ruby
 - [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
+- [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 
 ## RubyDoc
 - [GemStuffer expands to 3,022 RubyGems packages](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
@@ -24475,6 +24558,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GemStuffer expands to 3,022 RubyGems packages](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 - [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
 - [RubyGems 24-gem crypto-utility fleet, the `45.138.12.177` C2 RETURNS under fresh names](../ops/rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026.md)
+- [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025-Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
@@ -25952,6 +26036,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Solana-C2
 - [MALFEX: one Portuguese-language npm operator, twelve packages, two delivery arms, three years of…](../ops/malfex-npm-single-operator-two-arms-function-flag-14-month-unadvised-postinstall-cloudsek-september-2026.md)
 
+## solana-keypair
+- [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
+
 ## SolarWinds
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 
@@ -26065,6 +26152,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OceanLotus](../actors/oceanlotus.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Showboat](../tools/showboat.md)
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 
 ## southpxdatapp6pi
 - [GemStuffer expands to 3,022 RubyGems packages](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
@@ -26239,6 +26327,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SquareShell
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
+
+## Squidoor
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 
 ## SSD Secure Disclosure
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
@@ -26590,6 +26681,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 
 ## Suo5
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
 ## Supabase
@@ -26765,6 +26857,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [publish-poc cohort, the self-publishing publishing-PoC trio](../ops/publish-poc-cohort-npm-self-publishing-poc-plaintext-authtoken-unpublished-wipe-osv-first-october-2026.md)
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
 - [RubyGems "Wallet Guard" fleet, 48-gem single-account campaign](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
+- [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -26831,6 +26924,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## supply-chain-adjacent
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
 - [React Server Components Flight RCE: CVE-2026-126187](../ops/react-server-components-flight-rce-cve-2026-126187-typed-array-deserialization-november-2026.md)
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 
 ## surveillance
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
@@ -27360,6 +27454,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## text/plain request body
 - [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
+
+## TGR-STA-0049
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 
 ## Thailand
 - [FishMonger](../actors/fishmonger.md)
@@ -28104,6 +28201,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Udev persistence
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
+## UDP 443
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
+
 ## UDP C2
 - [SPEAKINGSTONE and DARKLANTERN](../ops/speakingstone-darklantern-zbt-router-implants.md)
 - [SprySOCKS](../tools/sprysocks.md)
@@ -28351,6 +28451,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Spring Ring](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
 - [Unit 42: CL-CRI-1131 / CL-CRI-1163, LLM-orchestrated Latin America intrusion campaigns with…](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
@@ -29186,6 +29287,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
+- [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
 - [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 - [UNC6508](../actors/unc6508.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
@@ -29230,6 +29332,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## webhook.site
 - [APT28-linked HOOKEDGE backdoor targets European government and diplomatic organizations](../ops/apt28-hookedge-backdoor-european-gov-diplomatic-august-2026.md)
+- [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 
 ## webhooks
 - [GemStuffer expands to 3,022 RubyGems packages](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
