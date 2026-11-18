@@ -220,6 +220,7 @@ nav:
       - 'TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs': ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md
       - 'OPTIMJACK: Optimizely CDN tampering served a clipper and skimmer to 186 sites': ops/optimjack-optimizely-cdn-script-tampering-crypto-clipper-card-skimmer-stepsecurity-november-2026.md
       - 'WPPConnect pipeline compromise: valid SLSA provenance on an unreviewed stealer': ops/wppconnect-npm-release-pipeline-compromise-trusted-publisher-slsa-provenance-force-push-stepsecurity-november-2026.md
+      - "M365 outage-lure phishing wave: fake service-health lures, Nov 13 IOCs": ops/m365-outage-lure-phishing-wave-sender-domains-reallifeaccounting-credential-theft-november-2026.md
       - 'OpenAI Codex issue-labeler chain: prompt injection to npm publish keys': ops/openai-codex-issue-labeler-prompt-injection-sandbox-escape-coreclr-memory-cache-poisoning-npm-publish-chain-depi-november-2026.md
       - 'sapho11: AGENTS.md reviewer poisoning, build.rs stealers, TON drain': ops/sapho11-campaign-agents-md-reviewer-poisoning-lwd-uri-util-build-stealer-fragment-api-py-ton-drain-november-2026.md
       - 'WFX Phantom: the GitHub Actions secret stealer that deletes its own run': ops/wfx-phantom-github-actions-secret-stealer-stolen-tokens-flyio-app-telegram-exfil-run-deletion-november-2026.md
@@ -573,6 +574,7 @@ nav:
       - "Puppet Enterprise CVE-2026-115731 (KEV added Nov 17, due Dec 1)": tools/puppet-enterprise-cve-2026-115731-report-deserialization-kev-december-1-bod-26-04-november-2026.md
       - "Java4Shell CVE-2026-114938 (OpenJDK AVX-512 Base64 decoder, Nov 17)": tools/openjdk-java4shell-cve-2026-114938-avx512-base64-decoder-calif-oracle-cpu-november-2026.md
       - "Microsoft agent-framework PyPI Hijack (.pth Stealer, Nov 17)": tools/pypi-agent-framework-microsoft-hijacked-releases-1-26-1-1-26-2-pth-startup-stealer-azure-ci-webhook-site-ox-security-november-2026.md
+      - "RubyGems vuln-app: build-time recon stealer, Burp Collaborator sink": tools/rubygems-vuln-app-mkrf-conf-build-time-recon-stealer-burp-collaborator-oastify-november-2026.md
       - "@zereight/mcp-gitlab CVE-2026-61560": tools/zereight-mcp-gitlab-cve-2026-61560-unauthenticated-sse-pat-exfiltration-september-2026.md
       - "AMOS (Atomic macOS Stealer)": tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md
       - "BraZetsu": tools/brazetsu.md
