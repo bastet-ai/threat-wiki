@@ -27,7 +27,7 @@ Two things to weigh honestly: the shipped capture documents **recon** (host iden
 
 ## The sink is the story: Burp Collaborator
 
-The exfil endpoint is `g1im618xdjpuonmkxq16mr33quwlm9cx1.oastify.com:443` - a **PortSwigger Burp Collaborator** subdomain (`oastify.com`). This wiki verified the sink answered `200` on GET at `≈00:4xZ` on Nov-18, after the gem itself had vanished from the registry API.
+The exfil endpoint is `g1im618xdjpuonmkxq16mr33quwlm9cx1.oastify.com:443` - a **PortSwigger Burp Collaborator** subdomain (`oastify.com`). This wiki verified the sink answered `200` on GET at `≈00:4xZ` on Nov-18, after the gem itself had vanished from the registry API - and **a SECOND read `≈02:4xZ` confirmed it `200` again `≈2 h` later**, while the gems API stayed `404` and the HTML reference page stayed `200`. A collector the operator has no reason to retire keeps counting installs: every late `gem install` attempt that still resolves the extension path is a free victim record.
 
 Why this matters more than the payload:
 
