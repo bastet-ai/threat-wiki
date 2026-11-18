@@ -83,7 +83,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [active development](#active-development) (1)
 - [Active Directory](#active-directory) (5)
 - [Active Directory reconnaissance](#active-directory-reconnaissance) (1)
-- [active exploitation](#active-exploitation) (87)
+- [active exploitation](#active-exploitation) (88)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (3)
@@ -198,7 +198,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI data exfiltration](#ai-data-exfiltration) (1)
 - [AI developer tooling](#ai-developer-tooling) (3)
 - [AI framework](#ai-framework) (1)
-- [AI gateway](#ai-gateway) (3)
+- [AI gateway](#ai-gateway) (4)
 - [AI IDE](#ai-ide) (1)
 - [AI infrastructure](#ai-infrastructure) (3)
 - [AI infrastructure hijacking](#ai-infrastructure-hijacking) (1)
@@ -314,6 +314,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AnyDesk](#anydesk) (2)
 - [AOL Mail](#aol-mail) (1)
 - [Aone](#aone) (1)
+- [Apache Axis](#apache-axis) (1)
 - [Apache Tomcat](#apache-tomcat) (1)
 - [Apache Zeppelin](#apache-zeppelin) (1)
 - [APC EarlyBird](#apc-earlybird) (1)
@@ -558,6 +559,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bech32](#bech32) (1)
 - [Bedrock](#bedrock) (1)
 - [Bedrock AgentCore](#bedrock-agentcore) (1)
+- [BeeStation](#beestation) (1)
 - [behavioral detection](#behavioral-detection) (2)
 - [behavioral integrity verification](#behavioral-integrity-verification) (1)
 - [Behinder](#behinder) (1)
@@ -565,6 +567,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BELQI](#belqi) (1)
 - [benchmark integrity](#benchmark-integrity) (1)
 - [Berlin](#berlin) (1)
+- [BerriAI](#berriai) (1)
 - [better-auth](#better-auth) (1)
 - [Bexo Wallet](#bexo-wallet) (1)
 - [BeyondTrust](#beyondtrust) (1)
@@ -620,7 +623,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bluetooth LE](#bluetooth-le) (1)
 - [BOATBEAM](#boatbeam) (1)
 - [Boatnet](#boatnet) (1)
-- [BOD 26-04](#bod-26-04) (19)
+- [BOD 26-04](#bod-26-04) (20)
 - [body hash](#body-hash) (1)
 - [BOF](#bof) (1)
 - [Boleto](#boleto) (1)
@@ -724,7 +727,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BYOVD alternative](#byovd-alternative) (1)
 - [bypass2fa](#bypass2fa) (1)
 - [byte-identical twins](#byte-identical-twins) (1)
-- [bytecode](#bytecode) (1)
+- [bytecode](#bytecode) (2)
 - [bytemover](#bytemover) (1)
 - [C backdoor](#c-backdoor) (1)
 - [C#](#c) (1)
@@ -861,9 +864,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD pipeline abuse](#cicd-pipeline-abuse) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
-- [CISA](#cisa) (23)
+- [CISA](#cisa) (24)
 - [CISA ADP](#cisa-adp) (2)
-- [CISA KEV](#cisa-kev) (56)
+- [CISA KEV](#cisa-kev) (57)
 - [Cisco](#cisco) (11)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
@@ -983,7 +986,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [COBALTSPIN](#cobaltspin) (1)
 - [code execution](#code-execution) (4)
 - [code generation](#code-generation) (1)
-- [code injection](#code-injection) (8)
+- [code injection](#code-injection) (9)
 - [Code Mode](#code-mode) (1)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
@@ -1038,7 +1041,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [configuration exposure](#configuration-exposure) (1)
 - [configuration tampering](#configuration-tampering) (1)
 - [configuration theft](#configuration-theft) (2)
-- [Confluence](#confluence) (1)
+- [Confluence](#confluence) (2)
 - [confused deputy](#confused-deputy) (4)
 - [confused-deputy](#confused-deputy) (1)
 - [ConfuserEx](#confuserex) (2)
@@ -1247,6 +1250,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2023-4346](#cve-2023-4346) (1)
 - [CVE-2023-49105](#cve-2023-49105) (2)
 - [CVE-2023-4966](#cve-2023-4966) (1)
+- [CVE-2024-10441](#cve-2024-10441) (1)
 - [CVE-2024-1708](#cve-2024-1708) (1)
 - [CVE-2024-1709](#cve-2024-1709) (1)
 - [CVE-2024-20399](#cve-2024-20399) (1)
@@ -1368,6 +1372,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-40140](#cve-2026-40140) (1)
 - [CVE-2026-40141](#cve-2026-40141) (1)
 - [CVE-2026-4020](#cve-2026-4020) (1)
+- [CVE-2026-40217](#cve-2026-40217) (1)
 - [CVE-2026-41091](#cve-2026-41091) (1)
 - [CVE-2026-41703](#cve-2026-41703) (1)
 - [CVE-2026-41709](#cve-2026-41709) (1)
@@ -1555,6 +1560,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-88771](#cve-2026-88771) (1)
 - [CVE-2026-88772](#cve-2026-88772) (1)
 - [CVE-2026-89775](#cve-2026-89775) (1)
+- [CVE-2026-90436](#cve-2026-90436) (1)
+- [CVE-2026-90817](#cve-2026-90817) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
 - [CVE-2026-90894](#cve-2026-90894) (1)
 - [CVE-2026-90898](#cve-2026-90898) (1)
@@ -1581,11 +1588,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CWE-352](#cwe-352) (2)
 - [CWE-362](#cwe-362) (1)
 - [CWE-384](#cwe-384) (1)
-- [CWE-470](#cwe-470) (1)
+- [CWE-420](#cwe-420) (1)
+- [CWE-470](#cwe-470) (2)
 - [CWE-502](#cwe-502) (2)
 - [CWE-640](#cwe-640) (1)
 - [CWE-648](#cwe-648) (1)
 - [CWE-693](#cwe-693) (1)
+- [CWE-73](#cwe-73) (1)
 - [CWE-77](#cwe-77) (1)
 - [CWE-78](#cwe-78) (2)
 - [CWE-787](#cwe-787) (1)
@@ -1595,7 +1604,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CWE-863](#cwe-863) (2)
 - [CWE-88](#cwe-88) (1)
 - [CWE-89](#cwe-89) (1)
-- [CWE-94](#cwe-94) (1)
+- [CWE-94](#cwe-94) (2)
 - [Cybench](#cybench) (1)
 - [cyber AI](#cyber-ai) (1)
 - [Cyber Disruption Unit](#cyber-disruption-unit) (1)
@@ -1864,6 +1873,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dropper](#dropper) (1)
 - [Drupal](#drupal) (1)
 - [dsh](#dsh) (1)
+- [DSM](#dsm) (1)
 - [DTLS](#dtls) (1)
 - [dual-function malware](#dual-function-malware) (1)
 - [dual-use](#dual-use) (1)
@@ -3083,7 +3093,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux networking devices](#linux-networking-devices) (1)
 - [Linux rootkit](#linux-rootkit) (1)
 - [ListKeys credential collection](#listkeys-credential-collection) (1)
-- [LiteLLM](#litellm) (9)
+- [LiteLLM](#litellm) (10)
 - [LiteSpeed](#litespeed) (2)
 - [LiteSpeed Cache](#litespeed-cache) (1)
 - [live chat](#live-chat) (1)
@@ -3097,6 +3107,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LLM](#llm) (10)
 - [LLM command execution](#llm-command-execution) (1)
 - [LLM gateway](#llm-gateway) (3)
+- [LLM proxy](#llm-proxy) (1)
 - [LLM security](#llm-security) (1)
 - [LLM serving](#llm-serving) (1)
 - [LLM slop](#llm-slop) (2)
@@ -3519,6 +3530,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mysterious Elephant](#mysterious-elephant) (1)
 - [Mythos](#mythos) (1)
 - [N-able](#n-able) (3)
+- [N-able N-central](#n-able-n-central) (1)
 - [N-central](#n-central) (3)
 - [n-day](#n-day) (1)
 - [n8n](#n8n) (2)
@@ -3803,7 +3815,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (359)
+- [operations](#operations) (360)
 - [operator lockout](#operator-lockout) (1)
 - [operator-continuity](#operator-continuity) (1)
 - [operator-linked shell](#operator-linked-shell) (2)
@@ -3811,7 +3823,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (471)
+- [ops](#ops) (472)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -4361,7 +4373,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedAlert](#redalert) (1)
 - [RedC2](#redc2) (1)
 - [RedC2 4.0](#redc2-40) (1)
-- [REDCap](#redcap) (1)
+- [REDCap](#redcap) (2)
 - [RedFlick](#redflick) (1)
 - [Redis](#redis) (5)
 - [Redis backdoor](#redis-backdoor) (1)
@@ -4588,7 +4600,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SAML IdP](#saml-idp) (1)
 - [Samsung TizenRT](#samsung-tizenrt) (1)
 - [sanctions](#sanctions) (1)
-- [sandbox escape](#sandbox-escape) (11)
+- [sandbox escape](#sandbox-escape) (12)
 - [sandbox evasion](#sandbox-evasion) (3)
 - [sandbox-escape](#sandbox-escape) (1)
 - [sandbox-evasion](#sandbox-evasion) (2)
@@ -4887,6 +4899,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Snowflake](#snowflake) (2)
 - [SNOWLIGHT](#snowlight) (1)
 - [SNWLID-2026-0016](#snwlid-2026-0016) (1)
+- [SOAP](#soap) (1)
 - [SOAP API abuse](#soap-api-abuse) (1)
 - [SOC](#soc) (1)
 - [SoC](#soc) (1)
@@ -5130,7 +5143,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Synacktiv](#synacktiv) (1)
 - [Synacor](#synacor) (1)
 - [SynkLoader](#synkloader) (1)
-- [Synology](#synology) (1)
+- [Synology](#synology) (2)
 - [synthetic commits](#synthetic-commits) (1)
 - [synthetic voice](#synthetic-voice) (1)
 - [Syria](#syria) (1)
@@ -5504,7 +5517,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unreal Engine](#unreal-engine) (1)
 - [unrestricted file upload](#unrestricted-file-upload) (1)
 - [unsafe deserialization](#unsafe-deserialization) (2)
-- [unsafe reflection](#unsafe-reflection) (1)
+- [unsafe reflection](#unsafe-reflection) (2)
 - [unsanctioned message board](#unsanctioned-message-board) (1)
 - [unsandboxed-evaluator](#unsandboxed-evaluator) (1)
 - [unsigned installer](#unsigned-installer) (1)
@@ -5550,6 +5563,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [V8 isolates](#v8-isolates) (1)
 - [valid accounts](#valid-accounts) (4)
 - [ValleyRAT](#valleyrat) (3)
+- [Vanderbilt](#vanderbilt) (1)
 - [Varonis](#varonis) (1)
 - [Varonis Threat Labs](#varonis-threat-labs) (1)
 - [VBCloud](#vbcloud) (1)
@@ -6233,6 +6247,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 26, 2026 additions](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV August 27, 2026 additions](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 - [CISA KEV September 10-11, 2026 additions](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 16, 2026 (second and third additions)](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
 - [CISA KEV September 18, 2026](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
@@ -6789,6 +6804,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI gateway
 - [Bifrost CVE-2026-90898](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [Wiz "Off Guard"](../ops/wiz-litellm-off-guard-mcp-bypass-rce-cloud-compromise-september-2026.md)
 
@@ -7242,6 +7258,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Aone
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
+
+## Apache Axis
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 
 ## Apache Tomcat
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
@@ -8134,6 +8153,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Bedrock AgentCore
 - [A vault with a heap-view](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
 
+## BeeStation
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
+
 ## behavioral detection
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
 - [Unit 42: machine-speed agentic intrusion, 50+ ATT&CK techniques executed in under 10 hours](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
@@ -8156,6 +8178,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Berlin
 - [Berlin state network compromise](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
+
+## BerriAI
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 
 ## better-auth
 - [GitHub Security Advisories August 29, 2026](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
@@ -8360,6 +8385,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 17-18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV August 26, 2026 additions](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV August 27, 2026 additions](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 - [CISA KEV September 10-11, 2026 additions](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 16, 2026 (second and third additions)](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
 - [CISA KEV September 18, 2026](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
@@ -8790,6 +8816,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [`passwordcracker` + `passwordcrackv2`](../tools/passwordcracker-passwordcrackv2-npm-url-pinned-git-tarball-windows-stager-limbomail-replit-october-2026.md)
 
 ## bytecode
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
 
 ## bytemover
@@ -9372,6 +9399,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 26, 2026 additions](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV August 27, 2026 additions](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 - [CISA KEV September 10-11, 2026 additions](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 16, 2026 (second and third additions)](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
 - [CISA KEV September 18, 2026](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
@@ -9403,6 +9431,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 26, 2026 additions](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV August 27, 2026 additions](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 - [CISA KEV September 10-11, 2026 additions](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 16, 2026 (second and third additions)](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
 - [CISA KEV September 18, 2026](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
@@ -9957,6 +9986,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## code injection
 - [CISA KEV August 17-18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Four critical CVEs in one 24-hour window, one shared failure](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
@@ -10179,6 +10209,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Confluence
 - [Atlassian Rovo prompt-to-data exfiltration](../patterns/atlassian-rovo-prompt-to-data-exfiltration.md)
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 
 ## confused deputy
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
@@ -11106,6 +11137,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2023-4966
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
+## CVE-2024-10441
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
+
 ## CVE-2024-1708
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 
@@ -11491,6 +11525,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-4020
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
+
+## CVE-2026-40217
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 
 ## CVE-2026-41091
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
@@ -12074,6 +12111,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-89775
 - [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 
+## CVE-2026-90436
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
+
+## CVE-2026-90817
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
+
 ## CVE-2026-9082
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
@@ -12166,7 +12209,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CWE-384
 - [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
 
+## CWE-420
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
+
 ## CWE-470
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 - [PaperCut NG/MF zero-day](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
 
 ## CWE-502
@@ -12181,6 +12228,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CWE-693
 - [Google Pixel cellular-modem privilege escalation CVE-2026-58704](../ops/google-pixel-cellular-modem-cve-2026-58704-kev-targeted-exploitation-september-2026.md)
+
+## CWE-73
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 
 ## CWE-77
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
@@ -12212,6 +12262,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Secure Email Gateway CVE-2026-76461](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 
 ## CWE-94
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
 
 ## Cybench
@@ -13331,6 +13382,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## dsh
 - [DeepSeek Harness CVE-2026-82533](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
+
+## DSM
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 
 ## DTLS
 - [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
@@ -17977,6 +18031,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LiteLLM
 - [Anthropic Threat Intelligence report (September 2026)](../ops/anthropic-threat-intelligence-report-september-2026-ai-augmented-operations.md)
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 - [CISA KEV September 2, 2026 additions](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
@@ -18038,6 +18093,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bifrost CVE-2026-90898](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 - [Wiz "Off Guard"](../ops/wiz-litellm-off-guard-mcp-bypass-rce-cloud-compromise-september-2026.md)
+
+## LLM proxy
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 
 ## LLM security
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
@@ -19772,6 +19830,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV September 8, 2026 additions](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
+## N-able N-central
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
+
 ## N-central
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV September 8, 2026 additions](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
@@ -20939,6 +21000,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 26, 2026 additions](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV August 27, 2026 additions](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 - [CISA KEV September 10-11, 2026 additions](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 16, 2026 (second and third additions)](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
 - [CISA KEV September 18, 2026](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
@@ -21338,6 +21400,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 26, 2026 additions](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV August 27, 2026 additions](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 - [CISA KEV September 10-11, 2026 additions](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 16, 2026 (second and third additions)](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
 - [CISA KEV September 18, 2026](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
@@ -23974,6 +24037,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 
 ## REDCap
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 - [UNC6508](../actors/unc6508.md)
 
 ## RedFlick
@@ -24866,6 +24930,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Economic Outcast](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
 ## sandbox escape
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [DeepSeek Harness CVE-2026-82533](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 - [GitHub Security Advisories August 29, 2026](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
@@ -25937,6 +26002,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SNWLID-2026-0016
 - [CISA KEV September 2, 2026 additions](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
+
+## SOAP
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 
 ## SOAP API abuse
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
@@ -27040,6 +27108,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
 
 ## Synology
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
 ## synthetic commits
@@ -28572,6 +28641,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
 
 ## unsafe reflection
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 - [PaperCut NG/MF zero-day](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
 
 ## unsanctioned message board
@@ -28731,6 +28801,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MODBEACON](../tools/modbeacon.md)
 - [Spark RAT](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 - [TA4922](../actors/ta4922.md)
+
+## Vanderbilt
+- [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 
 ## Varonis
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
