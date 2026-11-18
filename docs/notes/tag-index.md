@@ -707,7 +707,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [build-time code execution](#build-time-code-execution) (1)
 - [build-time compromise](#build-time-compromise) (3)
 - [build-time execution](#build-time-execution) (1)
-- [build-time-execution](#build-time-execution) (1)
+- [build-time-execution](#build-time-execution) (2)
 - [build.rs](#buildrs) (1)
 - [building automation](#building-automation) (1)
 - [builtin wildcard](#builtin-wildcard) (1)
@@ -856,6 +856,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [chunked exfiltration](#chunked-exfiltration) (1)
 - [CI secrets](#ci-secrets) (1)
 - [CI-CD](#ci-cd) (7)
+- [ci-cd](#ci-cd) (1)
 - [CI-CD-adjacent](#ci-cd-adjacent) (1)
 - [CI-CD-credentials](#ci-cd-credentials) (1)
 - [CI/CD](#cicd) (45)
@@ -2001,6 +2002,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Environment Management Hub](#environment-management-hub) (1)
 - [environment variable theft](#environment-variable-theft) (2)
 - [environment variables](#environment-variables) (1)
+- [environment-exfiltration](#environment-exfiltration) (1)
 - [environmental keying](#environmental-keying) (9)
 - [EPA](#epa) (1)
 - [EPFL](#epfl) (1)
@@ -2091,7 +2093,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exposure window](#exposure-window) (1)
 - [exposure-clock](#exposure-clock) (1)
 - [extconf-backdoor](#extconf-backdoor) (2)
-- [extconf.rb](#extconfrb) (2)
+- [extconf.rb](#extconfrb) (3)
 - [extension supply-chain](#extension-supply-chain) (2)
 - [extension takeover](#extension-takeover) (1)
 - [external federation](#external-federation) (1)
@@ -3233,6 +3235,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Makeself license.tmp](#makeself-licensetmp) (1)
 - [MAL-2026-16347](#mal-2026-16347) (1)
 - [MAL-2026-20019](#mal-2026-20019) (1)
+- [MAL-2026-20137](#mal-2026-20137) (1)
 - [malformed signature](#malformed-signature) (1)
 - [malicious ads](#malicious-ads) (1)
 - [malicious browser extension](#malicious-browser-extension) (1)
@@ -4351,6 +4354,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Realme C33](#realme-c33) (1)
 - [Reaper](#reaper) (1)
 - [reasoning replay](#reasoning-replay) (1)
+- [rechargeapps](#rechargeapps) (1)
 - [Reco](#reco) (1)
 - [reconnaissance](#reconnaissance) (10)
 - [recovery denial](#recovery-denial) (3)
@@ -4445,6 +4449,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reqthrottle-lineage](#reqthrottle-lineage) (1)
 - [request smuggling](#request-smuggling) (1)
 - [require-time-beacon](#require-time-beacon) (1)
+- [require-time-execution](#require-time-execution) (1)
 - [research sector](#research-sector) (1)
 - [reset-credentials](#reset-credentials) (1)
 - [residential proxies](#residential-proxies) (1)
@@ -4534,9 +4539,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RTL819X](#rtl819x) (1)
 - [RTLO](#rtlo) (1)
 - [rtmutex](#rtmutex) (1)
-- [Ruby](#ruby) (2)
+- [Ruby](#ruby) (3)
 - [RubyDoc](#rubydoc) (1)
-- [RubyGems](#rubygems) (9)
+- [RubyGems](#rubygems) (10)
 - [rubygems](#rubygems) (1)
 - [rubygems.org](#rubygemsorg) (1)
 - [RubyHack](#rubyhack) (1)
@@ -5116,7 +5121,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (28)
 - [supply chain attack](#supply-chain-attack) (16)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (149)
+- [supply-chain](#supply-chain) (150)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -5334,7 +5339,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (94)
+- [tools](#tools) (95)
 - [Tor](#tor) (5)
 - [torrent-compromise](#torrent-compromise) (1)
 - [Tortoiseshell](#tortoiseshell) (2)
@@ -5729,7 +5734,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WebAuthn](#webauthn) (1)
 - [WebDAV](#webdav) (7)
 - [webhook-site](#webhook-site) (1)
-- [webhook.site](#webhooksite) (2)
+- [webhook.site](#webhooksite) (3)
 - [webhooks](#webhooks) (1)
 - [WebHost Manager](#webhost-manager) (1)
 - [WebKit](#webkit) (2)
@@ -8738,6 +8743,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 
 ## build-time-execution
+- [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
 - [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 
 ## build.rs
@@ -9319,6 +9325,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [WFX Phantom CI secret stealer](../ops/wfx-phantom-github-actions-secret-stealer-stolen-tokens-flyio-app-telegram-exfil-run-deletion-november-2026.md)
+
+## ci-cd
+- [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
 
 ## CI-CD-adjacent
 - [Orkes Conductor pre-auth RCE](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
@@ -13845,6 +13854,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## environment variables
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 
+## environment-exfiltration
+- [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
+
 ## environmental keying
 - [BINDCLOAK](../tools/bindcloak.md)
 - [LurkProxy](../tools/lurkproxy.md)
@@ -14239,6 +14251,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RubyGems 24-gem crypto-utility fleet, the `45.138.12.177` C2 RETURNS under fresh names](../ops/rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026.md)
 
 ## extconf.rb
+- [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
 - [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
 
@@ -18569,6 +18582,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MAL-2026-20019
 - [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
+
+## MAL-2026-20137
+- [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
 
 ## malformed signature
 - [miniOrange SAML 2.0 SSO plugin](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
@@ -23954,6 +23970,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## reasoning replay
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
 
+## rechargeapps
+- [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
+
 ## Reco
 - [City Forum: single-IP Salesforce and ServiceNow guest-access scraping](../ops/city-forum-salesforce-servicenow-guest-access-scraping.md)
 
@@ -24334,6 +24353,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## require-time-beacon
 - [Wix Thunderbolt dependency-confusion recon fleet, 27 npm names, one `thunderboltRegistry.js`…](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 
+## require-time-execution
+- [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
+
 ## research sector
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 
@@ -24653,6 +24675,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Ruby
 - [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
+- [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
 - [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 
 ## RubyDoc
@@ -24664,6 +24687,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GemStuffer expands to 3,022 RubyGems packages](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 - [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
 - [RubyGems 24-gem crypto-utility fleet, the `45.138.12.177` C2 RETURNS under fresh names](../ops/rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026.md)
+- [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
 - [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025-Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
@@ -26974,6 +26998,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [publish-poc cohort, the self-publishing publishing-PoC trio](../ops/publish-poc-cohort-npm-self-publishing-poc-plaintext-authtoken-unpublished-wipe-osv-first-october-2026.md)
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
 - [RubyGems "Wallet Guard" fleet, 48-gem single-account campaign](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
+- [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
 - [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -27883,6 +27908,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedWing](../tools/redwing.md)
 - [RemotePE](../tools/remotepe.md)
 - [ROADtools](../tools/roadtools.md)
+- [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
 - [RustDuck](../tools/rustduck.md)
 - [SCMBANKER](../tools/scmbanker.md)
 - [Showboat](../tools/showboat.md)
@@ -29464,6 +29490,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## webhook.site
 - [APT28-linked HOOKEDGE backdoor targets European government and diplomatic organizations](../ops/apt28-hookedge-backdoor-european-gov-diplomatic-august-2026.md)
+- [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
 - [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 
 ## webhooks
