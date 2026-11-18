@@ -234,7 +234,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-assisted malware](#ai-assisted-malware) (3)
 - [AI-assisted malware development](#ai-assisted-malware-development) (4)
 - [AI-assisted phishing](#ai-assisted-phishing) (2)
-- [AI-assisted vulnerability discovery](#ai-assisted-vulnerability-discovery) (1)
+- [AI-assisted vulnerability discovery](#ai-assisted-vulnerability-discovery) (2)
 - [AI-augmented operations](#ai-augmented-operations) (5)
 - [AI-coding-agent](#ai-coding-agent) (1)
 - [AI-driven-malware](#ai-driven-malware) (1)
@@ -1076,6 +1076,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [conversation theft](#conversation-theft) (1)
 - [cookie theft](#cookie-theft) (4)
 - [CookiETagRAT](#cookietagrat) (1)
+- [coordinated disclosure](#coordinated-disclosure) (1)
 - [Copilot](#copilot) (1)
 - [Copilot CLI](#copilot-cli) (1)
 - [COPY TO PROGRAM](#copy-to-program) (1)
@@ -1290,6 +1291,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-10523](#cve-2026-10523) (1)
 - [CVE-2026-11405](#cve-2026-11405) (1)
 - [CVE-2026-11645](#cve-2026-11645) (1)
+- [CVE-2026-123007](#cve-2026-123007) (1)
+- [CVE-2026-123633](#cve-2026-123633) (1)
 - [CVE-2026-12569](#cve-2026-12569) (1)
 - [CVE-2026-12957](#cve-2026-12957) (1)
 - [CVE-2026-12958](#cve-2026-12958) (1)
@@ -2085,7 +2088,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [extortion](#extortion) (15)
 - [extortion-adjacent](#extortion-adjacent) (1)
 - [f2fe-s1](#f2fe-s1) (1)
-- [F5](#f5) (1)
+- [F5](#f5) (2)
 - [F5 BIG-IP](#f5-big-ip) (1)
 - [Factory-v3](#factory-v3) (1)
 - [fail-closed](#fail-closed) (1)
@@ -2635,7 +2638,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [html5lib](#html5lib) (1)
 - [HTTP 400 handshake](#http-400-handshake) (1)
 - [HTTP C2](#http-c2) (1)
-- [HTTP/2](#http2) (3)
+- [HTTP/2](#http2) (4)
 - [HTTP/3](#http3) (1)
 - [httpd.conf patching](#httpdconf-patching) (1)
 - [HttpMalice](#httpmalice) (1)
@@ -2771,6 +2774,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [install-time execution](#install-time-execution) (7)
 - [install-time-execution](#install-time-execution) (2)
 - [install.res.1033.dll](#installres1033dll) (1)
+- [integer underflow](#integer-underflow) (1)
 - [integer-overflow](#integer-overflow) (1)
 - [Integration Broker](#integration-broker) (1)
 - [integrity forgery](#integrity-forgery) (1)
@@ -3593,7 +3597,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NFS](#nfs) (1)
 - [nftables](#nftables) (1)
 - [nghttp2](#nghttp2) (1)
-- [NGINX](#nginx) (1)
+- [NGINX](#nginx) (2)
 - [Nginx](#nginx) (2)
 - [Nginx module](#nginx-module) (1)
 - [NGOs](#ngos) (1)
@@ -3807,7 +3811,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (470)
+- [ops](#ops) (471)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -4442,7 +4446,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [restart-triggered execution](#restart-triggered-execution) (1)
 - [retail](#retail) (2)
 - [retail trading](#retail-trading) (1)
-- [reverse proxy](#reverse-proxy) (2)
+- [reverse proxy](#reverse-proxy) (3)
 - [reverse SOCKS5](#reverse-socks5) (1)
 - [reverse SSH tunnel](#reverse-ssh-tunnel) (1)
 - [reverse SSH tunneling](#reverse-ssh-tunneling) (3)
@@ -5445,6 +5449,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unauthenticated API](#unauthenticated-api) (2)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
 - [unauthenticated RCE](#unauthenticated-rce) (18)
+- [unauthenticated remote code execution](#unauthenticated-remote-code-execution) (1)
 - [unauthenticated-publish](#unauthenticated-publish) (1)
 - [unauthorized pentest framing](#unauthorized-pentest-framing) (1)
 - [Unbound](#unbound) (1)
@@ -5523,7 +5528,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [USB weaponizer](#usb-weaponizer) (1)
 - [USB worm](#usb-worm) (2)
 - [usb-propagation](#usb-propagation) (1)
-- [use-after-free](#use-after-free) (6)
+- [use-after-free](#use-after-free) (7)
 - [user execution](#user-execution) (2)
 - [user namespaces](#user-namespaces) (2)
 - [user verification](#user-verification) (1)
@@ -5699,7 +5704,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web proxy](#web-proxy) (1)
 - [web RCE](#web-rce) (1)
 - [web reconnaissance](#web-reconnaissance) (1)
-- [web server](#web-server) (3)
+- [web server](#web-server) (4)
 - [web shell](#web-shell) (14)
 - [web shell hunting](#web-shell-hunting) (1)
 - [web shells](#web-shells) (3)
@@ -6924,6 +6929,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI-assisted vulnerability discovery
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+- [NGINX HTTP/2 CVE-2026-123633 and CVE-2026-123007 unauthenticated RCE](../ops/nginx-http2-cve-2026-123633-cve-2026-123007-unauth-rce-wiz-f5-november-2026.md)
 
 ## AI-augmented operations
 - [BREEZE COMET (GTIG)](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
@@ -10314,6 +10320,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CookiETagRAT
 - [SilkParasite](../actors/silkparasite.md)
 
+## coordinated disclosure
+- [NGINX HTTP/2 CVE-2026-123633 and CVE-2026-123007 unauthenticated RCE](../ops/nginx-http2-cve-2026-123633-cve-2026-123007-unauth-rce-wiz-f5-november-2026.md)
+
 ## Copilot
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 
@@ -11239,6 +11248,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-11645
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+
+## CVE-2026-123007
+- [NGINX HTTP/2 CVE-2026-123633 and CVE-2026-123007 unauthenticated RCE](../ops/nginx-http2-cve-2026-123633-cve-2026-123007-unauth-rce-wiz-f5-november-2026.md)
+
+## CVE-2026-123633
+- [NGINX HTTP/2 CVE-2026-123633 and CVE-2026-123007 unauthenticated RCE](../ops/nginx-http2-cve-2026-123633-cve-2026-123007-unauth-rce-wiz-f5-november-2026.md)
 
 ## CVE-2026-12569
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
@@ -14208,6 +14223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## F5
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
+- [NGINX HTTP/2 CVE-2026-123633 and CVE-2026-123007 unauthenticated RCE](../ops/nginx-http2-cve-2026-123633-cve-2026-123007-unauth-rce-wiz-f5-november-2026.md)
 
 ## F5 BIG-IP
 - [Velvet Ant](../actors/velvet-ant.md)
@@ -16169,6 +16185,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [curl CVE-2026-92392](../tools/curl-http2-upload-rce-cve-2026-92392-phantom-stream-uaf-heap-grooming-jfrog-october-2026.md)
 - [Kimwolf v7](../tools/kimwolf-v7.md)
 - [MODBEACON](../tools/modbeacon.md)
+- [NGINX HTTP/2 CVE-2026-123633 and CVE-2026-123007 unauthenticated RCE](../ops/nginx-http2-cve-2026-123633-cve-2026-123007-unauth-rce-wiz-f5-november-2026.md)
 
 ## HTTP/3
 - [TGR-STA-0049: PerfectPioneer and KUKURAT HTTP/3 espionage RATs (Unit 42)](../ops/tgr-sta-0049-perfectpioneer-kukurat-http3-quic-espionage-rats-unit42-november-2026.md)
@@ -16764,6 +16781,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## install.res.1033.dll
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
+
+## integer underflow
+- [NGINX HTTP/2 CVE-2026-123633 and CVE-2026-123007 unauthenticated RCE](../ops/nginx-http2-cve-2026-123633-cve-2026-123007-unauth-rce-wiz-f5-november-2026.md)
 
 ## integer-overflow
 - [Cosmos EVM vesting-account balance overflow exploited across six chains](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
@@ -20023,6 +20043,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## NGINX
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
+- [NGINX HTTP/2 CVE-2026-123633 and CVE-2026-123007 unauthenticated RCE](../ops/nginx-http2-cve-2026-123633-cve-2026-123007-unauth-rce-wiz-f5-november-2026.md)
 
 ## Nginx
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
@@ -21513,6 +21534,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [Next.js August 2026 security release](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
+- [NGINX HTTP/2 CVE-2026-123633 and CVE-2026-123007 unauthenticated RCE](../ops/nginx-http2-cve-2026-123633-cve-2026-123007-unauth-rce-wiz-f5-november-2026.md)
 - [NightEagle (APT-Q-95) expands to Russian companies](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
@@ -24295,6 +24317,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## reverse proxy
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
+- [NGINX HTTP/2 CVE-2026-123633 and CVE-2026-123007 unauthenticated RCE](../ops/nginx-http2-cve-2026-123633-cve-2026-123007-unauth-rce-wiz-f5-november-2026.md)
 
 ## reverse SOCKS5
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
@@ -28348,6 +28371,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SPEAKINGSTONE and DARKLANTERN](../ops/speakingstone-darklantern-zbt-router-implants.md)
 - [WordPress batch](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 
+## unauthenticated remote code execution
+- [NGINX HTTP/2 CVE-2026-123633 and CVE-2026-123007 unauthenticated RCE](../ops/nginx-http2-cve-2026-123633-cve-2026-123007-unauth-rce-wiz-f5-november-2026.md)
+
 ## unauthenticated-publish
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 
@@ -28625,6 +28651,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [curl CVE-2026-92392](../tools/curl-http2-upload-rce-cve-2026-92392-phantom-stream-uaf-heap-grooming-jfrog-october-2026.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
+- [NGINX HTTP/2 CVE-2026-123633 and CVE-2026-123007 unauthenticated RCE](../ops/nginx-http2-cve-2026-123633-cve-2026-123007-unauth-rce-wiz-f5-november-2026.md)
 - [workerd / Cloudflare Code Mode](../tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md)
 
 ## user execution
@@ -29304,6 +29331,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## web server
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
+- [NGINX HTTP/2 CVE-2026-123633 and CVE-2026-123007 unauthenticated RCE](../ops/nginx-http2-cve-2026-123633-cve-2026-123007-unauth-rce-wiz-f5-november-2026.md)
 - [UAT-10147](../actors/uat-10147.md)
 - [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 

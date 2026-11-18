@@ -283,6 +283,7 @@ nav:
       - Russian state IP-camera military-logistics espionage: ops/russian-state-ip-camera-military-logistics-espionage.md
       - Hugging Face autonomous-agent production intrusion: ops/hugging-face-autonomous-agent-production-intrusion.md
       - NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk: ops/nginx-cve-2026-42533-capture-clobbering-rce.md
+      - "NGINX HTTP/2 CVE-2026-123633 and CVE-2026-123007 unauth RCE (Nov 18)": ops/nginx-http2-cve-2026-123633-cve-2026-123007-unauth-rce-wiz-f5-november-2026.md
       - SleeperGem RubyGems maintainer-account compromise: ops/sleepergem-rubygems-maintainer-account-compromise.md
       - UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign: ops/uac-0145-clickfix-smartaxe-cowardduck.md
       - UTA0533 SonicWall SMA1000 zero-day compromise: ops/uta0533-sonicwall-sma1000-zero-day-compromise.md
