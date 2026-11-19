@@ -480,7 +480,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AWS Lambda](#aws-lambda) (1)
 - [AWS S3](#aws-s3) (2)
 - [AWS Secrets Manager](#aws-secrets-manager) (1)
+- [AWS-IAM-credential-theft](#aws-iam-credential-theft) (1)
 - [AWS-metadata](#aws-metadata) (1)
+- [aws_sdk_wrapper](#aws_sdk_wrapper) (1)
 - [axios](#axios) (1)
 - [AzCopy exfiltration](#azcopy-exfiltration) (1)
 - [Azure](#azure) (4)
@@ -707,7 +709,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [build-time code execution](#build-time-code-execution) (1)
 - [build-time compromise](#build-time-compromise) (3)
 - [build-time execution](#build-time-execution) (1)
-- [build-time-execution](#build-time-execution) (2)
+- [build-time-execution](#build-time-execution) (3)
 - [build.rs](#buildrs) (1)
 - [building automation](#building-automation) (1)
 - [builtin wildcard](#builtin-wildcard) (1)
@@ -856,7 +858,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [chunked exfiltration](#chunked-exfiltration) (1)
 - [CI secrets](#ci-secrets) (1)
 - [CI-CD](#ci-cd) (7)
-- [ci-cd](#ci-cd) (1)
+- [ci-cd](#ci-cd) (2)
 - [CI-CD-adjacent](#ci-cd-adjacent) (1)
 - [CI-CD-credentials](#ci-cd-credentials) (1)
 - [CI/CD](#cicd) (45)
@@ -2093,7 +2095,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exposure window](#exposure-window) (1)
 - [exposure-clock](#exposure-clock) (1)
 - [extconf-backdoor](#extconf-backdoor) (2)
-- [extconf.rb](#extconfrb) (3)
+- [extconf.rb](#extconfrb) (4)
 - [extension supply-chain](#extension-supply-chain) (2)
 - [extension takeover](#extension-takeover) (1)
 - [external federation](#external-federation) (1)
@@ -2428,6 +2430,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [gleeze.com](#gleezecom) (1)
 - [GlobalProtect](#globalprotect) (1)
 - [Gmail](#gmail) (5)
+- [gmo-payment](#gmo-payment) (1)
+- [gmo-payment-carrier](#gmo-payment-carrier) (1)
 - [Go](#go) (9)
 - [go](#go) (2)
 - [Go backdoor](#go-backdoor) (1)
@@ -2713,6 +2717,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [image proxy bypass](#image-proxy-bypass) (1)
 - [image recognition](#image-recognition) (1)
 - [ImageMagick](#imagemagick) (2)
+- [IMDS](#imds) (1)
 - [iMessage](#imessage) (2)
 - [Impacket](#impacket) (6)
 - [Imperial Kitten](#imperial-kitten) (1)
@@ -3238,6 +3243,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MAL-2026-20019](#mal-2026-20019) (1)
 - [MAL-2026-20137](#mal-2026-20137) (1)
 - [MAL-2026-20187](#mal-2026-20187) (1)
+- [MAL-2026-20210](#mal-2026-20210) (1)
+- [MAL-2026-20211](#mal-2026-20211) (1)
+- [MAL-2026-20212](#mal-2026-20212) (1)
 - [malformed signature](#malformed-signature) (1)
 - [malicious ads](#malicious-ads) (1)
 - [malicious browser extension](#malicious-browser-extension) (1)
@@ -4088,6 +4096,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PNG shellcode](#png-shellcode) (1)
 - [PoC available](#poc-available) (1)
 - [PoC exploit refusal](#poc-exploit-refusal) (1)
+- [pocake](#pocake) (1)
 - [PocSuite3](#pocsuite3) (1)
 - [Pods](#pods) (1)
 - [Poedit](#poedit) (1)
@@ -4453,7 +4462,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reqthrottle-lineage](#reqthrottle-lineage) (1)
 - [request smuggling](#request-smuggling) (1)
 - [require-time-beacon](#require-time-beacon) (1)
-- [require-time-execution](#require-time-execution) (1)
+- [require-time-execution](#require-time-execution) (2)
 - [research sector](#research-sector) (1)
 - [reset-credentials](#reset-credentials) (1)
 - [residential proxies](#residential-proxies) (1)
@@ -4543,9 +4552,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RTL819X](#rtl819x) (1)
 - [RTLO](#rtlo) (1)
 - [rtmutex](#rtmutex) (1)
-- [Ruby](#ruby) (3)
+- [Ruby](#ruby) (4)
 - [RubyDoc](#rubydoc) (1)
-- [RubyGems](#rubygems) (10)
+- [RubyGems](#rubygems) (11)
 - [rubygems](#rubygems) (1)
 - [rubygems.org](#rubygemsorg) (1)
 - [RubyHack](#rubyhack) (1)
@@ -5125,7 +5134,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (28)
 - [supply chain attack](#supply-chain-attack) (16)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (151)
+- [supply-chain](#supply-chain) (152)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -5343,7 +5352,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (96)
+- [tools](#tools) (97)
 - [Tor](#tor) (5)
 - [torrent-compromise](#torrent-compromise) (1)
 - [Tortoiseshell](#tortoiseshell) (2)
@@ -5738,7 +5747,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WebAuthn](#webauthn) (1)
 - [WebDAV](#webdav) (7)
 - [webhook-site](#webhook-site) (1)
-- [webhook.site](#webhooksite) (3)
+- [webhook.site](#webhooksite) (4)
 - [webhooks](#webhooks) (1)
 - [WebHost Manager](#webhost-manager) (1)
 - [WebKit](#webkit) (2)
@@ -7874,8 +7883,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AWS Secrets Manager
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 
+## AWS-IAM-credential-theft
+- [RubyGems pocake trio: payment-name gems stealing AWS IAM creds via IMDS at install and require](../tools/rubygems-pocake-imds-credential-stealer-gmo-family-november-2026.md)
+
 ## AWS-metadata
 - [The Telegram `chat_id 1064260758` cluster](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
+
+## aws_sdk_wrapper
+- [RubyGems pocake trio: payment-name gems stealing AWS IAM creds via IMDS at install and require](../tools/rubygems-pocake-imds-credential-stealer-gmo-family-november-2026.md)
 
 ## axios
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
@@ -8747,6 +8762,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 
 ## build-time-execution
+- [RubyGems pocake trio: payment-name gems stealing AWS IAM creds via IMDS at install and require](../tools/rubygems-pocake-imds-credential-stealer-gmo-family-november-2026.md)
 - [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
 - [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 
@@ -9331,6 +9347,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WFX Phantom CI secret stealer](../ops/wfx-phantom-github-actions-secret-stealer-stolen-tokens-flyio-app-telegram-exfil-run-deletion-november-2026.md)
 
 ## ci-cd
+- [RubyGems pocake trio: payment-name gems stealing AWS IAM creds via IMDS at install and require](../tools/rubygems-pocake-imds-credential-stealer-gmo-family-november-2026.md)
 - [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
 
 ## CI-CD-adjacent
@@ -14255,6 +14272,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RubyGems 24-gem crypto-utility fleet, the `45.138.12.177` C2 RETURNS under fresh names](../ops/rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026.md)
 
 ## extconf.rb
+- [RubyGems pocake trio: payment-name gems stealing AWS IAM creds via IMDS at install and require](../tools/rubygems-pocake-imds-credential-stealer-gmo-family-november-2026.md)
 - [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
 - [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
@@ -15468,6 +15486,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Umbrij](../tools/umbrij.md)
 - [Webmail CSS trust-boundary attacks](../patterns/webmail-css-trust-boundary-attacks.md)
 
+## gmo-payment
+- [RubyGems pocake trio: payment-name gems stealing AWS IAM creds via IMDS at install and require](../tools/rubygems-pocake-imds-credential-stealer-gmo-family-november-2026.md)
+
+## gmo-payment-carrier
+- [RubyGems pocake trio: payment-name gems stealing AWS IAM creds via IMDS at install and require](../tools/rubygems-pocake-imds-credential-stealer-gmo-family-november-2026.md)
+
 ## Go
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
@@ -16482,6 +16506,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ImageMagick
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
 - [Hacktron "HEIF Heist"](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
+
+## IMDS
+- [RubyGems pocake trio: payment-name gems stealing AWS IAM creds via IMDS at install and require](../tools/rubygems-pocake-imds-credential-stealer-gmo-family-november-2026.md)
 
 ## iMessage
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -18595,6 +18622,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MAL-2026-20187
 - [md-doc-mcp: MCP Markdown Toolkit That Probes Alibaba IMDS At Start-Up](../tools/npm-md-doc-mcp-alibaba-imds-startup-probe-fdcasj-copy-row-20187-digest-corroboration-november-2026.md)
+
+## MAL-2026-20210
+- [RubyGems pocake trio: payment-name gems stealing AWS IAM creds via IMDS at install and require](../tools/rubygems-pocake-imds-credential-stealer-gmo-family-november-2026.md)
+
+## MAL-2026-20211
+- [RubyGems pocake trio: payment-name gems stealing AWS IAM creds via IMDS at install and require](../tools/rubygems-pocake-imds-credential-stealer-gmo-family-november-2026.md)
+
+## MAL-2026-20212
+- [RubyGems pocake trio: payment-name gems stealing AWS IAM creds via IMDS at install and require](../tools/rubygems-pocake-imds-credential-stealer-gmo-family-november-2026.md)
 
 ## malformed signature
 - [miniOrange SAML 2.0 SSO plugin](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
@@ -22871,6 +22907,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PoC exploit refusal
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
+## pocake
+- [RubyGems pocake trio: payment-name gems stealing AWS IAM creds via IMDS at install and require](../tools/rubygems-pocake-imds-credential-stealer-gmo-family-november-2026.md)
+
 ## PocSuite3
 - [Langflow CVE exploitation canary timeline](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 
@@ -24373,6 +24412,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Wix Thunderbolt dependency-confusion recon fleet, 27 npm names, one `thunderboltRegistry.js`…](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 
 ## require-time-execution
+- [RubyGems pocake trio: payment-name gems stealing AWS IAM creds via IMDS at install and require](../tools/rubygems-pocake-imds-credential-stealer-gmo-family-november-2026.md)
 - [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
 
 ## research sector
@@ -24694,6 +24734,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Ruby
 - [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
+- [RubyGems pocake trio: payment-name gems stealing AWS IAM creds via IMDS at install and require](../tools/rubygems-pocake-imds-credential-stealer-gmo-family-november-2026.md)
 - [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
 - [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 
@@ -24706,6 +24747,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GemStuffer expands to 3,022 RubyGems packages](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 - [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
 - [RubyGems 24-gem crypto-utility fleet, the `45.138.12.177` C2 RETURNS under fresh names](../ops/rubygems-crypto-utils-24-gem-fleet-c2-return-reqthrottle-grammar-45-138-12-177-october-2026.md)
+- [RubyGems pocake trio: payment-name gems stealing AWS IAM creds via IMDS at install and require](../tools/rubygems-pocake-imds-credential-stealer-gmo-family-november-2026.md)
 - [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
 - [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
@@ -27018,6 +27060,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [publish-poc cohort, the self-publishing publishing-PoC trio](../ops/publish-poc-cohort-npm-self-publishing-poc-plaintext-authtoken-unpublished-wipe-osv-first-october-2026.md)
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
 - [RubyGems "Wallet Guard" fleet, 48-gem single-account campaign](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
+- [RubyGems pocake trio: payment-name gems stealing AWS IAM creds via IMDS at install and require](../tools/rubygems-pocake-imds-credential-stealer-gmo-family-november-2026.md)
 - [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
 - [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
@@ -27929,6 +27972,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedWing](../tools/redwing.md)
 - [RemotePE](../tools/remotepe.md)
 - [ROADtools](../tools/roadtools.md)
+- [RubyGems pocake trio: payment-name gems stealing AWS IAM creds via IMDS at install and require](../tools/rubygems-pocake-imds-credential-stealer-gmo-family-november-2026.md)
 - [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
 - [RustDuck](../tools/rustduck.md)
 - [SCMBANKER](../tools/scmbanker.md)
@@ -29511,6 +29555,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## webhook.site
 - [APT28-linked HOOKEDGE backdoor targets European government and diplomatic organizations](../ops/apt28-hookedge-backdoor-european-gov-diplomatic-august-2026.md)
+- [RubyGems pocake trio: payment-name gems stealing AWS IAM creds via IMDS at install and require](../tools/rubygems-pocake-imds-credential-stealer-gmo-family-november-2026.md)
 - [RubyGems rechargeapps: double-hook environment stealer with a public victim dashboard](../tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md)
 - [RubyGems solana-keypair: extconf.rb credential stealer at gem install](../ops/rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md)
 
