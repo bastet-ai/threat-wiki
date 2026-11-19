@@ -69,9 +69,15 @@ The `CW_OOB` hook is the most interesting single line: it lets the operator re-p
 4. **Block** `webhook.site` (and `oastify.com`, `requestcatcher.com`, `ngrok.app`/`claim-test` lanes) from build infrastructure as a standing policy.
 5. **Policy:** the `extensions:` line in gem metadata is a code-execution promise — CI should refuse gems whose shipped file list is only an extension hook plus a stub (the concealment fingerprint of all three captures this month).
 
+## Update (Nov 19, 333rd sweep, ~00:3x-00:5x UTC): the dashboard grew while we watched
+
+- **Still installable:** gems API `200` UNYANKED at `≈26 h` post-birth; downloads `163 → 174` (`+11` between sweeps) = installs are continuing after the paper.
+- **The victim feed is a live stream, not an artifact:** GET-only re-read of the sink token served `total 49` captures, up from `33` at the 332nd (`+16` in `≈1.7 h`); the newest victim POST was stamped `2026-11-19T00:35:56Z`, `≈4 min` before this read. Quote the total with the read-time. Field names only, values never reproduced.
+- **The row still doesn't know its own gem:** OSV `MAL-2026-20137` second read `aliases None` / `iocs None`, `modified` frozen `2026-11-18T20:45:04Z` — the ledger row still carries neither a GHSA nor the sink token this wiki has now verified twice serving 49 victims. Defense that waits for the row waits forever.
+
 ## Monitor
 
-- Sink re-reads (GET-only): does the `total: 33` keep climbing? new victim classes? does `CW_OOB` ever re-point (second token appears in a re-published gem)?
+- Sink re-reads (GET-only): does the `total` keep climbing? new victim classes? does `CW_OOB` ever re-point (second token appears in a re-published gem)?
 - Registry enforcement: does `999.0.0` get yanked/deleted, or does this become another `vant`-style still-installable record?
 - Row enrichment: `aliases` still `None` — does a GHSA ever join?
 - Costume family: any sibling `recharge*` gems appearing on RubyGems (one name per flush law, per the `gate*` lane).
