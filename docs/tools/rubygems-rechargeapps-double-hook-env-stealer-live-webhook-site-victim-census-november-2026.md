@@ -81,3 +81,9 @@ The `CW_OOB` hook is the most interesting single line: it lets the operator re-p
 - Registry enforcement: does `999.0.0` get yanked/deleted, or does this become another `vant`-style still-installable record?
 - Row enrichment: `aliases` still `None` — does a GHSA ever join?
 - Costume family: any sibling `recharge*` gems appearing on RubyGems (one name per flush law, per the `gate*` lane).
+
+## Update (Nov 19, 334th sweep, ~02:1x-03:0x UTC): the feed flattens, the gem stays, the row still guesses
+
+- **Still installable:** gems API `200` UNYANKED at `≈27.5 h` post-birth; downloads `174 → 179` (`+5`); tarball `200`/`4,608 B` sha `5fae55c5…` re-matched at read. `vant`-style permanence is looking like the disposition, not the exception.
+- **The stream slowed but never closed:** GET-only sink re-read served `total 50` (from `49` at the 333rd: `+1` in `≈2.4 h`); newest victim POST `2026-11-19T00:55:58Z`, `≈1.7 h` old at this read. Quote totals with the read-time; the climb shape (`+16` then `+1`) is victim-flow weather, not enforcement.
+- **The row still doesn't know its own gem — third read:** `MAL-2026-20137` `aliases None` / `iocs None`, `modified` frozen `2026-11-18T20:45:04Z`. The sink this wiki has now verified across three consecutive reads serving 50 victim POSTs is carried by no ledger field anywhere.
