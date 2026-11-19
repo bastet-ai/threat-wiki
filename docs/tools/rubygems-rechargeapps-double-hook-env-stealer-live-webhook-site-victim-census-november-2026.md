@@ -87,3 +87,9 @@ The `CW_OOB` hook is the most interesting single line: it lets the operator re-p
 - **Still installable:** gems API `200` UNYANKED at `≈27.5 h` post-birth; downloads `174 → 179` (`+5`); tarball `200`/`4,608 B` sha `5fae55c5…` re-matched at read. `vant`-style permanence is looking like the disposition, not the exception.
 - **The stream slowed but never closed:** GET-only sink re-read served `total 50` (from `49` at the 333rd: `+1` in `≈2.4 h`); newest victim POST `2026-11-19T00:55:58Z`, `≈1.7 h` old at this read. Quote totals with the read-time; the climb shape (`+16` then `+1`) is victim-flow weather, not enforcement.
 - **The row still doesn't know its own gem — third read:** `MAL-2026-20137` `aliases None` / `iocs None`, `modified` frozen `2026-11-18T20:45:04Z`. The sink this wiki has now verified across three consecutive reads serving 50 victim POSTs is carried by no ledger field anywhere.
+
+## Update (Nov 19, 335th sweep, ~04:2x-05:0x UTC): downloads climb, the feed goes quiet, the row stays blind
+
+- **Still installable:** gems API `200` UNYANKED at `≈29.2 h` post-birth; downloads `179 → 182` (`+3`); `version_created_at 2026-11-17T23:13:12.116Z` re-quoted, `yanked false` re-confirmed at the version endpoint.
+- **Downloads are not victims:** GET-only sink re-read served `total 50` FLAT — no climb since the 334th — with newest victim POST STILL `2026-11-19T00:55:58Z` (`≈3.5 h` stale at read). Three new pulls landed with ZERO new environment POSTs: a download is an activity gauge, the sink census is the exposure floor. Never convert one into the other.
+- **The row still doesn't know its own gem — fourth read:** `MAL-2026-20137` `aliases None` / `iocs None` / `severity None`, `modified` frozen `2026-11-18T20:45:04Z`.
