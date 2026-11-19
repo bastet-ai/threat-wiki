@@ -704,6 +704,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - "MITRE admits 87 percent of its recent CVE publication timestamps are fabricated": patterns/cve-midnight-timestamp-fabrication-mitre-87-percent-november-2026.md
       - "JFrog: Black October showed the remediation gap is arithmetic, not intelligence": patterns/jfrog-black-october-remediation-gap-3x-cve-volume-november-2026.md
       - "Aikido: GitLab incoming-email addresses contain the glimt- token - an UNEXPIRING ACCOUNT-WIDE…": patterns/gitlab-incoming-email-token-account-wide-credential-ip-allowlist-bypass-aikido-september-2026.md
       - "Unit 42: AWS AgentCore Harness - A Vault with a Heap-View: in the DEFAULT configuration an…": patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md

@@ -982,6 +982,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cluster compromise](#cluster-compromise) (1)
 - [CMS](#cms) (8)
 - [CMS exploitation](#cms-exploitation) (1)
+- [CNA](#cna) (1)
 - [CNAB](#cnab) (2)
 - [CNABHunter](#cnabhunter) (2)
 - [CNCERT](#cncert) (1)
@@ -1228,7 +1229,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [custom instruction set](#custom-instruction-set) (1)
 - [custom map](#custom-map) (1)
 - [customer messaging](#customer-messaging) (1)
-- [CVE](#cve) (2)
+- [CVE](#cve) (3)
 - [CVE-2008-4128](#cve-2008-4128) (1)
 - [CVE-2013-3307](#cve-2013-3307) (1)
 - [CVE-2015-3246](#cve-2015-3246) (1)
@@ -1573,6 +1574,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-92392](#cve-2026-92392) (1)
 - [CVE-2026-9539](#cve-2026-9539) (1)
 - [CVE-2026-9586](#cve-2026-9586) (1)
+- [cvelistV5](#cvelistv5) (1)
 - [CVSS](#cvss) (1)
 - [CVSS 10.0](#cvss-100) (2)
 - [CVSS 9.0](#cvss-90) (1)
@@ -1644,6 +1646,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data scraping](#data-scraping) (1)
 - [data theft](#data-theft) (11)
 - [data-exfiltration](#data-exfiltration) (2)
+- [data-quality](#data-quality) (1)
 - [data-wiping](#data-wiping) (1)
 - [database](#database) (1)
 - [database extortion](#database-extortion) (1)
@@ -1776,6 +1779,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DirtyClone](#dirtyclone) (1)
 - [DirtyFrag](#dirtyfrag) (1)
 - [DISCLOSURE](#disclosure) (1)
+- [disclosure-timing](#disclosure-timing) (1)
 - [Discord](#discord) (2)
 - [Discord certificate](#discord-certificate) (1)
 - [Discord link abuse](#discord-link-abuse) (1)
@@ -2010,6 +2014,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [EPFL](#epfl) (1)
 - [epoll](#epoll) (1)
 - [Epsilon Stealer](#epsilon-stealer) (1)
+- [EPSS](#epss) (1)
 - [ERAAgent](#eraagent) (1)
 - [ERP](#erp) (1)
 - [error-message disclosure](#error-message-disclosure) (1)
@@ -3314,6 +3319,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mcp-grafana](#mcp-grafana) (1)
 - [md-doc-mcp](#md-doc-mcp) (1)
 - [mdworker masquerade](#mdworker-masquerade) (1)
+- [measurement-integrity](#measurement-integrity) (1)
 - [MECCHA CHAMELEON](#meccha-chameleon) (1)
 - [media embed](#media-embed) (1)
 - [media processing](#media-processing) (1)
@@ -3437,6 +3443,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mistic](#mistic) (2)
 - [MISTPEN](#mistpen) (1)
 - [MITM-proxy](#mitm-proxy) (1)
+- [MITRE](#mitre) (1)
 - [MITRE ATLAS](#mitre-atlas) (1)
 - [MITRE ATT&CK](#mitre-attck) (10)
 - [MITRE ATT&CK T1005](#mitre-attck-t1005) (1)
@@ -3979,7 +3986,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (14)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (60)
+- [patterns](#patterns) (61)
 - [Paweł Płatek](#pawe-patek) (1)
 - [pay-per-install](#pay-per-install) (1)
 - [PAYLOAD](#payload) (1)
@@ -9982,6 +9989,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CMS exploitation
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
+## CNA
+- [CVE records stamped at midnight: MITRE admits 87 percent of recent publication times are fabricated](../patterns/cve-midnight-timestamp-fabrication-mitre-87-percent-november-2026.md)
+
 ## CNAB
 - [BraZetsu](../tools/brazetsu.md)
 - [Exilware: Brazilian IAB operation behind BraZetsu and the "Infected Marketplace"](../actors/exilware.md)
@@ -11091,6 +11101,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Brevo supply-chain attack](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 
 ## CVE
+- [CVE records stamped at midnight: MITRE admits 87 percent of recent publication times are fabricated](../patterns/cve-midnight-timestamp-fabrication-mitre-87-percent-november-2026.md)
 - [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
@@ -12172,6 +12183,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-9586
 - [CISA KEV September 2, 2026 additions](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 
+## cvelistV5
+- [CVE records stamped at midnight: MITRE admits 87 percent of recent publication times are fabricated](../patterns/cve-midnight-timestamp-fabrication-mitre-87-percent-november-2026.md)
+
 ## CVSS
 - [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
 
@@ -12472,6 +12486,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## data-exfiltration
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [The `@accenturecodefoundry` scope squat](../ops/accenturecodefoundry-npm-fake-scope-hex-hostname-username-exfil-azurewebsites-october-2026.md)
+
+## data-quality
+- [CVE records stamped at midnight: MITRE admits 87 percent of recent publication times are fabricated](../patterns/cve-midnight-timestamp-fabrication-mitre-87-percent-november-2026.md)
 
 ## data-wiping
 - [The `*-testmetest` npm wave](../ops/testmetest-npm-binding-gyp-worm-test-wave-hostage-wipe-october-2026.md)
@@ -13028,6 +13045,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DISCLOSURE
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
+
+## disclosure-timing
+- [CVE records stamped at midnight: MITRE admits 87 percent of recent publication times are fabricated](../patterns/cve-midnight-timestamp-fabrication-mitre-87-percent-november-2026.md)
 
 ## Discord
 - [forge-jsxy](../tools/forge-jsxy.md)
@@ -13900,6 +13920,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Epsilon Stealer
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
+
+## EPSS
+- [CVE records stamped at midnight: MITRE admits 87 percent of recent publication times are fabricated](../patterns/cve-midnight-timestamp-fabrication-mitre-87-percent-november-2026.md)
 
 ## ERAAgent
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
@@ -18999,6 +19022,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## mdworker masquerade
 - [AMOS (Atomic macOS Stealer)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 
+## measurement-integrity
+- [CVE records stamped at midnight: MITRE admits 87 percent of recent publication times are fabricated](../patterns/cve-midnight-timestamp-fabrication-mitre-87-percent-november-2026.md)
+
 ## MECCHA CHAMELEON
 - [MECCHA CHAMELEON](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 
@@ -19506,6 +19532,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MITM-proxy
 - [RubyGems "Wallet Guard" fleet, 48-gem single-account campaign](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
+
+## MITRE
+- [CVE records stamped at midnight: MITRE admits 87 percent of recent publication times are fabricated](../patterns/cve-midnight-timestamp-fabrication-mitre-87-percent-november-2026.md)
 
 ## MITRE ATLAS
 - [Unit 42: machine-speed agentic intrusion, 50+ ATT&CK techniques executed in under 10 hours](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
@@ -22411,6 +22440,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
+- [CVE records stamped at midnight: MITRE admits 87 percent of recent publication times are fabricated](../patterns/cve-midnight-timestamp-fabrication-mitre-87-percent-november-2026.md)
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
