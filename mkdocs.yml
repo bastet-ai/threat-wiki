@@ -578,6 +578,7 @@ nav:
       - "Microsoft agent-framework PyPI Hijack (.pth Stealer, Nov 17)": tools/pypi-agent-framework-microsoft-hijacked-releases-1-26-1-1-26-2-pth-startup-stealer-azure-ci-webhook-site-ox-security-november-2026.md
       - "RubyGems vuln-app: build-time recon stealer, Burp Collaborator sink": tools/rubygems-vuln-app-mkrf-conf-build-time-recon-stealer-burp-collaborator-oastify-november-2026.md
       - "RubyGems rechargeapps: double-hook env stealer, public victim dashboard": tools/rubygems-rechargeapps-double-hook-env-stealer-live-webhook-site-victim-census-november-2026.md
+      - "npm md-doc-mcp: MCP server start-up Alibaba IMDS probe, row-digest corroboration": tools/npm-md-doc-mcp-alibaba-imds-startup-probe-fdcasj-copy-row-20187-digest-corroboration-november-2026.md
       - "@zereight/mcp-gitlab CVE-2026-61560": tools/zereight-mcp-gitlab-cve-2026-61560-unauthenticated-sse-pat-exfiltration-september-2026.md
       - "AMOS (Atomic macOS Stealer)": tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md
       - "BraZetsu": tools/brazetsu.md
