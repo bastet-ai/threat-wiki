@@ -58,9 +58,18 @@ The tampered snippet adds one script tag: `https://1688360[.]cc/track.js`. From 
 
 The web-skimming class is adjacent to, not the same as, the npm/PyPI stealer lanes this ledger tracks: same monetization (wallet keys, cards, sessions), different execution surface (visitor browser vs developer install). The iOS exploit-kit tail (Coruna/DarkSword) joins the ledger's existing Censys ARC watch on GHOSTBLADE panel proliferation. The `webhook.site`/`h1.cx` collector pattern from the registry lanes is the same "attacker rents public inbox services" tradecraft at browser scale.
 
+## November 20: the vendor-confirmed follow-up, the atob loader variant, and three more poisoned vendors
+
+StepSecurity republished/followed up **Nov-20 08:47:22Z** (`200`, fetched in full by this wiki): *"On November 16, 2026, an attacker injected malicious JavaScript into the Optimizely Web projects of **178 organizations**, including CNN, BBC, Fox News, Zoom, Salesforce, GitLab, HSBC, KLM and IKEA."* **Quote the counter WITH the count and the source:** StepSecurity says `178` organizations, Helme's snippet census says `186` sites / `188` files — different units (orgs vs sites/files), both correct in their own frame.
+
+**TWO NEW DURABLES from the follow-up:**
+
+1. **THE ATOB LOADER VARIANT — a literal-string grep is a decode-blind recipe.** StepSecurity: *"A second version hides the URL in base64 and decodes it with `atob()`, so a search for `1688360` does not find it."* This page's earlier recipe ("grep your snippets for `1688360`") is now known-INCOMPLETE: alongside the domain grep, grep every snippet for `atob(`, `fromCharCode`, `unescape(`, and long base64-looking literals, and decode anything suspicious before judging it. Absence of the domain string is not absence of the payload.
+2. **THE INFRASTRUCTURE IS WIDER THAN OPTIMIZELY.** The follow-up cites a separate investigation by **Hudson Rock and an independent researcher** finding poisoned scripts from **three OTHER script providers** tied to the SAME infrastructure (claim quoted from the StepSecurity post, NOT independently verified by this wiki). If your sites load third-party tags beyond Optimizely, extend the fetch-and-grep sweep to every vendor snippet, prioritizing the same categories (experimentation, analytics, session tools).
+
 ## Sources
 
-- StepSecurity blog, Owais Shaikh, 2026-11-17: `stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer` (fetched `200` by this wiki ~06:5x UTC Nov-17; IOC table quoted with per-row sourcing as published)
+- StepSecurity blog, Owais Shaikh, 2026-11-17: `stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer` (fetched `200` by this wiki ~06:5x UTC Nov-17; IOC table quoted with per-row sourcing as published; re-fetched Nov-20 ~16:4xZ, follow-up text folded into the section above)
 - Report URI / Scott Helme infection counts and cleaning timeline (as cited by StepSecurity and press)
 - Cointelegraph Nov-17: Optimizely vendor statement (signup-flow vulnerability, fix, token revocation, Cloudflare block); Cointelegraph/CybersecurityNews/SecurityOnline for brand lists and on-chain take figures (secondary, quoted as reporting)
 - On-wiki related: [Censys ARC / DarkSword-GHOSTBLADE watch](../notes/source-index.md), [solana-keypair wallet stealer](rubygems-solana-keypair-extconf-build-time-credential-stealer-webhook-site-november-2026.md) (wallet-key monetization kin), [312th sweep stream](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#november-17-three-hundred-and-twelfth-sweep)
