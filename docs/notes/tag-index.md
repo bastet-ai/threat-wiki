@@ -36,6 +36,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [47.251.102.182](#47251102182) (1)
 - [4sync](#4sync) (1)
 - [7-Zip](#7-zip) (1)
+- [8.152.163.60](#815216360) (1)
 - [@gl_introduced](#gl_introduced) (1)
 - [@marketfront](#marketfront) (1)
 - [@tqm-mfe](#tqm-mfe) (1)
@@ -265,7 +266,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [algorithm confusion](#algorithm-confusion) (1)
 - [alias-lane](#alias-lane) (1)
 - [Alibaba](#alibaba) (2)
-- [Alibaba Cloud egress](#alibaba-cloud-egress) (1)
+- [Alibaba Cloud egress](#alibaba-cloud-egress) (2)
 - [Alibaba OSS](#alibaba-oss) (1)
 - [Allen-Bradley](#allen-bradley) (1)
 - [allowed_classes](#allowed_classes) (1)
@@ -645,6 +646,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [branch-compromise](#branch-compromise) (1)
 - [branch-name-injection](#branch-name-injection) (1)
 - [brand impersonation](#brand-impersonation) (5)
+- [brand squat](#brand-squat) (1)
 - [brand-impersonation](#brand-impersonation) (4)
 - [BraZetsu](#brazetsu) (2)
 - [Brazil](#brazil) (8)
@@ -775,7 +777,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Casbaneiro](#casbaneiro) (1)
 - [CastleStealer](#castlestealer) (1)
 - [Catalyst SD-WAN Manager](#catalyst-sd-wan-manager) (1)
-- [catch lane](#catch-lane) (1)
+- [catch lane](#catch-lane) (2)
 - [Catcher](#catcher) (1)
 - [Cav3rn](#cav3rn) (1)
 - [Cavern](#cavern) (2)
@@ -1737,7 +1739,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [destructive operations](#destructive-operations) (3)
 - [destructive-payload](#destructive-payload) (1)
 - [detached execution](#detached-execution) (1)
-- [detached process](#detached-process) (2)
+- [detached process](#detached-process) (3)
 - [detection](#detection) (4)
 - [detection engineering](#detection-engineering) (2)
 - [detection failure](#detection-failure) (1)
@@ -2650,6 +2652,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hospitality targeting](#hospitality-targeting) (2)
 - [host DNS hijacking](#host-dns-hijacking) (1)
 - [Host header](#host-header) (1)
+- [host profiling](#host-profiling) (1)
 - [Host Radar](#host-radar) (1)
 - [host RCE](#host-rce) (2)
 - [host surveillance](#host-surveillance) (1)
@@ -3704,7 +3707,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [November-2026](#november-2026) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (105)
+- [npm](#npm) (106)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -3794,7 +3797,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Okta](#okta) (6)
 - [Okta Threat Intelligence](#okta-threat-intelligence) (1)
 - [OKX](#okx) (1)
-- [old name](#old-name) (1)
+- [old name](#old-name) (2)
 - [Ollama](#ollama) (4)
 - [OLLAMA_HOST](#ollama_host) (1)
 - [Oman](#oman) (1)
@@ -4164,7 +4167,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostCSS](#postcss) (1)
 - [PostgreSQL](#postgresql) (5)
 - [postinstall](#postinstall) (13)
-- [postinstall hook](#postinstall-hook) (1)
+- [postinstall hook](#postinstall-hook) (2)
 - [Potato](#potato) (1)
 - [POWER.md](#powermd) (1)
 - [PowerCloud](#powercloud) (1)
@@ -4373,7 +4376,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RAT](#rat) (40)
 - [RatHat](#rathat) (1)
 - [raw packet](#raw-packet) (1)
-- [raw TCP](#raw-tcp) (1)
+- [raw TCP](#raw-tcp) (2)
 - [Ray](#ray) (2)
 - [RC4](#rc4) (5)
 - [RC4 C2](#rc4-c2) (1)
@@ -5170,7 +5173,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [superuser escalation](#superuser-escalation) (1)
 - [supply chain](#supply-chain) (28)
-- [supply chain attack](#supply-chain-attack) (18)
+- [supply chain attack](#supply-chain-attack) (19)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (152)
 - [supply-chain attack](#supply-chain-attack) (2)
@@ -5391,7 +5394,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (100)
+- [tools](#tools) (101)
 - [Tor](#tor) (5)
 - [torrent-compromise](#torrent-compromise) (1)
 - [Tortoiseshell](#tortoiseshell) (2)
@@ -5458,6 +5461,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [trusted-component weaponization](#trusted-component-weaponization) (1)
 - [trusted-domain abuse](#trusted-domain-abuse) (1)
 - [trusted-publishing](#trusted-publishing) (3)
+- [ts-3](#ts-3) (1)
 - [tunnel decapsulation](#tunnel-decapsulation) (1)
 - [tunnel services](#tunnel-services) (1)
 - [tunneling](#tunneling) (5)
@@ -5732,7 +5736,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vulnerability-research](#vulnerability-research) (1)
 - [vulnerable appliances](#vulnerable-appliances) (1)
 - [VXLAN](#vxlan) (1)
-- [w0rmsign](#w0rmsign) (1)
+- [w0rmsign](#w0rmsign) (2)
 - [w3wp.exe](#w3wpexe) (1)
 - [wallet address replacement](#wallet-address-replacement) (1)
 - [wallet address swapping](#wallet-address-swapping) (1)
@@ -5974,7 +5978,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zendesk](#zendesk) (1)
 - [Zephyr RTOS](#zephyr-rtos) (1)
 - [zereight](#zereight) (1)
-- [zero advisory](#zero-advisory) (1)
+- [zero advisory](#zero-advisory) (2)
 - [zero advisory coverage](#zero-advisory-coverage) (5)
 - [zero iocs](#zero-iocs) (1)
 - [Zero Trust](#zero-trust) (1)
@@ -6135,6 +6139,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## 7-Zip
 - [NeedyMantis](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
+
+## 8.152.163.60
+- [`apache-httpclient2/6/7/10` (npm): one host-profiling beacon baked into four squatted names](../tools/npm-apache-httpclient-squats-host-profiling-beacon-8-152-163-60-8058-november-2026.md)
 
 ## @gl_introduced
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
@@ -7114,6 +7121,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Anthropic Threat Intelligence report (September 2026)](../ops/anthropic-threat-intelligence-report-september-2026-ai-augmented-operations.md)
 
 ## Alibaba Cloud egress
+- [`apache-httpclient2/6/7/10` (npm): one host-profiling beacon baked into four squatted names](../tools/npm-apache-httpclient-squats-host-profiling-beacon-8-152-163-60-8058-november-2026.md)
 - [`string-utils-assistant` (npm), a two-year-old string helper with a raw-TCP reverse shell](../tools/string-utils-assistant-npm-two-year-old-name-raw-tcp-reverse-shell-47-251-102-182-w0rmsign-november-2026.md)
 
 ## Alibaba OSS
@@ -8543,6 +8551,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
 
+## brand squat
+- [`apache-httpclient2/6/7/10` (npm): one host-profiling beacon baked into four squatted names](../tools/npm-apache-httpclient-squats-host-profiling-beacon-8-152-163-60-8058-november-2026.md)
+
 ## brand-impersonation
 - [JWR phishing framework (likely The Outsider variant)](../ops/jwr-phaas-phishing-framework-outsider-variant.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
@@ -9061,6 +9072,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
 ## catch lane
+- [`apache-httpclient2/6/7/10` (npm): one host-profiling beacon baked into four squatted names](../tools/npm-apache-httpclient-squats-host-profiling-beacon-8-152-163-60-8058-november-2026.md)
 - [`string-utils-assistant` (npm), a two-year-old string helper with a raw-TCP reverse shell](../tools/string-utils-assistant-npm-two-year-old-name-raw-tcp-reverse-shell-47-251-102-182-w0rmsign-november-2026.md)
 
 ## Catcher
@@ -12883,6 +12895,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NullReceiver DPRK-linked npm blockchain-loader wave](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
 
 ## detached process
+- [`apache-httpclient2/6/7/10` (npm): one host-profiling beacon baked into four squatted names](../tools/npm-apache-httpclient-squats-host-profiling-beacon-8-152-163-60-8058-november-2026.md)
 - [`string-utils-assistant` (npm), a two-year-old string helper with a raw-TCP reverse shell](../tools/string-utils-assistant-npm-two-year-old-name-raw-tcp-reverse-shell-47-251-102-182-w0rmsign-november-2026.md)
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
 
@@ -16301,6 +16314,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Host header
 - [DeepSeek Harness CVE-2026-82533](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
+
+## host profiling
+- [`apache-httpclient2/6/7/10` (npm): one host-profiling beacon baked into four squatted names](../tools/npm-apache-httpclient-squats-host-profiling-beacon-8-152-163-60-8058-november-2026.md)
 
 ## Host Radar
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
@@ -20502,6 +20518,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [@zereight/mcp-gitlab CVE-2026-61560](../tools/zereight-mcp-gitlab-cve-2026-61560-unauthenticated-sse-pat-exfiltration-september-2026.md)
 - [`@veai-ru/ai-agent` (npm), a malicious-by-design terminal AI coding AGENT](../tools/veai-ru-ai-agent-npm-ai-coding-agent-session-exfil-prompt-injection-keycloak-oauth-yandex-delivery-october-2026.md)
+- [`apache-httpclient2/6/7/10` (npm): one host-profiling beacon baked into four squatted names](../tools/npm-apache-httpclient-squats-host-profiling-beacon-8-152-163-60-8058-november-2026.md)
 - [`passwordcracker` + `passwordcrackv2`](../tools/passwordcracker-passwordcrackv2-npm-url-pinned-git-tarball-windows-stager-limbomail-replit-october-2026.md)
 - [`react-dropzone-v4`](../tools/react-dropzone-v4-npm-typosquat-canarytokens-preinstall-hostname-beacon-bane1010-october-2026.md)
 - [`robdotty` npm six-name cohort, every published version is a one-line `require()` shim whose ONLY…](../tools/robdotty-flexmr-offregistry-url-deps-creditslib-npm-october-2026.md)
@@ -20918,6 +20935,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 
 ## old name
+- [`apache-httpclient2/6/7/10` (npm): one host-profiling beacon baked into four squatted names](../tools/npm-apache-httpclient-squats-host-profiling-beacon-8-152-163-60-8058-november-2026.md)
 - [`string-utils-assistant` (npm), a two-year-old string helper with a raw-TCP reverse shell](../tools/string-utils-assistant-npm-two-year-old-name-raw-tcp-reverse-shell-47-251-102-182-w0rmsign-november-2026.md)
 
 ## Ollama
@@ -23192,6 +23210,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## postinstall hook
+- [`apache-httpclient2/6/7/10` (npm): one host-profiling beacon baked into four squatted names](../tools/npm-apache-httpclient-squats-host-profiling-beacon-8-152-163-60-8058-november-2026.md)
 - [`string-utils-assistant` (npm), a two-year-old string helper with a raw-TCP reverse shell](../tools/string-utils-assistant-npm-two-year-old-name-raw-tcp-reverse-shell-47-251-102-182-w0rmsign-november-2026.md)
 
 ## Potato
@@ -24074,6 +24093,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
 
 ## raw TCP
+- [`apache-httpclient2/6/7/10` (npm): one host-profiling beacon baked into four squatted names](../tools/npm-apache-httpclient-squats-host-profiling-beacon-8-152-163-60-8058-november-2026.md)
 - [`string-utils-assistant` (npm), a two-year-old string helper with a raw-TCP reverse shell](../tools/string-utils-assistant-npm-two-year-old-name-raw-tcp-reverse-shell-47-251-102-182-w0rmsign-november-2026.md)
 
 ## Ray
@@ -27103,6 +27123,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## supply chain attack
 - [`@veai-ru/ai-agent` (npm), a malicious-by-design terminal AI coding AGENT](../tools/veai-ru-ai-agent-npm-ai-coding-agent-session-exfil-prompt-injection-keycloak-oauth-yandex-delivery-october-2026.md)
 - [`agentaix` + `media-manager5` (PyPI), the `2026-10-agentaix` two-name RAT pair](../tools/agentaix-media-manager5-pypi-rat-pythonanywhere-c2-kam193-october-2026.md)
+- [`apache-httpclient2/6/7/10` (npm): one host-profiling beacon baked into four squatted names](../tools/npm-apache-httpclient-squats-host-profiling-beacon-8-152-163-60-8058-november-2026.md)
 - [`ig-gox` (PyPI), a "Gox Secure Runtime Engine for Android Termux" that is really an import-time…](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 - [`marocolor` (PyPI), a color-palette costume that at IMPORT time spawns two daemon threads](../ops/marocolor-pypi-telegram-file-stealer-fork-bomb-dos-kam193-october-2026.md)
 - [`mrcl2suhail` (PyPI), a bare-socket reverse shell inside a document-integrity costume](../tools/mrcl2suhail-pypi-bare-socket-reverse-shell-pinggy-tunnel-november-2026.md)
@@ -28077,6 +28098,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@zereight/mcp-gitlab CVE-2026-61560](../tools/zereight-mcp-gitlab-cve-2026-61560-unauthenticated-sse-pat-exfiltration-september-2026.md)
 - [`@veai-ru/ai-agent` (npm), a malicious-by-design terminal AI coding AGENT](../tools/veai-ru-ai-agent-npm-ai-coding-agent-session-exfil-prompt-injection-keycloak-oauth-yandex-delivery-october-2026.md)
 - [`agentaix` + `media-manager5` (PyPI), the `2026-10-agentaix` two-name RAT pair](../tools/agentaix-media-manager5-pypi-rat-pythonanywhere-c2-kam193-october-2026.md)
+- [`apache-httpclient2/6/7/10` (npm): one host-profiling beacon baked into four squatted names](../tools/npm-apache-httpclient-squats-host-profiling-beacon-8-152-163-60-8058-november-2026.md)
 - [`ig-gox` (PyPI), a "Gox Secure Runtime Engine for Android Termux" that is really an import-time…](../tools/ig-gox-pypi-termux-license-gated-inmemory-exec-loader-goxtools-shop-october-2026.md)
 - [`mrcl2suhail` (PyPI), a bare-socket reverse shell inside a document-integrity costume](../tools/mrcl2suhail-pypi-bare-socket-reverse-shell-pinggy-tunnel-november-2026.md)
 - [`npp-ml` (PyPI), a "Notepad++ with ML" costume that SWAPPED ITS PAYLOAD TWICE IN FOUR DAYS and is…](../tools/npp-ml-pypi-notepadpp-costume-adexplorer-bundle-payload-swap-kam193-october-2026.md)
@@ -28406,6 +28428,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
 - [WPPConnect pipeline compromise: provenance proved the build, not the review](../ops/wppconnect-npm-release-pipeline-compromise-trusted-publisher-slsa-provenance-force-push-stepsecurity-november-2026.md)
+
+## ts-3
+- [`apache-httpclient2/6/7/10` (npm): one host-profiling beacon baked into four squatted names](../tools/npm-apache-httpclient-squats-host-profiling-beacon-8-152-163-60-8058-november-2026.md)
 
 ## tunnel decapsulation
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -29510,6 +29535,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
 ## w0rmsign
+- [`apache-httpclient2/6/7/10` (npm): one host-profiling beacon baked into four squatted names](../tools/npm-apache-httpclient-squats-host-profiling-beacon-8-152-163-60-8058-november-2026.md)
 - [`string-utils-assistant` (npm), a two-year-old string helper with a raw-TCP reverse shell](../tools/string-utils-assistant-npm-two-year-old-name-raw-tcp-reverse-shell-47-251-102-182-w0rmsign-november-2026.md)
 
 ## w3wp.exe
@@ -30489,6 +30515,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@zereight/mcp-gitlab CVE-2026-61560](../tools/zereight-mcp-gitlab-cve-2026-61560-unauthenticated-sse-pat-exfiltration-september-2026.md)
 
 ## zero advisory
+- [`apache-httpclient2/6/7/10` (npm): one host-profiling beacon baked into four squatted names](../tools/npm-apache-httpclient-squats-host-profiling-beacon-8-152-163-60-8058-november-2026.md)
 - [`string-utils-assistant` (npm), a two-year-old string helper with a raw-TCP reverse shell](../tools/string-utils-assistant-npm-two-year-old-name-raw-tcp-reverse-shell-47-251-102-182-w0rmsign-november-2026.md)
 
 ## zero advisory coverage
