@@ -40,6 +40,9 @@ Volexity's June 2026 incident-response writeup describes VerdantBamboo maintaini
 - Add appliance-specific persistence review for pfSense cron changes, Synology SSH enablement, modified vendor monitor scripts, unexpected binaries under service-user home directories, and outbound WebSocket / DNS-over-HTTPS traffic to non-vendor destinations.
 - For VMware estates, pair this actor profile with Mandiant's vSphere hardening guidance: restrict VAMI / SSH access, forward logs off-host, monitor local account creation and service enablement, and treat vCenter / ESXi logs as Tier-0 evidence.
 
+### November 2026: Armory Castle vCenter zero-day (CVE-2026-123890)
+- Google/Mandiant published `2026-11-20` that **Armory Castle** (GTIG's name, ex-UNC5221, also **Warp Panda**; same cluster lineage this profile carries) exploited a vCenter Directory Service authentication bypass (`CVE-2026-123890`, KEV same day, NVD `9.8`) from **early September 2026**, two months before Broadcom's Nov-19 fix, using the Golang utility **BONESAW** to steal the `data.mdb` LMDB, the SAML signing key, and mint Golden SAML admin sessions over TCP `2012`. See the dedicated [Armory Castle actor page](armory-castle.md) and the [KEV Nov-20 page](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md); the appliance-dwell tradecraft (EDR-free Linux staging, web shells, port-scanning `9080`/`5480`/`2012`) is the same operating pattern this profile documents.
+
 ## Related pages
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 

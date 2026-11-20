@@ -286,6 +286,7 @@ nav:
       - "NGINX HTTP/2 CVE-2026-123633 and CVE-2026-123007 unauth RCE (Nov 18)": ops/nginx-http2-cve-2026-123633-cve-2026-123007-unauth-rce-wiz-f5-november-2026.md
       - "CISA KEV Nov 18: LiteLLM, Apache Axis, REDCap, Synology": ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md
       - "phpAfterShell CVE-2026-126714 and six critical PHP RCE fixes (Nov 19)": ops/phpaftershell-php-cve-2026-126714-seven-critical-rce-wiz-depthfirst-november-2026.md
+      - "CISA KEV Nov 20: vCenter exploited by Armory Castle, Roller, SAP, Cisco": ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md
       - SleeperGem RubyGems maintainer-account compromise: ops/sleepergem-rubygems-maintainer-account-compromise.md
       - UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign: ops/uac-0145-clickfix-smartaxe-cowardduck.md
       - UTA0533 SonicWall SMA1000 zero-day compromise: ops/uta0533-sonicwall-sma1000-zero-day-compromise.md
@@ -684,6 +685,7 @@ nav:
       - OceanLotus: actors/oceanlotus.md
       - UAC-0226 / SHADOW-EARTH-066: actors/uac-0226-shadow-earth-066.md
       - VerdantBamboo: actors/verdantbamboo.md
+      - Armory Castle: actors/armory-castle.md
       - UNC3753: actors/unc3753.md
       - OP-512: actors/op-512.md
       - TA4922: actors/ta4922.md

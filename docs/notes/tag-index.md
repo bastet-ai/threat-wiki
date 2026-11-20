@@ -85,7 +85,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [active development](#active-development) (1)
 - [Active Directory](#active-directory) (5)
 - [Active Directory reconnaissance](#active-directory-reconnaissance) (1)
-- [active exploitation](#active-exploitation) (88)
+- [active exploitation](#active-exploitation) (89)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (3)
@@ -320,6 +320,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AOL Mail](#aol-mail) (1)
 - [Aone](#aone) (1)
 - [Apache Axis](#apache-axis) (1)
+- [Apache Roller](#apache-roller) (1)
 - [Apache Tomcat](#apache-tomcat) (1)
 - [Apache Zeppelin](#apache-zeppelin) (1)
 - [APC EarlyBird](#apc-earlybird) (1)
@@ -400,6 +401,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Armageddon](#armageddon) (1)
 - [ArmCorp](#armcorp) (1)
 - [Armored Likho](#armored-likho) (4)
+- [Armory Castle](#armory-castle) (1)
 - [arrayref](#arrayref) (1)
 - [arrest](#arrest) (1)
 - [Artem Dinaburg](#artem-dinaburg) (1)
@@ -448,7 +450,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Australia](#australia) (1)
 - [authenticated RCE](#authenticated-rce) (1)
 - [authenticated remote code execution](#authenticated-remote-code-execution) (1)
-- [authentication bypass](#authentication-bypass) (34)
+- [authentication bypass](#authentication-bypass) (35)
 - [authentication coercion](#authentication-coercion) (1)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
@@ -631,10 +633,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bluetooth LE](#bluetooth-le) (1)
 - [BOATBEAM](#boatbeam) (1)
 - [Boatnet](#boatnet) (1)
-- [BOD 26-04](#bod-26-04) (20)
+- [BOD 26-04](#bod-26-04) (21)
 - [body hash](#body-hash) (1)
 - [BOF](#bof) (1)
 - [Boleto](#boleto) (1)
+- [BONESAW](#bonesaw) (1)
 - [BookStack](#bookstack) (1)
 - [Boot Bus Extender](#boot-bus-extender) (1)
 - [Boot Time Removal Tool](#boot-time-removal-tool) (1)
@@ -875,10 +878,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD pipeline abuse](#cicd-pipeline-abuse) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
-- [CISA](#cisa) (24)
+- [CISA](#cisa) (25)
 - [CISA ADP](#cisa-adp) (2)
-- [CISA KEV](#cisa-kev) (57)
+- [CISA KEV](#cisa-kev) (58)
 - [Cisco](#cisco) (11)
+- [Cisco Expressway](#cisco-expressway) (1)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
 - [Cisco ISE](#cisco-ise) (1)
@@ -1285,6 +1289,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2025-40947](#cve-2025-40947) (1)
 - [CVE-2025-40948](#cve-2025-40948) (1)
 - [CVE-2025-40949](#cve-2025-40949) (1)
+- [CVE-2025-42884](#cve-2025-42884) (1)
 - [CVE-2025-48595](#cve-2025-48595) (1)
 - [CVE-2025-49113](#cve-2025-49113) (2)
 - [CVE-2025-49704](#cve-2025-49704) (1)
@@ -1310,9 +1315,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-11645](#cve-2026-11645) (1)
 - [CVE-2026-123007](#cve-2026-123007) (1)
 - [CVE-2026-123633](#cve-2026-123633) (1)
+- [CVE-2026-123890](#cve-2026-123890) (1)
 - [CVE-2026-12569](#cve-2026-12569) (1)
 - [CVE-2026-126714](#cve-2026-126714) (1)
 - [CVE-2026-129182](#cve-2026-129182) (1)
+- [CVE-2026-129448](#cve-2026-129448) (1)
 - [CVE-2026-129474](#cve-2026-129474) (1)
 - [CVE-2026-129481](#cve-2026-129481) (1)
 - [CVE-2026-129496](#cve-2026-129496) (1)
@@ -1526,6 +1533,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-75650](#cve-2026-75650) (2)
 - [CVE-2026-76460](#cve-2026-76460) (1)
 - [CVE-2026-76461](#cve-2026-76461) (1)
+- [CVE-2026-76466](#cve-2026-76466) (1)
 - [CVE-2026-76581](#cve-2026-76581) (1)
 - [CVE-2026-76639](#cve-2026-76639) (1)
 - [CVE-2026-76640](#cve-2026-76640) (1)
@@ -1609,7 +1617,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CWE-384](#cwe-384) (1)
 - [CWE-420](#cwe-420) (1)
 - [CWE-470](#cwe-470) (2)
-- [CWE-502](#cwe-502) (2)
+- [CWE-502](#cwe-502) (3)
 - [CWE-640](#cwe-640) (1)
 - [CWE-648](#cwe-648) (1)
 - [CWE-693](#cwe-693) (1)
@@ -1733,7 +1741,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [deployment_status](#deployment_status) (1)
 - [deposit address replacement](#deposit-address-replacement) (1)
 - [depthfirst](#depthfirst) (1)
-- [deserialization](#deserialization) (15)
+- [deserialization](#deserialization) (16)
 - [destructive actions](#destructive-actions) (1)
 - [destructive malware](#destructive-malware) (3)
 - [destructive operations](#destructive-operations) (3)
@@ -2478,6 +2486,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Golang malware](#golang-malware) (1)
 - [GOLD PRELUDE](#gold-prelude) (1)
 - [Golden Pass-ta-key](#golden-pass-ta-key) (1)
+- [Golden SAML](#golden-saml) (1)
 - [gomod](#gomod) (1)
 - [Goodhart's law](#goodharts-law) (1)
 - [Google](#google) (4)
@@ -2579,6 +2588,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HappyDoor](#happydoor) (1)
 - [HAProxy](#haproxy) (1)
 - [HAR files](#har-files) (1)
+- [hard-coded credentials](#hard-coded-credentials) (1)
 - [hard-coded password](#hard-coded-password) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
 - [HardBreacher](#hardbreacher) (1)
@@ -2921,6 +2931,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Jira](#jira) (2)
 - [Jiří Vinopal](#jiri-vinopal) (1)
 - [jli.dll](#jlidll) (1)
+- [JNDI injection](#jndi-injection) (1)
 - [job-lure](#job-lure) (1)
 - [job-offer phishing](#job-offer-phishing) (1)
 - [job-themed phishing](#job-themed-phishing) (1)
@@ -3861,7 +3872,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (360)
+- [operations](#operations) (361)
 - [operator lockout](#operator-lockout) (1)
 - [operator-continuity](#operator-continuity) (1)
 - [operator-linked shell](#operator-linked-shell) (2)
@@ -3869,7 +3880,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (472)
+- [ops](#ops) (473)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -4666,6 +4677,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sandworm](#sandworm) (3)
 - [Sangoma](#sangoma) (1)
 - [Sansec](#sansec) (2)
+- [SAP NetWeaver](#sap-netweaver) (1)
 - [Sapphire Sleet](#sapphire-sleet) (1)
 - [saroula01](#saroula01) (1)
 - [SBA phishing](#sba-phishing) (1)
@@ -5535,6 +5547,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC4221](#unc4221) (1)
 - [UNC4736](#unc4736) (1)
 - [UNC4899](#unc4899) (1)
+- [UNC5221](#unc5221) (1)
 - [UNC5669](#unc5669) (1)
 - [UNC5792](#unc5792) (1)
 - [UNC5976](#unc5976) (1)
@@ -5636,7 +5649,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VBScript](#vbscript) (7)
 - [VBScript launcher](#vbscript-launcher) (1)
 - [VBScript loader](#vbscript-loader) (1)
-- [vCenter](#vcenter) (2)
+- [vCenter](#vcenter) (3)
 - [veai.ru](#veairu) (1)
 - [vector databases](#vector-databases) (1)
 - [veeam](#veeam) (1)
@@ -5694,8 +5707,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vm2](#vm2) (1)
 - [vManage](#vmanage) (1)
 - [VMCI](#vmci) (1)
+- [vmdir](#vmdir) (1)
 - [VMSA-2026-0006](#vmsa-2026-0006) (1)
-- [VMware](#vmware) (4)
+- [VMware](#vmware) (5)
 - [VMware ESXi](#vmware-esxi) (2)
 - [VMXNET3](#vmxnet3) (1)
 - [VNC](#vnc) (2)
@@ -5720,7 +5734,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Vshell](#vshell) (1)
 - [VShell](#vshell) (1)
 - [VSIX](#vsix) (1)
-- [vSphere](#vsphere) (2)
+- [vSphere](#vsphere) (3)
 - [vSphere Foundation](#vsphere-foundation) (1)
 - [vssvc.exe](#vssvcexe) (1)
 - [VTL1](#vtl1) (1)
@@ -5749,6 +5763,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wallet-extension](#wallet-extension) (1)
 - [wallet-theft](#wallet-theft) (4)
 - [WAPF](#wapf) (1)
+- [Warp Panda](#warp-panda) (1)
 - [Wasabi](#wasabi) (3)
 - [wastewater](#wastewater) (1)
 - [watch_queue](#watch_queue) (1)
@@ -6319,6 +6334,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 27, 2026 additions](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
 - [CISA KEV September 10-11, 2026 additions](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 16, 2026 (second and third additions)](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
 - [CISA KEV September 18, 2026](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
@@ -7343,6 +7359,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Apache Axis
 - [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
 
+## Apache Roller
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
+
 ## Apache Tomcat
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 
@@ -7627,6 +7646,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia](../ops/armored-likho-still-toolkit-russia-campaign.md)
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
 
+## Armory Castle
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
+
 ## arrayref
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 
@@ -7789,6 +7811,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [CISA KEV August 27, 2026 additions](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
 - [CISA KEV September 10-11, 2026 additions](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 16, 2026 (second and third additions)](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
 - [CISA KEV September 2, 2026 additions](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
@@ -8476,6 +8499,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 26, 2026 additions](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV August 27, 2026 additions](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
 - [CISA KEV September 10-11, 2026 additions](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 16, 2026 (second and third additions)](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
 - [CISA KEV September 18, 2026](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
@@ -8500,6 +8524,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Boleto
 - [BREEZE COMET (GTIG)](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
+
+## BONESAW
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
 
 ## BookStack
 - [GitHub Security Advisories August 29, 2026](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
@@ -9503,6 +9530,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 27, 2026 additions](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
 - [CISA KEV September 10-11, 2026 additions](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 16, 2026 (second and third additions)](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
 - [CISA KEV September 18, 2026](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
@@ -9535,6 +9563,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 27, 2026 additions](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
 - [CISA KEV September 10-11, 2026 additions](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 16, 2026 (second and third additions)](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
 - [CISA KEV September 18, 2026](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
@@ -9594,6 +9623,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Secure FMC in-the-wild exploitation: three actor clusters on CVE-2026-20079 / CVE-2026-20316](../ops/talos-fmc-ongoing-exploitation-cve-2026-20079-cve-2026-20316-actor-clusters-september-2026.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
+
+## Cisco Expressway
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
 
 ## Cisco IOS
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
@@ -11317,6 +11349,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2025-40949
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 
+## CVE-2025-42884
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
+
 ## CVE-2025-48595
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 
@@ -11399,6 +11434,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-123633
 - [NGINX HTTP/2 CVE-2026-123633 and CVE-2026-123007 unauthenticated RCE](../ops/nginx-http2-cve-2026-123633-cve-2026-123007-unauth-rce-wiz-f5-november-2026.md)
 
+## CVE-2026-123890
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
+
 ## CVE-2026-12569
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 
@@ -11407,6 +11445,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-129182
 - [phpAfterShell CVE-2026-126714 and six critical PHP RCE fixes](../ops/phpaftershell-php-cve-2026-126714-seven-critical-rce-wiz-depthfirst-november-2026.md)
+
+## CVE-2026-129448
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
 
 ## CVE-2026-129474
 - [phpAfterShell CVE-2026-126714 and six critical PHP RCE fixes](../ops/phpaftershell-php-cve-2026-126714-seven-critical-rce-wiz-depthfirst-november-2026.md)
@@ -12077,6 +12118,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-76461
 - [Cisco Secure Email Gateway CVE-2026-76461](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 
+## CVE-2026-76466
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
+
 ## CVE-2026-76581
 - [WordPress batch](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 
@@ -12345,6 +12389,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PaperCut NG/MF zero-day](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
 
 ## CWE-502
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [Pimcore Studio](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 
@@ -12862,6 +12907,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [CISA KEV August 26, 2026 additions](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [httpx Ruby gem: Oj object-mode deserialization RCE (CVE-2026-129784)](../ops/httpx-ruby-gem-oj-object-mode-deserialization-rce-cve-2026-129784-jfrog-november-2026.md)
@@ -15699,6 +15745,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Golden Pass-ta-key
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 
+## Golden SAML
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
+
 ## gomod
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
 
@@ -16078,6 +16127,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## HAR files
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
+
+## hard-coded credentials
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
 
 ## hard-coded password
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
@@ -17419,6 +17471,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## jli.dll
 - [NeedyMantis](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
+
+## JNDI injection
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
 
 ## job-lure
 - [TraderTraitor / Jade Sleet](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
@@ -21219,6 +21274,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 27, 2026 additions](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
 - [CISA KEV September 10-11, 2026 additions](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 16, 2026 (second and third additions)](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
 - [CISA KEV September 18, 2026](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
@@ -21619,6 +21675,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 27, 2026 additions](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV November 18, 2026 (LiteLLM, Apache Axis, REDCap, Synology)](../ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md)
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
 - [CISA KEV September 10-11, 2026 additions](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 16, 2026 (second and third additions)](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
 - [CISA KEV September 18, 2026](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
@@ -25238,6 +25295,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Brevo supply-chain attack](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 - [StyleSmuggler (CVE-2026-75650)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 
+## SAP NetWeaver
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
+
 ## Sapphire Sleet
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 
@@ -28774,6 +28834,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## UNC4899
 - [TraderTraitor / Jade Sleet](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
+## UNC5221
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
+
 ## UNC5669
 - [BREEZE COMET (GTIG)](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 
@@ -29138,6 +29201,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## vCenter
 - [CISA KEV August 17-18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
 ## veai.ru
@@ -29334,11 +29398,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## VMCI
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
 
+## vmdir
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
+
 ## VMSA-2026-0006
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
 ## VMware
 - [CISA KEV August 17-18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
@@ -29439,6 +29507,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 
 ## vSphere
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
@@ -29585,6 +29654,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WAPF
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM…](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
+
+## Warp Panda
+- [CISA KEV November 20, 2026 (VMware vCenter, Apache Roller, SAP NetWeaver, Cisco Expressway)](../ops/cisa-kev-vmware-vcenter-apache-roller-sap-cisco-november-20-2026.md)
 
 ## Wasabi
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
