@@ -285,6 +285,7 @@ nav:
       - NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk: ops/nginx-cve-2026-42533-capture-clobbering-rce.md
       - "NGINX HTTP/2 CVE-2026-123633 and CVE-2026-123007 unauth RCE (Nov 18)": ops/nginx-http2-cve-2026-123633-cve-2026-123007-unauth-rce-wiz-f5-november-2026.md
       - "CISA KEV Nov 18: LiteLLM, Apache Axis, REDCap, Synology": ops/cisa-kev-litellm-axis-redcap-synology-november-18-2026.md
+      - "phpAfterShell CVE-2026-126714 and six critical PHP RCE fixes (Nov 19)": ops/phpaftershell-php-cve-2026-126714-seven-critical-rce-wiz-depthfirst-november-2026.md
       - SleeperGem RubyGems maintainer-account compromise: ops/sleepergem-rubygems-maintainer-account-compromise.md
       - UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign: ops/uac-0145-clickfix-smartaxe-cowardduck.md
       - UTA0533 SonicWall SMA1000 zero-day compromise: ops/uta0533-sonicwall-sma1000-zero-day-compromise.md
@@ -556,6 +557,8 @@ nav:
       - "AGENTAIX + MEDIA-MANAGER5 PyPI RAT pair": tools/agentaix-media-manager5-pypi-rat-pythonanywhere-c2-kam193-october-2026.md
       - "@VEAI-RU/AI-Agent npm COMPLETE SELF-BRANDED MALICIOUS AI CODING AGENT": tools/veai-ru-ai-agent-npm-ai-coding-agent-session-exfil-prompt-injection-keycloak-oauth-yandex-delivery-october-2026.md
       - "PYYI PyPI = THE PY2OPS OPERATOR MOVED NAMES": tools/pyyi-pypi-python2-companion-shell-py2ops-successor-shared-space-z-rails-october-2026.md
+      - "MRCL2SUHAIL PyPI bare-socket reverse shell to a pinggy free tunnel (Nov 20)": tools/mrcl2suhail-pypi-bare-socket-reverse-shell-pinggy-tunnel-november-2026.md
+      - "STRING-UTILS-ASSISTANT npm two-year-old string helper carries a raw-TCP command shell (Nov 20)": tools/string-utils-assistant-npm-two-year-old-name-raw-tcp-reverse-shell-47-251-102-182-w0rmsign-november-2026.md
       - "PASSWORDCRACKER + PASSWORDCRACKV2 npm BYTE-IDENTICAL TWIN Discord MFA libraries": tools/passwordcracker-passwordcrackv2-npm-url-pinned-git-tarball-windows-stager-limbomail-replit-october-2026.md
       - "PY2OPS PyPI operator-linked companion shell": tools/py2ops-pypi-operator-linked-repl-registration-panel-space-z-october-2026.md
       - "SHARPNES crates.io Telegram tdata + Chrome extension-settings stealer": tools/sharpnes-crates-io-telegram-tdata-chrome-extension-stealer-crows7781-glitch-october-2026.md
