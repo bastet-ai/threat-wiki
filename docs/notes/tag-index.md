@@ -256,7 +256,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [aikido](#aikido) (1)
 - [AIR](#air) (1)
 - [AISURU](#aisuru) (2)
-- [AiTM](#aitm) (6)
+- [AiTM](#aitm) (7)
 - [AitM](#aitm) (1)
 - [Ajax.NET Professional](#ajaxnet-professional) (1)
 - [AjaxPro](#ajaxpro) (1)
@@ -614,6 +614,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bleacher Report](#bleacher-report) (1)
 - [BlgCloud](#blgcloud) (1)
 - [blind prompt injection](#blind-prompt-injection) (1)
+- [Bling-Libra](#bling-libra) (1)
 - [blockchain](#blockchain) (2)
 - [blockchain C2](#blockchain-c2) (10)
 - [blockchain dead drop](#blockchain-dead-drop) (7)
@@ -692,7 +693,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser-based c2](#browser-based-c2) (1)
 - [browser-credential-theft](#browser-credential-theft) (1)
 - [browser-data-theft](#browser-data-theft) (1)
-- [browser-extension](#browser-extension) (1)
+- [browser-extension](#browser-extension) (2)
 - [browser-extensions](#browser-extensions) (2)
 - [Browser-in-the-middle](#browser-in-the-middle) (1)
 - [browser-resident malware](#browser-resident-malware) (3)
@@ -859,7 +860,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome extension abuse](#chrome-extension-abuse) (1)
 - [Chrome renderer sandbox](#chrome-renderer-sandbox) (1)
 - [Chrome Web Store](#chrome-web-store) (5)
+- [chrome-debugger](#chrome-debugger) (1)
+- [Chrome-DevTools-Protocol](#chrome-devtools-protocol) (1)
 - [Chrome-extension-storage](#chrome-extension-storage) (1)
+- [Chrome-Web-Store-bypass](#chrome-web-store-bypass) (1)
 - [chrome_settings_overrides](#chrome_settings_overrides) (1)
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (7)
@@ -876,6 +880,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD abuse](#cicd-abuse) (1)
 - [CI/CD credential theft](#cicd-credential-theft) (2)
 - [CI/CD pipeline abuse](#cicd-pipeline-abuse) (1)
+- [Cinder](#cinder) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
 - [CISA](#cisa) (25)
@@ -902,10 +907,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CJK variable names](#cjk-variable-names) (1)
 - [CKEditor file manager](#ckeditor-file-manager) (1)
 - [CL-CRI-1089](#cl-cri-1089) (1)
+- [CL-CRI-1116](#cl-cri-1116) (1)
 - [CL-CRI-1131](#cl-cri-1131) (1)
-- [CL-CRI-1147](#cl-cri-1147) (1)
+- [CL-CRI-1147](#cl-cri-1147) (2)
 - [CL-CRI-1163](#cl-cri-1163) (1)
 - [CL-CRI-1171](#cl-cri-1171) (1)
+- [CL-CRI-1182](#cl-cri-1182) (1)
+- [CL-CRI-1192](#cl-cri-1192) (1)
+- [CL-CRI-1264](#cl-cri-1264) (1)
+- [CL-CRI-1274](#cl-cri-1274) (1)
 - [CL-STA-1062](#cl-sta-1062) (3)
 - [CL-STA-1114](#cl-sta-1114) (4)
 - [Clash proxy](#clash-proxy) (1)
@@ -1026,6 +1036,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ColdFusion](#coldfusion) (1)
 - [collaboration platforms](#collaboration-platforms) (2)
 - [collaboration-tool phishing](#collaboration-tool-phishing) (2)
+- [Com-affiliated](#com-affiliated) (1)
 - [COM-hijacking](#com-hijacking) (1)
 - [ComfyUI](#comfyui) (1)
 - [command and control](#command-and-control) (6)
@@ -1910,6 +1921,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dual-use](#dual-use) (1)
 - [dual-use tooling](#dual-use-tooling) (1)
 - [duckdns](#duckdns) (1)
+- [Duo](#duo) (1)
 - [Durable Objects](#durable-objects) (1)
 - [Dutch Police](#dutch-police) (1)
 - [DWAgent](#dwagent) (1)
@@ -2129,7 +2141,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [extension supply-chain](#extension-supply-chain) (2)
 - [extension takeover](#extension-takeover) (1)
 - [external federation](#external-federation) (1)
-- [extortion](#extortion) (15)
+- [extortion](#extortion) (16)
 - [extortion-adjacent](#extortion-adjacent) (1)
 - [f2fe-s1](#f2fe-s1) (1)
 - [F5](#f5) (2)
@@ -2173,6 +2185,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [faketivism](#faketivism) (2)
 - [FakeUpdates](#fakeupdates) (1)
 - [FALCON](#falcon) (1)
+- [Falcon](#falcon) (1)
 - [Falcon Sensor](#falcon-sensor) (1)
 - [FallSpy](#fallspy) (1)
 - [false positive](#false-positive) (2)
@@ -2619,7 +2632,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HEIC](#heic) (2)
 - [HEIF](#heif) (2)
 - [HELIX](#helix) (1)
-- [Helix](#helix) (1)
+- [Helix](#helix) (2)
 - [HelloBackdoor](#hellobackdoor) (1)
 - [HelloCleaner](#hellocleaner) (1)
 - [HelloDoor](#hellodoor) (1)
@@ -2729,7 +2742,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IDE plugins](#ide-plugins) (1)
 - [IDE trust boundary](#ide-trust-boundary) (1)
 - [ide.cfm](#idecfm) (1)
-- [identity](#identity) (6)
+- [identity](#identity) (7)
 - [identity attack](#identity-attack) (1)
 - [identity attacks](#identity-attacks) (1)
 - [identity compromise](#identity-compromise) (2)
@@ -3008,7 +3021,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [keychain-theft](#keychain-theft) (1)
 - [Keycloak](#keycloak) (2)
 - [KeyHunter](#keyhunter) (1)
-- [keylogger](#keylogger) (6)
+- [keylogger](#keylogger) (7)
 - [keylogging](#keylogging) (5)
 - [keystroke capture](#keystroke-capture) (2)
 - [keyval.org](#keyvalorg) (1)
@@ -3395,7 +3408,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA bypass](#mfa-bypass) (11)
 - [MFA fatigue](#mfa-fatigue) (2)
 - [MFA persistence](#mfa-persistence) (1)
-- [MFA-bypass](#mfa-bypass) (1)
+- [MFA-bypass](#mfa-bypass) (2)
 - [MFT](#mft) (1)
 - [Miasma](#miasma) (12)
 - [miasma](#miasma) (1)
@@ -3435,6 +3448,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Threat Intelligence](#microsoft-threat-intelligence) (7)
 - [Microsoft typosquat](#microsoft-typosquat) (1)
 - [Microsoft Windows Hardware Compatibility Publisher](#microsoft-windows-hardware-compatibility-publisher) (1)
+- [Microsoft-365](#microsoft-365) (1)
 - [Microsoft-Foundry](#microsoft-foundry) (1)
 - [Microsoft-signed binary abuse](#microsoft-signed-binary-abuse) (1)
 - [MicrosoftSystem64](#microsoftsystem64) (1)
@@ -3816,7 +3830,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OmniStealer](#omnistealer) (1)
 - [Omnivore](#omnivore) (1)
 - [one-click](#one-click) (1)
-- [OneDrive](#onedrive) (3)
+- [OneDrive](#onedrive) (4)
 - [OneDrive access](#onedrive-access) (1)
 - [OneDrive C2](#onedrive-c2) (2)
 - [onion routing](#onion-routing) (1)
@@ -3872,7 +3886,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (361)
+- [operations](#operations) (362)
 - [operator lockout](#operator-lockout) (1)
 - [operator-continuity](#operator-continuity) (1)
 - [operator-linked shell](#operator-linked-shell) (2)
@@ -3880,7 +3894,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (473)
+- [ops](#ops) (474)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -3901,6 +3915,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Orkes](#orkes) (1)
 - [OS command injection](#os-command-injection) (3)
 - [OSCrypt](#oscrypt) (1)
+- [oskeysetup](#oskeysetup) (1)
 - [ossf malicious-packages](#ossf-malicious-packages) (6)
 - [Ossprey](#ossprey) (1)
 - [OSV](#osv) (8)
@@ -4109,7 +4124,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pinggy.io](#pinggyio) (1)
 - [PINHOLE](#pinhole) (1)
 - [PINK](#pink) (1)
-- [Pink](#pink) (1)
+- [Pink](#pink) (2)
 - [pino cover](#pino-cover) (1)
 - [pip source dependency](#pip-source-dependency) (1)
 - [Pipedream](#pipedream) (1)
@@ -4436,6 +4451,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [red team](#red-team) (2)
 - [red teaming](#red-teaming) (1)
 - [REDACT](#redact) (1)
+- [Redact](#redact) (1)
 - [RedAlert](#redalert) (1)
 - [RedC2](#redc2) (1)
 - [RedC2 4.0](#redc2-40) (1)
@@ -4822,6 +4838,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [session theft](#session-theft) (3)
 - [session token theft](#session-token-theft) (2)
 - [session-privilege-abuse](#session-privilege-abuse) (1)
+- [session-token-replay](#session-token-replay) (1)
 - [session-tokens](#session-tokens) (1)
 - [session-vault](#session-vault) (1)
 - [setuid](#setuid) (1)
@@ -4857,7 +4874,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shared_preload_libraries](#shared_preload_libraries) (1)
 - [SharedWorker](#sharedworker) (1)
 - [ShareFile](#sharefile) (1)
-- [SharePoint](#sharepoint) (8)
+- [SharePoint](#sharepoint) (9)
 - [SharePoint Server](#sharepoint-server) (2)
 - [SharkLoader](#sharkloader) (1)
 - [sharp](#sharp) (1)
@@ -4869,7 +4886,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ShieldBreak](#shieldbreak) (2)
 - [shieldcrash](#shieldcrash) (1)
 - [Shinobi](#shinobi) (1)
-- [ShinyHunters](#shinyhunters) (5)
+- [ShinyHunters](#shinyhunters) (6)
 - [ShinyHunters-adjacent](#shinyhunters-adjacent) (1)
 - [shipping lures](#shipping-lures) (1)
 - [Shodan](#shodan) (1)
@@ -4978,7 +4995,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [social abuse](#social-abuse) (1)
 - [social engineering](#social-engineering) (27)
 - [Social Security Administration](#social-security-administration) (1)
-- [social-engineering](#social-engineering) (3)
+- [social-engineering](#social-engineering) (4)
 - [Socket](#socket) (7)
 - [Socket Security](#socket-security) (3)
 - [Socket Security Research](#socket-security-research) (2)
@@ -5554,7 +5571,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC6240](#unc6240) (2)
 - [UNC6293](#unc6293) (1)
 - [UNC6508](#unc6508) (1)
-- [UNC6671](#unc6671) (1)
+- [UNC6671](#unc6671) (2)
 - [UNC6692](#unc6692) (2)
 - [UNC6780](#unc6780) (1)
 - [UNC7005](#unc7005) (1)
@@ -5695,7 +5712,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [virtualization targeting](#virtualization-targeting) (2)
 - [VirusTotal impersonation](#virustotal-impersonation) (1)
 - [VirusTotal sentiment abuse](#virustotal-sentiment-abuse) (1)
-- [vishing](#vishing) (10)
+- [vishing](#vishing) (11)
 - [Visual Studio](#visual-studio) (1)
 - [Visual Studio Code Remote SSH](#visual-studio-code-remote-ssh) (1)
 - [Vite](#vite) (1)
@@ -5721,6 +5738,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Volt Typhoon](#volt-typhoon) (1)
 - [VoLTE](#volte) (1)
 - [volume serial number](#volume-serial-number) (1)
+- [Vortex](#vortex) (1)
 - [VPN](#vpn) (9)
 - [VPN credentials](#vpn-credentials) (2)
 - [VPN gateway](#vpn-gateway) (1)
@@ -5804,6 +5822,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web-shells](#web-shells) (1)
 - [WebAssembly](#webassembly) (1)
 - [WebAuthn](#webauthn) (1)
+- [webcam-capture](#webcam-capture) (1)
 - [WebDAV](#webdav) (7)
 - [webhook-site](#webhook-site) (1)
 - [webhook.site](#webhooksite) (4)
@@ -7107,6 +7126,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft](../ops/microsoft-passkey-social-engineering-identity-cloud-compromise-september-9-2026.md)
 - [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## AitM
 - [NovaCookies](../ops/novacookies-docusign-aitm-phaas-m365-session-theft.md)
@@ -8418,6 +8438,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## blind prompt injection
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
 
+## Bling-Libra
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
+
 ## blockchain
 - [Cosmos EVM vesting-account balance overflow exploited across six chains](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
@@ -8771,6 +8794,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## browser-extension
 - [RubyGems "Wallet Guard" fleet, 48-gem single-account campaign](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## browser-extensions
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
@@ -9404,8 +9428,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
+## chrome-debugger
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
+
+## Chrome-DevTools-Protocol
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
+
 ## Chrome-extension-storage
 - [WeaselBiscuit](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
+
+## Chrome-Web-Store-bypass
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## chrome_settings_overrides
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
@@ -9512,6 +9545,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CI/CD pipeline abuse
 - [Unit 42: machine-speed agentic intrusion, 50+ ATT&CK techniques executed in under 10 hours](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
+
+## Cinder
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## CircleCI
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
@@ -9692,17 +9728,33 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CL-CRI-1089
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
+## CL-CRI-1116
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
+
 ## CL-CRI-1131
 - [Unit 42: CL-CRI-1131 / CL-CRI-1163, LLM-orchestrated Latin America intrusion campaigns with…](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
 ## CL-CRI-1147
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## CL-CRI-1163
 - [Unit 42: CL-CRI-1131 / CL-CRI-1163, LLM-orchestrated Latin America intrusion campaigns with…](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
 ## CL-CRI-1171
 - [Unit 42: CL-CRI-1171 "Untracked Nightmares", a pay-per-install marketplace behind…](../ops/unit42-clcri-1171-offerloader-ppi-marketplace-september-2026.md)
+
+## CL-CRI-1182
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
+
+## CL-CRI-1192
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
+
+## CL-CRI-1264
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
+
+## CL-CRI-1274
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## CL-STA-1062
 - [CL-STA-1062](../actors/cl-sta-1062.md)
@@ -10210,6 +10262,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## collaboration-tool phishing
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
+
+## Com-affiliated
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## COM-hijacking
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
@@ -13589,6 +13644,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## duckdns
 - [RustDuck](../tools/rustduck.md)
 
+## Duo
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
+
 ## Durable Objects
 - [Cloudflare Workers remote Spectre attack leaks co-tenant JWT](../ops/cloudflare-workers-spectre-co-located-jwt-leak.md)
 
@@ -14467,6 +14525,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
 - [UNC3753](../actors/unc3753.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## extortion-adjacent
 - [PhantomRaven](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
@@ -14615,6 +14674,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FALCON
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+
+## Falcon
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## Falcon Sensor
 - [FalconFlank](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
@@ -16232,6 +16294,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Helix
 - [Microsoft](../ops/microsoft-passkey-social-engineering-identity-cloud-compromise-september-9-2026.md)
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## HelloBackdoor
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
@@ -16612,6 +16675,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Keycloak CVE-2026-18963: unauthenticated password-reset account takeover](../tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md)
 - [ROADtools](../tools/roadtools.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## identity attack
 - [Spring Ring](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
@@ -17748,6 +17812,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 - [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with…](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
 - [TELEPUZ](../tools/telepuz.md)
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## keylogging
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
@@ -19344,6 +19409,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MFA-bypass
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## MFT
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
@@ -19537,6 +19603,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Microsoft Windows Hardware Compatibility Publisher
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
+
+## Microsoft-365
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## Microsoft-Foundry
 - [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
@@ -21020,6 +21089,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OneDrive
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 - [Webworm](../actors/webworm.md)
 
 ## OneDrive access
@@ -21540,6 +21610,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 - [Unit 42: CL-CRI-1131 / CL-CRI-1163, LLM-orchestrated Latin America intrusion campaigns with…](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 - [Unit 42: CL-CRI-1171 "Untracked Nightmares", a pay-per-install marketplace behind…](../ops/unit42-clcri-1171-offerloader-ppi-marketplace-september-2026.md)
 - [Unit 42: machine-speed agentic intrusion, 50+ ATT&CK techniques executed in under 10 hours](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
@@ -22028,6 +22099,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 - [Unit 42: CL-CRI-1131 / CL-CRI-1163, LLM-orchestrated Latin America intrusion campaigns with…](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 - [Unit 42: CL-CRI-1171 "Untracked Nightmares", a pay-per-install marketplace behind…](../ops/unit42-clcri-1171-offerloader-ppi-marketplace-september-2026.md)
 - [Unit 42: machine-speed agentic intrusion, 50+ ATT&CK techniques executed in under 10 hours](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
@@ -22134,6 +22206,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OSCrypt
 - [KREMLIN (REF9334)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
+
+## oskeysetup
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## ossf malicious-packages
 - [`@veai-ru/ai-agent` (npm), a malicious-by-design terminal AI coding AGENT](../tools/veai-ru-ai-agent-npm-ai-coding-agent-session-exfil-prompt-injection-keycloak-oauth-yandex-delivery-october-2026.md)
@@ -23021,6 +23096,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Pink
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## pino cover
 - [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
@@ -24336,6 +24412,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## REDACT
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+
+## Redact
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## RedAlert
 - [Toy Ghouls](../actors/toy-ghouls.md)
@@ -25821,6 +25900,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## session-privilege-abuse
 - [WordPress "Click2Shell"](../ops/wordpress-click2shell-forced-theme-install-dom-selection-csrf-chainable-rce-pwnai-september-2026.md)
 
+## session-token-replay
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
+
 ## session-tokens
 - [WPPConnect pipeline compromise: provenance proved the build, not the review](../ops/wppconnect-npm-release-pipeline-compromise-trusted-publisher-slsa-provenance-force-push-stepsecurity-november-2026.md)
 
@@ -25960,6 +26042,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## SharePoint Server
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
@@ -26004,6 +26087,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft](../ops/microsoft-passkey-social-engineering-identity-cloud-compromise-september-9-2026.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [ShinyHunters](../actors/shinyhunters.md)
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## ShinyHunters-adjacent
 - [City Forum: single-IP Salesforce and ServiceNow guest-access scraping](../ops/city-forum-salesforce-servicenow-guest-access-scraping.md)
@@ -26388,6 +26472,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [TraderTraitor / Jade Sleet](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## Socket
 - ["Superior"](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
@@ -28858,6 +28943,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## UNC6671
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## UNC6692
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
@@ -29364,6 +29450,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Spring Ring](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 - [UNC3753](../actors/unc3753.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## Visual Studio
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
@@ -29449,6 +29536,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## volume serial number
 - [MIXEDKEY](../tools/mixedkey.md)
+
+## Vortex
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## VPN
 - [Berlin state network compromise](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
@@ -29817,6 +29907,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WebAuthn
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
+
+## webcam-capture
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder, fake Chrome extension](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## WebDAV
 - [ACR Stealer](../tools/acr-stealer.md)

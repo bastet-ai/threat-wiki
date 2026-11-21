@@ -44,6 +44,11 @@ This page is intentionally narrow: it records durable, sourced operational facts
 - **McKesson (August disclosure, Sep 10-19 scope updates):** ShinyHunters claimed theft from the medical-supply giant (claims of up to **284 million patient records**); McKesson confirmed a **third-party-application-mediated** cyberattack, and The Register / HIPAA Journal reported **6.4 million unique email addresses** in exposed data as of Sep 19, the SaaS/third-party-app OAuth abuse lane already documented on this page, now with healthcare-scale victim numbers.
 - Keep sourcing narrow per page policy: FLHSMV has not named ShinyHunters; the FBI-account entry claim is a single one-party account; the McKesson record counts are attacker-claimed pending company validation.
 
+### November 2026: Unit 42 consolidates the Com-affiliated vishing extortion wave under the ShinyHunters name
+- Unit 42's November 20 "Dialing for Data" report lists **Bling Libra (aka ShinyHunters)** as the named actor atop a Com-affiliated vishing-extortion economy of six activity clusters (CL-CRI-1116 Redact/formerly BlackFile, CL-CRI-1147 Pink, CL-CRI-1182 Falcon, CL-CRI-1192 Helix, and two NEW: CL-CRI-1264 Vortex, CL-CRI-1274 Cinder), with Vortex/Cinder overlapping Google's UNC6671 tracking.
+- New tradecraft tells this wiki carries forward: Vortex's minute-scale unauthorized MFA-device enrollment reusing one device named **Pixel 10a** across accounts; Cinder's **Duo bypass via replayed persistent "keep me signed in" session token** from proxy infrastructure; and a sideloaded **fake "Google Chrome" extension** (keylogger, cookie/IndexedDB theft, QR-code MFA-token harvesting, webcam, Chrome-DevTools-Protocol remote control) served from **oskeysetup[.]com**, a host already on this wiki's September passkey-theme census.
+- Full detail on the dedicated page; the elder-cluster baseline stays on the BlackFile/UNC6671 page.
+
 ## Defender focus
 - Treat ShinyHunters / UNC6240 reporting as extortion-driven intrusion activity, not just credential resale or leak-site branding.
 - For Salesforce and adjacent SaaS environments, inventory connected apps, review OAuth scopes, revoke stale or unneeded integrations, monitor API-heavy connected-app behavior, and validate Experience Cloud guest-user permissions.
@@ -54,6 +59,7 @@ This page is intentionally narrow: it records durable, sourced operational facts
 - [ShinyHunters Salesforce OAuth abuse](../ops/shinyhunters-salesforce-oauth-abuse.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Unit 42 Com vishing extortion waves: Bling Libra, Vortex, Cinder](../ops/unit42-com-affiliate-vishing-extortion-bling-libra-vortex-cinder-november-2026.md)
 
 ## Sources
 - Microsoft Security Blog: [https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/](https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/)
@@ -62,3 +68,4 @@ This page is intentionally narrow: it records durable, sourced operational facts
 - TechCrunch, "Hackers publish thousands of drivers' data after breaching Florida motor vehicle database" (Sep 16, 2026): [https://techcrunch.com/2026/09/16/hackers-publish-thousands-of-drivers-data-after-breaching-florida-motor-vehicle-database/](https://techcrunch.com/2026/09/16/hackers-publish-thousands-of-drivers-data-after-breaching-florida-motor-vehicle-database/)
 - SOFX, "Hackers Dump Florida Driver Records Stolen Through a Police Login" (Sep 17, 2026, summarizes FLHSMV statement + BleepingComputer ShinyHunters claims): [https://www.sofx.com/hackers-dump-florida-driver-records-stolen-through-a-police-login/](https://www.sofx.com/hackers-dump-florida-driver-records-stolen-through-a-police-login/)
 - The Register, "ShinyHunters expose 6.4M in attack on medical supplier McKesson" (Sep 10, 2026, headline confirmed via Google News aggregation, article URL not independently verified). Scope update: The HIPAA Journal, "McKesson Cyberattack: Stolen Data Includes 6.4 Million Unique Email Addresses" (Sep 19, 2026, also via Google News aggregation).
+- Unit 42 (Nov 20, 2026): [https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/](https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/)
